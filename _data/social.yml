@@ -206,14 +206,3 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
-orcid:
-    name: ORCID
-    icon: icon-link
-    prepend: "https://orcid.org/"
-google-scholar: 
-    name: Google Scholar
-    icon: icon-book
-    prepend: "https://scholar.google.com/citations?user="
-faculty-site:
-    name: Faculty
-    icon: icon-library

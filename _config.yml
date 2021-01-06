@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://keiran-rowell.github.io
+# url:                   https://username.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               ''
+# baseurl:               '/hydejack-starter-kit'
 
 
 # General settings
@@ -20,7 +20,7 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Keiran Rowell
+title:                 Hydejack
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:             Computational Scientist | Educator   
+tagline:               Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,40 +37,37 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/rowell_avatar.png
+logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <Keiran> <Rowell>
-  email:               <keiran.rowell@gmail.com>
+  name:                <firstname> <lastname>
+  email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
-  #Picture to be displayed
-  picture:              /assets/img/rowell_avatar.png
+  # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
+  - title:             Example
+    url:               /example/
+  - title:             Documentation
+    url:               /docs/
   - title:             About
     url:               /about/
-  - title:             Projects
-    url:               /projects/
-  - title:             Résumé/CV
-    url:               /resume/
-  - title:             Teaching
-    url:               /teaching/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-#legal:
-#  - title:             LICENSE
-#    url:               /LICENSE/
-#  - title:             NOTICE
-#    url:               /NOTICE/
-#  - title:             CHANGELOG
-#    url:               /CHANGELOG/
+legal:
+  - title:             LICENSE
+    url:               /LICENSE/
+  - title:             NOTICE
+    url:               /NOTICE/
+  - title:             CHANGELOG
+    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-#copyright:             © 2020.i Keiran Rowell All rights reserved.
+copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -100,8 +97,8 @@ collections:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -179,7 +176,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
+  math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
@@ -329,7 +326,6 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
-#  - jekyll-avatar
 
 
 # SEO Tag
@@ -345,8 +341,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-#twitter:
-#   username:            keiranrowell
+# twitter:
+#   username:            <username>
 
 # Used for facebook open graph
 # facebook:
@@ -355,11 +351,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-#social:
-#   name:                <Keiran> <Rowell>
+# social:
+#   name:                <firstname> <lastname>
 #   links:
-#     - https://twitter.com/keiranrowell
-#     - https://github.com/keiran-rowell
+#     - https://twitter.com/<username>
+#     - https://github.com/<username>
 
 
 # Plugin Configs
