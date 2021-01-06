@@ -1,0 +1,16 @@
+current directory: /home/keiran/code/github-pages/hydejack-starter-kit/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/home/keiran/.rbenv/versions/2.7.2/bin/ruby -I /home/keiran/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210106-30493-1xxrb9v.rb extconf.rb
+creating Makefile
+
+current directory: /home/keiran/code/github-pages/hydejack-starter-kit/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /home/keiran/code/github-pages/hydejack-starter-kit/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/keiran/code/github-pages/hydejack-starter-kit/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20210106-30493-14ypgsd
