@@ -8,7 +8,8 @@ keiran:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             >
-    Hi I'm Keiran. Details here 
+    I am a computational chemist and instructor, working as postdoctoral researcher at the University of Sydney. I work on the theory and calculation of photochemical reactions and dynamics for carbonyl (C=O) containing molecules, working closesly with exprimental colleagues at UNSW. I've always been fascinated about how to model the mechanisms of the natural world, and enthusiastic about the capabilities of computation and tech to provide exquisite mechanistic insight. I'm applications driven -- with published work using excited state quantum chemical method, molecular dynamics modelling of DNA, and coursework in bioinformatics. I'd love to combine my skills into multiscale modelling approaches to captivating research areas like photobiology and DNA photodamage.  
+    
     
   # This photo will be used in the about section
   #  picture:
