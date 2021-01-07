@@ -7,7 +7,7 @@ The photochemistry of diverse small carbonyls can be used to predict the behavio
 {:.figcaption}
 
 My PhD research developed chemical relationships between the molecular structure of a carbonyl and how it reacts following UV light absorption. Carbonyls are central to the atmosphere, they are one of the few atmospheric molecules that absorb UV, the radicals they create from UV photolysis drive chemical cycles, and the C=O functional group is fomred abundantly when carbon-containing molecules oxidise in the atmosphere. Atmospheric chemistry models manage the simulation of thousands of
-atmospheric molecules by using structure-activity relationships (SARs), but for carbonyl UV photolysis data are only available for roughly a dozen molecules and so cruder "surrogate" approximations are employed.
+atmospheric molecules by using structure-activity relationships (SARs), but no SARs had been developed for carbonyl photolysis. Instead, cruder "surrogate" approximations are employed based upon experimental data for roughly a dozen molecules. 
 
 My PhD thesis developed SARs from comprehensive reaction threshold calculations on 38 representative carbonyls, across all relevant electronic states. [My thesis](http://handle.unsw.edu.au/1959.4/65036) is currently the most complete overview of these carbonyl photolysis SARs. The dominant Norrish Type I photolysis reaction is covered in a [paper in JPCA](https://pubs.acs.org/doi/10.1021/acs.jpca.9b05534), and you can find preprints of studying other reactions and protocols [on ChemRxiv](https://chemrxiv.org/authors/Keiran_Rowell/9320888)
 
