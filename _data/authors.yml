@@ -8,7 +8,7 @@ keiran:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             >
-I am a computational chemist and instructor, working as postdoctoral researcher at the University of Sydney. I undertake research into the theory and calculation of photochemical reactions and dynamics for carbonyl (C=O) containing molecules, collaborating closely with exprimental colleagues at UNSW.
+    I am a computational chemist and instructor, working as postdoctoral researcher at the University of Sydney. I undertake research into the theory and calculation of photochemical reactions and dynamics for carbonyl (C=O) containing molecules, collaborating closely with exprimental colleagues at UNSW.
   # This photo will be used in the about section
   #  picture:
   #  path:            https://placehold.it/128x128
