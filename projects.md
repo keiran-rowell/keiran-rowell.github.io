@@ -4,7 +4,7 @@ Here are my scientific interests and research projects
 ## Structure-activity Relationships for Carbonyl Photolysis -- (PhD)
 ![Structure-activity relationships for carbonyls](/images/SARs_for_carbonyls.png)
 
-The photochemistry of structurally diverse small carbonyls can be used to predict the behaviour of atmospherically important molecules. 
+The photochemistry of diverse small carbonyls can be used to predict the behaviour of atmospherically important molecules. 
 {:.figcaption}
 
 
