@@ -1,3 +1,5 @@
+#Teaching
+
 ## Philosophy 
 I'm passionate about education, access to information, and its power for social progress.  I am very excited about the potential of digital technologies in teaching. My research specialisation is in physical chemistry, and I have taught diverse science subjects at all university and highschool levels. I take pride in incisivie and insightful teaching, encouragning students towards initiutive chemical understanding and rigorous scientific reasoning. Student assesment forms and feedback demonstrate their engagment and appreciation for my lessons, and once they comprehend a productive model they can reinforce their confidence in seeing how experiment and data fit with theory, rather than rote learning disjointed facts. 
 
