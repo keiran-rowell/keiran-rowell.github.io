@@ -15,5 +15,7 @@ I have 5+ years working in Linux and high performance computing environments, wr
 
 Much of the extant computational chemsitry codes are built on Fortran, and I have working familarity compiling and modifying Fortran codebases. A plethora of file formats and data-structures proliferate in computational chemistry, so I regularly need to write parsing, data extraction, and translation scripts. I studied undegraduate computer science and bioinformatics courses, in which I wrote C code for foundational data-structure and algorithm implementations, as well as sequence alignment and biological analysis code. 
 
-I managed a small compute cluster used by experimental collaborators, and organised migration of research code to a group GitHub Enterprise repository. I am a strong believer in open-source software and try and adopt FOSS tools such as matplotlib, inkscape, GIMP, and latex for document and figure preparation. Vim is my main editor for its expressive efficiency, particularly for the file munging required to process computational chemistry calculations. 
+I managed a small compute cluster used by experimental collaborators, and organised migration of research code to a group GitHub Enterprise repository. I am a strong believer in open-source software and try and adopt FOSS tools such as matplotlib, inkscape, GIMP, and latex for document and figure preparation. Vim is my main editor for its expressive efficiency, particularly for the file munging required to process computational chemistry calculations.
+
+During my PhD I regularly attend UNSW's Research Technology training courses (Julia, HPC, Seaborn, ...) and 'Hacky Hour' presentations on contemporary developments in research and high performance computing. 
 
