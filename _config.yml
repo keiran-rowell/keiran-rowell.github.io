@@ -97,7 +97,7 @@ collections:
 
 # Theme
 # ---------------------------------------------------------------------------------------
-heme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 #remote_theme: hydecorp/hydejack
 
 
