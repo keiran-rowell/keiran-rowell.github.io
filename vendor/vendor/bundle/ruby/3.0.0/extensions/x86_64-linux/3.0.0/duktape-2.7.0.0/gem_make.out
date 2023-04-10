@@ -1,0 +1,17 @@
+current directory: /home/keiran/code/hydejack-starter-kit/vendor/bundle/ruby/3.0.0/gems/duktape-2.7.0.0/ext/duktape
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230410-884-k7l5zt.rb extconf.rb
+checking for rb_sym2str()... yes
+creating Makefile
+
+current directory: /home/keiran/code/hydejack-starter-kit/vendor/bundle/ruby/3.0.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= clean
+
+current directory: /home/keiran/code/hydejack-starter-kit/vendor/bundle/ruby/3.0.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\=
+compiling duktape.c
+compiling duktape_ext.c
+linking shared-object duktape_ext.so
+
+current directory: /home/keiran/code/hydejack-starter-kit/vendor/bundle/ruby/3.0.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 duktape_ext.so ./.gem.20230410-884-sbgvvf
