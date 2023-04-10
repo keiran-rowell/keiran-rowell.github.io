@@ -1,7 +1,11 @@
 # Curriculum Vitae
+---
+title: "Dr Keiran Rowell CV"
+description:  The Curriculum Vitae of Keiran Rowell
+date: 2023-04-10
+layout: pdf
+categories: resume
+permalink: resume.md
+---
 
-<object data="{{ post./home/keiran/code/keiran-rowell.github.io/Rowell_CV.pdf }}" width="1000px" height="2100px">
-
-Please find my general CV above. If it's not rendering, please use a web browser on PC. 
-
-You can also read about my employment and contact me on <link href="https://www.linkedin.com/in/keiran-rowell-3176996a/" title="my LinkedIn">
+<iframe src="https://drive.google.com/file/d/1ljLRbf2PNKA9oRZhTCrCgt-UgXeyI00b/preview" width="100%" height="100%"></iframe>
