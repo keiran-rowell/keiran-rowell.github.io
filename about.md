@@ -12,7 +12,7 @@ I'm a computational scientist, interested in all things occuring on the molecula
 
 I've bumbled around Australian universities, attempting to extract meaning from simulated data. My PhD was in photochemistry; trying to work out the rules that cause bond-breaking in atmospheric molecules -- whereas my Honours was in molecular dynamics, simulating how drugs bind into the DNA double-helix. I love teaching, and was glad to be recognised with a 'Rising Star' award by UNSW Science. I worked at Matrix Education for a long while, inspiring the next generation to think analytically. 
 
-When not working, I'm likely to be getting my frustration out through swords, at a gig, or sitting with a pot of tea and a good book. 
+When not working, I'm likely to be exercising my frustration out through swords, at a gig, or sitting with a pot of tea and a good book. 
 
 
 ## Scientific Interests
