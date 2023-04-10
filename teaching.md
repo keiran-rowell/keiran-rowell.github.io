@@ -18,5 +18,5 @@ I received the UNSW Rising Star Award (PhD Casual Teachers) for my resources and
 
 My notebooks were incorporated into the redesigned CHEM3011 'Quantum Nature of Molecules' course at UNSW in collaboration with Drs Junming Ho and Laura McKemmish. I demonstrated this redesigned CHEM3011 course in 2019 and 2020, and course satisfaction rose dramatically from 65% to 94%. The use of Jupyter notebooks and other digitial learning environments were crucially important for remote teaching of CHEM3011 during the COVID-19 pandemic.
 
-## High school Teaching
+## High School Teaching
 I worked as a causal science teacher at [Matrix Education](https://www.matrix.edu.au/) throughout my PhD. I taught mainly Chemistry (Y11 & Y12) and Junior Science (Y9 & Y10) and achieved consistently high ratings from students, with a 4.7/5 student experience questionnaire 2-year average rating across all classes. I have also tutored privately and through companies ever since leaving high school.  I've been involved in several high school outreach events, including [SciX@UNSW](https://www.science.unsw.edu.au/engagement/scixunsw-science-extension-program/using-approximate-spectroscopy-find-indicators-life-other-planets) science extension and other high school visits.
