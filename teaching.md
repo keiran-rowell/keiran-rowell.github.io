@@ -8,7 +8,7 @@ I was thrilled to be part of the inaugural cohort of [UNSW Chemistry Teaching Fe
 
 
 ## Jupyter Notebooks for Physical Chemistry -- Rising Star Award (PhD Causal Teachers)
-The capacity for tech to improve how the physical sciences are taught is enormous, and I elected to develop 3rd year physical chemistry resources as part of my Teaching Fellowship. Physical and computational chemistry are increasingly reliant on programming,  algorithms, and data analysis and I wanted to develop an accessible entry point to those skills for chemistry students who have varied (or no) background in computer science. 
+The capacity for tech to improve how the physical sciences are taught is enormous, and I chose to develop 3rd year physical chemistry resources as part of my Teaching Fellowship. Physical and computational chemistry are increasingly reliant on programming,  algorithms, and data analysis and I wanted to develop an accessible entry point to those skills for chemistry students who have varied (or no) background in computer science. 
 
 For this I turned to Python, using chemistry-specific examples to apply code in context familiar to sutdents, and Jupyter notebooks to avoid any technical hassle in providing a consistent environment. I deployed a cloud-hosted JupyterHub to demonstrate this in a general audience pitch video, click the image below to watch. 
 
