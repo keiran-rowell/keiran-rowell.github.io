@@ -7,15 +7,22 @@ image:
 
 <!--author-->
 
+## Summary
+I'm a computational scientist, interested in all things occuring on the molecular scale. 
+
+I've bumbled around Australian universities, attempting to extract meaning from simulated data. My PhD was in photochemistry; trying to work out the rules that cause bond-breaking in atmospheric molecules -- whereas my Honours was in molecular dynamics, simulating how drugs bind into the DNA double-helix. I love teaching, and was glad to be recognised with a 'Rising Star' award by UNSW Science. I worked at Matrix Education for a long while, inspiring the next generation to think analytically. 
+
+When not working, I'm likely to be getting my frustration out through swords, at a gig, or sitting with a pot of tea and a good book. 
+
+
 ## Scientific Interests
-I'm fascinated by the mechanisms of the natural world, and enthusiastic about the capabilities of computation and tech to provide exquisite mechanistic insight. I'm applications driven -- with published work using excited state quantum chemical methods, molecular dynamics modelling of DNA, as well as coursework in bioinformatics. I'd love to combine my skills into multiscale modelling approaches to captivating research topics such as: photobiology, excited state dynamics, enzyme catalysis, and DNA photodamage.
+I'm fascinated by the mechanisms of the natural world, and enthusiastic about how compute power provides the capability for exquisite mechanistic insight. I'm applications driven -- with published work using excited state quantum chemical methods, molecular dynamics modelling of DNA, as well as coursework and employment in bioinformatics. I'd love to combine my skills and apply them to use multiscale modelling approaches on research topics such as: photobiology, structural biology, enzyme catalysis, and DNA photodamage.
 
-## Computational Interests
-I have 5+ years working in Linux and high performance computing environments, writing shell scripts and commands to automate my calculations, data management and analysis. For larger scripts and code Python is my go-to language, and also my choice for student instruction due to its acessiblity. 
+## Computational Skillset
+I have worked within Linux and high performance computing environments for 5+ years, writing shell scripts to automate my calculations, data management and analysis. For larger scripts and code, Python is my go-to language, and also my choice for student instruction due to its acessiblity. 
 
-Much of the extant computational chemsitry codes are built on Fortran, and I have working familarity compiling and modifying Fortran codebases. A plethora of file formats and data-structures proliferate in computational chemistry, so I regularly need to write parsing, data extraction, and translation scripts. I studied undegraduate computer science and bioinformatics courses, in which I wrote C code for foundational data-structure and algorithm implementations, as well as sequence alignment and biological analysis code. 
+Much of the extant computational chemsitry codes are built on Fortran, and I have working familiarity compiling and modifying Fortran codebases. A plethora of file formats and data structures proliferate in computational chemistry, so I regularly had the need to write parsing, data extraction, and translation scripts. I studied some undegraduate computer science and bioinformatics courses, in which I wrote C code to implement foundational data structures and algorithms, as well as perform sequence alignment and biological analysis. 
 
-I managed a small compute cluster used by experimental collaborators, and organised migration of research code to a group GitHub Enterprise repository. I am a strong believer in open-source software and try and adopt FOSS tools such as matplotlib, inkscape, GIMP, and latex for document and figure preparation. Vim is my main editor for its expressive efficiency, particularly for the file munging required to process computational chemistry calculations.
+I managed a small compute server used by experimental collaborators, and organised migration of research code to a group GitHub Enterprise repository. I am a strong believer in open-source software and try to adopt FOSS tools such as matplotlib, Inkscape, GIMP, and LaTeX for document and figure preparation. Vim is my main text editor for its expressive efficiency, particularly for the file munging required to process the output of scientific software.  
 
-During my PhD I regularly attend UNSW's Research Technology training courses (Julia, HPC, Seaborn, ...) and 'Hacky Hour' presentations on contemporary developments in research and high performance computing. 
-
+I've worked with UNSW's Research Technology Services group and regularly attended their training courses (Julia, HPC, Seaborn, ...), and 'Hacky Hour' presentations on contemporary developments in research and high performance computing. 
