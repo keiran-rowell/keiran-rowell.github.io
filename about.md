@@ -6,7 +6,11 @@ image:
 # About
 
 ## Summary
-<!--author-->
+I'm a computational scientist, interested in all things occuring on the molecular scale. 
+
+I've bumbled around Australian universities, attempting to extract meaning from calculated data. My PhD was in photochemistry; trying to work out the rules that cause bond-breaking in atmospheric molecules -- whereas my Honours was in molecular dynamics, simulating how drugs bind into the DNA double-helix. I love teaching, and was glad to be recognised with a 'Rising Star' award by UNSW Science. I worked at Matrix Education for a long while, inspiring the next generation to think analytically. 
+
+When not working, I'm likely to be exercising my frustration out through swords, at a gig, or sitting with a pot of tea and a good book.
 
 ## Scientific Interests
 I'm fascinated by the mechanisms of the natural world, and enthusiastic about how compute power provides the capability for exquisite mechanistic insight. I'm applications driven -- with published work using excited state quantum chemical methods, molecular dynamics modelling of DNA, as well as coursework and employment in bioinformatics. I'd love to combine my skills and apply them to use multiscale modelling approaches on research topics such as: photobiology, structural biology, enzyme catalysis, and DNA photodamage.
