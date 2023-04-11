@@ -2,6 +2,6 @@
 layout: list
 title: Posts
 description: >
-  All posts in the blog.
+  Posts, trying to be informative if not always correct.
 grouped: true
 ---
