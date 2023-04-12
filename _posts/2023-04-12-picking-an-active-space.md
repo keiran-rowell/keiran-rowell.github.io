@@ -23,29 +23,29 @@ Selection of orbitals to include in the active space is more easily done if natu
 
 Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in intrepretability. The starting point for all calculations was generation of an initial orbital population at the $$S_1$$ TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.
 
-`%chk=[file_path]/save_NBOs.chk`
-`# HF/STO-3G Pop=(Full,SaveNBOs)`
+```	
+%chk=[file_path]/save_NBOs.chk
+# HF/STO-3G Pop=(Full,SaveNBOs)
 
-`
 Title Card Required
 
 0 1
 [Molecule input]
-`
+```
 
 The generated NBOs can also be examined in an external program (Chemcraft in this example). The Gaussian input file below shows the extra input at the bottom required to call on the NBO program to print the calculated natural bond orbitals to file.  These will be labelled FILE.$$X$$ where $$X$$ is 31--37. Chemcraft can open up FILE.31 directly, and should recognise the FILE.$$X$$ files for import. Chemcraft can then render NBOs from these files using the drop-down options: `Tools $$\rightarrow$$ Orbitals $$\rightarrow$$ Render molecular orbitals $$\rightarrow$$ NBOs`. Be aware: there is a reordering from the .log file and the .chk file, so only rely on the numbering in GaussView when identifying orbital indexes.
 
-`%chk=[file_path]/print_NBOs.chk`
-`#P HF/STO-3G Pop=(Full,NBORead,SaveNBO) gfoldprint`
+```
+%chk=[file_path]/print_NBOs.chk
+#P HF/STO-3G Pop=(Full,NBORead,SaveNBO) gfoldprint
 
-`
 Title Card Required
 
 0 1
 [Molecule input]
 
 $NBO BNDIDX PLOT $END
-`
+```
 
 ### Selection of the active space
 It is useful to check both the character of these NBOs from their density distribution, as well as their occupation value according to the NBO scheme. Any molecular orbitals which have occupations that differ significantly from the 0/2 value for virtual/occupied orbitals are likely candidates for inclusion in the active space.
@@ -114,4 +114,4 @@ Title Card Required
 
 The `iop(1/8=$$N$$)` keyword sets the maximum step size during the optimisation, and  generally needs to be decreased from its default value of $$N = 30$$ which corresponds to 0.3 Bohr. Since the $$S_1$$ Norrish Type II TS structure is taken as being close MECI a small step size is appropriate and avoids issues where the optimiser can overshoot the MECI several times if large step sizes are used. The maximum number of convergence cycles may again need to be increased through the use of the `iop(5/7=$$N$$)` keyword, however since an already converged $$S_0$$ CAS wavefunction is used as the initial guess the convergence during MECI searches tended to be well behaved, and convergence issues were often an indication that the geometry optimiser has strayed into a bad part of configuration space and a new guess geometry must be used. 
 
-The $$S_1$$/$$S_0$$ state energy difference is reported in the log file as `\Energy difference=     $$X$$`' and this difference should be monitored, as well as the usual geometry convergence criteria of force and displacement values. If the energy difference, forces, or geometry begin to oscillate around a central zero value then decreasing the step size at this stage may improve the MECI search.
+The $$S_1$$/$$S_0$$ state energy difference is reported in the log file as `Energy difference=     $$X$$`' and this difference should be monitored, as well as the usual geometry convergence criteria of force and displacement values. If the energy difference, forces, or geometry begin to oscillate around a central zero value then decreasing the step size at this stage may improve the MECI search.
