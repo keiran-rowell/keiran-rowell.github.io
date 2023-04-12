@@ -15,7 +15,7 @@ tags: electronic-structure DFT
 
 Many computational chemistry talks begin with the famous Dirac quote:
 
- *"The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It there fore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation."* Dirac, P.A.M. [Quantum Mechanics of Many-Electron Systems](http://dx.doi.org/10.1098/rspa.1929.0094). *Proceedings of the Royal Society A* **1929**, *123*, 714–733.
+ *"The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It there fore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation."* Dirac, P.A.M. [Quantum Mechanics of Many-Electron Systems](http://dx.doi.org/10.1098/rspa.1929.0094), *Proceedings of the Royal Society A*, **1929**, *123*, 714–733.
 
 The practice of computational chemistry is then left to picking the appropriate approximate method to answer the scientific question that interests you. Below is a rough primer of the basic quantum chemistry methods.
 
