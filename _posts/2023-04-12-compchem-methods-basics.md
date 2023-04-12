@@ -3,7 +3,7 @@ layout: post
 author: keiran  
 title: "An Ersatz Ansatz"
 subtitle: "Computational Chemistry Methods for Beginners"
-category: primer
+category: guide 
 tags: electronic-structure DFT
 image:
   path: /images/Jacobs_ladder_Goerigk_Grimme.jpg
