@@ -15,9 +15,9 @@ tags: electronic-structure DFT
 
 Many computational chemistry talks begin with the famous Dirac quote:
 
- *"The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It there fore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation."* Dirac, P. A. M. [Quantum Mechanics of Many-Electron Systems](http://dx.doi.org/10.1098/rspa.1929.0094). *Proceedings of the Royal Society A* **1929**, *123*, 714–733.
+ *"The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It there fore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation."* Dirac, P.A.M. [Quantum Mechanics of Many-Electron Systems](http://dx.doi.org/10.1098/rspa.1929.0094). *Proceedings of the Royal Society A* **1929**, *123*, 714–733.
 
-The practice of computational chemistry is then left to picking the appropriate approximate method to answer the scientific question you are interested. Below is a rough primer of the basic quantum chemistry methods.
+The practice of computational chemistry is then left to picking the appropriate approximate method to answer the scientific question that interests you. Below is a rough primer of the basic quantum chemistry methods.
 
 --- 
  
@@ -108,7 +108,7 @@ $$
 
 The first term ($$T_{s}[\rho]$$) is the electron kinetic energy which can be calculated from a Slater determinant similarly to HF theory, though in DFT Kohm-Sham orbitals are used. The Coulombic electron-nuclear repulsion ($$E_{eN}[\rho]$$) and  electron-electron repulsion ($$J[\rho]$$) terms can be calculated classically. The final term, $$E_{xc}[\rho]$$, contains the electron-electron exchange-correlation functional whose exact form is not known. There are myriad DFT methods using different functional approximations for $$E_{xc}[\rho]$$, however the accuracy of their approximations cannot be known *a priori*, unlike with wavefunction methods. Though some functionals are non-empirical, many DFT methods are semi-empirical as their functional forms are parameterised with reference experimental data in an attempt to improve their accuracy.
 
-Functionals which incorporate more physical parameters of the electron density have accordingly higher computational costs, but tend to show increased accuracy. This provides a convenient classification of DFT methods into rungs on the conceptual "Jacob's ladder" of accuracy, which is illustrated below. The representative accuracy of each rung in Jacob's ladder is taken from the DFT review by Goerigk and Grimme, and an example DFT method is listed for each rung.
+Functionals which incorporate more physical parameters of the electron density have accordingly higher computational costs, but tend to show increased accuracy. This provides a convenient classification of DFT methods into rungs on the conceptual "Jacob's ladder" of accuracy, which is illustrated below. The representative accuracy of each rung in Jacob's ladder is taken from the DFT review by Goerigk and Grimme, [A thorough benchmark of density functional methods for A thorough benchmark of density functional methods for general main group thermochemistry, kinetics, and noncovalent interactions](http://dx.doi.org/10.1039/c0cp02984j). A popular DFT method is listed as an example for each rung.
 
 ![Jacob's ladder](../images/Jacobs_ladder_Goerigk_Grimme.png) 
 
