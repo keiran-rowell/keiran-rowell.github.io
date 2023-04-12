@@ -3,7 +3,7 @@ layout: post
 author: keiran  
 title: "An Ersatz Ansatz"
 subtitle: "Computational Chemistry Methods for Beginners"
-category: review
+category: primer
 tags: compchem methods electronic-structure Hatree-Fock Moller-Plesset coupled-cluster DFT
 image:
   path: /images/Jacobs_ladder_Goerigk_Grimme.jpg
