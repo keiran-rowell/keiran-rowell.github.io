@@ -60,8 +60,7 @@ A reasonable (8,7) active space for typical saturated carbonyls includes:
     - O $$n$$ orbital of the lone pair.
     - $$\gamma$$C-H $$\sigma$$ and $$\sigma^{*}$$ orbital.
 
-The NBOs which correspond to this active space are shown in the example of butanal below at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, Kletskii *et al.* [Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators](http://dx.doi.org/10.1016/j.comptc.2014.08.025), a (10,8) active space that includes the alternate O $$n$$ oxygen-centred NBO was used as the largest active space. Structures computed from such CAS(10,8) calculations are reported in the main body of the thesis. 
-
+The NBOs which correspond to this active space are shown in the example of butanal below at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, a (10,8) active space that includes the alternate O $$n$$ oxygen-centred NBO was used as the largest active space. The literature active space is provided in Kletskii *et al.* [Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators](http://dx.doi.org/10.1016/j.comptc.2014.08.025) 
 
 ![Butanal Natural Bond Orbitals](../images/butanal_NBOs.png)
 
