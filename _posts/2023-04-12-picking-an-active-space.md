@@ -9,7 +9,10 @@ tags: active-space CASSCF multiconfigurational electronic-structure
 
 *This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036), *and deals with struggle of creating a workable active space for multiconfigurational calculations.* 
 
-*Multiconfigurational methods are where the training wheels come off, you can no longer use a "black-box" combination of method and basis set -- you **have** to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the "which orbitals?" and "how small a basis set can I get away with?" problems separately. I've also been told that calculating the cation (thus giving you "pulled in" orbitals) is another trick to get started.*
+---
+
+Multiconfigurational methods are where the training wheels come off, you can no longer use a "black-box" combination of method and basis set -- you **have** to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the "which orbitals?" and "how small a basis set can I get away with?" problems separately. I've also been told that calculating the cation (thus giving you "pulled in" orbitals) is another trick to get started.
+
 ---
 
 ## Complete Active Space (CASSCF) calculations and Minimum Energy Conical Intersection (MECI) searches
@@ -114,4 +117,4 @@ Title Card Required
 
 The `iop(1/8=$$N$$)` keyword sets the maximum step size during the optimisation, and  generally needs to be decreased from its default value of $$N = 30$$ which corresponds to 0.3 Bohr. Since the $$S_1$$ Norrish Type II TS structure is taken as being close MECI a small step size is appropriate and avoids issues where the optimiser can overshoot the MECI several times if large step sizes are used. The maximum number of convergence cycles may again need to be increased through the use of the `iop(5/7=$$N$$)` keyword, however since an already converged $$S_0$$ CAS wavefunction is used as the initial guess the convergence during MECI searches tended to be well behaved, and convergence issues were often an indication that the geometry optimiser has strayed into a bad part of configuration space and a new guess geometry must be used. 
 
-The $$S_1$$/$$S_0$$ state energy difference is reported in the log file as `Energy difference=     $$X$$`' and this difference should be monitored, as well as the usual geometry convergence criteria of force and displacement values. If the energy difference, forces, or geometry begin to oscillate around a central zero value then decreasing the step size at this stage may improve the MECI search.
+The $$S_1$$/$$S_0$$ state energy difference is reported in the log file as `Energy difference=     $$X$$` and this difference should be monitored, as well as the usual geometry convergence criteria of force and displacement values. If the energy difference, forces, or geometry begin to oscillate around a central zero value then decreasing the step size at this stage may improve the MECI search.
