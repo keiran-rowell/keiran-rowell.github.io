@@ -50,15 +50,15 @@ $NBO BNDIDX PLOT $END
 ### Selection of the active space
 It is useful to check both the character of these NBOs from their density distribution, as well as their occupation value according to the NBO scheme. Any molecular orbitals which have occupations that differ significantly from the 0/2 value for virtual/occupied orbitals are likely candidates for inclusion in the active space.
 
-The conical intersection of interest is between the $$S_1$$/$$S_0$$ states of the carbonyl. This conical intersection will be present near the vicinity of the transition state which involves a 1,5--H-shift from the carbonyl oxygen to the $$\gamma$$-hydrogen. Correlated pairs of bonding and anti-bonding orbitals should be included, for example if a C-H $$\sigma$$ bonding orbital is included the corresponding C-H $$\sigma^{*}$$ antibonding orbital should also be included. The oxygen $$n$$ orbital which interacts with the $$\gamma$$-hydrogen and also changes occupation in the excited state is crucial to include in active space, as well as the C=O $$\pi$$ bonding and antibonding orbitals.
+The conical intersection of interest is between the $$S_1$$/$$S_0$$ states of the carbonyl. This conical intersection will be present near the vicinity of the transition state which involves a 1,5--H-shift from the carbonyl oxygen to the $$\gamma$$-hydrogen. Correlated pairs of bonding and anti-bonding orbitals should be included, for example if a C-H σ bonding orbital is included the corresponding C-H σ∗ antibonding orbital should also be included. The oxygen $$n$$ orbital which interacts with the $$\gamma$$-hydrogen and also changes occupation in the excited state is crucial to include in active space, as well as the C=O π bonding and antibonding orbitals.
 
 Additionally, since the photoexcited C=O moiety abstracts a hydrogen atom to form a C-O-H bond, the C-O orbitals were found to be important for inclusion in the active space. This is particularly true when a STO-3G minimal basis set was used, which would deliver optimised C-O bond lengths approximately 0.3 Å larger than in the transition state structure. With large basis sets the C-O bond length varied little from the transition state structure and hence the inclusion of corresponding orbitals was of less importance.
 
 A reasonable (8,7) active space for typical saturated carbonyls includes:
-    - C-O $$\sigma$$ and $$\sigma^{*}$$ orbitals.
-    - C=O $$\pi$$ and $$\pi^{*}$$ orbitals.
+    - C-O σ and σ∗ orbitals.
+    - C=O π and π∗ orbitals.
     - O $$n$$ orbital of the lone pair.
-    - $$\gamma$$C-H $$\sigma$$ and $$\sigma^{*}$$ orbital.
+    - $$\gamma$$C-H σ and σ∗ orbitals.
 
 The NBOs which correspond to this active space are shown in the example of butanal below at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, a (10,8) active space that includes the alternate O $$n$$ oxygen-centred NBO was used as the largest active space. The literature active space is provided in Kletskii *et al.* [Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators](http://dx.doi.org/10.1016/j.comptc.2014.08.025) 
 
@@ -67,7 +67,7 @@ The NBOs which correspond to this active space are shown in the example of butan
 Natural bond orbitals for butanal, showing those typical for the active space of a CAS(8,7) calculation on a saturated carbonyl. CAS(10,8) active spaces include the other oxygen-centred NBO.
 {:.figcaption}
 
-For unsaturated species, it was found to be beneficial to also include the $$\pi$$ and $$\pi^{*}$$ orbitals of the point of unsaturation. A (12,10) active space is very computationally demanding, so for unsaturated species the (10,8) active space sized is preserved by removing the C-O $$\sigma$$ and $$\sigma^{*}$$ NBOs, and replacing them with the $$\pi$$ and $$\pi^{*}$$ orbitals from the point of unsaturation, as illustrated below. 
+For unsaturated species, it was found to be beneficial to also include the π and π∗ orbitals of the point of unsaturation. A (12,10) active space is very computationally demanding, so for unsaturated species the (10,8) active space sized is preserved by removing the C-O σ and σ∗ NBOs, and replacing them with the π and π∗ orbitals from the point of unsaturation, as illustrated below. 
 
 
 ![2-Oxobutanal Natural Bond Orbitals](../images/2-oxobutanal_NBOs.png)
