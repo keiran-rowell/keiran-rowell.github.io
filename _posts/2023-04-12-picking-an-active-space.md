@@ -63,7 +63,7 @@ A reasonable (8,7) active space for typical saturated carbonyls includes:
 The NBOs which correspond to this active space are shown in the example of butanal below at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, Kletskii *et al.* [Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators](http://dx.doi.org/10.1016/j.comptc.2014.08.025), a (10,8) active space that includes the alternate O $$n$$ oxygen-centred NBO was used as the largest active space. Structures computed from such CAS(10,8) calculations are reported in the main body of the thesis. 
 
 
-![Butanal Natural Bond Orbitals](images/butanal_NBOs.png)
+![Butanal Natural Bond Orbitals](../images/butanal_NBOs.png)
 
 Natural bond orbitals for butanal, showing those typical for the active space of a CAS(8,7) calculation on a saturated carbonyl. CAS(10,8) active spaces include the other oxygen-centred NBO.
 {:.figcaption}
@@ -71,7 +71,7 @@ Natural bond orbitals for butanal, showing those typical for the active space of
 For unsaturated species, it was found to be beneficial to also include the $$\pi$$ and $$\pi^{*}$$ orbitals of the point of unsaturation. A (12,10) active space is very computationally demanding, so for unsaturated species the (10,8) active space sized is preserved by removing the C-O $$\sigma$$ and $$\sigma^{*}$$ NBOs, and replacing them with the $$\pi$$ and $$\pi^{*}$$ orbitals from the point of unsaturation, as illustrated below. 
 
 
-![2-Oxobutanal Natural Bond Orbitals](images/2-oxobutanal_NBOs.png)
+![2-Oxobutanal Natural Bond Orbitals](../images/2-oxobutanal_NBOs.png)
 
 Natural bond orbitals for 2-oxobutanal, showing those typical for the active space of a CAS(10,8) calculation on an unsaturated carbonyl. In these carbonyls with a point of unsaturation the other π and π∗ NBOs are included in favour of the C-O σ and σ∗ NBOs to keep the active space manageable.
 {:.figcaption}
