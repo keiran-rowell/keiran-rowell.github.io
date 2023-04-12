@@ -62,7 +62,7 @@ This HF solution is often used as the initial trial wavefunction for calculation
 
 Since the HF equations are solved in a "mean-field" of electrons, this method lacks the dynamic electron correlation energy necessary to make quantitative predictions of molecular properties. A number of wavefunction formalisms are available to recover this correlation energy using a correction to the HF wavefunction. These post-HF methods are often referred to as "correlated" methods. The energetic predictions of post-HF methods are systematically improved as higher-order terms of electron correlation are included, but at the cost of increased scaling of computational cost with system size.
 
-An alternative quantum chemical approach, is to bypass the wavefunction and calculate molecular properties based solely on the electron density. These density functional theory (DFT) methods have reduced computational cost, since a $$3N$$ dimensional wavefunction does not have to be computed, but are not systematically improvable since the exact form the exchange-correlation functional should take is not known.
+An alternative quantum chemical approach is to bypass the wavefunction and calculate molecular properties based solely on the electron density. These density functional theory (DFT) methods have reduced computational cost, since a $$3N$$ dimensional wavefunction does not have to be computed, but are not systematically improvable since the exact form the exchange-correlation functional should take is not known.
 
 
 ### Multiconfigurational methods
