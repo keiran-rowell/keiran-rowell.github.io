@@ -1,4 +1,4 @@
---
+---
 layout: post
 author: keiran  
 title: "Selecting an active space"
@@ -7,10 +7,9 @@ category: guide
 tags: active-space CASSCF multiconfigurational electronic-structure
 ---
 
-*This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and deals with struggle of creating a workable active space for multiconfigurational calculations. 
+*This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and deals with struggle of creating a workable active space for multiconfigurational calculations.* 
 
-Multiconfigurational methods are where the training wheels come off, you can no longer use a "black-box" combination of method and basis set -- you **have** to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the "which orbitals?" and "how small a basis set can I get away with?" problems separately. I've also been told that calculating the cation (thus giving you "pulled in" orbitals) is another trick to get started.*
-
+Multiconfigurational methods are where the training wheels come off, you can no longer use a "black-box" combination of method and basis set -- you **have** to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the "which orbitals?" and "how small a basis set can I get away with?" problems separately. I've also been told that calculating the cation (thus giving you "pulled in" orbitals) is another trick to get started.
 ---
 
 ## Complete Active Space (CASSCF) calculations and Minimum Energy Conical Intersection (MECI) searches
@@ -19,15 +18,15 @@ In order to search for an optimised minimum energy conical intersection (MECI), 
 
 While individual CSFs could be manually selected, one of the most common approaches is the complete active space (CAS) method where all possible configurations inside a selected orbital active space are treated. The self-consistent field (SCF) is used, and so the method at at this level of theory is known as CASSCF. The use of an active space removes the burden of choosing particular CSFs to include in the SCF optimisation, but requires the selection of appropriate active space orbitals which capture the chemical process of interest. Usually this includes any orbitals near the frontier orbitals, those involved in making and breaking bonds, the inclusion of correlated bonding and anti-bonding pairs, and any orbitals which are calculated to have incomplete occupation according to orbital population schemes.
 
-### Generation of natural bond orbitals
+### Generation of Natural Bond Orbitals
 Selection of orbitals to include in the active space is more easily done if natural bond orbitals (NBOs) are used since they correspond to chemical intuition and are localised to the reactive space, while canonical orbitals are often too delocalised to be interpretable.
 
 Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in intrepretability. The starting point for all calculations was generation of an initial orbital population at the $$S_1$$ TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.
 
 `
-%chk=[file_path]/save_NBOs.chk
-# HF/STO-3G Pop=(Full,SaveNBOs)
-
+%chk=[file_path]/save_NBOs.chk`
+`# HF/STO-3G Pop=(Full,SaveNBOs)`
+`
 Title Card Required
 
 0 1
@@ -37,9 +36,9 @@ Title Card Required
 The generated NBOs can also be examined in an external program (Chemcraft in this example). The Gaussian input file below shows the extra input at the bottom required to call on the NBO program to print the calculated natural bond orbitals to file.  These will be labelled FILE.$$X$$ where $$X$$ is 31--37. Chemcraft can open up FILE.31 directly, and should recognise the FILE.$$X$$ files for import. Chemcraft can then render NBOs from these files using the drop-down options: `Tools $$\rightarrow$$ Orbitals $$\rightarrow$$ Render molecular orbitals $$\rightarrow$$ NBOs`. Be aware: there is a reordering from the .log file and the .chk file, so only rely on the numbering in GaussView when identifying orbital indexes.
 
 `
-%chk=[file_path]/print_NBOs.chk
-#P HF/STO-3G Pop=(Full,NBORead,SaveNBO) gfoldprint
-
+%chk=[file_path]/print_NBOs.chk`
+`#P HF/STO-3G Pop=(Full,NBORead,SaveNBO) gfoldprint`
+`
 Title Card Required
 
 0 1
@@ -87,9 +86,9 @@ Note: before running the input file below, copy the checkpoint file containing t
 The `iop(5/7=$$N$$)` keyword sets the amount of CASSCF convergence cycles used. While this can be increased, a slow or difficult to converge CASSCF calculation is often indicative of a poor active space. In some large molecules convergence can be slow, but if the energy is seen to be monotonically decreasing with each cycle then simply increasing the amount of available cycles may be all that is needed. 
 
 `
-%chk=[file_path]/[molecule]_S0_8-7.chk
-# CASSCF(8,7)/STO-3G iop(5/7=200) Guess=(Read,Alter) Geom=Checkpoint 
-
+%chk=[file_path]/[molecule]_S0_8-7.chk`
+`# CASSCF(8,7)/STO-3G iop(5/7=200) Guess=(Read,Alter) Geom=Checkpoint` 
+`
 Title Card Required
 
 0 1
@@ -103,9 +102,9 @@ If this CAS($$n$$,$$m$$) calculation converges on the $$S_0$$ state at configura
 An example input file of running a minimum energy conical intersection (MECI) search with Gaussian is given below. Again, the checkpoint file from a previous job must be copied to this checkpoint filename specified in the current job to read the orbitals, in this case from the converged CAS $$S_0$$ calculations. Note: in Gaussian 16 the state average weights must be included at the bottom of the input file, whereas Gaussian 09 does not need this extra input and defaults to the 0.5, 0.5 weighting between the upper and lower state of the same spin.
 
 `
-%chk=[file_path]/[molecule]_CI_search.chk
-# CASSCF(8,7)/STO-3G iop(1/8=5) Guess=Read Geom=Checkpoint Opt=Conical  
-
+%chk=[file_path]/[molecule]_CI_search.chk`
+`# CASSCF(8,7)/STO-3G iop(1/8=5) Guess=Read Geom=Checkpoint Opt=Conical`  
+`
 Title Card Required
 
 0 1
