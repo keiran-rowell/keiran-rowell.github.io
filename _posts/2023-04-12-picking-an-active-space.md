@@ -7,7 +7,7 @@ category: guide
 tags: active-space CASSCF multiconfigurational electronic-structure
 ---
 
-*This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036), *and deals with struggle of creating a workable active space for multiconfigurational calculations.* 
+*This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036), *and deals with the struggle of creating a workable active space for multiconfigurational calculations.* 
 
 ---
 
