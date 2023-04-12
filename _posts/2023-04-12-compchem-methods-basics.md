@@ -11,8 +11,9 @@ image:
 
 *This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and is intended as a primer for beginner computational chemists. Thanks goes out to Dr. Laura McKemmish, whose notes on compchem for undegraduates is the urtext for this post*
 
+---
 
-Many computational chemistry talks begin with the famous Dirac quote: *"The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It there fore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation."*[^1]: Dirac, P. A. M. [Quantum Mechanics of Many-Electron Systems](http://dx.doi.org/10.1098/rspa.1929.0094). *Proceedings of the Royal Society A* **1929**, *123*, 714–733.
+Many computational chemistry talks begin with the famous Dirac quote: *"The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It there fore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation."* Dirac, P. A. M. [Quantum Mechanics of Many-Electron Systems](http://dx.doi.org/10.1098/rspa.1929.0094). *Proceedings of the Royal Society A* **1929**, *123*, 714–733.
 
 The practice of computational chemistry is then left to picking the appropriate approximate method to answer the scientific question you are interested. Below is a rough primer of the basic quantum chemistry methods.
 
@@ -20,9 +21,9 @@ The practice of computational chemistry is then left to picking the appropriate 
  
 ## Electronic Structure Theory
 
-All chemistry is governed by the behaviour of electrons and nuclei in molecules, which are described by the Schr$\"{o}$dinger equation $\hat{H}\Psi = E\Psi$, where the molecular energy ($E$) is an eigenvalue found by applying a Hamiltonian operator ($\hat{H}$) to the wavefunction ($\Psi$) of the molecule. Given the correct Hamiltonian, solution of the full Schr$\"{o}$dinger equation in principle yields exact properties, but is in practice insoluble for molecular systems. All quantum chemistry methods therefore rely on computational techniques for solving approximations to the full Schr$\"{o}$dinger equation.
+All chemistry is governed by the behaviour of electrons and nuclei in molecules, which are described by the Schr$ \"{o} $dinger equation $ \hat{H}\Psi = E\Psi $, where the molecular energy ($ E $) is an eigenvalue found by applying a Hamiltonian operator ($ \hat{H} $) to the wavefunction ($ \Psi $) of the molecule. Given the correct Hamiltonian, solution of the full Schr$ \"{o} $dinger equation in principle yields exact properties, but is in practice insoluble for molecular systems. All quantum chemistry methods therefore rely on computational techniques for solving approximations to the full Schr$ \"{o} $dinger equation.
 
-In the full Schr$\"{o}$dinger equation the Hamiltonian operator $\hat{H}$ contains all potential and kinetic energy terms from all electrons and nuclei and the interactions between them. The non-relativistic Hamiltonian is commonly simplified by invoking the Born-Oppenheimer approximation: since electrons have smaller masses and faster timescales of motion compared to nuclei, the electronic wavefunction can be solved in a field of nuclei that are considered fixed. This approximation removes the nuclear kinetic energy term from the Hamiltonian and makes the nuclear-nuclear interaction term constant, resulting in the simpler electronic Hamiltonian:
+In the full Schr$ \"{o} $dinger equation the Hamiltonian operator $ \hat{H} $ contains all potential and kinetic energy terms from all electrons and nuclei and the interactions between them. The non-relativistic Hamiltonian is commonly simplified by invoking the Born-Oppenheimer approximation: since electrons have smaller masses and faster timescales of motion compared to nuclei, the electronic wavefunction can be solved in a field of nuclei that are considered fixed. This approximation removes the nuclear kinetic energy term from the Hamiltonian and makes the nuclear-nuclear interaction term constant, resulting in the simpler electronic Hamiltonian:
 
 $$
 \hat{H}_{\mathrm{electronic}} = \underbrace{-\sum \frac{1}{2} \nabla^{2}_{i} -\sum_{i}^{elec.} \sum_{s}^{nuc.} \frac{Z_{s}}{\vec{r}_{is}}}_{\hat{h}_{i}} +\sum_{i<j}^{elec.} \frac{1}{\vec{r}_{ij}}  
@@ -107,7 +108,7 @@ The first term ($T_{s}[\rho]$) is the electron kinetic energy which can be calcu
 
 Functionals which incorporate more physical parameters of the electron density have accordingly higher computational costs, but tend to show increased accuracy. This provides a convenient classification of DFT methods into rungs on the conceptual "Jacob's ladder" of accuracy, which is illustrated below. The representative accuracy of each rung in Jacob's ladder is taken from the DFT review by Goerigk and Grimme, and an example DFT method is listed for each rung.
 
-![Jacob's ladder](images/Jacobs_ladder_Georigk_Grimme) 
+![Jacob's ladder](images/Jacobs_ladder_Goerigk_Grimme.png) 
 
 A schematic of the `rungs' of accuracy in the conceptual `Jacbob's ladder' organisation system of density functional methods. The qouted accuracy of each rung comes from a review by Goerigk & Grimme on density functional methods.* *Schematic of Jacob's ladder modified from:* Robert Fludd, *Utriusque Cosmi*, **1671**, illustrated by Johann Theodor de Bry, Oppenheim and Frankfort.
 {:.figcaption}
