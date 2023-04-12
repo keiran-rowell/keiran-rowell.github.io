@@ -56,12 +56,10 @@ The conical intersection of interest is between the $$S_1$$/$$S_0$$ states of th
 Additionally, since the photoexcited \ch{C=O} moiety abstracts a hydrogen atom to form a \ch{C-O-H} bond, the \ch{C-O} orbitals were found to be important for inclusion in the active space. This is particularly true when a STO-3G minimal basis set was used, which would deliver optimised \ch{C-O} bond lengths approximately 0.3 \AA\ larger than in the transition state structure. With large basis sets the \ch{C-O} bond length varied little from the transition state structure and hence the inclusion of corresponding orbitals was of less importance.
 
 A reasonable (8,7) active space for typical saturated carbonyls includes:
-\begin{itemize}
-    \item \ch{C-O} $$\sigma$$ and $$\sigma^{*}$$ orbitals.
-    \item \ch{C=O} $$\pi$$ and $$\pi^{*}$$ orbitals
-    \item {O} $$n$$ orbital of the lone pair.
-    \item $$\gamma$$\ch{C-H} $$\sigma$$ and $$\sigma^{*}$$ orbital.
- \end{itemize}
+    - C-O $$\sigma$$ and $$\sigma^{*}$$ orbitals.
+    - C=O $$\pi$$ and $$\pi^{*}$$ orbitals.
+    - O $$n$$ orbital of the lone pair.
+    - $$\gamma$$\ch{C-H} $$\sigma$$ and $$\sigma^{*}$$ orbital.
 
 The NBOs which correspond to this active space are shown in the example of butanal in \ref{fig:NBO_butanal_active_space} at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, Kletskii *et al.* [Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators](http://dx.doi.org/10.1016/j.comptc.2014.08.025), a (10,8) active space that includes the alternate O $$n$$ oxygen-centred NBO was used as the largest active space. Structures computed from such CAS(10,8) calculations are reported in the main body of the thesis. 
 
