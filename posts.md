@@ -2,7 +2,7 @@
 layout: list
 title: Posts
 description: >
-  Posts, trying to be informative if not always correct.
+  Posts, trying to be informative if not always exact.
 grouped: true
 ---
 
