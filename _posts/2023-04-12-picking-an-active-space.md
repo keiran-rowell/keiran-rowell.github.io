@@ -58,10 +58,10 @@ The conical intersection of interest is between the $$S_1$$/$$S_0$$ states of th
 Additionally, since the photoexcited C=O moiety abstracts a hydrogen atom to form a C-O-H bond, the C-O orbitals were found to be important for inclusion in the active space. This is particularly true when a STO-3G minimal basis set was used, which would deliver optimised C-O bond lengths approximately 0.3 Å larger than in the transition state structure. With large basis sets the C-O bond length varied little from the transition state structure and hence the inclusion of corresponding orbitals was of less importance.
 
 A reasonable (8,7) active space for typical saturated carbonyls includes:
-    - C-O σ and σ∗ orbitals.
-    - C=O π and π∗ orbitals.
-    - O $$n$$ orbital of the lone pair.
-    - $$\gamma$$C-H σ and σ∗ orbitals.
+* C-O σ and σ∗ orbitals.
+* C=O π and π∗ orbitals.
+* O $$n$$ orbital of the lone pair.
+* $$\gamma$$C-H σ and σ∗ orbitals.
 
 The NBOs which correspond to this active space are shown in the example of butanal below at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, a (10,8) active space that includes the alternate O $$n$$ oxygen-centred NBO was used as the largest active space. The literature active space is provided in Kletskii *et al.* [Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators](http://dx.doi.org/10.1016/j.comptc.2014.08.025) 
 
