@@ -9,7 +9,7 @@ tags: electronic-structure DFT
 #  path: ../images/Jacobs_ladder_Goerigk_Grimme.jpg
 ---
 
-*This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and is intended as a primer for beginner computational chemists. Thanks goes out to Dr. Laura McKemmish, whose notes on compchem for undegraduates is the urtext for this post*
+*This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and is intended as a primer for beginner computational chemists. Thanks goes out to Dr. Laura McKemmish, whose notes on compchem for undegraduates is the urtext for this post.*
 
 ---
 
@@ -28,7 +28,7 @@ All chemistry is governed by the behaviour of electrons and nuclei in molecules,
 In the full Schrödinger equation the Hamiltonian operator $$\hat{H}$$ contains all potential and kinetic energy terms from all electrons and nuclei and the interactions between them. The non-relativistic Hamiltonian is commonly simplified by invoking the Born-Oppenheimer approximation: since electrons have smaller masses and faster timescales of motion compared to nuclei, the electronic wavefunction can be solved in a field of nuclei that are considered fixed. This approximation removes the nuclear kinetic energy term from the Hamiltonian and makes the nuclear-nuclear interaction term constant, resulting in the simpler electronic Hamiltonian:
 
 $$
-\hat{H}_{\mathrm{electronic}} = \underbrace{-\sum \frac{1}{2} \nabla^{2}_{i} -\sum_{i}^{elec.} \sum_{s}^{nuc.} \frac{Z_{s}}{\vec{r}_{is}}}_{\hat{h}_{i}} +\sum_{i less than j}^{elec.} \frac{1}{\vec{r}_{ij}}  
+\hat{H}_{\mathrm{electronic}} = \underbrace{-\sum \frac{1}{2} \nabla^{2}_{i} -\sum_{i}^{elec.} \sum_{s}^{nuc.} \frac{Z_{s}}{\vec{r}_{is}}}_{\hat{h}_{i}} +\sum_{i\ less\ than\ j}^{elec.} \frac{1}{\vec{r}_{ij}} 
 $$
 
 Atomic units are used here to simplify equations. The first term in $$\hat{H}_{\mathrm{electronic}}$$ is the kinetic energy of the electrons, the second term the electron-nuclear attraction, and both are encompassed in the one-electron operator ($$\hat{h}_{i}$$) which is summed over all electrons in the molecule.  The third term represents the electron-electron repulsion and can not be solved exactly for multi-electron systems. Wavefunction-based quantum chemistry methods  differ in the approximations they introduce to solve the electron-electron repulsion term.
