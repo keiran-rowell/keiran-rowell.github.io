@@ -6,7 +6,7 @@ subtitle: "Computational Chemistry Methods for Beginners"
 category: guide 
 tags: electronic-structure DFT
 image:
-  path: /images/Jacobs_ladder_Goerigk_Grimme.jpg
+  path: ../images/Jacobs_ladder_Goerigk_Grimme.jpg
 ---
 
 *This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and is intended as a primer for beginner computational chemists. Thanks goes out to Dr. Laura McKemmish, whose notes on compchem for undegraduates is the urtext for this post*
@@ -108,7 +108,7 @@ The first term ($$T_{s}[\rho]$$) is the electron kinetic energy which can be cal
 
 Functionals which incorporate more physical parameters of the electron density have accordingly higher computational costs, but tend to show increased accuracy. This provides a convenient classification of DFT methods into rungs on the conceptual "Jacob's ladder" of accuracy, which is illustrated below. The representative accuracy of each rung in Jacob's ladder is taken from the DFT review by Goerigk and Grimme, and an example DFT method is listed for each rung.
 
-![Jacob's ladder](images/Jacobs_ladder_Goerigk_Grimme.png) 
+![Jacob's ladder](../images/Jacobs_ladder_Goerigk_Grimme.png) 
 
 A schematic of the "rungs" of accuracy in the conceptual "Jacob's ladder" organisation system of density functional methods. The qouted accuracy of each rung comes from a review by Goerigk & Grimme on density functional methods. Schematic of Jacob's ladder modified from: Robert Fludd, *Utriusque Cosmi*, **1671**, illustrated by Johann Theodor de Bry, Oppenheim and Frankfort.
 {:.figcaption}
