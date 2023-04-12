@@ -5,8 +5,8 @@ title: "An Ersatz Ansatz"
 subtitle: "Computational Chemistry Methods for Beginners"
 category: guide 
 tags: electronic-structure DFT
-image:
-  path: ../images/Jacobs_ladder_Goerigk_Grimme.jpg
+#image:
+#  path: ../images/Jacobs_ladder_Goerigk_Grimme.jpg
 ---
 
 *This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and is intended as a primer for beginner computational chemists. Thanks goes out to Dr. Laura McKemmish, whose notes on compchem for undegraduates is the urtext for this post*
