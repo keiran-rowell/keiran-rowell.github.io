@@ -33,7 +33,7 @@ Title Card Required
 [Molecule input]
 ```
 
-The generated NBOs can also be examined in an external program (Chemcraft in this example). The Gaussian input file below shows the extra input at the bottom required to call on the NBO program to print the calculated natural bond orbitals to file.  These will be labelled FILE.$$X$$ where $$X$$ is 31--37. Chemcraft can open up FILE.31 directly, and should recognise the FILE.$$X$$ files for import. Chemcraft can then render NBOs from these files using the drop-down options: `Tools $$\rightarrow$$ Orbitals $$\rightarrow$$ Render molecular orbitals $$\rightarrow$$ NBOs`. Be aware: there is a reordering from the .log file and the .chk file, so only rely on the numbering in GaussView when identifying orbital indexes.
+The generated NBOs can also be examined in an external program (Chemcraft in this example). The Gaussian input file below shows the extra input at the bottom required to call on the NBO program to print the calculated natural bond orbitals to file.  These will be labelled FILE.$$X$$ where $$X$$ is 31--37. Chemcraft can open up FILE.31 directly, and should recognise the FILE.$$X$$ files for import. Chemcraft can then render NBOs from these files using the drop-down options: `Tools → Orbitals → Render molecular orbitals → NBOs`. Be aware: there is a reordering from the .log file and the .chk file, so only rely on the numbering in GaussView when identifying orbital indexes.
 
 ```
 %chk=[file_path]/print_NBOs.chk
