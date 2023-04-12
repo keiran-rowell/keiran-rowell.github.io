@@ -1,5 +1,6 @@
 ---
 layout: post
+author: keiran  
 title: "An Ersatz Ansatz"
 subtitle: "Computational Chemistry Methods for Beginners"
 category: review
