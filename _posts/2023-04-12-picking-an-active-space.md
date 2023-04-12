@@ -75,7 +75,7 @@ For unsaturated species, it was found to be beneficial to also include the π an
 
 ![2-Oxobutanal Natural Bond Orbitals](../images/2-oxobutanal_NBOs.png)
 
-Natural bond orbitals for 2-oxobutanal, showing those typical for the active space of a CAS(10,8) calculation on an unsaturated carbonyl. In these carbonyls with a point of unsaturation the other π and π∗ NBOs are included in favour of the C-O σ and σ∗ NBOs to keep the active space manageable.
+Natural bond orbitals for 2-oxobutanal, showing those typical for the active space of a CAS(10,8) calculation on an unsaturated carbonyl. In these carbonyls with a point of unsaturation the other π and π∗ NBOs are included instead of the C-O σ and σ∗ NBOs to keep the active space manageable.
 {:.figcaption}
 
 Once identified, these orbitals of interest need to be rotated into the active space. The orbitals which are considered in the active space are those nearest the HOMO/LUMO frontier according to the ($$n$$,$$m$$) active space chosen. The ($$n$$,$$m$$) nomenclature means enough occupied molecular orbitals to host $$n$$ electrons are treated as active. These are taken from the HOMO index and those sequentially below. The number of virtual orbitals in the active space is $$m$$ less the number of active occupied orbitals, and they are indexed from the LUMO and those sequentially above it.
