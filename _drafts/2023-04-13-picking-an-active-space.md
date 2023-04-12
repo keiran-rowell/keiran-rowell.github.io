@@ -24,7 +24,7 @@ While individual CSFs could be manually selected, one of the most common approac
 ### Generation of natural bond orbitals
 Selection of orbitals to include in the active space is more easily done if natural bond orbitals (NBOs) are used since they correspond to chemical intuition and are localised to the reactive space, while canonical orbitals are often too delocalised to be interpretable.
 
-Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in intrepretability. The starting point for all calculations was generation of an initial orbital population at the $S_1$ TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given in \autoref{code:save_NBOs} below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.
+Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in intrepretability. The starting point for all calculations was generation of an initial orbital population at the $S_1$ TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.
 
 `
 %chk=[file_path]/save_NBOs.chk
@@ -36,7 +36,7 @@ Title Card Required
 [Molecule input]
 `
 
-The generated NBOs can also be examined in an external program (Chemcraft in this example). The Gaussian input file in \autoref{code:print_NBOs} shows the extra input at the bottom required to call on the NBO program to print the calculated natural bond orbitals to file.  These will be labelled FILE.$X$ where $X$ is 31--37. Chemcraft can open up FILE.31 directly, and should recognise the FILE.$X$ files for import. Chemcraft can then render NBOs from these files using the drop-down options: \texttt{Tools $\rightarrow$ Orbitals $\rightarrow$ Render molecular orbitals $\rightarrow$ NBOs}. Be aware: there is a reordering from the .log file and the .chk file, so only rely on the numbering in GaussView when identifying orbital indexes.
+The generated NBOs can also be examined in an external program (Chemcraft in this example). The Gaussian input file below shows the extra input at the bottom required to call on the NBO program to print the calculated natural bond orbitals to file.  These will be labelled FILE.$X$ where $X$ is 31--37. Chemcraft can open up FILE.31 directly, and should recognise the FILE.$X$ files for import. Chemcraft can then render NBOs from these files using the drop-down options: \texttt{Tools $\rightarrow$ Orbitals $\rightarrow$ Render molecular orbitals $\rightarrow$ NBOs}. Be aware: there is a reordering from the .log file and the .chk file, so only rely on the numbering in GaussView when identifying orbital indexes.
 
 `
 %chk=[file_path]/print_NBOs.chk
@@ -178,9 +178,9 @@ For unsaturated species, it was found to be beneficial to also include the $\pi$
 Once identified, these orbitals of interest need to be rotated into the active space. The orbitals which are considered in the active space are those nearest the HOMO/LUMO frontier according to the ($n$,$m$) active space chosen. The ($n$,$m$) nomenclature means enough occupied molecular orbitals to host $n$ electrons are treated as active. These are taken from the HOMO index and those sequentially below. The number of virtual orbitals in the active space is $m$ less the number of active occupied orbitals, and they are indexed from the LUMO and those sequentially above it.
 
 ### Performing CASSCF and MECI calculations
-The easiest way to perform this active space selection with the orbitals in the correct index is to interchange orbitals read in from the NBO checkpoint file. This process is illustrated in \autoref{code:CAS_S0} --- interchanging as an example orbitals 9 and 25, as well as 40 and 31. 
+The easiest way to perform this active space selection with the orbitals in the correct index is to interchange orbitals read in from the NBO checkpoint file. This process is illustrated in the example Gaussian input file below --- interchanging as an example orbitals 9 and 25, as well as 40 and 31. 
 
-Note: before running \autoref{code:CAS_S0}, copy the checkpoint file containing NBOs from \autoref{code:save_NBOs} to have same name as the checkpoint filename used in \autoref{code:CAS_S0} so the CASSCF calculation can read in the correct NBOs. The molecular geometry does not need to be supplied in \autoref{code:CAS_S0} since it is read from the checkpoint file.
+Note: before running the input file below, copy the checkpoint file containing the saved NBOs to have same name as the checkpoint filename used here, so the CASSCF calculation can read in the correct NBOs. The molecular geometry does not need to be supplied since it is read from the checkpoint file.
 
 The \texttt{iop(5/7=$N$)} keyword sets the amount of CASSCF convergence cycles used. While this can be increased, a slow or difficult to converge CASSCF calculation is often indicative of a poor active space. In some large molecules convergence can be slow, but if the energy is seen to be monotonically decreasing with each cycle then simply increasing the amount of available cycles may be all that is needed. 
 
@@ -198,7 +198,7 @@ Title Card Required
 
 If this CAS($n$,$m$) calculation converges on the $S_0$ state at configuration of the $S_1$ NTII TS geometry calculated by TD-DFT, then this  wavefunction is taken as a good initial guess for a beginning a conical intersection optimisation.
 
-An example input file of running a minimum energy conical intersection (MECI) search with Gaussian is given in \autoref{code:CI_search} below. Again, the checkpoint file from a previous job must be copied to this checkpoint filename specified in the current job to read the orbitals, in this case from the converged CAS $S_0$ calculations. Note: in Gaussian 16 the state average weights must be included at the bottom of the input file, whereas Gaussian 09 does not need this extra input and defaults to the 0.5, 0.5 weighting between the upper and lower state of the same spin.
+An example input file of running a minimum energy conical intersection (MECI) search with Gaussian is given below. Again, the checkpoint file from a previous job must be copied to this checkpoint filename specified in the current job to read the orbitals, in this case from the converged CAS $S_0$ calculations. Note: in Gaussian 16 the state average weights must be included at the bottom of the input file, whereas Gaussian 09 does not need this extra input and defaults to the 0.5, 0.5 weighting between the upper and lower state of the same spin.
 
 `
 %chk=[file_path]/[molecule]_CI_search.chk
