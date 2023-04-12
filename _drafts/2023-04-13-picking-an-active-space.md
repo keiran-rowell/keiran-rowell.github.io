@@ -5,8 +5,6 @@ title: "Selecting an active space"
 subtitle: "How to multiconfigurational without falling into despair"
 category: guide 
 tags: active-space CASSCF multiconfigurational electronic-structure
-#image:
-#  path: ../images/Jacobs_ladder_Goerigk_Grimme.jpg
 ---
 
 *This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036)*, and deals with struggle of creating a workable active space for multiconfigurational calculations. 
@@ -67,113 +65,19 @@ A reasonable (8,7) active space for typical saturated carbonyls includes:
 
 The NBOs which correspond to this active space are shown in the example of butanal in \ref{fig:NBO_butanal_active_space} at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, Kletskii *et al.* [Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators](http://dx.doi.org/10.1016/j.comptc.2014.08.025), a (10,8) active space that includes the alternate O $$n$$ oxygen-centred NBO was used as the largest active space. Structures computed from such CAS(10,8) calculations are reported in the main body of the thesis. 
 
-\begin{figure}[!h]
-\begin{minipage}{0.74\linewidth}
-\begin{subfigure}[t]{0.32\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/butanal_NBO_C-O_sigma.jpg}
-    \caption{\ch{C-O} $$\sigma$$}
-    \label{fig:butanal_NBO_C-O_sigma}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.32\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/butanal_NBO_C=O_pi.jpg}
-    \caption{\ch{C=O} $$\pi$$}
-    \label{fig:butanal_NBO_C=O_pi}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.32\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/butanal_NBO_yC-H_sigma.jpg}
-    \caption{$$\gamma$$\ch{C-H} $$\sigma$$}
-    \label{fig:butanal_NBO_yC-H_sigma}
-\end{subfigure}\hfill
-\\
-\begin{subfigure}[t]{0.32\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/butanal_NBO_C-O_sigma_star.jpg}
-    \caption{\ch{C-O} $$\sigma^{*}$$}
-    \label{fig:butanal_NBO_C-O_sigma*}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.32\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/butanal_NBO_C=O_pi_star.jpg}
-    \caption{\ch{C=O} $$\pi^{*}$$}
-    \label{fig:butanal_NBO_C=O_pi*}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.32\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/butanal_NBO_yC-H_sigma_star.jpg}
-    \caption{$$\gamma$$\ch{C-H} $$\sigma^{*}$$}
-    \label{fig:butanal_NBO_yC-H_sigma*}
-\end{subfigure}\hfill
-\end{minipage}
-\begin{minipage}{0.24\linewidth}
-\begin{subfigure}[t]{\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/butanal_NBO_O_n.jpg}
-    \caption{\ch{O} $$n$$}
-    \label{fig:butanal_NBO_O_n}
-\end{subfigure}\hfill
-\end{minipage}
-\caption[Natural bond orbitals used in butanal CAS calculations.]{Natural bond orbitals for butanal, showing those typical for the active space of a CAS(8,7) calculation on a saturated carbonyl. CAS(10,8) active spaces include the other oxygen-centred NBO.}
-\label{fig:NBO_butanal_active_space}
-\end{figure}
+
+![Butanal Natural Bond Orbitals](images/butanal_NBOs.png)
+
+Natural bond orbitals for butanal, showing those typical for the active space of a CAS(8,7) calculation on a saturated carbonyl. CAS(10,8) active spaces include the other oxygen- centred NBO.
+{:.figcaption}
 
 For unsaturated species, it was found to be beneficial to also include the $$\pi$$ and $$\pi^{*}$$ orbitals of the point of unsaturation. A (12,10) active space is very computationally demanding, so for unsaturated species the (10,8) active space sized is preserved by removing the \ch{C-O} $$\sigma$$ and $$\sigma^{*}$$ NBOs, and replacing them with the $$\pi$$ and $$\pi^{*}$$ orbitals from the point of unsaturation, as illustrated in \ref{fig:NBO_2-oxobutanal_active_space}. 
 
-\begin{figure}[!h]
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_O_n.jpg}
-    \caption{O $$n$$}
-    \label{fig:2-oxobutanal_NBO_O_n}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_C=O_1_pi.jpg}
-    \caption{\ch{C=O} $$\pi$$}
-    \label{fig:2-oxobutanal_C=O_1_pi}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_C=O_2_pi.jpg}
-    \caption{Alternate \ch{C=O} $$\pi$$}
-    \label{fig:2-oxobutanal_NBO_C=O_2_pi}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_yC-H_sigma.jpg}
-    \caption{$$\gamma$$\ch{C-H} $$\sigma$$}
-    \label{fig:2-oxbutanal_NBO_yC-H_sigma}
-\end{subfigure}\hfill
-\\
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_O_alt_n.jpg}
-    \caption{Alternate O $$n$$}
-    \label{fig:2-oxbutanal_NBO_alt_O_n}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_C=O_1_pi_star.jpg}
-    \caption{\ch{C=O} $$\pi^{*}$$}
-    \label{fig:2-oxobutanal_NBO_C=O_1_pi_star}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_C=O_2_pi_star.jpg}
-    \caption{Alternate \ch{C=O} $$\pi^{*}$$}
-    \label{fig:2-oxobutanal_NBO_C=O_2_pi_star}
-\end{subfigure}\hfill
-\begin{subfigure}[t]{0.24\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{fig/NBOs/2-oxobutanal_NBO_yC-H_sigma_star.jpg}
-    \caption{$$\gamma$$\ch{C-H} $$\sigma^{*}$$}
-    \label{fig:2-oxobutanal_NBO_yC-H_sigma_star}
-\end{subfigure}\hfill
-    \caption[Natural bond orbitals used in 2-oxobutanal CAS calculations.]{Natural bond orbitals for 2-oxobutanal, showing those typical for the active space of a CAS(10,8) calculation on an unsaturated carbonyl. In these carbonyls with a point of unsaturation the other $$\pi$$ and $$\pi^{*}$$ NBOs are included in favour of the \ch{C-O} $$\sigma$$ and $$\sigma^{*}$$ NBOs to keep the active space manageable.}
-    \label{fig:NBO_2-oxobutanal_active_space}
-\end{figure}
+
+![2-Oxobutanal Natural Bond Orbitals](images/2-oxobutanal_NBOs.png)
+
+Natural bond orbitals for 2-oxobutanal, showing those typical for the active space of a CAS(10,8) calculation on an unsaturated carbonyl. In these carbonyls with a point of unsaturation the other π and π∗ NBOs are included in favour of the C O σ and σ∗ NBOs to keep the active space manageable.
+{:.figcaption}
 
 Once identified, these orbitals of interest need to be rotated into the active space. The orbitals which are considered in the active space are those nearest the HOMO/LUMO frontier according to the ($$n$$,$$m$$) active space chosen. The ($$n$$,$$m$$) nomenclature means enough occupied molecular orbitals to host $$n$$ electrons are treated as active. These are taken from the HOMO index and those sequentially below. The number of virtual orbitals in the active space is $$m$$ less the number of active occupied orbitals, and they are indexed from the LUMO and those sequentially above it.
 
