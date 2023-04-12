@@ -21,7 +21,7 @@ In order to search for an optimised minimum energy conical intersection (MECI), 
 
 While individual CSFs could be manually selected, one of the most common approaches is the complete active space (CAS) method where all possible configurations inside a selected orbital active space are treated. The self-consistent field (SCF) is used, and so the method at at this level of theory is known as CASSCF. The use of an active space removes the burden of choosing particular CSFs to include in the SCF optimisation, but requires the selection of appropriate active space orbitals which capture the chemical process of interest. Usually this includes any orbitals near the frontier orbitals, those involved in making and breaking bonds, the inclusion of correlated bonding and anti-bonding pairs, and any orbitals which are calculated to have incomplete occupation according to orbital population schemes.
 
-\section{Generation of natural bond orbitals}
+### Generation of natural bond orbitals
 Selection of orbitals to include in the active space is more easily done if natural bond orbitals (NBOs) are used since they correspond to chemical intuition and are localised to the reactive space, while canonical orbitals are often too delocalised to be interpretable.
 
 Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in intrepretability. The starting point for all calculations was generation of an initial orbital population at the $S_1$ TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given in \autoref{code:save_NBOs} below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.
@@ -50,7 +50,7 @@ Title Card Required
 $NBO BNDIDX PLOT $END
 `
 
-\section{Selection of the active space}
+### Selection of the active space
 It is useful to check both the character of these NBOs from their density distribution, as well as their occupation value according to the NBO scheme. Any molecular orbitals which have occupations that differ significantly from the 0/2 value for virtual/occupied orbitals are likely candidates for inclusion in the active space.
 
 The conical intersection of interest is between the $S_1$/$S_0$ states of the carbonyl. This conical intersection will be present near the vicinity of the transition state which involves a 1,5--H-shift from the carbonyl oxygen to the $\gamma$-hydrogen. Correlated pairs of bonding and anti-bonding orbitals should be included, for example if a \ch{C-H} $\sigma$ bonding orbital is included the corresponding \ch{C-H} $\sigma^{*}$ antibonding orbital should also be included. The oxygen $n$ orbital which interacts with the $\gamma$-hydrogen and also changes occupation in the excited state is crucial to include in active space, as well as the \ch{C=O} $\pi$ bonding and antibonding orbitals.
@@ -177,7 +177,7 @@ For unsaturated species, it was found to be beneficial to also include the $\pi$
 
 Once identified, these orbitals of interest need to be rotated into the active space. The orbitals which are considered in the active space are those nearest the HOMO/LUMO frontier according to the ($n$,$m$) active space chosen. The ($n$,$m$) nomenclature means enough occupied molecular orbitals to host $n$ electrons are treated as active. These are taken from the HOMO index and those sequentially below. The number of virtual orbitals in the active space is $m$ less the number of active occupied orbitals, and they are indexed from the LUMO and those sequentially above it.
 
-\section{Performing CASSCF and MECI calculations}
+### Performing CASSCF and MECI calculations
 The easiest way to perform this active space selection with the orbitals in the correct index is to interchange orbitals read in from the NBO checkpoint file. This process is illustrated in \autoref{code:CAS_S0} --- interchanging as an example orbitals 9 and 25, as well as 40 and 31. 
 
 Note: before running \autoref{code:CAS_S0}, copy the checkpoint file containing NBOs from \autoref{code:save_NBOs} to have same name as the checkpoint filename used in \autoref{code:CAS_S0} so the CASSCF calculation can read in the correct NBOs. The molecular geometry does not need to be supplied in \autoref{code:CAS_S0} since it is read from the checkpoint file.
