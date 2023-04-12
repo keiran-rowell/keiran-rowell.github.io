@@ -67,7 +67,7 @@ An alternative quantum chemical approach is to bypass the wavefunction and calcu
 
 ### Multiconfigurational methods
 
-Both the DFT and post-HF methods outlined below are "single-reference" methods based upon a single reference Slater determinant. In cases such as electronic degeneracies, a single Slater determinant may be qualitatively inadequate to describe the wavefunction, and single-reference DFT and wavefunction methods will fail. In such cases, multiple Slater determinants must be included through a multiconfigurational (MC) approach. The MC form of HF is known as the multiconfigurational self-consistent field (MCSCF) method, and a common variant of MCSCF is to include all Slater determinants describing  a chemically relevant "active space" (CASSCF).
+Both the DFT and post-HF methods outlined below are "single-reference" methods based upon a single reference Slater determinant. In cases such as electronic degeneracies, a single Slater determinant may be qualitatively inadequate to describe the wavefunction, and single-reference DFT and wavefunction methods will fail. In such cases, multiple Slater determinants must be included through a multiconfigurational (MC) approach. The MC form of HF is known as the multiconfigurational self-consistent field (MCSCF) method, and a common variant of MCSCF is to include all Slater determinants describing  a chemically relevant [active space]({% post_url 2023-04-12-picking-an-active-space %}) (CASSCF).
 
 ### Formalisms for different spin states
 
