@@ -84,32 +84,33 @@ Note: before running the input file below, copy the checkpoint file containing t
 
 The `iop(5/7=$$N$$)` keyword sets the amount of CASSCF convergence cycles used. While this can be increased, a slow or difficult to converge CASSCF calculation is often indicative of a poor active space. In some large molecules convergence can be slow, but if the energy is seen to be monotonically decreasing with each cycle then simply increasing the amount of available cycles may be all that is needed. 
 
-`%chk=[file_path]/[molecule]_S0_8-7.chk`
-`# CASSCF(8,7)/STO-3G iop(5/7=200) Guess=(Read,Alter) Geom=Checkpoint` 
+```
+%chk=[file_path]/[molecule]_S0_8-7.chk
+# CASSCF(8,7)/STO-3G iop(5/7=200) Guess=(Read,Alter) Geom=Checkpoint` 
 
-`
+
 Title Card Required
 
 0 1
 
 9,25
 40,31
-`
+```
 
 If this CAS($$n$$,$$m$$) calculation converges on the $$S_0$$ state at configuration of the $$S_1$$ NTII TS geometry calculated by TD-DFT, then this  wavefunction is taken as a good initial guess for a beginning a conical intersection optimisation.
 
 An example input file of running a minimum energy conical intersection (MECI) search with Gaussian is given below. Again, the checkpoint file from a previous job must be copied to this checkpoint filename specified in the current job to read the orbitals, in this case from the converged CAS $$S_0$$ calculations. Note: in Gaussian 16 the state average weights must be included at the bottom of the input file, whereas Gaussian 09 does not need this extra input and defaults to the 0.5, 0.5 weighting between the upper and lower state of the same spin.
 
-`%chk=[file_path]/[molecule]_CI_search.chk`
-`# CASSCF(8,7)/STO-3G iop(1/8=5) Guess=Read Geom=Checkpoint Opt=Conical`  
+```
+%chk=[file_path]/[molecule]_CI_search.chk
+# CASSCF(8,7)/STO-3G iop(1/8=5) Guess=Read Geom=Checkpoint Opt=Conical  
 
-`
 Title Card Required
 
 0 1
 
 0.5 0.5
-`
+```
 
 The `iop(1/8=$$N$$)` keyword sets the maximum step size during the optimisation, and  generally needs to be decreased from its default value of $$N = 30$$ which corresponds to 0.3 Bohr. Since the $$S_1$$ Norrish Type II TS structure is taken as being close MECI a small step size is appropriate and avoids issues where the optimiser can overshoot the MECI several times if large step sizes are used. The maximum number of convergence cycles may again need to be increased through the use of the `iop(5/7=$$N$$)` keyword, however since an already converged $$S_0$$ CAS wavefunction is used as the initial guess the convergence during MECI searches tended to be well behaved, and convergence issues were often an indication that the geometry optimiser has strayed into a bad part of configuration space and a new guess geometry must be used. 
 
