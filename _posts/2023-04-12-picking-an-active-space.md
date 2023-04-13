@@ -13,6 +13,8 @@ tags: active-space CASSCF multiconfigurational electronic-structure
 
 Multiconfigurational methods are where the training wheels come off, you can no longer use a "black-box" combination of method and basis set -- you **have** to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the "which orbitals?" and "how small a basis set can I get away with?" problems separately. My advisor also gave me guidance that calculating the cation (thus giving you "pulled in" orbitals) is another trick to get started.
 
+The field is developing fast, to the point where there are methods to [automatically](https://doi.org/10.1002/jcc.25869) [select](https://doi.org/10.1021/acs.jctc.9b01297) an [active](https://doi.org/10.1021/acs.jctc.2c01128) [space](https://doi.org/10.1021/acs.jctc.9b00535), but I believe "bespoke" [active space selection](https://sites.lsa.umich.edu/zimmerman-lab/tutorial/electronic-structure-calculation/casscf/) will still have its uses, and is an [art as much as a science](https://doi.org/10.1002/qua.23068). 
+
 ---
 
 ## Complete Active Space (CASSCF) calculations and Minimum Energy Conical Intersection (MECI) searches
