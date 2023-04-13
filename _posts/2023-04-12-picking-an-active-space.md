@@ -11,7 +11,7 @@ tags: active-space CASSCF multiconfigurational electronic-structure
 
 ---
 
-Multiconfigurational methods are where the training wheels come off, you can no longer use a "black-box" combination of method and basis set -- you **have** to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the "which orbitals?" and "how small a basis set can I get away with?" problems separately. I've also been told that calculating the cation (thus giving you "pulled in" orbitals) is another trick to get started.
+Multiconfigurational methods are where the training wheels come off, you can no longer use a "black-box" combination of method and basis set -- you **have** to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the "which orbitals?" and "how small a basis set can I get away with?" problems separately. My advisor also gave me guidance that calculating the cation (thus giving you "pulled in" orbitals) is another trick to get started.
 
 ---
 
