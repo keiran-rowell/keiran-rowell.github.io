@@ -134,7 +134,7 @@ $$
 E_{xc}^{\mathrm{DHDF}} = (1 - a_{x})E_{x}^{\mathrm{DFT}} + a_{x}E_{x}^{\mathrm{HF}} + (1 - a_{c})E_{c}^{\mathrm{DFT}} + a_{c}E_{c}^{\mathrm{PT2}}
 $$
 
-One of the first DHDFs was B2-PLYP which uses the same B88 and LYP functionals as B3LYP, and wavefunction mixing coefficients $$a_{x} = 0.47$$ and $$a_{c} = 0.27$$. The wavefunction mixing coefficients were re-optimised for specific chemical applications for the B2$$X$$-PLYP set of DHDFs. In a systematic survey by Martin *et al.* the "general-purpose" B2GP-PLYP functional, with $$a_{x} = 0.65$$ and $$a_{c} = 0.36$$, was found to be the most robust of the B2$$X$$-PLYP set methods, with maximum errors below 8 kJ/mol across all benchmark datasets surveyed.
+One of the first DHDFs was B2-PLYP which uses the same B88 and LYP functionals as B3LYP, and wavefunction mixing coefficients $$a_{x} = 0.47$$ and $$a_{c} = 0.27$$. The wavefunction mixing coefficients were re-optimised for specific chemical applications for the B2$$X$$-PLYP set of DHDFs. In a [systematic survey](https://doi.org/10.1021/jp801805p) by Karton *et al.* the "general-purpose" B2GP-PLYP functional, with $$a_{x} = 0.65$$ and $$a_{c} = 0.36$$, was found to be the most robust of the B2$$X$$-PLYP set methods, with maximum errors below 8 kJ/mol across all benchmark datasets surveyed.
 
 #### Range separated functionals
 
