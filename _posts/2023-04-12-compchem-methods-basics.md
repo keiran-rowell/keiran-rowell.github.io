@@ -33,7 +33,7 @@ $$
 
 Atomic units are used here to simplify equations. The first term in $$\hat{H}_{\mathrm{electronic}}$$ is the kinetic energy of the electrons, the second term the electron-nuclear attraction, and both are encompassed in the one-electron operator ($$\hat{h}_{i}$$) which is summed over all electrons in the molecule.  The third term represents the electron-electron repulsion and can not be solved exactly for multi-electron systems. Wavefunction-based quantum chemistry methods  differ in the approximations they introduce to solve the electron-electron repulsion term.
 
-In order to solve electronic Schrödinger equation, spin orbitals  ($$\chi_{n}$$) which depend on position of one electron ($$\mathbf{x}_{n}$$) are used. Since electrons are fermions, the wavefunction must obey the Pauli principle and be antisymmetric with respect to the exchange of two electrons. This is achieved by representing the wavefunction of a many electron system ($$\Psi$$) as a Slater determinant of one-electron spin orbitals:
+In order to solve the electronic Schrödinger equation, spin orbitals  ($$\chi_{n}$$) which depend on position of one electron ($$\mathbf{x}_{n}$$) are used. Since electrons are fermions, the wavefunction must obey the Pauli principle and be antisymmetric with respect to the exchange of two electrons. This is achieved by representing the wavefunction of a many electron system ($$\Psi$$) as a Slater determinant of one-electron spin orbitals:
 
 
 $$
