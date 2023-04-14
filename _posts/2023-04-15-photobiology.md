@@ -4,7 +4,7 @@ author: keiran
 title: "The chemistry behind bioluminescence"
 subtitle: "How"
 category: photobiology
-tags: active-space CASSCF multiconfigurational electronic-structure
+tags: luciferin luciferase photobiology bioluminescence fireflies jellyfish 
 ---
 
 *This post is adapted from* [a talk](https://github.com/keiran-rowell/Presentations/blob/main/Bioluminesce%20-%20theory%20group%20presentation.pdf) *I gave at one of the University of Sydney's Theory Group meetings, but is ulimately a refashioned book report of* [Bioluminescene by Thérèse Wilson & J. Woodland Hastings](https://www.hup.harvard.edu/catalog.php?isbn=9780674067165). *The Theory Group talks were an fascinating intiative, where other theoretical chemists were able to present on any topics in science that interested them. I hope my talk was interesting, but I don't think anything could top the talk given by some postdocs on the optimal physical chemistry for cooking pasta and making espresso.*  
