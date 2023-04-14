@@ -28,7 +28,7 @@ In glowsticks a simple [dioxetane](https://en.wikipedia.org/wiki/1,2-Dioxetane) 
 Bioluminescence is found in creatures from sea to sky, but is not evenly distributed amongst organisms on the phylogenetic tree. The central argument in "Bioluminescence: living lights, lights for living" is that bioluminescence was actually an evolutionary accident; a side reactionfor disposing toxic oxyge,  back when oxygen was plentiful in Earth's atmosphere and single-celled organism had not yet adapted the chemistry to cope. This "oxygen detoxification" cause for bioluminescence is a compelling argument, but I don't believe it is proven conclusively. Regardless, here's a summary of the molecules used to create bioluminesence in different organisms
 
 
-### Luciferase + luciferin = 💡  
+### Luciferin + luciferase = 💡  
 
 The reactions that cause bioluminesence involve: a [luciferin](https://en.wikipedia.org/wiki/Luciferin) ('light-bearer'), a molecule that is electronically excited upon addition of O<sub>2</sub>; and a [luciferase](https://pdb101.rcsb.org/motm/78), a protein that catalyses the addition of O<sub>2</sub> to luciferin, and alters the colour of the emitted photon based on the amino acids surrounding the luciferin. 
 
