@@ -46,7 +46,6 @@ The bioluminescence of the *Varigula hilgendorfii* crustacean.
 
 The luciferin is composed mainly of three amino acids and a central imidazopyrazinone, whose N-C=O bond breaks, releasing CO<sub>2</sub> and light.
 
-
 ![Crustacean luciferin](../images/crustaceans_luciferin.png)
 
 The luciferin of the *Varigula hilgendorfii* crustacean. The imidazolepyrazinone (highlighted in red) reacts with oxygen, generating an excited state similar to the excited state carbonyl in dioxetanes that was outlined above. 
@@ -92,7 +91,6 @@ Glowing *Lingulodinium polyedrum* dinoflagellate algae, where the light-emitting
 
 ### Fireflies
 
-
 The glow of the lantern on a firefly's bum is a well known sight, and looks stunning en masse.
 
 ![Firefly bioluminescence](../images/firefly_glow.png)
@@ -114,7 +112,6 @@ The chemistry of firefly luciferin is driven by ATP (the 'battery molecule' of b
 
 ### Quantum chemical calculations on firefly luciferin 
 
-
 In the 20th century several biological and chemical experiments gave us an understanding of photobiology. In the 21st century, new methods in computational chemistry and increases in compute power allows us to look into the physical chemistry behind the generation of an excited state luciferin through O-O bond breakage, and subsequent photon emission.
  
 These calculations can get *very* complicated, so much so that people like [Isabelle Navizet](https://pagespro.univ-gustave-eiffel.fr/isabelle-navizet) and [Roland Lindh](https://www.katalog.uu.se/profile/?id=N10-584) have made careers out of this problem. 
@@ -130,7 +127,8 @@ Density Functional Theory calcuations indicate that the luciferin is in a (π,σ
 
 ![Luciferin CAS calculations](../images/luciferin_CAS_calculations.png)
 
-[Multiconfigurational quantum chemistry calculations]({{% post_url 2023-04-12-picking-an-active-space %}}) show that the first singlet excited state $$S_1$$ is a (π,π^∗^) excitation, and transition state (TS) ejection of the CO~2~ corresponds to a very small energy gap between the $$S_1$$ and $$S_0$$ electronic states.
+
+[Multiconfigurational quantum chemistry calculations]({% post_url 2023-04-12-picking-an-active-space %}) show that the first singlet excited state $$S_1$$ is a (π,π^∗^) excitation, and transition state (TS) ejection of the CO~2~ corresponds to a very small energy gap between the $$S_1$$ and $$S_0$$ electronic states.
 {:.figcaption}
 
 
@@ -157,7 +155,9 @@ I first learnt about this topic as an undergrad, when I picked up a second hand 
 
 ![Fireflies gif](../images/fireflies.gif)
 
-Thank you for reading! I think its incredible how nature manages to generate light by combining chemicals inside the bodies of small organisms, and put on an entrancing show.
+Thank you for reading! 
+
+I think its incredible how nature manages to generate light by combining chemicals inside the bodies of small organisms, and put on an entrancing show.
 
 
 
