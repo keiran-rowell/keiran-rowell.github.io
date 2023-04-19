@@ -100,7 +100,7 @@ The impressive light organ located on abdomen of *Phonuris pyralis*.
 {:.figcaption}
 
 
-The chemisty of firefly luciferin is again different (see blow). 
+The chemisty of firefly luciferin is again different (see below). 
  
 
 ![Firefly luciferin](../images/firefly_luciferin.png)
