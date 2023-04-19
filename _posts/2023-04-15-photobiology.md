@@ -148,7 +148,7 @@ This allows a full mechanistic movie of oxygen entering the luciferase protein, 
 ![Luciferin QM/MM](../images/luciferin_QM-MM.png)
 
 
-I first learnt about this topic as an undergrad, when I picked up a second hand copy of [Computational Methods for Large Systems](https://www.wiley.com/en-us/Computational+Methods+for+Large+Systems:+Electronic+Structure+Approaches+for+Biotechnology+and+Nanotechnology+-p-9780470487884), in which Chapter 12 details "Modelling Photobiology Using QM and QM/MM Calculations".
+I first learnt about this topic as an undergrad, when I picked up a secondhand copy of [Computational Methods for Large Systems](https://www.wiley.com/en-us/Computational+Methods+for+Large+Systems:+Electronic+Structure+Approaches+for+Biotechnology+and+Nanotechnology+-p-9780470487884), in which Chapter 12 details "Modelling Photobiology Using QM and QM/MM Calculations".
 
 
 ---
