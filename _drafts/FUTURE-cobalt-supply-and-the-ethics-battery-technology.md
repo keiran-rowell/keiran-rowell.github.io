@@ -1,7 +1,7 @@
 ---
 layout: post
 author: keiran
-title: "Cobalt and the ethics of the renewal energy transformation"
+title: "Cobalt, Prussian Blue, and the ethics of the renewal energy transformation"
 subtitle: "Battery Required"
 category: batteries 
 tags: cobalt energy batteries 
