@@ -36,7 +36,7 @@ Every class of organism seems to have independently evolved a different luciferi
 
 ### Crustaceans
 
-Crustaceans use the simplest known bioluminescence process: they release two secretions, one containing the luciferin and the other contains the luciferase. The glow begins (see below) when the secretions come into contact.
+Crustaceans use the simplest known bioluminescence process: they release two secretions, one containing the luciferin and the other contains the luciferase. The glow begins (*see below*) when the secretions come into contact.
 
 ![Crustacean bioluminescence](../images/crustaceans_glow.png)
 
@@ -62,7 +62,7 @@ The luciferin of the *Renilla reniformis* sea pansy closely resembles that for *
 
 However, the bioluminescence most well known in the sea is that of jellyfish. Jellyfish bioluminescence is also the most widely used in the lab, supplying the ubiquitous [Green Fluorescent Protein (GFP)](https://en.wikipedia.org/wiki/Green_fluorescent_protein). GFP is used in countless assay and biological experiments -- it's easier to image tissue if it glows. 
 
-In jellyfish, the luciferin is covalently bound to the luciferase, surrounded by a beta barrel structure (see below) which admits only water and provides control of the colour of bioluminescence.
+In jellyfish, the luciferin is covalently bound to the luciferase, surrounded by a beta barrel structure (*see below*) which admits only water and provides control of the colour of bioluminescence.
 
 ![Jellyfish luciferase](../images/jellyfish_GFP.png)
 
@@ -81,7 +81,7 @@ Here, a new type of luciferin is found where a modified [porphyrin](https://en.w
 The luciferin of *Lingulodinium polyedrum* dinoflagellate algae species. 
 {:.figcaption}
 
-The bioluminescence of these algae only activate at night, but glow brightly (see below).
+The bioluminescence of these algae only activate at night, but glow brightly (*see below*).
 
 ![Algae bioluminescence](../images/algae_glow.png)
 
@@ -100,7 +100,7 @@ The impressive light organ located on abdomen of *Phonuris pyralis*.
 {:.figcaption}
 
 
-The chemisty of firefly luciferin is again different (see below). 
+The chemisty of firefly luciferin is again different (*see below*). 
  
 
 ![Firefly luciferin](../images/firefly_luciferin.png)
