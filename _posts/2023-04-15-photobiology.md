@@ -25,7 +25,7 @@ In glowsticks a simple [dioxetane](https://en.wikipedia.org/wiki/1,2-Dioxetane) 
 
 ### Bioluminescence as oxygen disposal
 
-Bioluminescence is found in creatures from sea to sky, but is not evenly distributed amongst organisms on the phylogenetic tree. The central argument in "Bioluminescence: living lights, lights for living" is that bioluminescence was actually an evolutionary accident; a side reaction for disposing toxic oxygen,  back when oxygen was plentiful in Earth's atmosphere and organisms had not yet adapted the chemistry to cope. This "oxygen detoxification" cause for bioluminescence is a compelling argument, but I don't believe it is proven conclusively. Regardless, here's a summary of the molecules used to create bioluminescence in different organisms.
+Bioluminescence is found in creatures from sea to sky, but is not evenly distributed amongst organisms on the phylogenetic tree. The central argument in "Bioluminescence: living lights, lights for living" is that bioluminescence was actually an evolutionary accident: a side reaction for disposing toxic oxygen,  back when oxygen was plentiful in Earth's atmosphere and organisms had not yet adapted the chemistry to cope. This "oxygen detoxification" cause for bioluminescence is a compelling argument, but I don't believe it is proven conclusively. Regardless, here's a summary of the molecules used to create bioluminescence in different organisms.
 
 
 ### Luciferin + luciferase = 💡  
