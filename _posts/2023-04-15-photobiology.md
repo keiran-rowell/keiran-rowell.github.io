@@ -60,7 +60,7 @@ Sea creatures use many different luciferins, and the luciferin for the sea pansy
 The luciferin of the *Renilla reniformis* sea pansy closely resembles that for *Varigula* shown above, but is surrounded with different amino acids. 
 {:.figcaption}
 
-However, the bioluminescence most well known in the sea is that of jellyfish. Jellyfish bioluminescence is also the most widely used in the lab, supplying the ubiquitous [Green Fluorescent Protein (GFP)](https://en.wikipedia.org/wiki/Green_fluorescent_protein). GFP is used in countless assay and biological experiments: it's easier to image tissue if it glows. 
+However, the bioluminescence most well-known in the sea is that of jellyfish. Jellyfish bioluminescence is also the most widely used in the lab, supplying the ubiquitous [Green Fluorescent Protein (GFP)](https://en.wikipedia.org/wiki/Green_fluorescent_protein). GFP is used in countless assay and biological experiments: it's easier to image tissue if it glows. 
 
 In jellyfish, the luciferin is covalently bound to the luciferase, surrounded by a beta barrel structure (*see below*) which admits only water and provides control of the colour of bioluminescence.
 
@@ -91,7 +91,7 @@ Glowing *Lingulodinium polyedrum* dinoflagellate algae, where the light-emitting
 
 ### Fireflies
 
-The glow of the lantern on a firefly's bum is a well known sight, and looks stunning en masse.
+The glow of the lantern on a firefly's bum is a well-known sight, and looks stunning en masse.
 
 ![Firefly bioluminescence](../images/firefly_glow.png)
 
@@ -150,7 +150,7 @@ This allows a full mechanistic movie of oxygen entering the luciferase protein, 
 ![Luciferin QM/MM](../images/luciferin_QM-MM.png)
 
 
-I first learnt about this topic as an undergrad, when I picked up a secondhand copy of [Computational Methods for Large Systems](https://www.wiley.com/en-us/Computational+Methods+for+Large+Systems:+Electronic+Structure+Approaches+for+Biotechnology+and+Nanotechnology+-p-9780470487884), in which Chapter 12 details "Modelling Photobiology Using QM and QM/MM Calculations".
+I first learnt about this topic when I picked up a secondhand copy of [Computational Methods for Large Systems](https://www.wiley.com/en-us/Computational+Methods+for+Large+Systems:+Electronic+Structure+Approaches+for+Biotechnology+and+Nanotechnology+-p-9780470487884), in which Chapter 12 details "Modelling Photobiology Using QM and QM/MM Calculations".
 
 
 ---
