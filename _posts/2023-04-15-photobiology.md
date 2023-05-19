@@ -48,7 +48,7 @@ The luciferin is composed mainly of three amino acids and a central imidazopyraz
 
 ![Crustacean luciferin](../images/crustaceans_luciferin.png)
 
-The luciferin of the *Varigula hilgendorfii* crustacean. The imidazolepyrazinone (highlighted in red) reacts with oxygen, generating an excited state similar to the excited state carbonyl in dioxetanes that was outlined above. 
+The luciferin of the *Varigula hilgendorfii* crustacean. The imidazolepyrazinone (*highlighted in red*) reacts with oxygen, generating an excited state similar to the excited state carbonyl in dioxetanes that was outlined above. 
 {:.figcaption}
 
 ### Jellyfish
@@ -60,7 +60,7 @@ Sea creatures use many different luciferins, and the luciferin for the sea pansy
 The luciferin of the *Renilla reniformis* sea pansy closely resembles that for *Varigula* shown above, but is surrounded with different amino acids. 
 {:.figcaption}
 
-However, the bioluminescence most well known in the sea is that of jellyfish. Jellyfish bioluminescence is also the most widely used in the lab, supplying the ubiquitous [Green Fluorescent Protein (GFP)](https://en.wikipedia.org/wiki/Green_fluorescent_protein). GFP is used in countless assay and biological experiments -- it's easier to image tissue if it glows. 
+However, the bioluminescence most well known in the sea is that of jellyfish. Jellyfish bioluminescence is also the most widely used in the lab, supplying the ubiquitous [Green Fluorescent Protein (GFP)](https://en.wikipedia.org/wiki/Green_fluorescent_protein). GFP is used in countless assay and biological experiments: it's easier to image tissue if it glows. 
 
 In jellyfish, the luciferin is covalently bound to the luciferase, surrounded by a beta barrel structure (*see below*) which admits only water and provides control of the colour of bioluminescence.
 
@@ -116,19 +116,21 @@ In the 20th century several biological and chemical experiments gave us an under
  
 These calculations can get *very* complicated, so much so that people like [Isabelle Navizet](https://pagespro.univ-gustave-eiffel.fr/isabelle-navizet) and [Roland Lindh](https://www.katalog.uu.se/profile/?id=N10-584) have made careers out of this problem. 
 
-Some diagrams follow for the theoretical chemists amongst us. For those without training: suffice to say the character of several excited states are involved, the presence of an anionic group on the luciferin is required to generate a photon-emitting singlet excited state, and curiously a [conical intersection](https://doi.org/10.1146/annurev-physchem-032210-103522) exists along the reaction co-ordinate that ejects the CO<sub>2</sub>. The conical intersection was, at least to me, unexpected because it should *lower* the quantum yield of the luciferin since the conical intersection allows relaxation to the electronic ground state without emitting a photon. A very good review of bioluminescence using the insights gleaned from computational chemistry is provided in [The Chemistry of Bioluminescence: An Analysis of Chemical Functionalities](https://doi.org/10.1002/cphc.201100504).
+Some diagrams follow for the theoretical chemists amongst us. 
+
+For those without training: suffice to say the character of several excited states are involved, the presence of an anionic group on the luciferin is required to generate a photon-emitting singlet excited state, and curiously a [conical intersection](https://doi.org/10.1146/annurev-physchem-032210-103522) exists along the reaction co-ordinate that ejects the CO<sub>2</sub>. The conical intersection was, at least to me, unexpected because it should *lower* the quantum yield of the luciferin since the conical intersection allows relaxation to the electronic ground state without emitting a photon. A very good review of bioluminescence using the insights gleaned from computational chemistry is provided in [The Chemistry of Bioluminescence: An Analysis of Chemical Functionalities](https://doi.org/10.1002/cphc.201100504).
 
 
 ![Luciferin electron transfer](../images/luciferin_electron_exchange.png)
 
-Density Functional Theory calcuations indicate that the luciferin is in a (π,σ<sup>∗</sup>) ground state, and the anionic C-O<sup>-</sup> is crucial since the extra electron undergoes a electron transfer process to the site of the broken O-O bond to generate a singlet excited state $$S_1$$ upon ejection of the CO<sub>2</sub>.
+Density Functional Theory calcuations indicate that the luciferin is in a (π,σ<sup>∗</sup>) ground state, and the anionic C-O<sup>-</sup> is crucial since the extra electron undergoes an electron transfer process to the site of the broken O-O bond to generate a singlet excited state ($$S_1$$) upon ejection of the CO<sub>2</sub>.
 {:.figcaption}
 
 
 ![Luciferin CAS calculations](../images/luciferin_CAS_calculations.png)
 
 
-[Multiconfigurational quantum chemistry calculations]({% post_url 2023-04-12-picking-an-active-space %}) show that the first singlet excited state $$S_1$$ is a (π,π<sup>∗</sup>) excitation, and the transition state (TS) ejecting the CO<sub>2</sub> corresponds to a very small energy gap between the $$S_1$$ and $$S_0$$ electronic states.
+[Multiconfigurational quantum chemistry calculations]({% post_url 2023-04-12-picking-an-active-space %}) show that the first singlet excited state ($$S_1$$) is a (π,π<sup>∗</sup>) excitation, and the transition state (TS) ejecting the CO<sub>2</sub> corresponds to a very small energy gap between the $$S_1$$ and $$S_0$$ electronic states.
 {:.figcaption}
 
 

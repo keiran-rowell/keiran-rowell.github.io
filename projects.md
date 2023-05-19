@@ -1,5 +1,9 @@
 # Projects
 
+<!---
+Add an APAF section here about refactoring code base with the PhD student into APAFunctions. Coordinating with BioCommons to get APAF code on proteomics.usegalaxy.org.au
+-->
+
 ## Structure-Activity Relationships for Carbonyl Photolysis -- (PhD)
 ![Structure-activity relationships for carbonyls](/images/SARs_for_carbonyls.png)
 
