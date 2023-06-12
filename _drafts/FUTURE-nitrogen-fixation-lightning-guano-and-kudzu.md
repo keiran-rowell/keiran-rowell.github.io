@@ -21,7 +21,7 @@ Nitrogen gas (N<sub>2</sub>) is the most common molecule in the atmosphere (~80%
 
 ### N≡N + ⚡: the Promethean way to free nitrogen
 
-It was at the beginning of the 20th century that humanity snapped the N≡N bond open through sheer energy, when the Norwegian hydro-electric Nitrogen stock company (*Hydro*) built the Vemork power plant. Vemork's world-leading 108 MW output was used to generate arcs of artificial lightning that split apart the surrounding nitrogen and oxygen gases, overcoming the N≡N triple-bond strength of 945 kJ/mol (twice that of oxygen gas). The split nitrogen and oxygen gases formed NO gas, which was shepherded along to produce feedstock nitric acid. 
+It was at the beginning of the 20th century that humanity snapped the N≡N bond open through sheer energy, when the Norwegian hydro-electric Nitrogen stock company (*Hydro*) built the Vemork power plant. Vemork's world-leading 108 MW output was used to generate arcs of artificial lightning that split apart the surrounding nitrogen and oxygen gases, overcoming the N≡N triple-bond strength of 942 kJ/mol (twice that of oxygen gas). The split nitrogen and oxygen gases formed NO gas, which was shepherded along to produce feedstock nitric acid. 
 
 This arc-lightning process was so energy intensive that it was unable to compete economically when the alternative Haber-Bosch process, which requires only pressure and heat, was brought to industrial scale (*detailed below*). Vemork began producing other chemicals, including the side-product heavy water (D<sub>2</sub>O: H<sub>2</sub>O whose hydrogens are 'heavier' by one neutron). D<sub>2</sub>O was critical in making nuclear energy and weapons (neutrons slow down when passing through heavy water, allowing to them to be absorbed to produce nuclearly unstable atoms). Vemork was the only site that produced heavy water. The Allies recognised this and exported the D<sub>2</sub>O stockpiles out of the country, though *Hydro* management caved in and agreed to supply new heavy water after the Quisling government surrendered to the Nazis. This launched a sabotage mission by Norwegian resistance ski troops, an operation portrayed in the TV series [The Heavy Water War](https://www.imdb.com/title/tt3280150/).  
 
@@ -45,7 +45,7 @@ Hard labour is still performed to extract guano from the droppings of 4 million 
 
 ### N≡N + 🦠: the organic way to fertilise soil 
 
-Nitrogen has been sequestered from the air into the soil, put there by [nitrogen fixing bacteria roughly 2.5 billion years ago](https://www.science.org/doi/10.1126/science.1165675), around the time the atmosphere became oxygen rich and [well before plants learned learned to breath](https://www.science.org/doi/10.1126/science.355.6330.1110). Nitrogen fixing bacteria contain [nitrogenase](https://pdb101.rcsb.org/motm/26): an enzyme that funnels electrons to a molecular-sized crucible of metal clusters where the N≡N bond is broken. While the structure of this 'crucible' has been [determined in exquisite detail](https://www.rcsb.org/structure/1n2c), to my knowledge *exactly* where and how famously unreactive N≡N binds inside nitrogenase and is split in two us still a subtle unsolved molecular puzzle actively debated by researchers. The efficiency of nitrogenase leaves molecular science embarrassed; what bacteria can do in the open air humans must still force through with electric arcs or hundreds of atmospheres of pressure. 
+Nitrogen has been sequestered from the air into the soil, put there by [nitrogen fixing bacteria roughly 2.5 billion years ago](https://www.science.org/doi/10.1126/science.1165675), around the time the atmosphere became oxygen rich and [well before plants learned learned to breath](https://www.science.org/doi/10.1126/science.355.6330.1110). Nitrogen fixing bacteria contain [nitrogenase](https://pdb101.rcsb.org/motm/26): an enzyme that funnels electrons to a molecular-sized crucible of metal clusters where the N≡N bond is broken. While the structure of this 'crucible' has been [determined in exquisite detail](https://www.rcsb.org/structure/1n2c), to my knowledge *exactly* where and how famously unreactive N≡N binds inside nitrogenase and is still a subtle unsolved molecular puzzle actively debated by researchers. The efficiency of nitrogenase leaves molecular science embarrassed; what bacteria can do in the open air humans must still force through with electric arcs or hundreds of atmospheres of pressure. 
 
 
 Some nitrogen fixing bacteria, known as rhizobia, require a plant host and form nodules in the roots of legumes (beans, clover, peas, *etc*). Rhizobia feed legumes fixed nitrogen until their host dies, at which point they return to the soil or infect a new host, providing bioavailable nitrogen to the soil. This is the answer to the children's song, *"Do you, or I, or anyone know how oats, peas, beans, and barley grow?"*: legumes are included in the crop rotation to ensure the soil remains nitrogen-rich. Several other bacteria can fix nitrogen, including some blue-green algae which have a symbiotic relationship with many plants, including giant Rhubarb (*Gunnera manicata*); an example of which [can be found in the Tasmanian Botanic Gardens](../images/giant_rhubarb.jpg).  
@@ -57,11 +57,27 @@ Kudzu is a vine native to the Asia-Pacific and is a legume with a phenomenally s
 
 ### Attempts to create artificial Nitrogen fixing catalysts
 
-- Traditional catalysts
+As it stands, nitrogen fixation remains critical to global food supply, uses 1--2% of the world's energy (concomitantly producing [1--2% of human CO<sub>2</sub> emissions](https://www.iea.org/reports/ammonia-technology-roadmap/executive-summary) due to the use of fossil fuels as hydrogen source), and underpins a roughly $60 billion industry. A fundamental change in how the world gets its nitrogen would be transformative. There are many approaches to take for alternatives:
 
-- Directed mutagenesis
+- Human made, inorganic, nitrogen fixing catalysts 
 
-- The humanitarian and economic gains if artifical nitrogen fixation could be performed under ambient conditions 
+- 'Green nitrogen' through creating ammonia alternate ways to large scale Haber-Bosch industrial plants
+
+- Coercing nature's nitrogen fixing nitrogenases by using directed mutations 
+
+- Developing new artificial nitrogen fixing enzymes using synthetic biology  
+
+I have no expertise in this field, but there's plenty of literature on such approaches out there for those interested. 
+
+For the approach of developing inorganic nitrogen fixing catalysts, a [recent review](https://doi.org/10.1039/D0CS01341B) surveys a staggering diversity of metals (Mo, Re, V, Zr, Ti, ...) and structures investigated for potential catalysts, of which only Mo catalysts work under ambient conditions. Breakthroughs in inorganic nitrogen fixing catalysts will come in when there is a combination of: an inexpensive (relative to catalytic gain) metal, [such as Fe](https://www.nature.com/articles/nchem.690) which is the key metal inside nitrogenase; use of H<sub>2</sub>O as a hydrogen source; and works under ambient conditions, which would allow allow nitrogen fixation without huge industrial plants.   
+
+For ['green ammonia'](https://royalsociety.org/topics-policy/projects/low-carbon-energy-programme/green-ammonia/), despite the manufacturing innovations that were needed for industrial plants to contain the high pressures required for the Haber-Bosch process, the process itself is efficient for combining hydrogen gas and nitrogen gas. Efforts are therefore directed to either linking the Haber-Bosch process with an emerging renewable energy economy, such as using renewable energy systems to split H<sub>2</sub> for its hydrogen and power gas compression, which [has been estimated to be cheaper and involve less energy loss than the fossil fuel based Haber-Bosch process](https://doi.org/10.1039/C9EE02873K) provided the high pressures are kept. 
+
+
+I can't easily find much literature on applying 'directed mutagenesis' to , where the genes used to create an enzyme are altered. Mutagenesis of some form has been around a while, and was [used on nitrogenase in the 1980s](https://royalsociety.org/topics-policy/projects/low-carbon-energy-programme/green-ammonia/) to show that nitrogenase doesn't fix nitrogen when crucial components (specific amino acids) are replaced, and that nitroganse still feeds cells when only the Fe-containing (not MoFe-containing) section is active. In fact nitrogen fixing bacteria have a range of [alternative nitrogenases](https://link.springer.com/protocol/10.1007/978-1-4939-8864-8_1) when Mo is no available in the environment.   
+
+
+As for [completely new artificial enzymes](https://www.pnas.org/doi/10.1073/pnas.0630028100) to compete with nitrogenase, I don't know if this has been achieved by anyone, but one approach has been to [combine parts from different bacteria by exchanging gene segments](https://doi.org/10.1186/s12934-016-0442-6) I don't have enough working molecular biology knowledge to fruitfully read the nitty-gritty of the papers, but a key result is that [hooking up the electron transport infrastructure](https://www.pnas.org/doi/full/10.1073/pnas.1620058114) from one type of bacteria to the nitrogenase of another can lead to greater efficiency. Gains can also be made by doing things like [turning off the regulatory networks that monitor nitrogen production in a cell](https://academic.oup.com/jxb/article/71/15/4591/5817768).
 
 ---
 
