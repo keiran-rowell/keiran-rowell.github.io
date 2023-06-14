@@ -1,7 +1,7 @@
 ---
 layout: post
 author: keiran  
-title: "Nitrogen fixation, artificial lightning, bird poop, and how kudzu grew out of control"
+title: "Nitrogen fixation: artificial lightning, bird poop, and how kudzu grew out of control"
 subtitle: "How the Midwest was lost and where it got us"
 category: nitrogen-fixation 
 tags: lightning Haber-Bosch guano nitrogenase kudzu   
@@ -11,11 +11,11 @@ tags: lightning Haber-Bosch guano nitrogenase kudzu
 
 *Nitrogen fixation is a subject I was taught about ever since high school chemistry, where the [Haber process](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Le_Chateliers_Principle/The_Haber_Process) was [part of the curriculum on equilibria](https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-science/chemistry-2017/content/2267). The book that most influenced this current post is [The Alchemy of Air](https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/), which details the life of Fritz Haber and Carl Bosch.* 
 
-Carl Bosch was an industrialist unafraid to apply the highest pressures and the wildest materials in the search for a new catalyst. Bosch guided the German chemical conglomerates in 1930s that provided Germany chemical supplies (BASF and Bayer were denazified after WWII and thrive to this day). When the Nazis began to dictate to industry, Bosch was removed from his positions for speaking up against anti-Semitism. Fritz Haber was zealously loyal to imperial Germany, developing many horrific chemical warfare gases; a loyalty that horrified his pacifist wife who took her life following Haber's gas attacks on the battlefield, and ended up meaning nothing to the ascendant Nazi regime which attempted to erase his legacy because he was Jewish. Bosch and Haber were also involved in the early pushes for a synthetic dye industry (a subject for a later post). 
+Carl Bosch was an industrialist unafraid to apply the highest pressures and the wildest materials in the search for a new catalyst. Bosch guided the German chemical conglomerates in 1930s that provided Germany chemical supplies (BASF and Bayer were denazified after WWII and thrive to this day). When the Nazis began to dictate to industry, Bosch was removed from his positions for speaking up against anti-Semitism. Fritz Haber was zealously loyal to imperial Germany, developing many horrific chemical warfare gases; a loyalty that horrified his pacifist wife who took her life following Haber's gas attacks on the battlefield, and ended up meaning nothing to the ascendant Nazi regime which attempted to erase his legacy because he was Jewish. Bosch and Haber were also involved in the early pushes for a synthetic dye industry (*a subject for a later post*). 
 
 ---
 
-### N≡N: The strongest bond in the air 
+### N≡N: the strongest bond in the air 
 
 Nitrogen gas (N<sub>2</sub>) is the most common molecule in the atmosphere (~80%), yet it sits there inert, each nitrogen atom strongly bound to the other.  Because each nitrogen atom requires 3 electrons, the surrounding oxygen atoms can't easily fulfil nitrogen's bonding requirements since they only have 2 unpaired electrons, so the N≡N triple bond dominates the air. When nitrogen-oxygen bonds are made (mostly in car engines), the molecules that are formed (NO<sub>x</sub>) are at the top of the list of atmospheric pollutants. 
 
@@ -30,7 +30,7 @@ Vemork began producing other chemicals, including separating heavy water, D<sub>
 *Hydro* continues as Norway's renewable energy company and one of the largest global suppliers of aluminium. Norway's abundant hydro power is still [leveraged to this day to generate renewable energy](https://www.energy-storage.news/freyr-secures-renewable-power-supply-from-statkraft-for-first-two-gigafactories/). (*disclosure: I have invested in Freyr because I think the enterprise is a good thing for the world*). 
 
 
-### N≡N + 🗜️: the brute force way to make NH<sub>3</sub> that's used to this day
+### N≡N + 🗜️: the brute force way to make NH<sub>3</sub> 
 
 Fixation of atmospheric nitrogen through electrical arcs was not viable almost anywhere else in the world. Bioaccessible nitrogen was needed to meet the fertiliser demands of mechanised agriculture, and mined supplies of nitrates in the form of niter (a historically vague term for mineral deposits) or guano (bird droppings, *detailed below*) were not going to be able to meet demand. Research had been underway for an alternative source of nitrogen, particularly in Germany which lacked niter deposits (a vulnerability that was exposed in WWI when the German navy was blockaded from colonies and foreign trade).
 
@@ -54,11 +54,11 @@ Pre-existing nitrogen in the soil has been put there by [nitrogen fixing bacteri
 Some nitrogen fixing bacteria, known as rhizobia, require a plant host (spefically legumes: beans, clover, peas, *etc*) in which rhizobia form root nodules. Rhizobia feed legumes fixed nitrogen until their host dies, at which point rhizobia infect a new legume or return to the soil, providing bioaccessible nitrogen. This is the answer to the children's song, *"Do you, or I, or anyone know how oats, peas, beans, and barley grow?"* — legumes are included in the crop rotation to ensure the soil remains nitrogen-rich. Several other bacteria can fix nitrogen, including some blue-green algae which have a symbiotic relationship with many plants, including giant Rhubarb (*Gunnera manicata*); an example of which [can be found in the Tasmanian Botanic Gardens](../images/giant_rhubarb.png).  
 
 
-### 🌿 + 🦠: Kudzu and the overrun of the American south 
+### 🌿 + 🦠: kudzu and the overrun of the American south 
 
 Kudzu is a vine native to the Asia-Pacific and is a legume with a phenomenally successful symbiotic relationship with nitrogen fixing bacteria. Kudzu's hardiness and scrabbling tendrils make access to plentiful nitrogen supply via rhizobia a dangerous combination. Kudzu took root in the U.S. after being introduced both for its fashionable purple flowers and as fast growing fodder for livestock. Kudzu is capable of growing at a rate of a foot a day, and was declared a weed as it spread over the landscape, blocking the sun and smothering all below it. Kudzu's growth has been so efficient in the American South that kudzu engulfed entire settlements, as captured in eerie quiescence of [R.E.M's debut album cover](https://upload.wikimedia.org/wikipedia/en/c/c0/R.E.M._-_Murmur.jpg). Kudzu's onward march appears unstoppable, and [the Midwest is set to be next](https://thehill.com/homenews/4025176-midwest-primed-to-be-next-frontier-for-invasive-plant-kudzu/).
 
-### Research to improve nitrogen fixation 
+### 🧑‍🔬 + 🔎: research to improve nitrogen fixation 
 
 As it stands, nitrogen fixation remains critical to global food supply, uses 1--2% of the world's energy (concomitantly producing [1--2% of human CO<sub>2</sub> emissions](https://www.iea.org/reports/ammonia-technology-roadmap/executive-summary)), and underpins a roughly $60 billion ammonia industry. A fundamental change in how the world gets its nitrogen would be transformative. 
 
