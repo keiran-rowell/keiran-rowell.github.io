@@ -7,7 +7,7 @@ category: nitrogen-fixation
 tags: lightning Haber-Bosch guano nitrogenase kudzu   
 ---
 
-> Content notice: this post discusses the history and chemistry behind some of the worst chemical agents of World Wars I & II, but doesn't go into detail about the deaths. It also mentions a suicide, deaths in an industrial accident, and indefinite detention of migrants.  
+> Content notice: this post discusses the history and chemistry that was occurring within the context of the invention of some of the worst chemical agents of World Wars I & II, but doesn't go into detail. It also mentions a suicide, deaths in an industrial accident, and indefinite detention of migrants.  
 
 *Nitrogen fixation is a subject I was taught about ever since high school chemistry, where the [Haber process](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Le_Chateliers_Principle/The_Haber_Process) was [part of the curriculum on equilibria](https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-science/chemistry-2017/content/2267). The book that most influenced this current post is [The Alchemy of Air](https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/), which details the life of Fritz Haber and Carl Bosch.* 
 
