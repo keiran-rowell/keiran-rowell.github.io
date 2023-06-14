@@ -26,7 +26,7 @@ While individual CSFs could be manually selected, one of the most common approac
 ### Generation of Natural Bond Orbitals
 Selection of orbitals to include in the active space is more easily done if natural bond orbitals (NBOs) are used since they correspond to chemical intuition and are localised to the reactive space, while canonical orbitals are often too delocalised to be interpretable.
 
-Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in intrepretability. The starting point for all calculations was generation of an initial orbital population at the $$S_1$$ TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.
+Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in interpretability. The starting point for all calculations was generation of an initial orbital population at the $$S_1$$ TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.
 
 ```	
 %chk=[file_path]/save_NBOs.chk

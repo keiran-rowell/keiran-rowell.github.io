@@ -96,7 +96,7 @@ $$
 |{\Psi_{\mathrm{CC}}}\rangle = \left(1 + \hat{T}_{1} + (\hat{T}_{2} + \frac{1}{2}\hat{T}_{1}^{2}) + (\hat{T}_{3}+\hat{T}_{1}\hat{T}_{2}+\frac{1}{3!}\hat{T}_{1}^{3}) + \cdots \right)|{\Psi_{0}}\rangle
 $$
 
-CC calculations deliver some of the best energetic predictions of any quantum chemical method, but the inclusion of high order excitation results in large computational scaling exponents. For example, CCSD formally scales as $$\mathcal{O}(N^{6})$$ with system size, while CCSDT scales as $$\mathcal{O}(N^{8})$$ and is therefore impratical for modestly sized molecules ($$\sim$$6 non-hydrogen atoms). The use of CCSD with a perturbative triple excitation correction, CCSD(T), scales as $$\mathcal{O}(N^{7})$$. CCSD(T) energies are often the "gold standard" that other quantum chemical methods are benchmarked against.
+CC calculations deliver some of the best energetic predictions of any quantum chemical method, but the inclusion of high order excitation results in large computational scaling exponents. For example, CCSD formally scales as $$\mathcal{O}(N^{6})$$ with system size, while CCSDT scales as $$\mathcal{O}(N^{8})$$ and is therefore impractical for modestly sized molecules ($$\sim$$6 non-hydrogen atoms). The use of CCSD with a perturbative triple excitation correction, CCSD(T), scales as $$\mathcal{O}(N^{7})$$. CCSD(T) energies are often the "gold standard" that other quantum chemical methods are benchmarked against.
 
 ### Density Functional Theory (DFT)
 
