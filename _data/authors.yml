@@ -29,10 +29,7 @@ keiran:
     email:             keiran.rowell@gmail.com
     google-scholar:    tpcUE5IAAAAJ
     github:            keiran-rowell
-    mastodon: @keiran_rowell         
-        name: Mastodon
-        icon: icon-mastodon
-        prepend: https://mastodon.social/
+    mastodon:          keiran_rowell         
     twitter:           keiranrowell
     linkedin:          keiran-rowell
     faculty-site: sbf        

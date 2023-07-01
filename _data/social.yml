@@ -29,13 +29,13 @@ google-scholar:
 faculty-site:
     name: Faculty
     icon: icon-library
-    prepend:  https://www.analytical.unsw.edu.au/facilities/
+    prepend:  "https://www.analytical.unsw.edu.au/facilities/"
 mastodon:
     name: Mastodon
     icon: icon-mastodon
-    prepend: https://mastodon.social/
+    prepend: "https://mastodon.social/@"
 writing:
     name: writing 
     icon: icon-pencil
-    prepend: https://
-    append: .github.io/posts/ 
+    prepend: "https://"
+    append: ".github.io/posts/"
