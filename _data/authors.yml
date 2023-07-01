@@ -35,16 +35,8 @@ keiran:
         prepend: https://mastodon.social/
     twitter:           keiranrowell
     linkedin:          keiran-rowell
-    workplace: sbf        
-        name: Workplace
-        icon: library
-        prepend: https://www.analytical.unsw.edu.au/facilities/
+    faculty-site: sbf        
     writing: keiran-rowell         
-        name: Writing
-        icon: pencil
-        prepend: https://
-        append: .github.io/posts/
-          
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
