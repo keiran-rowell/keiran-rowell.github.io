@@ -22,4 +22,7 @@ A plethora of file formats and data structures proliferate in computational chem
 
 I managed a small compute server used by experimental collaborators, and organised migration of research code to a group GitHub Enterprise repository. I am a strong believer in open-source software and try to adopt FOSS tools such as matplotlib, Inkscape, GIMP, and LaTeX for document and figure preparation. Vim is my main text editor for its expressive efficiency, particularly for the file munging required to process the output of scientific software.  
 
-I've worked with UNSW's Research Technology Services group and regularly attended their training courses (Julia, HPC, Seaborn, ...), and 'Hacky Hour' presentations on contemporary developments in research and high performance computing. 
+I've worked with UNSW's Research Technology Services group and regularly attended their training courses (Julia, HPC, Seaborn, ...), and 'Hacky Hour' presentations on contemporary developments in research and high performance computing.
+
+## Get in contact
+Either send me an email or <a href="https://mastodon.social/@keiran_rowell" rel="me">Follow me on Mastodon!</a> 
