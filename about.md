@@ -25,4 +25,4 @@ I managed a small compute server used by experimental collaborators, and organis
 I've worked with UNSW's Research Technology Services group and regularly attended their training courses (Julia, HPC, Seaborn, ...), and 'Hacky Hour' presentations on contemporary developments in research and high performance computing.
 
 ## Get in contact
-Either send me an email or <a href="https://mastodon.social/@keiran_rowell" rel="me">Follow me on Mastodon!</a> 
+Either send me an email or <a rel="me" href="https://mastodon.social/@keiran_rowell">follow me on Mastodon!</a> 
