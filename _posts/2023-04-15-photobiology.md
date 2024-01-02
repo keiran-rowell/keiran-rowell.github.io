@@ -66,7 +66,7 @@ In jellyfish, the luciferin is covalently bound to the luciferase, surrounded by
 
 ![Jellyfish luciferase](../images/jellyfish_GFP.png)
 
-The Green Fluorescent Protein in *Aequora victorua*, where an enveloping beta barrel is seen around the luciferin. The amino acids in the barrel both prevent the luciferin reacting with external substances, and alter the colour of the light emitted (otherwise the luciferin would glow blue). 
+The Green Fluorescent Protein in *Aequorea victoria*, where an enveloping beta barrel is seen around the luciferin. The amino acids in the barrel both prevent the luciferin reacting with external substances, and alter the colour of the light emitted (otherwise the luciferin would glow blue). 
 {:.figcaption}
 
 ### Algae
