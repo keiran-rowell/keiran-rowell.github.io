@@ -40,7 +40,7 @@ Crustaceans use the simplest known bioluminescence process: they release two sec
 
 ![Crustacean bioluminescence](../images/crustaceans_glow.png)
 
-The bioluminescence of the *Varigula hilgendorfii* crustacean.
+The bioluminescence of the *Vargula hilgendorfii* crustacean.
 {:.figcaption}
 
 
@@ -96,7 +96,7 @@ The glow of the lantern on a firefly's bum is a well-known sight, and looks stun
 ![Firefly bioluminescence](../images/firefly_glow.png)
 
 
-The impressive light organ located on abdomen of *Phonuris pyralis*.
+The impressive light organ located on abdomen of *Photinus pyralis*.
 {:.figcaption}
 
 
