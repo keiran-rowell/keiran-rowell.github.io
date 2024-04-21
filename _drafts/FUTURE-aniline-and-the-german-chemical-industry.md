@@ -16,13 +16,14 @@ tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple
 Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence.   [Synthesis diagram from *Plant Cell Reports*, Volume 35, pages 2449–2459, **(2016)**].
 {:.figcaption}
 
-*The development of dyes used to be covered in a (rarely taught) NSW syllabus option, "Chemistry of Art", which is sadly gone. For those interested in colour more generally, I can recommend "The Secret Lives of Colour" for its addictive ability pick-up and dive into each hue, and "The History of Colour" for an academic history (Chapter 2 starts with synthetic purple and details the explosion in commerically valuabled colour that followed). as a fun book to have in your life. If the industrial dye developments interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
+*The development of dyes used to be covered in a (rarely taught) NSW syllabus option, "Chemistry of Art", which is sadly gone. For those interested in colour more generally, I can recommend* ["The Secret Lives of Colour"](https://www.kassiastclair.com/books) *for its addictive ease to pick-up and dive into each hue, and* ["The History of Colour"](https://www.rca.ac.uk/more/staff/neil-parkinson/) *for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the industrial dye developments interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
 
 ---
 
 ### Born in the purple 🟣
 
 - The value of purple throughout ancient civilisations
+- Recent studyi published in *Chemical Society Reviews* on ["The invention of blue and purple pigments in ancient times"](https://doi.org/10.1039/B606268G)
 
 ### Pauvre mauve 🪻
 
@@ -32,6 +33,11 @@ Indigo is made from joining two slighly modified indole molecules. Indole is suc
 ### The daydream snake 🐍♻️♾️ and the invention of chemical "Aromaticity" and "Resonance" ⌬
 
 - Kekulé
+
+Gravity's Rainbow qoute
+
+Kekulé serpentine solution of benzene's structure is actually within the book Gravity's Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:
+> “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
 
 Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation that first few observed substances were strong smelling) 
 
@@ -55,12 +61,8 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 - The effects on fashion 
 - The societal implications
 
-Gravity's Rainbow qoute
 
-Kekulé serpentine solution of benzene's structure is actually within the book Gravity's Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:
-> “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
-
-I.G. Farben (very literally, "The Colour Syndicate") is a constant ominous industrial spectre stalking Gravity's Rainbow because, tragically, these scientifically and commercially pioneering chemical companies were wrested into the control of depraved, horrific warmongers; the 'Them' of the military-industrial complex which stalks the book's entire narrative.
+BASF would go on to join I.G. Farben (very literally, "The Colour Syndicate"), a cartel appearing as a constant ominous industrial spectre stalking Gravity's Rainbow, tragically mirroring how these scientifically and commercially pioneering chemical companies were wrested into the control of depraved, horrific warmongers; the 'Them' of the military-industrial complex which haunts the book's entire narrative.
 
 ### What goes on in the electronics of dyes ⚛️ 
 
