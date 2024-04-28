@@ -22,46 +22,51 @@ Indigo is made from joining two slighly modified indole molecules. Indole is suc
 
 ### Pauvre mauve 🪻
 
-There's an abundance of green in the natural world (because plants are harnessing the abundant red light from our sun), but blues and purples stick out because they are so [rare in nature](https://set.adelaide.edu.au/news/list/2019/08/20/why-is-the-colour-blue-so-rare-in-nature). Maybe that's why blue is [humanity's favourite colour](https://au.yougov.com/international/articles/12336-why-blue-worlds-favorite-color-1). Bird and butterfly wings have to restort to optical trickery (metamaterials), blueberries get their name (and anti-oxidant health craze) because their skin packed with the crop pigment [anthocynanin](https://en.wikipediea.org/wiki/Anthocyanin), and the blue of the poison dart frog comes from the very toxin in its skin (pumiliotoxin) that makes it poisonous. So, when nature was our only source of chemicals, people's desire the harness the spectrum of 'cool' colours came from crushing the leaves of the somewhat drab woad and the perennially popular indigo (both type of plant and one of Newton's seven 'ROYGB**I**V' colours).  
+There's an abundance of green in the natural world (because plants harness the abundant red light from our sun), but blues and purples stick out because they are so [rare in nature](https://set.adelaide.edu.au/news/list/2019/08/20/why-is-the-colour-blue-so-rare-in-nature). Maybe that's why blue is [humanity's favourite colour](https://au.yougov.com/international/articles/12336-why-blue-worlds-favorite-color-1). Bird and butterfly wings have to restort to optical trickery (metamaterials), blueberries get their name and antioxidant health craze because their skin packed with the crop pigment [anthocynanin](https://en.wikipediea.org/wiki/Anthocyanin), and the blue skin of the poison dart frog is from the very same chemical (pumiliotoxin) that makes it poisonous. Similarly, there's an almost complete abscence of natural purple. Purple cabbage and eggplant contain the same anthocyanins as blueberries, and while violet flowers are so striking the colour is named after them, they do not make a colourfast dye that will last in fabric. So, when nature was our only source of chemicals, people's desire the harness the spectrum of 'cool' colours came from crushing the leaves of the somewhat drab woad and the perennially popular indigo (which is both a type of plant and one of Newton's seven 'ROYGB**I**V' colours). 
+
+The only concentrated, colourfast sources of organic purple come from the seas. *Aplysia* sea slugs [spray purple](https://youtu.be/qmn1bpz00qA?si=ajvqjlsCp7IaI25-) aplysioviolin molecules when threatened, which they have built up from eating red algea, stripping the colour molecule from the algae's light harvestting proteins, and concentrating a modified molecule in their ink glands. A painstaking, but more relaible, way to harvest natural purple is to extract ink glands from the *Murex* sea snail. The 'Tyrian purple' dye harvested from these snail glands was, and is, [outrageously expensive](https://youtu.be/IVXqisH6VeM?si=mRh5GDGBscIPJDDH), fetching around $3000 USD/g in the 21st century. Tyrian purple is in fact a bromoniated derivative of indigo, synthesised using a bromoperoxidase enzyme unique to Murex. Scientists still have not confirmed the active metal within the *Murex*'s bromoperoxidase enzyme (most bromoperoxidases use the rare Vanadium), or which sea snail gene encodes for it. 
+
+Even the colour diversity found within the minerals of the Earth was of little help; the naturally occuring pigments minerals are prone to dull hues, quick fading, and discolouration into green (*e.g.* azurite). Pure, brilliant blue mineral pigment was only provided eye wateringly expensive lapis lazuli (Ultarmarine), mined only in mountains on the North-Eastern tip of Afghanistan. Ultramarine would cost up to 100x other pigments, but its dazzling effect was used in relgious iconography across Asia and Europe and is a notable in famous paintings (*e.g.* the [blue headscarf](https://heritagesciencejournal.springeropen.com/articles/10.1186/s40494-020-00364-5) in *"Girl with a Pearl Earring"*). Synthetic mineral blue dyes were also created in ancient times from copper Silicates (mixed with Ca - "Egyptian" Blue, or Ba - "Han" Blue & Purple), or otherwise just from indigo 'baked into' a mineral substrate, as detailed in a in *Chemical Society Reviews* on ["The invention of blue and purple pigments in ancient times"](https://doi.org/10.1039/B606268G). Han Purple is not a pure purple, but is due to red-copper oxide impurities in production. All these synthetics, however, paled in comparison to "true" Ultramarine and lapis lazuli was in demand well into the 19th century. The physical origin of the intense blue appearance of Ultramarine is chemically interesting: rather than a light absorbing metal at the centre of the mineral, there is instead a caged negatively charged trisulfur radical (S$$_3^{.-}$$).   
+
+Now with modern chemistry, blue hues can be made that are so striking that an artist can make a multimillionair dollar name for themselves with [one famous blue dye](https://www.invaluable.com/blog/yves-klein-blue/), and scientific careers and reputations can be built upon chemists' prowess to manufacture the [bluest blue](https://www.huffpost.com/entry/quantum-blue-berkeley_n_5b8db0a4e4b0511db3db33a1). The chemistry of commercially abundant purple dyes, however, was only cracked in the 19th, and now still purple and violet contain unplumbed depths in colour terminology, our [visual perception](https://jakubmarian.com/difference-between-violet-and-purple/) near the UV wavelengths, and even the [colour range](https://ericportis.com/posts/2024/okay-color-spaces/) of our computer monitors. 
  
-Purple and Blue were the least available and most coveted pigmnents in the pre-modern world. These colours were available only from the eye wateringly expensive lapis lazuili (Ultarmarine), mined only in Afghanistan, and Egyptian and Han Blue and Purple which are copper silicates thought to have arised entirely separately in each Ancient civilisation. 
-
-Now with modern chemistry, blue hues are so striking that an artist can make a multimillionair dollar name for themselves with [one famous blue dye](https://www.invaluable.com/blog/yves-klein-blue/), and scientific careers and reputations can be built upon chemists' prowess to manufacture the [bluest blue](https://www.huffpost.com/entry/quantum-blue-berkeley_n_5b8db0a4e4b0511db3db33a1). The chemistry of commercially viable purple, however, was cracked before blue, even though purple and violet still hold unplumbed depths in colour terminology, our [visual perception](https://jakubmarian.com/difference-between-violet-and-purple/) near the UV wavelegnths, and even the [colour range](https://ericportis.com/posts/2024/okay-color-spaces/) of our computer monitors. What follows is the history of how purple was cracked from crude hydrocarbons.  
-
-- Recent study published in *Chemical Society Reviews* on ["The invention of blue and purple pigments in ancient times"](https://doi.org/10.1039/B606268G)
-
-- Roman's purple togas, created from single drop secretions of sea creatures. Such and important symbol and class and political status that under some reigns you could be put to death for improperly wearing purple. 
-- Ancient East and South Asian uses of purple (from the above)
 
 ### Born in the purple 🟣
-
+- Roman's purple togas, created from single drop secretions of sea creatures. Emperors got purple togas, senators a mere strip along the fringe of their white togas. Such and important symbol and class and political status that under some reigns you could be put to death for improperly wearing purple. 
 - Really poor subsitutes for sea-creature purple
 - Ironically, despite the incredibly rarity of steadfast purple in nature, purple's was the first and entirely accidental synthetic hue 
-- Needed to discover one of the most fundemental secrets in organic (carbon-based) chemistry to unlock synthetic purple
+- Needed to discover one of the most fundemental secrets in organic (carbon-based) chemistry to unlock synthetic purple.. [this segues into Kekule]
 
-### The daydream snake 🐍♻️♾️ and the invention of chemical "Aromaticity" and "Resonance" ⌬
+### Muckracking ⚗️
 
-- Kekulé
+- The search for a cheap route to quinine to treat malaria 
 
+William Henry Perkin discovered artifical purple dye entirely by accident. His motivation was not encoloration, but Empire.
+- Perkin and the dye industry
+[Perkin and Hofmann](https://pubs.rsc.org/en/content/articlelanding/1896/ct/ct8966900596)
+- The search for cheap feedstocks
+
+
+### Benzene: The daydream snake 🐍♻️♾️ and the invention of chemical "Aromaticity" ⌬
+
+- Kekulé  
 Gravity's Rainbow qoute
 
 Kekulé serpentine solution of benzene's structure is actually within the book Gravity's Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:
 > “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
 
-- Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation that first few observed substances were strong smelling) 
+
+"Sur la constitution des substances aromatiques".
+- Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet). 
 - Add some history of why it was called aromaticity (scientist names). Talk about how aromatic 'sections' of molecules give them some of their most interesting chemical behaviour
 - Resonance  -- a terrible misnomer, as with most chemical nomenclature, because molecular nuclei do *not* 'resonate' between two separate resonance structures ([as many of the original theorists well knew, though confusion rose rapidly due partly to sloppy exposition by Pauling in a campaign to expand the conceptual basis of structural chemistry.](https://www.jstor.org/stable/4027968)).
 - Figure of benzene "resonance contributors" and the true delocalised dashed line ring version 
 - The Soviet opposition to resonance. The term mesomerism occasionally making an appearance instead.  
 A vocal minority of Soviet scientists [viewed the resonance concept as fictitious mathematical idealisation that was antithetical to dialectal materialism](https://www.jstor.org/stable/227752), so the state adopted a terminological slight of hand to avoid referring to resonance or using 'resonance structures' as a teaching aid.  
 
- 
-### Muckracking ⚗️
 
-- Perkin and the dye industry
-[Perkin and Hofmann](https://pubs.rsc.org/en/content/articlelanding/1896/ct/ct8966900596)
-- The search for a cheap route to quinine to treat malaria 
-- The search for cheap feedstocks
+... this segues back in William Perkin knowing enough about aromatic chemistry to search for quinin precusors.  [Actually, Kekule's benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss
+ 
 
 ### Coal tarred 🪨 and feathered
 
