@@ -49,12 +49,16 @@ William Henry Perkin discovered artifical purple dye entirely by accident. His m
 
 ### Benzene: The daydream snake 🐍♻️♾️ and the invention of chemical "Aromaticity" ⌬
 
+Benzene is a molecule. 
+
+- It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. 
 - Kekulé  
 Gravity's Rainbow qoute
 
 Kekulé serpentine solution of benzene's structure is actually within the book Gravity's Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:
 > “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
 
+- In the [*"Coloring* Gravity's Rainbow*"*](https://doi.org/10.16995/pn.374) the author's apply criticl lens to the chromatic and chemical connections in this book. The protagonist's very name -- Tryone -- has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
 
 "Sur la constitution des substances aromatiques".
 - Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet). 
@@ -63,10 +67,15 @@ Kekulé serpentine solution of benzene's structure is actually within the book G
 - Figure of benzene "resonance contributors" and the true delocalised dashed line ring version 
 - The Soviet opposition to resonance. The term mesomerism occasionally making an appearance instead.  
 A vocal minority of Soviet scientists [viewed the resonance concept as fictitious mathematical idealisation that was antithetical to dialectal materialism](https://www.jstor.org/stable/227752), so the state adopted a terminological slight of hand to avoid referring to resonance or using 'resonance structures' as a teaching aid.  
-
+- Armit and Robison "aromatic sextet" [paper](https://doi.org/10.1039/CT9252701604)
+- Don't let the historical account get in the way of a good story. *Chemical Reviews* provides a good instructional [review paper on this history](https://doi.org/10.1021/cr0300946). Nevertheless, a sizeable chunk of Kekules students went on the work in the german Dye industry 
 
 ... this segues back in William Perkin knowing enough about aromatic chemistry to search for quinin precusors.  [Actually, Kekule's benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss
  
+
+% Prohpyrin means 'purple' and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
+
+%footnote 5 in "Colouring Gracity's Rainbow", World Disarmament and the Master Key Industry. "Who makes dyes today can tomorrow make high-explosives"
 
 ### Coal tarred 🪨 and feathered
 
