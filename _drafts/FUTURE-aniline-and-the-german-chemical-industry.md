@@ -32,10 +32,9 @@ Now with modern chemistry, blue hues can be made that are so striking that an ar
  
 
 ### Born in the purple 🟣
-- Roman's purple togas, created from single drop secretions of sea creatures. Emperors got purple togas, senators a mere strip along the fringe of their white togas. Such and important symbol and class and political status that under some reigns you could be put to death for improperly wearing purple. 
-- Really poor subsitutes for sea-creature purple
-- Ironically, despite the incredibly rarity of steadfast purple in nature, purple's was the first and entirely accidental synthetic hue 
-- Needed to discover one of the most fundemental secrets in organic (carbon-based) chemistry to unlock synthetic purple.. [this segues into Kekule]
+Purple has long signified royalty and power, to the point that its use was restricted to high office. This wasn't just due to the expense of natural purple dye, but was often enforced by social codes and law. Famously, Romans officials would line their formal attire (togas) with a strip of purple lining the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't restricted to appointed official, but likely had a religious origin and was worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055i). However, a toga fully clad in pruple was restricted to Roman conuls and generals performing a Triumph, and later to the Emperor alone, and the unsanctioned wearing of purple was even codified as an offence punishable by death during Nero's reign. The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry (from Ancient Greek *porphyra* - lit. purple) stone. This colour distinction of the birthright to rule was enforced from cradle to grave, as Emperors were buried in tombs made from porhyry, some [survive today outside the Archealogical Museum in Instanbul](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html). 
+
+Ironically, despite the incredibly rarity of steadfast purple in nature, purple was the first in a tidal wave of synthetic industrial dyes, bringing the colour to the masses causing it to become commonplace and unfashionable in quickly after reaching the mass market. The discovery of artifical purple dye (mauvine) was entirely accidentally, but the chemical knowledge to synthesise at massive scale required the unravelling some of the fundemental mysteries in organic (carbon-based) chemistry, and clarification how electrons create molecular structure and govern the interactions of dye molecules with light.  
 
 ### Muckracking ⚗️
 
@@ -51,7 +50,7 @@ William Henry Perkin discovered artifical purple dye entirely by accident. His m
 
 Benzene is a molecule. 
 
-- It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. 
+- It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. Remeber structural proposals were well before the discovery of the electron (Begat six aromatic electrons paper)  
 - Kekulé  
 Gravity's Rainbow qoute
 
@@ -63,7 +62,7 @@ Kekulé serpentine solution of benzene's structure is actually within the book G
 "Sur la constitution des substances aromatiques".
 - Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet). 
 - Add some history of why it was called aromaticity (scientist names). Talk about how aromatic 'sections' of molecules give them some of their most interesting chemical behaviour
-- Resonance  -- a terrible misnomer, as with most chemical nomenclature, because molecular nuclei do *not* 'resonate' between two separate resonance structures ([as many of the original theorists well knew, though confusion rose rapidly due partly to sloppy exposition by Pauling in a campaign to expand the conceptual basis of structural chemistry.](https://www.jstor.org/stable/4027968)).
+- Resonance  -- a terrible misnomer, as with most chemical nomenclature, because molecular nuclei do *not* 'resonate' between two separate resonance structures ([as many of the original theorists well knew, though confusion rose rapidly due partly to sloppy exposition by Pauling in a campaign to expand the conceptual basis of structural chemistry.](https://www.jstor.org/stable/4027968)).  [misunderstanding of Kekule claiming "vibrating" he literally meant internal vibrational temporary distortions of a D6h symmetric ring, not oscillating between "resonance contributors" 
 - Figure of benzene "resonance contributors" and the true delocalised dashed line ring version 
 - The Soviet opposition to resonance. The term mesomerism occasionally making an appearance instead.  
 A vocal minority of Soviet scientists [viewed the resonance concept as fictitious mathematical idealisation that was antithetical to dialectal materialism](https://www.jstor.org/stable/227752), so the state adopted a terminological slight of hand to avoid referring to resonance or using 'resonance structures' as a teaching aid.  
@@ -73,7 +72,11 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 ... this segues back in William Perkin knowing enough about aromatic chemistry to search for quinin precusors.  [Actually, Kekule's benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss
  
 
+[Collections of early napthalene dye experiments](https://armstrongwynne.org/). Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry. 
+
 % Prohpyrin means 'purple' and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
+% Azulene from azure 'blue' and the -ene suffix of double bonds. 
+
 
 %footnote 5 in "Colouring Gracity's Rainbow", World Disarmament and the Master Key Industry. "Who makes dyes today can tomorrow make high-explosives"
 
@@ -95,6 +98,8 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 - Some of Seth Olsen's papers amongst others
 - Link back to GFP chromophores etc?  
 - The composition of dyes in ancient artefacts are still an object of study (link to the Blue & Purple dyes chemistry paper).
+- Mobius aromaticity? 
+
 
 ---
 
