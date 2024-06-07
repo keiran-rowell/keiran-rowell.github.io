@@ -32,7 +32,10 @@ Now with modern chemistry, blue hues can be made that are so striking that an ar
  
 
 ### Born in the purple 🟣
+
 Purple has long signified royalty and power, to the point that its use was restricted to high office. This wasn't just due to the expense of natural purple dye, but was often enforced by social codes and law. Famously, Romans officials would line their formal attire (togas) with a strip of purple lining the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't restricted to appointed official, but likely had a religious origin and was worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055i). However, a toga fully clad in pruple was restricted to Roman conuls and generals performing a Triumph, and later to the Emperor alone, and the unsanctioned wearing of purple was even codified as an offence punishable by death during Nero's reign. The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry (from Ancient Greek *porphyra* - lit. purple) stone. This colour distinction of the birthright to rule was enforced from cradle to grave, as Emperors were buried in tombs made from porhyry, some [survive today outside the Archealogical Museum in Instanbul](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html). 
+
+% Phorygineture 
 
 Ironically, despite the incredibly rarity of steadfast purple in nature, purple was the first in a tidal wave of synthetic industrial dyes, bringing the colour to the masses causing it to become commonplace and unfashionable in quickly after reaching the mass market. The discovery of artifical purple dye (mauvine) was entirely accidentally, but the chemical knowledge to synthesise at massive scale required the unravelling some of the fundemental mysteries in organic (carbon-based) chemistry, and clarification how electrons create molecular structure and govern the interactions of dye molecules with light.  
 
@@ -97,8 +100,11 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 - Dyes are still a testbed for theoretical chemistry. Like revisiting the [classic green and red dyes](https://pubs.acs.org/doi/abs/10.1021/jp309006e)
 - Some of Seth Olsen's papers amongst others
 - Link back to GFP chromophores etc?  
-- The composition of dyes in ancient artefacts are still an object of study (link to the Blue & Purple dyes chemistry paper).
 - Mobius aromaticity? 
+- % Porphyrins (lit. purple) and electronic excitations should go here??
+- % [Research just last year](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring aroudn the perimeter
+ - % Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision 
+
 
 
 ---

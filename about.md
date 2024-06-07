@@ -6,7 +6,7 @@ image:
 # About
 
 ## Summary
-I'm a computational scientist, interested in all things occurring on the molecular scale. 
+I'm a computational scientist, interested in applying computing power to bringing insight to molecular problems. 
 
 I've worked in multiple Australian universities, attempting to extract meaning from calculated data. My PhD was in photochemistry: trying to work out the rules that determine the energetics of bond-breaking in atmospheric molecules -- whereas my Honours was on DNA-binding drugs: using molecular dynamics to simulate how they insert into the double-helix DNA ladder. I love teaching, and was glad to be recognised with a 'Rising Star' award by UNSW Science. I worked at Matrix Education for a long while, inspiring the next generation to think analytically. 
 
@@ -20,7 +20,7 @@ I have worked within Linux and high performance computing environments for 5+ ye
 
 A plethora of file formats and data structures proliferate in computational chemistry, so I regularly had the need to write parsing, data extraction, and translation scripts. I studied some undergraduate computer science and bioinformatics courses, in which I wrote C code to implement foundational data structures and algorithms, as well as perform sequence alignment and biological analysis. 
 
-I managed a small compute server used by experimental collaborators, and organised migration of research code to a group GitHub Enterprise repository. I am a strong believer in open-source software and try to adopt FOSS tools such as matplotlib, Inkscape, GIMP, and LaTeX for document and figure preparation. Vim is my main text editor for its expressive efficiency, particularly for the file munging required to process the output of scientific software.  
+I managed a small compute server used by experimental collaborators, and organised migration of research code to a group GitHub Enterprise repository. I am a strong believer in open-source software and try to adopt FOSS tools such as matplotlib, Inkscape, GNU IMP, and LaTeX for document and figure preparation. Vim is my main text editor for its expressive efficiency, particularly for the file munging required to process the output of scientific software.  
 
 I've worked with UNSW's Research Technology Services group and regularly attended their training courses (Julia, HPC, Seaborn, ...), and 'Hacky Hour' presentations on contemporary developments in research and high performance computing.
 
