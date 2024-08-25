@@ -1,2 +1,582 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://keiran-rowell.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keiran-rowell.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-01-06T18:18:54+11:00</updated><id>https://keiran-rowell.github.io/feed.xml</id><title type="html">Keiran Rowell</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-08-25T14:29:02+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Keiran Rowell</title><subtitle></subtitle><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><entry><title type="html">From Muck to Mauve: the creation of modern dyes from coal tar</title><link href="http://localhost:4000/dyes/2024-08-25-FUTURE-aniline-and-the-german-chemical-industry/" rel="alternate" type="text/html" title="From Muck to Mauve: the creation of modern dyes from coal tar" /><published>2024-08-25T14:28:32+10:00</published><updated>2024-08-25T14:28:32+10:00</updated><id>http://localhost:4000/dyes/FUTURE-aniline-and-the-german-chemical-industry</id><content type="html" xml:base="http://localhost:4000/dyes/2024-08-25-FUTURE-aniline-and-the-german-chemical-industry/"><![CDATA[<blockquote>
+  <p>Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is aluded to in a literary work that was famously denied a Putlizer prize because of its confronting content.</p>
+</blockquote>
+
+<p><em>In this post I’m aiming to give a broad-brush overview of how near-infinite array of colours we see in textiles today was wrought from some the of most murky carbon substances known. This post will focus on purple (specifically, mauveine). I’d like to more on specific dyes in the future because they have so many fascinating chemical properties. For example, indigo forms from the dimer of the common indole group in biochemistry, placing it within striking distance of tryophan in the biosynthetic pathway.</em></p>
+
+<p><img src="/images/indole_metabolism_in_plants.png" alt="Indigo biosynthesis in plants" /></p>
+
+<p class="figcaption">Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence.   [Synthesis diagram from <em>Plant Cell Reports</em>, Volume 35, pages 2449–2459, <strong>(2016)</strong>].</p>
+
+<p><em>The development of dyes used to be covered in a (rarely taught) NSW syllabus option, “Chemistry of Art”, which touched on everything from indigenous dyes to transition metal pigments and atomic spectroscopy, but is sadly now gone. For those interested in colour more generally, I can recommend</em> <a href="https://www.kassiastclair.com/books">“The Secret Lives of Colour”</a> <em>for its addictive ease to pick-up and dive into each hue, and</em> <a href="https://www.rca.ac.uk/more/staff/neil-parkinson/">“The History of Colour”</a> <em>for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the industrial dye developments interests you, BASF have well produced and comprehensive account of their entire history <a href="https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html">on their website</a>.</em></p>
+
+<hr />
+
+<h3 id="pauvre-mauve-">Pauvre mauve 🪻</h3>
+
+<p>There’s an abundance of green in the natural world (because plants harness the abundant red light from our sun), but blues and purples stick out because they are so <a href="https://set.adelaide.edu.au/news/list/2019/08/20/why-is-the-colour-blue-so-rare-in-nature">rare in nature</a>. Maybe that’s why blue is <a href="https://au.yougov.com/international/articles/12336-why-blue-worlds-favorite-color-1">humanity’s favourite colour</a>. Bird and butterfly wings have to restort to optical trickery (metamaterials), blueberries get their name and antioxidant health craze because their skin packed with the crop pigment <a href="https://en.wikipediea.org/wiki/Anthocyanin">anthocynanin</a>, and the blue skin of the poison dart frog is from the very same chemical (pumiliotoxin) that makes it poisonous. Similarly, there’s an almost complete abscence of natural purple. Purple cabbage and eggplant contain the same anthocyanins as blueberries, and while violet flowers are so striking the colour is named after them, they do not make a colourfast dye that will last in fabric. So, when nature was our only source of chemicals, people’s desire the harness the spectrum of ‘cool’ colours came from crushing the leaves of the somewhat drab woad and the perennially popular indigo (which is both a type of plant and one of Newton’s seven ‘ROYGB<strong>I</strong>V’ colours).</p>
+
+<p>The only concentrated, colourfast sources of organic purple come from the seas. <em>Aplysia</em> sea slugs <a href="https://youtu.be/qmn1bpz00qA?si=ajvqjlsCp7IaI25-">spray purple</a> aplysioviolin molecules when threatened, which they have built up from eating red algea, stripping the colour molecule from the algae’s light harvestting proteins, and concentrating a modified molecule in their ink glands. A painstaking, but more relaible, way to harvest natural purple is to extract ink glands from the <em>Murex</em> sea snail. The ‘Tyrian purple’ dye harvested from these snail glands was, and is, <a href="https://youtu.be/IVXqisH6VeM?si=mRh5GDGBscIPJDDH">outrageously expensive</a>, fetching around $3000 USD/g in the 21st century. Tyrian purple is in fact a bromoniated derivative of indigo, synthesised using a bromoperoxidase enzyme unique to Murex. Scientists still have not confirmed the active metal within the <em>Murex</em>’s bromoperoxidase enzyme (most bromoperoxidases use the rare Vanadium), or which sea snail gene encodes for it.</p>
+
+<p>Even the colour diversity found within the minerals of the Earth was of little help; the naturally occuring pigments minerals are prone to dull hues, quick fading, and discolouration into green (<em>e.g.</em> azurite). Pure, brilliant blue mineral pigment was only provided eye wateringly expensive lapis lazuli (Ultarmarine), mined only in mountains on the North-Eastern tip of Afghanistan. Ultramarine would cost up to 100x other pigments, but its dazzling effect was used in relgious iconography across Asia and Europe and is a notable in famous paintings (<em>e.g.</em> the <a href="https://heritagesciencejournal.springeropen.com/articles/10.1186/s40494-020-00364-5">blue headscarf</a> in <em>“Girl with a Pearl Earring”</em>). Synthetic mineral blue dyes were also created in ancient times from copper Silicates (mixed with Ca - “Egyptian” Blue, or Ba - “Han” Blue &amp; Purple), or otherwise just from indigo ‘baked into’ a mineral substrate, as detailed in a in <em>Chemical Society Reviews</em> on <a href="https://doi.org/10.1039/B606268G">“The invention of blue and purple pigments in ancient times”</a>. Han Purple is not a pure purple, but is due to red-copper oxide impurities in production. All these synthetics, however, paled in comparison to “true” Ultramarine and lapis lazuli was in demand well into the 19th century. The physical origin of the intense blue appearance of Ultramarine is chemically interesting: rather than a light absorbing metal at the centre of the mineral, there is instead a caged negatively charged trisulfur radical (S\(_3^{.-}\)).</p>
+
+<p>Now with modern chemistry, blue hues can be made that are so striking that an artist can make a multimillionair dollar name for themselves with <a href="https://www.invaluable.com/blog/yves-klein-blue/">one famous blue dye</a>, and scientific careers and reputations can be built upon chemists’ prowess to manufacture the <a href="https://www.huffpost.com/entry/quantum-blue-berkeley_n_5b8db0a4e4b0511db3db33a1">bluest blue</a>. The chemistry of commercially abundant purple dyes, however, was only cracked in the 19th, and now still purple and violet contain unplumbed depths in colour terminology, our <a href="https://jakubmarian.com/difference-between-violet-and-purple/">visual perception</a> near the UV wavelengths, and even the <a href="https://ericportis.com/posts/2024/okay-color-spaces/">colour range</a> of our computer monitors.</p>
+
+<h3 id="born-in-the-purple-">Born in the purple 🟣</h3>
+
+<p>Purple has long signified royalty and power, to the point that its use was restricted to high office. This wasn’t just due to the expense of natural purple dye, but was often enforced by social codes and law. Famously, Romans officials would line their formal attire (togas) with a strip of purple lining the border. This style, the <em>toga praetexta</em> (from Preator, a magistrate position below Consul) wasn’t restricted to appointed official, but likely had a religious origin and was worn by priests and <a href="https://www.jstor.org/stable/693055i">pre-adolescent children of fortunate birth</a>. However, a toga fully clad in pruple was restricted to Roman conuls and generals performing a Triumph, and later to the Emperor alone, and the unsanctioned wearing of purple was even codified as an offence punishable by death during Nero’s reign. The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry (from Ancient Greek <em>porphyra</em> - lit. purple) stone. This colour distinction of the birthright to rule was enforced from cradle to grave, as Emperors were buried in tombs made from porhyry, some <a href="https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html">survive today outside the Archealogical Museum in Instanbul</a>.</p>
+
+<p>% Phorygineture</p>
+
+<p>Ironically, despite the incredibly rarity of steadfast purple in nature, purple was the first in a tidal wave of synthetic industrial dyes, bringing the colour to the masses causing it to become commonplace and unfashionable in quickly after reaching the mass market. The discovery of artifical purple dye (mauvine) was entirely accidentally, but the chemical knowledge to synthesise at massive scale required the unravelling some of the fundemental mysteries in organic (carbon-based) chemistry, and clarification how electrons create molecular structure and govern the interactions of dye molecules with light.</p>
+
+<h3 id="muckracking-️">Muckracking ⚗️</h3>
+
+<ul>
+  <li>The search for a cheap route to quinine to treat malaria</li>
+</ul>
+
+<p>William Henry Perkin discovered artifical purple dye entirely by accident. His motivation was not encoloration, but Empire.</p>
+<ul>
+  <li>Perkin and the dye industry
+<a href="https://pubs.rsc.org/en/content/articlelanding/1896/ct/ct8966900596">Perkin and Hofmann</a></li>
+  <li>The search for cheap feedstocks</li>
+</ul>
+
+<h3 id="benzene-the-daydream-snake-️️-and-the-invention-of-chemical-aromaticity-">Benzene: The daydream snake 🐍♻️♾️ and the invention of chemical “Aromaticity” ⌬</h3>
+
+<p>Benzene is a molecule.</p>
+
+<ul>
+  <li>It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. Remeber structural proposals were well before the discovery of the electron (Begat six aromatic electrons paper)</li>
+  <li>Kekulé<br />
+Gravity’s Rainbow qoute</li>
+</ul>
+
+<p>Kekulé serpentine solution of benzene’s structure is actually within the book Gravity’s Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:</p>
+<blockquote>
+  <p>“Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process… No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?”</p>
+</blockquote>
+
+<ul>
+  <li>In the <a href="https://doi.org/10.16995/pn.374"><em>“Coloring</em> Gravity’s Rainbow<em>“</em></a> the author’s apply criticl lens to the chromatic and chemical connections in this book. The protagonist’s very name – Tryone – has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry.</li>
+</ul>
+
+<p>“Sur la constitution des substances aromatiques”.</p>
+<ul>
+  <li>Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet).</li>
+  <li>Add some history of why it was called aromaticity (scientist names). Talk about how aromatic ‘sections’ of molecules give them some of their most interesting chemical behaviour</li>
+  <li>Resonance  – a terrible misnomer, as with most chemical nomenclature, because molecular nuclei do <em>not</em> ‘resonate’ between two separate resonance structures (<a href="https://www.jstor.org/stable/4027968">as many of the original theorists well knew, though confusion rose rapidly due partly to sloppy exposition by Pauling in a campaign to expand the conceptual basis of structural chemistry.</a>).  [misunderstanding of Kekule claiming “vibrating” he literally meant internal vibrational temporary distortions of a D6h symmetric ring, not oscillating between “resonance contributors”</li>
+  <li>Figure of benzene “resonance contributors” and the true delocalised dashed line ring version</li>
+  <li>The Soviet opposition to resonance. The term mesomerism occasionally making an appearance instead.<br />
+A vocal minority of Soviet scientists <a href="https://www.jstor.org/stable/227752">viewed the resonance concept as fictitious mathematical idealisation that was antithetical to dialectal materialism</a>, so the state adopted a terminological slight of hand to avoid referring to resonance or using ‘resonance structures’ as a teaching aid.</li>
+  <li>Armit and Robison “aromatic sextet” <a href="https://doi.org/10.1039/CT9252701604">paper</a></li>
+  <li>Don’t let the historical account get in the way of a good story. <em>Chemical Reviews</em> provides a good instructional <a href="https://doi.org/10.1021/cr0300946">review paper on this history</a>. Nevertheless, a sizeable chunk of Kekules students went on the work in the german Dye industry</li>
+</ul>
+
+<p>… this segues back in William Perkin knowing enough about aromatic chemistry to search for quinin precusors.  [Actually, Kekule’s benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss</p>
+
+<p><a href="https://armstrongwynne.org/">Collections of early napthalene dye experiments</a>. Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry.</p>
+
+<p>% Prohpyrin means ‘purple’ and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
+% Azulene from azure ‘blue’ and the -ene suffix of double bonds.</p>
+
+<p>%footnote 5 in “Colouring Gracity’s Rainbow”, World Disarmament and the Master Key Industry. “Who makes dyes today can tomorrow make high-explosives”</p>
+
+<h3 id="coal-tarred--and-feathered">Coal tarred 🪨 and feathered</h3>
+
+<ul>
+  <li>BASF - <em>Badische Anilin und Sodafabrik</em> (Baden Aniline and Sodium Carbonate Factory). The rise of this company was meteoric after <a href="/nitrogen-fixation/2023-06-14-nitrogen-fixation/">Haber and Bosch invented their method</a> to turn nitrogen from the air into fertiliser. The sodafabrik part of BASF is infamous of New South Wales highschool students who had to memorise the conditions of the Solvay process as part of their Industrial Chemistry module.</li>
+  <li>Known as the <a href="https://www.basf.com/global/images/about-us/history/21252221_BRO_Anilinerinnen_englisch_final.pdf.assetdownload.pdf">Aniline women</a></li>
+  <li>BASF would go on to join I.G. Farben (very literally, “The Colour Syndicate”), a cartel appearing as a constant ominous industrial spectre stalking Gravity’s Rainbow, tragically mirroring how these scientifically and commercially pioneering chemical companies were wrested into the control of depraved, horrific warmongers; the ‘Them’ of the military-industrial complex which haunts the book’s entire narrative.</li>
+  <li>The effects on fashion</li>
+  <li>The societal implications</li>
+  <li>Medicine</li>
+</ul>
+
+<h3 id="what-goes-on-in-the-electronics-of-dyes-️">What goes on in the electronics of dyes ⚛️</h3>
+
+<ul>
+  <li>Huckel’s rule for aromaciticty: any cyclic arrangement of 4<em>n</em>+2 carbon atoms, where electrons are “shared” between all atoms in the ring, <em>n</em>=1,2,3…</li>
+  <li>Figure of Huckel aromotacity and delocalised pi cloud</li>
+  <li>Dyes are still a testbed for theoretical chemistry. Like revisiting the <a href="https://pubs.acs.org/doi/abs/10.1021/jp309006e">classic green and red dyes</a></li>
+  <li>Some of Seth Olsen’s papers amongst others</li>
+  <li>Link back to GFP chromophores etc?</li>
+  <li>Mobius aromaticity?</li>
+  <li>% Porphyrins (lit. purple) and electronic excitations should go here??</li>
+  <li>% <a href="https://doi.org/10.1021/jacs.3c07625">Research just last year</a> proposes why azulene’s light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry – that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring aroudn the perimeter</li>
+  <li>% Bacteriorhodopsin, occurs in the “purple membrane” which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision</li>
+</ul>
+
+<hr />
+
+<p>*Purple is my favourite colour :) Deep Purple is shrouded in mystique, while there’s something spectral about High Violet hinting at energetic light just beyond human perception. 
+*</p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="dyes" /><category term="aniline" /><category term="BASF" /><category term="Kekulé" /><category term="Perkins" /><category term="quinine" /><category term="Pauling" /><category term="aromaticity" /><category term="coal-tar" /><category term="purple" /><summary type="html"><![CDATA[Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is aluded to in a literary work that was famously denied a Putlizer prize because of its confronting content.]]></summary></entry><entry><title type="html">Future Aneasthetics And Noble Gases</title><link href="http://localhost:4000/2024-05-09-FUTURE-aneasthetics-and-noble-gases/" rel="alternate" type="text/html" title="Future Aneasthetics And Noble Gases" /><published>2024-05-09T22:17:51+10:00</published><updated>2024-05-09T22:17:51+10:00</updated><id>http://localhost:4000/FUTURE-aneasthetics-and-noble-gases</id><content type="html" xml:base="http://localhost:4000/2024-05-09-FUTURE-aneasthetics-and-noble-gases/"><![CDATA[<p>https://www.nature.com/articles/s42003-022-03233-y</p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><summary type="html"><![CDATA[https://www.nature.com/articles/s42003-022-03233-y]]></summary></entry><entry><title type="html">Basic quantum chemistry calculations: Hartree-Fock in Python, Julia, and Rust.</title><link href="http://localhost:4000/quantumchemistry/2024-04-21-FUTURE-HF-in-python-julia-rust/" rel="alternate" type="text/html" title="Basic quantum chemistry calculations: Hartree-Fock in Python, Julia, and Rust." /><published>2024-04-21T17:08:40+10:00</published><updated>2024-04-21T17:08:40+10:00</updated><id>http://localhost:4000/quantumchemistry/FUTURE-HF-in-python-julia-rust</id><content type="html" xml:base="http://localhost:4000/quantumchemistry/2024-04-21-FUTURE-HF-in-python-julia-rust/"><![CDATA[<p><em>note about the post</em></p>
+
+<hr />
+
+<p>Other content.</p>
+
+<p>Should link back to the <a href="/guide/2023-04-12-compchem-methods-basics/">electronic structure theory guide</a></p>
+
+<blockquote>
+  <p>Don’t forget to use code blocks with the language specified!</p>
+</blockquote>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Hello world!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">println</span><span class="x">(</span><span class="s">"Hello world!"</span><span class="x">)</span>
+</code></pre></div></div>
+
+<p>Julia is designed to hit sweet-spot of easy to write and performance for scientific code, so muich so that there’s now a full production quality <a href="https://doi.org/10.1021/acs.jctc.0c00337">Quantum Chemistry package written in Julia</a>.</p>
+
+<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nd">println!</span><span class="p">(</span><span class="s">"Hello world!"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<p>Thank you for reading!</p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="quantumchemistry" /><category term="Hartree-Fock" /><category term="Python" /><category term="Julia" /><category term="Rust" /><category term="code" /><category term="tutorial" /><summary type="html"><![CDATA[note about the post]]></summary></entry><entry><title type="html">Picking a quantum chemical method</title><link href="http://localhost:4000/quantumchemistry/2024-04-21-FUTURE-pick-your-poison-compchem-methods/" rel="alternate" type="text/html" title="Picking a quantum chemical method" /><published>2024-04-21T14:48:33+10:00</published><updated>2024-04-21T14:48:33+10:00</updated><id>http://localhost:4000/quantumchemistry/FUTURE-pick-your-poison-compchem-methods</id><content type="html" xml:base="http://localhost:4000/quantumchemistry/2024-04-21-FUTURE-pick-your-poison-compchem-methods/"><![CDATA[<p><em>note about the post</em></p>
+
+<hr />
+
+<p>Other content.</p>
+
+<p>Should link back to the <a href="/guide/2023-04-12-compchem-methods-basics/">electronic structure theory guide</a></p>
+
+<hr />
+
+<p>Thank you for reading!</p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="quantumchemistry" /><summary type="html"><![CDATA[note about the post]]></summary></entry><entry><title type="html">Future Maybe It Aint Easy Being Green</title><link href="http://localhost:4000/2024-03-31-FUTURE-MAYBE-it-aint-easy-being-green/" rel="alternate" type="text/html" title="Future Maybe It Aint Easy Being Green" /><published>2024-03-31T13:18:31+11:00</published><updated>2024-03-31T13:18:31+11:00</updated><id>http://localhost:4000/FUTURE-MAYBE-it-aint-easy-being-green</id><content type="html" xml:base="http://localhost:4000/2024-03-31-FUTURE-MAYBE-it-aint-easy-being-green/"><![CDATA[]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Cobalt, Prussian Blue, and the ethics of the renewal energy transformation</title><link href="http://localhost:4000/batteries/2024-03-31-FUTURE-cobalt-supply-and-the-ethics-battery-technology/" rel="alternate" type="text/html" title="Cobalt, Prussian Blue, and the ethics of the renewal energy transformation" /><published>2024-03-31T13:18:31+11:00</published><updated>2024-03-31T13:18:31+11:00</updated><id>http://localhost:4000/batteries/FUTURE-cobalt-supply-and-the-ethics-battery-technology</id><content type="html" xml:base="http://localhost:4000/batteries/2024-03-31-FUTURE-cobalt-supply-and-the-ethics-battery-technology/"><![CDATA[<p>Full disclosure I own some stock in Cobalt Blue because I think they are a good venture, but have no relationship to the company or any conflicts of interest to declare, apart from having done a Chemistry PhD at UNSW.</p>
+
+<p>This research is being carried out in collaboration with <a href="https://www.unsw.edu.au/staff/suzanne-neville">Suzanne Neville</a>.</p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="batteries" /><category term="cobalt" /><category term="energy" /><category term="batteries" /><summary type="html"><![CDATA[Full disclosure I own some stock in Cobalt Blue because I think they are a good venture, but have no relationship to the company or any conflicts of interest to declare, apart from having done a Chemistry PhD at UNSW.]]></summary></entry><entry><title type="html">Nitrogen fixation: artificial lightning, bird poop, and how kudzu grew out of control</title><link href="http://localhost:4000/nitrogen-fixation/2023-06-14-nitrogen-fixation/" rel="alternate" type="text/html" title="Nitrogen fixation: artificial lightning, bird poop, and how kudzu grew out of control" /><published>2023-06-14T00:00:00+10:00</published><updated>2023-06-14T00:00:00+10:00</updated><id>http://localhost:4000/nitrogen-fixation/nitrogen-fixation</id><content type="html" xml:base="http://localhost:4000/nitrogen-fixation/2023-06-14-nitrogen-fixation/"><![CDATA[<blockquote>
+  <p>Content notice: this post discusses the history and chemistry that was occurring within the context of the invention of some of the worst chemical agents of World Wars I &amp; II, but doesn’t go into detail. It also mentions a suicide, deaths in an industrial accident, bombing campaigns, and indefinite detention of migrants.</p>
+</blockquote>
+
+<p><em>Nitrogen fixation is a subject I was taught about ever since high school chemistry, where the <a href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Le_Chateliers_Principle/The_Haber_Process">Haber process</a> was <a href="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-science/chemistry-2017/content/2267">part of the curriculum on equilibria</a>. The book that most influenced this current post is <a href="https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/">The Alchemy of Air</a>, which details the life of Fritz Haber and Carl Bosch.</em></p>
+
+<p>Carl Bosch was an industrialist unafraid to apply the highest pressures and the wildest materials in the search for a new catalyst. Bosch guided the German chemical conglomerates in 1930s that provided Germany chemical supplies (BASF and Bayer were denazified after WWII and thrive to this day). When the Nazis began to dictate to industry, Bosch was removed from his positions for speaking up against anti-Semitism. Fritz Haber was zealously loyal to imperial Germany, developing many horrific chemical warfare gases; a loyalty that horrified his pacifist wife who took her life following Haber’s gas attacks on the battlefield, and ended up meaning nothing to the ascendant Nazi regime which attempted to erase his legacy because he was Jewish. Bosch and Haber were also involved in the early pushes for a synthetic dye industry (<em>a subject for a later post</em>).</p>
+
+<hr />
+
+<h3 id="nn-the-strongest-bond-in-the-air">N≡N: the strongest bond in the air</h3>
+<p>Nitrogen gas (N<sub>2</sub>) is the most common molecule in the atmosphere (~80%), yet it sits there inert, each nitrogen atom strongly bound to the other.  Because each nitrogen atom requires 3 electrons, the surrounding oxygen atoms can’t easily fulfil nitrogen’s bonding requirements since they only have 2 unpaired electrons, so the N≡N triple bond dominates the air. When nitrogen-oxygen bonds are made (mostly in car engines), the molecules that are formed (NO<sub>x</sub>) are at the top of the list of atmospheric pollutants.</p>
+
+<p>Despite N<sub>2</sub> being plentiful in the atmosphere, most of the biosphere is nitrogen starved. Nitrogen, in a form that is less strongly bound than N≡N, and hence bioaccessible, is crucial to provide organisms the feedstock for manufacturing the DNA and amino acids that build the complex machinery of cells. This is what fertilisers are for. Despite making up 4/5<sup>ths</sup> of the air, nitrogen is found in the soil at ~50-100 mg/kg, and this is because only a few bacteria and one industrial reaction generates bioaccessible nitrogen from the air (termed nitrogen fixation). The industrial reaction to break the N≡N bond and form useful chemicals is one of the most energy-intensive reactions invented by humanity, and essential to our survival.</p>
+
+<h3 id="nn---the-promethean-way-to-unbind-nitrogen">N≡N + ⚡: the Promethean way to unbind nitrogen</h3>
+<p>It was at the beginning of the 20th century that humanity snapped the N≡N bond open through sheer energy, when the Norwegian hydro-electric nitrogen stock company (<em>Hydro</em>) built the Vemork power plant. Vemork’s world-leading 108 MW output was used to generate arcs of artificial lightning that split the surrounding N<sub>2</sub> and O<sub>2</sub> gases, overcoming the N≡N triple bond strength of 942 kJ/mol (twice that of oxygen gas). The split nitrogen and oxygen gases formed NO gas, which was shepherded along to produce feedstock nitric acid. This arc lightning process was so energy intensive that it was unable to compete economically when the alternative Haber-Bosch process, which requires only pressure and heat, was brought to industrial scale.</p>
+
+<p>Vemork began producing other chemicals, including separating heavy water, D<sub>2</sub>O, from water by electrolysis. D<sub>2</sub>O is H<sub>2</sub>O whose hydrogens are now deuterium (D) because they are ‘heavier’ by one neutron. D<sub>2</sub>O was a <a href="https://arxiv.org/pdf/physics/0206076.pdf">potential route making nuclear energy and weapons</a> if enough could be stockpiled (neutrons slow down when passing through heavy water, allowing to them to be absorbed into atoms which then become nuclearly unstable). Vemork was the only site that produced heavy water industrially, and while D<sub>2</sub>O stockpiles were exported to France from then-neutral Norway, <em>Hydro</em> management caved in and agreed to produce new heavy water after the Quisling government surrendered to the Nazis. This launched a sabotage mission by Norwegian resistance ski troops, an operation portrayed in the TV series <a href="https://www.imdb.com/title/tt3280150/">The Heavy Water War</a>.</p>
+
+<p><em>Hydro</em> continues as Norway’s renewable energy company and one of the largest global suppliers of aluminium. Norway’s abundant hydro power is still <a href="https://www.energy-storage.news/freyr-secures-renewable-power-supply-from-statkraft-for-first-two-gigafactories/">leveraged to this day to generate renewable energy</a>. (<em>disclosure: I have invested in FREYR because I think the enterprise is a good thing for the world</em>).</p>
+
+<h3 id="nn--️-the-brute-force-way-to-make-nh3">N≡N + 🗜️: the brute force way to make NH<sub>3</sub></h3>
+<p>Fixation of atmospheric nitrogen through electrical arcs was not viable almost anywhere else in the world. Bioaccessible nitrogen was needed to meet the fertiliser demands of mechanised agriculture, and mined supplies of nitrates in the form of niter (a vague historical term for various mineral deposits) or guano (bird droppings, <em>detailed below</em>) were not going to be able to meet demand. Research had been underway for an alternative source of nitrogen, particularly in Germany which lacked niter deposits (a vulnerability that was exposed in WWI when the German navy was blockaded from colonies and foreign trade). Commercially viable artificial nitrogen fixation was developed by Haber, Bosch, and others at BASF in 1909–1910. The development of the Haber-Bosch process for nitrogen fixation was largely down to brute force searching driven by need: a wide array for catalysts were tested (originally Os, later to be replaced by affordable Fe-based surfaces), and the industrial capabilities of the Rhine were used to make the sturdiest metal walls to allow the reaction vessels to withstand the intense pressures (hundreds of times Earth’s atmosphere) necessary to force nitrogen and hydrogen gases into NH<sub>3</sub> (ammonia).</p>
+
+<p>BASF built an industrial plant at Oppau to generate Germany’s fertiliser and munitions, but the ammonium nitrate manufactured is inherently dangerous  and in peacetime between WWI &amp; WWII <a href="https://en.wikipedia.org/wiki/Oppau_explosion">more than 500 people died when ammonium nitrate plastered on the storage silo walls was detonated during the, at that time routine, use of small explosive charges</a>. Nevertheless, Oppau was built up as an industrial powerhouse until the end years of WWII when city was <a href="https://en.wikipedia.org/wiki/Ludwigshafen#World_War_I_through_World_War_II">virtually levelled in a series of continuous bombing campaigns by the Allies</a>.</p>
+
+<p>The Haber-Bosch process is used unchanged in its fundamentals today, consumes 1–2% of all the world’s energy, and creates the fertilisers that provide nitrogen to crops that <a href="https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed">sustain half the world’s population</a>.</p>
+
+<h3 id="---white-gold-of-the-seas">🐦 + 💩: white gold of the seas</h3>
+<p>Nitrogen-containing mineral deposits (historically known by the vague term ‘niter’) <a href="https://geographyfieldwork.com/Coves-del-Collbato.htm">crystalise on cave walls</a>, of which potassium nitrate (‘saltpeter’) was extensively mined for gunpowder and fertiliser. In these caves, it wasn’t only the mineral deposits that were a source of nitrates, but also the bat droppings. The volume of bat poo available pales in comparison to islands covered in bird poo, which was harvested by people of the Andes mountain region who it called guano. Since nitrates dissolve in water, dry conditions were needed for rich guano deposits, so it only piled up on certain islands. In the 19th century, Europeans used their vast shipping infrastructure to run a guano industry that fervently extract hundreds of thousands of tonnes of the fertiliser for intensive agricultural use. This made intensive agriculture reliant on a few islands. This led to <a href="https://en.wikipedia.org/wiki/Chincha_Islands_War">war between Spain and its former colonies for the Chincha guano islands</a>.</p>
+
+<p>Hard labour is still performed to extract guano from the droppings of 4 million birds on Peruvian islands, <a href="https://www.audubon.org/news/holy-crap-trip-worlds-largest-guano-producing-islands">where it is stacked in giant sacks among the throng of cormorants</a>. Guano was also vital to American farming; causing the to U.S. pass the Guano Islands Act, allowing any U.S. citizen who stumbles upon an uninhabited guano island to <a href="http://memory.loc.gov/cgi-bin/ampage?collId=llsl&amp;fileName=018/llsl018.db&amp;recNum=1152">seize it on behalf of federal government</a>. The U.S. acquired many islands this way (often transiently, just to extract guano), including the Midway Atoll of the Battle of Midway fame. The Guano Islands Act is still in force, for any Americans brave enough to venture in search of new islands to claim.</p>
+
+<p>Australia has its own involvement in the administration of a guano island, Nauru, a 21 km\(^2\) country whose economy collapsed once its guano and calcium pyrophosphate deposits were depleted. The Australian government uses the now guano-free land of Nauru for an <a href="https://en.wikipedia.org/wiki/Nauru_Regional_Processing_Centre">offshore immigration processing centre</a>, representing the most extreme outcome of Australia’s <a href="https://humanrights.gov.au/our-work/asylum-seekers-and-refugees/projects/immigration-detention-and-human-rights">controversial indefinite detention laws</a>.</p>
+
+<h3 id="nn---the-organic-way-to-fertilise-soil">N≡N + 🦠: the organic way to fertilise soil</h3>
+<p>Pre-existing nitrogen in the soil has been put there by <a href="https://www.science.org/doi/10.1126/science.1165675">nitrogen fixing bacteria roughly 2.5 billion years ago</a>, around the time the atmosphere became oxygen rich and <a href="https://www.science.org/doi/10.1126/science.355.6330.1110">well before plants learned to breathe</a>. Nitrogen fixing bacteria contain <a href="https://pdb101.rcsb.org/motm/26">nitrogenase</a>: an enzyme that funnels electrons to a molecular-scale crucible of metal clusters where the N≡N bond is broken. While the structure of this ‘crucible’ has been <a href="https://www.rcsb.org/structure/1n2c">determined in exquisite detail</a>, to my knowledge <em>exactly</em> where and how famously unreactive N≡N binds inside nitrogenase is still an unsolved, subtle, complex molecular puzzle <a href="https://pubs.acs.org/doi/10.1021/acs.chemrev.9b00650">actively researched with modern techniques</a>. The efficiency of nitrogenase leaves contemporary molecular science a little embarrassed; what bacteria can do in the open air humans must still force through using electric arcs or hundreds of atmospheres of pressure.</p>
+
+<p>Some nitrogen fixing bacteria, known as rhizobia, require a plant host (spefically legumes: beans, clover, peas, <em>etc</em>) in which rhizobia form root nodules. Rhizobia feed legumes fixed nitrogen until their host dies, at which point rhizobia infect a new legume or return to the soil, providing bioaccessible nitrogen. This is the answer to the children’s song, <em>“Do you, or I, or anyone know how oats, peas, beans, and barley grow?”</em> — legumes are included in the crop rotation to ensure the soil remains nitrogen-rich. Several other bacteria can fix nitrogen, including some blue-green algae which have a symbiotic relationship with many plants, including giant Rhubarb (<em>Gunnera manicata</em>); an example of which <a href="/images/giant_rhubarb.png">can be found in the Tasmanian Botanic Gardens</a>.</p>
+
+<h3 id="---kudzu-and-the-overrun-of-the-american-south">🌿 + 🦠: kudzu and the overrun of the American south</h3>
+<p>Kudzu is a vine native to the Asia-Pacific and is a legume with a phenomenally successful symbiotic relationship with nitrogen fixing bacteria. Kudzu’s hardiness and scrabbling tendrils make access to plentiful nitrogen supply via rhizobia a dangerous combination. Kudzu took root in the U.S. after being introduced both for its fashionable purple flowers and as fast growing fodder for livestock. Kudzu is capable of growing at a rate of a foot a day, and was declared a weed as it spread over the landscape, blocking the sun and smothering all below it. Kudzu’s growth has been so efficient in the American South that kudzu engulfed entire settlements, as captured in eerie quiescence of <a href="https://upload.wikimedia.org/wikipedia/en/c/c0/R.E.M._-_Murmur.jpg">R.E.M’s debut album cover</a>. Kudzu’s onward march appears unstoppable, and <a href="https://thehill.com/homenews/4025176-midwest-primed-to-be-next-frontier-for-invasive-plant-kudzu/">the Midwest is set to be next</a>.</p>
+
+<h3 id="nn-----research-to-improve-nitrogen-fixation">N≡N + 🧑‍🔬 + 🔎: research to improve nitrogen fixation</h3>
+<p>As it stands, nitrogen fixation remains critical to global food supply, uses 1–2% of the world’s energy (concomitantly producing <a href="https://www.iea.org/reports/ammonia-technology-roadmap/executive-summary">1–2% of human CO<sub>2</sub> emissions</a>), and underpins a roughly $60 billion ammonia industry. A fundamental change in how the world gets its nitrogen would be transformative.</p>
+
+<p>Some alternatives to the Haber-Bosch process could be:</p>
+
+<ul>
+  <li>
+    <p>Human made, inorganic, nitrogen fixing catalysts</p>
+  </li>
+  <li>
+    <p>‘Green nitrogen’ through applying the Haber-Bosch process in alternative ways</p>
+  </li>
+  <li>
+    <p>Coercing nature’s pre-existing nitrogenases by using directed mutations</p>
+  </li>
+  <li>
+    <p>Developing new artificial nitrogen fixing enzymes using synthetic biology</p>
+  </li>
+</ul>
+
+<p>I have no expertise in this field, but there’s plenty of literature on such approaches for those interested.</p>
+
+<p>For the approach of developing inorganic nitrogen fixing catalysts, a <a href="https://doi.org/10.1039/D0CS01341B">recent review</a> surveys the staggering diversity of metals (Mo, Re, V, Zr, Ti, …) and structures investigated for potential catalysts, of which only Mo-based catalysts work under ambient conditions. Breakthroughs in the use of inorganic nitrogen fixing catalysts will come when there is a combination of: an inexpensive catalytic metal, <a href="https://www.nature.com/articles/nchem.690">such as Fe</a> which is the key metal inside nitrogenase; use of H<sub>2</sub>O as a hydrogen source; and function under ambient conditions. If these developments can be achieved, commercial scale nitrogen fixation might be done without huge industrial plants.</p>
+
+<p>For <a href="https://royalsociety.org/topics-policy/projects/low-carbon-energy-programme/green-ammonia/">‘green ammonia’</a>, the Haber-Bosch process itself is already efficient at combining hydrogen and nitrogen gas, once reactors could contain high pressures. Renewable energy might best be directed towards powering gas compressors, and electrolyse H<sub>2</sub>O for a source of hydrogen, since the use of fossil fuels as a hydrogen source in the Haber-Bosch process is the largest contributor to its CO<sub>2</sub> emissions. It <a href="https://doi.org/10.1039/C9EE02873K">has been estimated</a> that an electricity driven Haber-Bosch process will be cheaper and involve less energy loss than the fossil fuel based status quo.</p>
+
+<p>It could be possible to selectively mutate sections of pre-existing nitrogenases (in a process known as ‘directed mutagenesis’) to increase the efficiency of the enzyme. I can’t easily find any literature on improvements to nitrogenases through mutagenesis, which suprises me since the technique has been around for a while, so I suspect the structure of nitrogenase is so finely tuned to N<sub>2</sub> that most site mutations kill the enzyme’s efficiency. Mutagenesis was, however, <a href="https://doi.org/10.1073/pnas.84.20.7066">used on nitrogenase in the 1980s</a> to show that upon replacement of crucial components (specific amino acids) nitrogenase ceases to fix nitrogen, and of the two ‘crucible’ sections (Fe-containing and MoFe-containing) activity continues even when only the Fe-containing ‘crucible’ is present. In fact, nitrogen fixing bacteria have a range of <a href="https://link.springer.com/protocol/10.1007/978-1-4939-8864-8_1">nitrogenases using alternative metals</a> for when Mo is not available in the environment.</p>
+
+<p>As for <a href="https://www.pnas.org/doi/10.1073/pnas.0630028100">entirely new artificial enzymes</a>, I don’t know if this has been achieved by anyone, but one approach has been to <a href="https://doi.org/10.1186/s12934-016-0442-6">combine parts of the nitrogenase system from different bacteria by exchanging gene segments</a>. I don’t have enough working molecular biology knowledge to fruitfully read the nitty-gritty of these papers, but a key result is that <a href="https://www.pnas.org/doi/full/10.1073/pnas.1620058114">hooking up the electron transport infrastructure</a> from one type of bacteria to the nitrogenase of another can lead to greater efficiency. Gains can also be made by doing things like <a href="https://academic.oup.com/jxb/article/71/15/4591/5817768">turning off the regulatory networks that monitor nitrogen production in a cell</a>.</p>
+
+<hr />
+
+<p><em>Despite N<sub>2</sub> being abundant and simple in structure, it has underpinned entire ecosystems, determined wars, and continues to escape the complete control of chemists. It may be worth reflecting on N<sub>2</sub>, the particle you collide with the most throughout your life, the next time you eat your (likely fertiliser grown) rice, toast, or other grain in the morning.</em></p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="nitrogen-fixation" /><category term="lightning" /><category term="Haber-Bosch" /><category term="guano" /><category term="nitrogenase" /><category term="kudzu" /><summary type="html"><![CDATA[Content notice: this post discusses the history and chemistry that was occurring within the context of the invention of some of the worst chemical agents of World Wars I &amp; II, but doesn’t go into detail. It also mentions a suicide, deaths in an industrial accident, bombing campaigns, and indefinite detention of migrants.]]></summary></entry><entry><title type="html">The chemistry behind bioluminescence</title><link href="http://localhost:4000/photobiology/2023-04-15-photobiology/" rel="alternate" type="text/html" title="The chemistry behind bioluminescence" /><published>2023-04-15T00:00:00+10:00</published><updated>2023-04-15T00:00:00+10:00</updated><id>http://localhost:4000/photobiology/photobiology</id><content type="html" xml:base="http://localhost:4000/photobiology/2023-04-15-photobiology/"><![CDATA[<p><em>This post is adapted from</em> <a href="https://github.com/keiran-rowell/Presentations/blob/main/Bioluminesce%20-%20theory%20group%20presentation.pdf">a talk</a> <em>I gave at one of the University of Sydney’s Theory Group meetings, but is ultimately a refashioned book report of</em> <a href="https://www.hup.harvard.edu/catalog.php?isbn=9780674067165">Bioluminescene by Thérèse Wilson &amp; J. Woodland Hastings</a>. <em>The Theory Group talks were an fascinating initiative, where other theoretical chemists were able to present on any topics in science that interested them. I hope my talk was interesting, but I don’t think anything could top the talk given by some postdocs on the optimal physical chemistry for cooking pasta and making espresso.</em></p>
+
+<hr />
+
+<h3 id="glow-worms-fireflies-and-glowsticks">Glow worms, fireflies, and glowsticks</h3>
+
+<p>Glow worms, beyond inspiring a <a href="https://youtu.be/WcZMzH04OwU">calming ballad by Vashti Bunyan</a>, are bewitching organisms, especially if you are lucky enough to be in the Southern Hemisphere and see them up close in the <a href="https://www.waitomo.com/">Waitomo Caves</a> or the <a href="http://www.glowwormtours.sydney/Promo.aspx">Blue Mountains</a>. Glow worms are the larvae of gnats, and glow to attract insects to their sticky thread, entrap them, and digest them. When desperate or territorial they will resort to cannibalism. The larvae metamorphose into adults that have no mouth, live for 2-6 days, mate, then die. Hardly seems worth it. Nevertheless they put on a spectacular show, and carry the Māori name titiwai meaning ‘lights reflected in water’.</p>
+
+<p>The North Americans get fireflies, which are associated with a <a href="https://youtu.be/psuRGfAaju4">popular hit</a>, and encompass a far broader church of glowing beetles. Adult fireflies have mouths. Beyond that I can’t comment, I’m not a biologist. But fireflies <a href="https://en.wikipedia.org/wiki/Firefly#In_culture">have captivated people throughout history</a>.</p>
+
+<p>Below is a rough chemical overview of where the magic ‘glow’ comes from: ultimately it is the energy released upon breaking a strained O-O bond and forming two C=O bonds that affords the generation of an electronically excited molecule, which proceeds to emit light when the electrons relax to the ground state. There is some <a href="https://doi.org/10.1021/acs.chemrev.7b00649">full-on physical chemistry behind this process</a>.</p>
+
+<p>In glowsticks a simple <a href="https://en.wikipedia.org/wiki/1,2-Dioxetane">dioxetane</a> is used, energy is released when the glowstick is cracked, and a dye is electronically excited and begins glowing. If the dioextane is used by itself, an electronically excited carbonyl is created, but triplet carbonyls are <a href="https://doi.org/10.1016/0009-2614(85)85149-6">poor photon emitters</a> – so instead nature devises a concurrent charge transfer process, creating a singlet excited state and ensuring a photon is emitted from the O-O bond breakage. A chemical schematic of the process looks like <a href="/images/cyclic_peroxide_to_light.png">this</a>.</p>
+
+<hr />
+
+<h3 id="bioluminescence-as-oxygen-disposal">Bioluminescence as oxygen disposal</h3>
+
+<p>Bioluminescence is found in creatures from sea to sky, but is not evenly distributed amongst organisms on the phylogenetic tree. The central argument in “Bioluminescence: living lights, lights for living” is that bioluminescence was actually an evolutionary accident: a side reaction for disposing toxic oxygen,  back when oxygen was plentiful in Earth’s atmosphere and organisms had not yet adapted the chemistry to cope. This “oxygen detoxification” cause for bioluminescence is a compelling argument, but I don’t believe it is proven conclusively. Regardless, here’s a summary of the molecules used to create bioluminescence in different organisms.</p>
+
+<h3 id="luciferin--luciferase--">Luciferin + luciferase = 💡</h3>
+
+<p>The reactions that cause bioluminescence involve: a <a href="https://en.wikipedia.org/wiki/Luciferin">luciferin</a> (‘light-bearer’), a molecule that is electronically excited upon addition of O<sub>2</sub>; and a <a href="https://pdb101.rcsb.org/motm/78">luciferase</a>, a protein that catalyses the addition of O<sub>2</sub> to luciferin and alters the colour of the emitted photon based on the amino acids surrounding the luciferin.</p>
+
+<p>Every class of organism seems to have independently evolved a different luciferin and luciferase, lending credence that it was an oxygen disposal mechanism. Here are the different luciferins used by different organisms.</p>
+
+<h3 id="crustaceans">Crustaceans</h3>
+
+<p>Crustaceans use the simplest known bioluminescence process: they release two secretions, one containing the luciferin and the other contains the luciferase. The glow begins (<em>see below</em>) when the secretions come into contact.</p>
+
+<p><img src="/images/crustaceans_glow.png" alt="Crustacean bioluminescence" /></p>
+
+<p class="figcaption">The bioluminescence of the <em>Vargula hilgendorfii</em> crustacean.</p>
+
+<p>The luciferin is composed mainly of three amino acids and a central imidazopyrazinone, whose N-C=O bond is ultimately broken, releasing CO<sub>2</sub> and light.</p>
+
+<p><img src="/images/crustaceans_luciferin.png" alt="Crustacean luciferin" /></p>
+
+<p class="figcaption">The luciferin of the <em>Varigula hilgendorfii</em> crustacean. The imidazolepyrazinone (<em>highlighted in red</em>) reacts with oxygen, generating an excited state similar to the excited state carbonyl in dioxetanes that was outlined above.</p>
+
+<h3 id="jellyfish">Jellyfish</h3>
+
+<p>Sea creatures use many different luciferins, and the luciferin for the sea pansy is shown below, it is again is based on three amino acids and a central imidazolepyrazinone.</p>
+
+<p><img src="/images/sea_pansy_luciferin.png" alt="Sea pansy luciferin" /></p>
+
+<p class="figcaption">The luciferin of the <em>Renilla reniformis</em> sea pansy closely resembles that for <em>Varigula</em> shown above, but is surrounded with different amino acids.</p>
+
+<p>However, the bioluminescence most well-known in the sea is that of jellyfish. Jellyfish bioluminescence is also the most widely used in the lab, supplying the ubiquitous <a href="https://en.wikipedia.org/wiki/Green_fluorescent_protein">Green Fluorescent Protein (GFP)</a>. GFP is used in countless assay and biological experiments: it’s easier to image tissue if it glows.</p>
+
+<p>In jellyfish, the luciferin is covalently bound to the luciferase, surrounded by a beta barrel structure (<em>see below</em>) which admits only water and provides control of the colour of bioluminescence.</p>
+
+<p><img src="/images/jellyfish_GFP.png" alt="Jellyfish luciferase" /></p>
+
+<p class="figcaption">The Green Fluorescent Protein in <em>Aequorea victoria</em>, where an enveloping beta barrel is seen around the luciferin. The amino acids in the barrel both prevent the luciferin reacting with external substances, and alter the colour of the light emitted (otherwise the luciferin would glow blue).</p>
+
+<h3 id="algae">Algae</h3>
+
+<p>Several algae can also bioluminesce, leading to the <a href="https://youtu.be/iD_6d2yN3g0">beautiful appearance of sea sparkles</a> in certain shorelines of the world.</p>
+
+<p>Here, a new type of luciferin is found where a modified <a href="https://en.wikipedia.org/wiki/Porphyrin">porphyrin</a>-like molecule is used. The chemistry here is slightly different, adding oxygen to a <a href="https://en.wikipedia.org/wiki/Cyclopentanone">cyclopentanone</a> group and yielding H<sub>2</sub>O, but light is generated just the same.</p>
+
+<p><img src="/images/algae_luciferin.png" alt="Algae luciferin" /></p>
+
+<p class="figcaption">The luciferin of <em>Lingulodinium polyedrum</em> dinoflagellate algae species.</p>
+
+<p>The bioluminescence of these algae only activate at night, but glow brightly (<em>see below</em>).</p>
+
+<p><img src="/images/algae_glow.png" alt="Algae bioluminescence" /></p>
+
+<p class="figcaption">Glowing <em>Lingulodinium polyedrum</em> dinoflagellate algae, where the light-emitting organelles (scintillons) can be clearly seen.</p>
+
+<h3 id="fireflies">Fireflies</h3>
+
+<p>The glow of the lantern on a firefly’s bum is a well-known sight, and looks stunning en masse.</p>
+
+<p><img src="/images/firefly_glow.png" alt="Firefly bioluminescence" /></p>
+
+<p class="figcaption">The impressive light organ located on abdomen of <em>Photinus pyralis</em>.</p>
+
+<p>The chemisty of firefly luciferin is again different (<em>see below</em>).</p>
+
+<p><img src="/images/firefly_luciferin.png" alt="Firefly luciferin" /></p>
+
+<p class="figcaption">The chemistry of firefly luciferin is driven by ATP (the ‘battery molecule’ of biology). Ultimately a dioxetane is again formed, and breaking the O-O bond yields an electronically excited carbonyl that emits light.</p>
+
+<h3 id="quantum-chemical-calculations-on-firefly-luciferin">Quantum chemical calculations on firefly luciferin</h3>
+
+<p>In the 20th century several biological and chemical experiments gave us an understanding of photobiology. In the 21st century, new methods in computational chemistry and increases in compute power allows us to look into the physical chemistry that drives the generation of an excited state luciferin through O-O bond breakage.</p>
+
+<p>These calculations can get <em>very</em> complicated, so much so that people like <a href="https://pagespro.univ-gustave-eiffel.fr/isabelle-navizet">Isabelle Navizet</a> and <a href="https://www.katalog.uu.se/profile/?id=N10-584">Roland Lindh</a> have made careers out of this problem.</p>
+
+<p>Some diagrams follow for the theoretical chemists amongst us.</p>
+
+<p>For those without training: suffice to say the character of several excited states are involved, the presence of an anionic group on the luciferin is required to generate a photon-emitting singlet excited state, and curiously a <a href="https://doi.org/10.1146/annurev-physchem-032210-103522">conical intersection</a> exists along the reaction co-ordinate that ejects the CO<sub>2</sub>. The conical intersection was, at least to me, unexpected because it should <em>lower</em> the quantum yield of the luciferin since the conical intersection allows relaxation to the electronic ground state without emitting a photon. A very good review of bioluminescence using the insights gleaned from computational chemistry is provided in <a href="https://doi.org/10.1002/cphc.201100504">The Chemistry of Bioluminescence: An Analysis of Chemical Functionalities</a>.</p>
+
+<p><img src="/images/luciferin_electron_exchange.png" alt="Luciferin electron transfer" /></p>
+
+<p class="figcaption">Density Functional Theory calculations indicate that the luciferin is in a (π,σ<sup>∗</sup>) ground state, and the anionic C-O<sup>-</sup> is crucial since the extra electron undergoes an electron transfer process to the site of the broken O-O bond to generate a singlet excited state (\(S_1\)) upon ejection of the CO<sub>2</sub>.</p>
+
+<p><img src="/images/luciferin_CAS_calculations.png" alt="Luciferin CAS calculations" /></p>
+
+<p class="figcaption"><a href="/guide/2023-04-12-picking-an-active-space/">Multiconfigurational quantum chemistry calculations</a> show that the first singlet excited state (\(S_1\)) is a (π,π<sup>∗</sup>) excitation, and the transition state (TS) ejecting the CO<sub>2</sub> corresponds to a very small energy gap between the \(S_1\) and \(S_0\) electronic states.</p>
+
+<p><img src="/images/luciferin_conical_intersection.png" alt="Luciferin conical intersection" /></p>
+
+<p class="figcaption">The transition state (TS) ejecting the CO<sub>2</sub> is generated by an <a href="https://doi.org/10.1351/pac197541040455">avoided crossing</a> between the (π,σ<sup>∗</sup>) ground and excited states. As the CO<sub>2</sub> separates from the luciferin, the luciferin can either proceed along the (π,π<sup>∗</sup>) excited state surface and eventually emit a photon to relax back down to the ground state, or follow the seam of a sloped conical intersection to access a closed-shell singlet product.</p>
+
+<h3 id="qmmm-calculations-on-luciferin">QM/MM calculations on luciferin</h3>
+
+<p>Finally, a hybrid <a href="https://blogs.scientificamerican.com/the-curious-wavefunction/computational-chemistry-wins-2013-nobel-prize-in-chemistry/">quantum mechnical/molecular mechanical</a> (QM/MM) simulation can be used, where the luciferin is treated with a <a href="/guide/2023-04-12-compchem-methods-basics/">quantum mechanical method</a> to describe the electronic excitation, while the luciferase protein is simulated with standard classical molecular mechanics to allow its shape to move.</p>
+
+<p>This allows a full mechanistic movie of oxygen entering the luciferase protein, binding to the luciferin, and generating an excited state. I’ve summarised the key findings of such QM/MM calculations in the image below. For those interested, it is worth reading the original paper <a href="https://doi.org/10.1021/acs.jpcb.8b00642">QM/MM Study of the Formation of the Dioxetanone Ring in Fireflies through a Superoxide Ion</a>.</p>
+
+<p><img src="/images/luciferin_QM-MM.png" alt="Luciferin QM/MM" /></p>
+
+<p>I first learnt about this topic when I picked up a secondhand copy of <a href="https://www.wiley.com/en-us/Computational+Methods+for+Large+Systems:+Electronic+Structure+Approaches+for+Biotechnology+and+Nanotechnology+-p-9780470487884">Computational Methods for Large Systems</a>, in which Chapter 12 details “Modelling Photobiology Using QM and QM/MM Calculations”.</p>
+
+<hr />
+
+<p><img src="/images/fireflies.gif" alt="Fireflies gif" /></p>
+
+<p>Thank you for reading!</p>
+
+<p>I think it’s incredible how nature manages to generate light by combining chemicals inside the bodies of small organisms, and put on an entrancing show.</p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="photobiology" /><category term="luciferin" /><category term="luciferase" /><category term="photobiology" /><category term="bioluminescence" /><category term="fireflies" /><category term="jellyfish" /><summary type="html"><![CDATA[This post is adapted from a talk I gave at one of the University of Sydney’s Theory Group meetings, but is ultimately a refashioned book report of Bioluminescene by Thérèse Wilson &amp; J. Woodland Hastings. The Theory Group talks were an fascinating initiative, where other theoretical chemists were able to present on any topics in science that interested them. I hope my talk was interesting, but I don’t think anything could top the talk given by some postdocs on the optimal physical chemistry for cooking pasta and making espresso.]]></summary></entry><entry><title type="html">An Ersatz Ansatz</title><link href="http://localhost:4000/guide/2023-04-12-compchem-methods-basics/" rel="alternate" type="text/html" title="An Ersatz Ansatz" /><published>2023-04-12T00:00:00+10:00</published><updated>2023-04-12T00:00:00+10:00</updated><id>http://localhost:4000/guide/compchem-methods-basics</id><content type="html" xml:base="http://localhost:4000/guide/2023-04-12-compchem-methods-basics/"><![CDATA[<p><em>This post is adapted straight from my</em> <a href="http://handle.unsw.edu.au/1959.4/65036">PhD Thesis</a><em>, and is intended as a primer for beginner computational chemists. Thanks goes out to Dr Laura McKemmish, whose notes on compchem for undergraduates is the urtext for this guide.</em></p>
+
+<hr />
+
+<p>Many computational chemistry talks begin with the famous Dirac quote:</p>
+
+<p><em>“The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It there fore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation.”</em> Dirac, P.A.M. <a href="http://dx.doi.org/10.1098/rspa.1929.0094">Quantum Mechanics of Many-Electron Systems</a>, <em>Proceedings of the Royal Society A</em>, <strong>1929</strong>, <em>123</em>, 714–733.</p>
+
+<p>The practice of computational chemistry is then left to picking the appropriate approximate method to answer the scientific question that interests you. Below is a rough primer of the basic quantum chemistry methods.</p>
+
+<hr />
+
+<h2 id="electronic-structure-theory">Electronic Structure Theory</h2>
+
+<p>All chemistry is governed by the behaviour of electrons and nuclei in molecules, which are described by the Schrödinger equation \(\hat{H}\Psi = E\Psi\), where the molecular energy (\(E\)) is an eigenvalue found by applying a Hamiltonian operator (\(\hat{H}\)) to the wavefunction (\(\Psi\)) of the molecule. Given the correct Hamiltonian, solution of the full Schrödinger equation in principle yields exact properties, but is in practice insoluble for molecular systems. All quantum chemistry methods therefore rely on computational techniques for solving approximations to the full Schrödinger equation.</p>
+
+<p>In the full Schrödinger equation the Hamiltonian operator \(\hat{H}\) contains all potential and kinetic energy terms from all electrons and nuclei and the interactions between them. The non-relativistic Hamiltonian is commonly simplified by invoking the Born-Oppenheimer approximation: since electrons have smaller masses and faster timescales of motion compared to nuclei, the electronic wavefunction can be solved in a field of nuclei that are considered fixed. This approximation removes the nuclear kinetic energy term from the Hamiltonian and makes the nuclear-nuclear interaction term constant, resulting in the simpler electronic Hamiltonian:</p>
+
+\[\hat{H}_{\mathrm{electronic}} = \underbrace{-\sum \frac{1}{2} \nabla^{2}_{i} -\sum_{i}^{elec.} \sum_{s}^{nuc.} \frac{Z_{s}}{\vec{r}_{is}}}_{\hat{h}_{i}} +\sum_{i\ less\ than\ j}^{elec.} \frac{1}{\vec{r}_{ij}}\]
+
+<p>Atomic units are used here to simplify equations. The first term in \(\hat{H}_{\mathrm{electronic}}\) is the kinetic energy of the electrons, the second term the electron-nuclear attraction, and both are encompassed in the one-electron operator (\(\hat{h}_{i}\)) which is summed over all electrons in the molecule.  The third term represents the electron-electron repulsion and can not be solved exactly for multi-electron systems. Wavefunction-based quantum chemistry methods  differ in the approximations they introduce to solve the electron-electron repulsion term.</p>
+
+<p>In order to solve the electronic Schrödinger equation, spin orbitals  (\(\chi_{n}\)) which depend on position of one electron (\(\mathbf{x}_{n}\)) are used. Since electrons are fermions, the wavefunction must obey the Pauli principle and be antisymmetric with respect to the exchange of two electrons. This is achieved by representing the wavefunction of a many electron system (\(\Psi\)) as a Slater determinant of one-electron spin orbitals:</p>
+
+\[\Psi_{0}(\mathbf{x}_{1},\mathbf{x}_{2},\cdots,\mathbf{x}_{n}) = \frac{1}{\sqrt{N!}}
+\begin{vmatrix}
+\chi_{1}(\mathbf{x}_{1}) &amp; \chi_{2}(\mathbf{x}_{1}) &amp; \chi_{3}(\mathbf{x}_{1}) &amp; \cdots &amp; \chi_{N}(\mathbf{x}_{1}) \\
+\chi_{1}(\mathbf{x}_{2}) &amp; \chi_{2}(\mathbf{x}_{2}) &amp; \chi_{3}(\mathbf{x}_{2}) &amp; \cdots &amp; \chi_{N}(\mathbf{x}_{2}) \\
+\vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+\chi_{1}(\mathbf{x}_{N}) &amp; \chi_{2}(\mathbf{x}_{N}) &amp; \chi_{3}(\mathbf{x}_{N}) &amp; \cdots &amp; \chi_{N}(\mathbf{x}_{N}) \\
+\end{vmatrix}\]
+
+<p>Quantum chemistry is typically performed according to  molecular orbital (MO) theory, where the wavefunction can be represented as a product of MOs (\(\phi_{i}\)). These MOs are constructed from a linear combination of atomic orbitals (LCAO): \(\phi_{i} = \sum\limits_{n}C_{ni}\chi_{n}\),  where each coefficient (\(C_{ni}\)) determines the contribution of each atomic orbital to a MO. The optimal value of these \(C_{ni}\) coefficients for a set of atomic orbitals can be determined according to the variational principle, which states that energy of the approximate wavefunction will always be higher than the true wavefunction. Therefore, when using a variational method, the coefficients which yield the lowest total energy are the best estimate of energy of the true molecular wavefunction.</p>
+
+<h3 id="hartee-fock-theory">Hartee-Fock theory</h3>
+<p>The Hartee–Fock (HF) method is a variational approach to solving an approximation to the electronic Schrödinger equation. In HF theory the electron-electron repulsion term is solved iteratively, using a “mean-field” of the other electrons, until electron distributions and energies converge within a self-consistent field (SCF). The HF equations are cast as an eigenvalue problem:  \(\mathbf{FC} =  \epsilon \mathbf{SC}\), where a Fock operator (\(\mathbf{F}\)) acts on a matrix of \(C_{ni}\) coefficients (\(\mathbf{C}\)) to yield a vector containing the molecular orbital energies (\(\epsilon\)). The Fock operator (\(\hat{F}_{i}\)) contains the one-electron operator (\(\hat{h}_{i}\)), and operators for the exchange (\(\hat{K}\)) and Coulomb repulsion (\(\hat{J}\)) energy between electrons:</p>
+
+\[\hat{F}_{i} = \hat{h}_{i} + \sum_{j=i}^{N/2} (2\hat{J}-\hat{K})\]
+
+<p>This HF solution is often used as the initial trial wavefunction for calculations that use higher accuracy quantum chemical methods.</p>
+
+<h3 id="correlated-methods">Correlated methods</h3>
+
+<p>Since the HF equations are solved in a “mean-field” of electrons, this method lacks the dynamic electron correlation energy necessary to make quantitative predictions of molecular properties. A number of wavefunction formalisms are available to recover this correlation energy using a correction to the HF wavefunction. These post-HF methods are often referred to as “correlated” methods. The energetic predictions of post-HF methods are systematically improved as higher-order terms of electron correlation are included, but at the cost of increased scaling of computational cost with system size.</p>
+
+<p>An alternative quantum chemical approach is to bypass the wavefunction and calculate molecular properties based solely on the electron density. These density functional theory (DFT) methods have reduced computational cost, since a \(3N\) dimensional wavefunction does not have to be computed, but are not systematically improvable since the exact form the exchange-correlation functional should take is not known.</p>
+
+<h3 id="multiconfigurational-methods">Multiconfigurational methods</h3>
+
+<p>Both the DFT and post-HF methods outlined below are “single-reference” methods based upon a single reference Slater determinant. In cases such as electronic degeneracies, a single Slater determinant may be qualitatively inadequate to describe the wavefunction, and single-reference DFT and wavefunction methods will fail. In such cases, multiple Slater determinants must be included through a multiconfigurational (MC) approach. The MC form of HF is known as the multiconfigurational self-consistent field (MCSCF) method, and a common variant of MCSCF is to include all Slater determinants describing  a chemically relevant <a href="/guide/2023-04-12-picking-an-active-space/">active space</a> (CASSCF).</p>
+
+<h3 id="formalisms-for-different-spin-states">Formalisms for different spin states</h3>
+
+<p>For closed-shell molecular spin states, where all electrons are paired, a “restricted” formalism of the quantum chemical method (<em>e.g.</em> RHF) can be used, where the orbitals optimised contain both spin-up and spin-down (\(\alpha\) and \(\beta\)) electrons. Restricted formalisms are used for singlet electronic states (\(S_0, S_1, S_2\)). Photoexcitation can produce open-shell molecules containing unpaired electrons. In these cases “unrestricted” (<em>e.g.</em> UHF) or “restricted open-shell” (<em>e.g.</em> ROHF) formalisms can used. The former uses two independently optimised sets of orbitals to treat the \(\alpha\) and \(\beta\) electrons separately, while the latter uses both singly and doubly occupied orbitals. Unrestricted methods can be used for open-shell states (\(T_1, T_2, D_0\)), since unrestricted methods are computationally simpler and more amenable to post-HF correction than restricted open-shell methods. However, UHF calculations can  encounter “spin-contamination”, where the contributions of higher state solutions contaminate the UHF wavefunction and hence the spin operator (\(\mathbf{S}^{2}\)) of the UHF wavefunction is no longer a valid spin eigenfunction. The deviation from the \(\mathbf{s(s+1)}\) expectation value should be monitored as a diagnostic in all calculations of open-shell species. Unrestricted DFT (UDFT) appears to suffer less from spin-contamination due to the use of Kohn-Sham orbitals.</p>
+
+<h3 id="posthartee-fock-wavefunction-methods">Post–Hartee-Fock wavefunction methods</h3>
+
+<h4 id="møller-plesset-perturbation-mpn">Møller-Plesset perturbation (MP<em>n</em>)</h4>
+
+<p>A Møller-Plesset (MP<em>n</em>) perturbative correction (\(\lambda \hat{V}\)) can be applied to the HF Hamiltonian (\(\hat{H}_{0}\)) to yield a more exact Hamiltonian (\(\hat{H}\)): \(\hat{H} = \hat{H}_{0} + \lambda \hat{V}\). Typically, the perturbation applied is a second order correction (MP2), which takes into account electron repulsion integrals (ERIs) between occupied (\(i,j,\ldots\)) and virtual (\(a,b,\ldots\)) orbitals in the Slater determinant:</p>
+
+\[E^{\mathrm{MP2}} = \sum_{ij}^{occupied} \sum_{ab}^{virtual}  \frac{(ia|bj)(jb|ia)}{\epsilon_{a} + \epsilon_{b} - \epsilon_{i} - \epsilon{j}}\]
+
+<p>This MP2 correction recovers \(\sim\)80–90% of the total dynamic electron correlation which was lacking in the HF solution, allowing better chemical predictions at the increased computational cost of evaluating ERIs.</p>
+
+<h4 id="resolution-of-the-identity-ri">Resolution of the Identity (RI)</h4>
+
+<p>The resolution of the identity (RI) approximation replaces computationally expensive four-centre ERIs with three-centre or two-centre integrals through the use of a larger auxiliary basis set. This leads to dramatic gains in computational efficiency with little loss in accuracy, particularly with larger basis sets containing higher angular momentum orbitals. The use of the RI approximation for correlated methods, such as RI-MP2, allows correlated calculations on far larger systems than otherwise possible. The Coulomb and exchange integrals can also be treated with a form of RI, known as RIJK. RIJK can be used for many methods, while the “chain-of-spheres” algorithm for exchange integrals (RIJCOSX) can be used for excited state calculations.</p>
+
+<h4 id="coupled-cluster-cc">Coupled cluster (CC)</h4>
+<p>Coupled cluster (CC) theory uses a cluster operator (\(\hat{T}\)) that contains excitations that promote occupied orbitals in the Slater determinant to virtual orbitals to obtain a more exact wavefunction: |{\(\Psi_{cc}\)}\(\rangle\) = \(e^{\hat{T}}\)|{\(\Psi_{0}\)}\(\rangle\). The cluster operator can be truncated to include only double excitations (CCD), single and double excitations (CCSD), single, double and triple excitations (CCSDT), <em>etc.</em>:</p>
+
+\[|{\Psi_{\mathrm{CC}}}\rangle = \left(1 + \hat{T}_{1} + (\hat{T}_{2} + \frac{1}{2}\hat{T}_{1}^{2}) + (\hat{T}_{3}+\hat{T}_{1}\hat{T}_{2}+\frac{1}{3!}\hat{T}_{1}^{3}) + \cdots \right)|{\Psi_{0}}\rangle\]
+
+<p>CC calculations deliver some of the best energetic predictions of any quantum chemical method, but the inclusion of high order excitation results in large computational scaling exponents. For example, CCSD formally scales as \(\mathcal{O}(N^{6})\) with system size, while CCSDT scales as \(\mathcal{O}(N^{8})\) and is therefore impractical for modestly sized molecules (\(\sim\)6 non-hydrogen atoms). The use of CCSD with a perturbative triple excitation correction, CCSD(T), scales as \(\mathcal{O}(N^{7})\). CCSD(T) energies are often the “gold standard” that other quantum chemical methods are benchmarked against.</p>
+
+<h3 id="density-functional-theory-dft">Density Functional Theory (DFT)</h3>
+
+<p>Density functional theory (DFT) calculates the total energy through the use of functionals which depend on the electron density (\(\rho\)):</p>
+
+\[E[\rho] = T_{s}[\rho]+ E_{eN}[\rho] + J[\rho] + E_{xc}[\rho]\]
+
+<p>The first term (\(T_{s}[\rho]\)) is the electron kinetic energy which can be calculated from a Slater determinant similarly to HF theory, though in DFT Kohm-Sham orbitals are used. The Coulombic electron-nuclear attraction (\(E_{eN}[\rho]\)) and  electron-electron repulsion (\(J[\rho]\)) terms can be calculated classically. The final term, \(E_{xc}[\rho]\), contains the electron-electron exchange-correlation functional whose exact form is not known. There are myriad DFT methods using different functional approximations for \(E_{xc}[\rho]\), however the accuracy of their approximations cannot be known <em>a priori</em>, unlike with wavefunction methods. Though some functionals are non-empirical, many DFT methods are semi-empirical as their functional forms are parameterised with reference experimental data in an attempt to improve their accuracy.</p>
+
+<p>Functionals which incorporate more physical parameters of the electron density have accordingly higher computational costs, but tend to show increased accuracy. This provides a convenient classification of DFT methods into rungs on the conceptual “Jacob’s ladder” of accuracy, which is illustrated below. The representative accuracy of each rung in Jacob’s ladder is taken from the DFT review by Goerigk and Grimme, <a href="http://dx.doi.org/10.1039/c0cp02984j">A thorough benchmark of density functional methods for general main group thermochemistry, kinetics, and noncovalent interactions</a>. A popular DFT method is listed as an example for each rung.</p>
+
+<p><img src="/images/Jacobs_ladder_Goerigk_Grimme.png" alt="Jacob's ladder" /></p>
+
+<p class="figcaption">A schematic of the “rungs” of accuracy in the conceptual “Jacob’s ladder” organisation system of density functional methods. The qouted accuracy of each rung comes from a review by Goerigk &amp; Grimme on density functional methods. Schematic of Jacob’s ladder modified from: Robert Fludd, <em>Utriusque Cosmi</em>, <strong>1671</strong>, illustrated by Johann Theodor de Bry, Oppenheim and Frankfort.</p>
+
+<p>Local denistry approximation (LDA) functionals use only the local electron density (\(\rho\)), generalised gradient approximation (GGA) functionals incorporate the electron density gradient (\(\nabla\rho\)), and meta-GGA functionals incorporate the second derivative or kinetic energy of the electron density (\(\nabla^2\rho\)). Improved accuracy relative to pure DFT functionals can be achieved by mixing in a component of a wavefunction method. When HF exchange is incorporated into DFT it is known as a “hybrid” method, and addition of a perturbative MP2-like correction yields a “double-hybrid” method. The RI approximation can be used for the MP2-like correction in double-hybrid methods. DFT methods, being formulated upon local electron densities, do not properly capture dispersion interactions and so are frequently combined with empirical dispersion corrections.</p>
+
+<h4 id="global-hybrid-functionals">Global hybrid functionals</h4>
+<p>Pure DFT functionals suffer from self-interaction error (SIE), where the Coulomb repulsion of an electron with itself is non-zero due to the form of the exchange functional. The Slater determinant adopted for the HF exchange energy (\(E_{x}^{\mathrm{HF}}\)) exactly cancels SIE, and so SIE is lessened in hybrid functionals. Global hybrid (GH) functionals use a set fraction of HF exchange and have the form:</p>
+
+\[E_{xc}^{\mathrm{GH}} = (1 - a_{x})E_{x}^{\mathrm{DFT}} + a_{x}E_{x}^{\mathrm{HF}} + E_{c}^{\mathrm{DFT}}\]
+
+<p>As an example, in the popular B3LYP method \(E_{c}^{\mathrm{DFT}}\) is calculated with the Lee, Yang, and Par (LYP) correlation functional, \(E_{x}^{\mathrm{DFT}}\) with the Becke88 (B88) exchange functional, and the HF exchange mixing coefficient, \(a_{x}\), is 0.2 at all distances.</p>
+
+<h4 id="double-hybrid-functionals">Double-hybrid functionals</h4>
+
+<p>Double-hybrid density functionals (DHDFs) supplement \(E_{xc}[\rho]\) with a mixture of both non-local exchange and correlation energy from wavefunction methods, allowing them to recover more dynamic correlation and dispersion energy. DHDFs have the form:</p>
+
+\[E_{xc}^{\mathrm{DHDF}} = (1 - a_{x})E_{x}^{\mathrm{DFT}} + a_{x}E_{x}^{\mathrm{HF}} + (1 - a_{c})E_{c}^{\mathrm{DFT}} + a_{c}E_{c}^{\mathrm{PT2}}\]
+
+<p>One of the first DHDFs was B2-PLYP which uses the same B88 and LYP functionals as B3LYP, and wavefunction mixing coefficients \(a_{x} = 0.47\) and \(a_{c} = 0.27\). The wavefunction mixing coefficients were re-optimised for specific chemical applications for the B2\(X\)-PLYP set of DHDFs. In a <a href="https://doi.org/10.1021/jp801805p">systematic survey</a> by Karton <em>et al.</em> the “general-purpose” B2GP-PLYP functional, with \(a_{x} = 0.65\) and \(a_{c} = 0.36\), was found to be the most robust of the B2\(X\)-PLYP set methods, with maximum errors below 8 kJ/mol across all benchmark datasets surveyed.</p>
+
+<h4 id="range-separated-functionals">Range separated functionals</h4>
+
+<p>The use of a single \(a_{x}\) mixing coefficient in GH functionals leads to incorrect behaviour at long-range electron-electron distances, resulting in poor accuracy for charge-transfer excitations. In range separated hybrids (RSHs) \(\alpha\) and \(\beta\) parameters are introduced to the exchange functional form, to smoothly connect between GH exchange at short range and exact HF exchange at long range:</p>
+
+\[E_{x}^{\mathrm{RSH}} = (1 - \alpha)E_{x}^{\mathrm{DFT}} + \alpha E_{x}^{\mathrm{HF}} + \beta E_{x,\mu}^{\mathrm{HF}} - \beta E_{x,\mu}^{\mathrm{DFT}}\]
+
+<p>The value of \(\mu\) in a RSH functional determines how rapid the switch is between short range and long range exchange behaviour. For example, the CAM-B3LYP functional uses 0.19 \(E_{x}^{\mathrm{HF}}\) + 0.81 \(E_{x}^{\mathrm{B88}}\) at short-range but transitions to 0.65 \(E_{x}^{\mathrm{HF}}\) + 0.35 \(E_{x}^{\mathrm{B88}}\) at long-range.</p>
+
+<hr />
+
+<p><em>I can provide a post on basis sets later, but the nomenclature in the field is messy. Best to go straight to the</em> <a href="https://www.basissetexchange.org/">Basis Set Exchange</a></p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="guide" /><category term="electronic-structure" /><category term="DFT" /><summary type="html"><![CDATA[This post is adapted straight from my PhD Thesis, and is intended as a primer for beginner computational chemists. Thanks goes out to Dr Laura McKemmish, whose notes on compchem for undergraduates is the urtext for this guide.]]></summary></entry><entry><title type="html">Selecting an active space</title><link href="http://localhost:4000/guide/2023-04-12-picking-an-active-space/" rel="alternate" type="text/html" title="Selecting an active space" /><published>2023-04-12T00:00:00+10:00</published><updated>2023-04-12T00:00:00+10:00</updated><id>http://localhost:4000/guide/picking-an-active-space</id><content type="html" xml:base="http://localhost:4000/guide/2023-04-12-picking-an-active-space/"><![CDATA[<p><em>This post is adapted straight from my</em> <a href="http://handle.unsw.edu.au/1959.4/65036">PhD Thesis</a>, <em>and deals with the struggle of creating a workable active space for multiconfigurational calculations.</em></p>
+
+<hr />
+
+<p>Multiconfigurational methods are where the training wheels come off, you can no longer use a “black-box” combination of method and basis set – you <strong>have</strong> to think about the chemical problem. There is therefore no right answer, but chemical intuition comes into play (what bonds break/form, which orbitals are populated?). Start with simple orbitals and build up. So, small basis sets, make sure it converges, then enlarge the basis set if needs must. Try to treat the “which orbitals?” and “how small a basis set can I get away with?” problems separately. My advisor also gave me guidance that calculating the cation (thus giving you “pulled in” orbitals) is another trick to get started.</p>
+
+<p>The field is developing fast, to the point where there are methods to <a href="https://doi.org/10.1002/jcc.25869">automatically</a> <a href="https://doi.org/10.1021/acs.jctc.9b01297">select</a> an <a href="https://doi.org/10.1021/acs.jctc.2c01128">active</a> <a href="https://doi.org/10.1021/acs.jctc.9b00535">space</a>, but I believe “bespoke” <a href="https://sites.lsa.umich.edu/zimmerman-lab/tutorial/electronic-structure-calculation/casscf/">active space selection</a> will still have its uses, and is an <a href="https://doi.org/10.1002/qua.23068">art as much as a science</a>.</p>
+
+<hr />
+
+<h2 id="complete-active-space-casscf-calculations-and-minimum-energy-conical-intersection-meci-searches">Complete Active Space (CASSCF) calculations and Minimum Energy Conical Intersection (MECI) searches</h2>
+
+<p>In order to search for an optimised minimum energy conical intersection (MECI), a configuration where two electronic states are degenerate in energy, a multiconfigurational quantum chemistry method must be used. This involves optimising both the orbital coefficients but, unlike single-reference methods, also optimising the combinations of multiple Slater determinants. In multiconfigurational methods choice of an appropriate set of electron configurations in <a href="https://en.wikipedia.org/wiki/Configuration_state_function">configuration state functions</a> (CSFs) are crucial for a qualitatively correct description of the wavefunction.</p>
+
+<p>While individual CSFs could be manually selected, one of the most common approaches is the complete active space (CAS) method where all possible configurations inside a selected orbital active space are treated. The self-consistent field (SCF) is used, and so the method at at this level of theory is known as CASSCF. The use of an active space removes the burden of choosing particular CSFs to include in the SCF optimisation, but requires the selection of appropriate active space orbitals which capture the chemical process of interest. Usually this includes any orbitals near the frontier orbitals, those involved in making and breaking bonds, the inclusion of correlated bonding and anti-bonding pairs, and any orbitals which are calculated to have incomplete occupation according to orbital population schemes.</p>
+
+<h3 id="generation-of-natural-bond-orbitals">Generation of Natural Bond Orbitals</h3>
+<p>Selection of orbitals to include in the active space is more easily done if natural bond orbitals (NBOs) are used since they correspond to chemical intuition and are localised to the reactive space, while canonical orbitals are often too delocalised to be interpretable.</p>
+
+<p>Minimal basis sets are easier to converge in a CASSCF calculation than large basis sets, and also aid in interpretability. The starting point for all calculations was generation of an initial orbital population at the \(S_1\) TS configuration, using NBOs at the HF/STO-3G level of theory. An example Gaussian input file to generate these NBOs is given below. This process was also repeated if a large basis set, such as 6-31+G(d), was used.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%chk=[file_path]/save_NBOs.chk
+# HF/STO-3G Pop=(Full,SaveNBOs)
+
+Title Card Required
+
+0 1
+[Molecule input]
+</code></pre></div></div>
+
+<p>The generated NBOs can also be examined in an external program (Chemcraft in this example). The Gaussian input file below shows the extra input at the bottom required to call on the NBO program to print the calculated natural bond orbitals to file.  These will be labelled FILE.\(X\) where \(X\) is 31–37. Chemcraft can open up FILE.31 directly, and should recognise the FILE.\(X\) files for import. Chemcraft can then render NBOs from these files using the drop-down options: <code class="language-plaintext highlighter-rouge">Tools → Orbitals → Render molecular orbitals → NBOs</code>. Be aware: there is a reordering from the .log file and the .chk file, so only rely on the numbering in GaussView when identifying orbital indexes.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%chk=[file_path]/print_NBOs.chk
+#P HF/STO-3G Pop=(Full,NBORead,SaveNBO) gfoldprint
+
+Title Card Required
+
+0 1
+[Molecule input]
+
+$NBO BNDIDX PLOT $END
+</code></pre></div></div>
+
+<h3 id="selection-of-the-active-space">Selection of the active space</h3>
+<p>It is useful to check both the character of these NBOs from their density distribution, as well as their occupation value according to the NBO scheme. Any molecular orbitals which have occupations that differ significantly from the 0/2 value for virtual/occupied orbitals are likely candidates for inclusion in the active space.</p>
+
+<p>The conical intersection of interest is between the \(S_1\)/\(S_0\) states of the carbonyl. This conical intersection will be present near the vicinity of the transition state which involves a 1,5–H-shift from the carbonyl oxygen to the \(\gamma\)-hydrogen. Correlated pairs of bonding and anti-bonding orbitals should be included, for example if a C-H σ bonding orbital is included the corresponding C-H σ∗ antibonding orbital should also be included. The oxygen \(n\) orbital which interacts with the \(\gamma\)-hydrogen and also changes occupation in the excited state is crucial to include in active space, as well as the C=O π bonding and antibonding orbitals.</p>
+
+<p>Additionally, since the photoexcited C=O moiety abstracts a hydrogen atom to form a C-O-H bond, the C-O orbitals were found to be important for inclusion in the active space. This is particularly true when a STO-3G minimal basis set was used, which would deliver optimised C-O bond lengths approximately 0.3 Å larger than in the transition state structure. With large basis sets the C-O bond length varied little from the transition state structure and hence the inclusion of corresponding orbitals was of less importance.</p>
+
+<p>A reasonable (8,7) active space for typical saturated carbonyls includes:</p>
+<ul>
+  <li>C-O σ and σ∗ orbitals.</li>
+  <li>C=O π and π∗ orbitals.</li>
+  <li>O \(n\) orbital of the lone pair.</li>
+  <li>\(\gamma\)C-H σ and σ∗ orbitals.</li>
+</ul>
+
+<p>The NBOs which correspond to this active space are shown in the example of butanal below at an isosuraface value of 0.1. While literature calculations use a (8,7) active space, a (10,8) active space that includes the alternate O \(n\) oxygen-centred NBO was used as the largest active space. The literature active space is provided in Kletskii <em>et al.</em> <a href="http://dx.doi.org/10.1016/j.comptc.2014.08.025">Competing Mechanisms of Norrish and Norrish-Like Reactions in a Wide Range of Systems — from Carbonyl Compounds to Nitrogen Oxide Donators</a></p>
+
+<p><img src="/images/butanal_NBOs.png" alt="Butanal Natural Bond Orbitals" /></p>
+
+<p class="figcaption">Natural bond orbitals for butanal, showing those typical for the active space of a CAS(8,7) calculation on a saturated carbonyl. CAS(10,8) active spaces include the other oxygen-centred NBO.</p>
+
+<p>For unsaturated species, it was found to be beneficial to also include the π and π∗ orbitals of the point of unsaturation. A (12,10) active space is very computationally demanding, so for unsaturated species the (10,8) active space sized is preserved by removing the C-O σ and σ∗ NBOs, and replacing them with the π and π∗ orbitals from the point of unsaturation, as illustrated below.</p>
+
+<p><img src="/images/2-oxobutanal_NBOs.png" alt="2-Oxobutanal Natural Bond Orbitals" /></p>
+
+<p class="figcaption">Natural bond orbitals for 2-oxobutanal, showing those typical for the active space of a CAS(10,8) calculation on an unsaturated carbonyl. In these carbonyls with a point of unsaturation the other π and π∗ NBOs are included instead of the C-O σ and σ∗ NBOs to keep the active space manageable.</p>
+
+<p>Once identified, these orbitals of interest need to be rotated into the active space. The orbitals which are considered in the active space are those nearest the HOMO/LUMO frontier according to the (\(n\),\(m\)) active space chosen. The (\(n\),\(m\)) nomenclature means enough occupied molecular orbitals to host \(n\) electrons are treated as active. These are taken from the HOMO index and those sequentially below. The number of virtual orbitals in the active space is \(m\) less the number of active occupied orbitals, and they are indexed from the LUMO and those sequentially above it.</p>
+
+<h3 id="performing-casscf-and-meci-calculations">Performing CASSCF and MECI calculations</h3>
+<p>The easiest way to perform this active space selection with the orbitals in the correct index is to interchange orbitals read in from the NBO checkpoint file. This process is illustrated in the example Gaussian input file below — interchanging as an example orbitals 9 and 25, as well as 40 and 31.</p>
+
+<p>Note: before running the input file below, copy the checkpoint file containing the saved NBOs to have same name as the checkpoint filename used here, so the CASSCF calculation can read in the correct NBOs. The molecular geometry does not need to be supplied since it is read from the checkpoint file.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">iop(5/7=N)</code> keyword sets the amount of CASSCF convergence cycles used. While this can be increased, a slow or difficult to converge CASSCF calculation is often indicative of a poor active space. In some large molecules convergence can be slow, but if the energy is seen to be monotonically decreasing with each cycle then simply increasing the amount of available cycles may be all that is needed.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%chk=[file_path]/[molecule]_S0_8-7.chk
+# CASSCF(8,7)/STO-3G iop(5/7=200) Guess=(Read,Alter) Geom=Checkpoint 
+
+
+Title Card Required
+
+0 1
+
+9,25
+40,31
+</code></pre></div></div>
+
+<p>If this CAS(\(n\),\(m\)) calculation converges on the \(S_0\) state at configuration of the \(S_1\) NTII TS geometry calculated by TD-DFT, then this  wavefunction is taken as a good initial guess for a beginning a conical intersection optimisation.</p>
+
+<p>An example input file of running a minimum energy conical intersection (MECI) search with Gaussian is given below. Again, the checkpoint file from a previous job must be copied to this checkpoint filename specified in the current job to read the orbitals, in this case from the converged CAS \(S_0\) calculations. Note: in Gaussian 16 the state average weights must be included at the bottom of the input file, whereas Gaussian 09 does not need this extra input and defaults to the 0.5, 0.5 weighting between the upper and lower state of the same spin.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%chk=[file_path]/[molecule]_CI_search.chk
+# CASSCF(8,7)/STO-3G iop(1/8=5) Guess=Read Geom=Checkpoint Opt=Conical  
+
+Title Card Required
+
+0 1
+
+0.5 0.5
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">iop(1/8=N)</code> keyword sets the maximum step size during the optimisation, and  generally needs to be decreased from its default value of \(N = 30\) which corresponds to 0.3 Bohr. Since the \(S_1\) Norrish Type II TS structure is taken as being close MECI a small step size is appropriate and avoids issues where the optimiser can overshoot the MECI several times if large step sizes are used. The maximum number of convergence cycles may again need to be increased through the use of the <code class="language-plaintext highlighter-rouge">iop(5/7=N)</code> keyword, however since an already converged \(S_0\) CAS wavefunction is used as the initial guess the convergence during MECI searches tended to be well behaved, and convergence issues were often an indication that the geometry optimiser has strayed into a bad part of configuration space and a new guess geometry must be used.</p>
+
+<p>The \(S_1\)/\(S_0\) state energy difference is reported in the log file as <code class="language-plaintext highlighter-rouge">Energy difference=     X</code> and this difference should be monitored, as well as the usual geometry convergence criteria of force and displacement values. If the energy difference, forces, or geometry begin to oscillate around a central zero value then decreasing the step size at this stage may improve the MECI search.</p>]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="guide" /><category term="active-space" /><category term="CASSCF" /><category term="multiconfigurational" /><category term="electronic-structure" /><summary type="html"><![CDATA[This post is adapted straight from my PhD Thesis, and deals with the struggle of creating a workable active space for multiconfigurational calculations.]]></summary></entry></feed>

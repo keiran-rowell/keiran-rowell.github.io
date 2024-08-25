@@ -85,7 +85,7 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 
 ### Coal tarred 🪨 and feathered
 
-- BASF - *Badische Anilin und Sodafabrik* (Baden Aniline and Sodium Carbonate Factory). The rise of this company was meteoric after [Haber and Bosch invented their method]({% post_url 2023-06-14-nitrogen-fixation.md %}) to turn nitrogen from the air into fertiliser. The sodafabrik part of BASF is infamous of New South Wales highschool students who had to memorise the conditions of the Solvay process as part of their Industrial Chemistry module.
+- BASF - *Badische Anilin und Sodafabrik* (Baden Aniline and Sodium Carbonate Factory). The rise of this company was meteoric after [Haber and Bosch invented their method]({% post_url 2023-06-14-nitrogen-fixation %}) to turn nitrogen from the air into fertiliser. The sodafabrik part of BASF is infamous of New South Wales highschool students who had to memorise the conditions of the Solvay process as part of their Industrial Chemistry module.
 - Known as the [Aniline women](https://www.basf.com/global/images/about-us/history/21252221_BRO_Anilinerinnen_englisch_final.pdf.assetdownload.pdf)
 - BASF would go on to join I.G. Farben (very literally, "The Colour Syndicate"), a cartel appearing as a constant ominous industrial spectre stalking Gravity's Rainbow, tragically mirroring how these scientifically and commercially pioneering chemical companies were wrested into the control of depraved, horrific warmongers; the 'Them' of the military-industrial complex which haunts the book's entire narrative.
 - The effects on fashion 

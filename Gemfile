@@ -17,9 +17,9 @@ group :jekyll_plugins do
   gem "jekyll-pdf-embed"
 end
 
-source "https://rubygems.pkg.github.com/mihajlonesic" do
-  gem "jekyll-pdf-embed", "1.1.1"
-end
+#source "https://rubygems.pkg.github.com/mihajlonesic" do
+#  gem "jekyll-pdf-embed", "1.1.1"
+#end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
