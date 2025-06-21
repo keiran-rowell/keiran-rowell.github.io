@@ -2,7 +2,7 @@
 
 
 ## Contributing to the nf-core/proteinfold development -- (NextFlow)
-![nf-core/proteinfold](images/nf-core-proteinfold_logo_dark_half-size_yellow.png)
+![nf-core/proteinfold](/images/nf-core-proteinfold_logo_dark_half-size_yellow.png)
 
 I am part of a team at the [Structural Biology Facility - UNSW](https://www.unsw.edu.au/research/facilities-and-infrastructure/find-a-facility/sbf) that is contributing to the international [nf-core/proteinfold](https://nf-co.re/proteinfold/) NextFlow pipeline, started at the [Centre for Genomic Regulation](https://www.crg.eu/) in Barcelona.  Proteinfold allows automatic high-performance protein folding from a simple samplesheet listing the target FASTA files. Proteinfold supports switching modes between multiple contemporary AI protein structure prediction programs, and generates an HTML report that visualises the protein structures. Since it's written in NextFlow, it ensures reproducibility and can be run on either on-premises computing hardware or *via* cloud computing providers.
 
@@ -35,7 +35,7 @@ My PhD thesis developed SARs from comprehensive reaction threshold calculations 
 
 
 ## Revising Neighbour-Exclusion in DNA Intercalators -- (Honours)
-![Neighbour exclusion](images/neighbour_exclusion.png)
+![Neighbour exclusion](/images/neighbour_exclusion.png)
 
 My simulations revise previous literature by indicating diacridines can insert into DNA without violating neighbour-exclusion. 
 {:.figcaption}
