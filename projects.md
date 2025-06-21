@@ -2,7 +2,7 @@
 
 
 ## Contributing to the nf-core/proteinfold development -- (NextFlow)
-![nf-core/proteinfold](/images/nf-core-proteinfold_logo_dark_half-size.png)
+![nf-core/proteinfold](images/nf-core-proteinfold_logo_dark_half-size.png)
 
 I am part of a team at the [Structural Biology Facility - UNSW](https://www.unsw.edu.au/research/facilities-and-infrastructure/find-a-facility/sbf) that is contributing to the international [nf-core/proteinfold](https://nf-co.re/proteinfold/) NextFlow pipeline, started at the [Centre for Genomic Regulation](https://www.crg.eu/) in Barcelona.  Proteinfold allows automatic high-performance protein folding from a simple samplesheet listing the target FASTA files. Proteinfold supports switching modes between multiple contemporary AI protein structure prediction programs, and generates an HTML report that visualises the protein structures. Since it's written in NextFlow, it ensures reproducibility and can be run on either on-premises computing hardware or *via* cloud computing providers.
 
@@ -10,9 +10,7 @@ My main current contribution to the pipeline is unifying the quality metrics fro
 
 
 ## Folding entire proteomes with deep learning models -- (AlphaFold) 
-<video width="584" height="200" controls autoplay>
-  <source src="images/proteome_marquee.mp4" type="video/mp4">
-</video>
+<video src="{{ '/images/proteome_marquee.mp4'}}">
 
 I use high-performance computing systems to predict the folded structure of proteins from their amino acid sequence. By selecting efficient methods with acceptable accuracy for their application, I am able to "fold" the entire closed genome of organisms on modest high-performance compute servers. I then generate structured summaries and high quality rendered images, handing this molecular inventory back to biomolecular specialists who are able to identify key proteins in biochemical pathways.
 
