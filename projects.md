@@ -1,8 +1,25 @@
 # Projects
 
-<!---
-Add an APAF section here about refactoring code base with the PhD student into APAFunctions. Coordinating with BioCommons to get APAF code on proteomics.usegalaxy.org.au
--->
+
+## Contributing to the nf-core/proteinfold development -- (NextFlow)
+![nf-core/proteinfold](/images/nf-core-proteinfold_logo_dark.png)
+
+I am part of a team at the [Structural Biology Facility - UNSW](https://www.unsw.edu.au/research/facilities-and-infrastructure/find-a-facility/sbf) that is contributing to the international [nf-core/proteinfold](https://nf-co.re/proteinfold/) NextFlow pipeline, started at the [Centre for Genomic Regulation](https://www.crg.eu/) in Barcelona.  Proteinfold allows automatic high-performance protein folding from a simple samplesheet listing the target FASTA files. Proteinfold supports switching modes between multiple contemporary AI protein structure prediction programs, and generates an HTML report that visualises the protein structures. Since it's written in NextFlow, it ensures reproducibility and can be run on either on-premises computing hardware or *via* cloud computing providers.
+
+My main current contribution to the pipeline is unifying the quality metrics from these AI models (structure confidence, interaction scores) into a common plaintext format that scientists can easily manipulate, rather than having to deserialised the various formats different programs have adopted and query particular keys. My aim is to amass these quality metrics into a summary [MultiQC report](https://docs.seqera.io/multiqc)  that provides "at-a-glance" ranking and insight into structure prediction success of "bulk" protein folding (*e.g.* entire proteomes, oversampling replicates).  
+
+
+## Folding entire proteomes with deep learning models -- (AlphaFold) 
+<video width="584" height="200" controls autoplay>
+  <source src="proteome_marquee.mov" type="video/mp4">
+</video>
+
+I use high-performance computing systems to predict the folded structure of proteins from their amino acid sequence. By selecting efficient methods with acceptable accuracy for their application, I am able to "fold" the entire closed genome of organisms on modest high-performance compute servers. I then generate structured summaries and high quality rendered images, handing this molecular inventory back to biomolecular specialists who are able to identify key proteins in biochemical pathways.
+
+## Refactoring code for mass spectrometry reports -- (R, GitHub)
+
+I did some restructuring and refactoring of a codebase for a suite of mass spectrometry analysis reports, which had built up over time without consistent version control so had become divergent. Working alongside a talented Master's student & R developer I migrated the set of core functions and code versions to an [Enterprise GitHub repository](https://github.com/APAF-bioinformatics/APAFunctions) and began identifying points of commonality between versions of plotting and statistical function. This code rewrite significantly reduced the lines of code to maintain, made function naming and operation clearer, allowed easy addition and modification to analysis workflows, and enabled easy install from RStudio with `install_github()`.
+ 
 
 ## Structure-Activity Relationships for Carbonyl Photolysis -- (PhD)
 ![Structure-activity relationships for carbonyls](/images/SARs_for_carbonyls.png)
