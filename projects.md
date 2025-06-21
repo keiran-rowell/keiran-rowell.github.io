@@ -11,7 +11,7 @@ My main current contribution to the pipeline is unifying the quality metrics fro
 
 ## Folding entire proteomes with deep learning models -- (AlphaFold) 
 <video width="584" height="200" controls autoplay>
-  <source src="proteome_marquee.mp4" type="video/mp4">
+  <source src="images/proteome_marquee.mp4" type="video/mp4">
 </video>
 
 I use high-performance computing systems to predict the folded structure of proteins from their amino acid sequence. By selecting efficient methods with acceptable accuracy for their application, I am able to "fold" the entire closed genome of organisms on modest high-performance compute servers. I then generate structured summaries and high quality rendered images, handing this molecular inventory back to biomolecular specialists who are able to identify key proteins in biochemical pathways.
