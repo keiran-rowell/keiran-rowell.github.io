@@ -35,7 +35,7 @@ The only concentrated, colourfast sources of organic purple come from the seas. 
 
 ### Lapis lazuli and other blues of value 🔵
 
-Even the colour diversity found within the minerals of the Earth was of little help; the naturally occuring pigments minerals are prone to dull hues, quick fading, and discolouration into green (*e.g.* azurite). Pure, brilliant blue mineral pigment was only provided eye wateringly expensive lapis lazuli (Ultarmarine), mined only in mountains on the North-Eastern tip of Afghanistan. Ultramarine would cost up to 100x other pigments, but its dazzling effect was used in relgious iconography across Asia and Europe and is a notable in famous paintings (*e.g.* the [blue headscarf](https://heritagesciencejournal.springeropen.com/articles/10.1186/s40494-020-00364-5) in *"Girl with a Pearl Earring"*). Synthetic mineral blue dyes were also created in ancient times from copper Silicates (mixed with `Ca` - "Egyptian" Blue, or `Ba` - "Han" Blue & Purple), or otherwise just from indigo 'baked into' a mineral substrate, as detailed in a in *Chemical Society Reviews* on ["The invention of blue and purple pigments in ancient times"](https://doi.org/10.1039/B606268G). Han Purple is not a pure purple, but is due to red-copper oxide impurities in production. All these synthetics, however, paled in comparison to "true" Ultramarine and lapis lazuli was in demand well into the 19th century. The physical origin of the intense blue appearance of Ultramarine is chemically interesting: rather than a light absorbing metal at the centre of the mineral, there is instead a caged negatively charged trisulfur radical (S$$_3^{.-}$$).   
+Even the colour diversity found within the minerals of the Earth was of little help; the naturally occuring pigments minerals are prone to dull hues, quick fading, and discolouration into green (*e.g.* azurite). Pure, brilliant blue mineral pigment was only provided by eye wateringly expensive lapis lazuli (Ultarmarine), mined only in mountains on the North-Eastern tip of Afghanistan. Ultramarine would cost up to 100x other pigments, but its dazzling effect was used in relgious iconography across Asia and Europe and is a notable in famous paintings (*e.g.* the [blue headscarf](https://heritagesciencejournal.springeropen.com/articles/10.1186/s40494-020-00364-5) in *"Girl with a Pearl Earring"*). Synthetic mineral blue dyes were also created in ancient times from copper Silicates (mixed with `Ca` - "Egyptian" Blue, or `Ba` - "Han" Blue & Purple), or otherwise just from indigo 'baked into' a mineral substrate, as detailed in a in *Chemical Society Reviews* on ["The invention of blue and purple pigments in ancient times"](https://doi.org/10.1039/B606268G). Han Purple is not a pure purple, but is due to red-copper oxide impurities in production. All these synthetics, however, paled in comparison to "true" Ultramarine and lapis lazuli was in demand well into the 19th century. The physical origin of the intense blue appearance of Ultramarine is chemically interesting: rather than a light absorbing metal at the centre of the mineral, there is instead a caged negatively charged trisulfur radical (S$$_3^{.-}$$).   
 
 Now with modern chemistry, blue hues can be made that are so striking that an artist can make a multimillionair dollar name for themselves with [one famous blue dye](https://www.invaluable.com/blog/yves-klein-blue/), and scientific careers and reputations can be built upon chemists' prowess to manufacture the [bluest blue](https://www.huffpost.com/entry/quantum-blue-berkeley_n_5b8db0a4e4b0511db3db33a1). The chemistry of commercially abundant purple dyes, however, was only cracked in the 19th, and now still purple and violet contain unplumbed depths in colour terminology, our [visual perception](https://jakubmarian.com/difference-between-violet-and-purple/) near the UV wavelengths, and even the [colour range](https://ericportis.com/posts/2024/okay-color-spaces/) of our computer monitors. 
  
@@ -138,9 +138,13 @@ Hückel's rule for aromaticity: any cyclic arrangement of $$ 4n+2 $$ carbon atom
 
 - In fact the overlapping ring can be an unusual configuration, leading to things like [Möbius armoaticity](https://commons.wikimedia.org/wiki/File:Mobius_v_huckel_aromatic.png)
 
-- Dyes are still a testbed for theoretical chemistry. Like revisiting the [classic green and red dyes](https://pubs.acs.org/doi/abs/10.1021/jp309006e)
 - Some more of  Seth Olsen's papers? amongst others
-- Link back to GFP chromophores etc?  
+	- Dyes are still a testbed for the theoretical chemistry of colour. Like revisiting the [classic green and red dyes](https://pubs.acs.org/doi/abs/10.1021/jp309006e)
+	- Some very interesting work on how dyes reveal the chemical relationships that determine the nature of electronic transitions. [A Modified Resonance-Theoretic Framework for Structure−Property Relationships in a Halochromic Oxonol Dye]() -Seth Olsen, *Journal of Chemical Theory and Computation* **2010**, *6*, 4, 1089-1103. 
+The absorbance wavelength of an asymmetric dye is no redder than the mean wavelength of its symmetric parents and deviates from this by a blue shift which increases as the difference in basicity of the terminal groups.
+{:.note title="Brooker's Deviation Rule"}
+-["Absorption and resonance in dyes"](https://doi.org/10.1103/RevModPhys.14.275), *Reviews of Modern Physics*, **14**, 275, **(1942)**
+ 
 
 - % Prohpyrin means 'purple' and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
 - % Azulene from azure 'blue' and the -ene suffix of double bonds. 
@@ -152,7 +156,9 @@ Hückel's rule for aromaticity: any cyclic arrangement of $$ 4n+2 $$ carbon atom
 Ten active oribtals in the electronic structure of iron-prorphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. —["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
 {:.figcaption}
 
-- % [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring aroudn the perimeter
+- % [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
+
+- Link back to GFP chromophores etc?  
 
 ### Retinal, in our eye 👁️ and in microbes 🦠 
  - % Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision.
@@ -171,4 +177,4 @@ Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to 
 Purple is my favourite colour :) 
 {:.lead}
 
-*[Deep Purple](https://deeppurple.com/) is shrouded in mystique, while there's something spectral about [High Violet](https://4ad.com/releases/922) hinting at energetic light just beyond human perception.* 
+*[Deep Purple](https://deeppurple.com/) is shrouded in mystique, while there's something spectral about [High Violet](https://4ad.com/releases/922) hinting at energies just beyond human perception.* 
