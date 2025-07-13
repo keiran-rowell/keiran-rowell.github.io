@@ -16,7 +16,7 @@ tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple
 Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence.  —Synthesis diagram from *Plant Cell Reports*, vol. 35, pg. 2449–2459, **(2016)**.
 {:.figcaption}
 
-*The development of dyes used to be covered in a (rarely taught) NSW syllabus option, "Chemistry of Art", which touched on everything from indigenous dyes to transition metal pigments and atomic spectroscopy, but is sadly now gone. For those interested in colour more generally, I can recommend* ["The Secret Lives of Colour"](https://www.kassiastclair.com/books) *for its addictive ease to pick-up and dive into each hue, and* ["The History of Colour"](https://www.rca.ac.uk/more/staff/neil-parkinson/) *for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the industrial dye developments interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
+*The development of dyes used to be covered in a (rarely taught) NSW syllabus option, "Chemistry of Art", which touched on everything from indigenous dyes to transition metal pigments and atomic spectroscopy, but is sadly now gone. For those interested in colour more generally, I can recommend* ["The Secret Lives of Colour"](https://www.kassiastclair.com/books) *for its addictive ease to pick-up and dive into each hue, and* ["The History of Colour"](https://www.rca.ac.uk/more/staff/neil-parkinson/) *for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the development of industrial dyes interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
 
 ---
 
@@ -31,7 +31,7 @@ Almost all colours in the blue end of the spectrum (as well as many others) come
 
 Similarly, there's an almost complete abscence of natural purple. Purple cabbage and eggplant contain the same anthocyanins as blueberries, and while violet flowers are so striking the colour is named after them, they do not make a colourfast dye that will last in fabric. So, when nature was our only source of chemicals, people's desire the harness the spectrum of 'cool' colours came from crushing the leaves of the somewhat drab woad and the perennially popular indigo (which is both a type of plant and one of Newton's seven 'ROYGB**I**V' colours). 
 
-The only concentrated, colourfast sources of organic purple come from the seas. *Aplysia* sea slugs [spray purple](https://youtu.be/qmn1bpz00qA?si=ajvqjlsCp7IaI25-) aplysioviolin molecules when threatened, which they have built up from eating red algea, stripping the colour molecule from the algae's light harvestting proteins, and concentrating a modified molecule in their ink glands. A painstaking, but more relaible, way to harvest natural purple is to extract ink glands from the *Murex* sea snail. The 'Tyrian purple' dye harvested from these snail glands was, and is, [outrageously expensive](https://youtu.be/IVXqisH6VeM?si=mRh5GDGBscIPJDDH), fetching around $3000 USD/g in the 21st century. Tyrian purple is in fact a bromoniated derivative of indigo, synthesised using a bromoperoxidase enzyme unique to Murex. Scientists still have not confirmed the active metal within the *Murex*'s bromoperoxidase enzyme (most bromoperoxidases use the rare Vanadium), or which sea snail gene encodes for it. 
+The only concentrated, colourfast sources of organic purple come from the seas. *Aplysia* sea slugs [spray purple](https://youtu.be/qmn1bpz00qA?si=ajvqjlsCp7IaI25-) aplysioviolin molecules when threatened, which they have built up from eating red algea, stripping the colour molecule from the algae's light harvestting proteins, and concentrating a modified molecule in their ink glands. A painstaking, but more relaible, way to harvest natural purple is to extract ink glands from the *Murex* sea snail. The 'Tyrian purple' dye harvested from these snail glands was, and is, [outrageously expensive](https://youtu.be/IVXqisH6VeM?si=mRh5GDGBscIPJDDH), fetching around $3000 USD/g in the 21st century. Tyrian purple is in fact a bromoniated derivative of indigo, synthesised using a bromoperoxidase enzyme unique to *Murex*. Scientists still have not confirmed the active metal within the *Murex*'s bromoperoxidase enzyme (most bromoperoxidases use the rare Vanadium), or which sea snail gene encodes for it. 
 
 ### Lapis lazuli and other blues of value 🔵
 
@@ -55,7 +55,7 @@ Ironically, despite the incredibly rarity of steadfast purple in nature, purple 
 
 ![Sample of Perkin's mauve aniline dye](../images/perkins_mauve_sample.jpg)
 
-Perkin's mauve was a runaway success, until it became so fashionable to be tawdry and the use of the gaudy colour feel out of fashion for everyday wear. 
+Perkin's mauve was a runaway success, until it became so fashionable to be tawdry and the use of the gaudy colour fell out of fashion for everyday wear. 
  — *Journal of the Society of Dyers and Colourists*, **Nov 1906**, *via* the [Science History Insitute](https://digital.sciencehistory.org/works/o2sfuyr) . 
 {:.figcaption}
 
@@ -81,13 +81,17 @@ The ouroboros has a long history, including a connection to alchemy where it is 
 Kekulé's serpentine solution of benzene's structure is actually used within the book Gravity's Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:
 > “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
 
-*Gravity's Rainbow*, Thomas Pynchon, pg. 412, Penguin 2nd Ed.
-{:.note title=""}
+-*Gravity's Rainbow*, Thomas Pynchon, pg. 412, Penguin 2nd Ed.
  
 
 
 - In the [*"Coloring Gravity's Rainbow"*](https://doi.org/10.16995/pn.374) the author's apply criticl lens to the chromatic and chemical connections in this book. The protagonist's very name -- Tryone -- has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
 
+%footnote 5 in "Colouring Gracity's Rainbow", 
+
+"Who makes dyes today can tomorrow make high-explosives" 
+{:.note title="Dyes and disarmament"}
+-[*World Disarmament and the Master Key Industry*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), America dyes institute,**1921**. 
 
 ### The controversial birth of "Aromaticity" ⌬ ↔ ⏣
 
@@ -105,16 +109,13 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 - Armit and Robison "aromatic sextet" [paper](https://doi.org/10.1039/CT9252701604)
 - Don't let the historical account get in the way of a good story. *Chemical Reviews* provides a good instructional [review paper on this history](https://doi.org/10.1021/cr0300946). Nevertheless, a sizeable chunk of Kekules students went on the work in the german Dye industry 
 
-... this segues back in William Perkin knowing enough about aromatic chemistry to search for quinin precusors.  [Actually, Kekule's benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss
+... this segues back in William Perkin knowing enough about aromatic chemistry to search for quinine precusors.  [Actually, Kekule's benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss
  
 
-[Collections of early napthalene dye experiments](https://armstrongwynne.org/). Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry. 
-
-% Prohpyrin means 'purple' and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
-% Azulene from azure 'blue' and the -ene suffix of double bonds. 
+ - [Collections of early napthalene dye experiments](https://armstrongwynne.org/). Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry. 
 
 
-%footnote 5 in "Colouring Gracity's Rainbow", World Disarmament and the Master Key Industry. "Who makes dyes today can tomorrow make high-explosives"
+
 
 ### Coal tarred and feathered 🪨
 
@@ -141,12 +142,14 @@ Hückel's rule for aromaticity: any cyclic arrangement of $$ 4n+2 $$ carbon atom
 - Some more of  Seth Olsen's papers? amongst others
 - Link back to GFP chromophores etc?  
 
+- % Prohpyrin means 'purple' and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
+- % Azulene from azure 'blue' and the -ene suffix of double bonds. 
 
 - % Porphyrins (lit. purple) and electronic excitations should go here??
 
 ![CAS(14e,14o) orbitals of iron-porphyrin complex](../images/Fe-porphyrin_CAS-14-14.png)
 
-Ten active oribtals in the electronic structure of iron-prorphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with A~1~ symmetry. —["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
+Ten active oribtals in the electronic structure of iron-prorphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. —["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
 {:.figcaption}
 
 - % [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring aroudn the perimeter
@@ -158,10 +161,10 @@ Ten active oribtals in the electronic structure of iron-prorphyrin complex typic
 
 ![HemdallR1 archaeal rhodopsin](../images/heimdallR1_retinal.png)
 
-Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method/ —"Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea", *Nature Microbiology*, **10**, 1484–1500 (2025).
+Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method. —["Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea"](https://doi.org/10.1038/s41564-025-02016-5), *Nature Microbiology*, **10**, 1484–1500 (2025).
 {:.figcaption} 
 
-
+Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to feed off light. Rhodopsin now mediates our dim light vision (most sensitive to blues), while our cones allow us to gaze on purple in all its power and write a post of purple prose about it. 
 
 ---
 
