@@ -7,7 +7,7 @@ category: dyes
 tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple 
 --- 
 
-> Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is aluded to in a literary work that was famously denied a Putlizer prize because of its confronting content.  
+> Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is aluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.  
 
 *In this post I'm aiming to give a broad-brush overview of how near-infinite array of colours we see in textiles today was wrought from some the of most murky carbon substances known. This post will focus on purple (specifically, mauveine). I'd like to more on specific dyes in the future because they have so many fascinating chemical properties. For example, indigo forms from the dimer of the common indole group in biochemistry, placing it within striking distance of tryophan in the biosynthetic pathway.*
 
@@ -43,7 +43,7 @@ Ironically, despite the incredibly rarity of steadfast purple in nature, purple 
 
 - The search for a cheap route to quinine to treat malaria 
 
-William Henry Perkin discovered artifical purple dye entirely by accident. His motivation was not encoloration, but Empire.
+William Henry Perkin discovered artifical purple dye entirely by accident. His motivation was not encolouration, but Empire.
 - Perkin and the dye industry
 [Perkin and Hofmann](https://pubs.rsc.org/en/content/articlelanding/1896/ct/ct8966900596)
 - The search for cheap feedstocks
