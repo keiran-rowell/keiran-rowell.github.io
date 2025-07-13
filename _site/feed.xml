@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-13T23:01:44+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Keiran Rowell</title><subtitle></subtitle><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><entry><title type="html">From Muck to Mauve: the creation of modern dyes from coal tar</title><link href="http://localhost:4000/dyes/2025-12-12-aniline-and-the-german-chemical-industry/" rel="alternate" type="text/html" title="From Muck to Mauve: the creation of modern dyes from coal tar" /><published>2025-12-12T00:00:00+11:00</published><updated>2025-12-12T00:00:00+11:00</updated><id>http://localhost:4000/dyes/aniline-and-the-german-chemical-industry</id><content type="html" xml:base="http://localhost:4000/dyes/2025-12-12-aniline-and-the-german-chemical-industry/"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-13T23:34:02+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Keiran Rowell</title><subtitle></subtitle><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><entry><title type="html">From Muck to Mauve: the creation of modern dyes from coal tar</title><link href="http://localhost:4000/dyes/2025-12-12-aniline-and-the-german-chemical-industry/" rel="alternate" type="text/html" title="From Muck to Mauve: the creation of modern dyes from coal tar" /><published>2025-12-12T00:00:00+11:00</published><updated>2025-12-12T00:00:00+11:00</updated><id>http://localhost:4000/dyes/aniline-and-the-german-chemical-industry</id><content type="html" xml:base="http://localhost:4000/dyes/2025-12-12-aniline-and-the-german-chemical-industry/"><![CDATA[<blockquote>
   <p>Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is aluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.</p>
 </blockquote>
 
@@ -8,7 +8,7 @@
 
 <p class="figcaption">Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence.  —Synthesis diagram from <em>Plant Cell Reports</em>, vol. 35, pg. 2449–2459, <strong>(2016)</strong>.</p>
 
-<p><em>The development of dyes used to be covered in a (rarely taught) NSW syllabus option, “Chemistry of Art”, which touched on everything from indigenous dyes to transition metal pigments and atomic spectroscopy, but is sadly now gone. For those interested in colour more generally, I can recommend</em> <a href="https://www.kassiastclair.com/books">“The Secret Lives of Colour”</a> <em>for its addictive ease to pick-up and dive into each hue, and</em> <a href="https://www.rca.ac.uk/more/staff/neil-parkinson/">“The History of Colour”</a> <em>for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the industrial dye developments interests you, BASF have well produced and comprehensive account of their entire history <a href="https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html">on their website</a>.</em></p>
+<p><em>The development of dyes used to be covered in a (rarely taught) NSW syllabus option, “Chemistry of Art”, which touched on everything from indigenous dyes to transition metal pigments and atomic spectroscopy, but is sadly now gone. For those interested in colour more generally, I can recommend</em> <a href="https://www.kassiastclair.com/books">“The Secret Lives of Colour”</a> <em>for its addictive ease to pick-up and dive into each hue, and</em> <a href="https://www.rca.ac.uk/more/staff/neil-parkinson/">“The History of Colour”</a> <em>for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the development of industrial dyes interests you, BASF have well produced and comprehensive account of their entire history <a href="https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html">on their website</a>.</em></p>
 
 <hr />
 
@@ -22,7 +22,7 @@
 
 <p>Similarly, there’s an almost complete abscence of natural purple. Purple cabbage and eggplant contain the same anthocyanins as blueberries, and while violet flowers are so striking the colour is named after them, they do not make a colourfast dye that will last in fabric. So, when nature was our only source of chemicals, people’s desire the harness the spectrum of ‘cool’ colours came from crushing the leaves of the somewhat drab woad and the perennially popular indigo (which is both a type of plant and one of Newton’s seven ‘ROYGB<strong>I</strong>V’ colours).</p>
 
-<p>The only concentrated, colourfast sources of organic purple come from the seas. <em>Aplysia</em> sea slugs <a href="https://youtu.be/qmn1bpz00qA?si=ajvqjlsCp7IaI25-">spray purple</a> aplysioviolin molecules when threatened, which they have built up from eating red algea, stripping the colour molecule from the algae’s light harvestting proteins, and concentrating a modified molecule in their ink glands. A painstaking, but more relaible, way to harvest natural purple is to extract ink glands from the <em>Murex</em> sea snail. The ‘Tyrian purple’ dye harvested from these snail glands was, and is, <a href="https://youtu.be/IVXqisH6VeM?si=mRh5GDGBscIPJDDH">outrageously expensive</a>, fetching around $3000 USD/g in the 21st century. Tyrian purple is in fact a bromoniated derivative of indigo, synthesised using a bromoperoxidase enzyme unique to Murex. Scientists still have not confirmed the active metal within the <em>Murex</em>’s bromoperoxidase enzyme (most bromoperoxidases use the rare Vanadium), or which sea snail gene encodes for it.</p>
+<p>The only concentrated, colourfast sources of organic purple come from the seas. <em>Aplysia</em> sea slugs <a href="https://youtu.be/qmn1bpz00qA?si=ajvqjlsCp7IaI25-">spray purple</a> aplysioviolin molecules when threatened, which they have built up from eating red algea, stripping the colour molecule from the algae’s light harvestting proteins, and concentrating a modified molecule in their ink glands. A painstaking, but more relaible, way to harvest natural purple is to extract ink glands from the <em>Murex</em> sea snail. The ‘Tyrian purple’ dye harvested from these snail glands was, and is, <a href="https://youtu.be/IVXqisH6VeM?si=mRh5GDGBscIPJDDH">outrageously expensive</a>, fetching around $3000 USD/g in the 21st century. Tyrian purple is in fact a bromoniated derivative of indigo, synthesised using a bromoperoxidase enzyme unique to <em>Murex</em>. Scientists still have not confirmed the active metal within the <em>Murex</em>’s bromoperoxidase enzyme (most bromoperoxidases use the rare Vanadium), or which sea snail gene encodes for it.</p>
 
 <h3 id="lapis-lazuli-and-other-blues-of-value-">Lapis lazuli and other blues of value 🔵</h3>
 
@@ -46,7 +46,7 @@
 
 <p><img src="/images/perkins_mauve_sample.jpg" alt="Sample of Perkin's mauve aniline dye" /></p>
 
-<p class="figcaption">Perkin’s mauve was a runaway success, until it became so fashionable to be tawdry and the use of the gaudy colour feel out of fashion for everyday wear. 
+<p class="figcaption">Perkin’s mauve was a runaway success, until it became so fashionable to be tawdry and the use of the gaudy colour fell out of fashion for everyday wear. 
  — <em>Journal of the Society of Dyers and Colourists</em>, <strong>Nov 1906</strong>, <em>via</em> the <a href="https://digital.sciencehistory.org/works/o2sfuyr">Science History Insitute</a> .</p>
 
 <p>William Henry Perkin discovered artifical purple dye entirely by accident. His motivation was not encolouration, but Empire.</p>
@@ -74,11 +74,16 @@
   <p>“Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process… No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?”</p>
 </blockquote>
 
-<p class="note" title=""><em>Gravity’s Rainbow</em>, Thomas Pynchon, pg. 412, Penguin 2nd Ed.</p>
+<p>-<em>Gravity’s Rainbow</em>, Thomas Pynchon, pg. 412, Penguin 2nd Ed.</p>
 
 <ul>
   <li>In the <a href="https://doi.org/10.16995/pn.374"><em>“Coloring Gravity’s Rainbow”</em></a> the author’s apply criticl lens to the chromatic and chemical connections in this book. The protagonist’s very name – Tryone – has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry.</li>
 </ul>
+
+<p>%footnote 5 in “Colouring Gracity’s Rainbow”,</p>
+
+<p class="note" title="Dyes and disarmament">“Who makes dyes today can tomorrow make high-explosives”</p>
+<p>-<a href="https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&amp;redir_esc=y"><em>World Disarmament and the Master Key Industry</em></a>, America dyes institute,<strong>1921</strong>.</p>
 
 <h3 id="the-controversial-birth-of-aromaticity---">The controversial birth of “Aromaticity” ⌬ ↔ ⏣</h3>
 
@@ -97,14 +102,11 @@ A vocal minority of Soviet scientists <a href="https://www.jstor.org/stable/2277
   <li>Don’t let the historical account get in the way of a good story. <em>Chemical Reviews</em> provides a good instructional <a href="https://doi.org/10.1021/cr0300946">review paper on this history</a>. Nevertheless, a sizeable chunk of Kekules students went on the work in the german Dye industry</li>
 </ul>
 
-<p>… this segues back in William Perkin knowing enough about aromatic chemistry to search for quinin precusors.  [Actually, Kekule’s benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss</p>
+<p>… this segues back in William Perkin knowing enough about aromatic chemistry to search for quinine precusors.  [Actually, Kekule’s benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss</p>
 
-<p><a href="https://armstrongwynne.org/">Collections of early napthalene dye experiments</a>. Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry.</p>
-
-<p>% Prohpyrin means ‘purple’ and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
-% Azulene from azure ‘blue’ and the -ene suffix of double bonds.</p>
-
-<p>%footnote 5 in “Colouring Gracity’s Rainbow”, World Disarmament and the Master Key Industry. “Who makes dyes today can tomorrow make high-explosives”</p>
+<ul>
+  <li><a href="https://armstrongwynne.org/">Collections of early napthalene dye experiments</a>. Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry.</li>
+</ul>
 
 <h3 id="coal-tarred-and-feathered-">Coal tarred and feathered 🪨</h3>
 
@@ -133,12 +135,16 @@ A vocal minority of Soviet scientists <a href="https://www.jstor.org/stable/2277
   <li>
     <p>Link back to GFP chromophores etc?</p>
   </li>
+  <li>% Prohpyrin means ‘purple’ and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out)</li>
+  <li>
+    <p>% Azulene from azure ‘blue’ and the -ene suffix of double bonds.</p>
+  </li>
   <li>% Porphyrins (lit. purple) and electronic excitations should go here??</li>
 </ul>
 
 <p><img src="/images/Fe-porphyrin_CAS-14-14.png" alt="CAS(14e,14o) orbitals of iron-porphyrin complex" /></p>
 
-<p class="figcaption">Ten active oribtals in the electronic structure of iron-prorphyrin complex typical of <a href="https://www.nobelprize.org/prizes/chemistry/1962/perspectives/">haem proteins</a>. Calculated at the CAS(14e,14o) level of theory with A~1~ symmetry. —<a href="https://doi.org/10.1007/s00894-017-3226-y">“Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex”</a>, <em>Journal of Molecular Modelling</em>, vol. 23, <em>53</em>, <strong>(2017)</strong></p>
+<p class="figcaption">Ten active oribtals in the electronic structure of iron-prorphyrin complex typical of <a href="https://www.nobelprize.org/prizes/chemistry/1962/perspectives/">haem proteins</a>. Calculated at the CAS(14e,14o) level of theory with \(A_1\) symmetry. —<a href="https://doi.org/10.1007/s00894-017-3226-y">“Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex”</a>, <em>Journal of Molecular Modelling</em>, vol. 23, <em>53</em>, <strong>(2017)</strong></p>
 
 <ul>
   <li>% <a href="https://doi.org/10.1021/jacs.3c07625">Research in 2023</a> proposes why azulene’s light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry – that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring aroudn the perimeter</li>
@@ -153,7 +159,9 @@ A vocal minority of Soviet scientists <a href="https://www.jstor.org/stable/2277
 
 <p><img src="/images/heimdallR1_retinal.png" alt="HemdallR1 archaeal rhodopsin" /></p>
 
-<p class="figcaption">Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method/ —”Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea”, <em>Nature Microbiology</em>, <strong>10</strong>, 1484–1500 (2025).</p>
+<p class="figcaption">Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method. —<a href="https://doi.org/10.1038/s41564-025-02016-5">“Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea”</a>, <em>Nature Microbiology</em>, <strong>10</strong>, 1484–1500 (2025).</p>
+
+<p>Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to feed off light. Rhodopsin now mediates our dim light vision (most sensitive to blues), while our cones allow us to gaze on purple in all its power and write a post of purple prose about it.</p>
 
 <hr />
 
