@@ -138,7 +138,7 @@ Hückel's rule for aromaticity: any cyclic arrangement of $$ 4n+2 $$ carbon atom
 
 - In fact the overlapping ring can be an unusual configuration, leading to things like [Möbius armoaticity](https://commons.wikimedia.org/wiki/File:Mobius_v_huckel_aromatic.png)
 
-- Some more of  Seth Olsen's papers? amongst others
+- Some more of  [Seth Olsen](https://condensedconcepts.blogspot.com/2018/02/seth-olsen-1975-2018-theoretical-chemist.html)'s papers? amongst others
 	- Dyes are still a testbed for the theoretical chemistry of colour. Like revisiting the [classic green and red dyes](https://pubs.acs.org/doi/abs/10.1021/jp309006e)
 	- Some very interesting work on how dyes reveal the chemical relationships that determine the nature of electronic transitions. [A Modified Resonance-Theoretic Framework for Structure−Property Relationships in a Halochromic Oxonol Dye]() -Seth Olsen, *Journal of Chemical Theory and Computation* **2010**, *6*, 4, 1089-1103. 
 The absorbance wavelength of an asymmetric dye is no redder than the mean wavelength of its symmetric parents and deviates from this by a blue shift which increases as the difference in basicity of the terminal groups.
