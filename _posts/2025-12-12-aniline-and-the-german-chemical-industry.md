@@ -153,12 +153,25 @@ The absorbance wavelength of an asymmetric dye is no redder than the mean wavele
 
 ![CAS(14e,14o) orbitals of iron-porphyrin complex](../images/Fe-porphyrin_CAS-14-14.png)
 
-Ten active oribtals in the electronic structure of iron-prorphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. —["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
-{:.figcaption}
-
 - % [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
 
-- Link back to GFP chromophores etc?  
+-Porphyrins also cause electrons to behave in very interesting ways...
+
+Ten active oribtals in the electronic structure of iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. —["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
+{:.figcaption}
+
+#### TODO: add bioluminesence post interal link 
+- Use of porphyrin and porphyrin derivatives in other organisms:
+	- cholorphyll - [link to the WEHI's gobsmacking animation of the photosynthesis process](https://youtu.be/jlO8NiPbgrk?si=qAVHE1R_WHU4dvS1) that shows the quantum process of closely held chlorophyll pairs converting light into electron flow by splitting the surrounding water into oxygen.
+ 	- In another instance of photobiology, porphyrins are found in Sierra luminous millipedes (*Motyxia*) where the 'glow-in-the-dark' [appearence of the millipede](https://en.wikipedia.org/wiki/Motyxia#/media/File:Motyxia_sequoiae_(Loomis_&_Davenport,_1951).jpg) is known to come from a [photoprotein containing a porphyrin](https://www.sciencedirect.com/science/article/pii/0305049184903675?via%3Dihub) but whose structure is unresolved (and maybe should be re-investigated now that previous homology models have been drastically improved upon in the AlphaFold age). 
+	- billins e.g. phycobilin (algea) where they are used by non-animal organism for [interesting light harvestin properties.](https://www.nature.com/articles/nature08811), including making light-harvest 'antennae' stacks of phycobilisomes.
+	- the pigment that makes [egg shells brown](https://www.compoundchem.com/2016/03/26/eggs/) (or blue-y green when if broken down to oocyanin)
+	- haem (as in haemoglobin) famously striking colour of bright red oxygenated blood, which is broken down within 3-4 months by yyour liver to produce not a purple pigment, but first the disconcerting green and amber pigments of bile, then the [light yellow of urine](https://www.compoundchem.com/2017/01/12/bodily-fluids/). Unless you are unluckly enough to be suffering from [porphyria disease](https://en.wikipedia.org/wiki/Porphyria) where haem is badly formed and your urine does indeed turn purple.
+	- the fur of mammals have also been known to glow under UV [due to accumulation of porphyrin as a disposal mechanism](https://www.museumfuernaturkunde.berlin/en/museum/media/press/fur-glowing-under-uv-a-common-feature-mammals).
+	- geoporphyrins from crude oil and shale, which were are [chemical indicators petroleum presence](https://pubs.acs.org/doi/10.1021/acs.energyfuels.1c02002), and one of the [first clues that petrol has biological origin](https://doi.org/10.1016/j.orggeochem.2005.09.001)
+	- the vitamin B12 [core framework socket where cobalt sits](https://en.wikipedia.org/wiki/Vitamin_B12#/media/File:Cobalamin_skeletal.svg).
+
+
 
 ### Retinal, in our eye 👁️ and in microbes 🦠 
  - % Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision.

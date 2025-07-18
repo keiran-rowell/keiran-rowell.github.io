@@ -2,7 +2,7 @@
 layout: post
 author: keiran  
 title: "The chemistry behind bioluminescence"
-subtitle: "How"
+subtitle: "How breaking an oxygen pair bond generates light"
 category: photobiology
 tags: luciferin luciferase photobiology bioluminescence fireflies jellyfish 
 ---
