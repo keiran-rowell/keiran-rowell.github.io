@@ -9,3 +9,16 @@
 - "Folding Entire Proteomes: predict a molecular inventory of your organism" -- Proteomics Community Meeting, *Australian BioCommons*
 - "Serving Next Generation Structural Biology with GPUs" -- Australian Bioinformatics and Computational Biology Society (ABACBS), *The University of Sydney*
 - [Internal] "A Computational Revolution in Structural Biology" -- Research Technology Services 'All-Hands' meeting, *The University of New South Wales*
+
+## 2022
+
+- "The Science of Glassblowing" -- Science for Art Conversation Reading Group, *The University of New South Wales*
+
+## 2021
+
+- "MINIARE project: Manuscript Illumination Non-Invasive Analysis Research and Expertise" -- Science for Art Conversation Reading Group, *The University of New South Wales*
+
+## 2020
+
+- "Bioluminescence from a (quantum) chemistry perspective" - Theoretical Chemistry Joint Group Meeting, *The University of Sydney*
+- "Rock Art and Conservation" -- Science for Art Conversation Reading Group, *The University of New South Wales* 
