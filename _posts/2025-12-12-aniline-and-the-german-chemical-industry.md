@@ -6,7 +6,7 @@ subtitle: "Aniline and the birth of the German chemical industry"
 category: dyes
 tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple 
 image:
-  path: ../images/Peacock_coal_11.jpg
+  path: /images/Peacock_coal_11.jpg
 --- 
 
 > Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is aluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.  
