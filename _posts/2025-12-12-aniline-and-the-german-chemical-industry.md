@@ -13,7 +13,7 @@ tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple
 
 *In this post I'm aiming to give a broad-brush overview of how near-infinite array of colours we see in textiles today was wrought from some the of most murky carbon substances known. This post will focus on purple (specifically, mauveine). I'd like to more on specific dyes in the future because they have so many fascinating chemical properties. For example, indigo forms from the dimer of the common indole group in biochemistry, placing it within striking distance of tryophan in the biosynthetic pathway.*
 
-![Indigo biosynthesis in plants](../images/indole_metabolism_in_plants.png)
+![Indigo biosynthesis in plants](/images/indole_metabolism_in_plants.png)
 
 Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence.  —Synthesis diagram from *Plant Cell Reports*, vol. 35, pg. 2449–2459, **(2016)**.
 {:.figcaption}
@@ -26,7 +26,7 @@ Indigo is made from joining two slighly modified indole molecules. Indole is suc
 
 There's an abundance of green in the natural world (because plants harness the abundant red light from our sun), but blues and purples stick out because they are so [rare in nature](https://set.adelaide.edu.au/news/list/2019/08/20/why-is-the-colour-blue-so-rare-in-nature). Maybe that's why blue is [humanity's favourite colour](https://au.yougov.com/international/articles/12336-why-blue-worlds-favorite-color-1). Bird and butterfly wings have to restort to optical trickery (metamaterials), blueberries get their name and antioxidant health craze because their skin packed with the crop pigment [anthocynanin](https://en.wikipediea.org/wiki/Anthocyanin), and the blue skin of the poison dart frog is from the very same chemical (pumiliotoxin) that makes it poisonous.
 
-![Anthocyanin skeleton](../images/anthocyanidine.png)
+![Anthocyanin skeleton](/images/anthocyanidine.png)
 
 Almost all colours in the blue end of the spectrum (as well as many others) come from an anthocyanin pigment, which are built from the anthocyanidin skeleton shown above.  —**Wikimedia Commons**, [NEUROtiker, 5 August 2008](https://commons.wikimedia.org/wiki/File:Anthocyanidine.svg). 
 {:.figcaption}
@@ -53,9 +53,9 @@ Ironically, despite the incredibly rarity of steadfast purple in nature, purple 
 ### Muckracking ⚗️
 
 - The search for a cheap route to quinine to treat malaria 
+- The same quinine which makes [tonic water glow ultraviolet under black light](/images/tonic_water_UV_Paul_Garland.jpg).
 
-
-![Sample of Perkin's mauve aniline dye](../images/perkins_mauve_sample.jpg)
+![Sample of Perkin's mauve aniline dye](/images/perkins_mauve_sample.jpg)
 
 Perkin's mauve was a runaway success, until it became so fashionable to be tawdry and the use of the gaudy colour fell out of fashion for everyday wear. 
  — *Journal of the Society of Dyers and Colourists*, **Nov 1906**, *via* the [Science History Insitute](https://digital.sciencehistory.org/works/o2sfuyr) . 
@@ -75,7 +75,7 @@ Benzene is a molecule. It has a storied history of it's organic structure being 
 - It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. Remeber structural proposals were well before the discovery of the electron (Begat six aromatic electrons paper)  
 - Kekulé's daydream of a serpent eatin it's own tale [GET A PUBLIC PAGE OR A PUBLICATION]  
 
-![Ouroboros of Cleopatra](../images/ouroboros_chrysopoea_of_cleopatra.png)
+![Ouroboros of Cleopatra](/images/ouroboros_chrysopoea_of_cleopatra.png)
 
 The ouroboros has a long history, including a connection to alchemy where it is illustrated here in relation to *chrysopoeia* ("gold-making") through balancing "one in the everything". —*"Chrysopoeia of Cleopatra the Alchemist"*, pseudonym, 3rd or 4thC A.D 
 {:.figcaption}
@@ -97,7 +97,7 @@ Kekulé's serpentine solution of benzene's structure is actually used within the
 
 ### The controversial birth of "Aromaticity" ⌬ ↔ ⏣
 
-![Kekulé's benzene schematic](../images/kekule_benze_chains.jpg)
+![Kekulé's benzene schematic](/images/kekule_benze_chains.jpg)
 
 Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accord with current ways of representing organic molecules. —["Sur la constitution des substances aromatiques"](https://lib.ugent.be/catalog/rug01:001282677), Kekulé M., *Bulletin mensuel de la Société Chimique de Paris*, pg. 98-111, **1865**.
 {:.figcaption} 
@@ -130,7 +130,7 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 
 ### The electronics of dyes 🎨
 
-![p -> π electron delocalisation](../images/p_to_pi_cloud_aromatic.png)
+![p -> π electron delocalisation](/images/p_to_pi_cloud_aromatic.png)
 
 Chemical aromaticity arises due to a planar cyclic p-orbital system that can delocalise to form a π-electron system around a closed ring. —**LibreTexts Chemistry** [*15.9: "What Is the Basis of Hückel’s Rule?"*](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_%28Smith%29/15%3A_Benzene_and_Aromatic_Compounds/15.09%3A_What_Is_the_Basis_of_Huckels_Rule), Tim Soderberg (University of Minnestota, Morris)
 {:.figcaption}
@@ -153,7 +153,7 @@ The absorbance wavelength of an asymmetric dye is no redder than the mean wavele
 
 - % Porphyrins (lit. purple) and electronic excitations should go here??
 
-![CAS(14e,14o) orbitals of iron-porphyrin complex](../images/Fe-porphyrin_CAS-14-14.png)
+![CAS(14e,14o) orbitals of iron-porphyrin complex](/images/Fe-porphyrin_CAS-14-14.png)
 
 - % [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
 
@@ -180,7 +180,7 @@ Ten active oribtals in the electronic structure of iron-porphyrin complex typica
 - The bacteriorhodopsin proton pumping process is illustrated in [this video](https://youtu.be/w241TNxqa6I?si=CXurpxOgOoDX-key) showing how retinal's absorption of a photon triggers an isomeration concurrent with a protein shape change and exited-state proton transfer.  
 - Found in all sorts of light harvesting organisms, including the Asgard archaea 
 
-![HemdallR1 archaeal rhodopsin](../images/heimdallR1_retinal.png)
+![HemdallR1 archaeal rhodopsin](/images/heimdallR1_retinal.png)
 
 Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method. —["Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea"](https://doi.org/10.1038/s41564-025-02016-5), *Nature Microbiology*, **10**, 1484–1500 (2025).
 {:.figcaption} 

@@ -21,7 +21,7 @@ The North Americans get fireflies, which are associated with a [popular hit](htt
 
 Below is a rough chemical overview of where the magic 'glow' comes from: ultimately it is the energy released upon breaking a strained O-O bond and forming two C=O bonds that affords the generation of an electronically excited molecule, which proceeds to emit light when the electrons relax to the ground state. There is some [full-on physical chemistry behind this process](https://doi.org/10.1021/acs.chemrev.7b00649). 
 
-In glowsticks a simple [dioxetane](https://en.wikipedia.org/wiki/1,2-Dioxetane) is used, energy is released when the glowstick is cracked, and a dye is electronically excited and begins glowing. If the dioextane is used by itself, an electronically excited carbonyl is created, but triplet carbonyls are [poor photon emitters](https://doi.org/10.1016/0009-2614(85)85149-6) -- so instead nature devises a concurrent charge transfer process, creating a singlet excited state and ensuring a photon is emitted from the O-O bond breakage. A chemical schematic of the process looks like [this](../images/cyclic_peroxide_to_light.png).  
+In glowsticks a simple [dioxetane](https://en.wikipedia.org/wiki/1,2-Dioxetane) is used, energy is released when the glowstick is cracked, and a dye is electronically excited and begins glowing. If the dioextane is used by itself, an electronically excited carbonyl is created, but triplet carbonyls are [poor photon emitters](https://doi.org/10.1016/0009-2614(85)85149-6) -- so instead nature devises a concurrent charge transfer process, creating a singlet excited state and ensuring a photon is emitted from the O-O bond breakage. A chemical schematic of the process looks like [this](/images/cyclic_peroxide_to_light.png).  
 
 ---
 
@@ -40,7 +40,7 @@ Every class of organism seems to have independently evolved a different luciferi
 
 Crustaceans use the simplest known bioluminescence process: they release two secretions, one containing the luciferin and the other contains the luciferase. The glow begins (*see below*) when the secretions come into contact.
 
-![Crustacean bioluminescence](../images/crustaceans_glow.png)
+![Crustacean bioluminescence](/images/crustaceans_glow.png)
 
 The bioluminescence of the *Vargula hilgendorfii* crustacean.
 {:.figcaption}
@@ -48,7 +48,7 @@ The bioluminescence of the *Vargula hilgendorfii* crustacean.
 
 The luciferin is composed mainly of three amino acids and a central imidazopyrazinone, whose N-C=O bond is ultimately broken, releasing CO<sub>2</sub> and light.
 
-![Crustacean luciferin](../images/crustaceans_luciferin.png)
+![Crustacean luciferin](/images/crustaceans_luciferin.png)
 
 The luciferin of the *Varigula hilgendorfii* crustacean. The imidazolepyrazinone (*highlighted in red*) reacts with oxygen, generating an excited state similar to the excited state carbonyl in dioxetanes that was outlined above. 
 {:.figcaption}
@@ -57,7 +57,7 @@ The luciferin of the *Varigula hilgendorfii* crustacean. The imidazolepyrazinone
 
 Sea creatures use many different luciferins, and the luciferin for the sea pansy is shown below, it is again is based on three amino acids and a central imidazolepyrazinone. 
 
-![Sea pansy luciferin](../images/sea_pansy_luciferin.png)
+![Sea pansy luciferin](/images/sea_pansy_luciferin.png)
 
 The luciferin of the *Renilla reniformis* sea pansy closely resembles that for *Varigula* shown above, but is surrounded with different amino acids. 
 {:.figcaption}
@@ -66,7 +66,7 @@ However, the bioluminescence most well-known in the sea is that of jellyfish. Je
 
 In jellyfish, the luciferin is covalently bound to the luciferase, surrounded by a beta barrel structure (*see below*) which admits only water and provides control of the colour of bioluminescence.
 
-![Jellyfish luciferase](../images/jellyfish_GFP.png)
+![Jellyfish luciferase](/images/jellyfish_GFP.png)
 
 The Green Fluorescent Protein in *Aequorea victoria*, where an enveloping beta barrel is seen around the luciferin. The amino acids in the barrel both prevent the luciferin reacting with external substances, and alter the colour of the light emitted (otherwise the luciferin would glow blue). 
 {:.figcaption}
@@ -78,14 +78,14 @@ Several algae can also bioluminesce, leading to the [beautiful appearance of sea
 Here, a new type of luciferin is found where a modified [porphyrin](https://en.wikipedia.org/wiki/Porphyrin)-like molecule is used. The chemistry here is slightly different, adding oxygen to a [cyclopentanone](https://en.wikipedia.org/wiki/Cyclopentanone) group and yielding H<sub>2</sub>O, but light is generated just the same.
 
  
-![Algae luciferin](../images/algae_luciferin.png)
+![Algae luciferin](/images/algae_luciferin.png)
 
 The luciferin of *Lingulodinium polyedrum* dinoflagellate algae species. 
 {:.figcaption}
 
 The bioluminescence of these algae only activate at night, but glow brightly (*see below*).
 
-![Algae bioluminescence](../images/algae_glow.png)
+![Algae bioluminescence](/images/algae_glow.png)
 
 Glowing *Lingulodinium polyedrum* dinoflagellate algae, where the light-emitting organelles (scintillons) can be clearly seen. 
 {:.figcaption}
@@ -95,7 +95,7 @@ Glowing *Lingulodinium polyedrum* dinoflagellate algae, where the light-emitting
 
 The glow of the lantern on a firefly's bum is a well-known sight, and looks stunning en masse.
 
-![Firefly bioluminescence](../images/firefly_glow.png)
+![Firefly bioluminescence](/images/firefly_glow.png)
 
 
 The impressive light organ located on abdomen of *Photinus pyralis*.
@@ -105,7 +105,7 @@ The impressive light organ located on abdomen of *Photinus pyralis*.
 The chemisty of firefly luciferin is again different (*see below*). 
  
 
-![Firefly luciferin](../images/firefly_luciferin.png)
+![Firefly luciferin](/images/firefly_luciferin.png)
 
 
 The chemistry of firefly luciferin is driven by ATP (the 'battery molecule' of biology). Ultimately a dioxetane is again formed, and breaking the O-O bond yields an electronically excited carbonyl that emits light.   
@@ -123,20 +123,20 @@ Some diagrams follow for the theoretical chemists amongst us.
 For those without training: suffice to say the character of several excited states are involved, the presence of an anionic group on the luciferin is required to generate a photon-emitting singlet excited state, and curiously a [conical intersection](https://doi.org/10.1146/annurev-physchem-032210-103522) exists along the reaction co-ordinate that ejects the CO<sub>2</sub>. The conical intersection was, at least to me, unexpected because it should *lower* the quantum yield of the luciferin since the conical intersection allows relaxation to the electronic ground state without emitting a photon. A very good review of bioluminescence using the insights gleaned from computational chemistry is provided in [The Chemistry of Bioluminescence: An Analysis of Chemical Functionalities](https://doi.org/10.1002/cphc.201100504).
 
 
-![Luciferin electron transfer](../images/luciferin_electron_exchange.png)
+![Luciferin electron transfer](/images/luciferin_electron_exchange.png)
 
 Density Functional Theory calculations indicate that the luciferin is in a (π,σ<sup>∗</sup>) ground state, and the anionic C-O<sup>-</sup> is crucial since the extra electron undergoes an electron transfer process to the site of the broken O-O bond to generate a singlet excited state ($$S_1$$) upon ejection of the CO<sub>2</sub>.
 {:.figcaption}
 
 
-![Luciferin CAS calculations](../images/luciferin_CAS_calculations.png)
+![Luciferin CAS calculations](/images/luciferin_CAS_calculations.png)
 
 
 [Multiconfigurational quantum chemistry calculations]({% post_url 2023-04-12-picking-an-active-space %}) show that the first singlet excited state ($$S_1$$) is a (π,π<sup>∗</sup>) excitation, and the transition state (TS) ejecting the CO<sub>2</sub> corresponds to a very small energy gap between the $$S_1$$ and $$S_0$$ electronic states.
 {:.figcaption}
 
 
-![Luciferin conical intersection](../images/luciferin_conical_intersection.png)
+![Luciferin conical intersection](/images/luciferin_conical_intersection.png)
 
 The transition state (TS) ejecting the CO<sub>2</sub> is generated by an [avoided crossing](https://doi.org/10.1351/pac197541040455) between the (π,σ<sup>∗</sup>) ground and excited states. As the CO<sub>2</sub> separates from the luciferin, the luciferin can either proceed along the (π,π<sup>∗</sup>) excited state surface and eventually emit a photon to relax back down to the ground state, or follow the seam of a sloped conical intersection to access a closed-shell singlet product. 
 {:.figcaption}
@@ -149,7 +149,7 @@ Finally, a hybrid [quantum mechnical/molecular mechanical](https://blogs.scienti
 This allows a full mechanistic movie of oxygen entering the luciferase protein, binding to the luciferin, and generating an excited state. I've summarised the key findings of such QM/MM calculations in the image below. For those interested, it is worth reading the original paper [QM/MM Study of the Formation of the Dioxetanone Ring in Fireflies through a Superoxide Ion](https://doi.org/10.1021/acs.jpcb.8b00642). 
 
 
-![Luciferin QM/MM](../images/luciferin_QM-MM.png)
+![Luciferin QM/MM](/images/luciferin_QM-MM.png)
 
 
 I first learnt about this topic when I picked up a secondhand copy of [Computational Methods for Large Systems](https://www.wiley.com/en-us/Computational+Methods+for+Large+Systems:+Electronic+Structure+Approaches+for+Biotechnology+and+Nanotechnology+-p-9780470487884), in which Chapter 12 details "Modelling Photobiology Using QM and QM/MM Calculations".
@@ -157,7 +157,7 @@ I first learnt about this topic when I picked up a secondhand copy of [Computati
 
 ---
 
-![Fireflies gif](../images/fireflies.gif)
+![Fireflies gif](/images/fireflies.gif)
 
 Thank you for reading! 
 
