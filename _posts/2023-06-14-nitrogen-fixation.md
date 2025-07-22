@@ -5,8 +5,8 @@ title: "Nitrogen fixation: artificial lightning, bird poop, and how kudzu grew o
 subtitle: "How the Midwest was lost and where it got us"
 category: nitrogen-fixation 
 tags: lightning Haber-Bosch guano nitrogenase kudzu   
-image:
-  path: /images/kudzu_bloom_clinton_steeds.jpg
+#image:
+#  path: /images/kudzu_bloom_clinton_steeds.jpg
 ---
 
 > Content notice: this post discusses the history and chemistry that was occurring within the context of the invention of some of the worst chemical agents of World Wars I & II, but doesn't go into detail. It also mentions a suicide, deaths in an industrial accident, bombing campaigns, and indefinite detention of migrants.  
