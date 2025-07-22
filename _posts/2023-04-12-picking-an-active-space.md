@@ -5,6 +5,8 @@ title: "Selecting an active space"
 subtitle: "How to multiconfigurational without falling into despair"
 category: guide 
 tags: active-space CASSCF multiconfigurational electronic-structure
+image:
+  path: ../images/butanal_NBOs.png 
 ---
 
 *This post is adapted straight from my* [PhD Thesis](http://handle.unsw.edu.au/1959.4/65036), *and deals with the struggle of creating a workable active space for multiconfigurational calculations.* 
