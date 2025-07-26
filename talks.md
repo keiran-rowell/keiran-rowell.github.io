@@ -9,6 +9,10 @@
 - "Folding Entire Proteomes: predict a molecular inventory of your organism" -- Proteomics Community Meeting, *Australian BioCommons*
 - "Serving Next Generation Structural Biology with GPUs" -- Australian Bioinformatics and Computational Biology Society (ABACBS), *The University of Sydney*
 - [Internal] "A Computational Revolution in Structural Biology" -- Research Technology Services 'All-Hands' meeting, *The University of New South Wales*
+- [Panel] "Data to Discovery: Data Matters" -- SciX high school science teacher development day, *The University of New South Wales*
+
+## 2023
+- [Volunteer] "Modern Biology and Molecular Modelling" -- STEM Professionals in Schools, *Our Lady of Sacred Heart College, Kensington*
 
 ## 2022
 
