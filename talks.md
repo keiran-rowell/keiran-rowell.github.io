@@ -1,6 +1,7 @@
 # Invited Talks
 
 ## 2025
+- "Cryo-EM Data at Scale: How Collaborative Models Arose Around the World" -- Research Software Asia Australia, *Online Conference*
 - [Internal, Cross-Institutional, w/ Dr Daniel Luque] "Frozen Samples, Melting Servers: The CryoEM and AlphaFold data explosion" - Research Data Experience Seminar, *The University of New South Wales*
 - "Working with ProteinFold: high performance protein structure prediction from a simple spreadsheet" -- Melbourne Bioinformatics Meetup, *The University of Melbourne*
 - [Guest tutorial] "Protein Structure Prediction" -- Current Trends in Biotechnology (BABS2011), *The University of New South Wales* 
