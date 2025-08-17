@@ -17,12 +17,12 @@ tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple
 
 ![Indigo biosynthesis in plants](/images/indole_metabolism_in_plants.png){:.lead width="609" height="364" loading="lazy"}
 
-Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence. ---Synthesis diagram from *Plant Cell Reports*, vol. 35, [pg. 2449–2459](https://doi.org/10.1007/s00299-016-2046-3), **(2016)**.
+Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence. ---Synthesis diagram from *Plant Cell Reports*, 35, [pg. 2449–2459](https://doi.org/10.1007/s00299-016-2046-3), **(2016)**.
 {:.figcaption}
 
 *The development of dyes used to be covered in a (rarely taught) NSW syllabus option, "Chemistry of Art", that touched on everything from indigenous ochres to transition metal pigments and atomic spectroscopy, but is sadly now gone.* 
 
-*For those interested in colour more generally, I can recommend* ["The Secret Lives of Colour"](https://www.kassiastclair.com/books) *for its addictive ease to pick-up and dive into each hue, and* ["The History of Colour"](https://www.rca.ac.uk/more/staff/neil-parkinson/) *for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the development of industrial dyes interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
+*For those interested in colour more generally, I can recommend* ["The Secret Lives of Colour"](https://www.kassiastclair.com/books) *for its addictive ease to pick up and dive into each hue, and* ["The History of Colour"](https://www.rca.ac.uk/more/staff/neil-parkinson/) *for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the development of industrial dyes interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
 
 ---
 
@@ -52,13 +52,13 @@ Now with modern chemistry, blue hues can be made that are so striking that an ar
 
 ### Porphyrogeniture 👑
 
-Purple has long signified royalty and power, to the point that its use was restricted to high office, not just due to the expense of natural purple dye, but often enforced by social codes and law. Famously, Romans officials would colour their formal attire (togas) with a strip of purple along the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't solely restricted to appointed officials, but likely had a religious origin and was worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055). However, a toga fully clad in purple become restricted to Roman consuls and generals performing a Triumph, and later to the Emperor alone, and the unsanctioned wearing of purple was even codified as an offence punishable by death during Nero's reign. The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry (from Ancient Greek *porphyra* - purple) stone. This birthright to colour distinction was enforced from cradle to grave, as Emperors were buried in tombs made from porphyry, some [survive today outside the Archealogical Museum in Instanbul](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html). The purple name echoes throughout history, such as the sisters Zoe and Theodora Porphyrogenita who co-ruled the Byzantine empire after a popular revolt. 
+Purple has long signified royalty and power, to the point that its use was restricted to high office, not just due to the expense of natural purple dye, but often enforced by social codes and law. Famously, Romans officials would colour their formal attire (togas) with a strip of purple along the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't solely restricted to appointed officials, but likely had a religious origin and was worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055). However, a toga fully clad in purple become restricted to Roman consuls and generals performing a Triumph, and later to the Emperor alone, and the unsanctioned wearing of purple was even codified as an offence punishable by death during Nero's reign. 
 
-### Born in the purple 🟣
+The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry stone (from Ancient Greek *porphyra* - purple). This birthright to distinction through colour was enforced from cradle to grave, as Emperors were buried in tombs made from porphyry, some [survive today outside the Archealogical Museum in Instanbul](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html). The purple name echoes throughout history, such as the sisters Zoe and Theodora Porphyrogenita who co-ruled the Byzantine empire after a popular revolt. 
 
-Ironically, despite the incredibly rarity of steadfast purple in nature, purple was the first in a tidal wave of synthetic industrial dyes, bringing the colour to the masses causing it to become commonplace and unfashionable in quickly after reaching the mass market. The discovery of artifical purple dye (mauvine) was entirely accidentally, but the chemical knowledge to synthesise at massive scale required the unravelling some of the fundemental mysteries in organic (carbon-based) chemistry, and clarification how electrons create molecular structure and govern the interactions of dye molecules with light.  
+### Born in the purple 🟣 -- I think this might could be merged or re-written but I like the heading. Skip for now - Ed.
 
-### Muckracking ⚗️
+Ironically, despite the incredibly rarity of steadfast purple in nature, purple was the first in a tidal wave of synthetic industrial dyes, bringing the colour to the masses causing it to become commonplace and unfashionable in quickly after reaching the mass market. The discovery of artifical purple dye (mauvine) was entirely accidentally, but the chemical knowledge to synthesise at massive scale required unravelling some of the fundemental mysteries in organic (carbon-based) chemistry, and clarification about how electrons create molecular structure and govern the interactions of dye molecules with light.  
 
 - The search for a cheap route to quinine to treat malaria 
 - The same quinine which makes [tonic water glow ultraviolet under black light](/images/tonic_water_UV_Paul_Garland.jpg).
@@ -73,6 +73,18 @@ William Henry Perkin discovered artifical purple dye entirely by accident. His m
 - Perkin and the dye industry
 [Perkin and Hofmann](https://pubs.rsc.org/en/content/articlelanding/1896/ct/ct8966900596)
 - The search for cheap feedstocks
+
+### Muckracking ⚗️
+Ahh Perkin was a student of August Wilhelm von Hofmann, who is considered by science historians to by one of the ["fathers of synthetic chemistry"](https://onlinelibrary.wiley.com/doi/epdf/10.1002/anie.199212653) (he Jamcian-born chemist John Blyth were the first to use the term "synthesis" in a publication). Wind the story back to him and the German chemical industry. von Hofmann was xeresponsifor the experiments that isolated alinine from coal tar. 
+
+Wilhem von Hofman's first publication in 1843 was titled [*"Chemische Untersuchung der organischen Basen im
+Steinkohlen-Theeroel"*](https://doi.org/10.1002/jlac.18430470106) ("Chemical Investigation of the Organic Bases in Coal-Tar Oil")
+
+Hofman was the first to make use of "ball-and-stick" models to display and object representing the atomic connections inside molecules, and his choice of black for carbon, white for hydrogen, and red for oxygen remain in wide use today.
+
+This can be the coal-tar stuff, making synthetic gas from coal. German chemical dominance
+
+- Fischer–Tropsch process for syngas in Germany in 1925.
 
 
 ### Benzene: The daydream snake 🐍♻️♾️ 
@@ -94,13 +106,13 @@ Kekulé's serpentine solution of benzene's structure is actually used within the
  
 
 
-- In the [*"Coloring Gravity's Rainbow"*](https://doi.org/10.16995/pn.374) the author's apply criticl lens to the chromatic and chemical connections in this book. The protagonist's very name ---Tryone--- has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
+- In the [*"Coloring Gravity's Rainbow"*](https://doi.org/10.16995/pn.374) the author's apply critical lens to the chromatic and chemical connections in this book. The protagonist's very name ---Tryone--- has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
 
-%footnote 5 in "Colouring Gracity's Rainbow", 
+%footnote 5 in "Colouring Gravity's Rainbow", 
 
 "Who makes dyes today can tomorrow make high-explosives" 
 {:.note title="Dyes and disarmament"}
----[*World Disarmament and the Master Key Industry*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), America dyes institute,**1921**. 
+---[*"World Disarmament and the Master Key Industry"*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), American Dyes Institute,**1921**. 
 
 ### The controversial birth of "Aromaticity" ⌬ ↔ ⏣
 
@@ -156,7 +168,6 @@ The absorbance wavelength of an asymmetric dye is no redder than the mean wavele
  
 
 - % Prohpyrin means 'purple' and is the central unit in chlorophyll, heamoglobin, some luciferins in bioluminenscence (link out) 
-- % Azulene from azure 'blue' and the -ene suffix of double bonds. 
 
 - % Porphyrins (lit. purple) and electronic excitations should go here??
 
@@ -165,12 +176,13 @@ The absorbance wavelength of an asymmetric dye is no redder than the mean wavele
 Ten active oribtals in the electronic structure of iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. --—["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
 {:.figcaption}
 
+-  Azulene from azure 'blue' and the -ene suffix of double bonds. 
 - [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry --- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
 
 -Porphyrins also cause electrons to behave in very interesting ways...
 
 
-#### TODO: add bioluminesence post interal link 
+#### Porphyrins: everywhere from leaves 🍃 to eggs 🥚 to blood 🩸 to glowing bugs 🐛 
 - Use of porphyrin and porphyrin derivatives in other organisms:
 	- cholorphyll - [link to the WEHI's gobsmacking animation of the photosynthesis process](https://youtu.be/jlO8NiPbgrk?si=qAVHE1R_WHU4dvS1) that shows the quantum process of closely held chlorophyll pairs converting light into electron flow by splitting the surrounding water into oxygen.
  	- In another instance of photobiology, porphyrins are found in Sierra luminous millipedes (*Motyxia*) where the 'glow-in-the-dark' [appearence of the millipede](https://en.wikipedia.org/wiki/Motyxia#/media/File:Motyxia_sequoiae_(Loomis_&_Davenport,_1951).jpg) is known to come from a [photoprotein containing a porphyrin](https://www.sciencedirect.com/science/article/pii/0305049184903675?via%3Dihub) but whose structure is unresolved (and maybe should be re-investigated now that previous homology models have been drastically improved upon in the AlphaFold age). 
