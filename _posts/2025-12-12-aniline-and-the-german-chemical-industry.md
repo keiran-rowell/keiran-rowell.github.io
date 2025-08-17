@@ -17,8 +17,7 @@ tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple
 
 ![Indigo biosynthesis in plants](/images/indole_metabolism_in_plants.png){:.lead width="609" height="364" loading="lazy"}
 
-Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence.<br>
--- Synthesis diagram from *Plant Cell Reports*, vol. 35, [pg. 2449–2459](https://doi.org/10.1007/s00299-016-2046-3), **(2016)**.
+Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence. ---Synthesis diagram from *Plant Cell Reports*, vol. 35, [pg. 2449–2459](https://doi.org/10.1007/s00299-016-2046-3), **(2016)**.
 {:.figcaption}
 
 *The development of dyes used to be covered in a (rarely taught) NSW syllabus option, "Chemistry of Art", that touched on everything from indigenous ochres to transition metal pigments and atomic spectroscopy, but is sadly now gone.* 
@@ -29,12 +28,11 @@ Indigo is made from joining two slighly modified indole molecules. Indole is suc
 
 ### Pauvre mauve 🪻
 
-There's an abundance of green in the natural world (likely because plant chlorophyll is [tuned for reliable photosynthesis](https://www.quantamagazine.org/why-are-plants-green-to-reduce-the-noise-in-photosynthesis-20200730/)), but blues and purples stick out because they are so [rare in nature](https://set.adelaide.edu.au/news/list/2019/08/20/why-is-the-colour-blue-so-rare-in-nature). Maybe that's why blue is [humanity's favourite colour](https://au.yougov.com/international/articles/12336-why-blue-worlds-favorite-color-1). The rare examples of natural blue is unsual --  bird and butterfly wings have to restort to optical trickery (metamaterials); blueberries get their name and antioxidant health craze because their skin packed with the crop pigment [anthocynanin](https://en.wikipediea.org/wiki/Anthocyanin); and the blue skin of the poison dart frog is from the very same chemical (pumiliotoxin) that makes it poisonous; and lobsters change spectacularly from blue to red upon boiling due to denaturing [crustacyanin](https://doi.org/10.1002/anie.201501609).
+There's an abundance of green in the natural world (likely because plant chlorophyll is [tuned for reliable photosynthesis](https://www.quantamagazine.org/why-are-plants-green-to-reduce-the-noise-in-photosynthesis-20200730/)), but blues and purples stick out because they are so [rare in nature](https://set.adelaide.edu.au/news/list/2019/08/20/why-is-the-colour-blue-so-rare-in-nature). Maybe that's why blue is [humanity's favourite colour](https://au.yougov.com/international/articles/12336-why-blue-worlds-favorite-color-1). The rare examples of natural blue is unsual --- bird and butterfly wings have to restort to optical trickery (metamaterials); blueberries get their name and antioxidant health craze because their skin packed with the crop pigment [anthocynanin](https://en.wikipediea.org/wiki/Anthocyanin); and the blue skin of the poison dart frog is from the very same chemical (pumiliotoxin) that makes it poisonous; and lobsters change spectacularly from blue to red upon boiling due to denaturing [crustacyanin](https://doi.org/10.1002/anie.201501609).
 
 ![Anthocyanin skeleton](/images/anthocyanidine_320-228.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-Almost all colours in the blue end of the spectrum (among others) are built from the anthocyanidin skeleton shown above.<br>
--- *Wikimedia Commons*, [NEUROtiker, 5 August 2008](https://commons.wikimedia.org/wiki/File:Anthocyanidine.svg). 
+Almost all colours in the blue end of the spectrum (among others) are built from the anthocyanidin skeleton shown above. ---*Wikimedia Commons*, [NEUROtiker, 5 August 2008](https://commons.wikimedia.org/wiki/File:Anthocyanidine.svg). 
 {:.figcaption}
 
 Similarly, there's an almost complete abscence of natural purple. Purple cabbage and eggplant contain the same anthocyanins as blueberries, similary for violets whose flowers are so striking the colour is named after them but do not make a colourfast dye that will last in fabric. So, when nature was our only source of chemicals, people's desire the harness the spectrum of 'cool' colours came from crushing the leaves of the somewhat drab woad and the perennially popular indigo --- which names both the plant and one of Newton's seven 'ROYGB**I**V' colours. 
@@ -46,8 +44,7 @@ The only concentrated, colourfast sources of organic purple come from the seas. 
 For making dyes, even the colour diversity found within the minerals of the Earth was of little help; the naturally occuring mineral pigments are prone to dull hues, rapid fading, and discolouration into green (*e.g.* azurite). Synthetic mineral blue dyes had to be created in ancient times from copper silicates (mixed with calcium - "Egyptian Blue", or barium - "Han Blue & Purple"), or otherwise just from indigo 'baked into' a mineral substrate, as detailed in a in *Chemical Society Reviews* article on ["The invention of blue and purple pigments in ancient times"](https://doi.org/10.1039/B606268G). Han Purple did not provide a pure purple, but is due to red-copper oxide impurities. Pure, brilliant blue mineral pigment was only provided by eye wateringly expensive lapis lazuli (ultarmarine), mined only around the mountains on the North-Eastern tip of Afghanistan. Ultramarine would cost up to 100x other pigments, but its dazzling effect was valued in relgious iconography across Asia and Europe, and saw notable use in famous paintings (*e.g.* the [blue headscarf](https://heritagesciencejournal.springeropen.com/articles/10.1186/s40494-020-00364-5) in *"Girl with a Pearl Earring"*). Since mineral pigments and synthetics paled in comparison to "true" ultramarine, lapis lazuli was in demand well into the 19th century. The physical origin of the intense blue appearance of ultramarine is chemically interesting: rather than a metal at the centre of the mineral, the colour comes instead from a negatively charged trisulfur radical (S$$_3^{.-}$$).  
 
 ![Sodalite S3 chromophore](/images/sodalite_S3_radical.png){:style="display:block; margin-left:auto; margin-right:auto"}
-The negatively charged trisulfur radical caged in a zeolite with its surrounding sodium ions.<br>
--- *Chemical Society Reviews*, **2013**, 42, [5996-6005](https://doi.org/10.1039/C3CS60119F) adapted from *Inorganic Chemistry* **2002**, 41, 11, [2848–2854](https://doi.org/10.1021/ic010822c).
+The negatively charged trisulfur radical caged in a zeolite with its surrounding sodium ions. ---*Chemical Society Reviews*, **2013**, 42, [5996-6005](https://doi.org/10.1039/C3CS60119F) adapted from *Inorganic Chemistry* **2002**, 41, 11, [2848–2854](https://doi.org/10.1021/ic010822c).
 {:.figcaption}
 
 Now with modern chemistry, blue hues can be made that are so striking that an artist can make a multimillionair dollar name for themselves with [one famous blue dye](https://www.invaluable.com/blog/yves-klein-blue/), and scientific careers and reputations can be built upon chemists' prowess to manufacture the [bluest blue](https://www.huffpost.com/entry/quantum-blue-berkeley_n_5b8db0a4e4b0511db3db33a1). The chemistry the could produce commercially abundant purple dyes was however only cracked in the 19th century. Even now, there is unplumbed depths to these hues, the colour terminology for purple and violet is murky, our [visual perception](https://jakubmarian.com/difference-between-violet-and-purple/) strains near the UV wavelengths, and even the [colour range](https://ericportis.com/posts/2024/okay-color-spaces/) of our computer monitors come up short. 
@@ -68,8 +65,7 @@ Ironically, despite the incredibly rarity of steadfast purple in nature, purple 
 
 ![Sample of Perkin's mauve aniline dye](/images/perkins_mauve_sample.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
-Perkin's mauve was a runaway success but through its overuse in fashion it came to be see as tawdry. and the use of the gaudy colour fell out of favour for everyday wear.<br> 
--— *Journal of the Society of Dyers and Colourists*, Nov. **1906**, *via* the [Science History Insitute](https://digital.sciencehistory.org/works/o2sfuyr) . 
+Perkin's mauve was a runaway success but through its overuse in fashion it came to be see as tawdry. and the use of the gaudy colour fell out of favour for everyday wear. --—*Journal of the Society of Dyers and Colourists*, Nov. **1906**, *via* the [Science History Insitute](https://digital.sciencehistory.org/works/o2sfuyr) . 
 {:.figcaption}
 
 
@@ -88,35 +84,34 @@ Benzene is a molecule. It has a storied history of it's organic structure being 
 
 ![Ouroboros of Cleopatra](/images/ouroboros_chrysopoea_of_cleopatra.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-The ouroboros has a long history, including a connection to alchemy where it is illustrated here in relation to *chrysopoeia* ("gold-making") through balancing "one in the everything". <br>
--— *"Chrysopoeia of Cleopatra the Alchemist"*, pseudonymous, 3rd or 4thC. 
+The ouroboros has a long history, including a connection to alchemy where it is illustrated here in relation to *chrysopoeia* ("gold-making") through balancing "one in the everything". --—*"Chrysopoeia of Cleopatra the Alchemist"*, pseudonymous, 3rd or 4thC. 
 {:.figcaption}
 
 Kekulé's serpentine solution of benzene's structure is actually used within the book Gravity's Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:
 > “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
 
--- *Gravity's Rainbow*, Thomas Pynchon, pg. 412, Penguin 2nd Ed.
+--- *Gravity's Rainbow*, Thomas Pynchon, pg. 412, Penguin 2nd Ed.
  
 
 
-- In the [*"Coloring Gravity's Rainbow"*](https://doi.org/10.16995/pn.374) the author's apply criticl lens to the chromatic and chemical connections in this book. The protagonist's very name -- Tryone -- has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
+- In the [*"Coloring Gravity's Rainbow"*](https://doi.org/10.16995/pn.374) the author's apply criticl lens to the chromatic and chemical connections in this book. The protagonist's very name ---Tryone--- has be interpreted to be linked with Tyrian purple, and his essence with sliding colour scales, and his subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
 
 %footnote 5 in "Colouring Gracity's Rainbow", 
 
 "Who makes dyes today can tomorrow make high-explosives" 
 {:.note title="Dyes and disarmament"}
--- [*World Disarmament and the Master Key Industry*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), America dyes institute,**1921**. 
+---[*World Disarmament and the Master Key Industry*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), America dyes institute,**1921**. 
 
 ### The controversial birth of "Aromaticity" ⌬ ↔ ⏣
 
 ![Kekulé's benzene schematic](/images/kekule_benze_chains.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
-Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accord with current ways of representing organic molecules.<br> —- ["Sur la constitution des substances aromatiques"](https://lib.ugent.be/catalog/rug01:001282677), Kekulé M., *Bulletin mensuel de la Société Chimique de Paris*, pg. 98-111, **1865**.
+Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accord with current ways of representing organic molecules. —--["Sur la constitution des substances aromatiques"](https://lib.ugent.be/catalog/rug01:001282677), Kekulé M., *Bulletin mensuel de la Société Chimique de Paris*, pg. 98-111, **1865**.
 {:.figcaption} 
 
 - Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet). 
 - Add some history of why it was called aromaticity (scientist names). Talk about how aromatic 'sections' of molecules give them some of their most interesting chemical behaviour
-- Resonance  -- a terrible misnomer, as with most chemical nomenclature, because molecular nuclei do *not* 'resonate' between two separate resonance structures ([as many of the original theorists well knew, though confusion rose rapidly due partly to sloppy exposition by Pauling in a campaign to expand the conceptual basis of structural chemistry.](https://www.jstor.org/stable/4027968)).  [misunderstanding of Kekule claiming "vibrating" he literally meant internal vibrational temporary distortions of a D6h symmetric ring, not oscillating between "resonance contributors" 
+- Resonance  --- a terrible misnomer, as with most chemical nomenclature, because molecular nuclei do *not* 'resonate' between two separate resonance structures ([as many of the original theorists well knew, though confusion rose rapidly due partly to sloppy exposition by Pauling in a campaign to expand the conceptual basis of structural chemistry.](https://www.jstor.org/stable/4027968)).  [misunderstanding of Kekule claiming "vibrating" he literally meant internal vibrational temporary distortions of a D6h symmetric ring, not oscillating between "resonance contributors" 
 - Figure of benzene "resonance contributors" and the true delocalised dashed line ring version 
 - The Soviet opposition to resonance. The term mesomerism occasionally making an appearance instead.  
 A vocal minority of Soviet scientists [viewed the resonance concept as fictitious mathematical idealisation that was antithetical to dialectal materialism](https://www.jstor.org/stable/227752), so the state adopted a terminological slight of hand to avoid referring to resonance or using 'resonance structures' as a teaching aid.  
@@ -144,8 +139,7 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 
 ![p -> π electron delocalisation](/images/p_to_pi_cloud_aromatic.png){:style="display:block; margin-left:auto; margin-right:auto}
 
-Chemical aromaticity arises due to a planar cyclic p-orbital system that can delocalise to form a π-electron system around a closed ring.<br> 
--— *LibreTexts Chemistry* [*15.9: "What Is the Basis of Hückel’s Rule?"*](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_%28Smith%29/15%3A_Benzene_and_Aromatic_Compounds/15.09%3A_What_Is_the_Basis_of_Huckels_Rule), Tim Soderberg (University of Minnestota, Morris)
+Chemical aromaticity arises due to a planar cyclic p-orbital system that can delocalise to form a π-electron system around a closed ring. ---*LibreTexts Chemistry* [*15.9: "What Is the Basis of Hückel’s Rule?"*](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_%28Smith%29/15%3A_Benzene_and_Aromatic_Compounds/15.09%3A_What_Is_the_Basis_of_Huckels_Rule), Tim Soderberg (University of Minnestota, Morris)
 {:.figcaption}
 
 Hückel's rule for aromaticity: any cyclic arrangement of $$ 4n+2 $$ carbon atoms, where electrons are "shared" between all atoms in the ring, $$ n=1,2,3... $$  
@@ -168,11 +162,10 @@ The absorbance wavelength of an asymmetric dye is no redder than the mean wavele
 
 ![CAS(14e,14o) orbitals of iron-porphyrin complex](/images/Fe-porphyrin_CAS-14-14.png){:.lead width="520" height="856" loading="lazy"}
 
-Ten active oribtals in the electronic structure of iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry<br> 
--— ["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
+Ten active oribtals in the electronic structure of iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. --—["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
 {:.figcaption}
 
-- [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
+- [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry --- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
 
 -Porphyrins also cause electrons to behave in very interesting ways...
 
