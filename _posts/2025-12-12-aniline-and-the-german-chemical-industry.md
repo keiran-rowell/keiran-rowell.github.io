@@ -18,7 +18,7 @@ tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple
 ![Indigo biosynthesis in plants](/images/indole_metabolism_in_plants.png){:.lead width="609" height="364" loading="lazy"}
 
 Indigo is made from joining two slighly modified indole molecules. Indole is such a common structure in biology that it is used to make typtophan, one of the 20 standard amino acids, which can reveal protein folding properties through fluorescence.<br>
---- Synthesis diagram from *Plant Cell Reports*, vol. 35, [pg. 2449–2459](https://doi.org/10.1007/s00299-016-2046-3), **(2016)**.
+-- Synthesis diagram from *Plant Cell Reports*, vol. 35, [pg. 2449–2459](https://doi.org/10.1007/s00299-016-2046-3), **(2016)**.
 {:.figcaption}
 
 *The development of dyes used to be covered in a (rarely taught) NSW syllabus option, "Chemistry of Art", that touched on everything from indigenous ochres to transition metal pigments and atomic spectroscopy, but is sadly now gone.* 
@@ -34,7 +34,7 @@ There's an abundance of green in the natural world (likely because plant chlorop
 ![Anthocyanin skeleton](/images/anthocyanidine_320-228.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Almost all colours in the blue end of the spectrum (among others) are built from the anthocyanidin skeleton shown above.<br>
---- *Wikimedia Commons*, [NEUROtiker, 5 August 2008](https://commons.wikimedia.org/wiki/File:Anthocyanidine.svg). 
+-- *Wikimedia Commons*, [NEUROtiker, 5 August 2008](https://commons.wikimedia.org/wiki/File:Anthocyanidine.svg). 
 {:.figcaption}
 
 Similarly, there's an almost complete abscence of natural purple. Purple cabbage and eggplant contain the same anthocyanins as blueberries, similary for violets whose flowers are so striking the colour is named after them but do not make a colourfast dye that will last in fabric. So, when nature was our only source of chemicals, people's desire the harness the spectrum of 'cool' colours came from crushing the leaves of the somewhat drab woad and the perennially popular indigo --- which names both the plant and one of Newton's seven 'ROYGB**I**V' colours. 
@@ -47,15 +47,15 @@ For making dyes, even the colour diversity found within the minerals of the Eart
 
 ![Sodalite S3 chromophore](/images/sodalite_S3_radical.png){:style="display:block; margin-left:auto; margin-right:auto"}
 The negatively charged trisulfur radical caged in a zeolite with its surrounding sodium ions.<br>
---- *Chemical Society Reviews*, **2013**, 42, [5996-6005](https://doi.org/10.1039/C3CS60119F) adapted from *Inorganic Chemistry* **2002**, 41, 11, [2848–2854](https://doi.org/10.1021/ic010822c).
+-- *Chemical Society Reviews*, **2013**, 42, [5996-6005](https://doi.org/10.1039/C3CS60119F) adapted from *Inorganic Chemistry* **2002**, 41, 11, [2848–2854](https://doi.org/10.1021/ic010822c).
 {:.figcaption}
 
-Now with modern chemistry, blue hues can be made that are so striking that an artist can make a multimillionair dollar name for themselves with [one famous blue dye](https://www.invaluable.com/blog/yves-klein-blue/), and scientific careers and reputations can be built upon chemists' prowess to manufacture the [bluest blue](https://www.huffpost.com/entry/quantum-blue-berkeley_n_5b8db0a4e4b0511db3db33a1). The chemistry the could produce commercially abundant purple dyes was however only cracked in the 19th century. Even now, there is unplumbed depths to these hues, the colour terminology for purple and violet is murky, our [visual perception](https://jakubmarian.com/difference-between-violet-and-purple/) strained near the UV wavelengths, and even the [colour range](https://ericportis.com/posts/2024/okay-color-spaces/) of our computer monitors come up short. 
+Now with modern chemistry, blue hues can be made that are so striking that an artist can make a multimillionair dollar name for themselves with [one famous blue dye](https://www.invaluable.com/blog/yves-klein-blue/), and scientific careers and reputations can be built upon chemists' prowess to manufacture the [bluest blue](https://www.huffpost.com/entry/quantum-blue-berkeley_n_5b8db0a4e4b0511db3db33a1). The chemistry the could produce commercially abundant purple dyes was however only cracked in the 19th century. Even now, there is unplumbed depths to these hues, the colour terminology for purple and violet is murky, our [visual perception](https://jakubmarian.com/difference-between-violet-and-purple/) strains near the UV wavelengths, and even the [colour range](https://ericportis.com/posts/2024/okay-color-spaces/) of our computer monitors come up short. 
  
 
 ### Porphyrogeniture 👑
 
-Purple has long signified royalty and power, to the point that its use was restricted to high office. This wasn't just due to the expense of natural purple dye, but was often enforced by social codes and law. Famously, Romans officials would line their formal attire (togas) with a strip of purple lining the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't restricted to appointed official, but likely had a religious origin and was worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055i). However, a toga fully clad in pruple was restricted to Roman conuls and generals performing a Triumph, and later to the Emperor alone, and the unsanctioned wearing of purple was even codified as an offence punishable by death during Nero's reign. The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry (from Ancient Greek *porphyra* - lit. purple) stone. This colour distinction of the birthright to rule was enforced from cradle to grave, as Emperors were buried in tombs made from porhyry, some [survive today outside the Archealogical Museum in Instanbul](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html). 
+Purple has long signified royalty and power, to the point that its use was restricted to high office, not just due to the expense of natural purple dye, but often enforced by social codes and law. Famously, Romans officials would colour their formal attire (togas) with a strip of purple along the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't solely restricted to appointed officials, but likely had a religious origin and was worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055). However, a toga fully clad in purple become restricted to Roman consuls and generals performing a Triumph, and later to the Emperor alone, and the unsanctioned wearing of purple was even codified as an offence punishable by death during Nero's reign. The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry (from Ancient Greek *porphyra* - purple) stone. This birthright to colour distinction was enforced from cradle to grave, as Emperors were buried in tombs made from porphyry, some [survive today outside the Archealogical Museum in Instanbul](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html). The purple name echoes throughout history, such as the sisters Zoe and Theodora Porphyrogenita who co-ruled the Byzantine empire after a popular revolt. 
 
 ### Born in the purple 🟣
 
@@ -66,10 +66,10 @@ Ironically, despite the incredibly rarity of steadfast purple in nature, purple 
 - The search for a cheap route to quinine to treat malaria 
 - The same quinine which makes [tonic water glow ultraviolet under black light](/images/tonic_water_UV_Paul_Garland.jpg).
 
-![Sample of Perkin's mauve aniline dye](/images/perkins_mauve_sample.jpg)
+![Sample of Perkin's mauve aniline dye](/images/perkins_mauve_sample.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
-Perkin's mauve was a runaway success, until it became so fashionable to be tawdry and the use of the gaudy colour fell out of fashion for everyday wear. 
- — *Journal of the Society of Dyers and Colourists*, **Nov 1906**, *via* the [Science History Insitute](https://digital.sciencehistory.org/works/o2sfuyr) . 
+Perkin's mauve was a runaway success but through its overuse in fashion it came to be see as tawdry. and the use of the gaudy colour fell out of favour for everyday wear.<br> 
+-— *Journal of the Society of Dyers and Colourists*, Nov. **1906**, *via* the [Science History Insitute](https://digital.sciencehistory.org/works/o2sfuyr) . 
 {:.figcaption}
 
 
@@ -86,15 +86,16 @@ Benzene is a molecule. It has a storied history of it's organic structure being 
 - It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. Remeber structural proposals were well before the discovery of the electron (Begat six aromatic electrons paper)  
 - Kekulé's daydream of a serpent eatin it's own tale [GET A PUBLIC PAGE OR A PUBLICATION]  
 
-![Ouroboros of Cleopatra](/images/ouroboros_chrysopoea_of_cleopatra.png)
+![Ouroboros of Cleopatra](/images/ouroboros_chrysopoea_of_cleopatra.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-The ouroboros has a long history, including a connection to alchemy where it is illustrated here in relation to *chrysopoeia* ("gold-making") through balancing "one in the everything". —*"Chrysopoeia of Cleopatra the Alchemist"*, pseudonym, 3rd or 4thC A.D 
+The ouroboros has a long history, including a connection to alchemy where it is illustrated here in relation to *chrysopoeia* ("gold-making") through balancing "one in the everything". <br>
+-— *"Chrysopoeia of Cleopatra the Alchemist"*, pseudonymous, 3rd or 4thC. 
 {:.figcaption}
 
 Kekulé's serpentine solution of benzene's structure is actually used within the book Gravity's Rainbow as a metaphor the economic boon that destructive cycle of WWII war economy brings:
 > “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
 
--*Gravity's Rainbow*, Thomas Pynchon, pg. 412, Penguin 2nd Ed.
+-- *Gravity's Rainbow*, Thomas Pynchon, pg. 412, Penguin 2nd Ed.
  
 
 
@@ -104,13 +105,13 @@ Kekulé's serpentine solution of benzene's structure is actually used within the
 
 "Who makes dyes today can tomorrow make high-explosives" 
 {:.note title="Dyes and disarmament"}
--[*World Disarmament and the Master Key Industry*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), America dyes institute,**1921**. 
+-- [*World Disarmament and the Master Key Industry*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), America dyes institute,**1921**. 
 
 ### The controversial birth of "Aromaticity" ⌬ ↔ ⏣
 
-![Kekulé's benzene schematic](/images/kekule_benze_chains.jpg)
+![Kekulé's benzene schematic](/images/kekule_benze_chains.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
-Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accord with current ways of representing organic molecules. —["Sur la constitution des substances aromatiques"](https://lib.ugent.be/catalog/rug01:001282677), Kekulé M., *Bulletin mensuel de la Société Chimique de Paris*, pg. 98-111, **1865**.
+Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accord with current ways of representing organic molecules.<br> —- ["Sur la constitution des substances aromatiques"](https://lib.ugent.be/catalog/rug01:001282677), Kekulé M., *Bulletin mensuel de la Société Chimique de Paris*, pg. 98-111, **1865**.
 {:.figcaption} 
 
 - Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet). 
@@ -141,9 +142,10 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
 
 ### The electronics of dyes 🎨
 
-![p -> π electron delocalisation](/images/p_to_pi_cloud_aromatic.png)
+![p -> π electron delocalisation](/images/p_to_pi_cloud_aromatic.png){:style="display:block; margin-left:auto; margin-right:auto}
 
-Chemical aromaticity arises due to a planar cyclic p-orbital system that can delocalise to form a π-electron system around a closed ring. —**LibreTexts Chemistry** [*15.9: "What Is the Basis of Hückel’s Rule?"*](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_%28Smith%29/15%3A_Benzene_and_Aromatic_Compounds/15.09%3A_What_Is_the_Basis_of_Huckels_Rule), Tim Soderberg (University of Minnestota, Morris)
+Chemical aromaticity arises due to a planar cyclic p-orbital system that can delocalise to form a π-electron system around a closed ring.<br> 
+-— *LibreTexts Chemistry* [*15.9: "What Is the Basis of Hückel’s Rule?"*](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_%28Smith%29/15%3A_Benzene_and_Aromatic_Compounds/15.09%3A_What_Is_the_Basis_of_Huckels_Rule), Tim Soderberg (University of Minnestota, Morris)
 {:.figcaption}
 
 Hückel's rule for aromaticity: any cyclic arrangement of $$ 4n+2 $$ carbon atoms, where electrons are "shared" between all atoms in the ring, $$ n=1,2,3... $$  
@@ -164,14 +166,16 @@ The absorbance wavelength of an asymmetric dye is no redder than the mean wavele
 
 - % Porphyrins (lit. purple) and electronic excitations should go here??
 
-![CAS(14e,14o) orbitals of iron-porphyrin complex](/images/Fe-porphyrin_CAS-14-14.png)
+![CAS(14e,14o) orbitals of iron-porphyrin complex](/images/Fe-porphyrin_CAS-14-14.png){:.lead width="520" height="856" loading="lazy"}
 
-- % [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
+Ten active oribtals in the electronic structure of iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry<br> 
+-— ["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
+{:.figcaption}
+
+- [Research in 2023](https://doi.org/10.1021/jacs.3c07625) proposes why azulene's light emission is special from the excited state: it has a unique anti-aromatic properties that means it disobeys a long standing principle in photochemistry -- that photon emission is from the lowest electronic state of a give electron spin state. It also displays beautiful examples of (anti)aromatic ring currents.  %This paper has a really good illustration of pi-aromaticity, whether it forms multiple small rigns, or one large ring around the perimeter
 
 -Porphyrins also cause electrons to behave in very interesting ways...
 
-Ten active oribtals in the electronic structure of iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. —["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
-{:.figcaption}
 
 #### TODO: add bioluminesence post interal link 
 - Use of porphyrin and porphyrin derivatives in other organisms:
@@ -187,13 +191,13 @@ Ten active oribtals in the electronic structure of iron-porphyrin complex typica
 
 
 ### Retinal, in our eye 👁️ and in microbes 🦠 
- - % Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision. The strucutre of bacteriorhodopsin was [solved to decent resolution using cryo-EM](https://doi.org/10.1016/S0022-2836(05)80271-2) by Richard Henderson and co-workers, who would later go on to win a [Nobel prize](https://www.nobelprize.org/prizes/chemistry/2017/popular-information) in part due to that work. 
+ - Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision. The strucutre of bacteriorhodopsin was [solved to decent resolution using cryo-EM](https://doi.org/10.1016/S0022-2836(05)80271-2) by Richard Henderson and co-workers, who would later go on to win a [Nobel prize](https://www.nobelprize.org/prizes/chemistry/2017/popular-information) in part due to that work. 
 - The bacteriorhodopsin proton pumping process is illustrated in [this video](https://youtu.be/w241TNxqa6I?si=CXurpxOgOoDX-key) showing how retinal's absorption of a photon triggers an isomeration concurrent with a protein shape change and exited-state proton transfer.  
 - Found in all sorts of light harvesting organisms, including the Asgard archaea 
 
-![HemdallR1 archaeal rhodopsin](/images/heimdallR1_retinal.png)
+![HemdallR1 archaeal rhodopsin](/images/heimdallR1_retinal.png){:.lead width="504" height="753" loading="lazy"}
 
-Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method. —["Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea"](https://doi.org/10.1038/s41564-025-02016-5), *Nature Microbiology*, **10**, 1484–1500 (2025).
+Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method. —["Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea"](https://doi.org/10.1038/s41564-025-02016-5), *Nature Microbiology*, 10, 1484–1500 **(2025)**.
 {:.figcaption} 
 
 Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to feed off light. Rhodopsin now mediates our dim light vision (most sensitive to blues), while our cones allow us to gaze on purple in all its power and write a post of purple prose about it. 
