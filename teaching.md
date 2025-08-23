@@ -12,7 +12,7 @@ The capacity for tech to improve how the physical sciences are taught is enormou
 
 For this I turned to Python, using chemistry-specific examples to apply code in context familiar to students, and Jupyter notebooks to avoid any technical hassle in providing a consistent environment. I deployed a cloud-hosted JupyterHub to demonstrate this in a general audience pitch video, click the image below to watch. 
 
-[![JupyterNotebook for Physical Chemistry](https://img.youtube.com/vi/c_rki9CYYGg/0.jpg)](https://youtu.be/c_rki9CYYGg)
+[![JupyterNotebook for Physical Chemistry](https://img.youtube.com/vi/c_rki9CYYGg/0.jpg)](https://youtu.be/NPDj-wLIw3M?si=55rxZoNznCs0K_4v)
 
 I received the UNSW Rising Star Award (PhD Casual Teachers) for my resources and teaching. You can find an interview upon the award [in the newsletter here](https://mailchi.mp/034ed4ae6bb3/march-2019-newsletter-from-the-dean-of-science-460037), including discussion of my teaching philosophy.
 
