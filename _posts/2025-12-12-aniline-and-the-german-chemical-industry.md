@@ -9,7 +9,7 @@ tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple
 #  path: /images/Peacock_coal_11.jpg
 --- 
 
-> Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is aluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.  
+> Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is alluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.  
 
 *In this post I'm aiming to give a broad-brush overview of how near-infinite array of colours we see in textiles today was wrought from some of the most murky carbon substances known. This post will focus on* <span style="color:rebeccapurple">purple</span> (specifically, <span style="color:#8D029B">mauveine</span>). 
 
@@ -56,7 +56,7 @@ Purple has long signified royalty and power, to the point that its use was restr
 
 The association of the Tyrian purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry stone (from Ancient Greek *porphyra* - purple). This birthright to distinction through colour was enforced from cradle to grave, as Emperors were buried in tombs made from porphyry, some [survive today outside the Archealogical Museum in Instanbul](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html). The purple name echoes throughout history, such as the sisters Zoe and Theodora Porphyrogenita who co-ruled the Byzantine empire after a popular revolt. 
 
-### Born in the purple 🟣 -- I think this might could be merged or re-written but I like the heading. Skip for now - Ed.
+### Born in the purple 🟣 
 
 Ironically, despite the incredibly rarity of steadfast purple in nature, purple was the first in a tidal wave of synthetic industrial dyes, bringing the colour to the masses causing it to become commonplace and unfashionable in quickly after reaching the mass market. The discovery of artifical purple dye (mauvine) was entirely accidentally, but the chemical knowledge to synthesise at massive scale required unravelling some of the fundemental mysteries in organic (carbon-based) chemistry, and clarification about how electrons create molecular structure and govern the interactions of dye molecules with light.  
 
@@ -78,21 +78,37 @@ William Henry Perkin discovered artifical purple dye entirely by accident. His m
 Ahh Perkin was a student of August Wilhelm von Hofmann, who is considered by science historians to by one of the ["fathers of synthetic chemistry"](https://onlinelibrary.wiley.com/doi/epdf/10.1002/anie.199212653) (he Jamcian-born chemist John Blyth were the first to use the term "synthesis" in a publication). Wind the story back to him and the German chemical industry. von Hofmann was xeresponsifor the experiments that isolated alinine from coal tar. 
 
 Wilhem von Hofman's first publication in 1843 was titled [*"Chemische Untersuchung der organischen Basen im
-Steinkohlen-Theeroel"*](https://doi.org/10.1002/jlac.18430470106) ("Chemical Investigation of the Organic Bases in Coal-Tar Oil")
+Steinkohlen-Theeroel"*](https://doi.org/10.1002/jlac.18430470106) ("Chemical Investigation of the Organic Bases in Coal-Tar Oil"). Hofmann was to find both aniline (the basis for dyes) and quinoline (a degradation product of the quinine Perkin was so interested in finding) in tar. 
 
-Hofman was the first to make use of "ball-and-stick" models to display and object representing the atomic connections inside molecules, and his choice of black for carbon, white for hydrogen, and red for oxygen remain in wide use today.
+Hofman was the first to make use of "ball-and-stick" models to display and object representing the atomic connections inside molecules, and his choice of black for carbon, white for hydrogen, and red for oxygen remain in wide use today would have driven them to keep the coal tar chemical industry in Britian.
+
+Hofmann's structure of the lab is [seen as the precusor to the modern industrial chemistry research lab](https://doi.org/10.1021/cr0300946), and was a source of many discoveries, such as the [isolation of benzene (then benzole)](https://doi.org/10.1039/QJ8490100244) by his British student Charles Mansfield. 
 
 This can be the coal-tar stuff, making synthetic gas from coal. German chemical dominance
 
-- Fischer–Tropsch process for syngas in Germany in 1925.
+
+A letter to *Nature* in 1934 [puts it plainly](https://doi.org/10.1038/133576a0): 
+>"WHILST the original discovery of a coal-tar dye was made by an Englishman... The consequent decline of the British coal-tar colour industry was already well marked in 1875, and in 1886 had proceeded so far that 90 per cent of the dyes then used in Britain were of foreign manufacture... It is not an overstatement to say that the development of this highly scientific and extremely profitable industry in Germany instead of in Great Britain had enormous, if not decisive, political and economic effects both before and during the War."
+
+under which a fascinating additional letter is enclosed where John Brunner (co-founder of a chemical firm that would later merge to become Imperial Chemical Industries) opines in 1915 that had he and his chemist brother had money in their 'teens' their fascination with aniline dyed silk skeins would have driven them to keep the coal tar chemical industry in Britian.  
+
+The success of a synthetic dyes lead to a [complete collapse of the economic harvesting of natural dyes such as madder root](https://www.jstor.org/stable/43427950). 
+
+- Fischer–Tropsch process for synthetic liquid fuels from coal tar was [invented in Germany in 1920s](https://doi.org/10.1016/S0167-2991(07)80469-1), and crucial for Germany to fight on in WWII as the country has almost no petrol itself but plentiful coal deposits. Similar processes to convert coal gases to liquid fuels have [fallen in and out of favour as petroleum supply moved through booms and crises](https://www.chemistryworld.com/features/liquid-assets/3004666.article). 
 
 
 ### Benzene: The daydream snake 🐍♻️♾️ 
 
 Benzene is a molecule. It has a storied history of it's organic structure being tough to figure out, but when it was the concept unlocked whole new fields of synthesis.  
 
-- It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. Remeber structural proposals were well before the discovery of the electron (Begat six aromatic electrons paper)  
-- Kekulé's daydream of a serpent eatin it's own tale [GET A PUBLIC PAGE OR A PUBLICATION]  
+- It took 40 years from the experimental isolation of benzene in a lab to solve its chemical structure. Remeber structural proposals were well before the discovery of the electron, and benzene was a interesting system to work [out it's six-aromatic electon rule](https://doi.org/10.1021/cr0300946).  (Begat six aromatic electrons paper)  
+
+- Kekule's whirling snake: fact of fiction: he probably did daydream, but the [sudden clartity through a dream story appears to have been embellished far later in order to establish a legacy](https://pubs.acs.org/doi/10.1021/ed052p709).
+
+- There's disagreement on this in "[Chemistry's visual origins](https://www.nature.com/articles/465036a)"
+
+- Okay, I really need to read ["Image and Reality
+Kekulé, Kopp, and the Scientific Imagination"](https://press.uchicago.edu/ucp/books/book/chicago/I/bo8434945.html). Luckily in the age of epub I can get it for a 1.5 months 
 
 ![Ouroboros of Cleopatra](/images/ouroboros_chrysopoea_of_cleopatra.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -171,9 +187,9 @@ The absorbance wavelength of an asymmetric dye is no redder than the mean wavele
 
 - % Porphyrins (lit. purple) and electronic excitations should go here??
 
-![CAS(14e,14o) orbitals of iron-porphyrin complex](/images/Fe-porphyrin_CAS-14-14.png){:.lead width="520" height="856" loading="lazy"}
+![CAS(14e,14o) orbitals of an iron-porphyrin complex](/images/Fe-porphyrin_CAS-14-14.png){:.lead width="520" height="856" loading="lazy"}
 
-Ten active oribtals in the electronic structure of iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. --—["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
+Ten active oribtals in the electronic structure of an iron-porphyrin complex typical of [haem proteins](https://www.nobelprize.org/prizes/chemistry/1962/perspectives/). Calculated at the CAS(14e,14o) level of theory with $$ A_1 $$ symmetry. --—["Methodological CASPT2 study of the valence excited states of an iron-porphyrin complex"](https://doi.org/10.1007/s00894-017-3226-y), *Journal of Molecular Modelling*, vol. 23, *53*, **(2017)**
 {:.figcaption}
 
 -  Azulene from azure 'blue' and the -ene suffix of double bonds. 
@@ -181,8 +197,10 @@ Ten active oribtals in the electronic structure of iron-porphyrin complex typica
 
 -Porphyrins also cause electrons to behave in very interesting ways...
 
+- Just this years researchers made a massive (for the molecular scale) [18-porphyrin ring](https://pubs.acs.org/doi/10.1021/jacs.5c09149) that displays [current across 242 electrons running through the entire system](https://phys.org/news/2025-09-member-nanoring-boundaries-global-aromaticity.html).
 
-#### Porphyrins: everywhere from leaves 🍃 to eggs 🥚 to blood 🩸 to glowing bugs 🐛 
+
+#### Porphyrins everywhere: green 🍃, yellow 🥚, red 🩸, glowing 🐛
 - Use of porphyrin and porphyrin derivatives in other organisms:
 	- cholorphyll - [link to the WEHI's gobsmacking animation of the photosynthesis process](https://youtu.be/jlO8NiPbgrk?si=qAVHE1R_WHU4dvS1) that shows the quantum process of closely held chlorophyll pairs converting light into electron flow by splitting the surrounding water into oxygen.
  	- In another instance of photobiology, porphyrins are found in Sierra luminous millipedes (*Motyxia*) where the 'glow-in-the-dark' [appearence of the millipede](https://en.wikipedia.org/wiki/Motyxia#/media/File:Motyxia_sequoiae_(Loomis_&_Davenport,_1951).jpg) is known to come from a [photoprotein containing a porphyrin](https://www.sciencedirect.com/science/article/pii/0305049184903675?via%3Dihub) but whose structure is unresolved (and maybe should be re-investigated now that previous homology models have been drastically improved upon in the AlphaFold age). 
@@ -212,4 +230,4 @@ Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to 
 Purple is my favourite colour :) 
 {:.lead}
 
-*[Deep Purple](https://deeppurple.com/) is shrouded in mystique, while there's something spectrally special about [High Violet](https://4ad.com/releases/922) hinting at energies just beyond human perception.* 
+*Deep Purple is shrouded in mystique, while there's something spectrally special about [High Violet](https://4ad.com/releases/922) hinting at energies just beyond human perception.* 
