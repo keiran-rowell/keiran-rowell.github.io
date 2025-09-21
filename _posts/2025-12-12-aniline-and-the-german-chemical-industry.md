@@ -24,6 +24,7 @@ Indigo is made from joining two slighly modified indole molecules. Indole is suc
 
 *For those interested in colour more generally, I can recommend* ["The Secret Lives of Colour"](https://www.kassiastclair.com/books) *for its addictive ease to pick up and dive into each hue, and* ["The History of Colour"](https://www.rca.ac.uk/more/staff/neil-parkinson/) *for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the development of industrial dyes interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
 
+["Image and Reality: Kekulé, Kopp, and the Scientific Imagination"](https://press.uchicago.edu/ucp/books/book/chicago/I/bo8434945.html) *provided some real correspondence of Kekulé to at least provide some primary sources around the murky question of wether he* actually *dreamed the snake, or commited pure embellishment decades later for the sake of legacy.* Image and Reality *gives interesting rapid recount into the depictional development of atomic theory, including the radically clear-eyed early experimental proof and visual foresight of Alexander Williamson who, using etherification, pictured constant molecular motion creating reactivity.* 
 ---
 
 ### Pauvre mauve 🪻
@@ -109,6 +110,8 @@ Benzene is a molecule. It has a storied history of it's organic structure being 
 
 - Okay, I really need to read ["Image and Reality
 Kekulé, Kopp, and the Scientific Imagination"](https://press.uchicago.edu/ucp/books/book/chicago/I/bo8434945.html). Luckily in the age of epub I can get it for a 1.5 months 
+
+- "Benzolfest" of 1850. OMG this book was value for money
 
 ![Ouroboros of Cleopatra](/images/ouroboros_chrysopoea_of_cleopatra.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
