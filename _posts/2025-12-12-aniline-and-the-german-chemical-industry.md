@@ -24,7 +24,9 @@ Indigo is made from joining two slighly modified indole molecules. Indole is suc
 
 *For those interested in colour more generally, I can recommend* ["The Secret Lives of Colour"](https://www.kassiastclair.com/books) *for its addictive ease to pick up and dive into each hue, and* ["The History of Colour"](https://www.rca.ac.uk/more/staff/neil-parkinson/) *for an academic history of the conception of colour (Chapter 2 starts with synthetic purple and details the explosion in commerically valuable tints that followed). If the development of industrial dyes interests you, BASF have well produced and comprehensive account of their entire history [on their website](https://www.basf.com/global/en/who-we-are/history/chronology/1865-1901.html).*
 
-["Image and Reality: Kekulé, Kopp, and the Scientific Imagination"](https://press.uchicago.edu/ucp/books/book/chicago/I/bo8434945.html) *provided some real correspondence of Kekulé to at least provide some primary sources around the murky question of wether he* actually *dreamed the snake, or commited pure embellishment decades later for the sake of legacy.* Image and Reality *gives interesting rapid recount into the depictional development of atomic theory, including the radically clear-eyed early experimental proof and visual foresight of Alexander Williamson who, using etherification, pictured constant molecular motion creating reactivity.* 
+
+*Some real correspondence is available in* ["Image and Reality: Kekulé, Kopp, and the Scientific Imagination"](https://press.uchicago.edu/ucp/books/book/chicago/I/bo8434945.html) *to provide some primary sources around the murky question of wether he actually dreamed the snake.* Image and Reality *gives interesting rapid recount into the depictional development of atomic theory, including the radically clear-eyed early experimental proof by Alexander Williamson who provided, using etherification, as his theory of* "an actual image of what we rationally suppose to be the arrangment of constituent atoms in a compound". *Williamson's visual foresight took the leap to being able to picture how constant molecular motion creatied reactivity.*
+
 ---
 
 ### Pauvre mauve 🪻
@@ -97,6 +99,7 @@ The success of a synthetic dyes lead to a [complete collapse of the economic har
 
 - Fischer–Tropsch process for synthetic liquid fuels from coal tar was [invented in Germany in 1920s](https://doi.org/10.1016/S0167-2991(07)80469-1), and crucial for Germany to fight on in WWII as the country has almost no petrol itself but plentiful coal deposits. Similar processes to convert coal gases to liquid fuels have [fallen in and out of favour as petroleum supply moved through booms and crises](https://www.chemistryworld.com/features/liquid-assets/3004666.article). 
 
+-Something about Perkin, Hofmann and all these chemists were working on "aromatic" (*e.g.* benzoin, *i.e.* incense) compounds without having insight into their puzzling structure.
 
 ### Benzene: The daydream snake 🐍♻️♾️ 
 
@@ -133,12 +136,17 @@ Kekulé's serpentine solution of benzene's structure is actually used within the
 {:.note title="Dyes and disarmament"}
 ---[*"World Disarmament and the Master Key Industry"*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), American Dyes Institute,**1921**. 
 
-### The controversial birth of "Aromaticity" ⌬ ↔ ⏣
+### The birth of "Aromaticity" and unravelling of substituent positions ⌬ ↔ ⏣
+
+- Kekulé's daydream, while dozing off on a London bus, of atoms writing around in a snake*like* fashion where one chain of atoms seizes its own tail.
 
 ![Kekulé's benzene schematic](/images/kekule_benze_chains.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accord with current ways of representing organic molecules. —--["Sur la constitution des substances aromatiques"](https://lib.ugent.be/catalog/rug01:001282677), Kekulé M., *Bulletin mensuel de la Société Chimique de Paris*, pg. 98-111, **1865**.
 {:.figcaption} 
+
+- Something about how Kekulé used this sausage representation, as contemporary chemical thought the valency property of an element was due to multiple subparts each capable of forming a connection, allowing elements to combine (described as 'atomicity' in that time.) This provided the ability to show multibond connections in elongated multivalent elements, but the horizontal limitations of these "sausage" formulas led Kekulé to some mistaken structural assignments (such as a triangular form of benzene) other organic chemists immediately picked up on based on experimental evidence (e.g. additions to the benzene ring occuring in patterns that are unique to a regular hexagon).
+- Something about Kekule's tetravalent carbon ring holding together by oscillating collisions with two neighbouring carbons, equally spaced apart, and one hydrogen. 
 
 - Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet). 
 - Add some history of why it was called aromaticity (scientist names). Talk about how aromatic 'sections' of molecules give them some of their most interesting chemical behaviour
