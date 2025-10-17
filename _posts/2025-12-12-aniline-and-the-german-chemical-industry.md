@@ -80,7 +80,7 @@ Steinkohlen-Theeroel"*](https://doi.org/10.1002/jlac.18430470106) ("Chemical Inv
 
 Experiments with coal tar and other organic synthesis projects were a productive area for Hofmann to build a research career on. The structure Hofmann's the lab is [seen as the precusor to the modern industrial chemistry research lab](https://doi.org/10.1021/cr0300946), and was a source of many discoveries, such as the [isolation of benzene (then benzole)](https://doi.org/10.1039/QJ8490100244) by his British student Charles Mansfield. Additionally, Hofmann was the first to build physical ball-and-stick "glyptic formulae" models to display and object representing the atomic connections inside molecules, and his choice of black for carbon, white for hydrogen, and red for oxygen remain in wide use today. 
 
-![Hofmann's ball-and-stick models of chloromethane, methanol, and methanamine using coloured croquet balls.](/images/hofmann_ball-and-stick.jpg)){:style="display:block; margin-left:auto; margin-right:auto"}
+![Hofmann's ball-and-stick models of chloromethane, methanol, and methanamine using coloured croquet balls.](/images/hofmann_ball-and-stick.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 August Wilhelm Hofmann, "On the combining power of atoms." *Proceedings of the Royal Institution of Great Britain*, 4, **(1865)**, pg. 401-430
 {:figcaption}
