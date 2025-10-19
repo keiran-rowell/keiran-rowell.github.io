@@ -82,8 +82,8 @@ Experiments with coal tar and other organic synthesis projects were a productive
 
 ![Hofmann's ball-and-stick models of chloromethane, methanol, and methanamine using coloured croquet balls.](/images/hofmann_ball-and-stick.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
-August Wilhelm Hofmann, "On the combining power of atoms." *Proceedings of the Royal Institution of Great Britain*, 4, **(1865)**, pg. 401-430
-{:figcaption}
+August Wilhelm Hofmann, "On the combining power of atoms." *Proceedings of the Royal Institution of Great Britain*, **(1865)**, 4, 401-430
+{:.figcaption}
 
 Despite Hofmann's lab being in Imperial College London (he moved to the University of Berline in 1865), and Perkin being the first to commercialise aniline dye's in Britian, this nascent dye and chemical industry was to come to be dominated by Germany, largely due to economic and technological factors. A key factor was the industrial production of synthetic liquid and gaseous fuels from coal tar , that was [invented in Germany in 1920s](https://doi.org/10.1016/S0167-2991(07)80469-1). As Germany had vast coal deposits and almos no natural petroleum reserves, this Fischer-Tropsch synthesis of fuel from coal tar was crucial for the energy, transport and military viability of German. From industrial manipulation of coal tar deposits and creation of industrial chemical plants, the feedstocks and techniques for dye creation became plentiful. 
 
@@ -155,7 +155,22 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
  - [Collections of early napthalene dye experiments](https://armstrongwynne.org/). Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry. 
 
 
+### How stability enables destruction and cures 💥💊
 
+
+Lorem Ipsum
+
+![TNT, DDT, and the general structure of a PCB](/images/destructive_aromatic_trio.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+{:.figcaption}
+(In)famous aromatic structures that led to: (*left*) a profitable explosive and arms company that funded the creation of the Nobel Prize, while Alfred Nobel [maintain belief in a 20th century version of mutually assured descruction](https://kathylovesphysics.com/the-merchant-of-death/) earning mistaken obituary claiming he ["could hardly pass as a benefactor for humanity"](https://gallica.bnf.fr/ark:/12148/bpt6k280366k/f1.item); (*centre*) the founding of the US Environmental Protection Agency under pressure from [an exposé on pesticides](https://www.epa.gov/archive/epa/aboutepa/birth-epa.html); (*right*) excellent capacitor materials, but are [carcinogens that persist after their 2001 Stockholm Convetion global ban](https://www.unep.org/topics/pollution-and-health/persistent-organic-pollutants-pops/pcbs-forgotten-legacy) due to their stability. 
+
+Lorem Ipsum 2
+
+![A selection of aromatic rings that frequently show up in drug molecules](/images/aromatic_rings_in_drugs.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+{:.figcaption}
+An example of how often different rings occur within a 3566 compound dataset (they can occur multiple times in a structure). --- Roughley, S.; Jordan, A., "[The Medicinal Chemist’s Toolbox: An Analysis of Reactions Used in the Pursuit of Drug Candidates](https://doi.org/10.1021/jm200187y)", *Journal of Medicincal Chemistry*, **(2011)**, 54, 10, 3451–3479 
 
 
 ### The electronics of dyes 🎨
