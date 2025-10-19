@@ -55,7 +55,7 @@ Now with modern chemistry, blue hues can be made that are so striking that an ar
 
 ### Porphyrogeniture 👑
 
-Purple has [long signified royalty and power in the acient world](https://doi.org/10.1111/j.1747-4469.2008.00097.x), to the point that its use was restricted to high office; not just due to the expense of natural purple dye, but often enforced by social codes and law. Famously, Roman officials would colour their formal attire (togas) with a strip of purple along the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't solely restricted to appointed officials, but likely had a religious origin and was recored as being worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055). However, a toga fully clad in purple become restricted to Roman consuls and generals performing a Triumph, and later to the Emperor alone. Nero limits the use of purple to the imperial court, and the unsanctioned wearing of purple was even [codified as an offence punishable by death](https://en.wikipedia.org/wiki/Codex_Theodosianus) by Theodosius II. 
+Purple has [long signified royalty and power in the ancient world](https://doi.org/10.1111/j.1747-4469.2008.00097.x), to the point that its use was restricted to high office; not just due to the expense of natural purple dye, but often enforced by social codes and law. Famously, Roman officials would colour their formal attire (togas) with a strip of purple along the border. This style, the *toga praetexta* (from Preator, a magistrate position below Consul) wasn't solely restricted to appointed officials, but likely had a religious origin and was recored as being worn by priests and [pre-adolescent children of fortunate birth](https://www.jstor.org/stable/693055). However, a toga fully clad in purple become restricted to Roman consuls and generals performing a Triumph, and later to the Emperor alone. Nero limits the use of purple to the imperial court, and the unsanctioned wearing of purple was even [codified as an offence punishable by death](https://en.wikipedia.org/wiki/Codex_Theodosianus) by Theodosius II. 
 
 The association of the purple hue with royalty extended beyond clothing, and Byzantine (Eastern Roman) queens would give birth to future rulers in rooms decorated with a deep-purple Imperal Porphyry stone (from Ancient Greek *porphyra* - purple). This birthright to distinction through colour was enforced from cradle to grave, as [Emperors were buried in tombs made from porphyry](https://www.pallasweb.com/deesis/imperial-porphyry-tombs.html), some [survive today outside the Archealogical Museum in Instanbul](/images/porphyry_tomb.jpg). The purple name echoes throughout history, such as the sisters [Zoe](/images/zoe_porphyrogenita.jpg) and Theodora Porphyrogenita who co-ruled the Byzantine empire after a popular revolt. 
 
@@ -64,7 +64,7 @@ The association of the purple hue with royalty extended beyond clothing, and Byz
 Ironically, despite the incredibly rarity of steadfast purple in nature, purple was the first in a tidal wave of synthetic industrial dyes, bringing the colour to the masses causing it to become commonplace and unfashionable in quickly after reaching the mass market. The discovery of artifical purple dye (mauvine) was entirely accidentally, but the chemical knowledge to synthesise at massive scale required unravelling some of the fundemental mysteries in organic (carbon-based) chemistry, and clarification about how electrons create molecular structure and govern the interactions of dye molecules with light.  
 
 
-The first artifical purple dye was synthesised by William Henry Perkini in 1856, an entirely accidental side discovery. Perkin's motivation was no econcolouration, but empire. What Perkin was searching for was a cheap synthetic route to quinine, an antimarial substance isolated from cinchoa tree bark) that was useful for soldiers stationed in colonies of the British Empire. Perkin's synthesis attempts were misguided from the start, having only the quinine's empirical formula (C$$_{20}$$H$$_{24}$$N$$_{2}$$O$$_{2}$$) and no idea of its structure he thought he could explored combining two equivalents of organic stating material that would sum to the total atom count of quinine once oxygenated. In reality, quinine the source of [tonic water's ultraviolet glow under black light](/images/tonic_water_UV_Paul_Garland.jpg), has complex strained structure which set of [150 years of investigation and controversy into its difficult synthesis](TODO: cite syntehsis of quinine wikipedia page). What Perkin found instead was that on diluting his failed synthesis product with alcohol on wash-up the solution turned purple. He opened up a dyeworks in Greenford the next year. The success of a synthetic dyes would lead to a [complete collapse of the economic harvesting of natural dyes such as madder root](https://www.jstor.org/stable/43427950). 
+The first artifical purple dye was synthesised by William Henry Perkin in 1856, an entirely accidental side discovery. Perkin's motivation was no econcolouration, but empire. What Perkin was searching for was a cheap synthetic route to quinine, an antimarial substance isolated from cinchoa tree bark) that was useful for soldiers stationed in colonies of the British Empire. Perkin's synthesis attempts were misguided from the start, having only the quinine's empirical formula (C$$_{20}$$H$$_{24}$$N$$_{2}$$O$$_{2}$$) and no idea of its structure he thought he could explored combining two equivalents of organic stating material that would sum to the total atom count of quinine once oxygenated. In reality, quinine the source of [tonic water's ultraviolet glow under black light](/images/tonic_water_UV_Paul_Garland.jpg), has complex strained structure which set of [150 years of investigation and controversy into its difficult synthesis](TODO: cite syntehsis of quinine wikipedia page). What Perkin found instead was that on diluting his failed synthesis product with alcohol on wash-up the solution turned purple. He opened up a dyeworks in Greenford the next year. The success of a synthetic dyes would lead to a [complete collapse of the economic harvesting of natural dyes such as madder root](https://www.jstor.org/stable/43427950). 
 
 ![Sample of Perkin's mauve aniline dye](/images/perkins_mauve_sample.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -95,18 +95,17 @@ Enclosed with this submission to *Nature* is an additional letter where John Bru
 ### Coal tarred and feathered 🪨
 The importance of the profits from dyes in the founding of chemical companies can be seen in the names of industrial giants which are still around today, for example: BASF - *Badische Anilin und Sodafabrik* (Baden **Aniline** and Sodium Carbonate Factory). BASF remains the largest produce of chemicals in the world, a multinational across 80+ countries with an annual revenue around €70 billion. It's history has touched on many chemical process famous in school curricula: BASF's main trade was in dyestuffs until the 1900s;  the rise of this company was meteoric after [Haber and Bosch invented their method]({% post_url 2023-06-14-nitrogen-fixation %}) to turn nitrogen from the air into fertiliser; the sodafabrik part of BASF is infamous of New South Wales highschool students who had to memorise the conditions of the Solvay process as part of their Industrial Chemistry module; and BASF invented polystyrene in the 1930s.  
 
-Under Nazi rule before and during WWII, BASF would be joined under the chemical conglomerate I.G. Farben (loosely, "The Colour Syndicate") of notorious and horrific historical fame. This conglomerate was founded by Carl Bosch through merging BASF with Hoechst (now merged under Sanofi), Bayer (widely known for aspirin), and a few other smaller chemical companies. While IG Farben was seized by Allied forces, it's force labour abolished, and the conglomerate split up into its constinuent components, several of these companies such as BASF were refounded and allowed to rehire many of the same directorial staff who had served at the behest of depraved, horrific warmongers. These challenges to societal and base human conscience, the reshaping of entire industries, the discovery of new medical compounds (antifungals and antibiotics), and spectral unfurling of dyes for fabrics of all colours, resulted from an insight into the puzzling carbon skeleton structure of these newly synthesisable "aromatic" substances.   
+Under Nazi rule before and during WWII, BASF would be joined under the chemical conglomerate I.G. Farben (loosely, "The Colour Syndicate") of notorious and horrific historical fame. This conglomerate was founded by Carl Bosch through merging BASF with Hoechst (now merged under Sanofi), Bayer (widely known for aspirin), and a few other smaller chemical companies. While IG Farben was seized by Allied forces, its forced labour abolished, and the conglomerate split up into its constinuent components, several of these companies such as BASF were refounded and allowed to rehire many of the same directorial staff who had served at the behest of depraved, horrific warmongers. These challenges to societal and base human conscience, the reshaping of entire industries, the discovery of new medical compounds (antifungals and antibiotics), and spectral unfurling of dyes for fabrics of all colours, resulted from an insight into the puzzling carbon skeleton structure of these newly synthesisable "aromatic" substances.   
 
 ### Benzene: The daydream snake 🐍♻️♾️ 
 Benzene is a molecule, whose empirical formula defied the trends determined from other hydrocarbons. It took 40 years from the experimental isolation of benzene to solve its chemical structure. 
 
 %% Talk about how hexagons are taught to introductory organic chemistry courses, with the story of the dream snake told the world over
 
- Remeber structural proposals were well before the discovery of the electron, and benzene was a interesting system to work [out it's six-aromatic electon rule](https://doi.org/10.1021/cr0300946).  (Begat six aromatic electrons paper)  
 
-- Kekule's whirling snake: fact of fiction: he probably did daydream, but the [sudden clartity through a dream story appears to have been embellished far later in order to establish a legacy](https://pubs.acs.org/doi/10.1021/ed052p709).
+Did Kekule truly have a sudden prophetic dream solution? It's impossible to verify someone's recount of their internal thinking, and some have speculated on this story being [embellished in order establish a legacy](https://pubs.acs.org/doi/10.1021/ed052p709) due to being retold only many years later at the the "Benzolfest" in Kekule's honours. It's unlikely bolt from the blue, as more dramatic mythology for chemistry students might go, since organic structure was Kekule's waking profession, but [contemporary letters](https://www.nature.com/articles/465036a) has been used to argue that Kekulé's daydream account and primarcy claims of a carbon ring wrapping on on itself weren't refuted in his time. The snake grabbing it's own tale is of course widely known symbolism. Interestingly, it has alchemical connections it it's origins...
 
-- There's disagreement on this in "[Chemistry's visual origins](https://www.nature.com/articles/465036a)"
+%% Talk about connection between Ouroboros and the quest to transmute into gold. 
 
 
 ![Ouroboros of Cleopatra](/images/ouroboros_chrysopoea_of_cleopatra.png){:style="display:block; margin-left:auto; margin-right:auto"}
@@ -114,13 +113,13 @@ Benzene is a molecule, whose empirical formula defied the trends determined from
 The ouroboros has a long history, including a connection to alchemy where it is illustrated here in relation to *chrysopoeia* ("gold-making") through balancing "one in the everything". --—*"Chrysopoeia of Cleopatra the Alchemist"*, pseudonymous, 3rd or 4thC. 
 {:.figcaption}
 
-The WWII chemical cartel functions as a constant ominous industrial spectre stalking the Gravity's Rainbow, tragically mirroring how scientifically and commercially pioneering chemical companies were wrested into the control of war leaders to commit inhuman acts; the 'Them' of the military-industrial complex which haunts the book's entire narrative. The image of Kekulé's serpentine solution to benzene's structure repurposed as a metaphor of the economic boon and destructive cycle the war economy of WWII brings:
+The dreamsnake again rears its head (and heads its rear) in the novel *Gravity's Rainbow*. The WWII IF Farben chemical colour cartel functions as a constant ominous industrial spectre stalking the book, tragically mirroring how scientifically and commercially pioneering chemical companies were wrested into the control of war leaders to commit inhuman acts; the 'Them' of the military-industrial complex which haunts the book's entire narrative. The image of Kekulé's serpentine solution to benzene's structure repurposed as a metaphor of the economic boon and destructive cycle the war economy of WWII brings:
 
 > “Kekulé dreams the Great Serpent holding its own tail in its mouth, the dreaming Serpent which surrounds the World. But the meanness, the cynicism with which this dream is to be used. The Serpent that announces, “The World is a closed thing, cyclical, resonant, eternally-returning,” is to be delivered into a system whose only aim is to violate the Cycle. Taking and not giving back, demanding that “productivity” and “earnings” keep on increasing with time, the System removing from the rest of the World these vast quantities of energy to keep its own tiny desperate fraction showing a profit: and not only most of humanity—most of the World, animal, vegetable, and mineral, is laid waste in the process... No return, no salvation, no Cycle—that’s not what They, nor Their brilliant employee Kekulé, have taken the Serpent to mean. No: what the Serpent means is—how’s this—that the six carbon atoms of benzene are in fact curled around into a closed ring, just like that snake with its tail in its mouth, GET IT?"
 
 --- *Gravity's Rainbow*, Thomas Pynchon, pg. 412, Penguin 2nd Ed.
 
-The connection to colour and dyestuffs in the book does not end there; the essay [*"Coloring Gravity's Rainbow"*](https://doi.org/10.16995/pn.374) applies a critical lens to the chromatic and chemical connections and how they shift throughout the book. The protagonist's very name ---Tryone--- has be interpreted to be linked with Tyrian purple, his depiction with colour scales that alter as the narrative shifts, the recurring theme of subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
+The connection to colour and dyestuffs in the novel does not end there; the essay [*"Coloring Gravity's Rainbow"*](https://doi.org/10.16995/pn.374) applies a critical lens to the chromatic and chemical connections and how they shift throughout the book. The protagonist's very name ---Tryone--- has be interpreted to be linked with Tyrian purple, his depiction with colour scales that alter as the narrative shifts, the recurring theme of subjection to the totalisating nature of nomenclature and technology linked to the naming schemes of the colour industry. 
 
 The connection between the dye industry and the ability to wage were was well noted in the period between the world wars, a American industrial pamphlet from the 1920s declares: 
 
@@ -128,8 +127,27 @@ The connection between the dye industry and the ability to wage were was well no
 {:.note title="Dyes and disarmament"}
 ---[*"World Disarmament and the Master Key Industry"*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), American Dyes Institute,**1921**. 
 
-### The birth of "Aromaticity" and unravelling of substituent positions ⌬ ↔ ⏣
+### How ring stability enables destruction and cures 💥💊
 
+The lack of reactivity of benzene was puzzling to chemists ever since it was first insolated. The high empirical C/H ratio implies it is a unsaturated compound, which are normally receptive to addition reactions. It is now clear that the carbon rings in benzenoids are unreactive because their electronic arrangements are already stable, however that does not mean benzene derived compounds are inheritly inert. Quite the opposite, the core stability of benzenoids has lead to the generation that either have phenomonenal longetivity or massive destructive power depending on what's attached to the ring. These aromatic molecules have become notorious globally in their own right, with entire departments required to mitigate their danger to human life.
+
+![TNT, DDT, and the general structure of a PCB](/images/destructive_aromatic_trio.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+{:.figcaption}
+(In)famous aromatic structures that led to: (*left*) a profitable explosive and arms company that funded the creation of the Nobel Prize, while Alfred Nobel [maintain belief in a 20th century version of mutually assured descruction](https://kathylovesphysics.com/the-merchant-of-death/) earning mistaken obituary claiming he ["could hardly pass as a benefactor for humanity"](https://gallica.bnf.fr/ark:/12148/bpt6k280366k/f1.item); (*centre*) the founding of the US Environmental Protection Agency under pressure from [an exposé on pesticides](https://www.epa.gov/archive/epa/aboutepa/birth-epa.html); (*right*) excellent capacitor materials, but are [carcinogens that persist after their 2001 Stockholm Convetion global ban](https://www.unep.org/topics/pollution-and-health/persistent-organic-pollutants-pops/pcbs-forgotten-legacy) due to their stability. 
+
+- Estimate show that ring systems are ubiqitous in small molecule drugs
+- A scaffold to build off in all sorts of directions, hexagons are the bestagons and allow you to move laterally
+- The bioavailibility of it all. The substances formed from the stuff of petrochemicalls become integrated by molecular biology to intervene in  processes that keep us alive.
+- Name drop some of the daily pharmaceuticals used now to keep people alive
+
+![A selection of aromatic rings that frequently show up in drug molecules](/images/aromatic_rings_in_drugs.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+{:.figcaption}
+An example of how often different rings occur within a 3566 compound dataset (they can occur multiple times in a structure). --- Roughley, S.; Jordan, A., "[The Medicinal Chemist’s Toolbox: An Analysis of Reactions Used in the Pursuit of Drug Candidates](https://doi.org/10.1021/jm200187y)", *Journal of Medicincal Chemistry*, **(2011)**, 54, 10, 3451–3479 
+
+
+### The birth of "resonance" and fictious intermediates ⌬ ↔ ⏣
 - Kekulé's daydream, while dozing off on a London bus, of atoms writing around in a snake*like* fashion where one chain of atoms seizes its own tail.
 
 ![Kekulé's benzene schematic](/images/kekule_benze_chains.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
@@ -137,7 +155,7 @@ The connection between the dye industry and the ability to wage were was well no
 Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accord with current ways of representing organic molecules. —--["Sur la constitution des substances aromatiques"](https://lib.ugent.be/catalog/rug01:001282677), Kekulé M., *Bulletin mensuel de la Société Chimique de Paris*, pg. 98-111, **1865**.
 {:.figcaption} 
 
-- Something about how Kekulé used this sausage representation, as contemporary chemical thought the valency property of an element was due to multiple subparts each capable of forming a connection, allowing elements to combine (described as 'atomicity' in that time.) This provided the ability to show multibond connections in elongated multivalent elements, but the horizontal limitations of these "sausage" formulas led Kekulé to some mistaken structural assignments (such as a triangular form of benzene) other organic chemists immediately picked up on based on experimental evidence (e.g. additions to the benzene ring occuring in patterns that are unique to a regular hexagon).
+- Something about how Kekulé used this sausage representation (literally refered to as *wurst* in his time), as contemporary chemical thought the valency property of an element was due to multiple subparts each capable of forming a connection. This is clearer in [other diagrams](/images/kekule_sausage_formulas.jpg) where the 'atomicity' particles are shown like they're wrapped in a sock to form the overall element. This provided the ability to show multibond connections in elongated multivalent elements, but the horizontal limitations of these "sausage" formulas led Kekulé to some mistaken structural assignments (such as a triangular form of benzene) other organic chemists immediately picked up on based on experimental evidence (e.g. additions to the benzene ring occuring in patterns that are unique to a regular hexagon).
 - Something about Kekule's tetravalent carbon ring holding together by oscillating collisions with two neighbouring carbons, equally spaced apart, and one hydrogen. 
 
 - Aromaticity (a terrible misnomer, as with most chemical nomenclature, from a generalisation of the observation that benzene and toluene smell sweet). 
@@ -146,8 +164,8 @@ Kekulé's schematic of benzene illustrates a sense of overlap, but doesn't accor
 - Figure of benzene "resonance contributors" and the true delocalised dashed line ring version 
 - The Soviet opposition to resonance. The term mesomerism occasionally making an appearance instead.  
 A vocal minority of Soviet scientists [viewed the resonance concept as fictitious mathematical idealisation that was antithetical to dialectal materialism](https://www.jstor.org/stable/227752), so the state adopted a terminological slight of hand to avoid referring to resonance or using 'resonance structures' as a teaching aid.  
-- Armit and Robison "aromatic sextet" [paper](https://doi.org/10.1039/CT9252701604)
-- Don't let the historical account get in the way of a good story. *Chemical Reviews* provides a good instructional [review paper on this history](https://doi.org/10.1021/cr0300946). Nevertheless, a sizeable chunk of Kekules students went on the work in the german Dye industry 
+- Armit and Robison popularised the term and "[aromatic sextet](https://doi.org/10.1039/CT9252701604)" with many persuasive molecular examples that different greatly from benzene but still maintain delocalised rings of six electrons. Ernesy Crocker, a scientist who never pursued the "Doctor" title, [go there first](https://doi.org/10.1021/ja01429a002) by applying the atomic "octect rule" to all atoms in benzene with Lewis-Langmuir bonding and accounting for the aromatic stability from the remaining six electrons. He places the electrons clearly "outside" the ring due to charge considerations, but that the *"electrons are continually vibrating in the plane of the ring... The net physical effect... serving to bind together all carbon atoms present into virtually a single atom."*
+- *Chemical Reviews* provides a good instructional [review paper on this history](https://doi.org/10.1021/cr0300946), including that Kekulé himself never put powered an "oscillating single-and-double bond" model that is often still sloppily introduced to early chemistry students. He was adamant that all 6 carbon atoms share a *fully symmetric* structure, fluxional only in that it was mediated by collisional atomic vibrations, never that "resonance *intermediates*" truly existed as stable equilbirum structures. 
 
 ... this segues back in William Perkin knowing enough about aromatic chemistry to search for quinine precusors.  [Actually, Kekule's benzene is in 1865 and Perkin discovers aniline purple in 1856.. so but Kekule after Perkin and leading into the German industrial behemothss
  
@@ -155,23 +173,8 @@ A vocal minority of Soviet scientists [viewed the resonance concept as fictitiou
  - [Collections of early napthalene dye experiments](https://armstrongwynne.org/). Despite the research being pioneered in England, Germany would develop the dominant chemical dye industry. 
 
 
-### How stability enables destruction and cures 💥💊
 
-
-Lorem Ipsum
-
-![TNT, DDT, and the general structure of a PCB](/images/destructive_aromatic_trio.png){:style="display:block; margin-left:auto; margin-right:auto"}
-
-{:.figcaption}
-(In)famous aromatic structures that led to: (*left*) a profitable explosive and arms company that funded the creation of the Nobel Prize, while Alfred Nobel [maintain belief in a 20th century version of mutually assured descruction](https://kathylovesphysics.com/the-merchant-of-death/) earning mistaken obituary claiming he ["could hardly pass as a benefactor for humanity"](https://gallica.bnf.fr/ark:/12148/bpt6k280366k/f1.item); (*centre*) the founding of the US Environmental Protection Agency under pressure from [an exposé on pesticides](https://www.epa.gov/archive/epa/aboutepa/birth-epa.html); (*right*) excellent capacitor materials, but are [carcinogens that persist after their 2001 Stockholm Convetion global ban](https://www.unep.org/topics/pollution-and-health/persistent-organic-pollutants-pops/pcbs-forgotten-legacy) due to their stability. 
-
-Lorem Ipsum 2
-
-![A selection of aromatic rings that frequently show up in drug molecules](/images/aromatic_rings_in_drugs.png){:style="display:block; margin-left:auto; margin-right:auto"}
-
-{:.figcaption}
-An example of how often different rings occur within a 3566 compound dataset (they can occur multiple times in a structure). --- Roughley, S.; Jordan, A., "[The Medicinal Chemist’s Toolbox: An Analysis of Reactions Used in the Pursuit of Drug Candidates](https://doi.org/10.1021/jm200187y)", *Journal of Medicincal Chemistry*, **(2011)**, 54, 10, 3451–3479 
-
+-- Now I can get onto the electronic behaviour of ring systems, not the medicinal chemistry
 
 ### The electronics of dyes 🎨
 
@@ -222,7 +225,6 @@ Ten active oribtals in the electronic structure of an iron-porphyrin complex typ
 	- the vitamin B12 [core framework socket where cobalt sits](https://en.wikipedia.org/wiki/Vitamin_B12#/media/File:Cobalamin_skeletal.svg).
 
 
-
 ### Retinal, in our eye 👁️ and in microbes 🦠 
  - Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision. The strucutre of bacteriorhodopsin was [solved to decent resolution using cryo-EM](https://doi.org/10.1016/S0022-2836(05)80271-2) by Richard Henderson and co-workers, who would later go on to win a [Nobel prize](https://www.nobelprize.org/prizes/chemistry/2017/popular-information) in part due to that work. 
 - The bacteriorhodopsin proton pumping process is illustrated in [this video](https://youtu.be/w241TNxqa6I?si=CXurpxOgOoDX-key) showing how retinal's absorption of a photon triggers an isomeration concurrent with a protein shape change and exited-state proton transfer.  
@@ -240,4 +242,4 @@ Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to 
 Purple is my favourite colour :) 
 {:.lead}
 
-*Deep Purple is shrouded in mystique, while there's something spectrally special about [High Violet](https://4ad.com/releases/922) hinting at energies just beyond human perception, pushing into the [Ultraviolet](https://kellymoran.warp.net/release/426380-kelly-moran-ultraviolet).* 
+*[Deep Purple](/images/deep-purple-shades-of-deep-purple-cover-art.jpg) is shrouded in mystique, while there's something spectrally special about [High Violet](https://4ad.com/releases/922) hinting at energies just beyond human perception, pushing into the [Ultraviolet](https://kellymoran.warp.net/release/426380-kelly-moran-ultraviolet).* 
