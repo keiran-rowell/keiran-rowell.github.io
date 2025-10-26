@@ -1,0 +1,20 @@
+- The Delian League
+- Federatate Democracies
+- Athenian Ideals
+- Ze owl
+- Athenian tributary and Imperialism
+- The Lycian League
+- Delia Derbyshire
+- Air-raid sirens, literally glowing up in the Blitz
+- Turning the sound of facism into the post-war reconstruction civic society
+- Now it feels quaint because the civic project was lost with Thatcherism, neolibrealism and New Labour
+- Hauntology, lost futures
+- Thatcher "There is no alternative"
+- Radiophonic funding killed
+- Also people thought synthesised music could be psychological dangerous, weren't sure, legally limited exposure
+- It became DANCE MUSIC. Free of content and structured around repition for pure hedonism. (link to Delia's first techno beat)
+- The early synths pioneer were often unconventional in social categories
+- "The Myths and Legendary Tapes" also basically lost in the digital age when distribution is easy
+- Murals and a plamipsest of public civic aspiration
+- The end of history (sike)
+
