@@ -4,7 +4,7 @@ author: keiran
 title: "From Muck to Mauve: the creation of modern dyes from coal tar"
 subtitle: "Aniline and the birth of the German chemical industry"
 category: dyes
-tags: aniline BASF Kekulé Perkins quinine Pauling aromaticity coal-tar purple 
+tags: purple coal-tar aniline BASF Kekulé Perkins quinine Pauling aromaticity resonance benzene Pynchon 
 #image:
 #  path: /images/Peacock_coal_11.jpg
 --- 
@@ -226,18 +226,15 @@ The porphyrin with greatest recognition is chlorophyll: a modified porphyrin rin
 
 We started this colour journey with the abudant green from the chlorophyll of plants, but porphyrins are responsible for far great share of the rainbow displayed by living organisms. Natural colour from porphyrins include:
 
-🌈 Do this on the light harvesting tilt, and then talk about how the bilins cover the whole rainbow range in their chemical degradation productions - billins e.g. phycobilin (algea) where they are used by non-animal organism for [interesting light harvestin properties.](https://www.nature.com/articles/nature08811), including making light-harvest 'antennae' stacks of phycobilisomes. <br>
-🔴 haem (as in haemoglobin) famously striking colour of bright red oxygenated blood, which is broken down within 3-4 months by your liver to produce <br>
-🟢 first the disconcerting green and amber pigments of bile, <br>
-🟡 then the [light yellow of urine](https://www.compoundchem.com/2017/01/12/bodily-fluids/). Unless you are unluckly enough to be suffering from <br>
-🟣 [porphyria disease](https://en.wikipedia.org/wiki/Porphyria) where haem is badly formed and your urine does indeed turn purple. <br>
-🟤 the pigment that makes [egg shells brown](https://www.compoundchem.com/2016/03/26/eggs/) <br>
-🔵 (or blue-y green when if broken down to oocyanin) <br>
-⚫ geoporphyrins from crude oil and shale, which were are [chemical indicators petroleum presence](https://pubs.acs.org/doi/10.1021/acs.energyfuels.1c02002), and one of the [first clues that petrol has biological origin](https://doi.org/10.1016/j.orggeochem.2005.09.001) <br>
-🌟 In another instance of photobiology, porphyrins are found in Sierra luminous millipedes (*Motyxia*) where the 'glow-in-the-dark' [appearence of the millipede](https://en.wikipedia.org/wiki/Motyxia#/media/File:Motyxia_sequoiae_(Loomis_&_Davenport,_1951).jpg) is known to come from a [photoprotein containing a porphyrin](https://www.sciencedirect.com/science/article/pii/0305049184903675?via%3Dihub) but whose structure is unresolved (and maybe should be re-investigated now that previous homology models have been drastically improved upon in the AlphaFold age). 
-- the fur of mammals have also been known to glow under UV [due to accumulation of porphyrin as a disposal mechanism](https://www.museumfuernaturkunde.berlin/en/museum/media/press/fur-glowing-under-uv-a-common-feature-mammals).
-
-- the vitamin B12 [core framework socket where cobalt sits](https://en.wikipedia.org/wiki/Vitamin_B12#/media/File:Cobalamin_skeletal.svg).
+🌈 Bilins, which are "unwarpped" porphyrins. They display [interesting light harvesting properties](https://www.nature.com/articles/nature08811), *e.g.* in pychobilin (algae). Their colour spans the rainbow range upon chemical degradation. <br>
+🔴 Haem (as in haemoglobin) the source of unmistakble red of oxygenated blood, which is broken down within 3-4 months by your liver to produce... <br>
+🟢 Bile, a colour disconcerting to ever see. Generated from breaking down haem in the liver. <br>
+🟡 Urine, and [other bodily fluids](https://www.compoundchem.com/2017/01/12/bodily-fluids/). Unless you are unluckly enough to be suffering from... <br>
+🟣 [Porphyria disease](https://en.wikipedia.org/wiki/Porphyria) where badly formed haem turns your urine purple. <br>
+🟤 The [brown of egg shells](https://www.compoundchem.com/2016/03/26/eggs/), unless transformed into... <br>
+🔵 The blue of a robins egg from oocyanin <br>
+⚫ The petrochemical darkness of from crude oil and shale, which were are [full of geoporphyrins](https://pubs.acs.org/doi/10.1021/acs.energyfuels.1c02002), that were one of the [first clues that petrol has biological origin](https://doi.org/10.1016/j.orggeochem.2005.09.001) <br>
+🌟 The 'glow-in-the-dark' of the [Sierra luminous (*Motyxia*) millipede](https://en.wikipedia.org/wiki/Motyxia#/media/File:Motyxia_sequoiae_(Loomis_&_Davenport,_1951).jpg) comes from [a porphyrin containing photoprotein](https://www.sciencedirect.com/science/article/pii/0305049184903675?via%3Dihub) whose structure is unresolved (a candidate for AlphaFold prediction?). 
 
 ### Retinal, in our eye 👁️ and in microbes 🦠 
  - Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision. The strucutre of bacteriorhodopsin was [solved to decent resolution using cryo-EM](https://doi.org/10.1016/S0022-2836(05)80271-2) by Richard Henderson and co-workers, who would later go on to win a [Nobel prize](https://www.nobelprize.org/prizes/chemistry/2017/popular-information) in part due to that work. 
