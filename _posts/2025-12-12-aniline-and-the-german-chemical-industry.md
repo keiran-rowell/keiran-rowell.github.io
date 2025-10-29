@@ -237,16 +237,16 @@ We started this colour journey with the abudant green from the chlorophyll of pl
 🌟 The 'glow-in-the-dark' of the [Sierra luminous (*Motyxia*) millipede](https://en.wikipedia.org/wiki/Motyxia#/media/File:Motyxia_sequoiae_(Loomis_&_Davenport,_1951).jpg) comes from [a porphyrin containing photoprotein](https://www.sciencedirect.com/science/article/pii/0305049184903675?via%3Dihub) whose structure is unresolved (a candidate for AlphaFold prediction?). 
 
 ### Retinal, in our eye 👁️ and in microbes 🦠 
- - Bacteriorhodopsin, occurs in the "purple membrane" which is 60 % protein by weight, and perhaps intimately linked with vision itself as the origin origin of molecular basis of light detection since the retinal that has been used to pump protons is also what drives occular vision. The strucutre of bacteriorhodopsin was [solved to decent resolution using cryo-EM](https://doi.org/10.1016/S0022-2836(05)80271-2) by Richard Henderson and co-workers, who would later go on to win a [Nobel prize](https://www.nobelprize.org/prizes/chemistry/2017/popular-information) in part due to that work. 
-- The bacteriorhodopsin proton pumping process is illustrated in [this video](https://youtu.be/w241TNxqa6I?si=CXurpxOgOoDX-key) showing how retinal's absorption of a photon triggers an isomeration concurrent with a protein shape change and exited-state proton transfer.  
-- Found in all sorts of light harvesting organisms, including the Asgard archaea 
+Life has an even more ancient connection to purple, harking back to rise of the microbes. Bacteriorhodopsin, occurs in the "purple membrane" of photosynthetic bacteria. This allows them have a Protean metabolism, able to fuel it through light or chemical consumption, with or without oxygen. The bacteriorhodopsin purple protein operates as a light driven proton pump as animated in [this video](https://youtu.be/w241TNxqa6I?si=CXurpxOgOoDX-key) where the absorption of a photon triggers concurent isomeration and excited-state proton transfer, causing the protein to change shape. 
+
+The strucuture of bacteriorhodopsin was [solved to decent resolution using cryo-EM](https://doi.org/10.1016/S0022-2836(05)80271-2) by Richard Henderson and co-workers in 1990, who would later go on to win a [Nobel prize](https://www.nobelprize.org/prizes/chemistry/2017/popular-information) in part due to that work.   This partnerhsip of a photosenstive retinal contained in a rhodopsin protein is found in all classes of light harvesting organisms, including the recent structures solved for the Asgard archea domain of life (*shown below*).
 
 ![HemdallR1 archaeal rhodopsin](/images/heimdallR1_retinal.png){:.lead width="504" height="753" loading="lazy"}
 
 Structures of HeimdallR1 rhodopsin with the retinal chromophore, energy minimised using a QM/MM method. —["Structural insights into light harvesting by antenna-containing rhodopsins in marine Asgard archaea"](https://doi.org/10.1038/s41564-025-02016-5), *Nature Microbiology*, **2025**, 10, 1484–1500. 
 {:.figcaption} 
 
-Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to feed off light. Rhodopsin now [mediates our dim light vision](https://youtu.be/NjrFe7JHY1o?si=e89wfi5EBwqwzfvc) (most sensitive to blues), while our cones allow us to gaze on purple in all its power and write a post of purple prose about it. 
+The purple membrane is perhaps intimately linked with vision itself. The isomerisation of rhodophsin is chemically related to the detection of as photon by retinal in the opsin proteins of the eye. Which brings us full circle. Purple gave nature rhodopsin, allowing bacteria to feed off light. Rhodopsin now [mediates our dim light vision](https://youtu.be/NjrFe7JHY1o?si=e89wfi5EBwqwzfvc) (most sensitive to blues), while our cones allow us to gaze on purple in all its power and write a post of purple prose about it. 
 
 ---
 
