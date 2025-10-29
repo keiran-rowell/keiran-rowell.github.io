@@ -224,8 +224,10 @@ Ten active orbitals in the electronic structure of an iron-porphyrin complex typ
 
 
 #### Porphyrins everywhere: green 🍃, yellow 🥚, red 🩸, glowing 🐛
-- Use of porphyrin and porphyrin derivatives in other organisms:
-	- cholorphyll - [link to the WEHI's gobsmacking animation of the photosynthesis process](https://youtu.be/jlO8NiPbgrk?si=qAVHE1R_WHU4dvS1) that shows the quantum process of closely held chlorophyll pairs converting light into electron flow by splitting the surrounding water into oxygen.
+The porphyrin with greatest recognition is chlorophyll: modified porphyrin ring holds a central magnesium atom and a poly-terpene hydrocarbon chain extends off as a tail. Chlorophyll is of course the key photon attena for photosynthesis, and the ultimate input channel of energy into all biological ecosystems, captured from radiation cast off during nuclear fusion. The highschool formula of 6CO$$_{2}$$ + 6H$$_{2}$$O + light $$\rightarrow$$ C$$_{6}$$H$$_{12}$$O$$_{6}$$ completely hides the spooky resonant action-at-a-distance of absorbing stray photons, channeling their energy to an photosynthetic reaction system, and charging electrons to then drive formation of carbohydrates. Words fail me and I'll let the Walter & Eliza Hall Institute's [gobsmacking animation of the photosynthesis process](ttps://youtu.be/jlO8NiPbgrk?si=qAVHE1R_WHU4dvS1) speak for itself. 
+
+We started this colour journey with the abudant green from the chlorophyll of plants, but porphyrins are responsible for far great share of the rainbow displayed by living organisms. 
+ 
  	- In another instance of photobiology, porphyrins are found in Sierra luminous millipedes (*Motyxia*) where the 'glow-in-the-dark' [appearence of the millipede](https://en.wikipedia.org/wiki/Motyxia#/media/File:Motyxia_sequoiae_(Loomis_&_Davenport,_1951).jpg) is known to come from a [photoprotein containing a porphyrin](https://www.sciencedirect.com/science/article/pii/0305049184903675?via%3Dihub) but whose structure is unresolved (and maybe should be re-investigated now that previous homology models have been drastically improved upon in the AlphaFold age). 
 	- billins e.g. phycobilin (algea) where they are used by non-animal organism for [interesting light harvestin properties.](https://www.nature.com/articles/nature08811), including making light-harvest 'antennae' stacks of phycobilisomes.
 	- the pigment that makes [egg shells brown](https://www.compoundchem.com/2016/03/26/eggs/) (or blue-y green when if broken down to oocyanin)
