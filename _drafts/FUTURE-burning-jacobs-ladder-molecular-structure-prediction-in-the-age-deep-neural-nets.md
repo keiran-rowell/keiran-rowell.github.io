@@ -1,0 +1,23 @@
+---
+layout: post
+author: keiran
+title: "Burning Jacob's Ladder"
+subtitle: "Molecular Structure Prediction in the Age of Deep Neural Nets"
+category: compchem 
+tags: AlphaFold AI Deep-learning Tech Transformers neural-nets 
+
+*Ashes scatter
+Burning Jacob's ladder
+I'm afraid I might fade away
+*
+---
+
+- Kohn-Sham theorems as existence proofs. There exists so completely accurate universal exchange correlation functional that maps from density to energies. But nobody knows its form. There are been decades of attempts to construct better exchange-correlation (XC) kernels, starting from Jellium and then [climbing Jacob's Ladder](). In fact most DFT methods differ by the XC kernel used, leading to projects like [libXC](https://libxc.gitlab.io/) to make portable the effort of reimplementing functionals into working code.
+- Density Functional Theory has already been lamented as a [Frankenstein monsteresque hybrid once it lost its density purity].(https://doi.org/10.1071/CH02049)
+- Density functionals that return better energetic prediction values are actually [performing worse on their fundemental properties[(https://cen.acs.org/articles/95/i2/Density-functional-theory-heads-wrong.html), predicting the electron density itself.
+- Google DeepMind using a [neural network to refine a new DFT function](https://research.google/pubs/learning-to-approximate-density-functionals/).
+- Facebook AI Research Labs releasing massive neural net molecular dataset, [OMol25](https://ai.meta.com/blog/meta-fair-science-new-open-source-releases/).
+- The dubiously grounded inferred Molecular Dyanmics of [BioEMU](https://doi.org/10.1126/science.adv9817)
+- AlphaFold
+- RFDiffusion
+- Flow matching (LaProteina)
