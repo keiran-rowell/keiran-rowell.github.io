@@ -1,7 +1,7 @@
 ---
 layout: post
 author: keiran
-title: "The Delian Mode: from anti-imperial Hellenstic leagues to hauntology"
+title: "The Delian Mode: from anti-imperial Hellenstic leagues to hauntology and lost futures"
 subtitle: "Democratic federations to lost futures"
 category: music 
 tags: Delia Derbyshire Lycians hauntology synths BBC Athens 
@@ -9,7 +9,7 @@ tags: Delia Derbyshire Lycians hauntology synths BBC Athens
 #  path: /images/delia-in-front-of-synth.jpg
 
 
-*Long was the year, will you stay now you're here...*
+*Long was the year, will you stay now you're here.*
  
 ---
 
@@ -26,6 +26,9 @@ tags: Delia Derbyshire Lycians hauntology synths BBC Athens
 - The centre of the hegemon was no longer safe with modern technological developments. With the V2 you could hit the capital regardless of whether the sun ever set on your holdings. There *is* no buffer
 - The Blitz
 - Delia Derbyshire
+- Maths and physics at Cambridge to make *sounds* not plot the trajectories of bombs
+- The Lissajous polynomials, oscilloscopes, sounds, and the ABC logo (rage?).
+- Ruby Payne-Scott
 - Air-raid sirens, literally growing up in the Blitz
 - Turning the sound of facism into the post-war reconstruction civic society
 - Now it feels quaint because the civic project was lost with Thatcherism, neolibrealism and New Labour
@@ -44,3 +47,7 @@ tags: Delia Derbyshire Lycians hauntology synths BBC Athens
 - The goddamn "apocalypse rave at the end of the world" BBC news audio sting bit
 - Delia Debyshire day
 - Web 1.0 => 2.0 => 3.0 (which is going great, lol) as the lost futures and fading palimpsest of our digital inscriptions
+
+---
+
+*I found the fragrance separate from the flower. In all the logic, I was lost.*
