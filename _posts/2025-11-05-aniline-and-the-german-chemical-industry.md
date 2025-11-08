@@ -197,7 +197,7 @@ Hückel solved the quantum mechanical bonding rules of benzene, even as "resonan
 
 It turns out six isn't the sole magic number allowing an "aromatic" ring of delocalised electrons, nor must every atom strictly be carbon (if $$p$$-orbitals are still available after covalent hybridisation). So "aromatic" rings can be created whenever $$\pi$$-orbital electrons can loop back on themselves. This leads to the common rule-of-thumb in chemistry.
 
-Delocalised "aromatic" systems arise in cyclic arrangements of $$ 4n+2 $$ atoms, where $$p$$-electrons are "shared" between all atoms in the ring; $$ n=1,2,3... $$  
+Delocalised "aromatic" systems arise in cyclic arrangements of atoms, where $$ 4n+2$$ $$p$$-electrons are "shared" between all atoms in the ring; $$ n=1,2,3... $$  
 {:.note title="Hückel's rule"}
 
 In fact the overlapping orbitals can be obtained from unusual geometric configurations, even highly exotic twists like [Möbius aromaticity](https://commons.wikimedia.org/wiki/File:Mobius_v_huckel_aromatic.png). More commonly, several smaller rings are joined together to make one large delocalised electron system. A famous such aromatic scaffold is the porphyrins: four pentagonal nitrogen-containing heterocycles in conjugated linkage, and so named because of their red-purple hues. Research into the physical basis of "aromaticity" is still a hot field in chemistry, just this year scientists made a massive [18-porphyrin ring](https://pubs.acs.org/doi/10.1021/jacs.5c09149) that displays [current across 242 electrons running through the entire system](https://phys.org/news/2025-09-member-nanoring-boundaries-global-aromaticity.html).
