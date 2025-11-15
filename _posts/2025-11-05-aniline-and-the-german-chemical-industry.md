@@ -236,7 +236,7 @@ We started this colour journey with the abundant green from the chlorophyll of p
 
 🌈 Bilins, which are "unwrapped" porphyrins. They display [interesting light harvesting properties](https://www.nature.com/articles/nature08811), *e.g.* in pychobilin (algae). Their colour spans the rainbow range upon chemical degradation. <br>
 🔴 Haem (as in haemoglobin) the source of unmistakable red of oxygenated blood, which is broken down within 3-4 months by your liver to produce... <br>
-🟢 Bile, disconcerting colour to ever see. <br> 
+🟢 Bile, a disconcerting colour to ever see. <br> 
 🟡 Urine, and [other bodily fluids](https://www.compoundchem.com/2017/01/12/bodily-fluids/). Unless you are unlucky enough to be suffering from... <br>
 🟣 [Porphyria disease](https://en.wikipedia.org/wiki/Porphyria) where badly formed enzymes causes porphyrin build-up, turning your urine purple. <br>
 🟤 The [brown of egg shells](https://www.compoundchem.com/2016/03/26/eggs/), unless transformed into... <br>

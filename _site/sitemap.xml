@@ -21,6 +21,10 @@
 <lastmod>2025-11-05T00:00:00+11:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/music/2025-12-12-the-delian-mode/</loc>
+<lastmod>2025-12-12T00:00:00+11:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -35,6 +39,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/2025-12-12-aniline-and-the-german-chemical-industry/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/FUTURE-the-delian-mode/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/licenses/Apache-2.0/</loc>
