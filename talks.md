@@ -1,6 +1,7 @@
 # Invited Talks
 
 ## 2025
+- "[Easy protein structure prediction with ProteinFold"](https://github.com/keiran-rowell/Presentations/blob/45e73b14f2cf86b32fba006d21e8520ea8c5e3b0/Florey%20-%20AI-ML%20Seminar%20-%20Keiran%20Rowell.pdf) -- ML/AI seminar series, *The Florey Institute of Neuroscience & Mental Health*. [Live demo example files [here](https://github.com/keiran-rowell-unsw/Florey-live-demo)] 
 - [Inaugural conversational live demo] "Enabling easy structure prediction through OnDemand Proteinfold" -- [Digital Health Hub](https://www.unsw.edu.au/estate/campus-development/projects/unsw-health-translation-hub), *The University of New South Wales*
 - "[Cryo-EM Data at Scale: How Collaborative Models Arose Around the World](https://github.com/keiran-rowell/Presentations/blob/6d714fabb5e504aba56bc4fccb5f43ff9f8ef44c/Cryo-EM%20Data%20at%20Scale%20-%20How%20Collaborative%20Models%20Arose%20Around%20the%20World.pdf)" -- Research Software Asia Australia, *Online Conference*
 - [Internal, Cross-Institutional, w/ Dr Daniel Luque] "[Frozen Samples, Melting Servers: The CryoEM and AlphaFold data explosion](https://github.com/keiran-rowell/Presentations/blob/main/Frozen_Samples_Melting_Servers_RDE_EMU_SBF.pdf)" - Research Data Experience Seminar, *The University of New South Wales* [[recording](https://youtu.be/rRegN7AuyOw?si=Hn4Jzrkl41V6-NFM)]
