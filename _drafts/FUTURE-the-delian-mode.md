@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "The Delian Mode: from anti-imperial Hellenstic leagues to hauntology and lost futures"
-subtitle: "Democratic federations to lost futures"
+subtitle: "Why we keep forgetting federation and revert to centralisation"
 category: music 
 tags: Delia Derbyshire Lycians hauntology synths BBC Athens 
 #image:

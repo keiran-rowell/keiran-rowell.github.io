@@ -2,9 +2,10 @@
 layout: post
 author: keiran
 title: "Burning Jacob's Ladder"
-subtitle: "Molecular Structure Prediction in the Age of Deep Neural Nets"
+subtitle: "Molecular Structure Prediction in the Age of Deep Neural Nets and Ultrafast GPUs"
 category: compchem 
 tags: AlphaFold AI Deep-learning Tech Transformers neural-nets 
+---
 
 *Ashes scatter
 Burning Jacob's ladder

@@ -25,12 +25,13 @@ title:                 Keiran Rowell
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
+  Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry.
 
 # A shorter description for the sidebar.
-tagline:             Computational Scientist | Educator   
+tagline:             Science | Education | Computing   
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Computational chemistry, Scientific Computing, Chemistry, History of Science]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -338,7 +339,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: eVRBCHg11T3gZnDg29j0bZI_jEGJECQshA49YXky_ns 
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
@@ -357,12 +358,15 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-#social:
-#   name:                <Keiran> <Rowell>
-#   links:
-#     - https://twitter.com/keiranrowell
-#     - https://github.com/keiran-rowell
-
+social:
+   name:                <Keiran> <Rowell>
+   links:
+     - https://github.com/keiran-rowell
+     - https://github.com/keiran-rowell-unsw
+     - https://scholar.google.com/citations?user=tpcUE5IAAAAJ
+     - https://orcid.org/0000-0001-6955-1167
+     - https://www.linkedin.com/in/keiran-rowell
+     - https://mastodon.social/@keiran_rowell 
 
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
