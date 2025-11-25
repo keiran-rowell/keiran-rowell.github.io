@@ -53,7 +53,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - The Lissajous polynomials, oscilloscopes, sounds, and the ABC logo (rage?).
 - Ruby Payne-Scott
 - Air-raid sirens, literally growing up in the Blitz
-- Turning the sound of facism into the post-war reconstruction civic society
+- Turning the sound of fascism into the post-war reconstruction civic society
 - Now it feels quaint because the civic project was lost with Thatcherism, neolibrealism and New Labour
 - Hauntology, lost futures
 - Thatcher "There is no alternative"
@@ -78,6 +78,10 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - Delia Debyshire day
 - Web 1.0 => 2.0 => 3.0 (which is going great, lol) as the lost futures and fading palimpsest of our digital inscriptions
 - Federated Computing in social media, but also in scientific research
+
+---
+
+The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echochamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.  
 
 ---
 
