@@ -78,6 +78,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - Delia Debyshire day
 - Web 1.0 => 2.0 => 3.0 (which is going great, lol) as the lost futures and fading palimpsest of our digital inscriptions
 - Federated Computing in social media, but also in scientific research
+- Mention Flux, and avant-garde new computing scheduler, has built in multi-*site* scheduling mechanisms 
 
 ---
 
