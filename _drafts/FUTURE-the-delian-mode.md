@@ -86,4 +86,16 @@ The imposition of fascism is brought with sound and fury. The drone of buzz bomb
 
 ---
 
+Forgotten Federations 
+Buidling of Empires
+Fascism's Malignant Noise 
+Sirens Into Songs (Delia, Radiophonic Workshop, civic project)
+There Is No Alternative (Thatcher, neoliberalism, defunding)
+Noise As Resistance (Industrial, Cosey, political critique)
+Digital Palimpsests (Web centralization, lost digital futures)
+Federation Returns (Mastodon, scientific computing, Flux scheduler cross-institutional clusters)
+Owl of Minerva (Athenian ideals, lost futures, hauntology)
+
+---
+
 *I found the fragrance separate from the flower. In all the logic, I was lost.*
