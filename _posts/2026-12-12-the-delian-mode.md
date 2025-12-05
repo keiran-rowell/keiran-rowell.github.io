@@ -1,7 +1,7 @@
 ---
 layout: post
 author: keiran
-title: "The Delian Mode: anti-imperial leagues, federated systems, and lost futures"
+title: "The Delian Mode: anti-imperial leagues, synths, federated systems, and lost futures"
 subtitle: "Why we keep forgetting federation and revert to centralisation"
 category: music 
 tags: Delia Derbyshire Lycians federalism hauntology synths BBC Athens federation imperialism
@@ -9,8 +9,7 @@ tags: Delia Derbyshire Lycians federalism hauntology synths BBC Athens federatio
 #  path: /images/delia-in-front-of-synth.jpg
 ---
 
-> Content notice --- Mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
-
+> Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
 > Not the views of any employers, obvs.
 
 ---
@@ -20,7 +19,7 @@ tags: Delia Derbyshire Lycians federalism hauntology synths BBC Athens federatio
 ---
 
 
-The Lycian league lasted for hundreds of years as an alliance of prosperous and culturally rich city-states along the Southern Turkish coast. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
+The Lycian league lasted for hundreds of years as an alliance of prosperous and culturally rich city-states along the Southern Anatolian (now Turkish) coast. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
 
 The Delian league was an anti-Persian Empire defensive alliance, with Athens as the powerful centre. (treasury moves from Delos to Athens, is that true?)
 Intro about the Delian League. 
@@ -69,12 +68,6 @@ Electronic Dance Music (if that category is even definable) competes with other 
 
 Shutdown of the BBC Radiophonic Workshops under Blair adiminstration due to economic self-sustainability
 
-An inevitable foreclosure, if you follow government fiscial policy where the BBC licence fee is [not public money but taxpayer's money](https://youtu.be/4luBQ8b1j28) and a philopshy that really, [there is no such thing as a society](https://youtu.be/WhJvOKJCYP4?si=7YmWcwBZPSolZ7Hn). Though, one wonders how to continue running [children's programming that discusses the realpolitik](https://youtu.be/_G4dHRN2Dug) of keeping 'true' administrative continuity after the Vietnamese army deposed the *horrific*, brutal, atrocity ridden Communist Party of Kampuchea (Cambodia). 
-
-% Myth's and Legendary Tapes can't be purchased
-
-### There is No Alternative
-
 Funded by a mandatory flat fee (not a market)
 Expected to operate like a business (market logic)
 But can't actually compete commercially (public service mandate)
@@ -82,18 +75,40 @@ Result: experimental/civic programming gets cut, chase ratings instead
 
 The licence fee is literally a collective funding mechanism for civic culture, and they still killed the Radiophonic Workshop for not being profitable enough.
 
+An inevitable foreclosure; if you follow government fiscial policy where the BBC licence fee is [not public money but taxpayer's money](https://youtu.be/4luBQ8b1j28) and a philopshy that really, [there is no such thing as a society](https://youtu.be/WhJvOKJCYP4?si=7YmWcwBZPSolZ7Hn). Though, one wonders how to continue running [children's programming that discusses the realpolitik](https://youtu.be/_G4dHRN2Dug) of keeping 'true' administrative continuity after the Vietnamese army deposed the *horrific*, brutal, atrocity ridden Communist Party of Kampuchea (Cambodia). 
 
-There felt like a dearth of grassroots protest songs during the Second Gulf War. There are no synths on American Idiot, only American hard rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). Similar silence on the U.S. radio charts to the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) in the missiles used against the Assad regime in Syria.
 
-The War on Terror was remote, dispersed, and silent. No air raid sirens provided warning and there was no shelter to take. Instead, a colour scale was used to assess the current terror threat level. Throughout the entire decade the Homeland Security Advisory System threat advisory scale was created it sat in the warm colours; never dropping to 'general risk' (*blue*) or 'low risk' (*green*), it hit *red* ('severe risk') once during actionable insights to UK<->US flight threats, raised to *orange* ('high risk') five times outside of NYC in 2003, but otherwise sat at a constantly ominous *yellow* ('elevated risk') until replaced by a new system in 2011. In fact, it was recommend to remove the low risk tiers altogether, setting the alter on constantly 'gaurded' without reworking the classification criteria. Luckily, civil servants pushed back on [raising the 'gaurded' threat level on the eve of an election](https://web.archive.org/web/20130419031645/https://www.google.com/hostednews/afp/article/ALeqM5h1W_dkUJZmLCnpf-AJQwNa0N-ptg) due to opportunistic political ramifications. 
+### There is No Alternative
+
+I grew up in an age of unending neocon rule, and the complicity of [neoliberal alternatives](https://img.gifglobe.com/grabs/peepshow/S05E02/S05E02-iJmYPUVI-subtitled.jpg), throughout my childhood years. George Bush Jr had assumed his father's role in office (and resumed his father's war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What matter was the simulation of success, and the [*projection* of victory](https://www.forbes.com/sites/daviatemin/2021/07/20/its-not-over-until-its-over-the-perils-of-declaring-victory-in-crisis-too-soon/). 
+
+
+There felt like a dearth of grassroots protest songs during the Second Gulf War. There are no synths on American Idiot, only American hard rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). Similar silence on the U.S. radio charts to the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria.
+
+The War on Terror was remote, dispersed, and silent. No air raid sirens provided warning and there was no shelter to take. Instead, a colour scale was used to assess the current terror threat level. Throughout the entire decade the Homeland Security Advisory System threat advisory scale was created it sat in the warm colours; never dropping to 'general risk' (*blue*) or 'low risk' (*green*), it hit *red* ('severe risk') once during actionable insights to UK<->US flight threats, raised to *orange* ('high risk') five times outside of NYC in 2003, but otherwise sat at a constantly ominous *yellow* ('elevated risk') until replaced by a new system in 2011. In fact, it was recommend to remove the low risk tiers altogether, setting the alter on constantly 'guarded' without reworking the classification criteria. Luckily, civil servants pushed back on [raising the 'guarded' threat level on the eve of an election](https://web.archive.org/web/20130419031645/https://www.google.com/hostednews/afp/article/ALeqM5h1W_dkUJZmLCnpf-AJQwNa0N-ptg) due to opportunistic political ramifications. 
+
+Thus created the conditions where the world lived under the constant drone of anxiety, never knowing where it would strike next. Swiftly to follow were legal memoranda [massively expanding surveillance activities](https://en.wikipedia.org/wiki/Patriot_Act), making ['enhanced interrogation' legally permissible](https://en.wikipedia.org/wiki/Torture_Memos), giving the president direct control over the [largest federal internal security organisation created since the end of WWII](https://www.dhs.gov/homeland-security-act-2002), and unilateral engagement in overseas conflicts by the executive without going through Congress or the [War Powers Act](https://en.wikipedia.org/wiki/War_Powers_Resolution) by not formally declaring war. Because after all, [wars end](https://youtu.be/RXUqJC3rXV0?si=ss5X714wTySJ41TW). The world's police had become the world's SWAT team.   
 
 ### Noise as a Resistance 
+
+The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Others turned the new wave rougher and more combative --- into punk.
+
+This was a time that the official broadcasters would suffer the occasional subversive performance: such as [Elvis Costello getting permanently banned from Saturday Night Live](https://youtu.be/eD_24nDzkeo?si=yk9AMf1ox-VP8iQz); [London Calling](https://youtu.be/EfK-WX2pa8c?si=osOvS_wp2XYRTmOV) snuck into the radio as a hit, though their more clearly read songs faced the ire of BBC censors; and [Sex Pistols were banned from BBC airplay](https://youtu.be/q31WY0Aobro?si=2pajhGGpSqThZw3Q), though it wasn't only punk but [Johnny Rotten outing widely known predatory behaviour](https://youtu.be/v4OzI9GYag0?si=NCC8ita85r6Ebqcd) at the BBC that got them the boot.
+
+The dissolution of this noisy resistance movement resulted in underground and invisible pockets:
+- Independent distribution models couldn't scale up to keep up with major label infrastructure. 
+- Mergers & Acquisitions of independents into major labels (though Rough Trade and 4AD survive --- incorporated into Beggars Group label holdings).
+- MTV became the commercial gatekeepers --- you couldn't just sound good you needed to look good doing it.
+- Music piracy began to erode profitability of records, forcing reliance on touring and stadium-sized ticket sale boons.
+- Internet distribution meant the obscure found its audience, but this distribution model keeps communities small and fragmented.
+
+% Myths and Legendary Tapes to finish it off here. Last gasp of noise as a resistance, but it's a historical biopic nobody can acquire any more. This stuff is just cut up and weaved in to our mishmash digital weird world.
 
 ---
 
 ### Digital Palimpsests
 
-Ain't it funny how Delia's [meat-and-veggies synth experiments](https://youtu.be/jpdiMcEeTJA?si=gtoC47FIZ5K6xdaa) peek through [2016's most lauded experimental hip-hop album](https://youtu.be/LVyGxlgeAjc?si=CC0S1o0nTOJHlIu2). Such sonic overlaying is no accident, it's the very origins of hip-hop's Disc Jockey culture, and continued source of fun in crate digging at a record fair. 
+Ain't it funny how Delia's [meat-and-veggies synth experiments](https://youtu.be/jpdiMcEeTJA?si=gtoC47FIZ5K6xdaa) re-emerged as a sample in [2016's most lauded experimental hip-hop album](https://youtu.be/LVyGxlgeAjc?si=CC0S1o0nTOJHlIu2). Such sonic overlaying is no accident, it's the very origins of hip-hop's Disc Jockey culture, and continued source of fun in crate digging at a record fair. 
 
 The reveberations of early synth warbles are reproduced into the 90s, with the [slightly surreal start-up sound](https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9) in one of the [biggest corporate computing launches in tech history](https://www.bbc.com/audio/play/w3ct5yfs). Just in time to [connect everyone to the information super highway](https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx) as "carpet bombing" campaign of free CDs (nearing 1/2 manufactured worldwide) brought [America Online](https://americanhistory.si.edu/collections/object/nmah_1395721).
 
