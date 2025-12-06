@@ -19,7 +19,10 @@ tags: Delia Derbyshire Lycians federalism hauntology synths BBC Athens federatio
 ---
 
 
-The Lycian league lasted for hundreds of years as an alliance of prosperous and culturally rich city-states along the Southern Anatolian (now Turkish) coast. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
+The Lycian league lasted for hundreds of years as an alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
+
+The Lycians left behind [some monumental tombs hewn into the cliffs of Türkiye](/images/lycian_cliff_tomb.jpg) and [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg), But their legacy dissapated execpt amongst a few scholars.
+
 
 The Delian league was an anti-Persian Empire defensive alliance, with Athens as the powerful centre. (treasury moves from Delos to Athens, is that true?)
 Intro about the Delian League. 
@@ -33,6 +36,8 @@ Defensive alliance betcomes an imperialistic tributary system because the centre
 Federalist papers
 
 'Hamilton' connection
+
+Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds interest rates, vendor of U.S. Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical [runaway success](https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m). It was wildly popular and audiences were humming about *The Room Where it Happens* just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in goverment would be brought to an end by a democratically elected president who would [proceed to dismantle the checks and balances on the reins of power](https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/).
 
 ### Empire Building
 
@@ -91,14 +96,14 @@ Thus created the conditions where the world lived under the constant drone of an
 
 ### Noise as a Resistance 
 
-The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Others turned the new wave rougher and more combative --- into punk.
+The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Under austere conditions, others turned the new wave rougher and more combative --- into punk.
 
 This was a time that the official broadcasters would suffer the occasional subversive performance: such as [Elvis Costello getting permanently banned from Saturday Night Live](https://youtu.be/eD_24nDzkeo?si=yk9AMf1ox-VP8iQz); [London Calling](https://youtu.be/EfK-WX2pa8c?si=osOvS_wp2XYRTmOV) snuck into the radio as a hit, though their more clearly read songs faced the ire of BBC censors; and [Sex Pistols were banned from BBC airplay](https://youtu.be/q31WY0Aobro?si=2pajhGGpSqThZw3Q), though it wasn't only punk but [Johnny Rotten outing widely known predatory behaviour](https://youtu.be/v4OzI9GYag0?si=NCC8ita85r6Ebqcd) at the BBC that got them the boot.
 
 The dissolution of this noisy resistance movement resulted in underground and invisible pockets:
 - Independent distribution models couldn't scale up to keep up with major label infrastructure. 
-- Mergers & Acquisitions of independents into major labels (though Rough Trade and 4AD survive --- incorporated into Beggars Group label holdings).
-- MTV became the commercial gatekeepers --- you couldn't just sound good you needed to look good doing it.
+- Mergers & Acquisitions of independents into major labels, though Rough Trade and 4AD survive incorporated into Beggars Group label holdings.
+- MTV became the commercial gatekeepers, you couldn't just sound good you needed to look good doing it.
 - Music piracy began to erode profitability of records, forcing reliance on touring and stadium-sized ticket sale boons.
 - Internet distribution meant the obscure found its audience, but this distribution model keeps communities small and fragmented.
 
@@ -178,6 +183,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - Germany and expansion into neigbhouring democracies that were drawing back into themselves as the imperial project collapsed
 - The thousand year realm myth
 - The centre of the hegemon was no longer safe with modern technological developments. With the V2 you could hit the capital regardless of whether the sun ever set on your holdings. There *is* no buffer
+- Geographic empire becomes obsolete, but the logic of centralization persists even when it doesn't make sense anymore.
 - The Blitz
 - Delia Derbyshire
 - Maths and physics at Cambridge to make *sounds* not plot the trajectories of bombs
