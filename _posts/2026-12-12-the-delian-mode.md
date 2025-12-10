@@ -1,10 +1,10 @@
 ---
 layout: post
 author: keiran
-title: "The Delian Mode: anti-imperial leagues, synths, federated systems, and lost futures"
+title: "The Delian Mode: anti-imperial leagues, synths, distibuted computing, federated systems, and lost futures"
 subtitle: "Why we keep forgetting federation and revert to centralisation"
 category: music 
-tags: Delia Derbyshire Lycians federalism hauntology synths BBC Athens federation imperialism
+tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC computing Athens federation 
 #image:
 #  path: /images/delia-in-front-of-synth.jpg
 ---
@@ -39,7 +39,7 @@ Federalist papers
 
 'Hamilton' connection
 
-Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds interest rates, vendor of U.S. Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical [runaway success](https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m). It was wildly popular and audiences were humming about *The Room Where it Happens* just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in government would be brought to an end by a democratically elected president who would [proceed to dismantle the checks and balances on the reins of power](https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/).
+Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds interest rates, vendor of US Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical [runaway success](https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m). It was wildly popular and audiences were humming about *The Room Where it Happens* just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in government would be brought to an end by a democratically elected president who would [proceed to dismantle the checks and balances on the reins of power](https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/).
 
 ### Empire Building
 
@@ -89,7 +89,7 @@ An inevitable foreclosure; if you follow government fiscial policy where the BBC
 
 I grew up in an age of unending neocon rule, and the complicity of [neoliberal alternatives](https://img.gifglobe.com/grabs/peepshow/S05E02/S05E02-iJmYPUVI-subtitled.jpg), throughout my childhood years. George Bush Jr had assumed his father's role in office (and resumed his father's war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What mattered was the simulation of success, and the [*projection* of victory](https://www.forbes.com/sites/daviatemin/2021/07/20/its-not-over-until-its-over-the-perils-of-declaring-victory-in-crisis-too-soon/). 
 
-There felt like a dearth of grassroots protest songs during the Second Gulf War. There are no synths on American Idiot, straight pop-punk rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). U.S. radio charts remained similarly silent on the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria.
+There felt like a dearth of grassroots protest songs during the Second Gulf War. There are no synths on American Idiot, straight pop-punk rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). US radio charts remained similarly silent on the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria.
 
 While the radios felt muted, The War on Terror was remote, dispersed, and silent. No air raid sirens provided warning and there was no shelter to take. Instead, a Homeland Security colour scale was used to assess the current terror threat level. Throughout the entire decade it sat in the warm colours; never dropping to 'general risk' (*blue*) or 'low risk' (*green*). It hit *red* ('severe risk') once during actionable insights to UK<->US flight threats, raised to *orange* ('high risk') five times outside of NYC in 2003. Otherwise it remained at a constantly ominous *yellow* ('elevated risk') until replaced by a new system in 2011. In fact, it was recommended to remove the low risk tiers altogether, setting the alert constantly on 'guarded' without reworking the classification criteria. Luckily, civil servants pushed back on [raising the 'guarded' threat level on the eve of an election](https://web.archive.org/web/20130419031645/https://www.google.com/hostednews/afp/article/ALeqM5h1W_dkUJZmLCnpf-AJQwNa0N-ptg) due to opportunistic political ramifications. 
 
@@ -116,51 +116,52 @@ The dissolution of this noisy resistance movement resulted in underground and in
 
 Ain't it funny how Delia's [meat-and-veggies synth experiments](https://youtu.be/jpdiMcEeTJA?si=gtoC47FIZ5K6xdaa) re-emerged as a sample in [2016's most lauded experimental hip-hop album](https://youtu.be/LVyGxlgeAjc?si=CC0S1o0nTOJHlIu2). Such sonic overlaying is no accident, it's the very origins of hip-hop's Disc Jockey culture, and continued source of fun in crate digging at a record fair. 
 
-The reverberations of early synth warbles are reproduced into the 90s, with the [slightly surreal start-up sound](https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9) in one of the [biggest corporate computing launches in tech history](https://www.bbc.com/audio/play/w3ct5yfs). Just in time to [connect everyone to the information super highway](https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx) as "carpet bombing" campaign of free CDs (nearing 1/2 manufactured worldwide) brought [America Online](https://americanhistory.si.edu/collections/object/nmah_1395721).
-
+The reverberations of early synth warbles are reproduced into the 90s, with the [slightly surreal start-up sound](https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9) in one of the [biggest corporate computing launches in tech history](https://www.bbc.com/audio/play/w3ct5yfs). Just in time to [connect everyone to the information super highway](https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx) when a "carpet bombing" campaign of free CDs (nearing $$\frac{1}{2}$$ of CDs manufactured worldwide) brought [America Online](https://americanhistory.si.edu/collections/object/nmah_1395721).
 
 --- 
 
+Computers used to be physical monoliths. They filled entire rooms, took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride (see: [ENIAC](https://almanac.upenn.edu/archive/v42/n18/eniac.html), [EDSAC](https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge) [UK], [MESM](https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/) [USSR], [CSIRAC](https://cis.unimelb.edu.au/about/history/csirac) [AU], [WEIZAC](https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html) [IL], [TAC](https://museum.ipsj.or.jp/en/computer/dawn/0021.html) [JP], *etc*). 
 
-Computers used to be physical monoliths. They filled entire rooms, took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride (see: [ENIAC](https://almanac.upenn.edu/archive/v42/n18/eniac.html), [EDSAC](https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge) [UK], [MESM](https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/) [USSR], [CSIRAC](https://cis.unimelb.edu.au/about/history/csirac) [AU], [WEIZAC](https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html) [IL], [TAC](https://museum.ipsj.or.jp/en/computer/dawn/0021.html) [JP], *etc*). These national behemoths did not dominate for long, with computer luminaries like [Grace Hopper advocating for systems involving smaller, distributed computing machines](https://archive.computerhistory.org/resources/text/Oral_History/Hopper_Grace/102702026.05.01.pdf). Information exchange and resource sharing was broken wide open by computer networking pioneered at the ARPA and RAND agencies, with Stanford and UCLA the first nodes joined together in 1969 to grow into the [US-wide ARPANET in the 1970s](https://en.wikipedia.org/wiki/File:Arpanet_logical_map,_march_1977.png). By the 1980s [symposia on distributed computing](https://www.podc.org/) were held and [Local Area Networks](https://lovetechai.com/history-of-lan/) began to spring up. But the Internet of the World Wide Web as we know it was only formed in the 90s, built upon a common communication protocol (TCP/IP), the hypertext system of linked information [proposed at the world's largest particle physics institute](https://info.cern.ch/hypertext/WWW/History.html), and the [WorldWideWeb](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) browser to surf the 'net, and from the mid-90s onwards the [web browser wars saw software vie for market share](https://youtu.be/Hdit5-yFHI8?si=YU_D1uUt8_7J4z6o).
+These national behemoths did not dominate for long; with computer luminaries like [Grace Hopper advocating for systems involving smaller, distributed computing machines](https://archive.computerhistory.org/resources/text/Oral_History/Hopper_Grace/102702026.05.01.pdf). Information exchange and data sharing was cracked wide open by computer networking pioneered at the ARPA and RAND agencies, with Stanford and UCLA the first nodes joined together in 1969 to grow into the [US-wide ARPANET in the 1970s](https://en.wikipedia.org/wiki/File:Arpanet_logical_map,_march_1977.png). By the 1980s [symposia on distributed computing](https://www.podc.org/) were held and [Local Area Networks](https://lovetechai.com/history-of-lan/) began to spring up. But the Internet of the World Wide Web as we know it was only formed in the 90s, built upon a common communication protocol (TCP/IP), the hypertext system of linked information [proposed at the world's largest particle physics institute](https://info.cern.ch/hypertext/WWW/History.html), the [WorldWideWeb](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) browser developed to surf the 'net, and from the mid-90s onwards the "browser wars" [saw software vie for market share](https://youtu.be/Hdit5-yFHI8?si=YU_D1uUt8_7J4z6o).
 
-This enabled distributed communication at an then-astounding scale, but what about distributing *computing power itself*?
+This enabled distributed communication at a then-astounding scale, but what about distributing *computing power itself*? 
+
+While the `.com` commercial web was centralizing around Internet Service Providers and browser portals, another model was emerging on university campuses.
 
 ### Federation Returns
 
-- Project Athena 
+The world's premier engineering institute was hampered by a lack of computers available for their courses. Mainframes had been available on campus for decades, in fact the first computer to use [magnetic core memory](https://mitmuseum.mit.edu/collections/object/2000.006.001) had been developed on site for the US Navy. But there was a dire need to modernise computing access outside of specialised systems intended for operation by computer engineers and timeshared to grant holders. 
 
-50 million five-year project at MIT that distributed across hundreds of terminals and thousands of microcomputers.
+[Project Athena was launched at MIT](https://news.mit.edu/2018/mit-looking-back-project-athena-distributed-computing-for-students-1111) in 1983 to the tune of $100 million dollars, the largest ever undertaken. The computing transformation at MIT was done in collaboration with the two titans of the computer industry IBM (International Business Machines) and DEC (Digital Equipment corporation) who supplied hundreds to thousands of terminals, microcomputers, and workstations.
 
-"Athena continues in use as of 2023, providing a ubiquitous computing platform for education at MIT; plans are to continue its use indefinitely"
 
-Basically the birth of multi-tier architecture of distributed computing we all used today:
+The model was this: users interfaces through easy to set up `clients` (terminals, workstations) which communicated to powerful clustered computing `servers` that did the operation-crunching for their requests. In this way a campus-wide network of computers could be deployed to meet the needs in each faculty. Unix was used as the operating system for this distributed computing network, and MIT put designed effort for their system to be vendor-agnostic, so they weren't locked in to either IBM or DEC's hardware compatibilities. One way this was achieved was through `thin clients`: the workstation didn't need to provide the computing power itself, acting only as a consistent interface to a wider variety of computing hardware on the back end. This Athenian league of federated academic computing environments can still be found in use at [MIT's Information Systems & Technology website](https://ist.mit.edu/athena).  
+ 
+Project Athena not only cemented the foundations of `client-server` distributed computing architecture we all used today, but also brought with it many innovations:
+- The Kerberos (AKA Cerberus) authentication protocol --- the default method of securing corporate computer networks from Windows 2000 onwards.
+- The Unix framework for remote graphical user interfaces (the 'X Window System')
+- One of the first internet protocol Instant Messaging (IM) services
+- A *public* campus-wide Bulletin Board System (BBS)
+- Online computer help (reminiscent of the modern helpdesk)
 
-    Client-serer model
-    'Thin clients' to access large computer systems
-    The Linux Display system (X Window)
-    Bulletin boards (BBS) and instant messaging
+MIT, IBM, and DEC [reflected on the impacts of Project Athena partway through](https://dl.acm.org/doi/10.1145/4547.4553), but perhaps the greatest marker of achievements of Project Athena was its successful wider spread.
+
+> "I felt that we would know Athena was successful if we were surprised by some of the applications. It turned out that our surprises were largely in the humanities."
+
+
+--- Dr Joel Moses, then head of the Electrical Engineering & Computer Science (EECS) 
+
+Distributed computing took rapid foothold outside of MIT by the early 90s because it was *useful*. Several US and some international campuses started using an implementation (DECathena, now [Debathena](https://debathena.mit.edu/)), though invariable the protocols and hardware implementations changed with the frenetic obslence pace of the computing industry. The impact was conceptual, the model was no longer the monolith "supercomputer", but instead users work at domestic `clients` accessing distributed `servers` (nowdays often a "[Beowulf cluster](https://spinoff.nasa.gov/Spinoff2020/it_1.html)" of commodity computing parts). Computing was now non-local and the arc of the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services.  
 
  
-"Because the functional and system management benefits provided by the Athena system were not available in any other system, its use extended beyond the MIT campus. In keeping with the established policy of MIT, the software was made available at no cost to all interested parties."
-
-It expanded beyond the core because it was useful.
-
-https://news.mit.edu/2018/mit-looking-back-project-athena-distributed-computing-for-students-1111
-
-    the largest educational project ever undertaken at MIT was launched at the eventual cost of around $100 million. The project was largely paid for with funding from the Digital Equipment Corporation (DEC) and IBM.
-    (Wikipedia say $50 mil, convert to today's money)
-
-
-    “I felt that we would know Athena was successful if we were surprised by some of the applications,” Moses says. “It turned out that our surprises were largely in the humanities.”
-
-- Cloud computing, but let's focus on scientific HPC
 - Fediverse, but we'll focus on raw compute not communication
+- Cloud computing, but let's focus on scientific HPC
+- SETI@home
+- Folding@home
+- Grid computing
+- Multi-site next generation schedulers (Flux) 
 
--SETI@home
--Folding@home
--Grid computing
--Multi-site next generation schedulers (Flux) 
+---
 
 ### The Owl of Minverva 🦉 
 
@@ -224,7 +225,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - The Ancient Civilisation that inspired US Democracy: https://www.bbc.com/travel/article/20230906-the-ancient-civilisation-that-inspired-us-democracy
 - OMG the Federalist Papers mentions the Lycian League and contrasts ancient confedarcies vs American Federation
  - In Federalist Papers [9](https://avalon.law.yale.edu/18th_century/fed09.asp), [16](https://avalon.law.yale.edu/18th_century/fed16.asp), [45](https://avalon.law.yale.edu/18th_century/fed45.asp) and held as an example the United States of America being a confederation of states that would not fall to tyranny.
- - Wow the 'Hamilton' connection and the U.S. now electing a demagogue and sliding into tyranny
+ - Wow the 'Hamilton' connection and the US now electing a demagogue and sliding into tyranny
 - Madison cited them at the Constitutional Convention
 - America as the isolationist state turning to the 'World's Police' after being drawn into WWII
 - Germany and expansion into neigbhouring democracies that were drawing back into themselves as the imperial project collapsed
