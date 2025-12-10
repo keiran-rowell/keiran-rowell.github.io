@@ -21,43 +21,45 @@ tags: Delia Derbyshire Lycians federalism hauntology synths BBC Athens federatio
 
 The Lycian league lasted for hundreds of years as an alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
 
-The Lycians left behind [some monumental tombs hewn into the cliffs of Türkiye](/images/lycian_cliff_tomb.jpg) and [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg), But their legacy dissapated execpt amongst a few scholars.
-
-
-The Delian league was an anti-Persian Empire defensive alliance, with Athens as the powerful centre. (treasury moves from Delos to Athens, is that true?)
-Intro about the Delian League. 
-
-Athena was the goddess of wisdom, strategic war, and the protector of the city ("Athena Polias"). 
-
-Defensive alliance betcomes an imperialistic tributary system because the centre is too powerful 
+The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) hewn into the cliffs of Türkiye and [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg), but their legacy dissipated except amongst a few scholars.
 
 ### Forgotten Federations
+
+The Delian league was an anti-Persian Empire defensive alliance, with Athens as the powerful centre. (treasury moves from Delos to Athens, is that true? -- yes 454 BCE for "safekeeping" but really to consolidate the monetary control. [double check])
+Intro about the Delian League. 
+
+Athena was the goddess of wisdom and strategic warfare. Moreover, as *Athena Polias* ('Athena of the City') she was protector of the *polis* --- civic life, the city-state, democratic institutions. 
+
+Defensive alliance becomes an imperialistic tributary system because the centre is too powerful 
+
+
+The impulse to federate, to balance local autonomy with central authority, echoes down the centuries, even if the voices of the *polis* are silent in our history. A resonance resurfaces during experiments in democracy of the early United States.
 
 Federalist papers
 
 'Hamilton' connection
 
-Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds interest rates, vendor of U.S. Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical [runaway success](https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m). It was wildly popular and audiences were humming about *The Room Where it Happens* just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in goverment would be brought to an end by a democratically elected president who would [proceed to dismantle the checks and balances on the reins of power](https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/).
+Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds interest rates, vendor of U.S. Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical [runaway success](https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m). It was wildly popular and audiences were humming about *The Room Where it Happens* just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in government would be brought to an end by a democratically elected president who would [proceed to dismantle the checks and balances on the reins of power](https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/).
 
 ### Empire Building
 
 - America as the isolationist state turning to the 'World's Police' after being drawn into WWII
-- Germany and expansion into neigbhouring democracies that were drawing back into themselves as the imperial project collapsed
+- Germany and expansion into neighbouring democracies that were drawing back into themselves as the imperial project collapsed
 - The thousand year realm myth
 - The centre of the hegemon was no longer safe with modern technological developments. With the V2 you could hit the capital regardless of whether the sun ever set on your holdings. There *is* no buffer
 
 ---
 
-The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echochamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.  
+The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echoc hamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.  
 
-% Delia's inspiration of the air-raid siren into synthesised reptitive sound. Delia won a scholarship to Cambridge University where she studied a mathematics degree, incoporating music studies. Video of [her demonstrating synthesis](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ). [Wendy Carlos as well](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
+% Delia's inspiration of the air-raid siren into synthesised repetitive sound. Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. Video of [her demonstrating synthesis](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ). [Wendy Carlos as well](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
 % ABC logo is a wave: the Lissajou polynomial.
 
 % Physic and determining waves, Ruby Payne-Scott and radioastronomy. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
 
 ### Sirens Into Songs
 
-Early synthetic pioneers found out to embue true emotions into sine and saw waves: creating some of the most evocatively accurate soundscapes of [depression](https://youtu.be/XQEYdgY2M8U?si=5wj2Vh0FD1uuQi_F), [despair](https://youtu.be/SNpIYln58EE?si=6u7ASIeGBbSwTi7r), and [ennervated overawe](https://youtu.be/1RrsiGmLp_E?si=xacVEqkG7AfNDbxD); but also [serene calm](https://youtu.be/yVLjbGs2s-8?si=W7yoW1QleBG9Uo7K), [arrestingly beautiful desert soundscapes](https://youtu.be/OyUkmxy5VMI?si=Id1Ciwpe_AoCTYXY), [cosmic wonder](https://youtu.be/NChqEEz31eE?si=cH4djqqz1EE5N6Cc), [Sci-Fi noire intrigue](https://youtu.be/RScZrvTebeA?si=z02HqP_EojAKpP3B), and several odd [ditties](https://youtu.be/jetzY-W78gg?si=DdpNwUCSC9A7pM02) of [pure joy](https://youtu.be/3YudPg7cbR4?si=dvKPemx7fzEnNMmv). It was the kind of no roadmap cultural movement where Delia could dictate *"Uhh.. forget about this, it's for interest only"* and then unleash [the first (entirely analogue) driving techno beat](https://youtu.be/vwQIgGQLOQ8?si=tzi0diKqHZR_ZkwS). 
+Early synthetic pioneers found out to imbue true emotions into sine and saw waves: creating some of the most evocatively accurate soundscapes of [depression](https://youtu.be/XQEYdgY2M8U?si=5wj2Vh0FD1uuQi_F), [despair](https://youtu.be/SNpIYln58EE?si=6u7ASIeGBbSwTi7r), and [ennervated overawe](https://youtu.be/1RrsiGmLp_E?si=xacVEqkG7AfNDbxD); but also [serene calm](https://youtu.be/yVLjbGs2s-8?si=W7yoW1QleBG9Uo7K), [arrestingly beautiful desert soundscapes](https://youtu.be/OyUkmxy5VMI?si=Id1Ciwpe_AoCTYXY), [cosmic wonder](https://youtu.be/NChqEEz31eE?si=cH4djqqz1EE5N6Cc), [Sci-Fi noire intrigue](https://youtu.be/RScZrvTebeA?si=z02HqP_EojAKpP3B), and several odd [ditties](https://youtu.be/jetzY-W78gg?si=DdpNwUCSC9A7pM02) of [pure joy](https://youtu.be/3YudPg7cbR4?si=dvKPemx7fzEnNMmv). It was the kind of no roadmap cultural movement where Delia could dictate *"Uhh.. forget about this, it's for interest only"* and then unleash [the first (entirely analogue) driving techno beat](https://youtu.be/vwQIgGQLOQ8?si=tzi0diKqHZR_ZkwS). 
 
 % Read Re-Sisters: The early synth pioneers were often unconventional in social categories. (link out to books, trans, etc)
 
@@ -65,9 +67,9 @@ Early synthetic pioneers found out to embue true emotions into sine and saw wave
 
 With growing use of synths in movie scores, pop music, and the commercial release of digital samplers and sequencers (Aussie Fairlight Computer Musical Instrument released [one of the first in 1979](https://youtu.be/jkiYy0i8FtA?si=FgorFmUbZzTeMgdI) the instrument moved from soundscape to melody. The 80s had arrived. People flocked like seagulls to dance on four-on-the-floor pop tracks, with pitch perfect synthesised songlines and unerring drum machines. Just as quickly the weird and experimental became commercial, some Sheffield lads [started an electronic music project](https://youtu.be/gpGMPiWMjN4?si=f8yz58mszBbr0-_R) (The *Doctor Who* rendition their crowd draw) only hitting the big leagues after [meeting a waitress working at a cocktail bar](https://youtu.be/uPudE8nDog0?si=k5Wa7gwBMVD68GMA). 
 
-Everyone was changing up quicky for music television; [childish insecurities](https://youtu.be/u1ZvPSpLxCg?si=jXPmCNQX49c6x-Aj) were discarded to [rule the world](https://youtu.be/aGCdLKXNF3w?si=sWFe8q2tmgX4MBqQ) (and the charts); Al Jourgensen tried his hand at the [Goth romantic thing](https://youtu.be/1VFqVRepm6U?si=nG0J0gFLQ91B-rtD) before quickly swerving [to headbanging hotrod trash](https://youtu.be/GXCh9OhDiCI?si=7bDuRs66fba4nPco); the quintessential post-punk bank reformed as the [quintessential synthpo band](https://youtu.be/9GMjH1nR0ds?si=Ea6TRW4aNCSVQRKr); and an experimental melancholical new wave duo hit meteoric success by placing their edge [under a 4-4 bouncing synth](https://youtu.be/qeMFqkcPYcg?si=vKn4EJDo59adVnLE). By the mid-80s synth had gone full pop and Madonna told us all to just [get into the groove](https://youtu.be/52iW3lcpK5M?si=hjsNBIz0WBlsz46N). Stock Aitken Watermann dominated this new commerical, turning out the synthpop assembly line that produced over 100 Top 40 hits, becoming one of the most [successful](https://youtu.be/PGNiXGX2nLU?si=mhQ5CWLzkUlW7lKh) [hit](https://youtu.be/dQw4w9WgXcQ?si=tBbZR14ow8ZwgAWl) [factories](https://youtu.be/LaTGrV58wec?si=mYV6MNxWXwI9VqaE) [of](https://youtu.be/aGxJm_Sy2aw?si=0gzPliTXFrflLvnc) [all](https://youtu.be/tto_nmsND_o?si=FzXaU1D8ZqPzCh1C) [time](https://youtu.be/d4-1ASpdT1Y?si=hV6AleNEn-nEqvkm). 
+Everyone was changing up quickly for music television; [childish insecurities](https://youtu.be/u1ZvPSpLxCg?si=jXPmCNQX49c6x-Aj) were discarded to [rule the world](https://youtu.be/aGCdLKXNF3w?si=sWFe8q2tmgX4MBqQ) (and the charts); Al Jourgensen tried his hand at the [Goth romantic thing](https://youtu.be/1VFqVRepm6U?si=nG0J0gFLQ91B-rtD) before quickly swerving [to headbanging hotrod trash](https://youtu.be/GXCh9OhDiCI?si=7bDuRs66fba4nPco); the quintessential post-punk bank reformed as the [quintessential synthpo band](https://youtu.be/9GMjH1nR0ds?si=Ea6TRW4aNCSVQRKr); and an experimental melancholic new wave duo hit meteoric success by placing their edge [under a 4-4 bouncing synth](https://youtu.be/qeMFqkcPYcg?si=vKn4EJDo59adVnLE). By the mid-80s synth had gone full pop and Madonna told us all to just [get into the groove](https://youtu.be/52iW3lcpK5M?si=hjsNBIz0WBlsz46N). Stock Aitken Watermann dominated this new commercial, turning out the synthpop assembly line that produced over 100 Top 40 hits, becoming one of the most [successful](https://youtu.be/PGNiXGX2nLU?si=mhQ5CWLzkUlW7lKh) [hit](https://youtu.be/dQw4w9WgXcQ?si=tBbZR14ow8ZwgAWl) [factories](https://youtu.be/LaTGrV58wec?si=mYV6MNxWXwI9VqaE) [of](https://youtu.be/aGxJm_Sy2aw?si=0gzPliTXFrflLvnc) [all](https://youtu.be/tto_nmsND_o?si=FzXaU1D8ZqPzCh1C) [time](https://youtu.be/d4-1ASpdT1Y?si=hV6AleNEn-nEqvkm). 
 
-Electronic Dance Music (if that category is even definable) competes with other massive genres under rock and pop for most listens, and is widely popular particularly [in Australia](https://mixmag.net.au/read/stats-reveal-that-australians-listen-to-dance-music-more-than-any-other-country-news) and Europe particularly when [set against the American charts](https://youtu.be/7oQFns0WQTo?si=s9CKJjUeaqaZn2Yu). The early affective experiments of the synthesized sounds have been replaced withi dance tracks,free of arresting content and structured around repition for pure hedonism. Anthems have also escaped their nationalistic or community, with loss of designed civic purpose, but also with freedom from offical narrative and record. You can just be, dance, exist, have fun, got do the festival; you don't need to *serve a state purpose or national cause*.
+Electronic Dance Music (if that category is even definable) competes with other massive genres under rock and pop for most listens, and is widely popular particularly [in Australia](https://mixmag.net.au/read/stats-reveal-that-australians-listen-to-dance-music-more-than-any-other-country-news) and Europe particularly when [set against the American charts](https://youtu.be/7oQFns0WQTo?si=s9CKJjUeaqaZn2Yu). The early affective experiments of the synthesized sounds have been replaced with dance tracks,free of arresting content and structured around repetition for pure hedonism. Anthems have also escaped their nationalistic or community, with loss of designed civic purpose, but also with freedom from official narrative and record. You can just be---dance, exist, have fun, got to the festival---*without serving a state purpose or national cause*.
 
 ---
 
@@ -85,18 +87,17 @@ An inevitable foreclosure; if you follow government fiscial policy where the BBC
 
 ### There is No Alternative
 
-I grew up in an age of unending neocon rule, and the complicity of [neoliberal alternatives](https://img.gifglobe.com/grabs/peepshow/S05E02/S05E02-iJmYPUVI-subtitled.jpg), throughout my childhood years. George Bush Jr had assumed his father's role in office (and resumed his father's war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What matter was the simulation of success, and the [*projection* of victory](https://www.forbes.com/sites/daviatemin/2021/07/20/its-not-over-until-its-over-the-perils-of-declaring-victory-in-crisis-too-soon/). 
+I grew up in an age of unending neocon rule, and the complicity of [neoliberal alternatives](https://img.gifglobe.com/grabs/peepshow/S05E02/S05E02-iJmYPUVI-subtitled.jpg), throughout my childhood years. George Bush Jr had assumed his father's role in office (and resumed his father's war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What mattered was the simulation of success, and the [*projection* of victory](https://www.forbes.com/sites/daviatemin/2021/07/20/its-not-over-until-its-over-the-perils-of-declaring-victory-in-crisis-too-soon/). 
 
+There felt like a dearth of grassroots protest songs during the Second Gulf War. There are no synths on American Idiot, straight pop-punk rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). U.S. radio charts remained similarly silent on the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria.
 
-There felt like a dearth of grassroots protest songs during the Second Gulf War. There are no synths on American Idiot, only American hard rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). Similar silence on the U.S. radio charts to the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria.
+While the radios felt muted, The War on Terror was remote, dispersed, and silent. No air raid sirens provided warning and there was no shelter to take. Instead, a Homeland Security colour scale was used to assess the current terror threat level. Throughout the entire decade it sat in the warm colours; never dropping to 'general risk' (*blue*) or 'low risk' (*green*). It hit *red* ('severe risk') once during actionable insights to UK<->US flight threats, raised to *orange* ('high risk') five times outside of NYC in 2003. Otherwise it remained at a constantly ominous *yellow* ('elevated risk') until replaced by a new system in 2011. In fact, it was recommended to remove the low risk tiers altogether, setting the alert constantly on 'guarded' without reworking the classification criteria. Luckily, civil servants pushed back on [raising the 'guarded' threat level on the eve of an election](https://web.archive.org/web/20130419031645/https://www.google.com/hostednews/afp/article/ALeqM5h1W_dkUJZmLCnpf-AJQwNa0N-ptg) due to opportunistic political ramifications. 
 
-The War on Terror was remote, dispersed, and silent. No air raid sirens provided warning and there was no shelter to take. Instead, a colour scale was used to assess the current terror threat level. Throughout the entire decade the Homeland Security Advisory System threat advisory scale was created it sat in the warm colours; never dropping to 'general risk' (*blue*) or 'low risk' (*green*), it hit *red* ('severe risk') once during actionable insights to UK<->US flight threats, raised to *orange* ('high risk') five times outside of NYC in 2003, but otherwise sat at a constantly ominous *yellow* ('elevated risk') until replaced by a new system in 2011. In fact, it was recommend to remove the low risk tiers altogether, setting the alter on constantly 'guarded' without reworking the classification criteria. Luckily, civil servants pushed back on [raising the 'guarded' threat level on the eve of an election](https://web.archive.org/web/20130419031645/https://www.google.com/hostednews/afp/article/ALeqM5h1W_dkUJZmLCnpf-AJQwNa0N-ptg) due to opportunistic political ramifications. 
-
-Thus created the conditions where the world lived under the constant drone of anxiety, never knowing where it would strike next. Swiftly to follow were legal memoranda [massively expanding surveillance activities](https://en.wikipedia.org/wiki/Patriot_Act), making ['enhanced interrogation' legally permissible](https://en.wikipedia.org/wiki/Torture_Memos), giving the president direct control over the [largest federal internal security organisation created since the end of WWII](https://www.dhs.gov/homeland-security-act-2002), and unilateral engagement in overseas conflicts by the executive without going through Congress or the [War Powers Act](https://en.wikipedia.org/wiki/War_Powers_Resolution) by not formally declaring war. Because after all, [wars end](https://youtu.be/RXUqJC3rXV0?si=ss5X714wTySJ41TW). The world's police had become the world's SWAT team.   
+This created the conditions where the world lived under the constant drone of anxiety, never knowing where it would strike next. Swiftly to follow were legal memoranda [massively expanding surveillance activities](https://en.wikipedia.org/wiki/Patriot_Act), making ['enhanced interrogation' legally permissible](https://en.wikipedia.org/wiki/Torture_Memos), giving the president significant executive authority over the [largest federal internal security organisation created since the end of WWII](https://www.dhs.gov/homeland-security-act-2002), and unilateral engagement in overseas conflicts by the executive without going through Congress or the [War Powers Act](https://en.wikipedia.org/wiki/War_Powers_Resolution) by not formally declaring war. Because after all, [wars end](https://youtu.be/RXUqJC3rXV0?si=ss5X714wTySJ41TW). The world's police had become the world's SWAT team.   
 
 ### Noise as a Resistance 
 
-The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Under austere conditions, others turned the new wave rougher and more combative --- into punk.
+Even in eras when power feels absolute and alternatives seem erased, small acts of rebellion persisted —-- sometimes in music, sometimes in code, sometimes in the quiet persistence of niche communities. The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Under austere conditions, others turned the new wave rougher and more combative --- into punk.
 
 This was a time that the official broadcasters would suffer the occasional subversive performance: such as [Elvis Costello getting permanently banned from Saturday Night Live](https://youtu.be/eD_24nDzkeo?si=yk9AMf1ox-VP8iQz); [London Calling](https://youtu.be/EfK-WX2pa8c?si=osOvS_wp2XYRTmOV) snuck into the radio as a hit, though their more clearly read songs faced the ire of BBC censors; and [Sex Pistols were banned from BBC airplay](https://youtu.be/q31WY0Aobro?si=2pajhGGpSqThZw3Q), though it wasn't only punk but [Johnny Rotten outing widely known predatory behaviour](https://youtu.be/v4OzI9GYag0?si=NCC8ita85r6Ebqcd) at the BBC that got them the boot.
 
@@ -115,10 +116,51 @@ The dissolution of this noisy resistance movement resulted in underground and in
 
 Ain't it funny how Delia's [meat-and-veggies synth experiments](https://youtu.be/jpdiMcEeTJA?si=gtoC47FIZ5K6xdaa) re-emerged as a sample in [2016's most lauded experimental hip-hop album](https://youtu.be/LVyGxlgeAjc?si=CC0S1o0nTOJHlIu2). Such sonic overlaying is no accident, it's the very origins of hip-hop's Disc Jockey culture, and continued source of fun in crate digging at a record fair. 
 
-The reveberations of early synth warbles are reproduced into the 90s, with the [slightly surreal start-up sound](https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9) in one of the [biggest corporate computing launches in tech history](https://www.bbc.com/audio/play/w3ct5yfs). Just in time to [connect everyone to the information super highway](https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx) as "carpet bombing" campaign of free CDs (nearing 1/2 manufactured worldwide) brought [America Online](https://americanhistory.si.edu/collections/object/nmah_1395721).
+The reverberations of early synth warbles are reproduced into the 90s, with the [slightly surreal start-up sound](https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9) in one of the [biggest corporate computing launches in tech history](https://www.bbc.com/audio/play/w3ct5yfs). Just in time to [connect everyone to the information super highway](https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx) as "carpet bombing" campaign of free CDs (nearing 1/2 manufactured worldwide) brought [America Online](https://americanhistory.si.edu/collections/object/nmah_1395721).
+
+
+--- 
+
+
+Computers used to be physical monoliths. They filled entire rooms, took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride (see: [ENIAC](https://almanac.upenn.edu/archive/v42/n18/eniac.html), [EDSAC](https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge) [UK], [MESM](https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/) [USSR], [CSIRAC](https://cis.unimelb.edu.au/about/history/csirac) [AU], [WEIZAC](https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html) [IL], [TAC](https://museum.ipsj.or.jp/en/computer/dawn/0021.html) [JP], *etc*). These national behemoths did not dominate for long, with computer luminaries like [Grace Hopper advocating for systems involving smaller, distributed computing machines](https://archive.computerhistory.org/resources/text/Oral_History/Hopper_Grace/102702026.05.01.pdf). Information exchange and resource sharing was broken wide open by computer networking pioneered at the ARPA and RAND agencies, with Stanford and UCLA the first nodes joined together in 1969 to grow into the [US-wide ARPANET in the 1970s](https://en.wikipedia.org/wiki/File:Arpanet_logical_map,_march_1977.png). By the 1980s [symposia on distributed computing](https://www.podc.org/) were held and [Local Area Networks](https://lovetechai.com/history-of-lan/) began to spring up. But the Internet of the World Wide Web as we know it was only formed in the 90s, built upon a common communication protocol (TCP/IP), the hypertext system of linked information [proposed at the world's largest particle physics institute](https://info.cern.ch/hypertext/WWW/History.html), and the [WorldWideWeb](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) browser to surf the 'net, and from the mid-90s onwards the [web browser wars saw software vie for market share](https://youtu.be/Hdit5-yFHI8?si=YU_D1uUt8_7J4z6o).
+
+This enabled distributed communication at an then-astounding scale, but what about distributing *computing power itself*?
 
 ### Federation Returns
 
+- Project Athena 
+
+50 million five-year project at MIT that distributed across hundreds of terminals and thousands of microcomputers.
+
+"Athena continues in use as of 2023, providing a ubiquitous computing platform for education at MIT; plans are to continue its use indefinitely"
+
+Basically the birth of multi-tier architecture of distributed computing we all used today:
+
+    Client-serer model
+    'Thin clients' to access large computer systems
+    The Linux Display system (X Window)
+    Bulletin boards (BBS) and instant messaging
+
+ 
+"Because the functional and system management benefits provided by the Athena system were not available in any other system, its use extended beyond the MIT campus. In keeping with the established policy of MIT, the software was made available at no cost to all interested parties."
+
+It expanded beyond the core because it was useful.
+
+https://news.mit.edu/2018/mit-looking-back-project-athena-distributed-computing-for-students-1111
+
+    the largest educational project ever undertaken at MIT was launched at the eventual cost of around $100 million. The project was largely paid for with funding from the Digital Equipment Corporation (DEC) and IBM.
+    (Wikipedia say $50 mil, convert to today's money)
+
+
+    “I felt that we would know Athena was successful if we were surprised by some of the applications,” Moses says. “It turned out that our surprises were largely in the humanities.”
+
+- Cloud computing, but let's focus on scientific HPC
+- Fediverse, but we'll focus on raw compute not communication
+
+-SETI@home
+-Folding@home
+-Grid computing
+-Multi-site next generation schedulers (Flux) 
 
 ### The Owl of Minverva 🦉 
 
@@ -127,9 +169,10 @@ Wisdom takes flight only at dusk, often when it's too late.
 Why do things continue to collapse into imperial tributary systems until there's a technological or social systematic shock?
 Do lost futures only become visible when an era has already past, or because they only become visible in the murky twilight?
 
-Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn't mean we're guaranteed a future free from tribute to a few monoliths. When power projection moved slowly the world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and co-ordination systems can span the world in an instant.
+Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn't mean we're guaranteed a future free from tribute to a few monoliths. When power projection moved slowly, the civic world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant.
 
-Let's hope social coordination and civic productivity can free up our future, one not driven to mass unrest or conflict as its system shock mechanism.
+Yet the alternatives keep emerging --- Athena persists, new federations form. The twilight offers a moment to breathe, to choose alternate futures.
+Let's hope social coordination and civic productivity can free up our future, one not driven to mass unrest or conflict as its remaining system shock mechanism.
 
 
 ---
@@ -169,6 +212,8 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - Federated democracies (circle back at end with federated computing?)
   - https://www.bbc.com/travel/article/20230906-the-ancient-civilisation-that-inspired-us-democracy
   - https://www.barnabyrogerson.com/articles-talks/lycia
+- [Lycia] "After a brief membership in the Athenian Empire, it seceded and became independent (its treaty with Athens had omitted the usual non-secession clause)"
+- [Wikipedia] "In these latter stages of the Roman Republic, Lycia came to enjoy freedom as a Roman protectorate. The Romans validated home rule officially under the Lycian League in 168 BC. This native government was an early federation with republican principles;"
 - Athenian Ideals
 - Ze owl
 - Athenian tributary and Imperialism
@@ -176,9 +221,11 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - 4 *hundred* years, outlasted any modern democratic nation state.
 - Stable federation that didn't become a great power through conquest. A lost future that faded away due to expansionist neighbours. History written in terms of wars (get that quote about boys being raised up in a history of war to think it's normal)
 - Longer lasting than modern nation states, and stabler considerin the global calamitoius conflicts that engulfed them in the first half of the 20th Century
+- The Ancient Civilisation that inspired US Democracy: https://www.bbc.com/travel/article/20230906-the-ancient-civilisation-that-inspired-us-democracy
 - OMG the Federalist Papers mentions the Lycian League and contrasts ancient confedarcies vs American Federation
  - In Federalist Papers [9](https://avalon.law.yale.edu/18th_century/fed09.asp), [16](https://avalon.law.yale.edu/18th_century/fed16.asp), [45](https://avalon.law.yale.edu/18th_century/fed45.asp) and held as an example the United States of America being a confederation of states that would not fall to tyranny.
  - Wow the 'Hamilton' connection and the U.S. now electing a demagogue and sliding into tyranny
+- Madison cited them at the Constitutional Convention
 - America as the isolationist state turning to the 'World's Police' after being drawn into WWII
 - Germany and expansion into neigbhouring democracies that were drawing back into themselves as the imperial project collapsed
 - The thousand year realm myth
@@ -195,6 +242,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - Hauntology, lost futures
 - Thatcher "There is no alternative"
 - Hegemonic instutional self-preservation evaluative structures - "Subject to the Ladder"
+- Radiophonic - policy was "staff" contributions were the remain anonymous. Legacies could *only* be evaluated in hindsight
 - Radiophonic funding killed
   - It was defunded because it was given 5 years to *break even*
 	- Under Blair! New Labour! Neoliberal economics
@@ -203,7 +251,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
   - The colonial outposts preserved what the imperial centre discarded.
   - The funding cuts due to neocon government economics.
 - Also people thought synthesised music could be psychological dangerous, weren't sure, legally limited exposure
-  - literal fear of alternative frequencie
+  - literal fear of alternative frequencies
 - It became DANCE MUSIC. Free of content and structured around repition for pure hedonism. (link to Delia's [offhand prototehcno track](https://youtu.be/vwQIgGQLOQ8?si=Yf1WghFeNgDIemjQ), first techno beat)
   - I think my take on Dance Music is there's a loss of civic purpose, but also a freedom from narrative and official record. You can just be, dance, exist, have fun, you don't need to *serve a state purpose or national cause*
 - The early synths pioneer were often unconventional in social categories
@@ -215,6 +263,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
 - Delia Debyshire day
 - Web 1.0 => 2.0 => 3.0 (which is going great, lol) as the lost futures and fading palimpsest of our digital inscriptions
 - Federated Computing in social media, but also in scientific research
+- Federated data. Gaia-X? OpenFold training on federated big pharma data with Apheris: https://www.apheris.com/resources/blog/apheris-launches-apherisfold-to-make-openfold3-securely-usable-in-pharma-environm
 - Mention Flux, and avant-garde new computing scheduler, has built in multi-*site* scheduling mechanisms 
 
 
