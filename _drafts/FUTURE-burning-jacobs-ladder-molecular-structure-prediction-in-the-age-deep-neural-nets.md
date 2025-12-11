@@ -19,6 +19,9 @@ I'm afraid I might fade away
 - Google DeepMind using a [neural network to refine a new DFT function](https://research.google/pubs/learning-to-approximate-density-functionals/).
 - Facebook AI Research Labs releasing massive neural net molecular dataset, [OMol25](https://ai.meta.com/blog/meta-fair-science-new-open-source-releases/).
 - The dubiously grounded inferred Molecular Dyanmics of [BioEMU](https://doi.org/10.1126/science.adv9817)
+- Machine learning force-fields ["Molecular Simulations with a Pretrained Neural Network and Universal Pairwise Force Field"](https://doi.org/10.1021/jacs.5c09558)
+- ["Platonic representation of foundation machine learning interatomic potentials"](https://arxiv.org/abs/2512.05349) and ["Universally Converging Representations of Matter Across Scientific Foundation Models"](https://arxiv.org/abs/2512.03750)
 - AlphaFold
 - RFDiffusion
 - Flow matching (LaProteina)
+- OMRTA: [A Multi-Task Generative Model for Structure-Based Drug Design](https://arxiv.org/abs/2512.05080)	

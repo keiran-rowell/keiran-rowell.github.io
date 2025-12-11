@@ -1,15 +1,18 @@
 - DiscWorld
-"Co-designed, launched, and managed a simple to use bespoke CryoEM cluster with mostly previously purchased assets, in collaboration with my team of an exceptionally skilled HPC sysadmin, to support the university's biomolecular research community."
+"Co-designed, launched, and managed a bespoke Cryo-EM cluster, enabling 7x userbase growth in months, and efficient processing of expensive and voluminous biomolecular particle data"
 
-- Met a pressing need for efficient resource allocation when userbase grew 9x in a few months
-- Visual desktop for the complex CryoEM stack 
-- User containers so they can install without risking breaking the cluster's base system
-- CryoSPARC web portal accessible directly at cryosparc.analytical.unsw.edu.au
-- Fair share queue with easy queue commands
-- Utilised existing GPU servers with a donation of flash storage from central Research Technology Services
-- Guided the implementation by talented HPC sysadmin to most suit scientist needs
-- Authored the [user documentation](Discworld Field Guide], tailor-made to be approachable to biomolecular researchers who have encountered a need for clustered computing
-- [Laid down the law](Laws of Discworld)
+Cluster Design & Hardware
+-Utilised existing GPU servers with donated flash storage from central Research Computing
+-Guided implementation with talented junior HPC sysadmin to meet scientists' needs
 
-MarkDown convert my Confluence docs and put alongside "Presentations" in my GitHub
-Release a month or two after go live
+Software & Usability
+-Interactive visual desktop for the complex Cryo-EM stack
+-Containerised user environments allowing safe personal tool installation
+-cryoSPARC web portal: cryosparc.analytical.unsw.edu.au
+-Fair-share queue with custom-aliased simple commands
+
+Documentation & Policies
+-Authored the "DiscWorld Field Guide" tailored to be approachable for biomolecular researchers
+-Established “Laws of DiscWorld” to ensure reproducibility and responsible usage
+-Ensured compliance with fair behaviour in shared pooled resources, and best use of scientific computing
+ 

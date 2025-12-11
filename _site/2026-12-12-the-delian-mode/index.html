@@ -25,29 +25,27 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 
 
 
-  <meta name="robots" content="noindex">
-
 
 
   
     
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Build | Keiran Rowell</title>
+<title>Keiran Rowell | Science Education Computing</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Build" />
+<meta property="og:title" content="Keiran Rowell" />
 <meta name="author" content="<Keiran> <Rowell>" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers." />
-<meta property="og:description" content="This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers." />
-<link rel="canonical" href="http://localhost:4000/docs/build/" />
-<meta property="og:url" content="http://localhost:4000/docs/build/" />
+<meta name="description" content="Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry." />
+<meta property="og:description" content="Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry." />
+<link rel="canonical" href="http://localhost:4000/2026-12-12-the-delian-mode/" />
+<meta property="og:url" content="http://localhost:4000/2026-12-12-the-delian-mode/" />
 <meta property="og:site_name" content="Keiran Rowell" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Build" />
+<meta property="twitter:title" content="Keiran Rowell" />
 <meta name="google-site-verification" content="eVRBCHg11T3gZnDg29j0bZI_jEGJECQshA49YXky_ns" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"<Keiran> <Rowell>"},"description":"This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.","headline":"Build","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/rowell_avatar.png"},"name":"<Keiran> <Rowell>"},"url":"http://localhost:4000/docs/build/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"<Keiran> <Rowell>"},"description":"Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry.","headline":"Keiran Rowell","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/rowell_avatar.png"},"name":"<Keiran> <Rowell>"},"url":"http://localhost:4000/2026-12-12-the-delian-mode/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,7 +79,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.2.1" />
 
 
-<link rel="alternate" href="http://localhost:4000/docs/build/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/2026-12-12-the-delian-mode/" hreflang="en">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Keiran Rowell" />
 
@@ -249,16 +247,7 @@ Left here for reference, feel free to delete.
       <li>
         
           <span>/</span>
-          
-          
-          <a href="/docs/">docs</a>
-        
-      </li>
-    
-      <li>
-        
-          <span>/</span>
-          <span>build</span>
+          <span>2026-12-12-the-delian-mode</span>
         
       </li>
     
@@ -266,92 +255,17 @@ Left here for reference, feel free to delete.
 </ul></nav>
   <article class="page mb6" role="article">
   <header>
-    <h1 class="page-title">Build</h1>
+    <h1 class="page-title"></h1>
     
 
 
 
-  
-    <div class="hr pb0"></div>
-  
+  <div class="hr pb0"></div>
 
 
   </header>
 
-  <p>This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.</p>
-
-<ol id="markdown-toc">
-  <li><a href="#building-locally" id="markdown-toc-building-locally">Building locally</a></li>
-  <li><a href="#building-locally-with-latent-semantic-analysis" id="markdown-toc-building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</a></li>
-  <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
-</ol>
-
-<h2 id="building-locally">Building locally</h2>
-<p>When building Hydejack it is important to set the environment variable <code class="language-plaintext highlighter-rouge">JEKYLL_ENV</code> to <code class="language-plaintext highlighter-rouge">production</code>.
-Otherwise the output will not be minified. Building itself happens via Jekyll’s <code class="language-plaintext highlighter-rouge">build</code> command.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build
-</code></pre></div></div>
-
-<p>This will generate the finished static files in <code class="language-plaintext highlighter-rouge">_site</code>,
-which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
-
-<h2 id="building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</h2>
-<p>By default, related posts are simply the most recent posts.
-Hydejack modifies this a bit, by showing the most recent posts of the same category or tag.
-However, the results are still pretty “unrelated”.
-To provide better results, Jekyll supports <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">latent semantic analysis</a> via <a href="http://www.classifier-reborn.com/"><code class="language-plaintext highlighter-rouge">classifier-reborn</code></a>’s
-<a href="http://www.classifier-reborn.com/lsi">Latent Semantic Indexer</a></p>
-
-<p>To use the <abbr title="Latent Semantic Indexer">LSI</abbr>, you first have to disable Hydejack’s default behavior,
-by setting <code class="language-plaintext highlighter-rouge">use_lsi: true</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key in your config file.</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
-<span class="na">hydejack</span><span class="pi">:</span>
-  <span class="na">use_lsi</span><span class="pi">:</span> <span class="no">true</span>
-</code></pre></div></div>
-
-<p>Then, you have to run <code class="language-plaintext highlighter-rouge">jekyll build</code> with the <code class="language-plaintext highlighter-rouge">--lsi</code> flag:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build <span class="nt">--lsi</span>
-</code></pre></div></div>
-
-<p>Note that this may take a long time.
-Once it is finished, the generated static files will be located in the <code class="language-plaintext highlighter-rouge">_site</code> directory,
-which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
-
-<h2 id="github-pages">GitHub Pages</h2>
-<p>If you’re using the Starter Kit for GitHub pages, all you have to do is push your repository:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git add <span class="nb">.</span>
-<span class="nv">$ </span>git commit <span class="s2">"Update"</span>
-<span class="nv">$ </span>git push origin master
-</code></pre></div></div>
-
-<!-- ## GitHub Pages
-To deploy to GitHub Pages, the steps are:
-
-~~~bash
-$ cd _site
-$ git init # you only need to do this once
-$ git remote add origin <github_remote_url> # you only need to do this once
-$ git add .
-$ git commit -m "Build"
-$ git push origin master:<remote_branch>
-$ cd ..
-~~~
-
-`github_remote_url`
-: Find this on your repository's GitHub page.
-
-`remote_branch`
-: Either `master` for "user or organization pages", or `gh-pages` for "project pages"
-
-More on [user, organization, and project pages](https://help.github.com/articles/user-organization-and-project-pages/). -->
-
-<!-- Continue with [Advanced](/docs/advanced/){:.heading.flip-title}
-{:.read-more} -->
-
+  
 
 </article>
 
