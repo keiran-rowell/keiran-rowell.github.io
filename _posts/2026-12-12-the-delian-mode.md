@@ -91,6 +91,12 @@ While the radios felt muted, The War on Terror was remote, dispersed, and silent
 
 This created the conditions where the world lived under the constant drone of anxiety, never knowing where it would strike next. Swiftly to follow were legal memoranda [massively expanding surveillance activities](https://en.wikipedia.org/wiki/Patriot_Act), making ['enhanced interrogation' legally permissible](https://en.wikipedia.org/wiki/Torture_Memos), giving the president significant executive authority over the [largest federal internal security organisation created since the end of WWII](https://www.dhs.gov/homeland-security-act-2002), and unilateral engagement in overseas conflicts by the executive without going through Congress or the [War Powers Act](https://en.wikipedia.org/wiki/War_Powers_Resolution) by not formally declaring war. Because after all, [wars end](https://youtu.be/RXUqJC3rXV0?si=ss5X714wTySJ41TW). The world's police had become the world's SWAT team.   
 
+---
+
+> Any musical innovation is full of danger to the whole State, and ought to be prohibited... when modes of music change, the fundamental laws of the State always change with them.  
+
+--- Plato, *The Republic* (Benjamin Jowett's translation)
+
 ### Noise as a Resistance 
 
 Even in eras when power feels absolute and alternatives seem erased, small acts of rebellion persisted —-- sometimes in music, sometimes in code, sometimes in the quiet persistence of niche communities. The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Under austere conditions, others turned the new wave rougher and more combative --- into punk.
@@ -110,9 +116,7 @@ The dissolution of this noisy resistance movement resulted in underground and in
 
 ### Digital Palimpsests
 
-%This needs to be expanded into a coherent section
-
-% Digital audio workstations now provide a near-infinite collection of sound banks and samples, as long as the gestalt sound was generated somewhere, somehow
+The digital audio workstation (DAW) [evolved from early synhtesis machines](https://www.musicradar.com/news/daphne-oram-oramics-daw), and now provide a near-infinite collection of sound banks and samples, as long as the gestalt sound was generated somewhere, somehow
 
 
 Ain't it funny how Delia's [meat-and-veggies synth experiments](https://youtu.be/jpdiMcEeTJA?si=gtoC47FIZ5K6xdaa) re-emerged as a sample in [2016's most lauded experimental hip-hop album](https://youtu.be/LVyGxlgeAjc?si=CC0S1o0nTOJHlIu2). Such sonic overlaying is no accident, it's the very origins of hip-hop's Disc Jockey culture, and continued source of fun in crate digging at a record fair. 
@@ -121,7 +125,7 @@ The reverberations of early synth warbles are reproduced into the 90s, with the 
 
 --- 
 
-Computers used to be physical monoliths. They filled entire rooms, took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride (see: [ENIAC](https://almanac.upenn.edu/archive/v42/n18/eniac.html), [EDSAC](https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge) [UK], [MESM](https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/) [USSR], [CSIRAC](https://cis.unimelb.edu.au/about/history/csirac) [AU], [WEIZAC](https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html) [IL], [TAC](https://museum.ipsj.or.jp/en/computer/dawn/0021.html) [JP], *etc*). 
+Computers used to be physical monoliths. They [filled entire rooms](/images/csirac.jpg), took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride (see: [ENIAC](https://almanac.upenn.edu/archive/v42/n18/eniac.html), [EDSAC](https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge) [UK], [MESM](https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/) [USSR], [CSIRAC](https://cis.unimelb.edu.au/about/history/csirac) [AU], [WEIZAC](https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html) [IL], [TAC](https://museum.ipsj.or.jp/en/computer/dawn/0021.html) [JP], *etc*). 
 
 These national behemoths did not dominate for long. Computer luminaries like [Grace Hopper advocating for systems involving smaller, distributed computing machines](https://archive.computerhistory.org/resources/text/Oral_History/Hopper_Grace/102702026.05.01.pdf). Information exchange and data sharing was cracked wide open by computer networking pioneered at the ARPA and RAND agencies, with Stanford and UCLA the first nodes joined together in 1969 to grow into the [US-wide ARPANET in the 1970s](https://en.wikipedia.org/wiki/File:Arpanet_logical_map,_march_1977.png). By the 1980s [symposia on distributed computing](https://www.podc.org/) were held and [Local Area Networks](https://lovetechai.com/history-of-lan/) began to spring up. But the Internet of the World Wide Web as we know it was only formed in the 90s, built upon a common communication protocol (TCP/IP), the hypertext system of linked information [proposed at the world's largest particle physics institute](https://info.cern.ch/hypertext/WWW/History.html), the [WorldWideWeb](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) browser developed to surf the 'net, and from the mid-90s onwards the "browser wars" [saw software vie for market share](https://youtu.be/Hdit5-yFHI8?si=YU_D1uUt8_7J4z6o).
 
