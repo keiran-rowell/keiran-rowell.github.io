@@ -25,19 +25,19 @@ The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) h
 
 ### Forgotten Federations
 
-The Delian league was an anti-Persian Empire defensive alliance, after repelling the largest invasion force the Aegean had ever seen. It united the smaller Greek city-states --- 150--200+ at its peak--- against the dominance of the continental threats. Its symbolic core was in Delos, where the Treasury was kept. The members of the alliance paid into the *phoros* tribute systems which provided funds, ships, manpower for the league. The island of Delos had practical advantages: it was central to the Aegean, far flung from any dominant city states, and symbolic power: it was neutral territory controlled by no-one, and was long-sacred as the birthplace of Apollo and Artemis and so hopefully inviolable.  
+The Delian league was an anti-Persian Empire defensive alliance, after repelling the largest invasion force the Aegean had ever seen. It united the smaller Greek city-states ---150--200+ at its peak--- against the dominance of the continental threats. Its symbolic core was in Delos, where the Treasury was kept. The members of the alliance paid into the *phoros* tribute systems which provided funds, ships, manpower for the league. The island of Delos had practical advantages: it was central to the Aegean, far flung from any dominant city states, and symbolic power: it was neutral territory controlled by no-one, and was long-sacred as the birthplace of Apollo and Artemis and so hopefully inviolable.  
 
-This alliance among equals, where the *phoros* was paid according to the population, means, and resources of each island city-state lasted in true form for less than 25 years, shattered by a hollowing out alliance structure. In 454 BCE the accumulated treasury was relocated from Delos straight to Athens --- under the justification of security, while also in reality accomplishing fiscal control. Voluntary contributions into the league were now mandatory, the Treasury re-appropriated for the beautification of Athens, and Athens began to dictate the politics of other city-states. States which tried to leave were kept in the league by military force, the *phoros* increased, and the tribute paid to Athens from client city states was [totted up in stone for all to see](https://www.davidgill.co.uk/attica/em_atl_578.jpg). In this way all tributaries flowed back to the Athenian well. The Athenian hegemony began to impose democratic government structures across the region. The centre that brought together the League grew too powerful. Sparta, often steadfast and unafraid to be bellicose, grew weary of growing imperial ambitions from Athens, and in the Peloponnesian War that followed Sparta reversed the power structure using the support of the Persian Empire to crush Athens, waging shameless total war, and bringing an end to the Ancient Greek Golden Era as the Aegean states became Spartan subjects.    
+This alliance among equals, where the *phoros* was paid according to the population, means, and resources of each island city-state lasted in true form for less than 25 years, shattered by a hollowing out alliance structure. In 454 BCE the accumulated treasury was relocated from Delos straight to Athens --- under the justification of security, while also in reality accomplishing fiscal control. Voluntary contributions into the league were now mandatory, the treasury re-appropriated for the glorification of Athens, and Athens began to dictate the politics of other city-states. States which tried to leave were kept in the league by military force, the *phoros* increased, and the tribute paid to Athens from client city states was [totted up in stone for all to see](https://www.davidgill.co.uk/attica/em_atl_578.jpg). In this way all tributaries flowed back to the Athenian well. The Athenian hegemony began to impose democratic government structures across the region. The centre that brought together the League grew too powerful. Sparta, often steadfast and unafraid to be bellicose, grew weary of growing imperial ambitions from Athens, and in the Peloponnesian War that followed Sparta reversed the power structure using the support of the Persian Empire to crush Athens, waging shameless total war, and bringing an end to the Ancient Greek Golden Era as the Aegean states became Spartan subjects.    
 
 
 Athena was the goddess of wisdom and strategic warfare. Moreover, as *Athena Polias* ('Athena of the City') she was protector of the *polis* --- civic life, the city-state, democratic institutions. 
-
 
 
 The impulse to federate, to balance local autonomy with central authority, echoes down the centuries, even if the voices of the *polis* are silent in our history. A resonance resurfaces during experiments in democracy of the early United States.
 
 ---
 
+### Federalism Returns
 Federalist papers
 
 'Hamilton' connection
@@ -54,6 +54,8 @@ Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds inter
 ---
 
 The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echoc hamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.  
+
+### Resistance as a Noise
 
 % Delia's inspiration of the air-raid siren into synthesised repetitive sound. Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. Video of [her demonstrating synthesis](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ). [Wendy Carlos as well](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
 % Physics and determining waves. 
@@ -93,7 +95,7 @@ This created the conditions where the world lived under the constant drone of an
 
 ---
 
-Athena> Any musical innovation is full of danger to the whole State, and ought to be prohibited... when modes of music change, the fundamental laws of the State always change with them.  
+> Any musical innovation is full of danger to the whole State, and ought to be prohibited... when modes of music change, the fundamental laws of the State always change with them.  
 
 --- Plato, *The Republic* (Benjamin Jowett's translation)
 
@@ -125,7 +127,7 @@ The reverberations of early synth warbles are reproduced into the 90s, with the 
 
 --- 
 
-Computers used to be physical monoliths. They [filled entire rooms](/images/csirac.jpg), took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride (see: [ENIAC](https://almanac.upenn.edu/archive/v42/n18/eniac.html), [EDSAC](https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge) [UK], [MESM](https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/) [USSR], [CSIRAC](https://cis.unimelb.edu.au/about/history/csirac) [AU], [WEIZAC](https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html) [IL], [TAC](https://museum.ipsj.or.jp/en/computer/dawn/0021.html) [JP], *etc*). 
+Computers used to be physical monoliths. They [filled entire rooms](/images/csirac.jpg), took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride. See: [ENIAC](https://almanac.upenn.edu/archive/v42/n18/eniac.html), [EDSAC](https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge) [UK], [MESM](https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/) [USSR], [CSIRAC](https://cis.unimelb.edu.au/about/history/csirac) [AU], [WEIZAC](https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html) [IL], [TAC](https://museum.ipsj.or.jp/en/computer/dawn/0021.html) [JP], *etc*... 
 
 These national behemoths did not dominate for long. Computer luminaries like [Grace Hopper advocating for systems involving smaller, distributed computing machines](https://archive.computerhistory.org/resources/text/Oral_History/Hopper_Grace/102702026.05.01.pdf). Information exchange and data sharing was cracked wide open by computer networking pioneered at the ARPA and RAND agencies, with Stanford and UCLA the first nodes joined together in 1969 to grow into the [US-wide ARPANET in the 1970s](https://en.wikipedia.org/wiki/File:Arpanet_logical_map,_march_1977.png). By the 1980s [symposia on distributed computing](https://www.podc.org/) were held and [Local Area Networks](https://lovetechai.com/history-of-lan/) began to spring up. But the Internet of the World Wide Web as we know it was only formed in the 90s, built upon a common communication protocol (TCP/IP), the hypertext system of linked information [proposed at the world's largest particle physics institute](https://info.cern.ch/hypertext/WWW/History.html), the [WorldWideWeb](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) browser developed to surf the 'net, and from the mid-90s onwards the "browser wars" [saw software vie for market share](https://youtu.be/Hdit5-yFHI8?si=YU_D1uUt8_7J4z6o).
 
@@ -156,7 +158,9 @@ MIT, IBM, and DEC [reflected on the impacts of Project Athena partway through](h
 
 --- Dr Joel Moses, then head of the Electrical Engineering & Computer Science (EECS) 
 
-Distributed computing took rapid foothold outside of MIT by the early 90s because it was *useful*. Several US and some international campuses started using an implementation (DECathena, now [Debathena](https://debathena.mit.edu/)), though invariable the protocols and hardware implementations changed with the frenetic obslence pace of the computing industry. The impact was conceptual, the model was no longer the monolith "supercomputer", but instead users work at domestic `clients` accessing distributed `servers` (nowdays often a "[Beowulf cluster](https://spinoff.nasa.gov/Spinoff2020/it_1.html)" of commodity computing parts). Computing was now non-local and the arc of the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services.  - Fediverse, but we'll focus on raw compute not communication
+Distributed computing took rapid foothold outside of MIT by the early 90s because it was *useful*. Several US and some international campuses started using an implementation (DECathena, now [Debathena](https://debathena.mit.edu/)), though invariable the protocols and hardware implementations changed with the frenetic obslence pace of the computing industry. The impact was conceptual, the model was no longer the monolith "supercomputer", but instead users work at domestic `clients` accessing distributed `servers` (nowdays often a "[Beowulf cluster](https://spinoff.nasa.gov/Spinoff2020/it_1.html)" of commodity computing parts). Computing was now non-local and the arc of technological the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services. 
+ - Cloud computing and social media oligopolies
+ - Fediverse, but we'll focus on raw compute not communication
 
 Section on the transformative federated computing projects:
 - Grid computing
@@ -190,7 +194,7 @@ Forgotten Federations
 Buidling of Empires
 Fascism's Malignant Noise 
 Sirens Into Songs (Delia, Radiophonic Workshop, civic project)
-1There Is No Alternative (Thatcher, neoliberalism, defunding)
+There Is No Alternative (Thatcher, neoliberalism, defunding)
 Noise As Resistance (Industrial, Cosey, political critique)
 Digital Palimpsests (Web centralization, lost digital futures)
 Federation Returns (Mastodon, scientific computing, Flux scheduler cross-institutional clusters)
@@ -256,7 +260,7 @@ The palimpsest is the internet centralising to platforms web 1.0 -> web 2.0 -> f
   - The colonial outposts preserved what the imperial centre discarded.
   - The funding cuts due to neocon government economics.
 - Also people thought synthesised music could be psychological dangerous, BBC health and safety imposed a limit of 3 months in the Radiophonic Workshop to avoid prolonged exposure to alternative frequencies. 
-#  - literal fear of alternative frequencies
+%  - literal fear of alternative frequencies
 - It became DANCE MUSIC. Free of content and structured around repition for pure hedonism. (link to Delia's [offhand prototehcno track](https://youtu.be/vwQIgGQLOQ8?si=Yf1WghFeNgDIemjQ), first techno beat)
   - I think my take on Dance Music is there's a loss of civic purpose, but also a freedom from narrative and official record. You can just be, dance, exist, have fun, you don't need to *serve a state purpose or national cause*
 - The early synths pioneer were often unconventional in social categories
