@@ -18,10 +18,9 @@ tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC comp
  
 ---
 
+The Lycian League lasted for hundreds of years (constituted *ca.* 2<sup>nd</sup> century BCE--43 CE) as an ancient democratic alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Lycian civilisation itself dates from the Bronze Age. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the convential narrative of history is of battles and states begat in blood.
 
-The Lycian League lasted for hundreds of years (constituted ca. 2nd century BCE -- 43 CE) as an ancient democratic alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Lycian civilisation itself dates from the Bronze Age. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
-
-The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) hewn into the cliffs of Türkiye and [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg). Despite an early democratic model, effectively repelling powerful imperial neighbours, and retaining some autonomy even after annexation as the final Roman colony in Anatolia in 43 CE, their legacy dissipated except amongst a few scholars.
+The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) hewn into the cliffs of Türkiye and stunning [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg). Despite an early democratic model, effectively repelling powerful imperial neighbours, and retaining some autonomy even after annexation as the final Roman colony in Anatolia in 43 CE, their legacy dissipated except amongst a few scholars.
 
 ### Forgotten Federations
 
@@ -40,23 +39,20 @@ Federalist papers
 
 Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds interest rates, vendor of US Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical [runaway success](https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m). It was wildly popular and audiences were humming about *The Room Where it Happens* just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in government would be brought to an end by a democratically elected president who would [proceed to dismantle the checks and balances on the reins of power](https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/).
 
-### Empire Building
-
-- America as the isolationist state turning to the 'World's Police' after being drawn into WWII
-- Germany and expansion into neighbouring democracies that were drawing back into themselves as the imperial project collapsed
-- The thousand year realm myth, destroyed in 12.
-- The centre of the hegemon was no longer safe with modern technological developments. With the V2 you could hit the capital regardless of whether the sun ever set on your holdings. There *is* no buffer
+The American experiment had positioned itself as the inheritor of Athenian democratic ideals, even as it transformed from isolationist republic into 'the world's police' after being drawn into WWII. But the war that brought America into global hegemony also revealed something new: modern technology had made the imperial center vulnerable. Germany's expansion into neighboring democracies ---promising a thousand-year realm that would collapse after just twelve--- set the battlefield for demonstrating that geographic distance no longer provided security. Long range bombers could level civic centres, and V2 rockets could strike the capital regardless of how far your territories extended. The hegemon was no longer safe from modern technological development, even if the sun never set on your empire. Isolation was over. There is no buffer.
 
 ---
 
-The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echoc hamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.  
+The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echo chamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.  
 
 ### Resistance as a Noise
+
+To transform industrial sounds into art required understanding what sound *is* and how synthesis could build it from base component frequencies.
 
 % Delia's inspiration of the air-raid siren into synthesised repetitive sound. Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. Video of [her demonstrating synthesis](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ). [Wendy Carlos as well](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
 % Physics and determining waves. 
 % The [Oramics machine](https://www.daphneoram.org/oramicsmachine/) of creating sound *from* the visual waves. 
-% Ruby Payne-Scott and radioastronomy. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
+% Ruby Payne-Scott and radioastronomy as listening to the electromagnetic waves of the universe. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
 % ABC logo is a wave: the Lissajou polynomial.
 
 ### Sirens Into Songs
