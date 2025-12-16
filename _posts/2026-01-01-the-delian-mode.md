@@ -19,9 +19,9 @@ tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC comp
 ---
 
 
-The Lycian league lasted for hundreds of years ([ca. years]) as an alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
+The Lycian League lasted for hundreds of years (constituted ca. 2nd century BCE -- 43 CE) as an ancient democratic alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Lycian civilisation itself dates from the Bronze Age. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the narrative of history is of battles and states begat in blood.
 
-The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) hewn into the cliffs of Türkiye and [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg), but their legacy dissipated except amongst a few scholars.
+The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) hewn into the cliffs of Türkiye and [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg). Despite an early democratic model, effectively repelling powerful imperial neighbours, and retaining some autonomy even after annexation as the final Roman colony in Anatolia in 43 CE, their legacy dissipated except amongst a few scholars.
 
 ### Forgotten Federations
 
@@ -29,11 +29,7 @@ The Delian league was an anti-Persian Empire defensive alliance, after repelling
 
 This alliance among equals, where the *phoros* was paid according to the population, means, and resources of each island city-state lasted in true form for less than 25 years, shattered by a hollowing out alliance structure. In 454 BCE the accumulated treasury was relocated from Delos straight to Athens --- under the justification of security, while also in reality accomplishing fiscal control. Voluntary contributions into the league were now mandatory, the treasury re-appropriated for the glorification of Athens, and Athens began to dictate the politics of other city-states. States which tried to leave were kept in the league by military force, the *phoros* increased, and the tribute paid to Athens from client city states was [totted up in stone for all to see](https://www.davidgill.co.uk/attica/em_atl_578.jpg). In this way all tributaries flowed back to the Athenian well. The Athenian hegemony began to impose democratic government structures across the region. The centre that brought together the League grew too powerful. Sparta, often steadfast and unafraid to be bellicose, grew weary of growing imperial ambitions from Athens, and in the Peloponnesian War that followed Sparta reversed the power structure using the support of the Persian Empire to crush Athens, waging shameless total war, and bringing an end to the Ancient Greek Golden Era as the Aegean states became Spartan subjects.    
 
-
-Athena was the goddess of wisdom and strategic warfare. Moreover, as *Athena Polias* ('Athena of the City') she was protector of the *polis* --- civic life, the city-state, democratic institutions. 
-
-
-The impulse to federate, to balance local autonomy with central authority, echoes down the centuries, even if the voices of the *polis* are silent in our history. A resonance resurfaces during experiments in democracy of the early United States.
+Athena is known as the goddess of wisdom and strategic warfare, symbolised by the wise owl. Moreover, as *Athena Polias* ('Athena of the City') she was protector of the *polis* --- civic life, the city-state, democratic institutions. This model was seen by Athenians to be superior and they used the wealth of their splendid Athens (bolstered by *phoros* revenue) and naval domination to export this governance model to the periphery. Athens, under the aegis of the goddess of the civic state, could not resist overriding the isolated autonomy of the league it drew together. The impulse to federate, to balance local autonomy with central authority, echoes down the centuries, even if the voices of the *polis* are silent in our history. A resonance resurfaces during experiments in democracy of the early United States.
 
 ---
 
@@ -48,7 +44,7 @@ Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds inter
 
 - America as the isolationist state turning to the 'World's Police' after being drawn into WWII
 - Germany and expansion into neighbouring democracies that were drawing back into themselves as the imperial project collapsed
-- The thousand year realm myth
+- The thousand year realm myth, destroyed in 12.
 - The centre of the hegemon was no longer safe with modern technological developments. With the V2 you could hit the capital regardless of whether the sun ever set on your holdings. There *is* no buffer
 
 ---
@@ -79,7 +75,7 @@ Electronic Dance Music (if that category is even definable) competes with other 
 
 Delia Derbyshire would work late at night in the BBC Radiophonic Workshop, where no one could supervise her obsession. Magnetic tape, meticulously spliced by hand with a razor blade, hung around the rooms --- a hand crafted sample bank. Within the hierarchy of the prestigious institution of the BBC the cover of night gave Delia creative free rein, her sounds could echo the halls and delay effects were instantiated in real physical distance. She held the record for the longest tape loop, trailing off from the read heads it was run in streamers through doors and along the longest corridor in London. The Workshop was filled with oscillators, tone generators, and wobbulators she didn't need to share at night. This was where air-raid sirens became music.
  
-The European counterparts to the Radiophonic Workshop (the [*Groupe de Recherches Musicales*](https://120years.net/the-grm-group-and-rtf-electronic-music-studio-pierre-schaeffer-jacques-poullin-france-1951/) [FR], the [*Westdeutscher Rundfunk Köln*](http://120years.net/wordpress/wdr-electronic-music-studio-germany-1951/) [DE]  were seen as *expressly* artistic studios. The [*Funkhaus*](https://www.funkhaus-berlin.net/) [GDR] in East Berlin was the most sprawling recording studios in the world, and extensively wiretapped by the surveillance obsessed Stasi. In contrast the BBC Radiophonic had an express utility, to create sonic effects for radio (*The Hitchhiker's Guide to the Galaxy*) and incidental music for TV (*Doctor Who*), particularly serving the civic purpose of British educational broadcasts. An otherworldly creative soundset put to use to reach millions in the sonic stings of70s/80s school documentaries, now spoofed in [*'Look Around You'*](https://youtu.be/z2myFLUDB74?si=3k2imbzdtBEAxc9i).  
+The European counterparts to the Radiophonic Workshop (the [*Groupe de Recherches Musicales*](https://120years.net/the-grm-group-and-rtf-electronic-music-studio-pierre-schaeffer-jacques-poullin-france-1951/) [FR], the [*Westdeutscher Rundfunk Köln*](http://120years.net/wordpress/wdr-electronic-music-studio-germany-1951/) [DE]  were seen as *expressly* artistic studios. The [*Funkhaus*](https://www.funkhaus-berlin.net/) [GDR] in East Berlin was the most sprawling recording studios in the world, and extensively wiretapped by the surveillance obsessed Stasi. In contrast the BBC Radiophonic had an express utility, to create sonic effects for radio (*The Hitchhiker's Guide to the Galaxy*) and incidental music for TV (*Doctor Who*), particularly serving the civic purpose of British educational broadcasts. An otherworldly creative soundset put to use to reach millions in the sonic stings of 70s/80s school documentaries, now spoofed in [*'Look Around You'*](https://youtu.be/z2myFLUDB74?si=3k2imbzdtBEAxc9i).  
 
 The BBC Radiophonic Workshop was [drawn to a close in 1998](https://doi.org/10.1093/acprof:oso/9780195368406.003.0006). With new technology much of its work could be outsourced, and despite being funded from the shared civic model of the TV licence, it had been given 5 years to demonstrate economic self-sustainability. Key figures left the workshop and it closed under this market logic. An inevitable foreclosure; if you follow government fiscal policy where the BBC licence fee is [not public money but taxpayer's money](https://youtu.be/4luBQ8b1j28) and a philosophy that really, [there is no such thing as a society](https://youtu.be/WhJvOKJCYP4?si=7YmWcwBZPSolZ7Hn). Though, one wonders how to continue running [children's programming that discusses the realpolitik](https://youtu.be/_G4dHRN2Dug) of keeping 'true' administrative continuity after the Vietnamese army deposed the *horrific*, brutal, atrocity ridden Communist Party of Kampuchea (Cambodia). 
 
@@ -159,9 +155,19 @@ MIT, IBM, and DEC [reflected on the impacts of Project Athena partway through](h
 
 --- Dr Joel Moses, then head of the Electrical Engineering & Computer Science (EECS) 
 
-Distributed computing took rapid foothold outside of MIT by the early 90s because it was *useful*. Several US and some international campuses started using an implementation (DECathena, now [Debathena](https://debathena.mit.edu/)), though invariable the protocols and hardware implementations changed with the frenetic obslence pace of the computing industry. The impact was conceptual, the model was no longer the monolith "supercomputer", but instead users work at domestic `clients` accessing distributed `servers` (nowdays often a "[Beowulf cluster](https://spinoff.nasa.gov/Spinoff2020/it_1.html)" of commodity computing parts). Computing was now non-local and the arc of technological the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services. 
+Distributed computing took rapid foothold outside of MIT by the early 90s because it was *useful*. Several US and some international campuses started using an implementation (DECathena, now [Debathena](https://debathena.mit.edu/)), though inevitably the protocols and hardware implementations changed with the frenetic obsolescence pace of the computing industry. The impact was conceptual, the model was no longer the monolith "supercomputer", but instead users work at domestic `clients` accessing distributed `servers` (nowdays often a "[Beowulf cluster](https://spinoff.nasa.gov/Spinoff2020/it_1.html)" of commodity computing parts). Computing was now non-local and the arc of technological the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services. 
+
+Web 2.0 centralisation. Athenian parallel more clearly staked? In the information economy knowledge became concentrated (Neo-Athens)
+ - Convenience and security centralised what was originally Web 1.0 home systems federated by LAN. Replacing static sites with far more interactive and social connection -- but hosted on only a handful of platforms.
  - Cloud computing and social media oligopolies
- - Fediverse, but we'll focus on raw compute not communication
+   - But slowly but surely voluntary participation came to hold cherished social information hostage. User data the tribute harvested to fill consumer markets. Not tallied in stone, but invisible extraction behind addictive UX and frictionless interfaces.
+Web 3.0 faux federalisation. Energy intensive proof-of-work to back nothing but staking a claim. Regardless of the promise held in this decentralised internet, I hear [Web3 is going just great](https://www.web3isgoinggreat.com/).
+
+
+> If you're not paying, you're the product
+--- Tim O'Reilly by way of Andres Lewis from Richard Serra & Carlota Schoolman
+
+ - Fediverse, but we'll focus on raw compute not communication. Federalisation still keeps communities somewhat fragmented into islands. A loss of reach and convenience.
 
 Section on the transformative federated computing projects:
 - Grid computing
