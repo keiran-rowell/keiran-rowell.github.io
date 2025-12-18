@@ -116,7 +116,7 @@ Ain't it funny how Delia's [meat-and-veggies synth experiments](https://youtu.be
 
 The reverberations of early synth warbles are reproduced into 90s computing culture ---  the [slightly surreal Windows 95 start-up sound](https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9) is an accompaniment to one of the [biggest corporate computing launches in tech history](https://www.bbc.com/audio/play/w3ct5yfs). Brian Eno, widely credited as crystallising the ambient music genre, had provided a synthetic sting heard every time a personal computer booted. This unnatural chime arrived as introduction to the Information Age. The American public were about to be [connected to everyone on the information super highway](https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx) when a "carpet bombing" campaign of free CDs (nearing half of CDs manufactured worldwide) brought [America Online](https://americanhistory.si.edu/collections/object/nmah_1395721).
 
-Now niche genres of sample music proliferate and fragment on popular platforms, such the literalist [PC music](https://pcmusic.info/) (a movement that hit a knockout with a <span style="color:#8ACE00">brat</span> summer), Synthwave nostalgically remixing 80s synth, shortly thereafter Vaporwave spoofing and reveling in internet consumerism, and even [Utopian Scholastic](https://youtu.be/6QOUNvMX-ws?si=wedkE2cE4AJ-LfFu) mining the nostalgic sound of the optimism of the civic educational project.  
+Now niche genres of sample music proliferate and fragment on popular platforms, such the literalist [PC music](https://pcmusic.info/) (a movement that hit a knockout with a <span style="color:#8ACE00">brat</span> summer), Synthwave nostalgically remixing 80s synth, shortly thereafter Vaporwave spoofing and reveling in internet consumerism, and even [Utopian Scholastic](https://youtu.be/6QOUNvMX-ws?si=wedkE2cE4AJ-LfFu) mining the nostalgic sound of the optimism of the civic educational project. Now with featurful web browsers and distrubted networking you can run a synth jam with strangers [entirely in your browser](https://nudel.cc/). 
 
 --- 
 
@@ -174,16 +174,16 @@ Section on the transformative federated computing projects:
 
 ---
 
-### The Owl of Minverva 🦉 
+### The Owl of Minerva 🦉 
 
 Wisdom takes flight only at dusk, often when it's too late.
 
 Why do things continue to collapse into imperial tributary systems until there's a technological or social systematic shock?
 Do lost futures only become visible when an era has already past, or because they only become visible in the murky twilight?
 
-Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn't mean we're guaranteed a future free from tribute to a few monoliths. When power projection moved slowly, the civic world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant.
+Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn't mean we're guaranteed a future not held by a few monoliths. Centralisation allows for seamlessness at scale. The Parthenon and cultural splendour of Athens we still admire in history was built and protected by distributed tribute. When power projection moved slowly, the civic world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant.
 
-Yet the alternatives keep emerging --- Athena persists, new federations form. The twilight offers a moment to breathe, to choose alternate futures.
+Yet the alternatives keep emerging --- Athena *polias* persists, new federations form. The twilight offers a moment to breathe, to choose alternate futures.
 Let's hope social coordination and civic productivity can free up our future, one not driven to mass unrest or conflict as its remaining system shock mechanism.
 
 
