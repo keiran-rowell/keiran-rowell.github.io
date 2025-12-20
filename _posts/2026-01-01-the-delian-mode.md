@@ -10,7 +10,38 @@ tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC comp
 ---
 
 > Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
+> Personal reflective essay for interest, not academic historical analysis.
 > Not the views of any employers, obvs.
+
+---
+
+
+<style>
+  /* Force parchment colour personal signifier light mode */
+  body, .page, .content, article {
+    background-color: #faf8f3 !important; /* beige/paper */
+    color: #000 !important; /* black text */
+  }
+  
+  /* Override any dark mode text colors */
+  p, h1, h2, h3, h4, h5, h6, li, blockquote {
+    color: #000 !important;
+  }
+ 
+  /* Tags */
+  .ellipsis {
+    color: #000 !important;
+  }
+ 
+  /* Keep links visible */
+  a {
+    color: #0066cc !important; /* or whatever link color you want */
+  }
+  
+  a:visited {
+    color: #551a8b !important;
+  }
+</style>
 
 ---
 
@@ -97,7 +128,7 @@ This created the conditions where the world lived under the constant drone of an
 
 ### Noise as a Resistance 
 
-Even in eras when power feels absolute and alternatives seem erased, small acts of rebellion persisted —-- sometimes in music, sometimes in code, sometimes in the quiet persistence of niche communities. The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Under austere conditions, others turned the new wave rougher and more combative --- into punk.
+Even in eras when power feels absolute and alternatives seem erased, small acts of rebellion persisted --- sometimes in music, sometimes in code, sometimes in the quiet persistence of niche communities. The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics --- turning the [human voice into another synthesizer](https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw). Under austere conditions, others turned the new wave rougher and more combative --- into punk.
 
 This was a time that the official broadcasters would suffer the occasional subversive performance: such as [Elvis Costello getting permanently banned from Saturday Night Live](https://youtu.be/eD_24nDzkeo?si=yk9AMf1ox-VP8iQz); [London Calling](https://youtu.be/EfK-WX2pa8c?si=osOvS_wp2XYRTmOV) snuck into the radio as a hit, though their more clearly read songs faced the ire of BBC censors; and [Sex Pistols were banned from BBC airplay](https://youtu.be/q31WY0Aobro?si=2pajhGGpSqThZw3Q), though it wasn't only punk but [Johnny Rotten outing widely known predatory behaviour](https://youtu.be/v4OzI9GYag0?si=NCC8ita85r6Ebqcd) at the BBC that got them the boot.
 
@@ -152,7 +183,6 @@ MIT, IBM, and DEC [reflected on the impacts of Project Athena partway through](h
 
 > "I felt that we would know Athena was successful if we were surprised by some of the applications. It turned out that our surprises were largely in the humanities."
 
-
 --- Dr Joel Moses, then head of the Electrical Engineering & Computer Science (EECS) 
 
 Distributed computing took rapid foothold outside of MIT by the early 90s because it was *useful*. Several US and some international campuses started using an implementation (DECathena, now [Debathena](https://debathena.mit.edu/)), though inevitably the protocols and hardware implementations changed with the frenetic obsolescence pace of the computing industry. The impact was conceptual, the model was no longer the monolith "supercomputer", but instead users work at domestic `clients` accessing distributed `servers` (nowdays often a "[Beowulf cluster](https://spinoff.nasa.gov/Spinoff2020/it_1.html)" of commodity computing parts). Computing was now non-local and the arc of technological the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services. 
@@ -167,6 +197,7 @@ Web 3.0 faux federalisation. Energy intensive proof-of-work to back nothing but 
 
 
 > If you're not paying, you're the product
+
 --- Tim O'Reilly by way of Andres Lewis from Richard Serra & Carlota Schoolman
 
  - Fediverse, but we'll focus on raw compute not communication. Federalisation still keeps communities somewhat fragmented into islands. A loss of reach and convenience.
