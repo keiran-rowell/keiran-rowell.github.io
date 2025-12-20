@@ -35,6 +35,10 @@ Athena is known as the goddess of wisdom and strategic warfare, symbolised by th
 ### Federalism Returns
 Federalist papers
 
+ - In Federalist Papers [9](https://avalon.law.yale.edu/18th_century/fed09.asp), [16](https://avalon.law.yale.edu/18th_century/fed16.asp), [45](https://avalon.la
+       │ w.yale.edu/18th_century/fed45.asp) and held as an example the United States of America being a confederation of states that would not fall to tyranny.
+
+
 'Hamilton' connection
 
 Hamilton. Creator of the Federal Reserve; *the* global benchmark for Funds interest rates, vendor of US Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical [runaway success](https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m). It was wildly popular and audiences were humming about *The Room Where it Happens* just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in government would be brought to an end by a democratically elected president who would [proceed to dismantle the checks and balances on the reins of power](https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/).
@@ -73,11 +77,11 @@ Delia Derbyshire would work late at night in the BBC Radiophonic Workshop, where
  
 The European counterparts to the Radiophonic Workshop (the [*Groupe de Recherches Musicales*](https://120years.net/the-grm-group-and-rtf-electronic-music-studio-pierre-schaeffer-jacques-poullin-france-1951/) [FR], the [*Westdeutscher Rundfunk Köln*](http://120years.net/wordpress/wdr-electronic-music-studio-germany-1951/) [DE]  were seen as *expressly* artistic studios. The [*Funkhaus*](https://www.funkhaus-berlin.net/) [GDR] in East Berlin was the most sprawling recording studios in the world, and extensively wiretapped by the surveillance obsessed Stasi. In contrast the BBC Radiophonic had an express utility, to create sonic effects for radio (*The Hitchhiker's Guide to the Galaxy*) and incidental music for TV (*Doctor Who*), particularly serving the civic purpose of British educational broadcasts. An otherworldly creative soundset put to use to reach millions in the sonic stings of 70s/80s school documentaries, now spoofed in [*'Look Around You'*](https://youtu.be/z2myFLUDB74?si=3k2imbzdtBEAxc9i).  
 
-The BBC Radiophonic Workshop was [drawn to a close in 1998](https://doi.org/10.1093/acprof:oso/9780195368406.003.0006). With new technology much of its work could be outsourced, and despite being funded from the shared civic model of the TV licence, it had been given 5 years to demonstrate economic self-sustainability. Key figures left the workshop and it closed under this market logic. An inevitable foreclosure; if you follow government fiscal policy where the BBC licence fee is [not public money but taxpayer's money](https://youtu.be/4luBQ8b1j28) and a philosophy that really, [there is no such thing as a society](https://youtu.be/WhJvOKJCYP4?si=7YmWcwBZPSolZ7Hn). Though, one wonders how to continue running [children's programming that discusses the realpolitik](https://youtu.be/_G4dHRN2Dug) of keeping 'true' administrative continuity after the Vietnamese army deposed the *horrific*, brutal, atrocity ridden Communist Party of Kampuchea (Cambodia). 
+The BBC Radiophonic Workshop was [drawn to a close in 1998](https://doi.org/10.1093/acprof:oso/9780195368406.003.0006). With new technology much of its core work could be outsourced or superseded superseded, and despite being funded from the shared civic model of the TV licence, it had been given 5 years to demonstrate economic self-sustainability. Key figures left the workshop and it closed under this market logic. An inevitable foreclosure; if you follow government fiscal policy where the BBC licence fee is [not public money but taxpayer's money](https://youtu.be/4luBQ8b1j28) and a philosophy that really, [there is no such thing as a society](https://youtu.be/WhJvOKJCYP4?si=7YmWcwBZPSolZ7Hn). Though, one wonders how to continue running [children's programming that discusses the realpolitik](https://youtu.be/_G4dHRN2Dug) of keeping 'true' administrative continuity after the Vietnamese army deposed the *horrific*, brutal, atrocity ridden Communist Party of Kampuchea (Cambodia). 
 
 ### There is No Alternative
 
-I grew up in an age of unending neocon rule, and the complicity of [neoliberal alternatives](https://img.gifglobe.com/grabs/peepshow/S05E02/S05E02-iJmYPUVI-subtitled.jpg), throughout my childhood years. George Bush Jr had assumed his father's role in office (and resumed his father's war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What mattered was the simulation of success, and the [*projection* of victory](https://millercenter.org/americas-war-in-iraq/mission-accomplished-moment). 
+I grew up in an age of seemingly unending neocon rule, with neoliberal alternatives offering not much departure and acquiescing on foreign policy conflicts, throughout my childhood years. George Bush Jr had assumed his father's role in office (and resumed his father's war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What held sway was the simulation of success, and the [*projection* of victory](https://millercenter.org/americas-war-in-iraq/mission-accomplished-moment) in foreign policy. Nevertheless for the Anglosphere living standards were rising, it was an era of relative prosperity and Fukuyama's "end of history" appeared vindicated as the endpoint of ideological rifts in human governance.   
 
 There felt like a dearth of grassroots protest songs reaching mass broadcast during the Second Gulf War. There are no synths on American Idiot, straight pop-punk rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). US radio charts remained similarly silent on the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria.
 
@@ -102,7 +106,7 @@ The dissolution of this noisy resistance movement resulted in underground and in
 - Mergers of independents into majors; Rough Trade and 4AD survive as Beggars Group label holdings.
 - MTV became the commercial gatekeepers, you couldn't just sound good you needed to look good doing it.
 - Music piracy eroded record profitability, forcing reliance on touring and stadium-sized ticket sale boons.
-- Internet distribution meant the obscure found its audience, but leeps communities small and fragmented.
+- Internet distribution meant the obscure found its audience, but keeps communities small and fragmented.
 
 % Myths and Legendary Tapes to finish it off here. Last gasp of noise as a resistance, but it's a historical biopic nobody can acquire any more. This stuff is just cut up and weaved in to our mishmash digital weird world.
 
@@ -155,6 +159,8 @@ Distributed computing took rapid foothold outside of MIT by the early 90s becaus
 
 Web 2.0 centralisation. Athenian parallel more clearly staked? In the information economy knowledge became concentrated (Neo-Athens)
  - Convenience and security centralised what was originally Web 1.0 home systems federated by LAN. Replacing static sites with far more interactive and social connection -- but hosted on only a handful of platforms.
+- It *did* provide communication and collaboration and community to *everyone* regardless of technical skill
+- Connecting communites, niches, movements, collapsing space; without having to know managing servers. The technical barrier collapsed. Billions got a voice online that they wouldn't have had access to under Web 1.0's demands of knowing a set of tools separate from the human connection.
  - Cloud computing and social media oligopolies
    - But slowly but surely voluntary participation came to hold cherished social information hostage. User data the tribute harvested to fill consumer markets. Not tallied in stone, but invisible extraction behind addictive UX and frictionless interfaces.
 Web 3.0 faux federalisation. Energy intensive proof-of-work to back nothing but staking a claim. Regardless of the promise held in this decentralised internet, I hear [Web3 is going just great](https://www.web3isgoinggreat.com/).
@@ -179,9 +185,9 @@ Section on the transformative federated computing projects:
 Wisdom takes flight only at dusk, often when it's too late.
 
 Why do things continue to collapse into imperial tributary systems until there's a technological or social systematic shock?
-Do lost futures only become visible when an era has already past, or because they only become visible in the murky twilight?
+Do lost futures only become visible when an era has already passed, or because they only become visible in the murky twilight?
 
-Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn't mean we're guaranteed a future not held by a few monoliths. Centralisation allows for seamlessness at scale. The Parthenon and cultural splendour of Athens we still admire in history was built and protected by distributed tribute. When power projection moved slowly, the civic world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant.
+Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn't mean we're guaranteed a future not held by a few monoliths. Centralisation allows for seamlessness at scale. The Parthenon, cultural splendour and famous thought of Athens we still admire in history was built and protected by distributed tribute. When power projection moved slowly, the civic world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant.
 
 Yet the alternatives keep emerging --- Athena *polias* persists, new federations form. The twilight offers a moment to breathe, to choose alternate futures.
 Let's hope social coordination and civic productivity can free up our future, one not driven to mass unrest or conflict as its remaining system shock mechanism.
@@ -204,6 +210,8 @@ Federation Returns (Mastodon, scientific computing, Flux scheduler cross-institu
 Owl of Minerva (Athenian ideals, lost futures, hauntology)
 
 ---
+* Make sure I make the point that federations and centralised systems can exist *alongside* each other*
+
 This will be a break in style from the other content. It's more like my own mini 33 1/3rd. Myown 11 1/10th?
 
 I was going to open with the forgotten Lycians despite their logentivitiy the "Why has history forgotten a democratic league that lasted longer than all modern city-states and most empires. Is it because history is written as an account of "who conquered who" like the birthing branches of a family tree?"
