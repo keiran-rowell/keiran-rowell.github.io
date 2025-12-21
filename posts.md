@@ -8,7 +8,7 @@ grouped: true
 
 <ul>
   {% for post in site.posts %}
-    {% unless posts.categories contains 'writing' %}
+    {% unless post.categories contains 'writing' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
