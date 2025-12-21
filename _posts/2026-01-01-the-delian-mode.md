@@ -3,14 +3,13 @@ layout: post
 author: keiran
 title: "The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures"
 subtitle: "Why we keep forgetting federation and revert to centralisation"
-category: music 
+category: writing 
 tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC computing Athens federation 
 #image:
 #  path: /images/delia-in-front-of-synth.jpg
 ---
 
 > Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
-> Personal reflective essay for interest, not academic historical analysis.
 > Not the views of any employers, obvs.
 
 ---
