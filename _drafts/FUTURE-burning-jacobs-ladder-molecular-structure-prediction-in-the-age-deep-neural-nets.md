@@ -20,6 +20,10 @@ I'm afraid I might fade away
 - Facebook AI Research Labs releasing massive neural net molecular dataset, [OMol25](https://ai.meta.com/blog/meta-fair-science-new-open-source-releases/).
 - The dubiously grounded inferred Molecular Dyanmics of [BioEMU](https://doi.org/10.1126/science.adv9817)
 - Machine learning force-fields ["Molecular Simulations with a Pretrained Neural Network and Universal Pairwise Force Field"](https://doi.org/10.1021/jacs.5c09558)
+- GPU accelerated AI powered chemistry with NVIDIA:
+	- 
+- GPU accelerated AI powered chemistry with NVIDIA:
+   - https://developer.nvidia.com/blog/accelerating-ai-powered-chemistry-and-materials-science-simulations-with-nvidia-alchemi-toolkit-ops/https://developer.nvidia.com/blog/accelerating-ai-powered-chemistry-and-materials-science-simulations-with-nvidia-alchemi-toolkit-ops/
 - ["Platonic representation of foundation machine learning interatomic potentials"](https://arxiv.org/abs/2512.05349) and ["Universally Converging Representations of Matter Across Scientific Foundation Models"](https://arxiv.org/abs/2512.03750)
 - AlphaFold
 - RFDiffusion

@@ -1,8 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-11T14:02:48+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Keiran Rowell</title><subtitle>Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry.
-</subtitle><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><entry><title type="html">The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures</title><link href="http://localhost:4000/music/2026-12-12-the-delian-mode/" rel="alternate" type="text/html" title="The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures" /><published>2026-12-12T00:00:00+11:00</published><updated>2026-12-12T00:00:00+11:00</updated><id>http://localhost:4000/music/the-delian-mode</id><content type="html" xml:base="http://localhost:4000/music/2026-12-12-the-delian-mode/"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-21T21:13:35+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Keiran Rowell</title><subtitle>Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry.
+</subtitle><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><entry><title type="html">The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures</title><link href="http://localhost:4000/writing/2026-01-01-the-delian-mode/" rel="alternate" type="text/html" title="The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures" /><published>2026-01-01T00:00:00+11:00</published><updated>2026-01-01T00:00:00+11:00</updated><id>http://localhost:4000/writing/the-delian-mode</id><content type="html" xml:base="http://localhost:4000/writing/2026-01-01-the-delian-mode/"><![CDATA[<blockquote>
   <p>Content notice — mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
 Not the views of any employers, obvs.</p>
 </blockquote>
+
+<hr />
+
+<style>
+  /* Force parchment colour personal signifier light mode */
+  body, .page, .content, article {
+    background-color: #faf8f3 !important; /* beige/paper */
+    color: #000 !important; /* black text */
+  }
+  
+  /* Override any dark mode text colors */
+  p, h1, h2, h3, h4, h5, h6, li, blockquote {
+    color: #000 !important;
+  }
+ 
+  /* Tags */
+  .ellipsis {
+    color: #000 !important;
+  }
+ 
+  /* Keep links visible */
+  a {
+    color: #0066cc !important; /* or whatever link color you want */
+  }
+  
+  a:visited {
+    color: #551a8b !important;
+  }
+</style>
 
 <hr />
 
@@ -10,55 +39,55 @@ Not the views of any employers, obvs.</p>
 
 <hr />
 
-<p>The Lycian league lasted for hundreds of years as an alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Yet they’re barely known in modern times outside niche archaeological circles. Perhaps because they didn’t expand, they didn’t conquer, they didn’t have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record — the narrative of history is of battles and states begat in blood.</p>
+<p>The Lycian League lasted for hundreds of years (constituted <em>ca.</em> 2<sup>nd</sup> century BCE–43 CE) as an ancient democratic alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Lycian civilisation itself dates from the Bronze Age. Yet they’re barely known in modern times outside niche archaeological circles. Perhaps because they didn’t expand, they didn’t conquer, they didn’t have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record — the convential narrative of history is of battles and states begat in blood.</p>
 
-<p>The Lycians left behind some <a href="/images/lycian_cliff_tomb.jpg">monumental tombs</a> hewn into the cliffs of Türkiye and <a href="/images/lycian_griffin_sarcophagus.jpg">griffin-fringed sarcophagi</a>, but their legacy dissipated except amongst a few scholars.</p>
+<p>The Lycians left behind some <a href="/images/lycian_cliff_tomb.jpg">monumental tombs</a> hewn into the cliffs of Türkiye and stunning <a href="/images/lycian_griffin_sarcophagus.jpg">griffin-fringed sarcophagi</a>. Despite an early democratic model, effectively repelling powerful imperial neighbours, and retaining some autonomy even after annexation as the final Roman colony in Anatolia in 43 CE, their legacy dissipated except amongst a few scholars.</p>
 
 <h3 id="forgotten-federations">Forgotten Federations</h3>
 
-<p>The Delian league was an anti-Persian Empire defensive alliance, with Athens as the powerful centre. (treasury moves from Delos to Athens, is that true? – yes 454 BCE for “safekeeping” but really to consolidate the monetary control. [double check])
-Intro about the Delian League.</p>
+<p>The Delian league was an anti-Persian Empire defensive alliance, after repelling the largest invasion force the Aegean had ever seen. It united the smaller Greek city-states —150–200+ at its peak— against the dominance of the continental threats. Its symbolic core was in Delos, where the Treasury was kept. The members of the alliance paid into the <em>phoros</em> tribute systems which provided funds, ships, manpower for the league. The island of Delos had practical advantages: it was central to the Aegean, far flung from any dominant city states, and symbolic power: it was neutral territory controlled by no-one, and was long-sacred as the birthplace of Apollo and Artemis and so hopefully inviolable.</p>
 
-<p>Athena was the goddess of wisdom and strategic warfare. Moreover, as <em>Athena Polias</em> (‘Athena of the City’) she was protector of the <em>polis</em> — civic life, the city-state, democratic institutions.</p>
+<p>This alliance among equals, where the <em>phoros</em> was paid according to the population, means, and resources of each island city-state lasted in true form for less than 25 years, shattered by a hollowing out alliance structure. In 454 BCE the accumulated treasury was relocated from Delos straight to Athens — under the justification of security, while also in reality accomplishing fiscal control. Voluntary contributions into the league were now mandatory, the treasury re-appropriated for the glorification of Athens, and Athens began to dictate the politics of other city-states. States which tried to leave were kept in the league by military force, the <em>phoros</em> increased, and the tribute paid to Athens from client city states was <a href="https://www.davidgill.co.uk/attica/em_atl_578.jpg">totted up in stone for all to see</a>. In this way all tributaries flowed back to the Athenian well. The Athenian hegemony began to impose democratic government structures across the region. The centre that brought together the League grew too powerful. Sparta, often steadfast and unafraid to be bellicose, grew weary of growing imperial ambitions from Athens, and in the Peloponnesian War that followed Sparta reversed the power structure using the support of the Persian Empire to crush Athens, waging shameless total war, and bringing an end to the Ancient Greek Golden Era as the Aegean states became Spartan subjects.</p>
 
-<p>Defensive alliance becomes an imperialistic tributary system because the centre is too powerful</p>
-
-<p>The impulse to federate, to balance local autonomy with central authority, echoes down the centuries, even if the voices of the <em>polis</em> are silent in our history. A resonance resurfaces during experiments in democracy of the early United States.</p>
+<p>Athena is known as the goddess of wisdom and strategic warfare, symbolised by the wise owl. Moreover, as <em>Athena Polias</em> (‘Athena of the City’) she was protector of the <em>polis</em> — civic life, the city-state, democratic institutions. This model was seen by Athenians to be superior and they used the wealth of their splendid Athens (bolstered by <em>phoros</em> revenue) and naval domination to export this governance model to the periphery. Athens, under the aegis of the goddess of the civic state, could not resist overriding the isolated autonomy of the league it drew together. The impulse to federate, to balance local autonomy with central authority, echoes down the centuries, even if the voices of the <em>polis</em> are silent in our history. A resonance resurfaces during experiments in democracy of the early United States.</p>
 
 <hr />
 
+<h3 id="federalism-returns">Federalism Returns</h3>
 <p>Federalist papers</p>
+
+<ul>
+  <li>In Federalist Papers <a href="https://avalon.law.yale.edu/18th_century/fed09.asp">9</a>, <a href="https://avalon.law.yale.edu/18th_century/fed16.asp">16</a>, <a href="https://avalon.la
+    │ w.yale.edu/18th_century/fed45.asp">45</a> and held as an example the United States of America being a confederation of states that would not fall to tyranny.</li>
+</ul>
 
 <p>‘Hamilton’ connection</p>
 
 <p>Hamilton. Creator of the Federal Reserve; <em>the</em> global benchmark for Funds interest rates, vendor of US Treasuries, and lender of last resort. Hero of the 2015 Broadway historical hip-hop/classical <a href="https://youtu.be/DSCKfXpAGHc?si=79B6xRXz-cZevJ_m">runaway success</a>. It was wildly popular and audiences were humming about <em>The Room Where it Happens</em> just a year before electing a leader whose anti-federalist tendencies and refusal to relinquish power strike close to fears the Founding Fathers had that their American experiment in government would be brought to an end by a democratically elected president who would <a href="https://www.theatlantic.com/magazine/archive/2025/12/trump-third-term-authoritarianism/684616/">proceed to dismantle the checks and balances on the reins of power</a>.</p>
 
-<h3 id="empire-building">Empire Building</h3>
-
-<ul>
-  <li>America as the isolationist state turning to the ‘World’s Police’ after being drawn into WWII</li>
-  <li>Germany and expansion into neighbouring democracies that were drawing back into themselves as the imperial project collapsed</li>
-  <li>The thousand year realm myth</li>
-  <li>The centre of the hegemon was no longer safe with modern technological developments. With the V2 you could hit the capital regardless of whether the sun ever set on your holdings. There <em>is</em> no buffer</li>
-</ul>
+<p>The American experiment had positioned itself as the inheritor of Athenian democratic ideals, even as it transformed from isolationist republic into ‘the world’s police’ after being drawn into WWII. But the war that brought America into global hegemony also revealed something new: modern technology had made the imperial center vulnerable. Germany’s expansion into neighboring democracies —promising a thousand-year realm that would collapse after just twelve— set the battlefield for demonstrating that geographic distance no longer provided security. Long range bombers could level civic centres, and V2 rockets could strike the capital regardless of how far your territories extended. The hegemon was no longer safe from modern technological development, even if the sun never set on your empire. Isolation was over. There is no buffer.</p>
 
 <hr />
 
-<p>The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echoc hamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.</p>
+<p>The imposition of fascism is brought with sound and fury. The drone of buzz bombs, the liftoff of rockets, the orders barked over the top of any sense or objections, the shortwave broadcasts to a captive enraptured audience, the enraged soundbites of sole saviour reposted throughout a social media echo chamber, the cheering of crowds promised a triumphant future in front of fake monuments, the piercing wails of air sirens. It was the last that Delia Derbyshire heard the most, growing up in Coventry during the Blitz.</p>
+
+<h3 id="resistance-as-a-noise">Resistance as a Noise</h3>
+
+<p>To transform industrial sounds into art required understanding what sound <em>is</em> and how synthesis could build it from base component frequencies.</p>
 
 <p>% Delia’s inspiration of the air-raid siren into synthesised repetitive sound. Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. Video of <a href="https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ">her demonstrating synthesis</a>. <a href="https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ">Wendy Carlos as well</a> on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
 % Physics and determining waves. 
 % The <a href="https://www.daphneoram.org/oramicsmachine/">Oramics machine</a> of creating sound <em>from</em> the visual waves. 
-% Ruby Payne-Scott and radioastronomy. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
+% Ruby Payne-Scott and radioastronomy as listening to the electromagnetic waves of the universe. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
 % ABC logo is a wave: the Lissajou polynomial.</p>
 
 <h3 id="sirens-into-songs">Sirens Into Songs</h3>
 
 <p>Early synthetic pioneers found out to imbue true emotions into sine and saw waves: creating some of the most evocatively accurate soundscapes of <a href="https://youtu.be/XQEYdgY2M8U?si=5wj2Vh0FD1uuQi_F">depression</a>, <a href="https://youtu.be/SNpIYln58EE?si=6u7ASIeGBbSwTi7r">despair</a>, and <a href="https://youtu.be/1RrsiGmLp_E?si=xacVEqkG7AfNDbxD">enervated overawe</a>; but also <a href="https://youtu.be/yVLjbGs2s-8?si=W7yoW1QleBG9Uo7K">serene calm</a>, <a href="https://youtu.be/OyUkmxy5VMI?si=Id1Ciwpe_AoCTYXY">arrestingly beautiful desert soundscapes</a>, <a href="https://youtu.be/NChqEEz31eE?si=cH4djqqz1EE5N6Cc">cosmic wonder</a>, <a href="https://youtu.be/RScZrvTebeA?si=z02HqP_EojAKpP3B">Sci-Fi noire intrigue</a>, and several odd <a href="https://youtu.be/jetzY-W78gg?si=DdpNwUCSC9A7pM02">ditties</a> of <a href="https://youtu.be/3YudPg7cbR4?si=dvKPemx7fzEnNMmv">pure joy</a>. It was the kind of no roadmap cultural movement where Delia could dictate <em>“Uhh.. forget about this, it’s for interest only”</em> and then unleash <a href="https://youtu.be/vwQIgGQLOQ8?si=tzi0diKqHZR_ZkwS">the first (entirely analogue) driving techno beat</a>.</p>
 
-<p>The early synth pioneers were often <a href="https://www.allenandunwin.com/browse/book/Cosey-Fanni-Tutti-Re-sisters-9780571362189">unconventional</a> in social categories. <a href="https://youtu.be/7r-3hlzpV7M?si=3e7fzqAegLWC02bx">Women securing a respected place traditionalist organisation undergoing a new technology landscape</a>, openly <a href="https://youtu.be/Z3cab5IcCy8?si=G86RNli9vIi5rU2h">queer and trans individuals</a>, people who were equally comfortable with mathematics and engineering as with classical composition. The BBC Radiophonic Workshop had a policy of staff anonymity (‘non-musical’ technicians shouldn’t compete with the jobs of ‘real’ composers), which seems to have paradoxically created some space to navigate within the organisation –— you couldn’t be dismissed purely on your identity if no one knew who you were. This also ironically meant pioneering work could only be evaluated in hindsight, while Australian composer Ron Grainer wrote the notational sketches of the <em>Doctor Who</em> them it was Delia’s sonic wizardy that took an leftfield implementation and made the iconic sounds her own.</p>
+<p>The early synth pioneers were often <a href="https://www.allenandunwin.com/browse/book/Cosey-Fanni-Tutti-Re-sisters-9780571362189">unconventional</a> in social categories. <a href="https://youtu.be/7r-3hlzpV7M?si=3e7fzqAegLWC02bx">Women securing a respected place in traditionalist organisations undergoing a new technology landscape</a>, openly <a href="https://youtu.be/Z3cab5IcCy8?si=G86RNli9vIi5rU2h">queer and trans individuals</a>, people who were equally comfortable with mathematics and engineering as with classical composition. The BBC Radiophonic Workshop had a policy of staff anonymity (‘non-musical’ technicians shouldn’t compete with the jobs of ‘real’ composers), which seems to have paradoxically created some space to navigate within the organisation –— you couldn’t be dismissed purely on your identity if no one knew who you were. This also ironically meant pioneering work could only be evaluated in hindsight. While Australian composer Ron Grainer wrote the notational sketches of the <em>Doctor Who</em> theme, it was Delia’s sonic wizardy that took a leftfield implementation and made the iconic sounds her own. It was an uphill battle to get recognition, only half-a-century later was Delia officially recognised in BBC credits. The internet, gladly, is awash with her legacy; remembering what institutions had long forgot.</p>
 
-<p>With growing use of synths in movie scores, pop music, and the commercial release of digital samplers and sequencers (Aussie Fairlight Computer Musical Instrument released <a href="https://youtu.be/jkiYy0i8FtA?si=FgorFmUbZzTeMgdI">one of the first in 1979</a> the instrument moved from soundscape to melody. The 80s had arrived. People flocked like seagulls to dance on four-on-the-floor pop tracks, with pitch perfect synthesised songlines and unerring drum machines. Just as quickly the weird and experimental became commercial, some Sheffield lads <a href="https://youtu.be/gpGMPiWMjN4?si=f8yz58mszBbr0-_R">started an electronic music project</a> (The <em>Doctor Who</em> rendition their crowd draw) only hitting the big leagues after <a href="https://youtu.be/uPudE8nDog0?si=k5Wa7gwBMVD68GMA">meeting a waitress working at a cocktail bar</a>.</p>
+<p>With growing use of synths in movie scores, pop music, and the commercial release of digital samplers and sequencers. Aussie company Fairlight released one of the first with the <a href="https://youtu.be/jkiYy0i8FtA?si=FgorFmUbZzTeMgdI">Computer Musical Instrument (CMI) in 1979</a>. The synthetic instrument had moved from soundscape to melody. The 80s had arrived. People flocked like seagulls to dance on four-on-the-floor pop tracks, with pitch perfect synthesised songlines and unerring drum machines. Just as quickly the weird and experimental became commercial, some Sheffield lads <a href="https://youtu.be/gpGMPiWMjN4?si=f8yz58mszBbr0-_R">started an electronic music project</a> (The <em>Doctor Who</em> rendition their crowd draw) only hitting the big leagues after <a href="https://youtu.be/uPudE8nDog0?si=k5Wa7gwBMVD68GMA">meeting a waitress working at a cocktail bar</a>.</p>
 
 <p>Everyone was changing up quickly for music television; <a href="https://youtu.be/u1ZvPSpLxCg?si=jXPmCNQX49c6x-Aj">childish insecurities</a> were discarded to <a href="https://youtu.be/aGCdLKXNF3w?si=sWFe8q2tmgX4MBqQ">rule the world</a> (and the charts); Al Jourgensen tried his hand at the <a href="https://youtu.be/1VFqVRepm6U?si=nG0J0gFLQ91B-rtD">Goth romantic thing</a> before quickly swerving <a href="https://youtu.be/GXCh9OhDiCI?si=7bDuRs66fba4nPco">to headbanging hotrod trash</a>; the quintessential post-punk bank reformed as the <a href="https://youtu.be/9GMjH1nR0ds?si=Ea6TRW4aNCSVQRKr">quintessential synthpo band</a>; and an experimental melancholic new wave duo hit meteoric success by placing their edge <a href="https://youtu.be/qeMFqkcPYcg?si=vKn4EJDo59adVnLE">under a 4-4 bouncing synth</a>. By the mid-80s synth had gone full pop and Madonna told us all to just <a href="https://youtu.be/52iW3lcpK5M?si=hjsNBIz0WBlsz46N">get into the groove</a>. Stock Aitken Watermann dominated this new commercial, turning out the synthpop assembly line that produced over 100 Top 40 hits, becoming one of the most <a href="https://youtu.be/PGNiXGX2nLU?si=mhQ5CWLzkUlW7lKh">successful</a> <a href="https://youtu.be/dQw4w9WgXcQ?si=tBbZR14ow8ZwgAWl">hit</a> <a href="https://youtu.be/LaTGrV58wec?si=mYV6MNxWXwI9VqaE">factories</a> <a href="https://youtu.be/aGxJm_Sy2aw?si=0gzPliTXFrflLvnc">of</a> <a href="https://youtu.be/tto_nmsND_o?si=FzXaU1D8ZqPzCh1C">all</a> <a href="https://youtu.be/d4-1ASpdT1Y?si=hV6AleNEn-nEqvkm">time</a>.</p>
 
@@ -68,13 +97,13 @@ Intro about the Delian League.</p>
 
 <p>Delia Derbyshire would work late at night in the BBC Radiophonic Workshop, where no one could supervise her obsession. Magnetic tape, meticulously spliced by hand with a razor blade, hung around the rooms — a hand crafted sample bank. Within the hierarchy of the prestigious institution of the BBC the cover of night gave Delia creative free rein, her sounds could echo the halls and delay effects were instantiated in real physical distance. She held the record for the longest tape loop, trailing off from the read heads it was run in streamers through doors and along the longest corridor in London. The Workshop was filled with oscillators, tone generators, and wobbulators she didn’t need to share at night. This was where air-raid sirens became music.</p>
 
-<p>The European counterparts to the Radiophonic Workshop (the <a href="https://120years.net/the-grm-group-and-rtf-electronic-music-studio-pierre-schaeffer-jacques-poullin-france-1951/"><em>Groupe de Recherches Musicales</em></a> [FR], the <a href="http://120years.net/wordpress/wdr-electronic-music-studio-germany-1951/"><em>Westdeutscher Rundfunk Köln</em></a> [DE]  were seen as <em>expressly</em> artistic studios. The <a href="https://www.funkhaus-berlin.net/"><em>Funkhaus</em></a> [GDR] in East Berlin was the most sprawling recording studios in the world, and extensively wiretapped by the surveillance obsessed Stasi. In contrast the BBC Radiophonic had an express utility, to create sonic effects for radio (<em>The Hitchhiker’s Guide to the Galaxy</em>) and incidental music for TV (<em>Doctor Who</em>), particularly serving the civic purpose of British educational broadcasts. An otherworldly creative soundset put to use to reach millions in the sonic stings of70s/80s school documentaries, now spoofed in <a href="https://youtu.be/z2myFLUDB74?si=3k2imbzdtBEAxc9i"><em>‘Look Around You’</em></a>.</p>
+<p>The European counterparts to the Radiophonic Workshop (the <a href="https://120years.net/the-grm-group-and-rtf-electronic-music-studio-pierre-schaeffer-jacques-poullin-france-1951/"><em>Groupe de Recherches Musicales</em></a> [FR], the <a href="http://120years.net/wordpress/wdr-electronic-music-studio-germany-1951/"><em>Westdeutscher Rundfunk Köln</em></a> [DE]  were seen as <em>expressly</em> artistic studios. The <a href="https://www.funkhaus-berlin.net/"><em>Funkhaus</em></a> [GDR] in East Berlin was the most sprawling recording studios in the world, and extensively wiretapped by the surveillance obsessed Stasi. In contrast the BBC Radiophonic had an express utility, to create sonic effects for radio (<em>The Hitchhiker’s Guide to the Galaxy</em>) and incidental music for TV (<em>Doctor Who</em>), particularly serving the civic purpose of British educational broadcasts. An otherworldly creative soundset put to use to reach millions in the sonic stings of 70s/80s school documentaries, now spoofed in <a href="https://youtu.be/z2myFLUDB74?si=3k2imbzdtBEAxc9i"><em>‘Look Around You’</em></a>.</p>
 
-<p>The BBC Radiophonic Workshop was drawn to a close in 1998. With new technology much of its work could be outsourced, and despite being funded from the shared civic model of the TV licence, it had been given 5 years to demonstrate economic self-sustainability. Key figures left the workshop and it closed under this market logic. An inevitable foreclosure; if you follow government fiscal policy where the BBC licence fee is <a href="https://youtu.be/4luBQ8b1j28">not public money but taxpayer’s money</a> and a philosophy that really, <a href="https://youtu.be/WhJvOKJCYP4?si=7YmWcwBZPSolZ7Hn">there is no such thing as a society</a>. Though, one wonders how to continue running <a href="https://youtu.be/_G4dHRN2Dug">children’s programming that discusses the realpolitik</a> of keeping ‘true’ administrative continuity after the Vietnamese army deposed the <em>horrific</em>, brutal, atrocity ridden Communist Party of Kampuchea (Cambodia).</p>
+<p>The BBC Radiophonic Workshop was <a href="https://doi.org/10.1093/acprof:oso/9780195368406.003.0006">drawn to a close in 1998</a>. With new technology much of its core work could be outsourced or superseded superseded, and despite being funded from the shared civic model of the TV licence, it had been given 5 years to demonstrate economic self-sustainability. Key figures left the workshop and it closed under this market logic. An inevitable foreclosure; if you follow government fiscal policy where the BBC licence fee is <a href="https://youtu.be/4luBQ8b1j28">not public money but taxpayer’s money</a> and a philosophy that really, <a href="https://youtu.be/WhJvOKJCYP4?si=7YmWcwBZPSolZ7Hn">there is no such thing as a society</a>. Though, one wonders how to continue running <a href="https://youtu.be/_G4dHRN2Dug">children’s programming that discusses the realpolitik</a> of keeping ‘true’ administrative continuity after the Vietnamese army deposed the <em>horrific</em>, brutal, atrocity ridden Communist Party of Kampuchea (Cambodia).</p>
 
 <h3 id="there-is-no-alternative">There is No Alternative</h3>
 
-<p>I grew up in an age of unending neocon rule, and the complicity of <a href="https://img.gifglobe.com/grabs/peepshow/S05E02/S05E02-iJmYPUVI-subtitled.jpg">neoliberal alternatives</a>, throughout my childhood years. George Bush Jr had assumed his father’s role in office (and resumed his father’s war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus <em>was</em> the way one kept power as a head of state. What mattered was the simulation of success, and the <a href="https://www.forbes.com/sites/daviatemin/2021/07/20/its-not-over-until-its-over-the-perils-of-declaring-victory-in-crisis-too-soon/"><em>projection</em> of victory</a>.</p>
+<p>I grew up in an age of seemingly unending neocon rule, with neoliberal alternatives offering not much departure and acquiescing on foreign policy conflicts, throughout my childhood years. George Bush Jr had assumed his father’s role in office (and resumed his father’s war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus <em>was</em> the way one kept power as a head of state. What held sway was the simulation of success, and the <a href="https://millercenter.org/americas-war-in-iraq/mission-accomplished-moment"><em>projection</em> of victory</a> in foreign policy. Nevertheless for the Anglosphere living standards were rising, it was an era of relative prosperity and Fukuyama’s “end of history” appeared vindicated as the endpoint of ideological rifts in human governance.</p>
 
 <p>There felt like a dearth of grassroots protest songs reaching mass broadcast during the Second Gulf War. There are no synths on American Idiot, straight pop-punk rock and <a href="https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh">heavy use of a pitch correction</a> technology <a href="https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7">originating the oil industry</a>. US radio charts remained similarly silent on the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding <a href="https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo">beauty of their weapons</a> watching the missiles used against the Assad regime in Syria.</p>
 
@@ -82,9 +111,17 @@ Intro about the Delian League.</p>
 
 <p>This created the conditions where the world lived under the constant drone of anxiety, never knowing where it would strike next. Swiftly to follow were legal memoranda <a href="https://en.wikipedia.org/wiki/Patriot_Act">massively expanding surveillance activities</a>, making <a href="https://en.wikipedia.org/wiki/Torture_Memos">‘enhanced interrogation’ legally permissible</a>, giving the president significant executive authority over the <a href="https://www.dhs.gov/homeland-security-act-2002">largest federal internal security organisation created since the end of WWII</a>, and unilateral engagement in overseas conflicts by the executive without going through Congress or the <a href="https://en.wikipedia.org/wiki/War_Powers_Resolution">War Powers Act</a> by not formally declaring war. Because after all, <a href="https://youtu.be/RXUqJC3rXV0?si=ss5X714wTySJ41TW">wars end</a>. The world’s police had become the world’s SWAT team.</p>
 
+<hr />
+
+<blockquote>
+  <p>Any musical innovation is full of danger to the whole State, and ought to be prohibited… when modes of music change, the fundamental laws of the State always change with them.</p>
+</blockquote>
+
+<p>— Plato, <em>The Republic</em> (Benjamin Jowett’s translation)</p>
+
 <h3 id="noise-as-a-resistance">Noise as a Resistance</h3>
 
-<p>Even in eras when power feels absolute and alternatives seem erased, small acts of rebellion persisted —– sometimes in music, sometimes in code, sometimes in the quiet persistence of niche communities. The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics — turning the <a href="https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw">human voice into another synthesizer</a>. Under austere conditions, others turned the new wave rougher and more combative — into punk.</p>
+<p>Even in eras when power feels absolute and alternatives seem erased, small acts of rebellion persisted — sometimes in music, sometimes in code, sometimes in the quiet persistence of niche communities. The 70s and 80s saw an independent music label scene rise and thrive (Rough Trade, 4AD, Factory Records). Some acts escaped the need for societal narrative by constructing tracks of pure sonic beauty, paying no heed to unintelligible lyrics — turning the <a href="https://youtu.be/6KnYw4EwYGc?si=D8C76mbWTDlrmYHw">human voice into another synthesizer</a>. Under austere conditions, others turned the new wave rougher and more combative — into punk.</p>
 
 <p>This was a time that the official broadcasters would suffer the occasional subversive performance: such as <a href="https://youtu.be/eD_24nDzkeo?si=yk9AMf1ox-VP8iQz">Elvis Costello getting permanently banned from Saturday Night Live</a>; <a href="https://youtu.be/EfK-WX2pa8c?si=osOvS_wp2XYRTmOV">London Calling</a> snuck into the radio as a hit, though their more clearly read songs faced the ire of BBC censors; and <a href="https://youtu.be/q31WY0Aobro?si=2pajhGGpSqThZw3Q">Sex Pistols were banned from BBC airplay</a>, though it wasn’t only punk but <a href="https://youtu.be/v4OzI9GYag0?si=NCC8ita85r6Ebqcd">Johnny Rotten outing widely known predatory behaviour</a> at the BBC that got them the boot.</p>
 
@@ -94,7 +131,7 @@ Intro about the Delian League.</p>
   <li>Mergers of independents into majors; Rough Trade and 4AD survive as Beggars Group label holdings.</li>
   <li>MTV became the commercial gatekeepers, you couldn’t just sound good you needed to look good doing it.</li>
   <li>Music piracy eroded record profitability, forcing reliance on touring and stadium-sized ticket sale boons.</li>
-  <li>Internet distribution meant the obscure found its audience, but leeps communities small and fragmented.</li>
+  <li>Internet distribution meant the obscure found its audience, but keeps communities small and fragmented.</li>
 </ul>
 
 <p>% Myths and Legendary Tapes to finish it off here. Last gasp of noise as a resistance, but it’s a historical biopic nobody can acquire any more. This stuff is just cut up and weaved in to our mishmash digital weird world.</p>
@@ -103,17 +140,17 @@ Intro about the Delian League.</p>
 
 <h3 id="digital-palimpsests">Digital Palimpsests</h3>
 
-<p>%This needs to be expanded into a coherent section</p>
+<p>The digital audio workstation (DAW) <a href="https://www.musicradar.com/news/daphne-oram-oramics-daw">evolved from early synthesis machines</a>, and now provides a near-infinite collection of sound banks and samples, as long as the gestalt sound was generated somewhere, somehow. This sonic resampling is now an invisible part of our audio lives, and teasing apart the layers of historical referentiality has now become a cultural game. A later generation growing up with samplers during childhood could even build the skeleton of hits of the 2000s just on the <a href="https://www.whosampled.com/sample/155470/Klaxons-Atlantis-to-Interzone-Yamaha-DJ-Voice/">vocal</a> <a href="https://youtu.be/GOJUNJ1o394?si=nCAIwMyuajuLibcz">samplebanks</a> of <a href="https://youtu.be/JUPvKIjqx-M?si=QEJu8sGficwd-74h">consumer</a> <a href="https://www.whosampled.com/sample/1121560/alt-J-Intro-Yamaha-DJ-Voice/">keyboards</a>.</p>
 
-<p>% Digital audio workstations now provide a near-infinite collection of sound banks and samples, as long as the gestalt sound was generated somewhere, somehow</p>
+<p>Ain’t it funny how Delia’s <a href="https://youtu.be/jpdiMcEeTJA?si=gtoC47FIZ5K6xdaa">meat-and-veggies synth experiments</a> re-emerged as a sample on both one of the <a href="https://youtu.be/uHx4VlOJDes?si=mon3WNDM3v1CN4KR">most gritty rap albums of 2014</a> and <a href="https://youtu.be/LVyGxlgeAjc?si=CC0S1o0nTOJHlIu2">2016’s most lauded experimental hip-hop album</a>. Wendy Carlos’ synth re-interpretations of classical pieces similarly litter legendary producer J Dilla’s records that invigorated the genre. Raymond Scott, endless inventor of early electronica, has his sound form the retro groove of <a href="https://youtu.be/Bul7m3jN25Q?si=bHDrAjJ6kcDHRDer">‘Lightworks’</a>. Such sonic overlaying is no accident, it’s the very origins of hip-hop’s Disc Jockey culture, and continued source of fun in crate digging at a record fair. For some acts the sampling escaped simply recutting music — all media was fair game, rerecorded and repurposed as the <a href="https://bocpages.org/wiki/List_of_samples_used_by_Boards_of_Canada">entire bedrock of the music</a>. The sounds of our civic life saw ephemeral reapperance, as fragments of broadcasts, children’s programming, documentaries and incidental music became lo-fi beats to chill to.</p>
 
-<p>Ain’t it funny how Delia’s <a href="https://youtu.be/jpdiMcEeTJA?si=gtoC47FIZ5K6xdaa">meat-and-veggies synth experiments</a> re-emerged as a sample in <a href="https://youtu.be/LVyGxlgeAjc?si=CC0S1o0nTOJHlIu2">2016’s most lauded experimental hip-hop album</a>. Such sonic overlaying is no accident, it’s the very origins of hip-hop’s Disc Jockey culture, and continued source of fun in crate digging at a record fair.</p>
+<p>The reverberations of early synth warbles are reproduced into 90s computing culture —  the <a href="https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9">slightly surreal Windows 95 start-up sound</a> is an accompaniment to one of the <a href="https://www.bbc.com/audio/play/w3ct5yfs">biggest corporate computing launches in tech history</a>. Brian Eno, widely credited as crystallising the ambient music genre, had provided a synthetic sting heard every time a personal computer booted. This unnatural chime arrived as introduction to the Information Age. The American public were about to be <a href="https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx">connected to everyone on the information super highway</a> when a “carpet bombing” campaign of free CDs (nearing half of CDs manufactured worldwide) brought <a href="https://americanhistory.si.edu/collections/object/nmah_1395721">America Online</a>.</p>
 
-<p>The reverberations of early synth warbles are reproduced into the 90s, with the <a href="https://youtu.be/8jjT4AjTUMA?si=IyUeTVKZ7Or9moO9">slightly surreal start-up sound</a> in one of the <a href="https://www.bbc.com/audio/play/w3ct5yfs">biggest corporate computing launches in tech history</a>. Just in time to <a href="https://web.archive.org/web/20120824202929/http://pewinternet.org/Static-Pages/Trend-Data-%28Adults%29/Internet-Adoption.aspx">connect everyone to the information super highway</a> when a “carpet bombing” campaign of free CDs (nearing half of CDs manufactured worldwide) brought <a href="https://americanhistory.si.edu/collections/object/nmah_1395721">America Online</a>.</p>
+<p>Now niche genres of sample music proliferate and fragment on popular platforms, such the literalist <a href="https://pcmusic.info/">PC music</a> (a movement that hit a knockout with a <span style="color:#8ACE00">brat</span> summer), Synthwave nostalgically remixing 80s synth, shortly thereafter Vaporwave spoofing and reveling in internet consumerism, and even <a href="https://youtu.be/6QOUNvMX-ws?si=wedkE2cE4AJ-LfFu">Utopian Scholastic</a> mining the nostalgic sound of the optimism of the civic educational project. Now with featurful web browsers and distrubted networking you can run a synth jam with strangers <a href="https://nudel.cc/">entirely in your browser</a>.</p>
 
 <hr />
 
-<p>Computers used to be physical monoliths. They filled entire rooms, took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride (see: <a href="https://almanac.upenn.edu/archive/v42/n18/eniac.html">ENIAC</a>, <a href="https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge">EDSAC</a> [UK], <a href="https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/">MESM</a> [USSR], <a href="https://cis.unimelb.edu.au/about/history/csirac">CSIRAC</a> [AU], <a href="https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html">WEIZAC</a> [IL], <a href="https://museum.ipsj.or.jp/en/computer/dawn/0021.html">TAC</a> [JP], <em>etc</em>).</p>
+<p>Computers used to be physical monoliths. They <a href="/images/csirac.jpg">filled entire rooms</a>, took teams of people punching cards to operate them, and their commissioning was a matter of national priority and pride. See: <a href="https://almanac.upenn.edu/archive/v42/n18/eniac.html">ENIAC</a>, <a href="https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/edsac-and-computing-cambridge">EDSAC</a> [UK], <a href="https://cacm.acm.org/blogcacm/the-mesm-ukraine-beats-russia/">MESM</a> [USSR], <a href="https://cis.unimelb.edu.au/about/history/csirac">CSIRAC</a> [AU], <a href="https://www.wisdom.weizmann.ac.il/~www/pages/milestones/1954.html">WEIZAC</a> [IL], <a href="https://museum.ipsj.or.jp/en/computer/dawn/0021.html">TAC</a> [JP], <em>etc</em>…</p>
 
 <p>These national behemoths did not dominate for long. Computer luminaries like <a href="https://archive.computerhistory.org/resources/text/Oral_History/Hopper_Grace/102702026.05.01.pdf">Grace Hopper advocating for systems involving smaller, distributed computing machines</a>. Information exchange and data sharing was cracked wide open by computer networking pioneered at the ARPA and RAND agencies, with Stanford and UCLA the first nodes joined together in 1969 to grow into the <a href="https://en.wikipedia.org/wiki/File:Arpanet_logical_map,_march_1977.png">US-wide ARPANET in the 1970s</a>. By the 1980s <a href="https://www.podc.org/">symposia on distributed computing</a> were held and <a href="https://lovetechai.com/history-of-lan/">Local Area Networks</a> began to spring up. But the Internet of the World Wide Web as we know it was only formed in the 90s, built upon a common communication protocol (TCP/IP), the hypertext system of linked information <a href="https://info.cern.ch/hypertext/WWW/History.html">proposed at the world’s largest particle physics institute</a>, the <a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html">WorldWideWeb</a> browser developed to surf the ‘net, and from the mid-90s onwards the “browser wars” <a href="https://youtu.be/Hdit5-yFHI8?si=YU_D1uUt8_7J4z6o">saw software vie for market share</a>.</p>
 
@@ -146,7 +183,30 @@ Intro about the Delian League.</p>
 
 <p>— Dr Joel Moses, then head of the Electrical Engineering &amp; Computer Science (EECS)</p>
 
-<p>Distributed computing took rapid foothold outside of MIT by the early 90s because it was <em>useful</em>. Several US and some international campuses started using an implementation (DECathena, now <a href="https://debathena.mit.edu/">Debathena</a>), though invariable the protocols and hardware implementations changed with the frenetic obslence pace of the computing industry. The impact was conceptual, the model was no longer the monolith “supercomputer”, but instead users work at domestic <code class="language-plaintext highlighter-rouge">clients</code> accessing distributed <code class="language-plaintext highlighter-rouge">servers</code> (nowdays often a “<a href="https://spinoff.nasa.gov/Spinoff2020/it_1.html">Beowulf cluster</a>” of commodity computing parts). Computing was now non-local and the arc of the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services.  - Fediverse, but we’ll focus on raw compute not communication</p>
+<p>Distributed computing took rapid foothold outside of MIT by the early 90s because it was <em>useful</em>. Several US and some international campuses started using an implementation (DECathena, now <a href="https://debathena.mit.edu/">Debathena</a>), though inevitably the protocols and hardware implementations changed with the frenetic obsolescence pace of the computing industry. The impact was conceptual, the model was no longer the monolith “supercomputer”, but instead users work at domestic <code class="language-plaintext highlighter-rouge">clients</code> accessing distributed <code class="language-plaintext highlighter-rouge">servers</code> (nowdays often a “<a href="https://spinoff.nasa.gov/Spinoff2020/it_1.html">Beowulf cluster</a>” of commodity computing parts). Computing was now non-local and the arc of technological the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services.</p>
+
+<p>Web 2.0 centralisation. Athenian parallel more clearly staked? In the information economy knowledge became concentrated (Neo-Athens)</p>
+<ul>
+  <li>Convenience and security centralised what was originally Web 1.0 home systems federated by LAN. Replacing static sites with far more interactive and social connection – but hosted on only a handful of platforms.</li>
+  <li>It <em>did</em> provide communication and collaboration and community to <em>everyone</em> regardless of technical skill</li>
+  <li>Connecting communites, niches, movements, collapsing space; without having to know managing servers. The technical barrier collapsed. Billions got a voice online that they wouldn’t have had access to under Web 1.0’s demands of knowing a set of tools separate from the human connection.</li>
+  <li>Cloud computing and social media oligopolies
+    <ul>
+      <li>But slowly but surely voluntary participation came to hold cherished social information hostage. User data the tribute harvested to fill consumer markets. Not tallied in stone, but invisible extraction behind addictive UX and frictionless interfaces.
+Web 3.0 faux federalisation. Energy intensive proof-of-work to back nothing but staking a claim. Regardless of the promise held in this decentralised internet, I hear <a href="https://www.web3isgoinggreat.com/">Web3 is going just great</a>.</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>If you’re not paying, you’re the product</p>
+</blockquote>
+
+<p>— Tim O’Reilly by way of Andres Lewis from Richard Serra &amp; Carlota Schoolman</p>
+
+<ul>
+  <li>Fediverse, but we’ll focus on raw compute not communication. Federalisation still keeps communities somewhat fragmented into islands. A loss of reach and convenience.</li>
+</ul>
 
 <p>Section on the transformative federated computing projects:</p>
 <ul>
@@ -159,16 +219,16 @@ Intro about the Delian League.</p>
 
 <hr />
 
-<h3 id="the-owl-of-minverva-">The Owl of Minverva 🦉</h3>
+<h3 id="the-owl-of-minerva-">The Owl of Minerva 🦉</h3>
 
 <p>Wisdom takes flight only at dusk, often when it’s too late.</p>
 
 <p>Why do things continue to collapse into imperial tributary systems until there’s a technological or social systematic shock?
-Do lost futures only become visible when an era has already past, or because they only become visible in the murky twilight?</p>
+Do lost futures only become visible when an era has already passed, or because they only become visible in the murky twilight?</p>
 
-<p>Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn’t mean we’re guaranteed a future free from tribute to a few monoliths. When power projection moved slowly, the civic world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant.</p>
+<p>Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn’t mean we’re guaranteed a future not held by a few monoliths. Centralisation allows for seamlessness at scale. The Parthenon, cultural splendour and famous thought of Athens we still admire in history was built and protected by distributed tribute. When power projection moved slowly, the civic world made gods of the rulers of fiefdoms. Even now those structures are deliberate and social; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant.</p>
 
-<p>Yet the alternatives keep emerging — Athena persists, new federations form. The twilight offers a moment to breathe, to choose alternate futures.
+<p>Yet the alternatives keep emerging — Athena <em>polias</em> persists, new federations form. The twilight offers a moment to breathe, to choose alternate futures.
 Let’s hope social coordination and civic productivity can free up our future, one not driven to mass unrest or conflict as its remaining system shock mechanism.</p>
 
 <hr />
@@ -181,13 +241,17 @@ Let’s hope social coordination and civic productivity can free up our future, 
 Buidling of Empires
 Fascism’s Malignant Noise 
 Sirens Into Songs (Delia, Radiophonic Workshop, civic project)
-1There Is No Alternative (Thatcher, neoliberalism, defunding)
+There Is No Alternative (Thatcher, neoliberalism, defunding)
 Noise As Resistance (Industrial, Cosey, political critique)
 Digital Palimpsests (Web centralization, lost digital futures)
 Federation Returns (Mastodon, scientific computing, Flux scheduler cross-institutional clusters)
 Owl of Minerva (Athenian ideals, lost futures, hauntology)</p>
 
 <hr />
+<ul>
+  <li>Make sure I make the point that federations and centralised systems can exist <em>alongside</em> each other*</li>
+</ul>
+
 <p>This will be a break in style from the other content. It’s more like my own mini 33 1/3rd. Myown 11 1/10th?</p>
 
 <p>I was going to open with the forgotten Lycians despite their logentivitiy the “Why has history forgotten a democratic league that lasted longer than all modern city-states and most empires. Is it because history is written as an account of “who conquered who” like the birthing branches of a family tree?”</p>
@@ -262,9 +326,8 @@ Owl of Minerva (Athenian ideals, lost futures, hauntology)</p>
       <li>The funding cuts due to neocon government economics.</li>
     </ul>
   </li>
-  <li>Also people thought synthesised music could be psychological dangerous, BBC health and safety imposed a limit of 3 months in the Radiophonic Workshop to avoid prolonged exposure to alternative frequencies.
-    <h1 id="--literal-fear-of-alternative-frequencies">- literal fear of alternative frequencies</h1>
-  </li>
+  <li>Also people thought synthesised music could be psychological dangerous, BBC health and safety imposed a limit of 3 months in the Radiophonic Workshop to avoid prolonged exposure to alternative frequencies. 
+%  - literal fear of alternative frequencies</li>
   <li>It became DANCE MUSIC. Free of content and structured around repition for pure hedonism. (link to Delia’s <a href="https://youtu.be/vwQIgGQLOQ8?si=Yf1WghFeNgDIemjQ">offhand prototehcno track</a>, first techno beat)
     <ul>
       <li>I think my take on Dance Music is there’s a loss of civic purpose, but also a freedom from narrative and official record. You can just be, dance, exist, have fun, you don’t need to <em>serve a state purpose or national cause</em></li>
@@ -280,10 +343,13 @@ Owl of Minerva (Athenian ideals, lost futures, hauntology)</p>
   <li>Web 1.0 =&gt; 2.0 =&gt; 3.0 (<a href="https://www.web3isgoinggreat.com/">which is going just great</a>) as the lost futures and fading palimpsest of our digital inscriptions</li>
   <li>Federated Computing in social media, but also in scientific research</li>
   <li>Federated data. Gaia-X? OpenFold training on federated big pharma data with Apheris: https://www.apheris.com/resources/blog/apheris-launches-apherisfold-to-make-openfold3-securely-usable-in-pharma-environm</li>
-  <li>Mention Flux, and avant-garde new computing scheduler, has built in multi-<em>site</em> scheduling mechanisms</li>
+  <li>
+    <p>Mention Flux, and avant-garde new computing scheduler, has built in multi-<em>site</em> scheduling mechanisms</p>
+  </li>
+  <li>The Lycians lasted 400 years. We remember Athens. History is written by empires, but the federations were there, in the twilight, the whole time.</li>
 </ul>
 
-<hr />]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="music" /><category term="Delia" /><category term="Derbyshire" /><category term="Lycians" /><category term="imperialism" /><category term="federalism" /><category term="hauntology" /><category term="synths" /><category term="BBC" /><category term="computing" /><category term="Athens" /><category term="federation" /><summary type="html"><![CDATA[Content notice — mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression. Not the views of any employers, obvs.]]></summary></entry><entry><title type="html">From Muck to Mauve: the creation of modern dyes from coal tar</title><link href="http://localhost:4000/dyes/2025-11-05-aniline-and-the-german-chemical-industry/" rel="alternate" type="text/html" title="From Muck to Mauve: the creation of modern dyes from coal tar" /><published>2025-11-05T00:00:00+11:00</published><updated>2025-11-05T00:00:00+11:00</updated><id>http://localhost:4000/dyes/aniline-and-the-german-chemical-industry</id><content type="html" xml:base="http://localhost:4000/dyes/2025-11-05-aniline-and-the-german-chemical-industry/"><![CDATA[<blockquote>
+<hr />]]></content><author><name>&lt;Keiran&gt; &lt;Rowell&gt;</name><email>&lt;keiran.rowell@gmail.com&gt;</email></author><category term="writing" /><category term="Delia" /><category term="Derbyshire" /><category term="Lycians" /><category term="imperialism" /><category term="federalism" /><category term="hauntology" /><category term="synths" /><category term="BBC" /><category term="computing" /><category term="Athens" /><category term="federation" /><summary type="html"><![CDATA[Content notice — mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression. Not the views of any employers, obvs.]]></summary></entry><entry><title type="html">From Muck to Mauve: the creation of modern dyes from coal tar</title><link href="http://localhost:4000/dyes/2025-11-05-aniline-and-the-german-chemical-industry/" rel="alternate" type="text/html" title="From Muck to Mauve: the creation of modern dyes from coal tar" /><published>2025-11-05T00:00:00+11:00</published><updated>2025-11-05T00:00:00+11:00</updated><id>http://localhost:4000/dyes/aniline-and-the-german-chemical-industry</id><content type="html" xml:base="http://localhost:4000/dyes/2025-11-05-aniline-and-the-german-chemical-industry/"><![CDATA[<blockquote>
   <p>Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is alluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.</p>
 </blockquote>
 
@@ -349,7 +415,7 @@ The negatively charged trisulfur radical caged in a zeolite with its surrounding
 <h3 id="muckraking-️">Muckraking ⚗️</h3>
 <p>Coal tar’s shimmering opacity hides its chemical complexity. In the murky pitch black mixture are thousands of different hydrocarbon species, and until modern petroleum extraction they were <em>the</em> major feedstock to synthesise organic molecules. The stodgy goop’s appearance obscures a mosaic of complex carbon skeletons, ripe to transform into a rainbow of complex organics furnished from chemical reactions. August Wilhelm von Hofmann was one of the pioneers in these experiments, considered by science historians to be one of the <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/anie.199212653">“fathers of synthetic chemistry”</a>. He and Jamaican born chemist John Blyth were the first to use the term “synthesis” in a publication.</p>
 
-<p>Hofmann’s interest can be seen in by the title of his first publication in 1843 <a href="https://doi.org/10.1002/jlac.18430470106"><em>“Chemische Untersuchung der organischen Basen im
+<p>Hofmann’s interest in coal tar can be seen by the title of his first publication in 1843 <a href="https://doi.org/10.1002/jlac.18430470106"><em>“Chemische Untersuchung der organischen Basen im
 Steinkohlen-Theeroel”</em></a> (“Chemical Investigation of the Organic Bases in Coal-Tar Oil”). Hofmann was able to isolate both aniline (the basis for dyes — mauvine was also called “aniline purple”) and quinoline (a degradation product of the quinine — Perkin was also interested in finding) from coal tar.</p>
 
 <p>Experiments with coal tar and other organic synthesis projects were a productive foundation for Hofmann to build a research career on. The structure of Hofmann’s lab is <a href="https://www.chemistryworld.com/features/hofmanns-chemistry-factory/3007787.article">seen as the precusor to the modern industrial chemistry research lab</a> and was a source of many discoveries, such as the <a href="https://doi.org/10.1039/QJ8490100244">isolation of benzene (then benzole)</a> by his British student Charles Mansfield. Additionally, Hofmann was the first to build physical ball-and-stick “glyptic formulae” models to display an object to embody the atomic connections inside molecules. His croquet ball colour choices of black for carbon, white for hydrogen, and red for oxygen remain in wide use today.</p>

@@ -8,8 +8,10 @@ grouped: true
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    {% unless posts.categories contains 'writing' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endunless %}
   {% endfor %}
 </ul>
