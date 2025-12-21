@@ -12,8 +12,6 @@ tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC comp
 > Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
 > Not the views of any employers, obvs.
 
----
-
 
 <style>
   /* Force parchment colour personal signifier light mode */
@@ -21,15 +19,27 @@ tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC comp
     background-color: #faf8f3 !important; /* beige/paper */
     color: #000 !important; /* black text */
   }
-  
+ 
   /* Override any dark mode text colors */
-  p, h1, h2, h3, h4, h5, h6, li, blockquote {
-    color: #000 !important;
+  p, h1, h2, h3, h4, h5, h6, li {
+    color: #000    !important;
+  }
+  
+  blockquote {
+    color: #6b5d5d !important; /* darker, more sepia-toned */
+    font-style: italic; /* classic quote styling */
+    border-left: 3px solid #d4c5b9; /* subtle parchment-toned border */
+    padding-left: 1em;
+    margin-left: 0;
+  }
+
+  blockquote p {
+    color: #887777 !important;
   }
  
   /* Tags */
   .ellipsis {
-    color: #000 !important;
+    color: #7F7F7F !important;
   }
  
   /* Keep links visible */
@@ -111,7 +121,7 @@ The BBC Radiophonic Workshop was [drawn to a close in 1998](https://doi.org/10.1
 
 ### There is No Alternative
 
-I grew up in an age of seemingly unending neocon rule, with neoliberal alternatives offering not much departure and acquiescing on foreign policy conflicts, throughout my childhood years. George Bush Jr had assumed his father's role in office (and resumed his father's war) and John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What held sway was the simulation of success, and the [*projection* of victory](https://millercenter.org/americas-war-in-iraq/mission-accomplished-moment) in foreign policy. Nevertheless for the Anglosphere living standards were rising, it was an era of relative prosperity and Fukuyama's "end of history" appeared vindicated as the endpoint of ideological rifts in human governance.   
+I grew up in an age of seemingly unending neocon rule, with neoliberal alternatives offering not much departure and acquiescing on foreign policy conflicts, throughout my childhood years. George Bush Jr had assumed his father's prior role in office, and resumed his father's intervention in destruction of the Gulf oil fields but this time with pretext of manufactured weapons to build a coalition for regime change and occupation.  John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* the way one kept power as a head of state. What held sway was the simulation of success, and the [*projection* of victory](https://millercenter.org/americas-war-in-iraq/mission-accomplished-moment) in foreign policy. Nevertheless for the Anglosphere living standards were rising, it was an era of relative prosperity and Fukuyama's "end of history" appeared vindicated as the endpoint of ideological rifts in human governance.   
 
 There felt like a dearth of grassroots protest songs reaching mass broadcast during the Second Gulf War. There are no synths on American Idiot, straight pop-punk rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). US radio charts remained similarly silent on the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference in the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria.
 
