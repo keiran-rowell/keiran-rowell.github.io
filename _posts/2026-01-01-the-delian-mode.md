@@ -99,6 +99,8 @@ To transform industrial sounds into art required understanding what sound *is* a
 % Ruby Payne-Scott and radioastronomy as listening to the electromagnetic waves of the universe. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
 % ABC logo is a wave: the Lissajou polynomial.
 
+Somehow, this beating of the air makes us feel something. Sometimes, it changes how we think.
+
 ### Sirens Into Songs
 
 Early synthetic pioneers found out to imbue true emotions into sine and saw waves: creating some of the most evocatively accurate soundscapes of [depression](https://youtu.be/XQEYdgY2M8U?si=5wj2Vh0FD1uuQi_F), [despair](https://youtu.be/SNpIYln58EE?si=6u7ASIeGBbSwTi7r), and [enervated overawe](https://youtu.be/1RrsiGmLp_E?si=xacVEqkG7AfNDbxD); but also [serene calm](https://youtu.be/yVLjbGs2s-8?si=W7yoW1QleBG9Uo7K), [arrestingly beautiful desert soundscapes](https://youtu.be/OyUkmxy5VMI?si=Id1Ciwpe_AoCTYXY), [cosmic wonder](https://youtu.be/NChqEEz31eE?si=cH4djqqz1EE5N6Cc), [Sci-Fi noire intrigue](https://youtu.be/RScZrvTebeA?si=z02HqP_EojAKpP3B), and several odd [ditties](https://youtu.be/jetzY-W78gg?si=DdpNwUCSC9A7pM02) of [pure joy](https://youtu.be/3YudPg7cbR4?si=dvKPemx7fzEnNMmv). It was the kind of no roadmap cultural movement where Delia could dictate *"Uhh.. forget about this, it's for interest only"* and then unleash [the first (entirely analogue) driving techno beat](https://youtu.be/vwQIgGQLOQ8?si=tzi0diKqHZR_ZkwS). 
