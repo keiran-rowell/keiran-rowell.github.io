@@ -62,7 +62,7 @@ image:
  
 ---
 
-The Lycian League lasted for hundreds of years (constituted *ca.* 2<sup>nd</sup> century BCE--43 CE) as an ancient democratic alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Lycian civilisation itself dates from the Bronze Age. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the convential narrative of history is of battles and states begat in blood.
+The Lycian League lasted for hundreds of years (constituted *ca.* 2<sup>nd</sup> century BCE→43 CE) as an ancient democratic alliance of prosperous and culturally rich city-states along the Southern Anatolian coast. Lycian civilisation itself dates from the Bronze Age. Yet they're barely known in modern times outside niche archaeological circles. Perhaps because they didn't expand, they didn't conquer, they didn't have a Great Empire or a Great Leader. Rich civic life is not enough for the historical record --- the convential narrative of history is of battles and states begat in blood.
 
 The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) hewn into the cliffs of Türkiye and stunning [griffin-fringed sarcophagi](/images/lycian_griffin_sarcophagus.jpg). Despite an early democratic model, effectively repelling powerful imperial neighbours, and retaining some autonomy even after annexation as the final Roman colony in Anatolia in 43 CE, their legacy dissipated except amongst a few scholars.
 
@@ -97,7 +97,7 @@ The imposition of fascism is brought with sound and fury. The drone of buzz bomb
 
 To transform industrial sounds into art required understanding what sound *is* and how synthesis could build it from base component frequencies.
 
-% Delia's inspiration of the air raid siren into synthesised repetitive sound. Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. Video of [her demonstrating synthesis](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ). [Wendy Carlos as well](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
+% Delia's inspiration of the air raid siren into synthesised repetitive sound. Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. Rather than drone on I'll some synth pioneers themselves demonstrate. Video of [her demonstrating synthesis](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ). [Wendy Carlos as well](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
 % Physics and determining waves. 
 % The [Oramics machine](https://www.daphneoram.org/oramicsmachine/) of creating sound *from* the visual waves. 
 % Ruby Payne-Scott and radioastronomy as listening to the electromagnetic waves of the universe. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
@@ -206,6 +206,10 @@ MIT, IBM, and DEC [reflected on the impacts of Project Athena partway through](h
 
 Distributed computing took rapid foothold outside of MIT by the early 90s because it was *useful*. Several US and some international campuses started using an implementation (DECathena, now [Debathena](https://debathena.mit.edu/)), though inevitably the protocols and hardware implementations changed with the frenetic obsolescence pace of the computing industry. The impact was conceptual, the model was no longer the monolith "supercomputer", but instead users work at domestic `clients` accessing distributed `servers` (nowdays often a "[Beowulf cluster](https://spinoff.nasa.gov/Spinoff2020/it_1.html)" of commodity computing parts). Computing was now non-local and the arc of technological the implications leads to virtual desktops, enterprise computing, cloud computing, and modern web services. 
 
+---
+
+The internet was constituted from the elite organisations of the academic-military complex, establishing institutional resilience and decentralisation during the Cold War. Civic use followed not long after. Web 1.0 was formed from static sites of inter-linked pages of thousands of little "geo-cities" dotted as islands in cyberspace. To transmit their own autonomous content, everyone bore their cost and acquired the skills to host, spreading knowledge through  word-of-mouth and announcements on the public fora. It was useful as a reference, but not as much as a means of mass expression or a way to go viral. And despite dotcom hype, most Web 1.0 sites [weren't making money](https://www.investopedia.com/ask/answers/08/dotcom-pets-dot-com.asp). Only a handful of tech companies survived the crash, able to build empire from the rubble. But the connectivity remained: cables stayed buried, network switches kept routing packets, even as the companies that installed them went insolvent. The physical network of the internet endured, but the governance model was about to change as people opted-in to seamless communication through centralisation.  
+
 Web 2.0 centralisation. Athenian parallel more clearly staked? In the information economy knowledge became concentrated (Neo-Athens)
  - Convenience and security centralised what was originally Web 1.0 home systems federated by LAN. Replacing static sites with far more interactive and social connection -- but hosted on only a handful of platforms.
 - It *did* provide communication and collaboration and community to *everyone* regardless of technical skill
@@ -214,6 +218,7 @@ Web 2.0 centralisation. Athenian parallel more clearly staked? In the informatio
    - But slowly but surely voluntary participation came to hold cherished social information hostage. User data the tribute harvested to fill consumer markets. Not tallied in stone, but invisible extraction behind addictive UX and frictionless interfaces.
 Web 3.0 faux federalisation. Energy intensive proof-of-work to back nothing but staking a claim. Regardless of the promise held in this decentralised internet, I hear [Web3 is going just great](https://www.web3isgoinggreat.com/).
 
+Federation requires maintenance. Centralisation offers convenience.
 
 > If you're not paying, you're the product
 
