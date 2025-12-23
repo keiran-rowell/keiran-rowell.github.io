@@ -43,6 +43,7 @@ author:
   # Used by `jekyll-feed`:
   name:                Keiran Rowell
   email:               keiran.rowell@gmail.com
+  rss: https://keiran-rowell.github.io/feed.xml
   # # Used by `jekyll-seo-tag`:
   #Picture to be displayed
   picture:              /assets/img/rowell_avatar.png
