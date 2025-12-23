@@ -1,1 +1,13 @@
-Sitemap: http://localhost:4000/sitemap.xml
+# robots.txt for keiran-rowell.github.io
+
+User-agent: *
+Allow: /
+
+# Allow all assets (needed for proper rendering in search previews)
+Allow: /assets/
+
+# Sitemap
+Sitemap: https://keiran-rowell.github.io/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /

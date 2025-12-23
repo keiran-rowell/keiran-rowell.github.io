@@ -8,8 +8,8 @@ tags: luciferin luciferase photobiology bioluminescence fireflies jellyfish
 image:
   path: /images/sea_sparkles_adam_foster.jpg
   alt: "Sea sparkles providing blue bioluminescence at night along the shore of Vicentia, NSW, Australia."
---
--
+---
+
 *Photo credit: Adam Foster. [Flickr](https://www.flickr.com/photos/fosterlightroom/50106668788/) [CC BY-NC-SA 2.0]*
 {:.figcaption}
 
