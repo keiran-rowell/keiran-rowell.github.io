@@ -7,7 +7,12 @@ category: photobiology
 tags: luciferin luciferase photobiology bioluminescence fireflies jellyfish 
 image:
   path: /images/sea_sparkles_adam_foster.jpg
----
+  alt: "Sea sparkles providing blue bioluminescence at night along the shore of Vicentia, NSW, Australia."
+--
+-
+*Photo credit: Adam Foster. [Flickr](https://www.flickr.com/photos/fosterlightroom/50106668788/) [CC BY-NC-SA 2.0]*
+{:.figcaption}
+
 
 *This post is adapted from* [a talk](https://github.com/keiran-rowell/Presentations/blob/main/Bioluminesce%20-%20theory%20group%20presentation.pdf) *I gave at one of the University of Sydney's Theory Group meetings, but is ultimately a refashioned book report of* [Bioluminescene by Thérèse Wilson & J. Woodland Hastings](https://www.hup.harvard.edu/catalog.php?isbn=9780674067165). *The Theory Group talks were an fascinating initiative, where other theoretical chemists were able to present on any topics in science that interested them. I hope my talk was interesting, but I don't think anything could top the talk given by some postdocs on the optimal physical chemistry for cooking pasta and making espresso.*  
 
