@@ -6,8 +6,12 @@ subtitle: "Why we keep forgetting federation and revert to centralisation"
 category: writing 
 tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC computing Athens federation 
 image:
-  path: /images/Deliaderbyshire.jpg
+  path: /images/delia_derbyshire.jpg
+  alt: "Delia Derbyshire at the Radiophonic Workshop."
 ---
+
+*Photo credit: © [BBC Archives](https://www.bbc.co.uk/programmes/profiles/51LC2shThjnCNR8dd4z2SRQ/delia-derbyshire)*
+{:.figcaption}
 
 > Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
 > Not the views of any employers, obvs.
