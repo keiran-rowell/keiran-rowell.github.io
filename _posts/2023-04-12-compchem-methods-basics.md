@@ -110,7 +110,7 @@ The first term ($$T_{s}[\rho]$$) is the electron kinetic energy which can be cal
 
 Functionals which incorporate more physical parameters of the electron density have accordingly higher computational costs, but tend to show increased accuracy. This provides a convenient classification of DFT methods into rungs on the conceptual "Jacob's ladder" of accuracy, which is illustrated below. The representative accuracy of each rung in Jacob's ladder is taken from the DFT review by Goerigk and Grimme, [A thorough benchmark of density functional methods for general main group thermochemistry, kinetics, and noncovalent interactions](http://dx.doi.org/10.1039/c0cp02984j). A popular DFT method is listed as an example for each rung.
 
-![Jacob's ladder](/images/Jacobs_ladder_Goerigk_Grimme.png) 
+![Jacob's ladder](/images/Jacobs_ladder_Goerigk_Grimme.png?v=2) 
 
 A schematic of the "rungs" of accuracy in the conceptual "Jacob's ladder" organisation system of density functional methods. The qouted accuracy of each rung comes from a review by Goerigk & Grimme on density functional methods. Schematic of Jacob's ladder modified from: Robert Fludd, *Utriusque Cosmi*, **1671**, illustrated by Johann Theodor de Bry, Oppenheim and Frankfort.
 {:.figcaption}
