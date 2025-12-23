@@ -180,7 +180,7 @@ These national behemoths did not dominate for long. Computer luminaries like [Gr
 
 This enabled distributed communication at a then-astounding scale, but what about distributing *computing power itself*? 
 
-While the `.com` commercial web was centralizing around Internet Service Providers and browser portals, another model was emerging on university campuses.
+While the `.com` commercial web was centralising around Internet Service Providers and browser portals, another model was emerging on university campuses.
 
 ### Federation Returns
 
@@ -220,9 +220,8 @@ The content also became more interactive and engaging. A massive connectivity, a
 
 Enabling the rollout to billions was the Cloud. Our devices were all still clients to servers, but rather than fixed physical assets, requiring distributed skills and maintenance crews, servers themselves were now *software*. On-demand, scalable, and far more cost efficient for small engagements than dedicated infra, the capital was invested in hyperscalers and their data centres. As much compute power as you could pay for was available to *everyone*: public, private, research. In tech, distance collapsed behind an API call.
  
-Web 3.0 faux federalisation. Energy intensive proof-of-work to back nothing but staking a claim. Regardless of the promise held in this decentralised internet, I hear [Web3 is going just great](https://www.web3isgoinggreat.com/).
+Web 3.0 offers the promise of a new time of federation, bypassing intermediaries. The technical federation mechanisms are there (distributed ledgers, decentralised applications, non-fungible assets) but the federated governance models have not kept up. The 'Magic: The Gathering Online' cryptocurreny exchange (Mt. Gox for respectability) was [hacked](https://trakx.io/resources/insights/the-mt-gox-hack-story-explained/), demonstrating a secure currency doesn't mean security of the treasury trading it. Many retreated to centralised exchanges to mediate the decentralised ledger. The treasury after all could still just be stolen, as was the case with the spectacular downfall of FTX where a [lack of insurance fund reserves](https://www.theblock.co/post/255352/ftx-used-random-numbers-to-generate-the-size-of-its-insurance-fund) could be obscured by a [`numpy.random()` number](https://www.citationneeded.news/the-fraud-was-in-the-code/) hidden behind the interface.  I haven't followed the develop of Web 3.0 closely, but its main mode appears to be distributed proof of *ownership*: energy intensive proof-of-work to calculate nothing but staking a claim. Regardless of the promise held in this decentralised new internet, I hear [Web3 is going just great](https://www.web3isgoinggreat.com/).
 
-Federation requires maintenance. Centralisation offers convenience.
 
  - Fediverse, but we'll focus on raw compute not communication. Federalisation still keeps communities somewhat fragmented into islands. A loss of reach and convenience.
 
