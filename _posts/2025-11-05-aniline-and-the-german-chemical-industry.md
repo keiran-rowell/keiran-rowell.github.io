@@ -5,8 +5,8 @@ title: "From Muck to Mauve: the creation of modern dyes from coal tar"
 subtitle: "Aniline and the birth of the German chemical industry"
 category: dyes
 tags: purple coal-tar aniline dyes BASF Kekulé Perkins quinine Pauling aromaticity resonance benzene Pynchon porphyrins orobouros 
-#image:
-#  path: /images/Peacock_coal_11.jpg
+image:
+  path: /images/Peacock_coal_11.jpg
 --- 
 
 > Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is alluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.  

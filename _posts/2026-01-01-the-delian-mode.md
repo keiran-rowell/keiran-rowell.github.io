@@ -5,8 +5,8 @@ title: "The Delian Mode: anti-imperial leagues, synths, federated computing, and
 subtitle: "Why we keep forgetting federation and revert to centralisation"
 category: writing 
 tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC computing Athens federation 
-#image:
-#  path: /images/delia-in-front-of-synth.jpg
+image:
+  path: /images/Deliaderbyshire.jpg
 ---
 
 > Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression.
@@ -223,6 +223,8 @@ Section on the transformative federated computing projects:
 - Folding@home
 ^ These are distrubted volunteer computing supporting civic acts
 - Multi-site next generation schedulers (Flux) 
+
+---
 
 Now, we have gargantuan data centres. Ingesting *exa*bytes of data from the collective voice of the internet. Undergoing intense language-on-language training campaigns to generate models that convincingly emulate the ability to think. These get widely released, some centralised to a particular company, some distributed, and become almost trivial to run as the power draw efficiency per thinking inference dramatically improves and AI chips balloon in capability. The [Multivac](https://en.wikipedia.org/wiki/Multivac) era of omniscient (though oft-times hallicunatory) district sized supercomputers are here. Will the power remain in the centre, or will it federate while it spreads out to embed as intermediary of societal interactions?   	
 
