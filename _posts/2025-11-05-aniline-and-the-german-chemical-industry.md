@@ -7,7 +7,11 @@ category: dyes
 tags: purple coal-tar aniline dyes BASF Kekulé Perkins quinine Pauling aromaticity resonance benzene Pynchon porphyrins orobouros 
 image:
   path: /images/Peacock_coal_11.jpg
+  alt: "Iridescent and purple-hued 'peacock coal' sheen displayed on anthracite coal from Ashland, PA, USA."
 --- 
+
+*Photo credit: James St. John. [Flickr](https://www.flickr.com/photos/47445767@N05/50656174972/) [CC BY 2.0]*
+{:.figcaption}
 
 > Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is alluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content.  
 
