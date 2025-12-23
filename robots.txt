@@ -8,3 +8,6 @@ Allow: /assets/
 
 # Sitemap
 Sitemap: https://keiran-rowell.github.io/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
