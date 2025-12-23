@@ -41,8 +41,8 @@ logo:                  /assets/img/rowell_avatar.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <Keiran> <Rowell>
-  email:               <keiran.rowell@gmail.com>
+  name:                Keiran Rowell
+  email:               keiran.rowell@gmail.com
   # # Used by `jekyll-seo-tag`:
   #Picture to be displayed
   picture:              /assets/img/rowell_avatar.png
