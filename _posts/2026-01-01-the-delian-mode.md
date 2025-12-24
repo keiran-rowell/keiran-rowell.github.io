@@ -232,8 +232,15 @@ Section on the transformative federated research computing projects:
 - Grid computing
 - SETI@home
 - Folding@home
+
+
+
+Commercial publishers of publicly funded research have adapted to the governance change demands of Open Access through ['Plan S'](https://www.coalition-s.org/) by changing their product model. Beyond supporting the hosting cost and editorial quality control & coordination, the fee now differentiates a PDF hosted on the arχiv from a publishing site by the non-fungible token of the journal imprint vouching for impact.   
+
 ^ These are distrubted volunteer computing supporting civic acts
 - Multi-site next generation schedulers (Flux) 
+
+
 
 ---
 
