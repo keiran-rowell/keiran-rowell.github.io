@@ -233,18 +233,18 @@ Section on the transformative federated research computing projects:
 - SETI@home
 - Folding@home
 
-
+- Citizen science
 
 Commercial publishers of publicly funded research have adapted to the governance change demands of Open Access through ['Plan S'](https://www.coalition-s.org/) by changing their product model. Beyond supporting the hosting cost and editorial quality control & coordination, the fee now differentiates a PDF hosted on the arχiv from a publishing site by the non-fungible token of the journal imprint vouching for impact.   
 
+
 ^ These are distrubted volunteer computing supporting civic acts
-- Multi-site next generation schedulers (Flux) 
 
-
+Computing monoliths still serve stable infrastructure for megascale projects. Timeshared among states and countries at the 'Tier-0' supercomputers hosted by the megapowers on the continents of the Global North.  Scheduling computing workload is also becoming federated, as the largest hardware vendor by market capitilisation [buys in to support tighter integration](https://blogs.nvidia.com/blog/nvidia-acquires-schedmd/) with the most widely distributed open-source workload manager, a next generation scheduler is built at a supercomputing juggernaut. [Flux](https://computing.llnl.gov/projects/flux-building-framework-resource-management) provides nested and flexible hierarchy of resource management, [with aspirations to enable converged computing](https://flux-framework.readthedocs.io/en/latest/faqs.html?h=site#where-does-flux-work) where compute workloads can be shared *inter*-cluster, inter-site, and between local compute and the cloud. Distributed governance persists in scientific projects too, cascading down the tiers to experimental local deployments, where someone may be doing the digital equivalent of running a tape loop along the longest corridor in town. 
 
 ---
 
-Now, we have gargantuan data centres. Ingesting *exa*bytes of data from the collective voice of the internet. Undergoing intense language-on-language training campaigns to generate models that convincingly emulate the ability to think. These get widely released, some centralised to a particular company, some distributed, and become almost trivial to run as the power draw efficiency per thinking inference dramatically improves and AI chips balloon in capability. The [Multivac](https://en.wikipedia.org/wiki/Multivac) era of omniscient (though oft-times hallicunatory) district sized supercomputers are here. Will the power remain in the centre, or will it federate while it spreads out to embed as intermediary of societal interactions?   	
+Now, we have gargantuan data centres. Ingesting *exa*bytes of data from the collective voice of the internet. Undergoing intense language-on-language training campaigns to generate models that convincingly emulate the ability to think. These get widely released, some centralised to a particular company, some distributed, and become almost trivial to run as the power draw efficiency per thinking inference dramatically improves and AI chips balloon in capability. The [Multivac](https://en.wikipedia.org/wiki/Multivac) era of omniscient (though oft-times hallucinatory) district sized supercomputers are here. Will the power remain in the centre, or will it federate while it spreads out to embed as intermediary of societal interactions?   	
 
 ---
 
