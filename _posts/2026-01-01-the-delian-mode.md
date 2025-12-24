@@ -1,4 +1,4 @@
----
+? ---
 layout: post
 author: keiran
 title: "The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures"
@@ -91,15 +91,15 @@ The imposition of fascism is brought with sound and fury. The drone of buzz bomb
 
 ### Resistance as a Noise
 
-To transform industrial sounds into art required understanding what sound *is* and how synthesis could build it from base component frequencies.
+Delia's experience of the air raid siren was---buried in her subconscious---formative in her career journey into synthesising repetitive sound. A bright girl captivated by music from all time periods, Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. The mathematical training brought a perfectionistic precision to her work, but she wasn't ruled by the slide-rule and intentionally used human fallibility to introduce swing into the rhythm. To transform industrial sounds into art required understanding what sound *is* and how synthesis could build it from base component frequencies. New worlds of sound were explored by experimenting with layerings of the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
 
-% Delia's inspiration of the air raid siren into synthesised repetitive sound. Delia won a scholarship to Girton College at Cambridge University where she studied a mathematics degree, incorporating music studies. Rather than drone on I'll some synth pioneers themselves demonstrate. Video of [her demonstrating synthesis](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ). [Wendy Carlos as well](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) on the five basic sound waves: sine, square, sawtooth, triangular, and white noise.
-% Physics and determining waves. 
-% The [Oramics machine](https://www.daphneoram.org/oramicsmachine/) of creating sound *from* the visual waves. 
-% Ruby Payne-Scott and radioastronomy as listening to the electromagnetic waves of the universe. Had to step down due to the CSIRO marriage ban. Had an ASIO file due to leftist tendencies
-% ABC logo is a wave: the Lissajou polynomial.
+Rather than drone on about the physics, I'll let the synth pioneers demonstrate. Delia [demonstrated with an oscilloscope in 1965](https://youtu.be/qsRuhCflRyg?si=6mQbVvDQJmQT6oYZ) including her sampling work. Wendy Carlos [demonstrates with a patch bay](https://youtu.be/4SBDH5uhs4Q?si=9LpckiUrRIjcoolQ) five years later. Some trailblazers adept with a solder iron even invented their own machines. Daphne Oram, cofounder of the Radiophonic Workshop, was inspired by a school experiment using an oscilloscope to visualise a sound wave. Why the reverse couldn't be possible---sound generated from inputting a graph? The [Oramics machine](https://www.daphneoram.org/oramicsmachine/) was born: lines drawn on glass slides allowed free-form pitch expression beyond electrical oscillations, though with many technical difficulties. 
 
-Somehow, this beating of the air makes us feel something. Sometimes, it changes how we think.
+Musicians weren't the only ones soldering electronics and poring over sine waves. Ruby-Payne Scott, working on secret war-time radar technologies, had become interested in transmissions from beyond Earth. Working in academia with Lindsay McCready and group leader John Pawsey they were able to pick up and classify bursts of radiowaves [broadcast during sunspot fluctuations](https://www.nature.com/articles/157158a0). The understanding of the signals from our universe had moved beyond [ceiling-breaking spectral photographs of the night sky](https://www.smsa.org.au/book-reviews/the-glass-universe-by-dava-sobel/) to the ['sound' of stars themselves](https://theconversation.com/joy-division-40-years-on-from-unknown-pleasures-astronomers-have-revisited-the-pulsar-from-the-iconic-album-cover-119861). Ruby would lose her permanent position, not due to her ASIO file [documenting leftist tendencies](https://web.archive.org/web/20140714170923/http://www.naa.gov.au/collection/snapshots/find-of-the-month/2009-march.aspx), but her hidden marriage was exposed and in violation of Australian public service marriage rules in force until 1966.
+
+All of the above was visualised as electrical current fluctuations on an oscilloscope. The Australian Broadcasting Corporation (ABC) logo itself is connected to this motif: its [3-loop Lissajou polynomial figure](https://www.abc.net.au/science/holo/liss.htm) of out of phase sine waves represented its broadcast charter for both radio and TV. The ABC archives might hold an indirect legacy connection to Delia. The BBC trashed archived content for cost saving measures, including *Doctor Who* for which Delia created the theme tune. The ABC though, receiving copies for broadcast from the BBC centre, makes Australia ripe for rediscovering [lost footage](https://www.abc.net.au/news/2020-08-23/doctor-who-missing-episodes-could-they-be-in-australia/12568918) especially censored edits spliced by the Film Censorship Board.
+
+The core driver of electronic sound synthesis was cultural exploration. Somehow, this beating of the air makes us feel something. Sometimes, it changes how we think.
 
 ### Sirens Into Songs
 
@@ -247,7 +247,6 @@ Technology shock permeates quickly, but has financial incentives to be harnessed
 
 Yet the alternatives keep emerging --- Athena *polias* persists, new federations form. The twilight offers a moment to breathe, to choose alternate futures.
 Let's hope social coordination and civic productivity can free up our future, one not driven to mass unrest or conflict as its remaining system shock mechanism.
-
 
 ---
 
