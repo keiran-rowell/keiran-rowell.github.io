@@ -1,7 +1,8 @@
 ---
 layout: post
 author: keiran  
-title: "Quantum Chem's NextGen Lang Trifecta: Hartree–Fock in Rust, Julia, and Python."
+title: "Hartree–Fock in Rust, Julia, and Python"
+subtitle: "Quantum Chem's NextGen Lang Trifecta"
 category: code
 tags: Hartree-Fock Python Julia Rust code tutorial 
 ---
@@ -193,7 +194,36 @@ We have hydrogen's STO-3G basis!
 
 ---
 
-TODO
+So the core of the algorithm is computing the **overlap matrix** $$\mathbf{S}$$ between two basis functions in space.
+
+$$S_{ij} = \langle \chi_i | \chi_j \rangle = \int \chi_i^*(\mathbf{r}) \chi_j(\mathbf{r}) \, d\mathbf{r}$$
+
+We'll write a function that computes the overlap of two basis functions.
+
+🐍
+`S = overlap_integral(basis1, basis2)`
+
+🔴🟢🟣
+`S = overlap_integral(basis1, basis2)`
+
+🦀
+`let s = compute_overlap(&basis1, &basis2);`
+
+We have two hydrogen atoms with a minimal basis, so we should get a 2x2 matrix to inspect.
+
+$$\mathbf{S} = \begin{bmatrix}
+\langle \chi_1 | \chi_1 \rangle & \langle \chi_1 | \chi_2 \rangle \\
+\langle \chi_2 | \chi_1 \rangle & \langle \chi_2 | \chi_2 \rangle
+\end{bmatrix}$$
+
+A basis function completely overlaps with itself, so we get one on the diagonals, and the overlap values ($$S_{ij}$$) on the off-diagonals depend on your basis set and molecular geometry. 
+
+$$\mathbf{S} = \begin{bmatrix}
+1 & S_{12} \\
+S_{21} & 1
+\end{bmatrix}$$
+
+The self-consistent field cycles will optimise the co-efficients for how your orbitals combine within this overlap.
 
 ---
 # Web content
