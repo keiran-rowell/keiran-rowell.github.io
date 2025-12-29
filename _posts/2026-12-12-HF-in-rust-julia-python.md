@@ -10,7 +10,7 @@ tags: Hartree-Fock Python Julia Rust code tutorial
 [Program in C](https://youtu.be/tas0O586t80?si=H2HnFcVoS4tNqKB0) they said. It's good for you they said. [And it is!](https://youtu.be/hE7l6Adoiiw?si=Ourgha7DTfRy_Cer)
 That is until you step outside the bounds of an array. Or dereference the wrong pointer to an array of pointers. Or, heaven forbid in this chatty age, want to do text processing.
 C is *fast*, it allocates memory like machine code. But it's not the only game in town, and [not always the fastest](https://www.i-programmer.info/news/98-languages/15506-rust-fast-and-safe.html). 
-C++ gives you a lot of powerful language features. But I don't write in it, I never took enterprise software engineering and I like to keep my digital shotguns well away from my feet.
+C++ gives you a lot of powerful language features. But I don't write in it, I never took enterprise software engineering and I like to keep digital shotguns well away from my feet.
 
 > "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off".
 
@@ -116,7 +116,7 @@ Array{BasisSets.GaussianBasisSet}((2,))
     m: Int64 0
     n: Int64 0
   2: BasisSets.GaussianBasisSet
-    R: Array{Float64}((1, 3)) [0.0 0.0 0.74]
+    R: Array{Float64}((1, 3)) [0.0 0.0 1.4]
     α: Array{Float64}((1, 3)) [3.42525091 0.62391373 0.1688554]
     d: Array{Float64}((1, 3)) [0.15432897 0.53532814 0.44463454]
     N: Array{Float64}((1, 3)) [1.794441832218435 0.5003264923314032 0.18773545851092535]
@@ -194,7 +194,9 @@ We have hydrogen's STO-3G basis!
 
 ---
 
-So the core of the algorithm is computing the **overlap matrix** $$\mathbf{S}$$ between two basis functions in space.
+## The overlap integral (S) 
+
+So the core of part the algorithm is computing the **overlap matrix** $$\mathbf{S}$$ between two basis functions in space.
 
 $$S_{ij} = \langle \chi_i | \chi_j \rangle = \int \chi_i^*(\mathbf{r}) \chi_j(\mathbf{r}) \, d\mathbf{r}$$
 
@@ -207,7 +209,7 @@ We'll write a function that computes the overlap of two basis functions.
 `S = overlap_integral(basis1, basis2)`
 
 🦀
-`let s = compute_overlap(&basis1, &basis2);`
+`let S = overlap_integral(&basis1, &basis2);`
 
 We have two hydrogen atoms with a minimal basis, so we should get a 2x2 matrix to inspect.
 
@@ -225,6 +227,233 @@ S_{21} & 1
 
 The self-consistent field cycles will optimise the co-efficients for how your orbitals combine within this overlap.
 
+
+With two s-orbital Gaussian *primitives* the overlap integral is:
+
+$$S = \left(\frac{\pi}{\alpha + \beta}\right)^{3/2} \exp\left(-\frac{\alpha\beta}{\alpha+\beta}|\mathbf{R}_A - \mathbf{R}_B|^2\right)$$
+
+🐍
+```python
+S_prim = (np.pi / (alpha + beta))**(3/2) * np.exp(-alpha * beta / (alpha + beta) * np.sum((R_A - R_B)**2))
+```
+🔴🟢🟣 <span style="color:#A9A9A9">(the `.` operator means apply to each *element* in an array independently)</span>
+```julia
+S_prim = (π / (α + β))^(3/2) * exp(-(α * β / (α + β)) * sum((R_A .- R_B).^2))
+```
+🦀
+```rust
+let dist_sq: f64 = (0..3) //summing over X,Y,Z indices
+    .map(|i| (r_a[i] - r_b[i]).powi(2))
+    .sum();
+let S_prim = (std::f64::consts::PI / (alpha + beta)).powf(1.5) 
+    * (-alpha * beta / (alpha + beta) * dist_sq).exp();
+```
+
+The actual `overlap_integral` function when working with a real contracted basis set will involved summing the primitives in the basis set, weighted by contraction co-efficients and normalised. 
+
+---
+
+## Operator matrices setup
+
+### Denisty matrix (D)
+To kickstart our engine we need an intial electron density matrix ($$\mathbf{D}$$). For a toy system it's actually okay to start with zero density everywhere, though for any real molecular system choice of a good guess is important for convergence. For difficult to converge cases, feeding in the results of a simpler model chemistry will help start need a convergent minimum.
+
+🐍
+```python
+D = np.zeros((n_basis,n_basis))
+```
+🔴🟢🟣
+```julia
+D = zeros(n_basis, n_basis)
+```
+🦀
+```rust
+let mut d = Array2::<f64>::zeros((n_basis, n_basis));
+```
+
+### Fock operator (F)
+
+For teaching purposes we're going to skip the electron-electron repulsion integrals (ERIs) that are the bulk of the computational cost and code complexity.
+In this way our *toy* Fock matrix ($$\mathbf{F}$$) is just the core Hamiltonian ($$\mathbf{F}$$--- the total energy of forces acting on our one-electron core). This is really just our electrons' kinetic energies ($$\mathbf{T}$$) and their attractive potential energy to the nuceli ($$\mathbf{V}^{\text{nuc}}$$)
+
+$$\mathbf{F} = \mathbf{H}^{\text{core}} = \mathbf{T} + \mathbf{V}^{\text{nuc}}$$
+
+### Kinetic energy operator (T)
+
+The electron kinetic energy is the momentum taken in all directions ($$\nabla$$):
+$$\hat{T} = -\frac{1}{2}\nabla^2$$
+
+When evaluating between two basis functions:
+$$T_{\mu\nu} = \left\langle \chi_\mu \left| -\frac{1}{2}\nabla^2 \right| \chi_\nu \right\rangle$$
+
+Taking the result from Szabo & Ostlund *"Modern Quantum Chemistry"* Appendix A as I'm not a physicist. Note the relationship to $$S$$:
+
+$$T = \alpha\beta\left[\frac{3}{\alpha+\beta} - \frac{2(\alpha\beta)}{(\alpha+\beta)^2}|\mathbf{R}_A - \mathbf{R}_B|^2\right] S$$
+
+🐍
+```python
+reduced_exp = alpha * beta / (alpha + beta)
+T_prim = reduced_exp * (3 - 2 * reduced_exp * np.sum((R_A - R_B)**2)) * S_prim
+```
+🔴🟢🟣
+```julia
+reduced_exp = α * β / (α + β)
+T_prim = reduced_exp * (3 - 2 * reduced_exp * sum((R_A .- R_B).^2)) * S_prim
+```
+🦀
+```
+let reduced_exp = alpha * beta / (alpha + beta);
+let T_prim = reduced_exp * (3.0 - 2.0 * reduced_exp * dist_sq) * S_prim;
+```
+
+### Nuclear attraction potential (V)
+We invoke the Born-Oppenheimer approximation that electron motion occurs on much faster timescale than nuclear re-arrangement (can also think of this in terms of different decoupled energy scales). So the nuclei are effectively *fixed* in place.
+
+$$\hat{V}^{\text{nuc}}_A = -\frac{Z_A}{|\mathbf{r} - \mathbf{R}_A|}$$
+
+$$V^{\text{nuc}}_{\mu\nu} = -\left\langle \chi_\mu \left| \frac{1}{|\mathbf{r} - \mathbf{R}_1|} \right| \chi_\nu \right\rangle - \left\langle \chi_\mu \left| \frac{1}{|\mathbf{r} - \mathbf{R}_2|} \right| \chi_\nu \right\rangle$$
+
+The nuclear attraction integrals involve special functions that are beyond our scope here. For our toy demo we'll use dramatically simplified nuclear attraction entries.
+
+🐍
+```python
+V_nuc = -Z * np.ones((n_basis, n_basis)) / R
+```
+🔴🟢🟣
+```julia
+V_nuc = -Z * ones(n_basis, n_basis) / R 
+```
+🦀
+```
+let v_nuc = -z * Array2::<f64>::ones((n_basis, n_basis)) / r;
+```
+
+## The self-consistent field (SCF) loop
+
+Recall this is an iterative eigenvalue finding problem
+$$\mathbf{FC} = \epsilon\mathbf{SC}$$
+
+To that that we need to do some orthogonalisation
+$$ \mathbf{X} = \mathbf{S}^{-\frac{1}{2}} $$
+
+Use the transpose of the orthogonalisation matrix ($$\mathbf{X}^{T}$$) to transform the Fock operator into the new basis
+$$ \mathbf{F}' = \mathbf{X}^{T}\mathbf{F}\mathbf{X} $$
+
+Solve for the eignevalues of the co-efficient matrix
+$$ \mathbf{F}'\mathbf{C}' = \mathbf{C}'\epsilon $$
+
+Update the new co-efficient matrix into original basis
+$$ \mathbf{C} = \mathbf{X}\mathbf{C}' $$
+
+🐍
+```python
+s_eigvals, s_eigvecs = np.linalg.eigh(S)
+X = s_eigvecs @ np.diag(s_eigvals**(-0.5)) @ s_eigvecs.T
+
+F_prime = X.T @ F @ X
+
+epsilon, C_prime = np.linalg.eigh(F_prime)
+
+C = X @ C_prime
+```
+🔴🟢🟣
+```julia
+using LinearAlgebra
+
+s_eigvals, s_eigvecs = eigen(S)
+X = s_eigvecs * Diagonal(s_eigvals.^(-0.5)) * s_eigvecs'
+
+F_prime = X' * F * X
+
+epsilon, C_prime = eigen(F_prime)
+
+C = X * C_prime
+```
+🦀
+```rust
+use ndarray_linalg::*;
+
+let (s_eigvals, s_eigvecs) = s.eigh(UPLO::Lower)?;
+let s_inv_sqrt = s_eigvecs.dot(&Array2::from_diag(&s_eigvals.mapv(|x| x.powf(-0.5)))).dot(&s_eigvecs.t());
+
+let f_prime = s_inv_sqrt.t().dot(&f).dot(&s_inv_sqrt);
+
+let (epsilon, c_prime) = f_prime.eigh(UPLO::Lower)?;
+
+let c = s_inv_sqrt.dot(&c_prime);
+```
+
+Time to update the density matrix using these new co-efficients. This is H<sub>2</sub> in restricted Hartree--Fock so only one occupied orbital to deal with.
+
+$$D_{\mu\nu} = 2\sum_{i}^{\text{occ}} C_{\mu i} C_{\nu i}$$
+
+🐍
+```python
+n_occ = n_electrons 
+D_new = 2 * C[:, :n_occ] @ C[:, :n_occ].T
+```
+🔴🟢🟣
+```julia
+n_occ = n_electrons ÷ 2 
+D_new = 2 * C[:, 1:n_occ] * C[:, 1:n_occ]'
+```
+🦀
+```rust
+let n_occ = n_electrons / 2; 
+let c_occ = c.slice(s![.., 0..n_occ]);
+let d_new = 2.0 * c_occ.dot(&c_occ.t());
+```
+### Energy convergence check
+
+We can calculate the energy from summing enetries in the Fock operator and core Hamiltonian
+
+$$E = \frac{1}{2}\text{Tr}[\mathbf{D}(\mathbf{H}^{\text{core}} + \mathbf{F})]$$
+
+Then it's just the matter of checking that the energy hasn't changed between each cycle, to some tolerance
+
+$$\Delta E = |E_{\text{new}} - E_{\text{old}}| < \epsilon_{\text{tol}}$$
+
+🐍
+```python
+E_new = 0.5 * np.trace(D_new @ (H_core + F))
+
+delta_E = abs(E_new - E_old)
+if delta_E < epsilon_tol:
+    converged = True
+    print(f"Converged! Final energy: {E_new:.6f} Ha")
+else:
+    E_old = E_new
+    D = D_new
+```
+🔴🟢🟣
+```julia
+E_new = 0.5 * tr(D_new * (H_core + F))
+
+ΔE = abs(E_new - E_old)
+if ΔE < ε_tol
+    converged = true
+    println("Converged! Final energy: $E_new Ha")
+else
+    E_old = E_new
+    D = D_new
+end
+```
+🦀
+```
+let e_new = 0.5 * (&d_new * &(&h_core + &f)).trace().unwrap();
+
+let delta_e = (e_new - e_old).abs();
+if delta_e < epsilon_tol {
+    converged = true;
+    println!("Converged! Final energy: {:.6} Ha", e_new);
+} else {
+    e_old = e_new;
+    d = d_new;
+}
+```
+
+We wrap the above in a loop with a maximum number of iterations and we're ready!
+
 ---
 # Web content
 ---
@@ -235,6 +464,10 @@ Python load a `pyodide.js`. Will be slow
 Julia embed the HTML for a Pluto notebook with sliders. Then link to a JuliaHub with they want to modify the source code
 
 Julia is designed to hit sweet-spot of easy to write and performance for scientific code, so muich so that there's now a full production quality [Quantum Chemistry package written in Julia](https://doi.org/10.1021/acs.jctc.0c00337). 
+
+The sliders will be of R (maybe 0.25-1.5 A), so you can see the off-diagonal elements of S change, and the basis sets chosen from a dropdown. Then hit 'run' and watch the SCF cycles converge.
+
+Have all 2x2 S matrix elements displayed. Plot the SCF cycles
 
 ---
 
