@@ -19,9 +19,9 @@ So let's reimplement the fundamental orbital energy optimiser, the basis for all
 
 In with the new (apologies Formula Translation maintainence work); so for pedagogical/andragogical reasons, and to learn a couple of new languages, let's write the same algo in three languages:
 
-- 🦀 `Rust`: It's all the rage, faster than C, and very nicely gives you a talking to when it can see mistakes in the future.
 - 🐍 `Python`: It's Python! It's everywhere. It's *readable*. It's not so bad as you would think because core Numerical Python is implemented in highly optimised C anyway. 
 - 🔴🟢🟣 `Julia`: "[*as flexible as Python, as numerical as Matlab, as fast as Fortran, and as deep as Lisp.*](https://discourse.julialang.org/t/elevator-pitch/29457/8)". Designed *for* scientific computing. Well, what's not to like? It's REPL prompt is super nice, it's package manager doesn't make me prematurely age like Python does in my day job. And Just-In-Time compilation is *incredibly smart*. <span style="color:#A9A9A9">(I secretly think this is why observables are indeterminate until measured, but today we're strictly ["Shut up and calculate"](https://hsm.stackexchange.com/questions/3615/who-was-the-first-to-say-shut-up-and-calculate))</span> 
+- 🦀 `Rust`: It's all the rage, faster than C, and very nicely gives you a talking to when it can see mistakes in the future.
 
 With [WebAssembly](https://rust-lang.org/what/wasm/) and [Pluto notebooks](https://plutojl.org/) we can do quantum chemistry in our browser. Let's goooo--- 
 
@@ -46,7 +46,85 @@ We're going to do a toy version of restricted Hartree--Fock for understanding pu
 Basically saying `Hello World!` to H<sub>2</sub>.
 
 ---
+
 # Basis Sets
+
+---
+## Python 🐍
+
+Using [@bennyp](https://github.com/bennybp) and [@susilehtola](https://github.com/susilehtola)'s [`basis_set_exchange`](https://molssi-bse.github.io/basis_set_exchange/usage.html#) library provied for MolSSI (the Molecular Sciences Software Institute). 
+
+```python
+pip install basis_set_exchange
+
+import basis_set_exchange
+sto3g_orca_fmt =  basis_set_exchange.get_basis('STO-3G', fmt='ORCA', header=False)
+print(sto3g_orca_fmt)
+```
+
+```
+$DATA
+
+HYDROGEN
+S   3
+1         0.3425250914E+01       0.1543289673E+00
+2         0.6239137298E+00       0.5353281423E+00
+3         0.1688554040E+00       0.4446345422E+00
+```
+Looking good!
+
+---
+
+## Julia 🔴🟢🟣
+
+Using [@Leticia-maria](https://github.com/Leticia-maria)'s [BasisSets.jl](https://github.com/HartreeFoca/BasisSets.jl) Basis Set Exchange parser.
+
+```julia
+using Pkg
+Pkg.add("BasisSets")
+using BasisSets
+```
+
+Create a `H2.xyz` with 0.74 Å / 1.4 Bohr seperation on the Z-axis. 
+```
+2
+
+H 0.000000 0.000000 0.000000
+H 0.000000 0.000000 1.400000
+```
+
+Check a minimal H<sub>2</sub> minimal basis set.
+
+<span style="color:#A9A9A9">The README omits the intermediate molecule() function you can find by running names(BasisSets)</span>
+
+```julia
+h2_mol = molecule("./H2.xyz")
+h2_sto3g = parsebasis(h2_mol, "STO-3g")
+```
+
+Inspect with `dump(h2_sto3g)`
+```
+Array{BasisSets.GaussianBasisSet}((2,))
+  1: BasisSets.GaussianBasisSet
+    R: Array{Float64}((1, 3)) [0.0 0.0 0.0]
+    α: Array{Float64}((1, 3)) [3.42525091 0.62391373 0.1688554]
+    d: Array{Float64}((1, 3)) [0.15432897 0.53532814 0.44463454]
+    N: Array{Float64}((1, 3)) [1.794441832218435 0.5003264923314032 0.18773545851092535]
+    size: Int64 3
+    ℓ: Int64 0
+    m: Int64 0
+    n: Int64 0
+  2: BasisSets.GaussianBasisSet
+    R: Array{Float64}((1, 3)) [0.0 0.0 0.74]
+    α: Array{Float64}((1, 3)) [3.42525091 0.62391373 0.1688554]
+    d: Array{Float64}((1, 3)) [0.15432897 0.53532814 0.44463454]
+    N: Array{Float64}((1, 3)) [1.794441832218435 0.5003264923314032 0.18773545851092535]
+    size: Int64 3
+    ℓ: Int64 0
+    m: Int64 0
+    n: Int64 0
+```
+With symbols, neat!
 
 ---
 
@@ -58,7 +136,8 @@ Yoinking [@iggedi-ig-ig](https://github.com/iggedi-ig-ig)'s [basis set parser](h
 
 Start project with `cargo new h2_hf_rust`
 
-Download the `STO-3G` basis set and save it in the project.
+Download the `STO-3G` basis set file and save it within the project.
+
 `wget -O sto-3g-h.json "https://www.basissetexchange.org/api/basis/sto-3g/format/json/?version=1&elements=1"` 
 
 Add the basis set package to the `Cargo.toml` dependency listing, and the json parsing library
@@ -110,83 +189,8 @@ We have hydrogen's STO-3G basis!
 
 ---
 
-## Julia 🔴🟢🟣
-
-Using [@Leticia-maria](https://github.com/Leticia-maria)'s [BasisSets.jl](https://github.com/HartreeFoca/BasisSets.jl) Basis Set Exchange parser.
-
-```julia
-using Pkg
-Pkg.add("BasisSets")
-using BasisSets
-```
-
-Create a `H2.xyz` with 0.74 Å / 1.4 Bohr seperation on the Z-axis. 
-```
-2
-
-H 0.000000 0.000000 0.000000
-H 0.000000 0.000000 1.400000
-```
-
-Check a minimal H<sub>2</sub> minimal basis set.
-<span style="color:#A9A9A9">The README omits the intermediate molecule() function you can find by running names(BasisSets)</span>
-```julia
-h2_mol = molecule("./H2.xyz")
-h2_sto3g = parsebasis(h2_mol, "STO-3g")
-```
-
-Inspect with `dump(h2_sto3g)`
-```
-Array{BasisSets.GaussianBasisSet}((2,))
-  1: BasisSets.GaussianBasisSet
-    R: Array{Float64}((1, 3)) [0.0 0.0 0.0]
-    α: Array{Float64}((1, 3)) [3.42525091 0.62391373 0.1688554]
-    d: Array{Float64}((1, 3)) [0.15432897 0.53532814 0.44463454]
-    N: Array{Float64}((1, 3)) [1.794441832218435 0.5003264923314032 0.18773545851092535]
-    size: Int64 3
-    ℓ: Int64 0
-    m: Int64 0
-    n: Int64 0
-  2: BasisSets.GaussianBasisSet
-    R: Array{Float64}((1, 3)) [0.0 0.0 0.74]
-    α: Array{Float64}((1, 3)) [3.42525091 0.62391373 0.1688554]
-    d: Array{Float64}((1, 3)) [0.15432897 0.53532814 0.44463454]
-    N: Array{Float64}((1, 3)) [1.794441832218435 0.5003264923314032 0.18773545851092535]
-    size: Int64 3
-    ℓ: Int64 0
-    m: Int64 0
-    n: Int64 0
-```
-With symbols, neat!
-
----
-
-
-## Python 🐍
-
-Using [@bennyp](https://github.com/bennybp) and [@susilehtola](https://github.com/susilehtola)'s [`basis_set_exchange`](https://molssi-bse.github.io/basis_set_exchange/usage.html#) library provied for MolSSI (the Molecular Sciences Software Institute). 
-
-```python
-pip install basis_set_exchange
-
-import basis_set_exchange
-sto3g_orca_fmt =  basis_set_exchange.get_basis('STO-3G', fmt='ORCA', header=False)
-print(sto3g_orca_fmt)
-```
-
-```
-$DATA
-
-HYDROGEN
-S   3
-1         0.3425250914E+01       0.1543289673E+00
-2         0.6239137298E+00       0.5353281423E+00
-3         0.1688554040E+00       0.4446345422E+00
-```
-Looking good!
-
----
 # Hartree--Fock
+
 ---
 
 TODO
