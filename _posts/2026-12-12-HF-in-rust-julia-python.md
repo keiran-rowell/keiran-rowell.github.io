@@ -27,7 +27,7 @@ With [WebAssembly](https://rust-lang.org/what/wasm/) and [Pluto notebooks](https
 
 ---
 
-The Hartree--Fock algorithm is the computational kernel for more accurate [electronic structure wavefunction methods]({% post_url 2023-04-12-compchem-methods-basics %}) as electron behaviour is captured by addition of either 'dynamic' electron correlation (mutual repulsion during motion) and 'static' correlation (fun stuff where a single arrangement of reference electron orbitals are insufficient). First we need to get a reasonable set of combined atomic orbitals for the resting state of a molecule. I'm using "pre-baked" basis-sets as really I want to focus on the algorithm (Roothaan--Hall eigenvalue finding) and coding it up.
+The Hartree--Fock algorithm is the computational kernel for more accurate [electronic structure wavefunction methods]({% post_url 2023-04-12-compchem-methods-basics %}), where electron behaviour is improved by addition of either 'dynamic' electron correlation (mutual repulsion during motion) and 'static' correlation (fun stuff where a single arrangement of reference electron orbitals are insufficient). First we need to get a reasonable set of combined atomic orbitals for the resting state of a molecule. I'm using "pre-baked" basis-sets as really I want to focus on the algorithm (Roothaan--Hall eigenvalue finding) and coding it up.
 
 So, we're starting with a set of atomic orbitals ($$\chi_{n}$$) (here, the minimal viable ones, the basis-set). We combine them to get some set of molecular orbitals ($$\phi_{i} = \sum\limits_{n}C_{ni}\chi_{n}$$) (MOs). If we take these electrons and capture their properties as spin--$$\frac{1}{2}$$ particles---kinetic energy, attraction to nuclei, electron--electron repulsions, change of sign upon indistinguishable particle exchange (Fermi stats)--- we get the Fock operator $$\hat{F}$$ to work with. Really, the Fock operator is related to the overlap of orbital basis set vectors ($${S}$$), and we can use an algorithm to optimise the co-efficients ($${C}$$) of these orbitals to lower the orbital energies ($$\epsilon$$)
 
@@ -51,11 +51,12 @@ Right, I wore my trousers rolled and scuttled through the conceptual waves of [R
 Yoinking [@iggedi-ig-ig](https://github.com/iggedi-ig-ig)'s [basis set parser](https://github.com/iggedi-ig-ig/fock-rs/tree/master/basis_set) since I want to leverage the [Basis Set Exchange](https://www.basissetexchange.org/).
 
 
-```rust
-
+```toml
 [dependencies]
 basis_set = { git = "https://github.com/iggedi-ig-ig/fock-rs", package = "basis_set" }
+```
 
+```rust
 use basis_set::BasisSet;
 ```
 
