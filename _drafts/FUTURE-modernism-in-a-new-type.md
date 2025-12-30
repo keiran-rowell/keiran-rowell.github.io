@@ -10,8 +10,12 @@ image:
   alt: ""
 ---
 
+Susumua Yakota (1960->2015) and Chinastu Kuzuu (1961->present) are my favourites and should serve as anchor points and emotional core. Kinda like Delia, but there's a broader cast of characters here 
+
 Susumu Yokota? 
 Kankyō Ongaku? - Sonic response to a frenetic modernisation. Sonic through line of Japanese natural aesthetics and electronic music
+Basically anything on FOND/SOUND
+Did this link of SES? Was it the preseve of the educate elite in the reconstructing country?
 The Noise Rock scene of Kyoto. I sadly didn't brave going to that venue by myself not speaking the language.
 What does it mean to be counter-cultural in a place that has undergone the most rapid cultural shift in history
 The rocket of Japan into moderism and the economic miracle of reconstruction protectionism with aid funds and a central bank that will underwrite competitive industries?

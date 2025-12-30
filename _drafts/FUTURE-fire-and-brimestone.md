@@ -1,7 +1,7 @@
 ---
 layout: post
 author: keiran
-title: "Blue Fire and Smelly Brimstone: The Appetite for Sulfur in the Industrial Economy"
+title: "Blue Fire and Yellow Brimstone: The Waning Appetite for Sulfur in the Industrial Economy"
 subtitle:  
 category: sulfur
 tags: 
@@ -13,6 +13,13 @@ image:
 *Photo Credit: [Candra Firmansyah](https://commons.wikimedia.org/wiki/File:Menambang_Belerang.jpg) [CC BY-SA 4.0]*
 {.:figcaption}
 
+---
+
+*It's just smoke. Floating over the volcano
+It's just smoke. Go on, you know I can't say no*
+
+---
+
 A story of commodity value inversion. What caused wars is now sold to be *taken away*. If the petroleum industry shrinks it might invert again
  
 Indonesian Sulfur mines with Blue Flames
@@ -20,6 +27,7 @@ Indonesian Sulfur mines with Blue Flames
 Gunpowder
 Fertiliser 
 Sicily Sulfur wars
+-> Strongly associated with the rise of the Sicilian Mafia
 
 Rubber Vulcanisation
 
@@ -45,3 +53,13 @@ Geothermal vents
 Mustard gas?
 
 Cystine and protein stability
+
+---
+
+*And you are melting everything about me
+Oh, don't worry about me, it's just smoke
+And the fallout doesn't faze me
+Take a bullet for my baby
+For the one thing that'll save me*
+
+---
