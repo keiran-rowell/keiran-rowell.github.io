@@ -4,7 +4,13 @@ author: keiran
 title: "Hartree–Fock in Rust, Julia, and Python"
 subtitle: "Quantum Chem's NextGen Lang Trifecta"
 category: code
-tags: Hartree-Fock Python Julia Rust code tutorial 
+tags: Hartree-Fock Python Julia Rust code tutorial quantum-chemistry 
+---
+
+> 🧪 **Try it yourself**: [Interactive demos available→]({% post_url 2026-12-12-HF-interactive %})
+>
+> Run the H<sub>2</sub> Hartree-Fock calculations from this post directly in your browser.
+
 ---
 
 [Program in C](https://youtu.be/tas0O586t80?si=H2HnFcVoS4tNqKB0) they said. It's good for you they said. [And it is!](https://youtu.be/hE7l6Adoiiw?si=Ourgha7DTfRy_Cer)
@@ -499,5 +505,10 @@ Have all 2x2 S matrix elements displayed. Plot the SCF cycles
 
 ---
 
-Thank you for reading! 
+## Related Resources
+
+- 🐍 [Python version](/interactive/hf-demo/python/) - Run with Pyodide
+- 🔴🟢🟣 [Julia version](/interactive/hf-demo/julia/) - Try it in your browser
+- 🦀 [Rust version](/interactive/hf-demo/rust/) - WebAssembly performance
+- 💻 [Source Code](https://github.com/keiran-rowell/hartee-fock) - All implementations
 
