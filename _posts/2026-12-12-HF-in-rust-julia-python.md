@@ -507,8 +507,8 @@ Have all 2x2 S matrix elements displayed. Plot the SCF cycles
 
 ## Related Resources
 
-- 🐍 [Python version](/interactive/hf-demo/python/) - Run with Pyodide
-- 🔴🟢🟣 [Julia version](/interactive/hf-demo/julia/) - Try it in your browser
-- 🦀 [Rust version](/interactive/hf-demo/rust/) - WebAssembly performance
+- 🐍 [Python version](/interactive/hf-python/index.html) - Run with Pyodide
+- 🔴🟢🟣 [Julia version](/interactive/hf-julia/index.html) - Try it in your browser
+- 🦀 [Rust version](/interactive/hf-rust/index.html) - WebAssembly performance
 - 💻 [Source Code](https://github.com/keiran-rowell/hartee-fock) - All implementations
 
