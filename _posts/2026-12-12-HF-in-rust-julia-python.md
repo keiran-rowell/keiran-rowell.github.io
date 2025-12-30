@@ -18,7 +18,7 @@ C++ gives you a lot of powerful language features. But I don't write in it, I ne
 
 So let's reimplement the fundamental orbital energy optimiser, the basis for all [electronic structure theory methods]({% post_url 2023-04-12-compchem-methods-basics %}): Hartree--Fock.  <span style="color:#A9A9A9">(With deep debt to [QUACCS](https://quaccs.wordpress.com/))</span>
 
-In with the new (apologies Formula Translation maintainence work); so for pedagogical/andragogical reasons, and to learn a couple of new languages, let's write the same algo in three languages:
+In with the new <span style="color:#A9A9A9">(apologies Formula Translation maintainence work)</span>; so for pedagogical/andragogical reasons, and to learn a couple of new languages, let's write the same algo in three languages:
 
 - 🐍 `Python`: It's Python! It's everywhere. It's *readable*. It's not so bad as you would think because core Numerical Python is implemented in highly optimised C anyway. 
 - 🔴🟢🟣 `Julia`: "[*as flexible as Python, as numerical as Matlab, as fast as Fortran, and as deep as Lisp.*](https://discourse.julialang.org/t/elevator-pitch/29457/8)". Designed *for* scientific computing. Well, what's not to like? It's REPL prompt is super nice, it's package manager doesn't make me prematurely age like Python does in my day job. And Just-In-Time compilation is *incredibly smart*. <span style="color:#A9A9A9">(I secretly think this is why observables are indeterminate until measured, but today we're strictly ["Shut up and calculate"](https://hsm.stackexchange.com/questions/3615/who-was-the-first-to-say-shut-up-and-calculate))</span> 
@@ -36,12 +36,12 @@ If we take these electrons and capture their properties as spin--$$\frac{1}{2}$$
 
 So we have the Roothan--Hall matrix optimisation problem of finding the co-efficients that lowers the molecular orbital energies, which is guaranteed to be the closest to ground-state reality for HF (the Variational Principle).
 
-$$\mathbf{FC} =  \epsilon \mathbf{SC}$$ 
+$$\mathbf{FC} =  \mathbf{SC}\epsilon$$ 
 
 Right, enough notation. Let's set up an engine that finds the energy eigenvalues ($$\epsilon$$) given some input orbitals, and then uses and optimisation algorithm to feed the output co-efficients back in to iteratively refind until converge. Yielding a set of one-electron orbitals solved in "self-consistent field" with respect to the other electrons. Time to code. 
 
  
-> Code snippets will be as quotes. Blocks will be syntax highlighted. Some things will be interactive through web magic.  
+> Code snippets will be as quotes. Blocks will be syntax highlighted. Some things will be interactive through web magic. Those are in a later [post]() 
 
 We're going to do a toy version of restricted Hartree--Fock for understanding purposes. 
 Basically saying `Hello World!` to H<sub>2</sub>.
@@ -256,18 +256,28 @@ The actual `overlap_integral` function when working with a real contracted basis
 ## Operator matrices setup
 
 ### Denisty matrix (D)
-To kickstart our engine we need an intial electron density matrix ($$\mathbf{D}$$). For a toy system it's actually okay to start with zero density everywhere, though for any real molecular system choice of a good guess is important for convergence. For difficult to converge cases, feeding in the results of a simpler model chemistry will help start need a convergent minimum.
+To kickstart our engine we need an intial electron density matrix ($$\mathbf{D}$$). For a toy system it's actually okay to start with zero density everywhere (or the identity matrix). The problem is that means the toy SCF cycles don't have enough effect of the denisty and randomness in starting point to watch the convergence for H<sub>2</sub>. 
+
+What I'm going to do is set the intitial electron density matrix to small random values and symmetrise. 
+
+> **WARNING**: This is FAKE
+
+Though for any real molecular system choice of a good guess is important for convergence. For difficult to converge cases, feeding in the results of a simpler model chemistry will help start need a convergent minimum.
+
 
 🐍
 ```python
-D = np.zeros((n_basis,n_basis))
+D = np.random.rand(n_basis, n_basis) * 0.01
+D = (D + D.T) / 2
 ```
 🔴🟢🟣
 ```julia
+TODO: UPDATE
 D = zeros(n_basis, n_basis)
 ```
 🦀
 ```rust
+TODO: UPDATE
 let mut d = Array2::<f64>::zeros((n_basis, n_basis));
 ```
 
@@ -315,6 +325,8 @@ $$V^{\text{nuc}}_{\mu\nu} = -\left\langle \chi_\mu \left| \frac{1}{|\mathbf{r} -
 
 The nuclear attraction integrals involve special functions that are beyond our scope here. For our toy demo we'll use dramatically simplified nuclear attraction entries.
 
+> **WARNING**: This is FAKE
+
 🐍
 ```python
 V_nuc = -Z * np.ones((n_basis, n_basis)) / R
@@ -326,6 +338,23 @@ V_nuc = -Z * ones(n_basis, n_basis) / R
 🦀
 ```
 let v_nuc = -z * Array2::<f64>::ones((n_basis, n_basis)) / r;
+```
+
+
+### Electron Repulsion Integrals (ERIs)
+
+The most demanding part of the Hartree--Fock calculation, both computational and mathematically. I've farmed them out to `integrals.py` to not break the logic flow of SCF. This is where I've put the overlap and kinetic energy integrals as well.  
+
+The electron-electron repulsion matrix ($$\mathbf{G}$$) captures both the Coloumbic repulsions between negative charges ($$\mathbf{J}$$) and the quantum effect of change of wavefunction sign upon exchange of two particles ($$\mathbf{K}$$)
+
+$$\mathbf{G}[\mathbf{D}] = \mathbf{J}[\mathbf{D}] - \mathbf{K}[\mathbf{D}]$$
+
+Refer to `integrals.py`, which I've just generated from a reference, if you want more details. 
+
+🐍
+```python
+G = build_G_matrix(D, ERIs)
+F = T + V_nuc + G
 ```
 
 ## The self-consistent field (SCF) loop
@@ -453,6 +482,11 @@ if delta_e < epsilon_tol {
 ```
 
 We wrap the above in a loop with a maximum number of iterations and we're ready!
+
+---
+# Performance comparison
+
+Obviously solving a fake H<sub>2</sub> is a terrible comparison for the code performance doing real chemistry. Nevertheless..
 
 ---
 # Web content
