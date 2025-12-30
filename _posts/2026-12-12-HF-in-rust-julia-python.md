@@ -200,13 +200,13 @@ So the core of part the algorithm is computing the **overlap matrix** $$\mathbf{
 
 $$S_{ij} = \langle \chi_i | \chi_j \rangle = \int \chi_i^*(\mathbf{r}) \chi_j(\mathbf{r}) \, d\mathbf{r}$$
 
-We'll write a function that computes the overlap of two basis functions.
+We'll write a function that computes the overlap of two basis functions, working on the primitives with their exponents (α, β).
 
 🐍
-`S = overlap_integral(basis1, basis2)`
+`def compute_S_primitive(alpha, beta, R_A, R_B)`
 
 🔴🟢🟣
-`S = overlap_integral(basis1, basis2)`
+`function compute_S_primitive(α::Float64, β::Float64, R_A::Vector{Float64}, R_B::Vector{Float64})`
 
 🦀
 `let S = overlap_integral(&basis1, &basis2);`
@@ -256,23 +256,16 @@ The actual `overlap_integral` function when working with a real contracted basis
 ## Operator matrices setup
 
 ### Denisty matrix (D)
-To kickstart our engine we need an intial electron density matrix ($$\mathbf{D}$$). For a toy system it's actually okay to start with zero density everywhere (or the identity matrix). The problem is that means the toy SCF cycles don't have enough effect of the denisty and randomness in starting point to watch the convergence for H<sub>2</sub>. 
-
-What I'm going to do is set the intitial electron density matrix to small random values and symmetrise. 
-
-> **WARNING**: This is FAKE
+To kickstart our engine we need an intial electron density matrix ($$\mathbf{D}$$). For a toy system it's actually okay to start with zero density everywhere (or the identity matrix). 
 
 Though for any real molecular system choice of a good guess is important for convergence. For difficult to converge cases, feeding in the results of a simpler model chemistry will help start need a convergent minimum.
 
-
 🐍
 ```python
-D = np.random.rand(n_basis, n_basis) * 0.01
-D = (D + D.T) / 2
+D = np.zeros((n_basis, n_basis))
 ```
 🔴🟢🟣
 ```julia
-TODO: UPDATE
 D = zeros(n_basis, n_basis)
 ```
 🦀
@@ -323,21 +316,19 @@ $$\hat{V}^{\text{nuc}}_A = -\frac{Z_A}{|\mathbf{r} - \mathbf{R}_A|}$$
 
 $$V^{\text{nuc}}_{\mu\nu} = -\left\langle \chi_\mu \left| \frac{1}{|\mathbf{r} - \mathbf{R}_1|} \right| \chi_\nu \right\rangle - \left\langle \chi_\mu \left| \frac{1}{|\mathbf{r} - \mathbf{R}_2|} \right| \chi_\nu \right\rangle$$
 
-The nuclear attraction integrals involve special functions that are beyond our scope here. For our toy demo we'll use dramatically simplified nuclear attraction entries.
-
-> **WARNING**: This is FAKE
+The nuclear attraction integrals involve special functions that are beyond our scope here. They're implement in `integrals.[py/jl/rs]` since 1/R wasn't showing good behaviour even for a toy system. I'm just going to mention the function header for this guide, those curious can refer to the code generated from a reference.  
 
 🐍
 ```python
-V_nuc = -Z * np.ones((n_basis, n_basis)) / R
+def compute_V_nuc_primitive(alpha, beta, R_A, R_B, R_nuc):
 ```
 🔴🟢🟣
 ```julia
-V_nuc = -Z * ones(n_basis, n_basis) / R 
+function compute_V_nuc_primitive(α::Float64, β::Float64, R_A::Vector{Float64}, R_B::Vector{Float64}, R_nuc::Vector{Float64}) 
 ```
 🦀
 ```
-let v_nuc = -z * Array2::<f64>::ones((n_basis, n_basis)) / r;
+TBD
 ```
 
 
@@ -349,14 +340,18 @@ The electron-electron repulsion matrix ($$\mathbf{G}$$) captures both the Coloum
 
 $$\mathbf{G}[\mathbf{D}] = \mathbf{J}[\mathbf{D}] - \mathbf{K}[\mathbf{D}]$$
 
-Refer to `integrals.py`, which I've just generated from a reference, if you want more details. 
+Refer to `integrals.[py/jl/rs]`, which I've just generated from a reference, if you want more details. 
 
 🐍
 ```python
 G = build_G_matrix(D, ERIs)
 F = T + V_nuc + G
 ```
-
+🔴🟢🟣
+```julia
+G = build_G_matrix(D, ERIs)
+F = T + V_nuc + G
+```
 ## The self-consistent field (SCF) loop
 
 Recall this is an iterative eigenvalue finding problem
@@ -389,14 +384,13 @@ C = X @ C_prime
 ```julia
 using LinearAlgebra
 
-s_eigvals, s_eigvecs = eigen(S)
-X = s_eigvecs * Diagonal(s_eigvals.^(-0.5)) * s_eigvecs'
+s_eigvals, s_eigvecs = eigen(Symmetric(S))
+clean_eigvals = max.(s_eigvals, 1e-15) # avoid inverting numerical noise
+X = s_eigvecs * Diagonal(clean_eigvals .^ (-0.5)) * s_eigvecs'
 
-F_prime = X' * F * X
-
-epsilon, C_prime = eigen(F_prime)
-
-C = X * C_prime
+F′ = X' * F * X
+ϵ, C′ = eigen(Symmetric(F′))
+C = X * C′
 ```
 🦀
 ```rust
@@ -418,13 +412,13 @@ $$D_{\mu\nu} = 2\sum_{i}^{\text{occ}} C_{\mu i} C_{\nu i}$$
 
 🐍
 ```python
-n_occ = n_electrons 
-D_new = 2 * C[:, :n_occ] @ C[:, :n_occ].T
+num_occ = num_electrons // 2 
+D_new = 2 * C[:, :num_occ] @ C[:, :num_occ].T
 ```
 🔴🟢🟣
 ```julia
-n_occ = n_electrons ÷ 2 
-D_new = 2 * C[:, 1:n_occ] * C[:, 1:n_occ]'
+num_occ = num_electrons ÷ 2 
+D_new = 2 * C[:, 1:num_occ] * C[:, 1:num_occ]'
 ```
 🦀
 ```rust
@@ -495,7 +489,7 @@ Embedded Rust with `wasm-pack build --target web` and upload as a module with a 
 
 Python load a `pyodide.js`. Will be slow 
 
-Julia embed the HTML for a Pluto notebook with sliders. Then link to a JuliaHub with they want to modify the source code
+`Julia` 🔴🟢🟣: there's a live Pluto notebook with H<sub>2</sub> sliders [here](https://pluto.land/n/lg6ry63f).
 
 Julia is designed to hit sweet-spot of easy to write and performance for scientific code, so muich so that there's now a full production quality [Quantum Chemistry package written in Julia](https://doi.org/10.1021/acs.jctc.0c00337). 
 
