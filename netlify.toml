@@ -1,7 +1,13 @@
 [build]
- command = "jekyll build"
- publish = "_site"
+  command = "jekyll build --unpublished"
+  publish = "_site"
 
 [build.environment]
+  RUBY_VERSION = "3.3.6"
   JEKYLL_ENV = "production"
-  RUBY_VERSION = "2.7.1"
+
+[context.staging]
+  command = "jekyll build --unpublished"
+
+[context.production]
+  command = "jekyll build"
