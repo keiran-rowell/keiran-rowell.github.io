@@ -14,8 +14,9 @@ image:
 *Photo credit: [BBC Archives](https://www.bbc.co.uk/programmes/profiles/51LC2shThjnCNR8dd4z2SRQ/delia-derbyshire)*
 {:.figcaption}
 
-> This is a personal exploration connecting concepts across disciplines, inspired by some naming repitition --—not professional commentary 
-{: .note}
+
+
+> This is a personal exploration connecting concepts across disciplines, in the vein of the 33⅓ music books, inspired by naming resonsances ---not professional commentary.
 
 > Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression. The COVID-19 pandemic.
 > Not the views of any employers, obvs.
