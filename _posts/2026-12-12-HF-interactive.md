@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interactive Hartree-Fock in Rust, Julia, and Python"
+title: "Interactive Hartree–Fock in your browser: NextGen Lang trifecta"
 category: interactive
 tags: Hartree-Fock Julia Python Rust WASM interactive tutorial quantum-chemistry
 ---
@@ -8,6 +8,7 @@ tags: Hartree-Fock Julia Python Rust WASM interactive tutorial quantum-chemistry
 > Choose a language to explore the Hartree--Fock algorithm interactively:
 >
 > 🔴🟢🟣 Julia | 🐍 Python | 🦀 Rust
+
 ---
 
 ## 🔴🟢🟣 Julia (Pluto Notebook)

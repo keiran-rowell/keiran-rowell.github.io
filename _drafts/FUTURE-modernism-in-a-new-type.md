@@ -15,6 +15,7 @@ Susumua Yakota (1960->2015) and Chinastu Kuzuu (1961->present) are my favourites
 Susumu Yokota? 
 Kankyō Ongaku? - Sonic response to a frenetic modernisation. Sonic through line of Japanese natural aesthetics and electronic music
 Basically anything on FOND/SOUND
+ Late '90s / Early '00s Japanese Ambient Techno and Electronica Mix【 THE NTS GUIDE TO… 】 - https://youtu.be/YPndMPjDfI4?si=n4mkdXYJiuku2cNj
 Did this link of SES? Was it the preseve of the educate elite in the reconstructing country?
 The Noise Rock scene of Kyoto. I sadly didn't brave going to that venue by myself not speaking the language.
 What does it mean to be counter-cultural in a place that has undergone the most rapid cultural shift in history

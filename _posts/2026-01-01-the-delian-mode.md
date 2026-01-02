@@ -2,6 +2,7 @@
 layout: post
 author: keiran
 title: "The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures"
+published: false
 subtitle: "Why we keep forgetting federation and revert to centralisation"
 category: writing 
 tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC computing Athens federation 
@@ -12,6 +13,9 @@ image:
 
 *Photo credit: [BBC Archives](https://www.bbc.co.uk/programmes/profiles/51LC2shThjnCNR8dd4z2SRQ/delia-derbyshire)*
 {:.figcaption}
+
+> This is a personal exploration connecting concepts across disciplines, inspired by some naming repitition --—not professional commentary 
+{: .note}
 
 > Content notice --- mentions of: The Blitz. The War on Terror. The Khmer Rouge. Realpolitik. Depression. The COVID-19 pandemic.
 > Not the views of any employers, obvs.
@@ -68,7 +72,7 @@ The Lycians left behind some [monumental tombs](/images/lycian_cliff_tomb.jpg) h
 
 ### Forgotten Federations
 
-The Delian League was an anti-Persian Empire defensive alliance, after repelling the largest invasion force the Aegean had ever seen. It united the smaller Greek city-states ---150--200+ at its peak--- against the dominance of the continental threats. Its symbolic core was in Delos, where the Treasury was kept. The members of the alliance paid into the *phoros* tribute sTalking with the ghosts of our civic memory has become the 'killer app' of our era.ystems that provided funds, ships, manpower for the league. The island of Delos had practical advantages: it was central to the Aegean and far-flung from any dominant city-states. It also held symbolic power: it was neutral territory controlled by no-one, and was long sacred as the birthplace of Apollo and Artemis and so hopefully inviolable.  
+The Delian League was an anti-Persian Empire defensive alliance, after repelling the largest invasion force the Aegean had ever seen. It united the smaller Greek city-states ---150--200+ at its peak--- against the dominance of the continental threats. Its symbolic core was in Delos, where the Treasury was kept. The members of the alliance paid into the *phoros* tribute system that provided funds, ships, manpower for the league. The island of Delos had practical advantages: it was central to the Aegean and far-flung from any dominant city-states. It also held symbolic power: it was neutral territory controlled by no-one, and was long sacred as the birthplace of Apollo and Artemis and so hopefully inviolable.  
 
 This alliance divvied among equals, where the *phoros* was paid according to the population, means, and resources of each island city-state lasted in true form for less than 25 years, shattered by a hollowing out of the alliance structure. In 454 BCE the accumulated treasury was relocated from Delos straight to Athens --- under the justification of security, while also in reality accomplishing fiscal control. Voluntary contributions into the league were now mandatory, the treasury re-appropriated for the glorification of Athens, and Athens began to dictate the politics of other city-states. States which tried to leave were kept in the league by military force, the *phoros* increased, and the tribute paid to Athens from client city-states was [totted up in stone in the Acropolis for all to see](https://www.davidgill.co.uk/attica/atl578.htm) [with 1/60<sup>th</sup> dedicated to Athena]. In this way all tributaries flowed back to the Athenian well. The Athenian hegemony began to impose democratic government structures across the region. The centre that brought together the League grew too powerful. Sparta, often steadfast and unafraid to be bellicose, grew weary of growing imperial ambitions from Athens, and in the Peloponnesian War that followed Sparta reversed the power structure using the support of the Persian Empire to crush Athens, waging shameless total war, and bringing an end to the Ancient Greek Golden Era as the Aegean states became Spartan subjects.    
 
@@ -101,7 +105,8 @@ Musicians weren't the only ones soldering electronics and poring over sine waves
 
 All of the above was visualised as electrical current fluctuations on an oscilloscope. The Australian Broadcasting Corporation (ABC) logo itself is connected to this motif: the [three-loop Lissajou polynomial figure](https://www.abc.net.au/science/holo/liss.htm) of out-of-phase sine waves represented its broadcast charter for both radio and TV. The ABC archives might hold an indirect legacy connection to Delia. The BBC discarded archived content for cost saving measures, including *Doctor Who* recordings for which Delia created the theme tune. The ABC though, receiving copies for broadcast from the BBC centre, makes Australia ripe for rediscovering [lost footage](https://www.abc.net.au/news/2020-08-23/doctor-who-missing-episodes-could-they-be-in-australia/12568918), especially censored edits spliced by the Film Censorship Board.
 
-But the oscilloscope traces---whether exploring the universe or measuring tones---were a way to visualise something deeper. The core driver of the work was exploration: scientific and cultural. While the waveforms were mathematically neutral, the human ear encoded them as emotion in the brain. Somehow, this beating of the air makes us feel something. Sometimes, it changes how we t
+But the oscilloscope traces---whether exploring the universe or measuring tones---were a way to visualise something deeper. The core driver of the work was exploration: scientific and cultural. While the waveforms were mathematically neutral, the human ear encoded them as emotion in the brain. Somehow, this beating of the air makes us feel something. Sometimes, it changes how we think. 
+
 ### Sirens Into Songs
 
 Early synthetic pioneers figured out how to imbue true emotions into sine and sawtooth waves: creating some of the most evocatively accurate soundscapes of [depression](https://youtu.be/XQEYdgY2M8U?si=5wj2Vh0FD1uuQi_F), [despair](https://youtu.be/SNpIYln58EE?si=6u7ASIeGBbSwTi7r), and [enervated overawe](https://youtu.be/1RrsiGmLp_E?si=xacVEqkG7AfNDbxD); but also [serene calm](https://youtu.be/yVLjbGs2s-8?si=W7yoW1QleBG9Uo7K), [arrestingly beautiful desert soundscapes](https://youtu.be/OyUkmxy5VMI?si=Id1Ciwpe_AoCTYXY), [cosmic wonder](https://youtu.be/NChqEEz31eE?si=cH4djqqz1EE5N6Cc), [Sci-Fi noir intrigue](https://youtu.be/RScZrvTebeA?si=z02HqP_EojAKpP3B), and several odd [ditties](https://youtu.be/jetzY-W78gg?si=DdpNwUCSC9A7pM02) of [pure joy](https://youtu.be/3YudPg7cbR4?si=dvKPemx7fzEnNMmv). It was the kind of no roadmap cultural movement where Delia could dictate *"Uhh.. forget about this, it's for interest only"* and then unleash [one of the first (entirely analogue) electronic driving techno beats](https://youtu.be/vwQIgGQLOQ8?si=tzi0diKqHZR_ZkwS). 
@@ -128,7 +133,7 @@ The BBC Radiophonic Workshop was [drawn to a close in 1998](https://doi.org/10.1
 
 ### There is No Alternative
 
-I grew up in a period of seemingly unending neocon governments, with neoliberal alternatives offering not much departure and acquiescing on foreign policy conflicts, throughout my childhood years. George Bush Jr had assumed his father's prior role in office, and echoed his father's intervention in the Gulf, but this time not due to destruction of the Gulf oil fields, but with pretext of manufactured weapons to build a coalition for regime change and occupation.  John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* on way for a head of state to keep power. What held sway was the simulation of success, and the [*projection* of victory](https://millercenter.org/americas-war-in-iraq/mission-accomplished-moment) in foreign policy. Nevertheless for the Anglosphere living standards were rising, it was an era of relative prosperity and Fukuyama's "end of history" appeared vindicated as the endpoint of ideological rifts in human governance.   
+I grew up in a period of seemingly unending neocon governments, with neoliberal alternatives offering not much departure and acquiescing on foreign policy conflicts, throughout my childhood years. George Bush Jr had assumed his father's prior role in office, and echoed his father's intervention in the Gulf, but this time not due to destruction of the Gulf oil fields, but with pretext of manufactured weapons to build a coalition for regime change and occupation.  John Howard was in power for 11 years, long enough to bring me into my teens. As far as I knew, smiling jingoism and cynical geopolitical calculus *was* one way for a head of state to keep power. What held sway was the simulation of success, and the [*projection* of victory](https://millercenter.org/americas-war-in-iraq/mission-accomplished-moment) in foreign policy. Nevertheless for the Anglosphere living standards were rising, it was an era of relative prosperity and Fukuyama's "end of history" appeared vindicated as the endpoint of ideological rifts in human governance.   
 
 Compared to the famous protest songs of the 70s, there felt like a dearth of grassroots protest songs reaching mass broadcast during the Second Gulf War. There are no synths on American Idiot, straight pop-punk rock and [heavy use of a pitch correction](https://youtu.be/r00ikilDxW4?si=84gWBNzAgYLY6Wvh) technology [originating in the oil industry](https://www.businessinsider.com/auto-tune-developed-by-oil-engineer-2014-7). US radio charts remained similarly silent on the ancillary Middle Eastern wars, though Brian Williams dropped a Leonard Cohen reference about the guiding [beauty of their weapons](https://youtu.be/DrADbquuMb4?si=0RndBZy2hpTSTtFo) watching the missiles used against the Assad regime in Syria. Bill Bailey pointed out that the BBC broadcast tune had the [hallmarks of an apocalyptic dance track](https://youtu.be/vc9xLvrV_Zw?si=S3UYhHqrHkv2AyKr).
 
@@ -245,7 +250,8 @@ Wisdom takes flight only at dusk, often when it's too late.
 
 Why is there a tendency to collapse into tributary systems until there's a technological or social systemic shock?
 Do lost futures only become visible when an era has already passed, or because they only become visible in the murky twilight?
-Talking with the ghosts of our civic memory has become the 'killer app' of our era.
+
+Now, talking with the ghosts of our civic memory has become the 'killer app' of our era.
 
 Technology shock permeates quickly, but has financial incentives to be harnessed by status quo power structures. Just because distributed information systems are easier to implement than ever doesn't mean we're guaranteed a future not held by a few monoliths. Centralisation allows for seamlessness at scale. The Parthenon, cultural splendour, and famous thought of Athens we still admire in history, was built and protected by distributed tribute. When power projection moved slowly, the civic world made gods of the rulers of kingdoms. Even now those structures are social and can be chosen deliberately; a new type of economic elect in an era where information, goods exchange, and coordination systems can span the world in an instant. 
 

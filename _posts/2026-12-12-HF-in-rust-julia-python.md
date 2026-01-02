@@ -28,7 +28,8 @@ In with the new <span style="color:#A9A9A9">(apologies Formula Translation maint
 
 - 🐍 `Python`: It's Python! It's everywhere. It's *readable*. It's not so bad as you would think because core Numerical Python is implemented in highly optimised C anyway. 
 - 🔴🟢🟣 `Julia`: "[*as flexible as Python, as numerical as Matlab, as fast as Fortran, and as deep as Lisp.*](https://discourse.julialang.org/t/elevator-pitch/29457/8)". Designed *for* scientific computing. Well, what's not to like? It's REPL prompt is super nice, it's package manager doesn't make me prematurely age like Python does in my day job. And Just-In-Time compilation is *incredibly smart*. <span style="color:#A9A9A9">(I secretly think this is why observables are indeterminate until measured, but today we're strictly ["Shut up and calculate"](https://hsm.stackexchange.com/questions/3615/who-was-the-first-to-say-shut-up-and-calculate))</span> 
-- 🦀 `Rust`: It's all the rage, faster than C, and very nicely gives you a talking to when it can see mistakes in the future.
+- 🦀 `Rust`: It's all the rage, faster than C, and very nicely gives you a talking to when it can see mistakes in the future. However, it's designed for deep systems programming. Quite likely overkill, but might give performance advantages and can be hosted on a site with WebAssembly.
+
 
 With [WebAssembly](https://rust-lang.org/what/wasm/) and [Pluto notebooks](https://plutojl.org/) we can do quantum chemistry in our browser. Let's goooo--- 
 
@@ -50,6 +51,7 @@ Right, enough notation. Let's set up an engine that finds the energy eigenvalues
 > Code snippets will be as quotes. Blocks will be syntax highlighted. Some things will be interactive through web magic. Those are in a later [post]() 
 
 We're going to do a toy version of restricted Hartree--Fock for understanding purposes. 
+
 Basically saying `Hello World!` to H<sub>2</sub>.
 
 ---
@@ -489,7 +491,16 @@ We wrap the above in a loop with a maximum number of iterations and we're ready!
 Obviously solving a fake H<sub>2</sub> is a terrible comparison for the code performance doing real chemistry. Nevertheless..
 
 ---
-# Web content
+
+## Non execution speed stuff
+
+### Lines of code
+### Ease of development
+### Readability
+### Any other pains
+
+---
+# Creating web content
 ---
 Embedded Rust with `wasm-pack build --target web` and upload as a module with a `.js` file
 
@@ -505,10 +516,10 @@ Have all 2x2 S matrix elements displayed. Plot the SCF cycles
 
 ---
 
-## Related Resources
+## Related web resources
 
 - 🐍 [Python version](/interactive/hf-python/index.html) - Run with Pyodide
-- 🔴🟢🟣 [Julia version](/interactive/hf-julia/index.html) - Try it in your browser
+- 🔴🟢🟣 [Julia version](/interactive/hf-julia/index.html) - Try it in your browser in a Pluto notebook
 - 🦀 [Rust version](/interactive/hf-rust/index.html) - WebAssembly performance
 - 💻 [Source Code](https://github.com/keiran-rowell/hartee-fock) - All implementations
 
