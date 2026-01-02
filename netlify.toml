@@ -1,5 +1,5 @@
 [build]
-  command = "jekyll build --unpublished"
+  command = "bundle install && bundle exec jekyll build --unpublished"
   publish = "_site"
 
 [build.environment]
@@ -7,7 +7,7 @@
   JEKYLL_ENV = "production"
 
 [context.staging]
-  command = "jekyll build --unpublished"
+  command = "bundle install && bundle exec jekyll build --unpublished"
 
 [context.production]
-  command = "jekyll build"
+  command = "bundle install && bundle exec jekyll build"
