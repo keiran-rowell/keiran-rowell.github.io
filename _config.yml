@@ -330,6 +330,7 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-paginate
   - jekyll-readme-index
+  - jekyll-reading-time
   - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-seo-tag
