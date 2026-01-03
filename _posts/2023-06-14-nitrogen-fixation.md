@@ -2,7 +2,7 @@
 layout: post
 author: keiran  
 title: "Nitrogen fixation: artificial lightning, bird poop, and how kudzu grew out of control"
-subtitle: "How the Midwest was lost and where it got us"
+description: "📖 15 min read • How breaking the N₂ bond unleashed unstoppable growth"
 category: nitrogen-fixation 
 tags: lightning Haber-Bosch guano nitrogenase kudzu   
 image:

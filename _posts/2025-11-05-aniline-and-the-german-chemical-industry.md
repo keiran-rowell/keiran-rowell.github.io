@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "From Muck to Mauve: the creation of modern dyes from coal tar"
-subtitle: "Aniline and the birth of the German chemical industry"
+description: "📖 40 min read • Aniline and the birth of the German chemical industry"
 category: dyes
 tags: purple coal-tar aniline chemistry dyes BASF Kekulé dream Perkins quinine Pauling aromaticity resonance benzene Thomas Pynchon porphyrins orobouros Gravitys Rainbow  
 image:

@@ -2,9 +2,9 @@
 layout: post
 author: keiran  
 title: "Selecting an active space"
-subtitle: "How to multiconfigurational without falling into despair"
+description: "📖 10 min read • Input examples for Gaussian multiconfigurational conical intersection searches"
 category: guide 
-tags: active-space CASSCF multiconfigurational electronic-structure
+tags: active-space CASSCF multiconfigurational electronic-structure conical intersection
 image:
   path: /images/butanal_NBOs.png 
 ---

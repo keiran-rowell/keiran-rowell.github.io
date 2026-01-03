@@ -2,7 +2,7 @@
 layout: post
 author: keiran  
 title: "Hartree–Fock in Rust, Julia, and Python"
-subtitle: "Quantum Chem's NextGen Lang Trifecta"
+description: "📖 15 min read • Quantum chemistry's fundamental solver in a trifecta of NextGen languages"
 category: code
 tags: Hartree-Fock Python Julia Rust code tutorial quantum-chemistry 
 ---

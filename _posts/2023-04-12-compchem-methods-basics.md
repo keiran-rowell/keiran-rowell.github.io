@@ -2,7 +2,7 @@
 layout: post
 author: keiran  
 title: "An Ersatz Ansatz"
-subtitle: "Computational Chemistry Methods for Beginners"
+description: "📖 10 min read • Computational chemistry methods for beginners"
 category: guide 
 tags: electronic-structure DFT
 image:

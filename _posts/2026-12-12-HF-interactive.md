@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interactive Hartree–Fock in your browser: NextGen Lang trifecta"
+title: "Interactive Hartree–Fock in your browser: Julia | Python | Rust"
 category: interactive
 tags: Hartree-Fock Julia Python Rust WASM interactive tutorial quantum-chemistry
 ---
