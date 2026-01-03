@@ -13,7 +13,7 @@ grouped: true
         <a href="{{ post.url }}">{{ post.title }}</a>
         {% assign words = post.content | number_of_words %}
         {% assign reading_time = words | divided_by: 200 %}
-        <span class="reading-time"> ({{ post.content | reading_time }})</span>
+        <span class="reading-time"> ({{ reading_time }} min)</span>
       </li>
     {% endunless %}
   {% endfor %}
