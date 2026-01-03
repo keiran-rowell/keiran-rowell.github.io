@@ -4,7 +4,7 @@ author: keiran
 title: "From Muck to Mauve: the creation of modern dyes from coal tar"
 subtitle: "Aniline and the birth of the German chemical industry"
 category: dyes
-tags: purple coal-tar aniline dyes BASF Kekulé Perkins quinine Pauling aromaticity resonance benzene Pynchon porphyrins orobouros 
+tags: purple coal-tar aniline chemistry dyes BASF Kekulé dream Perkins quinine Pauling aromaticity resonance benzene Thomas Pynchon porphyrins orobouros Gravitys Rainbow  
 image:
   path: /images/Peacock_coal_11.jpg
   alt: "Iridescent and purple-hued 'peacock coal' sheen displayed on anthracite coal from Ashland, PA, USA."
