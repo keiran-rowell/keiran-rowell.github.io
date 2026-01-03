@@ -15,7 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-compose"
   gem "jekyll-pdf-embed"
-  gem "jekyll-reading-time"
+#  gem "jekyll-reading-time"
 end
 
 gem 'wdm' if Gem.win_platform?
