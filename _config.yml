@@ -79,7 +79,7 @@ menu:
 #    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             2025 Keiran Rowell. License [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+copyright:             2026 Keiran Rowell. License [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/

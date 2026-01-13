@@ -67,7 +67,7 @@ Sulfur "eating" microbes - reduction to H2S. Basically just mention this life en
 Blue fire spewing forth from the sulfur mine around Ijen volcano complex. [Trian Wida Charisma](https://flic.kr/p/AZLUcx) [CC BY-NC 2.0]
 {:.figcaption} 
 
- These soldiers of sulfur are here to mine *emas setan* -- devil's gold.
+ These "soldiers of sulfur" (*prajurit belerang*) are here to mine *emas setan* -- devil's gold.
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
 
@@ -84,6 +84,8 @@ Blue fire spewing forth from the sulfur mine around Ijen volcano complex. [Trian
 
 - [Why Was Sicilian Sulfur So Desired Across the Medieval World?](https://youtu.be/FzIg3yDC6pg?si=dn74s8vSDOEg19HP)
 
+Messinian Salinity Crisis -- 6 million years ago connection to ocean closed, the water evapourated, the calcium sulfate dissolved and sulfate-reducing bacteria reduced CaSO4 -> CaCO3 + S -- sulfur bearing limestone.
+
 A movie depecting a child miner's descent into the mines ['La discesa di Aclà a Floristella'](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
 
 - Silician diaspora to the USA [https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/)
@@ -97,7 +99,7 @@ A movie depecting a child miner's descent into the mines ['La discesa di Aclà 
 
 >  Automatic fire is composed of equal parts of native sulfur, rock salt, incense, thunderbolt stone, or pyrites, ground in a black mortar in the midday sun, and mixed with equal parts of the resin of the black sycamore and liquid asphalt of Zakynthos to a greasy paste. 
 
---- *Kestoi* [Fragment D25, translated by , Sextus Julius Africanusm, **c. 220 CE** 
+--- *Kestoi* [Fragment D25], Sextus Julius Africanusm, **c. 220 CE** 
 
 
 Fireships (inspired by, though not using,  "Greek fire") were instrumental in [defeating the Egyptian fleet of the Ottoman Empire in the Greeek war of Independence](https://en.wikipedia.org/wiki/Burning_of_the_Ottoman_flagship_off_Chios)
@@ -137,7 +139,7 @@ Sulfuric acid for fertilisation
 Smog on the front page of *The New York Times*, photo by Neal Boenzi, November 25, **1966**.
 {:.figcaption} 
  
-> Such yellow sullen smokes make their own element. They will not rise, but trundled around the globe. Choking the aged and the meek, the weak...
+> Such yellow sullen smokes make their own element. They will not rise, but trundle around the globe. Choking the aged and the meek, the weak...
 
 --- *Fever 103°*, Sylvia Plath, **1963**
 

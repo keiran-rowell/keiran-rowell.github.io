@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures"
-description: "📖 30 min read • personal exploration in the vein of the 33⅓  music books, inspired by naming resonsances --- not professional commentary."
+description: "📖 30 min read • personal exploration in the vein of the 33⅓  music books, inspired by naming resonances --- not professional commentary."
 published: false
 category: writing 
 tags: Delia Derbyshire Lycians imperialism federalism hauntology synths BBC computing Athens federation 
