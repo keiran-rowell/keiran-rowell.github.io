@@ -1,7 +1,26 @@
 [build]
- command = "jekyll build"
- publish = "_site"
+  command = "bundle install && bundle exec jekyll build --unpublished"
+  publish = "_site"
 
 [build.environment]
+  RUBY_VERSION = "3.3.6"
   JEKYLL_ENV = "production"
-  RUBY_VERSION = "2.7.1"
+
+[context.staging]
+  command = "bundle install && bundle exec jekyll build --unpublished"
+
+[context.production]
+  command = "bundle install && bundle exec jekyll build"
+
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cross-Origin-Embedder-Policy = "require-corp"
+    Cross-Origin-Opener-Policy = "same-origin"
+
+[[headers]]
+  for = "/assets/interactive/codon-rarity-viewer/*"
+  [headers.values]
+    Cross-Origin-Embedder-Policy = "require-corp"
+    Cross-Origin-Opener-Policy = "same-origin"

@@ -319,6 +319,8 @@ exclude:
 include:
   - .well-known
   - LICENSE.md
+  - assets/interactive/codon-rarity-viewer/codon_utils.py
+  - assets/interactive/codon-rarity-viewer/codon_tables.pkl
 
 
 # Plugins
