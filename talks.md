@@ -1,5 +1,9 @@
 # Invited Talks
 
+## 2026
+
+- "[Command line biosciences: make your science easier with high performance computing](https://github.com/keiran-rowell/Presentations/blob/main/DHH%20-%20Command%20Line%20Biosciences%20-%20Run%202.pdf)" - Digital Health Hub, *The Unviersity of New South Wales*
+
 ## 2025
 - "[Easy protein structure prediction with ProteinFold"](https://github.com/keiran-rowell/Presentations/blob/45e73b14f2cf86b32fba006d21e8520ea8c5e3b0/Florey%20-%20AI-ML%20Seminar%20-%20Keiran%20Rowell.pdf) -- ML/AI seminar series, *The Florey Institute of Neuroscience & Mental Health*. [Live demo example files [here](https://github.com/keiran-rowell-unsw/Florey-live-demo)] 
 - [Inaugural conversational live demo] "Enabling easy structure prediction through OnDemand Proteinfold" -- [Digital Health Hub](https://www.unsw.edu.au/estate/campus-development/projects/unsw-health-translation-hub), *The University of New South Wales*
