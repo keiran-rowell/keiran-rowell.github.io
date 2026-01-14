@@ -480,6 +480,15 @@
                         </div>
                     </div>
 
+                    <div class="control-group" style="padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-top: 10px;">
+                      <label for="manualTaxId">Add Other TaxID from File</label>
+                      <div style="display: flex; gap: 10px;">
+                        <input type="text" id="manualTaxId" placeholder="e.g. 5476" style="flex: 1;">
+                       <button id="addTaxIdBtn" class="secondary" style="width: auto; margin-top: 0; padding: 8px 15px;">Add</button>
+                      </div>
+                      <small id="manualStatus" style="font-size: 0.8em; display: block; margin-top: 5px;"></small>
+                     </div>
+
                     <div class="control-group">
                         <label for="rarityThreshold">Rarity Threshold (colour codons below this frequency)</label>
                         <input type="number" id="rarityThreshold" min="0" max="1" step="0.05" value="0.20" style="width: 100%;">
@@ -1247,13 +1256,15 @@ codon_utils.parse_fasta(fasta_text)
 
                 const result = await pyodide.runPythonAsync(`
 import codon_utils
+import json
 
-input_seq = "${sequence.replace(/"/g, '\\"')}"
+# Use triple quotes to handle multi-line sequences safely
+input_seq = """${sequence.replace(/"/g, '\\"')}"""
 result = codon_utils.optimize_sequence(input_seq, "${targetOrg}", loaded_codon_tables)
-result
+json.dumps(result)
                 `);
 
-                const resultJs = result.toJs();
+                const resultJs = JSON.parse(result);
                 displayResults(resultJs, 'optimise');
                 showOptStatus('Optimisation complete!', 'success');
 
@@ -1290,13 +1301,14 @@ result
 
                 const result = await pyodide.runPythonAsync(`
 import codon_utils
+import json
 
-input_seq = "${sequence.replace(/"/g, '\\"')}"
+input_seq = """${sequence.replace(/"/g, '\\"')}"""
 result = codon_utils.harmonize_sequence(input_seq, "${sourceOrg}", "${targetOrg}", loaded_codon_tables)
-result
+json.dumps(result)
                 `);
 
-                const resultJs = result.toJs();
+                const resultJs = JSON.parse(result);
                 displayResults(resultJs, 'harmonise');
                 showOptStatus('Harmonisation complete!', 'success');
 
@@ -1500,6 +1512,48 @@ table
                 console.error(error);
             }
         });
+
+// --- Logic for arbitrary TaxID entry ---
+document.getElementById('addTaxIdBtn').addEventListener('click', async () => {
+    const taxId = document.getElementById('manualTaxId').value.trim();
+    const status = document.getElementById('manualStatus');
+    
+    if (!taxId) return;
+
+    status.textContent = "Searching file...";
+    status.style.color = "#8b949e";
+
+    try {
+        // This uses your existing function to pull data from the .pkl in Python
+        await loadOrganismTable(taxId);
+
+        // Update every organism dropdown in the UI
+        const dropdownIds = ['organism', 'sourceOrg', 'targetOrg', 'sourceOrganism', 'targetOrganism', 'tableOrganism'];
+        
+        dropdownIds.forEach(id => {
+            const selectEl = document.getElementById(id);
+            if (!selectEl) return;
+
+            // Don't add if it already exists
+            const exists = Array.from(selectEl.options).some(opt => opt.value === taxId);
+            if (!exists) {
+                const option = document.createElement('option');
+                option.value = taxId;
+                option.textContent = `TaxID: ${taxId}`;
+                selectEl.appendChild(option);
+            }
+        });
+
+        status.textContent = `TaxID ${taxId} loaded successfully!`;
+        status.style.color = "#3fb950";
+        document.getElementById('manualTaxId').value = ''; // Clear input
+
+    } catch (error) {
+        status.textContent = `TaxID ${taxId} not found in the data file.`;
+        status.style.color = "#f85149";
+        console.error(error);
+    }
+});
 
         // Start loading Pyodide on page load
         window.addEventListener('load', initPyodide);
