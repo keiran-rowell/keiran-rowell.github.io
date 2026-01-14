@@ -1466,52 +1466,48 @@ tsv
             }
         });
 
-        // Upload custom table button
-        document.getElementById('uploadTableBtn').addEventListener('click', async () => {
-            const file = document.getElementById('customTableFile').files[0];
-            const name = document.getElementById('customTableName').value.trim();
-            
-            if (!file) {
-                showTableStatus('Please select a file', 'error');
-                return;
-            }
-            
-            if (!name) {
-                showTableStatus('Please provide a name for the table', 'error');
-                return;
-            }
+// Upload custom table button
+         document.getElementById('uploadTableBtn').addEventListener('click', async () => {
+             const file = document.getElementById('customTableFile').files[0];
+             const name = document.getElementById('customTableName').value.trim();
 
-            try {
-                const text = await file.text();
-                
-                const result = await pyodide.runPythonAsync(`
+             if (!file || !name) {
+                 showTableStatus('Please select a file and provide a name', 'error');
+                 return;
+             }
+
+             try {
+                 const text = await file.text();
+
+                 const result = await pyodide.runPythonAsync(`
 import codon_utils
-
-tsv_text = """${text.replace(/"/g, '\\"')}"""
+import json
+tsv_text = """${text.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"""
 table = codon_utils.parse_custom_codon_table(tsv_text)
-table
-                `);
+loaded_codon_tables["${name}"] = table
+json.dumps(table)
+                 `);
 
-                const tableJs = result.toJs();
-                codonTables[name] = tableJs;
-                customCodonTables[name] = tableJs;
-                
-                // Add to all organism dropdowns
-                const option = `<option value="${name}">${name} (custom)</option>`;
-                document.getElementById('organism').insertAdjacentHTML('beforeend', option);
-                document.getElementById('sourceOrg').insertAdjacentHTML('beforeend', option);
-                document.getElementById('targetOrg').insertAdjacentHTML('beforeend', option);
-                document.getElementById('sourceOrganism').insertAdjacentHTML('beforeend', option);
-                document.getElementById('targetOrganism').insertAdjacentHTML('beforeend', option);
-                document.getElementById('tableOrganism').insertAdjacentHTML('beforeend', option);
-                
-                showTableStatus(`Custom table "${name}" uploaded successfully!`, 'success');
+                 const tableJs = JSON.parse(result); 
+                 codonTables[name] = tableJs;
+                 customCodonTables[name] = tableJs;
 
-            } catch (error) {
-                showTableStatus('Error parsing table: ' + error.message, 'error');
-                console.error(error);
-            }
-        });
+                 const dropdowns = ['organism', 'sourceOrg', 'targetOrg', 'sourceOrganism', 'targetOrganism', 'tableOrganism'];
+                 const optionHtml = `<option value="${name}">${name} (custom)</option>`;
+                 
+                 dropdowns.forEach(id => {
+                     const el = document.getElementById(id);
+                     if (el) el.insertAdjacentHTML('beforeend', optionHtml);
+                 });
+
+                 showTableStatus(`Custom table "${name}" uploaded successfully!`, 'success');
+
+             } catch (error) {
+                 showTableStatus('Error parsing table: ' + error.message, 'error');
+                 console.error(error);
+             }
+         });
+
 
 // --- Logic for arbitrary TaxID entry ---
 document.getElementById('addTaxIdBtn').addEventListener('click', async () => {
