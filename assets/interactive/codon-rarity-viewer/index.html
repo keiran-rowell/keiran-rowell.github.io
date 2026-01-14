@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+s!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,6 +46,42 @@
             color: #8a8a9e;
             font-size: 1.1em;
         }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2d2d44;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: transparent;
+            border: none;
+            color: #8a8a9e;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .tab:hover {
+            color: #3ba7ff;
+        }
+
+        .tab.active {
+            color: #3ba7ff;
+            border-bottom-color: #3ba7ff;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
         
         .main-grid {
             display: grid;
@@ -92,7 +128,7 @@
             background: #16213e;
         }
         
-        select, input[type="text"] {
+        select, input[type="text"], textarea {
             width: 100%;
             padding: 12px;
             background: #0f0f1e;
@@ -101,9 +137,17 @@
             color: #e0e0e0;
             font-size: 1em;
             transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
         }
         
-        select:focus, input[type="text"]:focus {
+        select:focus, input[type="text"]:focus, textarea:focus {
             outline: none;
             border-color: #3ba7ff;
             box-shadow: 0 0 0 3px rgba(59, 167, 255, 0.1);
@@ -122,6 +166,17 @@
             transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 1px;
+        }
+
+        button.secondary {
+            background: linear-gradient(135deg, #2d2d44 0%, #1a1a2e 100%);
+            font-size: 0.95em;
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+
+        button.secondary:hover {
+            background: linear-gradient(135deg, #3d3d54 0%, #2a2a3e 100%);
         }
         
         button:hover {
@@ -207,27 +262,6 @@
             display: block;
         }
 
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #8a8a9e;
-        }
-
-        .spinner {
-            border: 3px solid #2d2d44;
-            border-top: 3px solid #3ba7ff;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 15px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
         .info-box {
             background: rgba(59, 167, 255, 0.05);
             border: 1px solid rgba(59, 167, 255, 0.2);
@@ -241,32 +275,161 @@
         .info-box strong {
             color: #3ba7ff;
         }
+
+        .codon-table-container {
+            background: #1a1a2e;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #2d2d44;
+        }
+
+        .codon-table-display {
+            background: #0f0f1e;
+            border: 1px solid #2d2d44;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            max-height: 500px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+        }
+
+        .codon-table-display table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .codon-table-display th,
+        .codon-table-display td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #2d2d44;
+        }
+
+        .codon-table-display th {
+            color: #3ba7ff;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            background: #0f0f1e;
+        }
+
+        .codon-table-display tr:hover {
+            background: #1a1a2e;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .button-group button {
+            flex: 1;
+        }
+
+        .upload-custom-table {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #2d2d44;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Codon Rarity 3D Viewer</h1>
-            <p class="subtitle">Visualize co-translational folding bottlenecks in protein structures</p>
+            <p class="subtitle">Visualise co-translational folding bottlenecks in protein structures</p>
         </div>
     </header>
 
     <div class="container">
-        <div class="main-grid">
-            <div class="controls">
-                <div class="control-group">
-                    <label for="pdbFile">PDB Structure File</label>
-                    <input type="file" id="pdbFile" accept=".pdb">
+        <div class="tabs">
+            <button class="tab active" data-tab="visualise">Visualise</button>
+            <button class="tab" data-tab="optimise">Codon Optimisation</button>
+            <button class="tab" data-tab="codon-tables">Codon Tables</button>
+        </div>
+
+        <!-- Visualise Tab -->
+        <div id="visualise-tab" class="tab-content active">
+            <div class="main-grid">
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="pdbFile">PDB Structure File</label>
+                        <input type="file" id="pdbFile" accept=".pdb">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="fastaFile">Sequence (FASTA)</label>
+                        <input type="file" id="fastaFile" accept=".fasta,.fa,.txt">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="organism">Organism (NCBI Taxon ID)</label>
+                        <select id="organism">
+                            <option value="9606">Homo sapiens (9606)</option>
+                            <option value="562">E. coli (562)</option>
+                            <option value="4932">S. cerevisiae (4932)</option>
+                            <option value="7227">D. melanogaster (7227)</option>
+                            <option value="10090">M. musculus (10090)</option>
+                            <option value="custom">Custom uploaded table</option>
+                        </select>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="customTaxon">Or enter custom taxon ID</label>
+                        <input type="text" id="customTaxon" placeholder="e.g., 511145">
+                    </div>
+
+                    <button id="visualiseBtn" disabled>Load Pyodide First</button>
+
+                    <div id="status" class="status"></div>
+
+                    <div class="info-box">
+                        <strong>How it works:</strong> Upload a PDB structure and sequence, select an organism to see codon rarity mapped onto the 3D protein structure. Rare codons (red) may indicate co-translational folding pauses.
+                    </div>
+                </div>
+
+                <div class="viewer-container">
+                    <div id="viewer"></div>
+                </div>
+            </div>
+
+            <div class="legend">
+                <h3>Codon Rarity Scale</h3>
+                <div class="gradient-bar"></div>
+                <div class="gradient-labels">
+                    <span>Rare (slow translation)</span>
+                    <span>Common (fast translation)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Codon Optimisation Tab -->
+        <div id="optimise-tab" class="tab-content">
+            <div class="codon-table-container">
+                <h2 style="color: #3ba7ff; margin-bottom: 20px;">Codon Optimisation & Harmonisation</h2>
+                
+                <div class="info-box" style="margin-bottom: 25px;">
+                    <strong>Two Approaches:</strong><br>
+                    <strong>Optimisation:</strong> Replace codons with the most common synonymous codons in the expression organism (maximises expression).<br>
+                    <strong>Harmonisation:</strong> Match codon rarity patterns between source and expression organisms (preserves co-translational folding).
                 </div>
 
                 <div class="control-group">
-                    <label for="fastaFile">Sequence (FASTA)</label>
-                    <input type="file" id="fastaFile" accept=".fasta,.fa,.txt">
+                    <label for="optSequenceInput">Input Sequence (DNA/cDNA)</label>
+                    <textarea id="optSequenceInput" placeholder="Paste DNA sequence here or upload FASTA below..."></textarea>
                 </div>
 
                 <div class="control-group">
-                    <label for="organism">Organism (NCBI Taxon ID)</label>
-                    <select id="organism">
+                    <label for="optFastaFile">Or Upload FASTA</label>
+                    <input type="file" id="optFastaFile" accept=".fasta,.fa,.txt">
+                </div>
+
+                <div class="control-group">
+                    <label for="sourceOrganism">Source Organism (where gene comes from)</label>
+                    <select id="sourceOrganism">
                         <option value="9606">Homo sapiens (9606)</option>
                         <option value="562">E. coli (562)</option>
                         <option value="4932">S. cerevisiae (4932)</option>
@@ -276,30 +439,95 @@
                 </div>
 
                 <div class="control-group">
-                    <label for="customTaxon">Or enter custom taxon ID</label>
-                    <input type="text" id="customTaxon" placeholder="e.g., 511145">
+                    <label for="targetOrganism">Expression Organism (where you'll express it)</label>
+                    <select id="targetOrganism">
+                        <option value="562">E. coli (562)</option>
+                        <option value="9606">Homo sapiens (9606)</option>
+                        <option value="4932">S. cerevisiae (4932)</option>
+                        <option value="7227">D. melanogaster (7227)</option>
+                        <option value="10090">M. musculus (10090)</option>
+                    </select>
                 </div>
 
-                <button id="visualizeBtn" disabled>Load Pyodide First</button>
-
-                <div id="status" class="status"></div>
-
-                <div class="info-box">
-                    <strong>How it works:</strong> Upload a PDB structure and sequence, select an organism to see codon rarity mapped onto the 3D protein structure. Rare codons (red) may indicate co-translational folding pauses.
+                <div class="button-group">
+                    <button id="optimiseBtn">Optimise for Expression</button>
+                    <button id="harmoniseBtn" class="secondary" style="background: linear-gradient(135deg, #7bed9f 0%, #0f754c 100%);">Harmonise Codon Rarity</button>
                 </div>
-            </div>
 
-            <div class="viewer-container">
-                <div id="viewer"></div>
+                <div id="optStatus" class="status"></div>
+
+                <div id="resultsContainer" style="display: none; margin-top: 30px;">
+                    <h3 style="color: #3ba7ff; margin-bottom: 15px;">Results</h3>
+                    
+                    <div class="control-group">
+                        <label>Optimised/Harmonised Sequence</label>
+                        <textarea id="outputSequence" readonly style="background: #0f0f1e; min-height: 150px;"></textarea>
+                    </div>
+
+                    <div class="button-group">
+                        <button id="copySequenceBtn" class="secondary">Copy Sequence</button>
+                        <button id="downloadFastaBtn" class="secondary">Download FASTA</button>
+                        <button id="downloadReportBtn" class="secondary">Download Report (TSV)</button>
+                    </div>
+
+                    <div id="statsDisplay" style="margin-top: 20px; padding: 20px; background: #0f0f1e; border-radius: 8px; border: 1px solid #2d2d44;">
+                        <!-- Statistics will be inserted here -->
+                    </div>
+
+                    <div class="control-group" style="margin-top: 20px;">
+                        <label>Codon Changes (position, original, new, AA)</label>
+                        <div class="codon-table-display" id="changesDisplay">
+                            <!-- Changes table will be inserted here -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="legend">
-            <h3>Codon Rarity Scale</h3>
-            <div class="gradient-bar"></div>
-            <div class="gradient-labels">
-                <span>Rare (slow translation)</span>
-                <span>Common (fast translation)</span>
+        <!-- Codon Tables Tab -->
+        <div id="codon-tables-tab" class="tab-content">
+            <div class="codon-table-container">
+                <h2 style="color: #3ba7ff; margin-bottom: 20px;">Codon Usage Tables</h2>
+                
+                <div class="control-group">
+                    <label for="tableOrganism">Select Organism</label>
+                    <select id="tableOrganism">
+                        <option value="9606">Homo sapiens (9606)</option>
+                        <option value="562">E. coli (562)</option>
+                        <option value="4932">S. cerevisiae (4932)</option>
+                        <option value="7227">D. melanogaster (7227)</option>
+                        <option value="10090">M. musculus (10090)</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button id="viewTableBtn">View Table</button>
+                    <button id="downloadTableBtn" class="secondary">Download as TSV</button>
+                </div>
+
+                <div id="codonTableDisplay" class="codon-table-display" style="display: none;">
+                    <!-- Table will be inserted here -->
+                </div>
+
+                <div class="upload-custom-table">
+                    <h3 style="color: #3ba7ff; margin-bottom: 15px;">Upload Custom Codon Table</h3>
+                    <div class="info-box">
+                        <strong>Format:</strong> TSV file with columns: Codon, AminoAcid, Frequency (or Usage). The frequency should be between 0 and 1, representing the relative usage of each codon.
+                    </div>
+
+                    <div class="control-group">
+                        <label for="customTableFile">Upload TSV File</label>
+                        <input type="file" id="customTableFile" accept=".tsv,.txt">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="customTableName">Table Name/Organism ID</label>
+                        <input type="text" id="customTableName" placeholder="e.g., my_custom_organism">
+                    </div>
+
+                    <button id="uploadTableBtn">Upload Custom Table</button>
+                    <div id="tableStatus" class="status"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -307,20 +535,174 @@
     <script>
         let pyodide;
         let viewer;
+        let customCodonTables = {};
+        let lastOptimisationResult = null;
         
-        // Initialize 3Dmol viewer
+        // Initialise 3Dmol viewer
         viewer = $3Dmol.createViewer(document.getElementById('viewer'), {
             backgroundColor: '#0f0f1e'
         });
 
-        // Status helper
+        // Tab switching
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                const tabName = tab.dataset.tab;
+                
+                // Update active tab
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                // Update active content
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(`${tabName}-tab`).classList.add('active');
+            });
+        });
+
+        // Status helpers
         function showStatus(message, type = 'info') {
             const statusEl = document.getElementById('status');
             statusEl.textContent = message;
             statusEl.className = `status ${type}`;
         }
 
-        // Initialize Pyodide
+        function showTableStatus(message, type = 'info') {
+            const statusEl = document.getElementById('tableStatus');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+        }
+
+        function showOptStatus(message, type = 'info') {
+            const statusEl = document.getElementById('optStatus');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+        }
+
+        // Mock codon table data (replace with your actual data)
+        const mockCodonTable = {
+            'TTT': {aa: 'F', freq: 0.45},
+            'TTC': {aa: 'F', freq: 0.55},
+            'TTA': {aa: 'L', freq: 0.07},
+            'TTG': {aa: 'L', freq: 0.13},
+            'CTT': {aa: 'L', freq: 0.13},
+            'CTC': {aa: 'L', freq: 0.20},
+            'CTA': {aa: 'L', freq: 0.07},
+            'CTG': {aa: 'L', freq: 0.40},
+            'ATT': {aa: 'I', freq: 0.36},
+            'ATC': {aa: 'I', freq: 0.47},
+            'ATA': {aa: 'I', freq: 0.17},
+            'ATG': {aa: 'M', freq: 1.00},
+            // Add all 64 codons...
+        };
+
+        // View codon table
+        document.getElementById('viewTableBtn').addEventListener('click', () => {
+            const organism = document.getElementById('tableOrganism').value;
+            const table = mockCodonTable; // Replace with actual lookup
+            
+            const display = document.getElementById('codonTableDisplay');
+            let html = '<table><thead><tr><th>Codon</th><th>Amino Acid</th><th>Frequency</th><th>Usage %</th></tr></thead><tbody>';
+            
+            for (const [codon, data] of Object.entries(table)) {
+                html += `<tr>
+                    <td>${codon}</td>
+                    <td>${data.aa}</td>
+                    <td>${data.freq.toFixed(4)}</td>
+                    <td>${(data.freq * 100).toFixed(2)}%</td>
+                </tr>`;
+            }
+            
+            html += '</tbody></table>';
+            display.innerHTML = html;
+            display.style.display = 'block';
+        });
+
+        // Download codon table as TSV
+        document.getElementById('downloadTableBtn').addEventListener('click', () => {
+            const organism = document.getElementById('tableOrganism').value;
+            const table = mockCodonTable; // Replace with actual lookup
+            
+            let tsv = 'Codon\tAminoAcid\tFrequency\n';
+            for (const [codon, data] of Object.entries(table)) {
+                tsv += `${codon}\t${data.aa}\t${data.freq}\n`;
+            }
+            
+            const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `codon_table_${organism}.tsv`;
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
+        // Upload custom codon table
+        document.getElementById('uploadTableBtn').addEventListener('click', async () => {
+            const file = document.getElementById('customTableFile').files[0];
+            const tableName = document.getElementById('customTableName').value;
+            
+            if (!file) {
+                showTableStatus('Please select a TSV file', 'error');
+                return;
+            }
+            
+            if (!tableName) {
+                showTableStatus('Please provide a table name/organism ID', 'error');
+                return;
+            }
+            
+            try {
+                const text = await file.text();
+                const lines = text.trim().split('\n');
+                const headers = lines[0].split('\t').map(h => h.trim().toLowerCase());
+                
+                // Find column indices
+                const codonIdx = headers.findIndex(h => h === 'codon');
+                const aaIdx = headers.findIndex(h => h.includes('amino'));
+                const freqIdx = headers.findIndex(h => h.includes('freq') || h.includes('usage'));
+                
+                if (codonIdx === -1 || freqIdx === -1) {
+                    showTableStatus('Invalid TSV format. Required columns: Codon, Frequency/Usage', 'error');
+                    return;
+                }
+                
+                const table = {};
+                for (let i = 1; i < lines.length; i++) {
+                    const cols = lines[i].split('\t');
+                    if (cols.length < 2) continue;
+                    
+                    const codon = cols[codonIdx].trim().toUpperCase();
+                    const freq = parseFloat(cols[freqIdx]);
+                    const aa = aaIdx !== -1 ? cols[aaIdx].trim() : '';
+                    
+                    if (codon && !isNaN(freq)) {
+                        table[codon] = { aa, freq };
+                    }
+                }
+                
+                if (Object.keys(table).length === 0) {
+                    showTableStatus('No valid codon data found in file', 'error');
+                    return;
+                }
+                
+                customCodonTables[tableName] = table;
+                
+                // Add to organism dropdown
+                const option = document.createElement('option');
+                option.value = `custom_${tableName}`;
+                option.textContent = `${tableName} (custom)`;
+                document.getElementById('organism').appendChild(option);
+                document.getElementById('tableOrganism').appendChild(option.cloneNode(true));
+                
+                showTableStatus(`Successfully loaded ${Object.keys(table).length} codons for ${tableName}`, 'success');
+                
+            } catch (error) {
+                showTableStatus('Error parsing TSV file: ' + error.message, 'error');
+            }
+        });
+
+        // Initialise Pyodide
         async function initPyodide() {
             showStatus('Loading Pyodide (this may take a minute on first load)...', 'info');
             
@@ -328,9 +710,9 @@
                 pyodide = await loadPyodide();
                 await pyodide.loadPackage(['numpy', 'biopython']);
                 
-                showStatus('Ready! Upload files to visualize.', 'success');
-                document.getElementById('visualizeBtn').disabled = false;
-                document.getElementById('visualizeBtn').textContent = 'Visualize Structure';
+                showStatus('Ready! Upload files to visualise.', 'success');
+                document.getElementById('visualiseBtn').disabled = false;
+                document.getElementById('visualiseBtn').textContent = 'Visualise Structure';
             } catch (error) {
                 showStatus('Error loading Pyodide: ' + error.message, 'error');
             }
@@ -338,13 +720,12 @@
 
         // Mock codon rarity calculation (replace with your actual Python code)
         async function calculateCodonRarity(sequence, organism) {
-            // This is a placeholder - you'd load your actual Python code here
+            // This is a placeholder - you'd load your actual codon analysis
             const pythonCode = `
 import random
 
 def calculate_rarity(sequence, organism):
     """Mock function - replace with your actual codon analysis"""
-    # Returns a list of rarity scores (0-1) for each residue
     return [random.random() for _ in range(len(sequence))]
 
 calculate_rarity("${sequence}", "${organism}")
@@ -356,8 +737,6 @@ calculate_rarity("${sequence}", "${organism}")
 
         // Color mapping function
         function getRarityColor(rarity) {
-            // rarity: 0 (rare) to 1 (common)
-            // red -> yellow -> green
             if (rarity < 0.33) {
                 const t = rarity / 0.33;
                 return `rgb(${255}, ${Math.floor(165 * t)}, ${Math.floor(87 * t)})`;
@@ -370,11 +749,11 @@ calculate_rarity("${sequence}", "${organism}")
             }
         }
 
-        // Main visualization function
-        document.getElementById('visualizeBtn').addEventListener('click', async () => {
+        // Main visualisation function
+        document.getElementById('visualiseBtn').addEventListener('click', async () => {
             const pdbFile = document.getElementById('pdbFile').files[0];
             const fastaFile = document.getElementById('fastaFile').files[0];
-            const organism = document.getElementById('customTaxon').value || 
+            let organism = document.getElementById('customTaxon').value || 
                            document.getElementById('organism').value;
 
             if (!pdbFile) {
@@ -385,10 +764,8 @@ calculate_rarity("${sequence}", "${organism}")
             showStatus('Processing structure...', 'info');
 
             try {
-                // Read PDB file
                 const pdbText = await pdbFile.text();
                 
-                // Read sequence if provided
                 let sequence = '';
                 if (fastaFile) {
                     const fastaText = await fastaFile.text();
@@ -396,22 +773,15 @@ calculate_rarity("${sequence}", "${organism}")
                         .filter(line => !line.startsWith('>'))
                         .join('');
                 } else {
-                    // Extract from PDB SEQRES if no FASTA provided
-                    const seqresLines = pdbText.split('\n')
-                        .filter(line => line.startsWith('SEQRES'));
-                    // Parse SEQRES (simplified)
                     sequence = 'A'.repeat(100); // Placeholder
                 }
 
-                // Calculate rarity scores
                 showStatus('Calculating codon rarity...', 'info');
                 const rarityScores = await calculateCodonRarity(sequence, organism);
 
-                // Clear and reload viewer
                 viewer.clear();
                 viewer.addModel(pdbText, 'pdb');
                 
-                // Color by rarity
                 const model = viewer.getModel(0);
                 const atoms = model.selectedAtoms({});
                 
@@ -427,7 +797,7 @@ calculate_rarity("${sequence}", "${organism}")
                 viewer.zoomTo();
                 viewer.render();
 
-                showStatus('Visualization complete!', 'success');
+                showStatus('Visualisation complete!', 'success');
 
             } catch (error) {
                 showStatus('Error: ' + error.message, 'error');
@@ -435,14 +805,280 @@ calculate_rarity("${sequence}", "${organism}")
             }
         });
 
-        // Enable visualization when files are selected
         document.getElementById('pdbFile').addEventListener('change', () => {
             if (pyodide && document.getElementById('pdbFile').files[0]) {
-                document.getElementById('visualizeBtn').disabled = false;
+                document.getElementById('visualiseBtn').disabled = false;
             }
         });
 
-        // Initialize on load
+        // Codon Optimisation Functions
+        async function getSequenceInput() {
+            let sequence = document.getElementById('optSequenceInput').value.trim();
+            const file = document.getElementById('optFastaFile').files[0];
+            
+            if (file) {
+                const text = await file.text();
+                sequence = text.split('\n')
+                    .filter(line => !line.startsWith('>'))
+                    .join('')
+                    .replace(/\s/g, '')
+                    .toUpperCase();
+            } else {
+                sequence = sequence.replace(/\s/g, '').toUpperCase();
+            }
+            
+            return sequence;
+        }
+
+        async function optimiseSequence(sequence, sourceOrg, targetOrg) {
+            // Mock function - replace with your actual optimisation logic
+            const pythonCode = `
+def optimise_codons(sequence, source_org, target_org):
+    """Replace with your actual optimisation algorithm"""
+    # This should use the most common codon for each amino acid in target organism
+    changes = []
+    optimised = sequence  # Placeholder
+    
+    # Mock some changes
+    changes.append({
+        'position': 10,
+        'original': 'TTA',
+        'new': 'CTG',
+        'aa': 'L',
+        'original_freq': 0.07,
+        'new_freq': 0.40
+    })
+    
+    return {
+        'sequence': optimised,
+        'changes': changes,
+        'num_changes': len(changes),
+        'original_cai': 0.65,
+        'optimised_cai': 0.85
+    }
+
+result = optimise_codons("${sequence}", "${sourceOrg}", "${targetOrg}")
+result
+            `;
+            
+            const result = await pyodide.runPythonAsync(pythonCode);
+            return result.toJs();
+        }
+
+        async function harmoniseSequence(sequence, sourceOrg, targetOrg) {
+            // This is your like4like function!
+            const pythonCode = `
+def harmonise_codons(sequence, source_org, target_org):
+    """
+    Replace with your rare_codons.py like4like logic
+    Maps codons to maintain similar rarity in target organism
+    """
+    changes = []
+    harmonised = sequence  # Placeholder
+    
+    # Mock harmonisation
+    changes.append({
+        'position': 15,
+        'original': 'TTA',
+        'new': 'CTA',
+        'aa': 'L',
+        'original_rarity': 0.93,  # rare in source
+        'new_rarity': 0.88,       # also rare in target
+        'rarity_diff': 0.05
+    })
+    
+    return {
+        'sequence': harmonised,
+        'changes': changes,
+        'num_changes': len(changes),
+        'avg_rarity_preservation': 0.95
+    }
+
+result = harmonise_codons("${sequence}", "${sourceOrg}", "${targetOrg}")
+result
+            `;
+            
+            const result = await pyodide.runPythonAsync(pythonCode);
+            return result.toJs();
+        }
+
+        function displayResults(result, mode) {
+            document.getElementById('resultsContainer').style.display = 'block';
+            document.getElementById('outputSequence').value = result.sequence;
+            
+            // Display statistics
+            let statsHtml = '<h4 style="color: #3ba7ff; margin-bottom: 10px;">Statistics</h4>';
+            statsHtml += '<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">';
+            
+            if (mode === 'optimise') {
+                statsHtml += `
+                    <div><strong>Changes made:</strong> ${result.num_changes}</div>
+                    <div><strong>Original CAI:</strong> ${result.original_cai.toFixed(3)}</div>
+                    <div><strong>Optimised CAI:</strong> ${result.optimised_cai.toFixed(3)}</div>
+                    <div><strong>CAI improvement:</strong> ${((result.optimised_cai - result.original_cai) * 100).toFixed(1)}%</div>
+                `;
+            } else {
+                statsHtml += `
+                    <div><strong>Changes made:</strong> ${result.num_changes}</div>
+                    <div><strong>Rarity preservation:</strong> ${(result.avg_rarity_preservation * 100).toFixed(1)}%</div>
+                    <div><strong>Sequence length:</strong> ${result.sequence.length} bp</div>
+                    <div><strong>Protein length:</strong> ${Math.floor(result.sequence.length / 3)} aa</div>
+                `;
+            }
+            
+            statsHtml += '</div>';
+            document.getElementById('statsDisplay').innerHTML = statsHtml;
+            
+            // Display changes table
+            let tableHtml = '<table><thead><tr><th>Position</th><th>Original</th><th>New</th><th>AA</th>';
+            
+            if (mode === 'optimise') {
+                tableHtml += '<th>Orig. Freq</th><th>New Freq</th>';
+            } else {
+                tableHtml += '<th>Orig. Rarity</th><th>New Rarity</th><th>Δ Rarity</th>';
+            }
+            
+            tableHtml += '</tr></thead><tbody>';
+            
+            for (const change of result.changes) {
+                tableHtml += `<tr>
+                    <td>${change.position}</td>
+                    <td>${change.original}</td>
+                    <td>${change.new}</td>
+                    <td>${change.aa}</td>`;
+                
+                if (mode === 'optimise') {
+                    tableHtml += `
+                        <td>${change.original_freq.toFixed(3)}</td>
+                        <td>${change.new_freq.toFixed(3)}</td>`;
+                } else {
+                    tableHtml += `
+                        <td>${change.original_rarity.toFixed(3)}</td>
+                        <td>${change.new_rarity.toFixed(3)}</td>
+                        <td>${Math.abs(change.rarity_diff).toFixed(3)}</td>`;
+                }
+                
+                tableHtml += '</tr>';
+            }
+            
+            tableHtml += '</tbody></table>';
+            document.getElementById('changesDisplay').innerHTML = tableHtml;
+            
+            lastOptimisationResult = {result, mode};
+        }
+
+        // Optimise button
+        document.getElementById('optimiseBtn').addEventListener('click', async () => {
+            try {
+                const sequence = await getSequenceInput();
+                if (!sequence) {
+                    showOptStatus('Please provide a DNA sequence', 'error');
+                    return;
+                }
+                
+                if (sequence.length % 3 !== 0) {
+                    showOptStatus('Warning: Sequence length is not divisible by 3', 'error');
+                    return;
+                }
+                
+                const sourceOrg = document.getElementById('sourceOrganism').value;
+                const targetOrg = document.getElementById('targetOrganism').value;
+                
+                showOptStatus('Optimizing sequence for maximum expression...', 'info');
+                
+                const result = await optimiseSequence(sequence, sourceOrg, targetOrg);
+                displayResults(result, 'optimise');
+                
+                showOptStatus(`Optimisation complete! ${result.num_changes} codons changed.`, 'success');
+                
+            } catch (error) {
+                showOptStatus('Error: ' + error.message, 'error');
+                console.error(error);
+            }
+        });
+
+        // Harmonise button
+        document.getElementById('harmoniseBtn').addEventListener('click', async () => {
+            try {
+                const sequence = await getSequenceInput();
+                if (!sequence) {
+                    showOptStatus('Please provide a DNA sequence', 'error');
+                    return;
+                }
+                
+                if (sequence.length % 3 !== 0) {
+                    showOptStatus('Warning: Sequence length is not divisible by 3', 'error');
+                    return;
+                }
+                
+                const sourceOrg = document.getElementById('sourceOrganism').value;
+                const targetOrg = document.getElementById('targetOrganism').value;
+                
+                showOptStatus('Harmonizing codon rarity patterns...', 'info');
+                
+                const result = await harmoniseSequence(sequence, sourceOrg, targetOrg);
+                displayResults(result, 'harmonise');
+                
+                showOptStatus(`Harmonisation complete! ${result.num_changes} codons changed.`, 'success');
+                
+            } catch (error) {
+                showOptStatus('Error: ' + error.message, 'error');
+                console.error(error);
+            }
+        });
+
+        // Copy sequence button
+        document.getElementById('copySequenceBtn').addEventListener('click', () => {
+            const sequence = document.getElementById('outputSequence').value;
+            navigator.clipboard.writeText(sequence);
+            showOptStatus('Sequence copied to clipboard!', 'success');
+        });
+
+        // Download FASTA button
+        document.getElementById('downloadFastaBtn').addEventListener('click', () => {
+            const sequence = document.getElementById('outputSequence').value;
+            const mode = lastOptimisationResult.mode;
+            const sourceOrg = document.getElementById('sourceOrganism').value;
+            const targetOrg = document.getElementById('targetOrganism').value;
+            
+            const header = `>${mode === 'optimise' ? 'optimised' : 'harmonised'}_${sourceOrg}_to_${targetOrg}`;
+            const fasta = `${header}\n${sequence.match(/.{1,60}/g).join('\n')}\n`;
+            
+            const blob = new Blob([fasta], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${mode}_sequence.fasta`;
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
+        // Download report button
+        document.getElementById('downloadReportBtn').addEventListener('click', () => {
+            const {result, mode} = lastOptimisationResult;
+            
+            let tsv = 'Position\tOriginal\tNew\tAminoAcid\t';
+            tsv += mode === 'optimise' ? 'OriginalFreq\tNewFreq\n' : 'OriginalRarity\tNewRarity\tRarityDiff\n';
+            
+            for (const change of result.changes) {
+                tsv += `${change.position}\t${change.original}\t${change.new}\t${change.aa}\t`;
+                
+                if (mode === 'optimise') {
+                    tsv += `${change.original_freq}\t${change.new_freq}\n`;
+                } else {
+                    tsv += `${change.original_rarity}\t${change.new_rarity}\t${change.rarity_diff}\n`;
+                }
+            }
+            
+            const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${mode}_report.tsv`;
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
         initPyodide();
     </script>
 </body>
