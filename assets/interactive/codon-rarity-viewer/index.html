@@ -1039,6 +1039,7 @@ json.dumps(rarity_data)
                     // Differential rarity
                     const result = await pyodide.runPythonAsync(`
 import codon_utils
+import json
 
 pdb_text = """${pdbText.replace(/"/g, '\\"')}"""
 fasta_text = """${fastaText.replace(/"/g, '\\"')}"""
@@ -1061,47 +1062,49 @@ for i in range(len(source_rarity)):
         'rarity_diff': target_rarity[i]['rarity'] - source_rarity[i]['rarity']
     })
 
-diff_data
+# Convert to JSON
+json.dumps(diff_data)
                     `);
-                    rarityData = result.toJs();
+                    rarityData = JSON.parse(result);
                 }
 
                 console.log('Rarity data sample:', rarityData.slice(0, 5));
                 console.log('Total residues:', rarityData.length);
+                console.log('Mode:', mode);
 
                 // Clear and reload viewer
                 viewer.clear();
                 viewer.addModel(pdbText, 'pdb');
                 
                 const model = viewer.getModel(0);
-                const atoms = model.selectedAtoms({});
                 
-                console.log('Total atoms:', atoms.length);
+                console.log('Model loaded');
                 
-                // Build color map by residue
-                const residueColors = {};
-                rarityData.forEach((data, idx) => {
+                // Build color specifications for each residue
+                const colorSpecs = [];
+                rarityData.forEach((data) => {
                     let colour;
                     
                     if (mode === 'single') {
                         colour = getRarityColour(data.rarity, threshold);
                     } else {
                         colour = getDifferentialColour(data.rarity_diff);
+                        console.log(`Residue ${data.position}: rarity_diff=${data.rarity_diff}, color=${colour}`);
                     }
                     
-                    residueColors[idx + 1] = colour;
+                    colorSpecs.push({
+                        resi: data.position,
+                        color: colour
+                    });
                 });
                 
-                console.log('Color map sample:', Object.entries(residueColors).slice(0, 5));
+                console.log('Color specs sample:', colorSpecs.slice(0, 10));
                 
-                // Colour by rarity - apply to each atom
-                atoms.forEach(atom => {
-                    if (atom.resi && residueColors[atom.resi]) {
-                        atom.color = residueColors[atom.resi];
-                    }
+                // Apply colors using selection and setStyle
+                colorSpecs.forEach(spec => {
+                    viewer.setStyle({resi: spec.resi}, {cartoon: {color: spec.color}});
                 });
 
-                viewer.setStyle({}, {cartoon: {colorscheme: 'atom'}});
                 viewer.zoomTo();
                 viewer.render();
 
