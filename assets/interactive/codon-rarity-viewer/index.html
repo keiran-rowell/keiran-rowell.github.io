@@ -272,23 +272,25 @@
 
         .progress-container {
             margin-top: 15px;
-            background: #0f0f1e;
+            background: rgba(15, 15, 30, 0.8);
+            border: 1px solid #2d2d44;
             border-radius: 8px;
             padding: 15px;
             display: none;
         }
 
         .progress-container.active {
-            display: block;
+            display: block !important;
         }
 
         .progress-bar {
             width: 100%;
-            height: 8px;
+            height: 20px;
             background: #2d2d44;
             border-radius: 4px;
             overflow: hidden;
             margin-bottom: 10px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
         }
 
         .progress-fill {
@@ -296,12 +298,14 @@
             background: linear-gradient(90deg, #3ba7ff, #00d4ff);
             width: 0%;
             transition: width 0.3s ease;
+            box-shadow: 0 0 10px rgba(59, 167, 255, 0.5);
         }
 
         .progress-text {
-            font-size: 0.9em;
-            color: #8a8a9e;
+            font-size: 0.95em;
+            color: #b0b0c0;
             text-align: center;
+            font-weight: 500;
         }
 
         .info-box {
@@ -483,9 +487,9 @@
 
                     <button id="visualiseBtn" disabled>Loading Pyodide...</button>
 
-                    <div class="progress-container" id="loadingProgress">
+                    <div class="progress-container active" id="loadingProgress" style="display: block;">
                         <div class="progress-bar">
-                            <div class="progress-fill" id="progressFill"></div>
+                            <div class="progress-fill" id="progressFill" style="width: 0%;"></div>
                         </div>
                         <div class="progress-text" id="progressText">Initializing...</div>
                     </div>
@@ -718,6 +722,7 @@
         async function loadOrganismTable(taxid) {
             // Check if already cached
             if (codonTables[taxid]) {
+                console.log(`Using cached table for organism ${taxid}`);
                 return codonTables[taxid];
             }
 
@@ -729,15 +734,19 @@ import pickle
 with open('/codon_tables.pkl', 'rb') as f:
     all_tables = pickle.load(f)
     
-organism_table = all_tables.get("${taxid}")
-organism_table
+# Store in Python global namespace for reuse
+if 'loaded_codon_tables' not in globals():
+    loaded_codon_tables = {}
+    
+loaded_codon_tables["${taxid}"] = all_tables.get("${taxid}")
+loaded_codon_tables["${taxid}"]
                 `);
                 
                 if (!result) {
                     throw new Error(`Organism ${taxid} not found in codon tables`);
                 }
                 
-                // Cache it
+                // Cache it in JavaScript too
                 codonTables[taxid] = result.toJs();
                 console.log(`Loaded codon table for organism ${taxid}`);
                 return codonTables[taxid];
@@ -753,6 +762,7 @@ organism_table
             const toLoad = taxids.filter(id => !codonTables[id]);
             
             if (toLoad.length === 0) {
+                console.log('All organism tables already cached');
                 return; // All already cached
             }
 
@@ -763,7 +773,15 @@ import pickle
 with open('/codon_tables.pkl', 'rb') as f:
     all_tables = pickle.load(f)
     
+# Store in Python global namespace
+if 'loaded_codon_tables' not in globals():
+    loaded_codon_tables = {}
+
 needed = ${JSON.stringify(toLoad)}
+for taxid in needed:
+    if taxid in all_tables:
+        loaded_codon_tables[taxid] = all_tables[taxid]
+
 {taxid: all_tables[taxid] for taxid in needed if taxid in all_tables}
                 `);
                 
@@ -781,8 +799,22 @@ needed = ${JSON.stringify(toLoad)}
         async function loadCodonUtils() {
             try {
                 const response = await fetch('codon_utils.py');
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch codon_utils.py: ${response.status} ${response.statusText}`);
+                }
                 const codonUtilsCode = await response.text();
-                await pyodide.runPythonAsync(codonUtilsCode);
+                
+                // Write to Pyodide's filesystem and import it
+                pyodide.FS.writeFile('/codon_utils.py', codonUtilsCode);
+                
+                // Now import it in Python
+                await pyodide.runPythonAsync(`
+import sys
+if '/.' not in sys.path:
+    sys.path.insert(0, '/')
+import codon_utils
+                `);
+                
                 codonUtilsLoaded = true;
                 console.log('Loaded codon_utils.py');
                 return true;
@@ -836,6 +868,7 @@ needed = ${JSON.stringify(toLoad)}
                 const utilsLoaded = await loadCodonUtils();
                 if (!utilsLoaded) {
                     progressContainer.classList.remove('active');
+                    showStatus('Failed to load codon utilities. Check console for details.', 'error');
                     return;
                 }
                 
@@ -845,6 +878,7 @@ needed = ${JSON.stringify(toLoad)}
                 const tablesLoaded = await setupCodonTables();
                 if (!tablesLoaded) {
                     progressContainer.classList.remove('active');
+                    showStatus('Failed to load codon tables file. Check console for details.', 'error');
                     return;
                 }
                 
@@ -860,8 +894,20 @@ needed = ${JSON.stringify(toLoad)}
                 
             } catch (error) {
                 progressContainer.classList.remove('active');
-                showStatus('Error loading Pyodide: ' + error.message, 'error');
-                console.error(error);
+                
+                // Make error very visible
+                let errorMsg = 'Error loading Pyodide: ' + error.message;
+                
+                if (error.message.includes('MemoryError') || error.message.includes('memory')) {
+                    errorMsg = 'OUT OF MEMORY! Close other browser tabs and refresh the page. This tool needs ~100MB RAM to run.';
+                }
+                
+                showStatus(errorMsg, 'error');
+                console.error('Full error:', error);
+                
+                // Show error in progress text too
+                progressText.textContent = 'Loading failed - see error below';
+                progressFill.style.background = '#ff4757';
             }
         }
 
@@ -977,17 +1023,18 @@ needed = ${JSON.stringify(toLoad)}
                     // Single organism rarity
                     const result = await pyodide.runPythonAsync(`
 import codon_utils
+import json
 
 pdb_text = """${pdbText.replace(/"/g, '\\"')}"""
 fasta_text = """${fastaText.replace(/"/g, '\\"')}"""
-organism = "${organism}"
 
 nucseq = codon_utils.parse_fasta(fasta_text)
-rarity_data = codon_utils.calculate_codon_rarity(nucseq, codon_tables[organism])
+rarity_data = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${organism}"])
 
-rarity_data
+# Convert to JSON to avoid Map objects
+json.dumps(rarity_data)
                     `);
-                    rarityData = result.toJs();
+                    rarityData = JSON.parse(result);
                 } else {
                     // Differential rarity
                     const result = await pyodide.runPythonAsync(`
@@ -995,14 +1042,12 @@ import codon_utils
 
 pdb_text = """${pdbText.replace(/"/g, '\\"')}"""
 fasta_text = """${fastaText.replace(/"/g, '\\"')}"""
-source_org = "${sourceOrganism}"
-target_org = "${targetOrganism}"
 
 nucseq = codon_utils.parse_fasta(fasta_text)
 
 # Calculate rarity in both organisms
-source_rarity = codon_utils.calculate_codon_rarity(nucseq, codon_tables[source_org])
-target_rarity = codon_utils.calculate_codon_rarity(nucseq, codon_tables[target_org])
+source_rarity = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${sourceOrganism}"])
+target_rarity = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${targetOrganism}"])
 
 # Calculate difference
 diff_data = []
@@ -1021,7 +1066,8 @@ diff_data
                     rarityData = result.toJs();
                 }
 
-                console.log('Rarity data:', rarityData);
+                console.log('Rarity data sample:', rarityData.slice(0, 5));
+                console.log('Total residues:', rarityData.length);
 
                 // Clear and reload viewer
                 viewer.clear();
@@ -1030,19 +1076,28 @@ diff_data
                 const model = viewer.getModel(0);
                 const atoms = model.selectedAtoms({});
                 
-                // Colour by rarity
+                console.log('Total atoms:', atoms.length);
+                
+                // Build color map by residue
+                const residueColors = {};
+                rarityData.forEach((data, idx) => {
+                    let colour;
+                    
+                    if (mode === 'single') {
+                        colour = getRarityColour(data.rarity, threshold);
+                    } else {
+                        colour = getDifferentialColour(data.rarity_diff);
+                    }
+                    
+                    residueColors[idx + 1] = colour;
+                });
+                
+                console.log('Color map sample:', Object.entries(residueColors).slice(0, 5));
+                
+                // Colour by rarity - apply to each atom
                 atoms.forEach(atom => {
-                    if (atom.resi && atom.resi <= rarityData.length) {
-                        const data = rarityData[atom.resi - 1];
-                        let colour;
-                        
-                        if (mode === 'single') {
-                            colour = getRarityColour(data.rarity, threshold);
-                        } else {
-                            colour = getDifferentialColour(data.rarity_diff);
-                        }
-                        
-                        atom.color = colour;
+                    if (atom.resi && residueColors[atom.resi]) {
+                        atom.color = residueColors[atom.resi];
                     }
                 });
 
@@ -1191,9 +1246,7 @@ codon_utils.parse_fasta(fasta_text)
 import codon_utils
 
 input_seq = "${sequence.replace(/"/g, '\\"')}"
-target_org = "${targetOrg}"
-
-result = codon_utils.optimize_sequence(input_seq, target_org, codon_tables)
+result = codon_utils.optimize_sequence(input_seq, "${targetOrg}", loaded_codon_tables)
 result
                 `);
 
@@ -1236,10 +1289,7 @@ result
 import codon_utils
 
 input_seq = "${sequence.replace(/"/g, '\\"')}"
-source_org = "${sourceOrg}"
-target_org = "${targetOrg}"
-
-result = codon_utils.harmonize_sequence(input_seq, source_org, target_org, codon_tables)
+result = codon_utils.harmonize_sequence(input_seq, "${sourceOrg}", "${targetOrg}", loaded_codon_tables)
 result
                 `);
 
@@ -1321,21 +1371,40 @@ result
                 // Load the organism table if not cached
                 await loadOrganismTable(organism);
 
+                console.log('Codon table for', organism, ':', codonTables[organism]);
+                
                 const table = codonTables[organism];
-            let html = '<table><thead><tr><th>Codon</th><th>AA</th><th>Frequency</th></tr></thead><tbody>';
-            
-            for (const aa of Object.keys(table).sort()) {
-                const codons = table[aa];
-                for (const [codon, freq] of Object.entries(codons).sort()) {
-                    html += `<tr><td>${codon}</td><td>${aa}</td><td>${freq.toFixed(4)}</td></tr>`;
+                
+                if (!table || typeof table !== 'object') {
+                    showTableStatus('Error: table data is invalid', 'error');
+                    console.error('Invalid table:', table);
+                    return;
                 }
+                
+                let html = '<table><thead><tr><th>Codon</th><th>AA</th><th>Frequency</th></tr></thead><tbody>';
+                
+                // Handle both Map and plain object
+                const entries = table instanceof Map ? Array.from(table.entries()) : Object.entries(table);
+                
+                for (const [aa, codons] of entries.sort()) {
+                    if (!codons || typeof codons !== 'object') continue;
+                    
+                    const codonEntries = codons instanceof Map ? Array.from(codons.entries()) : Object.entries(codons);
+                    
+                    for (const [codon, freq] of codonEntries.sort()) {
+                        html += `<tr><td>${codon}</td><td>${aa}</td><td>${Number(freq).toFixed(4)}</td></tr>`;
+                    }
+                }
+                
+                html += '</tbody></table>';
+                
+                document.getElementById('codonTableDisplay').innerHTML = html;
+                document.getElementById('codonTableDisplay').style.display = 'block';
+                showTableStatus('Table loaded!', 'success');
+            } catch (error) {
+                showTableStatus('Error loading table: ' + error.message, 'error');
+                console.error(error);
             }
-            
-            html += '</tbody></table>';
-            
-            document.getElementById('codonTableDisplay').innerHTML = html;
-            document.getElementById('codonTableDisplay').style.display = 'block';
-            showTableStatus('Table loaded!', 'success');
         });
 
         // Download codon table button
