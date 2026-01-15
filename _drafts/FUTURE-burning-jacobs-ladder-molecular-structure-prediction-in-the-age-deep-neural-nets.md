@@ -15,6 +15,12 @@ I'm afraid I might fade away
 
 Why climb a ladder of increasingly complex approximations when Deep Learning approaches just learn the patterns in emergent phenomena directly at the level they manifest? Connecting things back to their true ab initio processes are a bit of a fiction, so why no simulate the stuff that matters to our physically interacting microscale world?
 
+ML potentials are kinda the killer demonstration to me. Look your MD is basically sine waves for balls on springs. Machine Learning actual captures the bumping and librations of real biomolecular residues better and without constant cross-fudging parameters. The cross terms of force-fields and lack of polarisability never quite work.
+
+It's also an ideal demonstration set for gradient descent on a real potential energy surface, this time quite complex because they are biomolecules.
+
+I could even do a QM PES scan and show a force-field fit and a DL fit. It would teach the concepts of the approaches 
+
 - Kohn-Sham theorems as existence proofs. There exists so completely accurate universal exchange correlation functional that maps from density to energies. But nobody knows its form. There are been decades of attempts to construct better exchange-correlation (XC) kernels, starting from Jellium and then [climbing Jacob's Ladder](). In fact most DFT methods differ by the XC kernel used, leading to projects like [libXC](https://libxc.gitlab.io/) to make portable the effort of reimplementing functionals into working code.
 - Density Functional Theory has already been lamented as a [Frankenstein monsteresque hybrid once it lost its density purity].(https://doi.org/10.1071/CH02049)
 - Density functionals that return better energetic prediction values are actually [performing worse on their fundemental properties[(https://cen.acs.org/articles/95/i2/Density-functional-theory-heads-wrong.html), predicting the electron density itself.
