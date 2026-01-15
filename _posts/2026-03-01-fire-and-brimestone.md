@@ -54,6 +54,9 @@ Also a story of commodity value inversion. What caused wars is now sold to be *t
 Archaea at the hydrothermal vents of the Giggenbach underwater volcano 800 km North-Northeast of New Zealand's North Island. **2005**, [NOAA Vents Program](https://www.omao.noaa.gov/image-licensing-usage-info).
 {:.figcaption}
 
+In Earth's hellish Hadeon Eon, the embers of ancient modes of life were kindled around geothermal vents, in the deep dark of the sea floor. Billions of years before photosynthesis arose as a way to nurture life from the sun, life found a way to turn the boiling chemical churn of these cauldrons into a stable energy source. The sulfurous nature of these volcano plumes was crucial to the chemotrophy of these Promethean life forms; they could fuel themselves through stripping electrons from this chemical soup.
+
+
 Sulfur "eating" microbes - reduction to H2S. Basically just mention this life energy source is billions of years older than photosynthesis 
 
 
@@ -157,8 +160,19 @@ Sulfur containing ship fuel. Acts as a global *coolant* but SOx is so toxic in t
 Iron-Sulfur clusters that act as waypoints in the electrical process of life, including the reactive 'crucible' of [nitrogenase](link back to nitrogen fixation post). Tracey A. Rouault & Wing-Hang Tong, ["Iron-sulphur cluster biogenesis and mitochondiral iron homeostasis"](https://doi.org/10.1038/nrm1620), *Nature Reviews Molecular Cell Biology*, *6*, 345--351, **2005**.  
 {:.figcaption} 
 
+Something about how the electrons trace all possible paths between the waypoints along the bonding chain (path integral methods in biological electron transport). -Phrase more poetically understandable and less jargonistic than that
+- So it's not Path Integral in the Feynmann sense, but more 'the covalent bonds act as wires when compared against the electron permitivity of vacuum". This is refered to as superexchange. The tunneling decay is exponential but vacuum its about 1 A to attentuate, but bonds is 3, long enough to get to the next bond.
+[Protein Electron Transfer Rates Set by the Bridging Secondary and Tertiary Structure](https://www.science.org/doi/10.1126/science.1656523)
+But tunneling means the final coupling amplitude of the e- transfer between D -> A is the amplitude sum of all possible tunneling paths, it doesn't take just one path like a classical process. With *phase* so they can interfere
+
+ in my post here I'm going to talk about Fe-S being waypoints but because electrons are quantum mechnical in scale they tunnel *along* protein bonds not *through* space, and as waves propogating along all possible pathways? 
+
+Wavicles propagating along the molecular bonds connecting life's electrical circuits, reverberating across pathways and extending into dimensions inaccessible to our prosaic wires of extruded copper. Helping us breathe, helping plants turn photons into fuel. Real quantum mechanical waves along biomolecules that interfere constructively and destructively just like the famous electron double-slit experiments. Doing their work to power all life through changing the electron count of sulfur in core of these primordial metal-sulfur clusters.
+
 
 [Fe-S world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis)
+
+We share the same enzymes to make Fe-S cluster as our aquatic volcano microbial ancestors, highly preserved to this day. That is how crucially Nature has kept this production process the same.  
 
 Also mention disulfide bridges betwen cystestine amino acids stapling proteins together
 
