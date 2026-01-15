@@ -101,7 +101,7 @@ A movie depecting a child miner's descent into the mines ['La discesa di Aclà 
 
 ![Greek fire](/images/Greekfire-madridskylitzes1.jpg)
 
-"The Roman fleet setting fire to the enemy fleet [led by Thomas of Sicily]". *Madrid Skylitzes*, manuscript on teh Byzantines for the court of Plamero in Sicily, **12th century CE**
+"The Roman fleet setting fire to the enemy fleet [led by Thomas of Sicily]". *Madrid Skylitzes*, manuscript on the Byzantines for the court of Plamero in Sicily, **12th century CE**
 {:.figcaption} 
 
 >  Automatic fire is composed of equal parts of native sulfur, rock salt, incense, thunderbolt stone, or pyrites, ground in a black mortar in the midday sun, and mixed with equal parts of the resin of the black sycamore and liquid asphalt of Zakynthos to a greasy paste. 
