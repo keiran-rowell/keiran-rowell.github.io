@@ -49,35 +49,39 @@ Also a story of commodity value inversion. What caused wars is now sold to be *t
 
 ### From hell, life: sulfur eating microbes
 
+In Earth's hellish Hadeon Eon, the embers of [ancient modes of life were kindled around geothermal vents](https://www.science.org/content/article/our-last-common-ancestor-inhaled-hydrogen-underwater-volcanoes), in the deep dark of the sea floor. Billions of years before photosynthesis arose as a way to nurture life from the sun, life found a way to turn the boiling chemical churn of these cauldrons into a stable energy source. The sulfurous nature of these volcano plumes was crucial to the chemotrophy of these Promethean life forms; they could fuel themselves through stripping electrons from this chemical soup. 
+
 ![Underwater volcano microbes](/images/archaea_giggenbach_hydrothermal_vents.jpg)
 
 Archaea at the hydrothermal vents of the Giggenbach underwater volcano 800 km North-Northeast of New Zealand's North Island. **2005**, [NOAA Vents Program](https://www.omao.noaa.gov/image-licensing-usage-info).
 {:.figcaption}
 
-In Earth's hellish Hadeon Eon, the embers of ancient modes of life were kindled around geothermal vents, in the deep dark of the sea floor. Billions of years before photosynthesis arose as a way to nurture life from the sun, life found a way to turn the boiling chemical churn of these cauldrons into a stable energy source. The sulfurous nature of these volcano plumes was crucial to the chemotrophy of these Promethean life forms; they could fuel themselves through stripping electrons from this chemical soup.
-
-
-Sulfur "eating" microbes - reduction to H2S. Basically just mention this life energy source is billions of years older than photosynthesis 
-
-
-["Hundreds of never-before-seen life-forms live in this 6,000-foot-deep volcano's acid jets"](https://www.livescience.com/extreme-microbes-underwater-volcano.html)
-
- 
+ 4 billion years later, far removed from the [sulfur-eating microbes](https://doi.org/10.1073/pnas.2019021117) that still [cluster around deep-sea vents](https://www.livescience.com/extreme-microbes-underwater-volcano.html), humans toil at the base of volcanic craters to harvest the same element for their own purposes.
 ### Mountains of fire: Ijen's sulfur volcano
+
+In the Indonesian archipelago a mining crew descends at dawn into the bowels of volcano Ijen to start their work. They are often surrounded by the hellfire of the element they are extracting: flames that burn not devilish red but ghostly blue.  
 
 ![Ijen fire](/images/Ijen_fire.jpg)
 
 Blue fire spewing forth from the sulfur mine around Ijen volcano complex. [Trian Wida Charisma](https://flic.kr/p/AZLUcx) [CC BY-NC 2.0]
-{:.figcaption} 
+{:.figcaption}
 
- These "soldiers of sulfur" (*prajurit belerang*) are here to mine *emas setan* -- devil's gold.
+These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1DD38">Satan's gold</span>. [*Description of why sulfur is left in high concentrations in volcanoes*]  [*Description of low global pay, but slightly above the tourism industry*]. 
+
+Sulfur mines now, are largely "museumified" but were once rich veins of the element [that fuelled the birth of the British chemical industry supporting the textile trade](https://www.journals.uchicago.edu/doi/epdf/10.1086/705370) and any deposits were once worth going to war to hoard.
+
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
+
+In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are the enforcers are there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  [*Description of why sulfur veins are in such high concentration in Sicily* The Messinian salinity crisis 6 millions years ago had created the opportunity for industrial wealth in towns along the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur: 
+$$\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -> CaCO3(s) + CO2(g) + 3H2O(l) + {\color{#F1DD38}S^0(s)}}$$     
 
 ![I_carusi](/images/I_carusi.jpg)
 
 'I carusi', Onfrio Tomaselli, **1905**.
-{:.figcaption} 
+{:.figcaption}
+
+ All mining had to be done by pick -- explosives risked combustion of the brimstone they were gathering. Over 400 deaths left records throughout the 1800s, due to flooding, collapse of shoddy mine shafts, or choking on sulfur dioxide fumes. The conditions were so bad, contemporary observers described the organisation to be as cruel as the chattel slavery occurring in the United States. 
 
 > "I am not prepared just now to say to what extent I believe in a physical hell in the next world, but a sulfur mine in Sicily is about the nearest thing to hell that I expect to see in this life."
 
