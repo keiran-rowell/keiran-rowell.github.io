@@ -68,7 +68,7 @@ Blue fire spewing forth from the sulfur mine around Ijen volcano complex. [Trian
 
 These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1DD38">Satan's gold</span>. [*Description of why sulfur is left in high concentrations in volcanoes*]  [*Description of low global pay, but slightly above the tourism industry*]. 
 
-Sulfur mines now, are largely "museumified" but were once rich veins of the element [that fuelled the birth of the British chemical industry supporting the textile trade](https://www.journals.uchicago.edu/doi/epdf/10.1086/705370) and any deposits were once worth going to war to hoard.
+Sulfur mines now, are largely "museumified" but were once rich veins of the element [that fuelled the birth of the British chemical industry supporting the textile trade](https://www.journals.uchicago.edu/doi/epdf/10.1086/705370) and any deposits were once worth going to war to garuantee cheap supply.
 
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
@@ -81,21 +81,19 @@ $$\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -> CaCO3(s) + CO2(g) + 3H2O(l) + {\c
 'I carusi', Onfrio Tomaselli, **1905**.
 {:.figcaption}
 
- All mining had to be done by pick -- explosives risked combustion of the brimstone they were gathering. Over 400 deaths left records throughout the 1800s, due to flooding, collapse of shoddy mine shafts, or choking on sulfur dioxide fumes. The conditions were so bad, contemporary observers described the organisation to be as cruel as the chattel slavery occurring in the United States. 
+Techniques remained primitive. All mining had to be done by pick -- explosives risked combustion of the brimstone they were gathering. [Working without clothing was common](https://youtu.be/7qPXUaQgmOM?si=6ua6WIp0p3HZjsNy), due to the heat and irritation. Over 400 deaths left records throughout the 1800s, due to flooding, collapse of shoddy mine shafts, or choking on sulfur dioxide fumes. The conditions were so bad, contemporary observers described the organisation to be as cruel as the chattel slavery occurring in the United States. 
 
 > "I am not prepared just now to say to what extent I believe in a physical hell in the next world, but a sulfur mine in Sicily is about the nearest thing to hell that I expect to see in this life."
 
 --- *The Man Farthest Down*, Booker T. Washington, **1911**
 
-["When necessary to guarantee the supply of cheap sulfur against price and supply regulation, the British mobilized their Royal Navy. It is argued that the Sicilian frontier should be incorporated into the history of the Industrial Revolution."](https://doi.org/10.1086/705370)
+[The conditions of the Silician mine are still incsribed in the memories of the [Silician diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and the bracing film depicting a [child miner's life in the Floristella mines](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
 
+The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egpytian, Chinese) Sicily had fairly unique advantages with its tranquil golden vein of native sulfur, other ancients had visit active tectonic sites --- like Greek Island of Milos or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed complex alchemical 'roasting' processes to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
+
+
+[The demand of Silician Sulfur from the middle ages to make gunpowder]
 - [Why Was Sicilian Sulfur So Desired Across the Medieval World?](https://youtu.be/FzIg3yDC6pg?si=dn74s8vSDOEg19HP)
-
-Messinian Salinity Crisis -- 6 million years ago connection to ocean closed, the water evapourated, the calcium sulfate dissolved and sulfate-reducing bacteria reduced CaSO4 -> CaCO3 + S -- sulfur bearing limestone.
-
-A movie depecting a child miner's descent into the mines ['La discesa di Aclà a Floristella'](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
-
-- Silician diaspora to the USA [https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/)
 
 ### Hellfire: sulfur in gunpowder and Greek fire
 
@@ -113,6 +111,9 @@ Fireships (inspired by, though not using,  "Greek fire") were instrumental in [d
 
 ### Yellow mammon: sulfur's economic inversion by the petrodollar
 
+The Sicilians lost their global sulfur monopoly when the petrochemical refining industry took off in the 20th century
+
+While industrial methods were invented to extract sulfur deposits (the Frasch processes), their used was widely obselesced by sulfur as a petrochemical by-product. From ravenous fossil fuel demands of own combustion driven world, sulfur falls out for free.
 H2SO4 production - Contact Process
 Frasch process - no longer confident to a Sicilian mob monopoly
 
