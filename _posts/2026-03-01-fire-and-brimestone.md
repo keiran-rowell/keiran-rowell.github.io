@@ -57,18 +57,17 @@ Archaea at the hydrothermal vents of the Giggenbach underwater volcano 800 km No
 {:.figcaption}
 
  4 billion years later, far removed from the [sulfur-eating microbes](https://doi.org/10.1073/pnas.2019021117) that still [cluster around deep-sea vents](https://www.livescience.com/extreme-microbes-underwater-volcano.html), humans toil at the base of volcanic craters to harvest the same element for their own purposes.
+
 ### Mountains of fire: Ijen's sulfur volcano
 
 In the Indonesian archipelago a mining crew descends at dawn into the bowels of volcano Ijen to start their work. They are often surrounded by the hellfire of the element they are extracting: flames that burn not devilish red but ghostly blue.  
 
 ![Ijen fire](/images/Ijen_fire.jpg)
 
-Blue fire spewing forth from the sulfur mine around Ijen volcano complex. [Trian Wida Charisma](https://flic.kr/p/AZLUcx) [CC BY-NC 2.0]
+Blue fire spewing forth from the sulfur mine around the Ijen volcano complex. [Trian Wida Charisma](https://flic.kr/p/AZLUcx) [CC BY-NC 2.0]
 {:.figcaption}
 
-These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1DD38">Satan's gold</span>. [*Description of why sulfur is left in high concentrations in volcanoes*]  [*Description of low global pay, but slightly above the tourism industry*]. 
-
-Sulfur mines now, are largely "museumified" but were once rich veins of the element [that fuelled the birth of the British chemical industry supporting the textile trade](https://www.journals.uchicago.edu/doi/epdf/10.1086/705370) and any deposits were once worth going to war to garuantee cheap supply.
+These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1DD38">Satan's gold</span>. Toxic hydrogen sulfide ($\ce{H2S}$)  and sulfur dioxide ($\ce{SO2}$) gases risen hot from the caldera, crashing into the cooler atmospheric air mass. The triggered chemical reaction and phase change is so rapid that sulfur leaves its bonding partners and immediately desublimates. Yellow crystals of the volcano's breath solidify at its base. Sulfur mines are now largely museums for tourists, but were once valuable deposits of the element [that fuelled the birth of the British chemical industry finishing the textile trade](https://www.journals.uchicago.edu/doi/epdf/10.1086/705370). Any deposits were once worth going to war over to guarantee cheap supply.
 
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
@@ -172,7 +171,9 @@ Electrons ---whether generated from cracking an oxygen-phosphorus bond in the 'b
 
 The cell's power is conducted by wavicles tunneling along the molecular bonds connecting life's electrical circuits, reverberating across pathways and extending into dimensions inaccessible to our prosaic wires of extruded copper. Helping us breathe, helping plants turn photons into fuel. Real quantum mechanical waves along biomolecules that interfere constructively and destructively just like the famous electron double-slit experiments. Doing their work to power all life through changing the charge density in the metal-sulfur core of these primordial clusters.
 
-Perhaps these clusters predate---and are a prerequisite for---life itself, states the [Fe-S world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis). The cell as a waterborne sack to harness electricity. Enzyme cores remodeled from, and [still resembling](https://www.nature.com/articles/s41467-021-26158-2), mineral clusters from the Earth's crust. Both primates and our aquatic volcano microbial ancestors [preserve highly coordinated machinery to build iron-sulfur clusters](https://www.nature.com/articles/nature08301). That is how crucially guarded nature has kept the production of this molecular crucible. From the dribs of lava that pierce the mantle, a chemical soup contributed to the origins of us all.
+Perhaps these clusters predate---and are a prerequisite for---life itself, states the [iron-sulfur world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis). The cell as a waterborne sack to harness electricity. Enzyme cores remodeled from, and [still resembling](https://www.nature.com/articles/s41467-021-26158-2), mineral clusters from the Earth's crust. Both primates and our aquatic volcano microbial ancestors [preserve highly coordinated machinery to build iron-sulfur clusters](https://www.nature.com/articles/nature08301). That is how crucially guarded nature has kept the production of this molecular crucible. 
+
+From the dribs of lava that pierced the mantle, a chemical soup contributing to the origins of us all.
 
 ---
 
