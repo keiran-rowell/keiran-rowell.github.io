@@ -105,7 +105,7 @@ Sicilian sulfur was [a coveted Medieval commodity](https://youtu.be/FzIg3yDC6pg?
 "The Roman fleet setting fire to the enemy fleet [led by Thomas of Sicily]". *Madrid Skylitzes*, manuscript on the Byzantines for the court of Plamero in Sicily, **12th century CE**
 {:.figcaption}
 
-The exact mixture for this hellflame is lost to history, but early sources for similar concoctions hint at sulfur's inclusion in this hellish incendiary. 
+The exact mixture for this hellflame is lost to history, but early sources for similar concoctions hint at sulfur's inclusion in this demonic incendiary. 
 
 >  Automatic fire is composed of equal parts of native sulfur, rock salt, incense, thunderbolt stone, or pyrites, ground in a black mortar in the midday sun, and mixed with equal parts of the resin of the black sycamore and liquid asphalt of Zakynthos to a greasy paste. 
 
