@@ -73,7 +73,8 @@ Sulfur mines now, are largely "museumified" but were once rich veins of the elem
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
 
-In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are the enforcers are there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  [*Description of why sulfur veins are in such high concentration in Sicily* The Messinian salinity crisis 6 millions years ago had created the opportunity for industrial wealth in towns along the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur: 
+In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are the enforcers are there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  [*Description of why sulfur veins are in such high concentration in Sicily* The Messinian salinity crisis 6 millions years ago had created the opportunity for industrial wealth in towns along the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
+ 
 $$\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -> CaCO3(s) + CO2(g) + 3H2O(l) + {\color{#F1DD38}S^0(s)}}$$     
 
 ![I_carusi](/images/I_carusi.jpg)
@@ -89,13 +90,14 @@ Techniques remained primitive. All mining had to be done by pick -- explosives r
 
 [The conditions of the Silician mine are still incsribed in the memories of the [Silician diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and the bracing film depicting a [child miner's life in the Floristella mines](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
 
-The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egpytian, Chinese) Sicily had fairly unique advantages with its tranquil golden vein of native sulfur, other ancients had visit active tectonic sites --- like Greek Island of Milos or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed complex alchemical 'roasting' processes to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
+The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egpytian, Chinese) Sicily had fairly unique advantages with its tranquil golden vein of native sulfur, other ancients had visit active tectonic sites --- like Greek Island of Milos or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed [complex alchemical 'roasting' processes](https://www.jstor.org/stable/231610) to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
 
+
+
+### Hellfire: sulfur in gunpowder and Greek fire
 
 [The demand of Silician Sulfur from the middle ages to make gunpowder]
 - [Why Was Sicilian Sulfur So Desired Across the Medieval World?](https://youtu.be/FzIg3yDC6pg?si=dn74s8vSDOEg19HP)
-
-### Hellfire: sulfur in gunpowder and Greek fire
 
 ![Greek fire](/images/Greekfire-madridskylitzes1.jpg)
 
@@ -159,6 +161,7 @@ Sulfur containing ship fuel. Acts as a global *coolant* but SOx is so toxic in t
 
 ### An infernal engine: iron-sulfur clusters and bioelectricity
 
+Sulfur's changable electron count makes it useful: it is the non-metal element with the most versatile oxidation state. With larger electron outer shell than its reactivity chemical bunkmate, oxygen, the third shell provides both readily emptiable or fillable sub-shells (the $$3p$$), and a bonding ability akin to an "expanded octet" that's facilitated by higher-energy states lying closer to occupied orbitals than in most electron arrangements. By the 4th shell the elements are transitioning into metals, with electrons released into conductive valence band 'sea' of electrons characterising metallic bonding.  Sulfur, therefore, finds use as a controllable electron exchange junction in redox processes.
 
 ![Iron-Sulfur clusters](/images/iron-sulfur_clusters.jpg)
 
@@ -172,7 +175,7 @@ But tunneling means the final coupling amplitude of the e- transfer between D ->
 
  in my post here I'm going to talk about Fe-S being waypoints but because electrons are quantum mechnical in scale they tunnel *along* protein bonds not *through* space, and as waves propogating along all possible pathways? 
 
-Wavicles propagating along the molecular bonds connecting life's electrical circuits, reverberating across pathways and extending into dimensions inaccessible to our prosaic wires of extruded copper. Helping us breathe, helping plants turn photons into fuel. Real quantum mechanical waves along biomolecules that interfere constructively and destructively just like the famous electron double-slit experiments. Doing their work to power all life through changing the electron count of sulfur in core of these primordial metal-sulfur clusters.
+Wavicles propagating along the molecular bonds connecting life's electrical circuits, reverberating across pathways and extending into dimensions inaccessible to our prosaic wires of extruded copper. Helping us breathe, helping plants turn photons into fuel. Real quantum mechanical waves along biomolecules that interfere constructively and destructively just like the famous electron double-slit experiments. Doing their work to power all life through changing the charge density in the metal-sulfur core of these primordial clusters.
 
 
 [Fe-S world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis)
@@ -181,7 +184,7 @@ We share the same enzymes to make Fe-S cluster as our aquatic volcano microbial 
 
 Also mention disulfide bridges betwen cystestine amino acids stapling proteins together
 
-There's something almost mythical about underwater brimstone cauldrons being the origins of us all/
+There's something almost mythical about underwater brimstone cauldrons being the origins of us all.
 
 ---
 
