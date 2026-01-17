@@ -25,26 +25,6 @@ image:
 --- "Smoke", Caroline Polachek, **2023**
 {:.faded}
 
-
-{::comment}
--> Through line "From Hell, life". 
-
-Also a story of commodity value inversion. What caused wars is now sold to be *taken away*. If the petroleum industry shrinks it might invert again
-
----
-#### Open on the geothermal vent and sulfur eating life. Heat + energy + sulfur can be metabolism [image of hydrothermal vent]. BILLIONS OF YEARS OLDER THAN PHOTOSYNTHESIS *a couple of sentences setting up the smash cut to modern day humans surrounded by blue fire*
-#### Open again on the blue fire of Indonesian suflur mines. (Humans not microbes) [image of blue fire]
-4 billion years later, well above the sulfur-eating sea creatures that still cluster around deep-sea vents, Idonesian miners descend into volcano Ijen to start their work. 
-#### Move on to the Carusi and the Silician Sulfur mines. (Human societal exploitation) [painting of carusi]
-"This hell is not new. Mining brimstone fueled the growth of one of humanity's most notorious organisations --- the Silician Mafia"
-#### Gunpowder and Greek Fire. (Human destruction in warfare) [ancient illustration of Greek Fire]
-#### Industrial demand (Vulcanisation) then the great economic inversion (S as petroleum byproduct people *pay* to get taken away). [image of modern day S yellow waste mounts] Even if H2SO4 is one of the most produced industrial chemicals and needed for fertiliser. 
-#### Natural disasters take away biological life London Smog, Year Without Summer [image of London Smog]
-#### Biochemistry -- now reveal Fe-S clusters as the fundamental primeval electron harvest unit. They were the origin but they're *still* essential and unchanged. Proteins stabled together with disulfide bridges in Cysteine. [Protein structure illustration]
-
-##### Limit to the above topics and  make it tight and cinematic
-{:/comment}
-
 --- 
 
 ### From hell, life: sulfur eating microbes
@@ -90,7 +70,7 @@ Techniques remained primitive. All mining had to be done by pick -- explosives r
 --- *The Man Farthest Down*, Booker T. Washington, **1911**
 {:.faded}
 
-The conditions of the Silician mines are still incsribed in the memories of the [Silician diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and a bracing film depicting a [child miner's life in the Floristella mines](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
+The conditions of the Sicilian mines are still incsribed in the memories of the [Sicilian diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and a bracing film depicting a [child miner's life in the Floristella mines](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
 
 The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egyptian, Chinese), Sicily held unique advantages with its tranquil golden vein of native sulfur. Other ancients had visit active tectonic sites --- like Greek Island of Milos, or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed [complex alchemical 'roasting' processes](https://www.jstor.org/stable/231610) to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
 
@@ -115,36 +95,22 @@ The exact mixture for this hellflame is lost to history, but early sources for s
 
 ### Yellow mammon: sulfur's economic inversion by the petrodollar
 
-Sulfur serves many key industrial uses.
-
-While industrial methods were invented to extract sulfur deposits (the Frasch processes), their used was widely obselesced by sulfur as a petrochemical by-product. From ravenous fossil fuel demands of own combustion driven world, sulfur falls out for free.
-H2SO4 production - Contact Process
-Frasch process - no longer confident to a Sicilian mob monopoly
+Today, oil refineries pay to have sulfur hauled away. The world [can't consume it faster than stockpiles mount](https://www.bbc.com/news/magazine-28369829) as a waste product of the modern petrochemical industry. Even though sulfuric acid is the most produced chemical by volume, and vulcanisation transformed mechanical goods, nowdays sulfur often commands a negative spot price. From the ravenous fossil fuel gluttony of our combustion-driven world, sulfur falls out for free.
 
 ![Sulfur industrial mountains](/images/syncrude_sulfur_mountains.jpg)
 
 Unwanted mountains of sulfur piling up at the Syncrude Athabasca oil sands in Alberta, Canada. [Jason Woodhead](https://www.flickr.com/photos/woodhead/8650842382/in/photolist-ebrQ3S-zJxnjj-qMsLT-gaZAVh-2hCV2Pf-2hqJPoP) [CC BY 2.0]
 {:.figcaption} 
 
-BBC New article [Sulphur surplus: Up to our necks in a diabolical element](https://www.bbc.com/news/magazine-28369829)
+Sulfur can also be a liability to the petrochemical industry. Despite the Orinoco oil belt of Venezuela being the largest in the world, much of the [crude is far too 'sour'](https://about.bnef.com/insights/commodities/venezuelas-oil-renaissance-faces-several-high-hurdles/) (with sulfur content 6--10x the 0.5% threshold) to be economically viable. Yet this sulfur abundance-turned-burden in our fossil fuels has further unexpected uses.
 
-Sulfur mountains [Large scale disposal of waste sulfur: From sulfide fuels to sulfate sequestration](https://www.sciencedirect.com/science/article/abs/pii/S0360544209005118)
+This economic inversion is what allows [researchers to develop on 'no/low cost' sulfur sponges](https://news.flinders.edu.au/blog/2025/06/27/golden-opportunity-to-reduce-toxic-waste/) cooked in ---no joke-- spent fish and chip shop oil, to [clean up the toxic gold-mercury](https://micro.org.au/news/the-future-of-gold-is-green-new-tech-recovers-the-precious-metal-without-pollution/) amalgam waste in the [desperate industry of 'artisanal' gold mining] common in the Amazon. 
 
-This economic inversion is what allows [researchers to develop on 'no/low cost' sulfur sponges](https://news.flinders.edu.au/blog/2025/06/27/golden-opportunity-to-reduce-toxic-waste/) cooked in ---I joke you not--- spent fish and chip shop oil, to [clean up the toxigold--mercury](https://micro.org.au/news/the-future-of-gold-is-green-new-tech-recovers-the-precious-metal-without-pollution/) amalgam waste in the [desparate industry of 'artinisal' gold mining] common in the Amazon. 
-
-From wars and the British Industrial revolution (link the Royal Navy fighting Sicily) to a negatively priced commodity.
-
-But if we stopped using fossil fuels entirerly will there be a dearth of sulfur?
+But if we stopped using fossil fuels entirely will there be a dearth of sulfur?
 [Sulfur: A potential resource crisis that could stifle green technology and threaten food security as the world decarbonises](https://rgs-ibg.onlinelibrary.wiley.com/doi/10.1111/geoj.12475)
 
-The high sulfur content of Venzeluan oil (and the depressing and scary political actions and  ramifications)
-'Sour' oil has > 0.5% sulfur. Oil in the Venzuelan Orinoco belt contains ten times that amount. 
-
-Vulcanisation
-
-Sulfuric acid for fertilisation
  
-### Sulfurous sky: SO<sub>x</sub> and atomspheric pollution
+### Sulfurous sky: SO<sub>x</sub> and atmospheric pollution
 
 ![NYC 1966 smog - Moden Smog of the City](/images/NYC_1966_smog.jpg)
 
@@ -177,7 +143,7 @@ The cell's power is conducted by wavicles tunneling along the molecular bonds co
 
 Perhaps these clusters predate---and are a prerequisite for---life itself, states the [iron-sulfur world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis). The cell as a waterborne sack to harness electricity. Enzyme cores remodeled from, and [still resembling](https://www.nature.com/articles/s41467-021-26158-2), mineral clusters from the Earth's crust. Both primates and our aquatic volcano microbial ancestors [preserve highly coordinated machinery to build iron-sulfur clusters](https://www.nature.com/articles/nature08301). That is how crucially guarded nature has kept the production of this molecular crucible. 
 
-From the dribs of lava that pierced the mantle, a chemical soup contributing to the origins of us all.
+From the dribs of lava that pierced the mantle, a chemical soup contributed to the origins of us all.
 
 ---
 
