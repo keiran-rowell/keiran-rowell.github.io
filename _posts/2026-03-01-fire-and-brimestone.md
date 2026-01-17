@@ -19,8 +19,8 @@ image:
 
 ---
 
-*It's just smoke. Floating over the volcano <br>
-It's just smoke. Go on, you know I can't say no*
+>*It's just smoke. Floating over the volcano <br>
+>It's just smoke. Go on, you know I can't say no*
 
 --- "Smoke", Caroline Polachek, **2023**
 {:.faded}
@@ -72,7 +72,9 @@ These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1D
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
 
-In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are the enforcers are there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  [*Description of why sulfur veins are in such high concentration in Sicily* The Messinian salinity crisis 6 millions years ago had created the opportunity for industrial wealth in towns along the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
+In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are the enforcers are there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before, when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  
+
+Six million years prior, the Messinian salinity crisis 6 millions years created the opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
  
 $$\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -> CaCO3(s) + CO2(g) + 3H2O(l) + {\color{#F1DD38}S^0(s)}}$$     
 
@@ -86,33 +88,34 @@ Techniques remained primitive. All mining had to be done by pick -- explosives r
 > "I am not prepared just now to say to what extent I believe in a physical hell in the next world, but a sulfur mine in Sicily is about the nearest thing to hell that I expect to see in this life."
 
 --- *The Man Farthest Down*, Booker T. Washington, **1911**
+{:.faded}
 
-[The conditions of the Silician mine are still incsribed in the memories of the [Silician diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and the bracing film depicting a [child miner's life in the Floristella mines](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
+The conditions of the Silician mines are still incsribed in the memories of the [Silician diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and a bracing film depicting a [child miner's life in the Floristella mines](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
 
-The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egpytian, Chinese) Sicily had fairly unique advantages with its tranquil golden vein of native sulfur, other ancients had visit active tectonic sites --- like Greek Island of Milos or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed [complex alchemical 'roasting' processes](https://www.jstor.org/stable/231610) to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
+The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egyptian, Chinese), Sicily held unique advantages with its tranquil golden vein of native sulfur. Other ancients had visit active tectonic sites --- like Greek Island of Milos, or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed [complex alchemical 'roasting' processes](https://www.jstor.org/stable/231610) to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
 
 
 
 ### Hellfire: sulfur in gunpowder and Greek fire
 
-[The demand of Silician Sulfur from the middle ages to make gunpowder]
-- [Why Was Sicilian Sulfur So Desired Across the Medieval World?](https://youtu.be/FzIg3yDC6pg?si=dn74s8vSDOEg19HP)
+Sicilian sulfur was [a coveted Medieval commodity](https://youtu.be/FzIg3yDC6pg?si=dn74s8vSDOEg19HP): it provided the low temperature ignition of gunpowder, without which [there was no thunderous crack of the cannon](https://www.acs.org/pressroom/headline-science/medieval-gunpowder-acsspring2024.html).  A more closely guarded sulfur recipe was for Greek Fire. The Byzantine Empire's naval flamethrower was devastating --- it stuck to everything it was sprayed on but could not be extinguished by water. 
 
 ![Greek fire](/images/Greekfire-madridskylitzes1.jpg)
 
 "The Roman fleet setting fire to the enemy fleet [led by Thomas of Sicily]". *Madrid Skylitzes*, manuscript on the Byzantines for the court of Plamero in Sicily, **12th century CE**
-{:.figcaption} 
+{:.figcaption}
+
+The exact mixture for this hellflame is lost to history, but early sources for similar concoctions hint at sulfur's inclusion in this hellish incendiary. 
 
 >  Automatic fire is composed of equal parts of native sulfur, rock salt, incense, thunderbolt stone, or pyrites, ground in a black mortar in the midday sun, and mixed with equal parts of the resin of the black sycamore and liquid asphalt of Zakynthos to a greasy paste. 
 
---- *Kestoi* [Fragment D25], Sextus Julius Africanusm, **c. 220 CE** 
+--- *Kestoi* [Fragment D25], Sextus Julius Africanus, **c. 220 CE**
+{:.faded} 
 
-
-Fireships (inspired by, though not using,  "Greek fire") were instrumental in [defeating the Egyptian fleet of the Ottoman Empire in the Greeek war of Independence](https://en.wikipedia.org/wiki/Burning_of_the_Ottoman_flagship_off_Chios)
 
 ### Yellow mammon: sulfur's economic inversion by the petrodollar
 
-The Sicilians lost their global sulfur monopoly when the petrochemical refining industry took off in the 20th century
+Sulfur serves many key industrial uses.
 
 While industrial methods were invented to extract sulfur deposits (the Frasch processes), their used was widely obselesced by sulfur as a petrochemical by-product. From ravenous fossil fuel demands of own combustion driven world, sulfur falls out for free.
 H2SO4 production - Contact Process
@@ -151,6 +154,7 @@ Smog on the front page of *The New York Times*, photo by Neal Boenzi, November 2
 > Such yellow sullen smokes make their own element. They will not rise, but trundle around the globe. Choking the aged and the meek, the weak...
 
 --- *Fever 103°*, Sylvia Plath, **1963**
+{:.faded}
 
 1816 Year Without Summer, 1952 Great Smog of London, 1966 New York City Smog, 
 
@@ -177,9 +181,9 @@ From the dribs of lava that pierced the mantle, a chemical soup contributing to 
 
 ---
 
-*... but torture without end <br>
-Still urges, and a fiery deluge, fed <br>
-With ever-burning sulfur unconsumed*
+>*... but torture without end <br>
+>Still urges, and a fiery deluge, fed <br>
+>With ever-burning sulfur unconsumed*
 
 --- *Paradise Lost* [Book I], John Milton, **1667**
 {:.faded}
