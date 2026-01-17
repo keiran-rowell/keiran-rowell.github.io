@@ -161,30 +161,18 @@ Sulfur containing ship fuel. Acts as a global *coolant* but SOx is so toxic in t
 
 ### An infernal engine: iron-sulfur clusters and bioelectricity
 
-Sulfur's changable electron count makes it useful: it is the non-metal element with the most versatile oxidation state. With larger electron outer shell than its reactivity chemical bunkmate, oxygen, the third shell provides both readily emptiable or fillable sub-shells (the $$3p$$), and a bonding ability akin to an "expanded octet" that's facilitated by higher-energy states lying closer to occupied orbitals than in most electron arrangements. By the 4th shell the elements are transitioning into metals, with electrons released into conductive valence band 'sea' of electrons characterising metallic bonding.  Sulfur, therefore, finds use as a controllable electron exchange junction in redox processes.
+Sulfur's changable electron count makes it useful: it is the non-metal element with the most versatile oxidation state. With larger electron outer shell than its reactivity chemical bunkmate, oxygen, the third shell provides both readily emptiable or fillable sub-shells ($$3p$$), and a bonding ability akin to an "expanded octet" that's facilitated by higher-energy states lying closer to occupied orbitals than in most electron arrangements. By the 4th shell the elements are transitioning into metals, with electrons released into conductive valence band 'sea' of electrons characterising metallic bonding.  Sulfur, therefore, finds use as a controllable electron exchange junction in redox processes. These junctions are made in the form of iron-sulfur clusters.
 
 ![Iron-Sulfur clusters](/images/iron-sulfur_clusters.jpg)
 
 Iron-Sulfur clusters that act as waypoints in the electrical process of life, including the reactive 'crucible' of [nitrogenase](link back to nitrogen fixation post). Tracey A. Rouault & Wing-Hang Tong, ["Iron-sulphur cluster biogenesis and mitochondiral iron homeostasis"](https://doi.org/10.1038/nrm1620), *Nature Reviews Molecular Cell Biology*, *6*, 345--351, **2005**.  
 {:.figcaption} 
 
-Something about how the electrons trace all possible paths between the waypoints along the bonding chain (path integral methods in biological electron transport). -Phrase more poetically understandable and less jargonistic than that
-- So it's not Path Integral in the Feynmann sense, but more 'the covalent bonds act as wires when compared against the electron permitivity of vacuum". This is refered to as superexchange. The tunneling decay is exponential but vacuum its about 1 A to attentuate, but bonds is 3, long enough to get to the next bond.
-[Protein Electron Transfer Rates Set by the Bridging Secondary and Tertiary Structure](https://www.science.org/doi/10.1126/science.1656523)
-But tunneling means the final coupling amplitude of the e- transfer between D -> A is the amplitude sum of all possible tunneling paths, it doesn't take just one path like a classical process. With *phase* so they can interfere
+Electrons ---whether generated from cracking oxygen-phosphorous bond in the 'battery molecule' ATP, [converted from sunlight by plant photosystems](https://youtu.be/jlO8NiPbgrk?si=Bi9rNWMIGRys8WqG), ingested from Earth's mineral crust, or swapped during redox in chemotrophy--- must be channelled from junction to junction. Electrons don't typically travel as free particles, they propagate as waves. This could be through free-space, but the wave is attenuated rapidly over short distances in that medium (a tenth of a nanometer, 1 Å). Even travelling along 'non-conductive' covalent bond is preferable to the vacuum. So, the amino acid [linkages in proteins themselves act to wire up the way points](https://www.science.org/doi/10.1126/science.1656523) (nucleic acids moreso [due to delocalised electron sharing between stacked nucleobases](https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-042018-052353)). Along bonds, an electron's attenuation distance is typically around 3 Å, enough to tunnel from bond to bond in a process referred to by physicists as superexchange. Biological electron transfer is therefore a 'through-bond' process, and these quantum particles don't take just one path: the coupling between donor and acceptor waypoints exhibits a wave's phase, including constructive and destructive interference. The behaviour can't be explained classically, much like the double-slit experiment couldn't.   
 
- in my post here I'm going to talk about Fe-S being waypoints but because electrons are quantum mechnical in scale they tunnel *along* protein bonds not *through* space, and as waves propogating along all possible pathways? 
+The cell's power is conducted by wavicles propagating along the molecular bonds connecting life's electrical circuits, reverberating across pathways and extending into dimensions inaccessible to our prosaic wires of extruded copper. Helping us breathe, helping plants turn photons into fuel. Real quantum mechanical waves along biomolecules that interfere constructively and destructively just like the famous electron double-slit experiments. Doing their work to power all life through changing the charge density in the metal-sulfur core of these primordial clusters.
 
-Wavicles propagating along the molecular bonds connecting life's electrical circuits, reverberating across pathways and extending into dimensions inaccessible to our prosaic wires of extruded copper. Helping us breathe, helping plants turn photons into fuel. Real quantum mechanical waves along biomolecules that interfere constructively and destructively just like the famous electron double-slit experiments. Doing their work to power all life through changing the charge density in the metal-sulfur core of these primordial clusters.
-
-
-[Fe-S world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis)
-
-We share the same enzymes to make Fe-S cluster as our aquatic volcano microbial ancestors, highly preserved to this day. That is how crucially Nature has kept this production process the same.  
-
-Also mention disulfide bridges betwen cystestine amino acids stapling proteins together
-
-There's something almost mythical about underwater brimstone cauldrons being the origins of us all.
+Perhaps these clusters predate and are a prerequisite for life itself, states the [Fe-S world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis). The cell as a waterborn sack to contain electricity. Both primates and our aquatic volcano microbial ancestors [preserve highly coordinated machinery to build iron-sulfur clusters](https://www.nature.com/articles/nature08301). That is how crucially guarded nature has kept the production processes of this molecular crucible. From the dribs of lava that pierce the mantle, a chemical soup contributed to the origins of us all.
 
 ---
 
