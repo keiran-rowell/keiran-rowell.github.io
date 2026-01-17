@@ -29,7 +29,7 @@ image:
 
 ### From hell, life: sulfur eating microbes
 
-In Earth's hellish Hadeon Eon, the embers of [ancient modes of life were kindled around geothermal vents](https://www.science.org/content/article/our-last-common-ancestor-inhaled-hydrogen-underwater-volcanoes), in the deep dark of the sea floor. Billions of years before photosynthesis arose as a way to nurture life from the sun, life found a way to turn the boiling chemical churn of these cauldrons into a stable energy source. The sulfurous nature of these volcano plumes was crucial to the chemotrophy of these Promethean life forms; they could fuel themselves through stripping electrons from this chemical soup. 
+In Earth's hellish Hadean Eon, the embers of [ancient modes of life were kindled around geothermal vents](https://www.science.org/content/article/our-last-common-ancestor-inhaled-hydrogen-underwater-volcanoes), in the deep dark of the sea floor. Billions of years before photosynthesis arose as a way to nurture life from the sun, life found a way to turn the boiling chemical churn of these cauldrons into a stable energy source. The sulfurous nature of these volcano plumes was crucial to the chemotrophy of these Promethean life forms; they could fuel themselves through stripping electrons from this chemical soup. 
 
 ![Underwater volcano microbes](/images/archaea_giggenbach_hydrothermal_vents.jpg)
 
@@ -104,11 +104,9 @@ Unwanted mountains of sulfur piling up at the Syncrude Athabasca oil sands in Al
 
 Sulfur can also be a liability to the petrochemical industry. Despite the Orinoco oil belt of Venezuela being the largest in the world, much of the [crude is far too 'sour'](https://about.bnef.com/insights/commodities/venezuelas-oil-renaissance-faces-several-high-hurdles/) (with sulfur content 6--10x the 0.5% threshold) to be economically viable. Yet this sulfur abundance-turned-burden in our fossil fuels has further unexpected uses.
 
-This economic inversion is what allows [researchers to develop on 'no/low cost' sulfur sponges](https://news.flinders.edu.au/blog/2025/06/27/golden-opportunity-to-reduce-toxic-waste/) cooked in ---no joke-- spent fish and chip shop oil, to [clean up the toxic gold-mercury](https://micro.org.au/news/the-future-of-gold-is-green-new-tech-recovers-the-precious-metal-without-pollution/) amalgam waste in the [desperate industry of 'artisanal' gold mining] common in the Amazon. 
+This economic inversion is what allows [researchers to develop on 'no/low cost' sulfur sponges](https://news.flinders.edu.au/blog/2025/06/27/golden-opportunity-to-reduce-toxic-waste/) cooked in --no joke-- spent chip shop oil. The sponges sop up chemical waste, forming [sulfur-gold bonds](https://www.nature.com/articles/s41578-019-0094-3). The cleanup applies to both the highest and lowest tech industries in the world: gold can be recovered both from [e-waste](https://micro.org.au/news/the-future-of-gold-is-green-new-tech-recovers-the-precious-metal-without-pollution/), and also the posioned tailings of so-called "artisanal" gold mining. [Artisinal gold mining is an industry of desperation](https://www.unep.org/globalmercurypartnership/resources/video/artisanal-mining-poverty-driven-destruction); from the small-scale crushing of alluvial ore downstream of corporate gold mines rudimentary chemistry is used to extract pure gold. Gold readily forms an amalgam with its liquid metal neighbour mercury, which can then be collected by hand. Mercury's boiling point is low (hence its use in thermometers), so it can be evapourated off from the raw gold on any stovetop. The consequences are harsh: artisanal mining alone releases roughly [40% of global mercury emissions into the atmosphere](https://www.unep.org/globalmercurypartnership/what-we-do/artisanal-and-small-scale-gold-mining-asgm), the mercury vapours are potent neurotoxins inhaled by the miners, and the waterways are spoiled for all life. 
 
-But if we stopped using fossil fuels entirely will there be a dearth of sulfur?
-[Sulfur: A potential resource crisis that could stifle green technology and threaten food security as the world decarbonises](https://rgs-ibg.onlinelibrary.wiley.com/doi/10.1111/geoj.12475)
-
+The overabundance of sulfur attests to the sheer scale of petroleum burnt each year. This glut is not a god-given law but an accident of chemistry.  If humanity cleaned up its act and decarbonised, sulfur is likely to [become a scarce resource again by 2040](https://rgs-ibg.onlinelibrary.wiley.com/doi/10.1111/geoj.12475), with supply stream impacts on our fertiliser and lithium-ion battery production. 
  
 ### Sulfurous sky: SO<sub>x</sub> and atmospheric pollution
 
@@ -117,20 +115,21 @@ But if we stopped using fossil fuels entirely will there be a dearth of sulfur?
 Smog on the front page of *The New York Times*, photo by Neal Boenzi, November 25, **1966**.
 {:.figcaption} 
  
+[1948 Donora death smog](https://www.smithsonianmag.com/history/deadly-donora-smog-1948-spurred-environmental-protection-have-we-forgotten-lesson-180970533/), 1952 Great Smog of London, 1966 New York City Smog, 
+
 > Such yellow sullen smokes make their own element. They will not rise, but trundle around the globe. Choking the aged and the meek, the weak...
 
 --- *Fever 103°*, Sylvia Plath, **1963**
 {:.faded}
 
-1816 Year Without Summer, 1952 Great Smog of London, 1966 New York City Smog, 
-
+1816 Year Without Summer.
 2020 International Maritime Organisation legislations -- temporary sea level warming effect.
 
 Sulfur containing ship fuel. Acts as a global *coolant* but SOx is so toxic in the atmosphere it needs to be banned
 
 ### An infernal engine: iron-sulfur clusters and bioelectricity
 
-Sulfur's changeable electron count makes it useful: it is the non-metal element with the most versatile oxidation state. With a larger outer electron shell than its reactivity chemical bunkmate oxygen, sulfur's third shell provides both readily emptiable or fillable sub-shells ($$3p$$). This gives sulfur bonding flexibility akin to an "expanded octet", that's facilitated by higher-energy states lying closer to occupied orbitals than in most electron arrangements. By the 4th shell the elements are transitioning into metals, with electrons released into conductive valence band 'sea' of electrons characterising metallic bonding.  Sulfur, therefore, finds use as a controllable electron exchange junction in redox processes. These junctions are made in the form of iron-sulfur clusters.
+Sulfur's changeable electron count makes it useful: it is the non-metal element with the most versatile oxidation state. With a larger outer electron shell than its reactivity chemical bunkmate oxygen, sulfur's third shell provides both readily emptiable or fillable sub-shells ($$3p$$). This gives sulfur bonding flexibility akin to an "expanded octet", that's facilitated by higher-energy states lying closer to occupied orbitals than in most electron arrangements. By the fourth shell the elements are transitioning into metals, with electrons released into conductive valence band 'sea' of electrons characterising metallic bonding.  Sulfur, therefore, finds use as a controllable electron exchange junction in redox processes. These junctions are made in the form of iron-sulfur clusters.
 
 ![Iron-Sulfur clusters](/images/iron-sulfur_clusters.jpg)
 
