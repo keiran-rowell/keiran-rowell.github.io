@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "Blue Fire and Yellow Brimstone: the world's waning appetite for hellish sulfur"
-description: "📖 10 min read • Life and death from satan's gold"
+description: "📖 10 min read • Life and death from Satan's gold"
 category: sulfur
 tags: 
 image:
@@ -45,16 +45,20 @@ In the Indonesian archipelago a mining crew descends at dawn into the bowels of 
 Blue fire spewing forth from the sulfur mine around the Ijen volcano complex. [Trian Wida Charisma](https://flic.kr/p/AZLUcx) [CC BY-NC 2.0]
 {:.figcaption}
 
-These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1DD38">Satan's gold</span>. Toxic hydrogen sulfide ($\ce{H2S}$)  and sulfur dioxide ($\ce{SO2}$) gases risen hot from the caldera, crashing into the cooler atmospheric air mass. The triggered chemical reaction and phase change is so rapid that sulfur leaves its bonding partners and immediately desublimates. Yellow crystals of the volcano's breath solidify at its base. Sulfur mines are now largely museums for tourists, but were once valuable deposits of the element [that fuelled the birth of the British chemical industry finishing the textile trade](https://www.journals.uchicago.edu/doi/epdf/10.1086/705370). Any deposits were once worth going to war over to guarantee cheap supply.
+These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1DD38">Satan's gold</span>. Toxic hydrogen sulfide (H<sub>2</sub>S)  and sulfur dioxide (SO<sub>2</sub>) gases risen hot from the caldera, crashing into the cooler atmospheric air mass. The triggered chemical reaction and phase change is so rapid that sulfur leaves its bonding partners and immediately desublimates. Yellow crystals of the volcano's breath solidify at its base. Sulfur mines are now largely museums for tourists, but were once valuable deposits of the element [that fuelled the birth of the British chemical industry finishing the textile trade](https://www.journals.uchicago.edu/doi/epdf/10.1086/705370). Any deposits were once worth going to war over to guarantee cheap supply.
 
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
 
 In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are the enforcers are there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before, when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  
 
-Six million years prior, the Messinian salinity crisis 6 millions years created the opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
- 
-$$\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -> CaCO3(s) + CO2(g) + 3H2O(l) + {\color{yellow}S^0(s)}}$$     
+Six million years prior, the Messinian salinity crisis 6 millions years created the opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum (CaSO<sub>4</sub>) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
+
+<div style="margin: 2rem 0; padding: 1.5rem; background: rgba(0,0,0,0.05); border-left: 4px solid #F1DD38; text-align: center; font-family: monospace;">
+  <code style="font-size: 1.05rem; color: #eee; background: none; display: block; overflow-x: auto; white-space: nowrap; padding-bottom: 5px;">
+     1.5 CaSO<sub>4</sub>·2H<sub>2</sub>O(s) + CH<sub>3</sub>COO<sup>-</sup>(aq) + H<sup>+</sup>(aq) &rarr; 1.5 CaCO<sub>3</sub>(s) + 0.5 CO<sub>2</sub>(g) + 5 H<sub>2</sub>O(l) + <span style="color: #F1DD38; font-weight: bold;">1.5 S<sup>0</sup>(s)</span>
+  </code>
+</div>
 
 ![I_carusi](/images/I_carusi.jpg)
 
@@ -113,7 +117,7 @@ The overabundance of sulfur attests to the sheer scale of petroleum burnt each y
 Smog on the front page of *The New York Times*, photo by Neal Boenzi, November 25, **1966**.
 {:.figcaption} 
 
-Sulfur's calling card is its acrid fumes. Hydrogen sulfide ($\ce{H2S}$) is notorious for its 'rotten egg' smell, but it the sulfur oxides ($\ce{SOx}$) are more noxious and lethal. We've turbocharged their concentration in the air, humanity releases [more than twice the sulfur dioxide ($\ce{SO2}$) emissions than volcanoes](https://science.nasa.gov/earth/earth-observatory/satellite-catalogs-volcanic-sulfur-emissions-89813/) through our combustion engine and smelters. These factories were often near population centres during the Industrial Revolution. Before emissions laws were in place, all it took was pressure inversion for the troposphere to press a smothering blanket of smog down on the cities, as seen in the [1948 Donora death smog](https://www.smithsonianmag.com/history/deadly-donora-smog-1948-spurred-environmental-protection-have-we-forgotten-lesson-180970533/), 1952 Great Smog of London, 1966 New York City Smog (*pictured above*). The response to these hundreds of deaths were to pass atmospheric protection laws: the 1955 Air Pollution Control Act, the 1956 Clean Air Act, and the 1970 Clean Air Act, respectively. 
+Sulfur's calling card is its acrid fumes. Hydrogen sulfide (H<sub>2</sub>) is notorious for its 'rotten egg' smell, but it the sulfur oxides (SO<sub>x</sub>) are more noxious and lethal. We've turbocharged their concentration in the air, humanity releases [more than twice the sulfur dioxide (SO<sub>2</sub>) emissions than volcanoes](https://science.nasa.gov/earth/earth-observatory/satellite-catalogs-volcanic-sulfur-emissions-89813/) through our combustion engine and smelters. These factories were often near population centres during the Industrial Revolution. Before emissions laws were in place, all it took was pressure inversion for the troposphere to press a smothering blanket of smog down on the cities, as seen in the [1948 Donora death smog](https://www.smithsonianmag.com/history/deadly-donora-smog-1948-spurred-environmental-protection-have-we-forgotten-lesson-180970533/), 1952 Great Smog of London, 1966 New York City Smog (*pictured above*). The response to these hundreds of deaths were to pass atmospheric protection laws: the 1955 Air Pollution Control Act, the 1956 Clean Air Act, and the 1970 Clean Air Act, respectively. 
 
 > Such yellow sullen smokes make their own element. They will not rise, but trundle around the globe. Choking the aged and the meek, the weak...
 
@@ -122,7 +126,7 @@ Sulfur's calling card is its acrid fumes. Hydrogen sulfide ($\ce{H2S}$) is notor
 
 Our industries don't always out-compete the Earth's mantle for spewing fumes into the air. Titanic volcanic eruptions can dwarf human activity and shock short-scale climate; in 1816 the eruption of Mount Tambora in Indonesia singlethroatedly caused "the year without summer". The temperature plunged a couple of degrees, crops failed, and [the summer skies in Europe were glum enough to compel Mary Shelley to write *Frankenstein*](https://scied.ucar.edu/learning-zone/how-climate-works/mount-tambora-and-year-without-summer).
 
-Such global cooling effects are temporary; [aerosolised sulfates increase the albedo of clouds](https://climate.mit.edu/ask-mit/how-much-global-warming-has-been-hidden-cooling-effect-sulfur-produced-burning-coal-and-oil), making them reflect more incoming heat back off earth. Unlike some of the worst "forever chemicals" of our own creation, sulfate emissions are short lived; lasting only weeks before plummeting to the surface as acid rain. Nevertheless, sulfate cooling is detectable: in 2020 the International Maritime Organisation reduced the sulfur limit of shipping's dirtiest "bunker fuel" from 3.5% to 0.5%. Abrupt sea surface temperature rises and ocean cloud optical changes [could be measured](https://www.nature.com/articles/s43247-024-01442-3). This incidental inverse cloud seeding experiment does not however provide a tidy geoengineering case study to combat global warming: the respiratory and environmental consequences of runaway ($\ce{SOx}$) emissions must be taken into account. The processes fuelling our modern life have us in a bargain with Mephistopheles: [cleaning up our air exposes the full extent of millennia-enduring greenhouse gas emissions](https://academic.oup.com/oocc/article/4/1/kgae008/7706251).
+Such global cooling effects are temporary; [aerosolised sulfates increase the albedo of clouds](https://climate.mit.edu/ask-mit/how-much-global-warming-has-been-hidden-cooling-effect-sulfur-produced-burning-coal-and-oil), making them reflect more incoming heat back off earth. Unlike some of the worst "forever chemicals" of our own creation, sulfate emissions are short lived; lasting only weeks before plummeting to the surface as acid rain. Nevertheless, sulfate cooling is detectable: in 2020 the International Maritime Organisation reduced the sulfur limit of shipping's dirtiest "bunker fuel" from 3.5% to 0.5%. Abrupt sea surface temperature rises and ocean cloud optical changes [could be measured](https://www.nature.com/articles/s43247-024-01442-3). This incidental inverse cloud seeding experiment does not however provide a tidy geoengineering case study to combat global warming: the respiratory and environmental consequences of runaway (SO<sub>x</sub>) emissions must be taken into account. The processes fuelling our modern life have us in a bargain with Mephistopheles: [cleaning up our air exposes the full extent of millennia-enduring greenhouse gas emissions](https://academic.oup.com/oocc/article/4/1/kgae008/7706251).
 
 ### An infernal engine: iron-sulfur clusters and bioelectricity
 

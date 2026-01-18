@@ -1,18 +1,5 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-
-/* Hide raw LaTeX until MathJax processes it */
-.content {
-  visibility: hidden;
-}
-.content.mjx-chtml, .MathJax_Preview {
-  visibility: visible !important;
-}
-/* Re-show everything once MathJax is done */
-.MathJax_Processed .content {
-  visibility: visible;
-}
-
 <!--
 Load in the mhchem TeX library for \ce{} rendering
 -->
