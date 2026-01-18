@@ -33,7 +33,7 @@ In Earth's hellish Hadean Eon, the embers of [ancient modes of life were kindled
 
 ![Underwater volcano microbes](/images/archaea_giggenbach_hydrothermal_vents.jpg)
 
-Archaea at the hydrothermal vents of the Giggenbach underwater volcano 800 km North-Northeast of New Zealand's North Island. **2005**, [NOAA Vents Program](https://www.omao.noaa.gov/image-licensing-usage-info).
+Archaea at the hydrothermal vents of the Giggenbach underwater volcano 800 km North-Northeast of New Zealand's North Island. **2005**, [NOAA Vents Program](https://www.omao.noaa.gov/image-licensing-usage-info)
 {:.figcaption}
 
  4 billion years later, far removed from the [sulfur-eating microbes](https://doi.org/10.1073/pnas.2019021117) that still [cluster around deep-sea vents](https://www.livescience.com/extreme-microbes-underwater-volcano.html), humans toil at the base of volcanic craters to harvest the same element for their own purposes.
@@ -115,7 +115,7 @@ The overabundance of sulfur attests to the sheer scale of petroleum burnt each y
 Smog on the front page of *The New York Times*, photo by Neal Boenzi, November 25, **1966**.
 {:.figcaption} 
 
-Sulfur's calling card is its acrid fumes. Hydrogen sulfide ($\ce{H2S}$) is notorious for its 'rotten egg' smell, but it the sulfur oxides ($\ce{SOx}$) are more noxious and lethal. We've turbocharged their concentration in the air, humanity releases [more than twice the suflur dioxide ($\ce{SO2}$) emissions than volcanoes](https://science.nasa.gov/earth/earth-observatory/satellite-catalogs-volcanic-sulfur-emissions-89813/) through our combustion engine and smelters. These factories were often near population centres during the Industrial Revolution. Before emissions laws were in place, all it took was pressure inversion for the troposphere to press a smothering blanket of smog down on the cities, as seen in the [1948 Donora death smog](https://www.smithsonianmag.com/history/deadly-donora-smog-1948-spurred-environmental-protection-have-we-forgotten-lesson-180970533/), 1952 Great Smog of London, 1966 New York City Smog (*pictured above*). The response to these hundreds of deaths were to pass atmospheric protection laws: the 1955 Air Pollution Control Act, the 1956 Clean Air Act, and the 1970 Clean Air Act, respectively. 
+Sulfur's calling card is its acrid fumes. Hydrogen sulfide ($\ce{H2S}$) is notorious for its 'rotten egg' smell, but it the sulfur oxides ($\ce{SOx}$) are more noxious and lethal. We've turbocharged their concentration in the air, humanity releases [more than twice the sulfur dioxide ($\ce{SO2}$) emissions than volcanoes](https://science.nasa.gov/earth/earth-observatory/satellite-catalogs-volcanic-sulfur-emissions-89813/) through our combustion engine and smelters. These factories were often near population centres during the Industrial Revolution. Before emissions laws were in place, all it took was pressure inversion for the troposphere to press a smothering blanket of smog down on the cities, as seen in the [1948 Donora death smog](https://www.smithsonianmag.com/history/deadly-donora-smog-1948-spurred-environmental-protection-have-we-forgotten-lesson-180970533/), 1952 Great Smog of London, 1966 New York City Smog (*pictured above*). The response to these hundreds of deaths were to pass atmospheric protection laws: the 1955 Air Pollution Control Act, the 1956 Clean Air Act, and the 1970 Clean Air Act, respectively. 
 
 > Such yellow sullen smokes make their own element. They will not rise, but trundle around the globe. Choking the aged and the meek, the weak...
 

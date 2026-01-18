@@ -1,3 +1,18 @@
+---
+layout: post
+author: keiran
+title: "A Mysterious Way to Quell the Brain: inert gases as aneasthetic"
+description: "📖 15 min read • How can the least reactive substances quiet the nervous system"
+published: false
+subtitle:
+category: anaesthetics
+tags:
+image:
+  path: 
+  alt: "Some caption on anaesthetics"
+---
+
+
 Xenon --- the perfect drug we can't afford to trigger an effect we don't understand with substances that should be chemically inert
 
 We've been using it since the 1940s. 

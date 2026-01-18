@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,6 +45,42 @@
         .subtitle {
             color: #8a8a9e;
             font-size: 1.1em;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2d2d44;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: transparent;
+            border: none;
+            color: #8a8a9e;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .tab:hover {
+            color: #3ba7ff;
+        }
+
+        .tab.active {
+            color: #3ba7ff;
+            border-bottom-color: #3ba7ff;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
         }
         
         .main-grid {
@@ -92,7 +128,7 @@
             background: #16213e;
         }
         
-        select, input[type="text"] {
+        select, input[type="text"], textarea {
             width: 100%;
             padding: 12px;
             background: #0f0f1e;
@@ -101,9 +137,17 @@
             color: #e0e0e0;
             font-size: 1em;
             transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
         }
         
-        select:focus, input[type="text"]:focus {
+        select:focus, input[type="text"]:focus, textarea:focus {
             outline: none;
             border-color: #3ba7ff;
             box-shadow: 0 0 0 3px rgba(59, 167, 255, 0.1);
@@ -122,6 +166,25 @@
             transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 1px;
+        }
+
+        button.secondary {
+            background: linear-gradient(135deg, #2d2d44 0%, #1a1a2e 100%);
+            font-size: 0.95em;
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+
+        button.harmonise {
+            background: linear-gradient(135deg, #7bed9f 0%, #0f754c 100%);
+        }
+
+        button.secondary:hover, button.harmonise:hover {
+            background: linear-gradient(135deg, #3d3d54 0%, #2a2a3e 100%);
+        }
+
+        button.harmonise:hover {
+            background: linear-gradient(135deg, #8fff9f 0%, #1f855c 100%);
         }
         
         button:hover {
@@ -207,25 +270,42 @@
             display: block;
         }
 
-        .loading {
+        .progress-container {
+            margin-top: 15px;
+            background: rgba(15, 15, 30, 0.8);
+            border: 1px solid #2d2d44;
+            border-radius: 8px;
+            padding: 15px;
+            display: none;
+        }
+
+        .progress-container.active {
+            display: block !important;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #2d2d44;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3ba7ff, #00d4ff);
+            width: 0%;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 10px rgba(59, 167, 255, 0.5);
+        }
+
+        .progress-text {
+            font-size: 0.95em;
+            color: #b0b0c0;
             text-align: center;
-            padding: 40px;
-            color: #8a8a9e;
-        }
-
-        .spinner {
-            border: 3px solid #2d2d44;
-            border-top: 3px solid #3ba7ff;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 15px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            font-weight: 500;
         }
 
         .info-box {
@@ -241,32 +321,249 @@
         .info-box strong {
             color: #3ba7ff;
         }
+
+        .codon-table-container {
+            background: #1a1a2e;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #2d2d44;
+        }
+
+        .codon-table-display {
+            background: #0f0f1e;
+            border: 1px solid #2d2d44;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            max-height: 500px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+        }
+
+        .codon-table-display table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .codon-table-display th,
+        .codon-table-display td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #2d2d44;
+        }
+
+        .codon-table-display th {
+            color: #3ba7ff;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            background: #0f0f1e;
+        }
+
+        .codon-table-display tr:hover {
+            background: #1a1a2e;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .button-group button {
+            flex: 1;
+        }
+
+        .upload-custom-table {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #2d2d44;
+        }
+
+        #resultsContainer {
+            margin-top: 30px;
+        }
+
+        #statsDisplay {
+            margin-top: 20px;
+            padding: 20px;
+            background: #0f0f1e;
+            border-radius: 8px;
+            border: 1px solid #2d2d44;
+        }
+
+        #statsDisplay h4 {
+            color: #3ba7ff;
+            margin-bottom: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Codon Rarity 3D Viewer</h1>
-            <p class="subtitle">Visualize co-translational folding bottlenecks in protein structures</p>
+            <p class="subtitle">Visualise rare codons -- hypothesised as co-translational folding bottlenecks in protein structures</p>
+            <p class="subtitle" style="font-size: 0.9em; margin-top: 10px;">
+                Created by <a href="https://keiran-rowell.github.io" style="color: #3ba7ff; text-decoration: none;">Keiran Rowell</a> assisted by Claude Sonnet 4.5 prompting | 
+                Codon frequency data from <a href="http://codonstatsdb.unr.edu/" target="_blank" style="color: #3ba7ff; text-decoration: none;">CodonStatsDB</a> 
+                (<a href="https://doi.org/10.1093/molbev/msac108" target="_blank" style="color: #3ba7ff; text-decoration: none;">Subramanian et al. 2022, Mol Biol Evol</a>)
+            </p>
         </div>
     </header>
 
     <div class="container">
-        <div class="main-grid">
-            <div class="controls">
-                <div class="control-group">
-                    <label for="pdbFile">PDB Structure File</label>
-                    <input type="file" id="pdbFile" accept=".pdb">
+        <div class="tabs">
+            <button class="tab active" data-tab="visualise">Visualise</button>
+            <button class="tab" data-tab="optimise">Codon Optimisation</button>
+            <button class="tab" data-tab="codon-tables">Codon Tables</button>
+        </div>
+
+        <!-- Visualise Tab -->
+        <div id="visualise-tab" class="tab-content active">
+            <div class="main-grid">
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="pdbFile">PDB Structure File</label>
+                        <input type="file" id="pdbFile" accept=".pdb">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="fastaFile">Sequence (FASTA)</label>
+                        <input type="file" id="fastaFile" accept=".fasta,.fa,.txt">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="visualisationMode">Visualisation Mode</label>
+                        <select id="visualisationMode">
+                            <option value="single">Single organism rarity</option>
+                            <option value="differential">Differential rarity (compare two organisms)</option>
+                        </select>
+                    </div>
+
+                    <div class="control-group" id="singleOrgGroup">
+                        <label for="organism">Organism (NCBI Taxon ID)</label>
+                        <select id="organism">
+                            <option value="">Select organism...</option>
+                            <option value="9606">Homo sapiens (9606)</option>
+                            <option value="562">E. coli (562)</option>
+                            <option value="4932">S. cerevisiae (4932)</option>
+                            <option value="7227">D. melanogaster (7227)</option>
+                            <option value="10090">M. musculus (10090)</option>
+                        </select>
+                    </div>
+
+                    <div id="differentialOrgGroups" style="display: none;">
+                        <div class="control-group">
+                            <label for="sourceOrg">Source Organism</label>
+                            <select id="sourceOrg">
+                                <option value="">Select organism...</option>
+                                <option value="9606">Homo sapiens (9606)</option>
+                                <option value="562">E. coli (562)</option>
+                                <option value="4932">S. cerevisiae (4932)</option>
+                                <option value="7227">D. melanogaster (7227)</option>
+                                <option value="10090">M. musculus (10090)</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group">
+                            <label for="targetOrg">Target Organism</label>
+                            <select id="targetOrg">
+                                <option value="">Select organism...</option>
+                                <option value="562">E. coli (562)</option>
+                                <option value="9606">Homo sapiens (9606)</option>
+                                <option value="4932">S. cerevisiae (4932)</option>
+                                <option value="7227">D. melanogaster (7227)</option>
+                                <option value="10090">M. musculus (10090)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="control-group" style="padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-top: 10px;">
+                      <label for="manualTaxId">Add Other TaxID from File</label>
+                      <div style="display: flex; gap: 10px;">
+                        <input type="text" id="manualTaxId" placeholder="e.g. 5476" style="flex: 1;">
+                       <button id="addTaxIdBtn" class="secondary" style="width: auto; margin-top: 0; padding: 8px 15px;">Add</button>
+                      </div>
+                      <small id="manualStatus" style="font-size: 0.8em; display: block; margin-top: 5px;"></small>
+                     </div>
+
+                    <div class="control-group">
+                        <label for="rarityThreshold">Rarity Threshold (colour codons below this frequency)</label>
+                        <input type="number" id="rarityThreshold" min="0" max="1" step="0.05" value="0.20" style="width: 100%;">
+                    </div>
+
+                    <button id="visualiseBtn" disabled>Loading Pyodide...</button>
+
+                    <div class="progress-container active" id="loadingProgress" style="display: block;">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill" style="width: 0%;"></div>
+                        </div>
+                        <div class="progress-text" id="progressText">Initializing...</div>
+                    </div>
+
+                    <div id="status" class="status"></div>
+
+                    <div class="info-box">
+                        <strong>How it works:</strong> Upload a PDB structure and sequence, select an organism to see rare codons highlighted in red/orange. <strong>Differential mode</strong> compares rarity between two organisms - blue = becomes more common, red = becomes rarer in target organism.
+                    </div>
+                </div>
+
+                <div class="viewer-container">
+                    <div id="viewer"></div>
+                </div>
+            </div>
+
+            <div class="legend">
+                <h3>Codon Rarity Colour Scale</h3>
+                <div id="singleLegend">
+                    <div class="gradient-bar" style="background: linear-gradient(to right, #ff4757 0%, #ffa502 50%, #e0e0e0 100%);"></div>
+                    <div class="gradient-labels">
+                        <span>Very rare (slow translation)</span>
+                        <span>Common (normal)</span>
+                    </div>
+                </div>
+                <div id="differentialLegend" style="display: none;">
+                    <div class="gradient-bar" style="background: linear-gradient(to right, #ff4757 0%, #e0e0e0 50%, #3ba7ff 100%);"></div>
+                    <div class="gradient-labels">
+                        <span>Becomes rarer</span>
+                        <span>No change</span>
+                        <span>Becomes more common</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Codon Optimisation Tab -->
+        <div id="optimise-tab" class="tab-content">
+            <div class="codon-table-container">
+                <h2 style="color: #3ba7ff; margin-bottom: 20px;">Codon Optimisation & Harmonisation</h2>
+                
+                <div class="info-box" style="margin-bottom: 25px;">
+                    <strong>Two Approaches:</strong><br>
+                    <strong>Optimisation:</strong> Replace codons with the most common synonymous codons in the expression organism (maximises expression).<br>
+                    <strong>Harmonisation:</strong> Match codon rarity patterns between source and expression organisms (preserves co-translational folding).
                 </div>
 
                 <div class="control-group">
-                    <label for="fastaFile">Sequence (FASTA)</label>
-                    <input type="file" id="fastaFile" accept=".fasta,.fa,.txt">
+                    <label for="optSequenceInput">Input Sequence (DNA/cDNA)</label>
+                    <textarea id="optSequenceInput" placeholder="Paste DNA sequence here or upload FASTA below..."></textarea>
                 </div>
 
                 <div class="control-group">
-                    <label for="organism">Organism (NCBI Taxon ID)</label>
-                    <select id="organism">
+                    <label for="optFastaFile">Or Upload FASTA</label>
+                    <input type="file" id="optFastaFile" accept=".fasta,.fa,.txt">
+                </div>
+
+                <div class="control-group">
+                    <label for="sourceOrganism">Source Organism (where gene comes from)</label>
+                    <select id="sourceOrganism">
                         <option value="9606">Homo sapiens (9606)</option>
                         <option value="562">E. coli (562)</option>
                         <option value="4932">S. cerevisiae (4932)</option>
@@ -276,30 +573,94 @@
                 </div>
 
                 <div class="control-group">
-                    <label for="customTaxon">Or enter custom taxon ID</label>
-                    <input type="text" id="customTaxon" placeholder="e.g., 511145">
+                    <label for="targetOrganism">Expression Organism (where you'll express it)</label>
+                    <select id="targetOrganism">
+                        <option value="562">E. coli (562)</option>
+                        <option value="9606">Homo sapiens (9606)</option>
+                        <option value="4932">S. cerevisiae (4932)</option>
+                        <option value="7227">D. melanogaster (7227)</option>
+                        <option value="10090">M. musculus (10090)</option>
+                    </select>
                 </div>
 
-                <button id="visualizeBtn" disabled>Load Pyodide First</button>
-
-                <div id="status" class="status"></div>
-
-                <div class="info-box">
-                    <strong>How it works:</strong> Upload a PDB structure and sequence, select an organism to see codon rarity mapped onto the 3D protein structure. Rare codons (red) may indicate co-translational folding pauses.
+                <div class="button-group">
+                    <button id="optimiseBtn">Optimise for Expression</button>
+                    <button id="harmoniseBtn" class="harmonise">Harmonise Codon Rarity</button>
                 </div>
-            </div>
 
-            <div class="viewer-container">
-                <div id="viewer"></div>
+                <div id="optStatus" class="status"></div>
+
+                <div id="resultsContainer" style="display: none;">
+                    <h3 style="color: #3ba7ff; margin-bottom: 15px; margin-top: 30px;">Results</h3>
+                    
+                    <div class="control-group">
+                        <label>Optimised/Harmonised Sequence</label>
+                        <textarea id="outputSequence" readonly style="background: #0f0f1e; min-height: 150px;"></textarea>
+                    </div>
+
+                    <div class="button-group">
+                        <button id="copySequenceBtn" class="secondary">Copy Sequence</button>
+                        <button id="downloadFastaBtn" class="secondary">Download FASTA</button>
+                        <button id="downloadReportBtn" class="secondary">Download Report (TSV)</button>
+                    </div>
+
+                    <div id="statsDisplay"></div>
+
+                    <div class="control-group" style="margin-top: 20px;">
+                        <label>Codon Changes</label>
+                        <div class="codon-table-display" id="changesDisplay">
+                            <!-- Changes table will be inserted here -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="legend">
-            <h3>Codon Rarity Scale</h3>
-            <div class="gradient-bar"></div>
-            <div class="gradient-labels">
-                <span>Rare (slow translation)</span>
-                <span>Common (fast translation)</span>
+        <!-- Codon Tables Tab -->
+        <div id="codon-tables-tab" class="tab-content">
+            <div class="codon-table-container">
+                <h2 style="color: #3ba7ff; margin-bottom: 20px;">Codon Usage Tables</h2>
+                
+                <div class="control-group">
+                    <label for="tableOrganism">Select Organism</label>
+                    <select id="tableOrganism">
+                        <option value="">Select organism...</option>
+                        <option value="9606">Homo sapiens (9606)</option>
+                        <option value="562">E. coli (562)</option>
+                        <option value="4932">S. cerevisiae (4932)</option>
+                        <option value="7227">D. melanogaster (7227)</option>
+                        <option value="10090">M. musculus (10090)</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button id="viewTableBtn">View Table</button>
+                    <button id="downloadTableBtn" class="secondary">Download as TSV</button>
+                </div>
+
+                <div id="codonTableDisplay" class="codon-table-display" style="display: none;">
+                    <!-- Table will be inserted here -->
+                </div>
+
+                <div class="upload-custom-table">
+                    <h3 style="color: #3ba7ff; margin-bottom: 15px;">Upload Custom Codon Table</h3>
+                    <div class="info-box">
+                        <strong>Format:</strong> TSV file with columns: Codon, AminoAcid, Frequency (or Usage). The frequency should be between 0 and 1, representing the relative usage of each codon.
+                    </div>
+
+                    <div class="control-group">
+                        <label for="customTableFile">Upload TSV File</label>
+                        <input type="file" id="customTableFile" accept=".tsv,.txt">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="customTableName">Table Name/Organism ID</label>
+                        <input type="text" id="customTableName" placeholder="e.g., my_custom_organism">
+                    </div>
+
+                    <button id="uploadTableBtn">Upload Custom Table</button>
+                    <div id="tableStatus" class="status"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -307,127 +668,468 @@
     <script>
         let pyodide;
         let viewer;
+        let codonTables = {}; // Cache loaded tables here
+        let codonTablesFile = null; // Store the pickle file handle
+        let customCodonTables = {};
+        let lastOptimisationResult = null;
+        let codonUtilsLoaded = false;
         
-        // Initialize 3Dmol viewer
+        // Initialise 3Dmol viewer
         viewer = $3Dmol.createViewer(document.getElementById('viewer'), {
             backgroundColor: '#0f0f1e'
         });
 
-        // Status helper
+        // Tab switching
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                const tabName = tab.dataset.tab;
+                
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(`${tabName}-tab`).classList.add('active');
+            });
+        });
+
+        // Status helpers
         function showStatus(message, type = 'info') {
             const statusEl = document.getElementById('status');
             statusEl.textContent = message;
             statusEl.className = `status ${type}`;
         }
 
-        // Initialize Pyodide
+        function showTableStatus(message, type = 'info') {
+            const statusEl = document.getElementById('tableStatus');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+        }
+
+        function showOptStatus(message, type = 'info') {
+            const statusEl = document.getElementById('optStatus');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+        }
+
+        // Load codon_tables.pkl into Pyodide filesystem
+        async function setupCodonTables() {
+            try {
+                const response = await fetch('codon_tables.pkl');
+                const arrayBuffer = await response.arrayBuffer();
+                
+                // Write file to Pyodide's virtual filesystem
+                const uint8Array = new Uint8Array(arrayBuffer);
+                pyodide.FS.writeFile('/codon_tables.pkl', uint8Array);
+                
+                console.log('Codon tables file ready for lazy loading');
+                return true;
+            } catch (error) {
+                console.error('Error loading codon tables file:', error);
+                showStatus('Error loading codon tables file: ' + error.message, 'error');
+                return false;
+            }
+        }
+
+        // Lazy load a specific organism's codon table
+        async function loadOrganismTable(taxid) {
+            // Check if already cached
+            if (codonTables[taxid]) {
+                console.log(`Using cached table for organism ${taxid}`);
+                return codonTables[taxid];
+            }
+
+            try {
+                const result = await pyodide.runPythonAsync(`
+import pickle
+
+# Load only the requested organism
+with open('/codon_tables.pkl', 'rb') as f:
+    all_tables = pickle.load(f)
+    
+# Store in Python global namespace for reuse
+if 'loaded_codon_tables' not in globals():
+    loaded_codon_tables = {}
+    
+loaded_codon_tables["${taxid}"] = all_tables.get("${taxid}")
+loaded_codon_tables["${taxid}"]
+                `);
+                
+                if (!result) {
+                    throw new Error(`Organism ${taxid} not found in codon tables`);
+                }
+                
+                // Cache it in JavaScript too
+                codonTables[taxid] = result.toJs();
+                console.log(`Loaded codon table for organism ${taxid}`);
+                return codonTables[taxid];
+                
+            } catch (error) {
+                console.error(`Error loading organism ${taxid}:`, error);
+                throw error;
+            }
+        }
+
+        // Load multiple organisms at once
+        async function loadOrganismTables(taxids) {
+            const toLoad = taxids.filter(id => !codonTables[id]);
+            
+            if (toLoad.length === 0) {
+                console.log('All organism tables already cached');
+                return; // All already cached
+            }
+
+            try {
+                const result = await pyodide.runPythonAsync(`
+import pickle
+
+with open('/codon_tables.pkl', 'rb') as f:
+    all_tables = pickle.load(f)
+    
+# Store in Python global namespace
+if 'loaded_codon_tables' not in globals():
+    loaded_codon_tables = {}
+
+needed = ${JSON.stringify(toLoad)}
+for taxid in needed:
+    if taxid in all_tables:
+        loaded_codon_tables[taxid] = all_tables[taxid]
+
+{taxid: all_tables[taxid] for taxid in needed if taxid in all_tables}
+                `);
+                
+                const loadedTables = result.toJs();
+                Object.assign(codonTables, loadedTables);
+                console.log(`Loaded ${toLoad.length} organism tables`);
+                
+            } catch (error) {
+                console.error('Error loading organism tables:', error);
+                throw error;
+            }
+        }
+
+        // Load codon_utils.py
+        async function loadCodonUtils() {
+            try {
+                const response = await fetch('codon_utils.py');
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch codon_utils.py: ${response.status} ${response.statusText}`);
+                }
+                const codonUtilsCode = await response.text();
+                
+                // Write to Pyodide's filesystem and import it
+                pyodide.FS.writeFile('/codon_utils.py', codonUtilsCode);
+                
+                // Now import it in Python
+                await pyodide.runPythonAsync(`
+import sys
+if '/.' not in sys.path:
+    sys.path.insert(0, '/')
+import codon_utils
+                `);
+                
+                codonUtilsLoaded = true;
+                console.log('Loaded codon_utils.py');
+                return true;
+            } catch (error) {
+                console.error('Error loading codon_utils.py:', error);
+                showStatus('Error loading codon_utils.py: ' + error.message, 'error');
+                return false;
+            }
+        }
+
+        // Initialise Pyodide
         async function initPyodide() {
-            showStatus('Loading Pyodide (this may take a minute on first load)...', 'info');
+            const progressContainer = document.getElementById('loadingProgress');
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            
+            progressContainer.classList.add('active');
+            
+            function updateProgress(percent, message) {
+                progressFill.style.width = percent + '%';
+                progressText.textContent = message;
+            }
+            
+            showStatus('Loading Python environment (first load may take 1-2 minutes)...', 'info');
             
             try {
+                updateProgress(10, 'Loading Pyodide runtime...');
                 pyodide = await loadPyodide();
-                await pyodide.loadPackage(['numpy', 'biopython']);
                 
-                showStatus('Ready! Upload files to visualize.', 'success');
-                document.getElementById('visualizeBtn').disabled = false;
-                document.getElementById('visualizeBtn').textContent = 'Visualize Structure';
+                updateProgress(30, 'Loading BioPython and dependencies (this is the slow part)...');
+                
+                // Load BioPython with progress tracking
+                await pyodide.loadPackage(['biopython'], {
+                    messageCallback: (msg) => {
+                        console.log('Pyodide:', msg);
+                        if (msg.includes('Downloading')) {
+                            const match = msg.match(/(\d+)\/(\d+)/);
+                            if (match) {
+                                const current = parseInt(match[1]);
+                                const total = parseInt(match[2]);
+                                const percent = 30 + Math.floor((current / total) * 50);
+                                updateProgress(percent, `Loading package ${current}/${total}...`);
+                            }
+                        }
+                    }
+                });
+                
+                updateProgress(80, 'Loading codon utilities...');
+                
+                // Load codon_utils.py
+                const utilsLoaded = await loadCodonUtils();
+                if (!utilsLoaded) {
+                    progressContainer.classList.remove('active');
+                    showStatus('Failed to load codon utilities. Check console for details.', 'error');
+                    return;
+                }
+                
+                updateProgress(90, 'Preparing codon tables...');
+                
+                // Just load the file, don't parse yet (lazy loading)
+                const tablesLoaded = await setupCodonTables();
+                if (!tablesLoaded) {
+                    progressContainer.classList.remove('active');
+                    showStatus('Failed to load codon tables file. Check console for details.', 'error');
+                    return;
+                }
+                
+                updateProgress(100, 'Complete!');
+                
+                setTimeout(() => {
+                    progressContainer.classList.remove('active');
+                    showStatus('Ready! Upload files to visualise.', 'success');
+                }, 500);
+                
+                document.getElementById('visualiseBtn').disabled = false;
+                document.getElementById('visualiseBtn').textContent = 'Visualise Structure';
+                
             } catch (error) {
-                showStatus('Error loading Pyodide: ' + error.message, 'error');
+                progressContainer.classList.remove('active');
+                
+                // Make error very visible
+                let errorMsg = 'Error loading Pyodide: ' + error.message;
+                
+                if (error.message.includes('MemoryError') || error.message.includes('memory')) {
+                    errorMsg = 'OUT OF MEMORY! Close other browser tabs and refresh the page. This tool needs ~100MB RAM to run.';
+                }
+                
+                showStatus(errorMsg, 'error');
+                console.error('Full error:', error);
+                
+                // Show error in progress text too
+                progressText.textContent = 'Loading failed - see error below';
+                progressFill.style.background = '#ff4757';
             }
         }
 
-        // Mock codon rarity calculation (replace with your actual Python code)
-        async function calculateCodonRarity(sequence, organism) {
-            // This is a placeholder - you'd load your actual Python code here
-            const pythonCode = `
-import random
-
-def calculate_rarity(sequence, organism):
-    """Mock function - replace with your actual codon analysis"""
-    # Returns a list of rarity scores (0-1) for each residue
-    return [random.random() for _ in range(len(sequence))]
-
-calculate_rarity("${sequence}", "${organism}")
-            `;
-            
-            const result = await pyodide.runPythonAsync(pythonCode);
-            return result.toJs();
-        }
-
-        // Color mapping function
-        function getRarityColor(rarity) {
-            // rarity: 0 (rare) to 1 (common)
-            // red -> yellow -> green
-            if (rarity < 0.33) {
-                const t = rarity / 0.33;
-                return `rgb(${255}, ${Math.floor(165 * t)}, ${Math.floor(87 * t)})`;
-            } else if (rarity < 0.66) {
-                const t = (rarity - 0.33) / 0.33;
-                return `rgb(${Math.floor(255 - 19 * t)}, ${Math.floor(165 + 39 * t)}, ${Math.floor(87 + 17 * t)})`;
+        // Visualisation mode switching
+        document.getElementById('visualisationMode').addEventListener('change', (e) => {
+            const mode = e.target.value;
+            if (mode === 'differential') {
+                document.getElementById('singleOrgGroup').style.display = 'none';
+                document.getElementById('differentialOrgGroups').style.display = 'block';
+                document.getElementById('singleLegend').style.display = 'none';
+                document.getElementById('differentialLegend').style.display = 'block';
             } else {
-                const t = (rarity - 0.66) / 0.34;
-                return `rgb(${Math.floor(236 - 124 * t)}, ${Math.floor(204 + 33 * t)}, ${Math.floor(104 + 55 * t)})`;
+                document.getElementById('singleOrgGroup').style.display = 'block';
+                document.getElementById('differentialOrgGroups').style.display = 'none';
+                document.getElementById('singleLegend').style.display = 'block';
+                document.getElementById('differentialLegend').style.display = 'none';
+            }
+        });
+
+        // Colour mapping for single organism (only highlight rare codons)
+        function getRarityColour(rarity, threshold) {
+            if (rarity >= threshold) {
+                // Common codon - use default grey/white
+                return '#d0d0d0';
+            } else {
+                // Rare codon - gradient from red to orange
+                const t = rarity / threshold; // 0 (very rare) to 1 (at threshold)
+                const r = 255;
+                const g = Math.floor(71 + (165 - 71) * t); // 71 (red) to 165 (orange)
+                const b = Math.floor(87 * t); // 0 to 87
+                return `rgb(${r}, ${g}, ${b})`;
             }
         }
 
-        // Main visualization function
-        document.getElementById('visualizeBtn').addEventListener('click', async () => {
+        // Colour mapping for differential (rarity change between organisms)
+        function getDifferentialColour(rarityDiff) {
+            // rarityDiff: negative = becomes rarer, positive = becomes more common
+            // Scale: -1 to +1, centre at 0
+            const absDiff = Math.abs(rarityDiff);
+            
+            if (absDiff < 0.05) {
+                // No significant change - grey
+                return '#d0d0d0';
+            } else if (rarityDiff < 0) {
+                // Becomes rarer - red gradient
+                const intensity = Math.min(absDiff / 0.5, 1); // Cap at 0.5 difference
+                const r = 255;
+                const g = Math.floor(71 * (1 - intensity));
+                const b = Math.floor(87 * (1 - intensity));
+                return `rgb(${r}, ${g}, ${b})`;
+            } else {
+                // Becomes more common - blue gradient
+                const intensity = Math.min(absDiff / 0.5, 1);
+                const r = Math.floor(59 + (208 - 59) * (1 - intensity));
+                const g = Math.floor(167 + (208 - 167) * (1 - intensity));
+                const b = 255;
+                return `rgb(${r}, ${g}, ${b})`;
+            }
+        }
+
+        // Main visualisation function
+        document.getElementById('visualiseBtn').addEventListener('click', async () => {
             const pdbFile = document.getElementById('pdbFile').files[0];
             const fastaFile = document.getElementById('fastaFile').files[0];
-            const organism = document.getElementById('customTaxon').value || 
-                           document.getElementById('organism').value;
+            const mode = document.getElementById('visualisationMode').value;
+            const threshold = parseFloat(document.getElementById('rarityThreshold').value);
 
             if (!pdbFile) {
                 showStatus('Please upload a PDB file', 'error');
                 return;
             }
 
-            showStatus('Processing structure...', 'info');
+            if (!fastaFile) {
+                showStatus('Please upload a FASTA file with the nucleotide sequence', 'error');
+                return;
+            }
+
+            let organism, sourceOrganism, targetOrganism;
+            
+            if (mode === 'single') {
+                organism = document.getElementById('organism').value;
+                if (!organism) {
+                    showStatus('Please select an organism', 'error');
+                    return;
+                }
+            } else {
+                sourceOrganism = document.getElementById('sourceOrg').value;
+                targetOrganism = document.getElementById('targetOrg').value;
+                if (!sourceOrganism || !targetOrganism) {
+                    showStatus('Please select both source and target organisms', 'error');
+                    return;
+                }
+            }
+
+            showStatus('Loading organism data...', 'info');
 
             try {
-                // Read PDB file
-                const pdbText = await pdbFile.text();
-                
-                // Read sequence if provided
-                let sequence = '';
-                if (fastaFile) {
-                    const fastaText = await fastaFile.text();
-                    sequence = fastaText.split('\n')
-                        .filter(line => !line.startsWith('>'))
-                        .join('');
+                // Load required organism tables
+                if (mode === 'single') {
+                    await loadOrganismTable(organism);
                 } else {
-                    // Extract from PDB SEQRES if no FASTA provided
-                    const seqresLines = pdbText.split('\n')
-                        .filter(line => line.startsWith('SEQRES'));
-                    // Parse SEQRES (simplified)
-                    sequence = 'A'.repeat(100); // Placeholder
+                    await loadOrganismTables([sourceOrganism, targetOrganism]);
                 }
 
-                // Calculate rarity scores
-                showStatus('Calculating codon rarity...', 'info');
-                const rarityScores = await calculateCodonRarity(sequence, organism);
+                showStatus('Processing structure...', 'info');
+
+                const pdbText = await pdbFile.text();
+                const fastaText = await fastaFile.text();
+                
+                let rarityData;
+                
+                if (mode === 'single') {
+                    // Single organism rarity
+                    const result = await pyodide.runPythonAsync(`
+import codon_utils
+import json
+
+pdb_text = """${pdbText.replace(/"/g, '\\"')}"""
+fasta_text = """${fastaText.replace(/"/g, '\\"')}"""
+
+nucseq = codon_utils.parse_fasta(fasta_text)
+rarity_data = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${organism}"])
+
+# Convert to JSON to avoid Map objects
+json.dumps(rarity_data)
+                    `);
+                    rarityData = JSON.parse(result);
+                } else {
+                    // Differential rarity
+                    const result = await pyodide.runPythonAsync(`
+import codon_utils
+import json
+
+pdb_text = """${pdbText.replace(/"/g, '\\"')}"""
+fasta_text = """${fastaText.replace(/"/g, '\\"')}"""
+
+nucseq = codon_utils.parse_fasta(fasta_text)
+
+# Calculate rarity in both organisms
+source_rarity = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${sourceOrganism}"])
+target_rarity = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${targetOrganism}"])
+
+# Calculate difference
+diff_data = []
+for i in range(len(source_rarity)):
+    diff_data.append({
+        'position': source_rarity[i]['position'],
+        'codon': source_rarity[i]['codon'],
+        'aa': source_rarity[i]['aa'],
+        'source_rarity': source_rarity[i]['rarity'],
+        'target_rarity': target_rarity[i]['rarity'],
+        'rarity_diff': target_rarity[i]['rarity'] - source_rarity[i]['rarity']
+    })
+
+# Convert to JSON
+json.dumps(diff_data)
+                    `);
+                    rarityData = JSON.parse(result);
+                }
+
+                console.log('Rarity data sample:', rarityData.slice(0, 5));
+                console.log('Total residues:', rarityData.length);
+                console.log('Mode:', mode);
 
                 // Clear and reload viewer
                 viewer.clear();
                 viewer.addModel(pdbText, 'pdb');
                 
-                // Color by rarity
                 const model = viewer.getModel(0);
-                const atoms = model.selectedAtoms({});
                 
-                atoms.forEach(atom => {
-                    if (atom.resi && atom.resi <= rarityScores.length) {
-                        const rarity = rarityScores[atom.resi - 1];
-                        const color = getRarityColor(rarity);
-                        atom.color = color;
+                console.log('Model loaded');
+                
+                // Build color specifications for each residue
+                const colorSpecs = [];
+                rarityData.forEach((data) => {
+                    let colour;
+                    
+                    if (mode === 'single') {
+                        colour = getRarityColour(data.rarity, threshold);
+                    } else {
+                        colour = getDifferentialColour(data.rarity_diff);
+                        console.log(`Residue ${data.position}: rarity_diff=${data.rarity_diff}, color=${colour}`);
                     }
+                    
+                    colorSpecs.push({
+                        resi: data.position,
+                        color: colour
+                    });
+                });
+                
+                console.log('Color specs sample:', colorSpecs.slice(0, 10));
+                
+                // Apply colors using selection and setStyle
+                colorSpecs.forEach(spec => {
+                    viewer.setStyle({resi: spec.resi}, {cartoon: {color: spec.color}});
                 });
 
-                viewer.setStyle({}, {cartoon: {colorscheme: 'atom'}});
                 viewer.zoomTo();
                 viewer.render();
 
-                showStatus('Visualization complete!', 'success');
+                if (mode === 'single') {
+                    const rareCount = rarityData.filter(d => d.rarity < threshold).length;
+                    showStatus(`Visualisation complete! ${rareCount} rare codons highlighted (< ${threshold} frequency).`, 'success');
+                } else {
+                    const rarerCount = rarityData.filter(d => d.rarity_diff < -0.05).length;
+                    const commonerCount = rarityData.filter(d => d.rarity_diff > 0.05).length;
+                    showStatus(`Visualisation complete! ${rarerCount} codons become rarer, ${commonerCount} become more common.`, 'success');
+                }
 
             } catch (error) {
                 showStatus('Error: ' + error.message, 'error');
@@ -435,15 +1137,427 @@ calculate_rarity("${sequence}", "${organism}")
             }
         });
 
-        // Enable visualization when files are selected
-        document.getElementById('pdbFile').addEventListener('change', () => {
-            if (pyodide && document.getElementById('pdbFile').files[0]) {
-                document.getElementById('visualizeBtn').disabled = false;
+        // Enable visualisation when files are selected
+        document.getElementById('pdbFile').addEventListener('change', updateVisualiseButton);
+        document.getElementById('fastaFile').addEventListener('change', updateVisualiseButton);
+        
+        function updateVisualiseButton() {
+            if (codonUtilsLoaded && 
+                document.getElementById('pdbFile').files[0] && 
+                document.getElementById('fastaFile').files[0]) {
+                document.getElementById('visualiseBtn').disabled = false;
+            }
+        }
+
+        // Get sequence input (from textarea or file)
+        async function getSequenceInput() {
+            let sequence = document.getElementById('optSequenceInput').value.trim();
+            const file = document.getElementById('optFastaFile').files[0];
+            
+            if (file) {
+                const text = await file.text();
+                // Use codon_utils to parse FASTA
+                const result = await pyodide.runPythonAsync(`
+import codon_utils
+fasta_text = """${text.replace(/"/g, '\\"')}"""
+codon_utils.parse_fasta(fasta_text)
+                `);
+                sequence = result;
+            } else {
+                sequence = sequence.replace(/\s/g, '').toUpperCase();
+            }
+            
+            return sequence;
+        }
+
+        // Display results for optimisation/harmonisation
+        function displayResults(result, mode) {
+            document.getElementById('resultsContainer').style.display = 'block';
+            document.getElementById('outputSequence').value = result.sequence;
+            
+            // Display statistics
+            let statsHtml = '<h4>Statistics</h4><div class="stats-grid">';
+            
+            statsHtml += `<div><strong>Changes made:</strong> ${result.num_changes}</div>`;
+            statsHtml += `<div><strong>Sequence length:</strong> ${result.sequence_length} bp</div>`;
+            
+            if (mode === 'harmonise') {
+                const preservation = (result.avg_rarity_preservation * 100).toFixed(1);
+                statsHtml += `<div><strong>Rarity preservation:</strong> ${preservation}%</div>`;
+                statsHtml += `<div><strong>Protein length:</strong> ${result.protein_length} aa</div>`;
+            } else {
+                statsHtml += `<div><strong>Protein length:</strong> ${result.protein_length} aa</div>`;
+            }
+            
+            statsHtml += '</div>';
+            document.getElementById('statsDisplay').innerHTML = statsHtml;
+            
+            // Display changes table
+            if (result.changes && result.changes.length > 0) {
+                let tableHtml = '<table><thead><tr><th>Position</th><th>AA</th><th>Original</th><th>New</th>';
+                
+                if (mode === 'harmonise') {
+                    tableHtml += '<th>Orig Rarity</th><th>New Rarity</th><th>Diff</th>';
+                } else {
+                    tableHtml += '<th>Orig Freq</th><th>New Freq</th><th>Improvement</th>';
+                }
+                
+                tableHtml += '</tr></thead><tbody>';
+                
+                result.changes.forEach(change => {
+                    tableHtml += `<tr>
+                        <td>${change.position}</td>
+                        <td>${change.aa}</td>
+                        <td>${change.original}</td>
+                        <td>${change.new}</td>`;
+                    
+                    if (mode === 'harmonise') {
+                        tableHtml += `
+                            <td>${change.original_rarity}</td>
+                            <td>${change.new_rarity}</td>
+                            <td>${change.rarity_diff}</td>`;
+                    } else {
+                        tableHtml += `
+                            <td>${change.original_freq}</td>
+                            <td>${change.new_freq}</td>
+                            <td>${change.freq_improvement}</td>`;
+                    }
+                    
+                    tableHtml += '</tr>';
+                });
+                
+                tableHtml += '</tbody></table>';
+                document.getElementById('changesDisplay').innerHTML = tableHtml;
+            } else {
+                document.getElementById('changesDisplay').innerHTML = '<p>No changes needed - sequence already optimal!</p>';
+            }
+            
+            lastOptimisationResult = result;
+        }
+
+        // Optimise button
+        document.getElementById('optimiseBtn').addEventListener('click', async () => {
+            if (!codonUtilsLoaded) {
+                showOptStatus('Still loading Python environment...', 'error');
+                return;
+            }
+
+            const targetOrg = document.getElementById('targetOrganism').value;
+            
+            showOptStatus('Loading organism data...', 'info');
+
+            try {
+                // Load required organism table
+                await loadOrganismTable(targetOrg);
+
+                showOptStatus('Optimising sequence...', 'info');
+
+                const sequence = await getSequenceInput();
+                
+                if (!sequence) {
+                    showOptStatus('Please provide a sequence', 'error');
+                    return;
+                }
+
+                const result = await pyodide.runPythonAsync(`
+import codon_utils
+import json
+
+# Use triple quotes to handle multi-line sequences safely
+input_seq = """${sequence.replace(/"/g, '\\"')}"""
+result = codon_utils.optimize_sequence(input_seq, "${targetOrg}", loaded_codon_tables)
+json.dumps(result)
+                `);
+
+                const resultJs = JSON.parse(result);
+                displayResults(resultJs, 'optimise');
+                showOptStatus('Optimisation complete!', 'success');
+
+            } catch (error) {
+                showOptStatus('Error: ' + error.message, 'error');
+                console.error(error);
             }
         });
 
-        // Initialize on load
-        initPyodide();
+        // Harmonise button
+        document.getElementById('harmoniseBtn').addEventListener('click', async () => {
+            if (!codonUtilsLoaded) {
+                showOptStatus('Still loading Python environment...', 'error');
+                return;
+            }
+
+            const sourceOrg = document.getElementById('sourceOrganism').value;
+            const targetOrg = document.getElementById('targetOrganism').value;
+            
+            showOptStatus('Loading organism data...', 'info');
+
+            try {
+                // Load required organism tables
+                await loadOrganismTables([sourceOrg, targetOrg]);
+
+                showOptStatus('Harmonising sequence...', 'info');
+
+                const sequence = await getSequenceInput();
+                
+                if (!sequence) {
+                    showOptStatus('Please provide a sequence', 'error');
+                    return;
+                }
+
+                const result = await pyodide.runPythonAsync(`
+import codon_utils
+import json
+
+input_seq = """${sequence.replace(/"/g, '\\"')}"""
+result = codon_utils.harmonize_sequence(input_seq, "${sourceOrg}", "${targetOrg}", loaded_codon_tables)
+json.dumps(result)
+                `);
+
+                const resultJs = JSON.parse(result);
+                displayResults(resultJs, 'harmonise');
+                showOptStatus('Harmonisation complete!', 'success');
+
+            } catch (error) {
+                showOptStatus('Error: ' + error.message, 'error');
+                console.error(error);
+            }
+        });
+
+        // Copy sequence button
+        document.getElementById('copySequenceBtn').addEventListener('click', () => {
+            const seq = document.getElementById('outputSequence').value;
+            navigator.clipboard.writeText(seq).then(() => {
+                showOptStatus('Sequence copied to clipboard!', 'success');
+            });
+        });
+
+        // Download FASTA button
+        document.getElementById('downloadFastaBtn').addEventListener('click', () => {
+            const seq = document.getElementById('outputSequence').value;
+            const sourceOrg = document.getElementById('sourceOrganism').value;
+            const targetOrg = document.getElementById('targetOrganism').value;
+            
+            const fasta = `>Optimized_${sourceOrg}_to_${targetOrg}\n${seq}`;
+            
+            const blob = new Blob([fasta], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `optimized_${targetOrg}.fasta`;
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
+        // Download report button
+        document.getElementById('downloadReportBtn').addEventListener('click', () => {
+            if (!lastOptimisationResult || !lastOptimisationResult.changes) {
+                showOptStatus('No results to download', 'error');
+                return;
+            }
+
+            let tsv = 'Position\tAA\tOriginal\tNew\tOrigFreq\tNewFreq\tImprovement\n';
+            
+            lastOptimisationResult.changes.forEach(change => {
+                tsv += `${change.position}\t${change.aa}\t${change.original}\t${change.new}\t`;
+                
+                if (change.original_rarity !== undefined) {
+                    tsv += `${change.original_rarity}\t${change.new_rarity}\t${change.rarity_diff}\n`;
+                } else {
+                    tsv += `${change.original_freq}\t${change.new_freq}\t${change.freq_improvement}\n`;
+                }
+            });
+            
+            const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'optimization_report.tsv';
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
+        // View codon table button
+        document.getElementById('viewTableBtn').addEventListener('click', async () => {
+            const organism = document.getElementById('tableOrganism').value;
+            
+            if (!organism) {
+                showTableStatus('Please select an organism', 'error');
+                return;
+            }
+
+            try {
+                showTableStatus('Loading organism data...', 'info');
+                
+                // Load the organism table if not cached
+                await loadOrganismTable(organism);
+
+                console.log('Codon table for', organism, ':', codonTables[organism]);
+                
+                const table = codonTables[organism];
+                
+                if (!table || typeof table !== 'object') {
+                    showTableStatus('Error: table data is invalid', 'error');
+                    console.error('Invalid table:', table);
+                    return;
+                }
+                
+                let html = '<table><thead><tr><th>Codon</th><th>AA</th><th>Frequency</th></tr></thead><tbody>';
+                
+                // Handle both Map and plain object
+                const entries = table instanceof Map ? Array.from(table.entries()) : Object.entries(table);
+                
+                for (const [aa, codons] of entries.sort()) {
+                    if (!codons || typeof codons !== 'object') continue;
+                    
+                    const codonEntries = codons instanceof Map ? Array.from(codons.entries()) : Object.entries(codons);
+                    
+                    for (const [codon, freq] of codonEntries.sort()) {
+                        html += `<tr><td>${codon}</td><td>${aa}</td><td>${Number(freq).toFixed(4)}</td></tr>`;
+                    }
+                }
+                
+                html += '</tbody></table>';
+                
+                document.getElementById('codonTableDisplay').innerHTML = html;
+                document.getElementById('codonTableDisplay').style.display = 'block';
+                showTableStatus('Table loaded!', 'success');
+            } catch (error) {
+                showTableStatus('Error loading table: ' + error.message, 'error');
+                console.error(error);
+            }
+        });
+
+        // Download codon table button
+        document.getElementById('downloadTableBtn').addEventListener('click', async () => {
+            const organism = document.getElementById('tableOrganism').value;
+            
+            if (!organism) {
+                showTableStatus('Please select an organism', 'error');
+                return;
+            }
+
+            try {
+                showTableStatus('Loading organism data...', 'info');
+                
+                // Load the organism table if not cached
+                await loadOrganismTable(organism);
+
+                const result = await pyodide.runPythonAsync(`
+import codon_utils
+import pickle
+
+# Load just this organism
+with open('/codon_tables.pkl', 'rb') as f:
+    all_tables = pickle.load(f)
+
+tsv = codon_utils.format_codon_table_tsv(all_tables["${organism}"], "${organism}")
+tsv
+                `);
+
+                const tsv = result;
+                const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `codon_table_${organism}.tsv`;
+                a.click();
+                URL.revokeObjectURL(url);
+                
+                showTableStatus('Table downloaded!', 'success');
+
+            } catch (error) {
+                showTableStatus('Error: ' + error.message, 'error');
+                console.error(error);
+            }
+        });
+
+// Upload custom table button
+         document.getElementById('uploadTableBtn').addEventListener('click', async () => {
+             const file = document.getElementById('customTableFile').files[0];
+             const name = document.getElementById('customTableName').value.trim();
+
+             if (!file || !name) {
+                 showTableStatus('Please select a file and provide a name', 'error');
+                 return;
+             }
+
+             try {
+                 const text = await file.text();
+
+                 const result = await pyodide.runPythonAsync(`
+import codon_utils
+import json
+tsv_text = """${text.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"""
+table = codon_utils.parse_custom_codon_table(tsv_text)
+loaded_codon_tables["${name}"] = table
+json.dumps(table)
+                 `);
+
+                 const tableJs = JSON.parse(result); 
+                 codonTables[name] = tableJs;
+                 customCodonTables[name] = tableJs;
+
+                 const dropdowns = ['organism', 'sourceOrg', 'targetOrg', 'sourceOrganism', 'targetOrganism', 'tableOrganism'];
+                 const optionHtml = `<option value="${name}">${name} (custom)</option>`;
+                 
+                 dropdowns.forEach(id => {
+                     const el = document.getElementById(id);
+                     if (el) el.insertAdjacentHTML('beforeend', optionHtml);
+                 });
+
+                 showTableStatus(`Custom table "${name}" uploaded successfully!`, 'success');
+
+             } catch (error) {
+                 showTableStatus('Error parsing table: ' + error.message, 'error');
+                 console.error(error);
+             }
+         });
+
+
+// --- Logic for arbitrary TaxID entry ---
+document.getElementById('addTaxIdBtn').addEventListener('click', async () => {
+    const taxId = document.getElementById('manualTaxId').value.trim();
+    const status = document.getElementById('manualStatus');
+    
+    if (!taxId) return;
+
+    status.textContent = "Searching file...";
+    status.style.color = "#8b949e";
+
+    try {
+        // This uses your existing function to pull data from the .pkl in Python
+        await loadOrganismTable(taxId);
+
+        // Update every organism dropdown in the UI
+        const dropdownIds = ['organism', 'sourceOrg', 'targetOrg', 'sourceOrganism', 'targetOrganism', 'tableOrganism'];
+        
+        dropdownIds.forEach(id => {
+            const selectEl = document.getElementById(id);
+            if (!selectEl) return;
+
+            // Don't add if it already exists
+            const exists = Array.from(selectEl.options).some(opt => opt.value === taxId);
+            if (!exists) {
+                const option = document.createElement('option');
+                option.value = taxId;
+                option.textContent = `TaxID: ${taxId}`;
+                selectEl.appendChild(option);
+            }
+        });
+
+        status.textContent = `TaxID ${taxId} loaded successfully!`;
+        status.style.color = "#3fb950";
+        document.getElementById('manualTaxId').value = ''; // Clear input
+
+    } catch (error) {
+        status.textContent = `TaxID ${taxId} not found in the data file.`;
+        status.style.color = "#f85149";
+        console.error(error);
+    }
+});
+
+        // Start loading Pyodide on page load
+        window.addEventListener('load', initPyodide);
     </script>
 </body>
 </html>

@@ -1,532 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-14T08:49:33+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Keiran Rowell</title><subtitle>Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry. Obsessive explorations into the oddities of chemistry, music, history, and scientific computing... on occasion.
-</subtitle><author><name>Keiran Rowell</name><email>keiran.rowell@gmail.com</email></author><entry><title type="html">Hartree–Fock in Rust, Julia, and Python</title><link href="http://localhost:4000/code/2026-12-12-HF-in-rust-julia-python/" rel="alternate" type="text/html" title="Hartree–Fock in Rust, Julia, and Python" /><published>2026-12-12T00:00:00+11:00</published><updated>2026-12-12T00:00:00+11:00</updated><id>http://localhost:4000/code/HF-in-rust-julia-python</id><content type="html" xml:base="http://localhost:4000/code/2026-12-12-HF-in-rust-julia-python/"><![CDATA[<blockquote>
-  <p>🧪 <strong>Try it yourself</strong>: <a href="/interactive/2026-12-12-HF-interactive/">Interactive demos available→</a></p>
-
-  <p>Run the H<sub>2</sub> Hartree-Fock calculations from this post directly in your browser.</p>
-</blockquote>
-
-<hr />
-
-<p><a href="https://youtu.be/tas0O586t80?si=H2HnFcVoS4tNqKB0">Program in C</a> they said. It’s good for you they said. <a href="https://youtu.be/hE7l6Adoiiw?si=Ourgha7DTfRy_Cer">And it is!</a>
-That is until you step outside the bounds of an array. Or dereference the wrong pointer to an array of pointers. Or, heaven forbid in this chatty age, want to do text processing.
-C is <em>fast</em>, it allocates memory like machine code. But it’s not the only game in town, and <a href="https://www.i-programmer.info/news/98-languages/15506-rust-fast-and-safe.html">not always the fastest</a>. 
-C++ gives you a lot of powerful language features. But I don’t write in it, I never took enterprise software engineering and I like to keep digital shotguns well away from my feet.</p>
-
-<blockquote>
-  <p>“C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off”.</p>
-</blockquote>
-
-<p>— <a href="https://www.stroustrup.com/quotes.html">Bjarne Stroustrup</a>, developer of the C++ programming language</p>
-
-<p>So let’s reimplement the fundamental orbital energy optimiser, the basis for all <a href="/guide/2023-04-12-compchem-methods-basics/">electronic structure theory methods</a>: Hartree–Fock.  <span style="color:#A9A9A9">(With deep debt to <a href="https://quaccs.wordpress.com/">QUACCS</a>)</span></p>
-
-<p>In with the new <span style="color:#A9A9A9">(apologies Formula Translation maintainence work)</span>; so for pedagogical/andragogical reasons, and to learn a couple of new languages, let’s write the same algo in three languages:</p>
-
-<ul>
-  <li>🐍 <code class="language-plaintext highlighter-rouge">Python</code>: It’s Python! It’s everywhere. It’s <em>readable</em>. It’s not so bad as you would think because core Numerical Python is implemented in highly optimised C anyway.</li>
-  <li>🔴🟢🟣 <code class="language-plaintext highlighter-rouge">Julia</code>: “<a href="https://discourse.julialang.org/t/elevator-pitch/29457/8"><em>as flexible as Python, as numerical as Matlab, as fast as Fortran, and as deep as Lisp.</em></a>”. Designed <em>for</em> scientific computing. Well, what’s not to like? It’s REPL prompt is super nice, it’s package manager doesn’t make me prematurely age like Python does in my day job. And Just-In-Time compilation is <em>incredibly smart</em>. <span style="color:#A9A9A9">(I secretly think this is why observables are indeterminate until measured, but today we’re strictly <a href="https://hsm.stackexchange.com/questions/3615/who-was-the-first-to-say-shut-up-and-calculate">“Shut up and calculate”</a>)</span></li>
-  <li>🦀 <code class="language-plaintext highlighter-rouge">Rust</code>: It’s all the rage, faster than C, and very nicely gives you a talking to when it can see mistakes in the future. However, it’s designed for deep systems programming. Quite likely overkill, but might give performance advantages and can be hosted on a site with WebAssembly.</li>
-</ul>
-
-<p>With <a href="https://rust-lang.org/what/wasm/">WebAssembly</a> and <a href="https://plutojl.org/">Pluto notebooks</a> we can do quantum chemistry in our browser. Let’s goooo—</p>
-
-<hr />
-
-<p>The Hartree–Fock algorithm is the computational kernel for more accurate <a href="/guide/2023-04-12-compchem-methods-basics/">electronic structure wavefunction methods</a>, where electron behaviour is improved by addition of either ‘dynamic’ electron correlation (mutual repulsion during motion) and ‘static’ correlation (fun stuff where a single arrangement of reference electron orbitals are insufficient). First we need to get a reasonable set of combined atomic orbitals for the resting state of a molecule. I’m using “pre-baked” basis-sets as really I want to focus on the algorithm (Roothaan–Hall eigenvalue finding) and coding it up.</p>
-
-<p>So, we’re starting with a set of atomic orbitals (\(\chi_{n}\)) (here, the minimal viable ones, the basis-set). We combine them to get some set of molecular orbitals (\(\phi_{i} = \sum\limits_{n}C_{ni}\chi_{n}\)) (MOs).</p>
-
-<p>If we take these electrons and capture their properties as spin–\(\frac{1}{2}\) particles—kinetic energy, attraction to nuclei, electron–electron repulsions, change of sign upon indistinguishable particle exchange (Fermi stats)— we get the Fock operator \(\hat{F}\) to work with. Really, the Fock operator is related to the overlap of orbital basis set vectors (\({S}\)), and we can use an algorithm to optimise the co-efficients (\({C}\)) of these orbitals to lower the orbital energies (\(\epsilon\))</p>
-
-<p>So we have the Roothan–Hall matrix optimisation problem of finding the co-efficients that lowers the molecular orbital energies, which is guaranteed to be the closest to ground-state reality for HF (the Variational Principle).</p>
-
-\[\mathbf{FC} =  \mathbf{SC}\epsilon\]
-
-<p>Right, enough notation. Let’s set up an engine that finds the energy eigenvalues (\(\epsilon\)) given some input orbitals, and then uses and optimisation algorithm to feed the output co-efficients back in to iteratively refind until converge. Yielding a set of one-electron orbitals solved in “self-consistent field” with respect to the other electrons. Time to code.</p>
-
-<blockquote>
-  <p>Code snippets will be as quotes. Blocks will be syntax highlighted. Some things will be interactive through web magic. Those are in a later <a href="">post</a></p>
-</blockquote>
-
-<p>We’re going to do a toy version of restricted Hartree–Fock for understanding purposes.</p>
-
-<p>Basically saying <code class="language-plaintext highlighter-rouge">Hello World!</code> to H<sub>2</sub>.</p>
-
-<hr />
-
-<h1 id="basis-sets">Basis Sets</h1>
-
-<hr />
-<h2 id="python-">Python 🐍</h2>
-
-<p>Using <a href="https://github.com/bennybp">@bennyp</a> and <a href="https://github.com/susilehtola">@susilehtola</a>’s <a href="https://molssi-bse.github.io/basis_set_exchange/usage.html#"><code class="language-plaintext highlighter-rouge">basis_set_exchange</code></a> library provied for MolSSI (the Molecular Sciences Software Institute).</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="n">basis_set_exchange</span>
-
-<span class="kn">import</span> <span class="nn">basis_set_exchange</span>
-<span class="n">sto3g_orca_fmt</span> <span class="o">=</span>  <span class="n">basis_set_exchange</span><span class="p">.</span><span class="n">get_basis</span><span class="p">(</span><span class="s">'STO-3G'</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s">'ORCA'</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">sto3g_orca_fmt</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$DATA
-
-HYDROGEN
-S   3
-1         0.3425250914E+01       0.1543289673E+00
-2         0.6239137298E+00       0.5353281423E+00
-3         0.1688554040E+00       0.4446345422E+00
-</code></pre></div></div>
-<p>Looking good!</p>
-
-<hr />
-
-<h2 id="julia-">Julia 🔴🟢🟣</h2>
-
-<p>Using <a href="https://github.com/Leticia-maria">@Leticia-maria</a>’s <a href="https://github.com/HartreeFoca/BasisSets.jl">BasisSets.jl</a> Basis Set Exchange parser.</p>
-
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">using</span> <span class="n">Pkg</span>
-<span class="n">Pkg</span><span class="o">.</span><span class="n">add</span><span class="x">(</span><span class="s">"BasisSets"</span><span class="x">)</span>
-<span class="k">using</span> <span class="n">BasisSets</span>
-</code></pre></div></div>
-
-<p>Create a <code class="language-plaintext highlighter-rouge">H2.xyz</code> with 0.74 Å / 1.4 Bohr seperation on the Z-axis.</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
-
-H 0.000000 0.000000 0.000000
-H 0.000000 0.000000 1.400000
-</code></pre></div></div>
-
-<p>Check a minimal H<sub>2</sub> minimal basis set.</p>
-
-<p><span style="color:#A9A9A9">The README omits the intermediate molecule() function you can find by running names(BasisSets)</span></p>
-
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h2_mol</span> <span class="o">=</span> <span class="n">molecule</span><span class="x">(</span><span class="s">"./H2.xyz"</span><span class="x">)</span>
-<span class="n">h2_sto3g</span> <span class="o">=</span> <span class="n">parsebasis</span><span class="x">(</span><span class="n">h2_mol</span><span class="x">,</span> <span class="s">"STO-3g"</span><span class="x">)</span>
-</code></pre></div></div>
-
-<p>Inspect with <code class="language-plaintext highlighter-rouge">dump(h2_sto3g)</code></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Array{BasisSets.GaussianBasisSet}((2,))
-  1: BasisSets.GaussianBasisSet
-    R: Array{Float64}((1, 3)) [0.0 0.0 0.0]
-    α: Array{Float64}((1, 3)) [3.42525091 0.62391373 0.1688554]
-    d: Array{Float64}((1, 3)) [0.15432897 0.53532814 0.44463454]
-    N: Array{Float64}((1, 3)) [1.794441832218435 0.5003264923314032 0.18773545851092535]
-    size: Int64 3
-    ℓ: Int64 0
-    m: Int64 0
-    n: Int64 0
-  2: BasisSets.GaussianBasisSet
-    R: Array{Float64}((1, 3)) [0.0 0.0 1.4]
-    α: Array{Float64}((1, 3)) [3.42525091 0.62391373 0.1688554]
-    d: Array{Float64}((1, 3)) [0.15432897 0.53532814 0.44463454]
-    N: Array{Float64}((1, 3)) [1.794441832218435 0.5003264923314032 0.18773545851092535]
-    size: Int64 3
-    ℓ: Int64 0
-    m: Int64 0
-    n: Int64 0
-</code></pre></div></div>
-<p>With symbols, neat!</p>
-
-<hr />
-
-<h2 id="rust-">Rust 🦀</h2>
-
-<p>Right, I wore my trousers rolled and scuttled through the conceptual waves of <a href="https://rustlings.rust-lang.org/">Rustlings</a>. Time to put skimming into practice and build something with the borrow checker reminding me of any memory allocation or variable error.</p>
-
-<p>Yoinking <a href="https://github.com/iggedi-ig-ig">@iggedi-ig-ig</a>’s <a href="https://github.com/iggedi-ig-ig/fock-rs/tree/master/basis_set">basis set parser</a> since I want to leverage the <a href="https://www.basissetexchange.org/">Basis Set Exchange</a>.</p>
-
-<p>Start project with <code class="language-plaintext highlighter-rouge">cargo new h2_hf_rust</code></p>
-
-<p>Download the <code class="language-plaintext highlighter-rouge">STO-3G</code> basis set file and save it within the project.</p>
-
-<p><code class="language-plaintext highlighter-rouge">wget -O sto-3g-h.json "https://www.basissetexchange.org/api/basis/sto-3g/format/json/?version=1&amp;elements=1"</code></p>
-
-<p>Add the basis set package to the <code class="language-plaintext highlighter-rouge">Cargo.toml</code> dependency listing, and the json parsing library</p>
-<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[dependencies]</span>
-<span class="nn">basis_set</span> <span class="o">=</span> <span class="p">{</span> <span class="py">git</span> <span class="p">=</span> <span class="s">"https://github.com/iggedi-ig-ig/fock-rs"</span><span class="p">,</span> <span class="py">package</span> <span class="p">=</span> <span class="s">"basis_set"</span> <span class="p">}</span>
-<span class="py">serde_json</span> <span class="p">=</span> <span class="s">"1.0"</span>
-</code></pre></div></div>
-
-<p>Test out BasisSet library function in <code class="language-plaintext highlighter-rouge">src/main.rs</code></p>
-<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">use</span> <span class="nn">basis_set</span><span class="p">::</span><span class="n">BasisSet</span><span class="p">;</span>
-<span class="k">use</span> <span class="nn">std</span><span class="p">::</span><span class="n">fs</span><span class="p">;</span>
-
-<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">let</span> <span class="n">json</span> <span class="o">=</span> <span class="nn">fs</span><span class="p">::</span><span class="nf">read_to_string</span><span class="p">(</span><span class="s">"sto-3g-h.json"</span><span class="p">)</span><span class="nf">.unwrap</span><span class="p">();</span>
-    <span class="k">let</span> <span class="n">basis</span><span class="p">:</span> <span class="n">BasisSet</span> <span class="o">=</span> <span class="nn">serde_json</span><span class="p">::</span><span class="nf">from_str</span><span class="p">(</span><span class="o">&amp;</span><span class="n">json</span><span class="p">)</span><span class="nf">.unwrap</span><span class="p">();</span>
-
-    <span class="nd">println!</span><span class="p">(</span><span class="s">"Loaded basis set: {} ({})"</span><span class="p">,</span> <span class="n">basis</span><span class="py">.name</span><span class="p">,</span> <span class="n">basis</span><span class="py">.description</span><span class="p">);</span>
-    <span class="nd">println!</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Full details:</span><span class="se">\n</span><span class="s">{:#?}"</span><span class="p">,</span> <span class="n">basis</span><span class="p">);</span>
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<p>And now run the project with <code class="language-plaintext highlighter-rouge">cargo run</code></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Full basis set details:
-BasisSet {
-...
-                    exponents: [
-                        "0.3425250914E+01",
-                        "0.6239137298E+00",
-                        "0.1688554040E+00",
-                    ],
-                    coefficients: [
-                        [
-                            "0.1543289673E+00",
-                            "0.5353281423E+00",
-                            "0.4446345422E+00",
-...
-    family: SlaterType,
-    description: "STO-3G Minimal Basis (3 functions/AO)",
-    role: "orbital",
-    name: "STO-3G",
-}
-</code></pre></div></div>
-<p>We have hydrogen’s STO-3G basis!</p>
-
-<hr />
-
-<h1 id="hartreefock">Hartree–Fock</h1>
-
-<hr />
-
-<h2 id="the-overlap-integral-s">The overlap integral (S)</h2>
-
-<p>So the core of part the algorithm is computing the <strong>overlap matrix</strong> \(\mathbf{S}\) between two basis functions in space.</p>
-
-\[S_{ij} = \langle \chi_i | \chi_j \rangle = \int \chi_i^*(\mathbf{r}) \chi_j(\mathbf{r}) \, d\mathbf{r}\]
-
-<p>We’ll write a function that computes the overlap of two basis functions, working on the primitives with their exponents (α, β).</p>
-
-<p>🐍
-<code class="language-plaintext highlighter-rouge">def compute_S_primitive(alpha, beta, R_A, R_B)</code></p>
-
-<p>🔴🟢🟣
-<code class="language-plaintext highlighter-rouge">function compute_S_primitive(α::Float64, β::Float64, R_A::Vector{Float64}, R_B::Vector{Float64})</code></p>
-
-<p>🦀
-<code class="language-plaintext highlighter-rouge">let S = overlap_integral(&amp;basis1, &amp;basis2);</code></p>
-
-<p>We have two hydrogen atoms with a minimal basis, so we should get a 2x2 matrix to inspect.</p>
-
-\[\mathbf{S} = \begin{bmatrix}
-\langle \chi_1 | \chi_1 \rangle &amp; \langle \chi_1 | \chi_2 \rangle \\
-\langle \chi_2 | \chi_1 \rangle &amp; \langle \chi_2 | \chi_2 \rangle
-\end{bmatrix}\]
-
-<p>A basis function completely overlaps with itself, so we get one on the diagonals, and the overlap values (\(S_{ij}\)) on the off-diagonals depend on your basis set and molecular geometry.</p>
-
-\[\mathbf{S} = \begin{bmatrix}
-1 &amp; S_{12} \\
-S_{21} &amp; 1
-\end{bmatrix}\]
-
-<p>The self-consistent field cycles will optimise the co-efficients for how your orbitals combine within this overlap.</p>
-
-<p>With two s-orbital Gaussian <em>primitives</em> the overlap integral is:</p>
-
-\[S = \left(\frac{\pi}{\alpha + \beta}\right)^{3/2} \exp\left(-\frac{\alpha\beta}{\alpha+\beta}|\mathbf{R}_A - \mathbf{R}_B|^2\right)\]
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">S_prim</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span> <span class="o">/</span> <span class="p">(</span><span class="n">alpha</span> <span class="o">+</span> <span class="n">beta</span><span class="p">))</span><span class="o">**</span><span class="p">(</span><span class="mi">3</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">alpha</span> <span class="o">*</span> <span class="n">beta</span> <span class="o">/</span> <span class="p">(</span><span class="n">alpha</span> <span class="o">+</span> <span class="n">beta</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="nb">sum</span><span class="p">((</span><span class="n">R_A</span> <span class="o">-</span> <span class="n">R_B</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
-</code></pre></div></div>
-<p>🔴🟢🟣 <span style="color:#A9A9A9">(the <code class="language-plaintext highlighter-rouge">.</code> operator means apply to each <em>element</em> in an array independently)</span></p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">S_prim</span> <span class="o">=</span> <span class="x">(</span><span class="nb">π</span> <span class="o">/</span> <span class="x">(</span><span class="n">α</span> <span class="o">+</span> <span class="n">β</span><span class="x">))</span><span class="o">^</span><span class="x">(</span><span class="mi">3</span><span class="o">/</span><span class="mi">2</span><span class="x">)</span> <span class="o">*</span> <span class="n">exp</span><span class="x">(</span><span class="o">-</span><span class="x">(</span><span class="n">α</span> <span class="o">*</span> <span class="n">β</span> <span class="o">/</span> <span class="x">(</span><span class="n">α</span> <span class="o">+</span> <span class="n">β</span><span class="x">))</span> <span class="o">*</span> <span class="n">sum</span><span class="x">((</span><span class="n">R_A</span> <span class="o">.-</span> <span class="n">R_B</span><span class="x">)</span><span class="o">.^</span><span class="mi">2</span><span class="x">))</span>
-</code></pre></div></div>
-<p>🦀</p>
-<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="n">dist_sq</span><span class="p">:</span> <span class="nb">f64</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="o">..</span><span class="mi">3</span><span class="p">)</span> <span class="c1">//summing over X,Y,Z indices</span>
-    <span class="nf">.map</span><span class="p">(|</span><span class="n">i</span><span class="p">|</span> <span class="p">(</span><span class="n">r_a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">r_b</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="nf">.powi</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
-    <span class="nf">.sum</span><span class="p">();</span>
-<span class="k">let</span> <span class="n">S_prim</span> <span class="o">=</span> <span class="p">(</span><span class="nn">std</span><span class="p">::</span><span class="nn">f64</span><span class="p">::</span><span class="nn">consts</span><span class="p">::</span><span class="n">PI</span> <span class="o">/</span> <span class="p">(</span><span class="n">alpha</span> <span class="o">+</span> <span class="n">beta</span><span class="p">))</span><span class="nf">.powf</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span> 
-    <span class="o">*</span> <span class="p">(</span><span class="o">-</span><span class="n">alpha</span> <span class="o">*</span> <span class="n">beta</span> <span class="o">/</span> <span class="p">(</span><span class="n">alpha</span> <span class="o">+</span> <span class="n">beta</span><span class="p">)</span> <span class="o">*</span> <span class="n">dist_sq</span><span class="p">)</span><span class="nf">.exp</span><span class="p">();</span>
-</code></pre></div></div>
-
-<p>The actual <code class="language-plaintext highlighter-rouge">overlap_integral</code> function when working with a real contracted basis set will involved summing the primitives in the basis set, weighted by contraction co-efficients and normalised.</p>
-
-<hr />
-
-<h2 id="operator-matrices-setup">Operator matrices setup</h2>
-
-<h3 id="denisty-matrix-d">Denisty matrix (D)</h3>
-<p>To kickstart our engine we need an intial electron density matrix (\(\mathbf{D}\)). For a toy system it’s actually okay to start with zero density everywhere (or the identity matrix).</p>
-
-<p>Though for any real molecular system choice of a good guess is important for convergence. For difficult to converge cases, feeding in the results of a simpler model chemistry will help start need a convergent minimum.</p>
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n_basis</span><span class="p">,</span> <span class="n">n_basis</span><span class="p">))</span>
-</code></pre></div></div>
-<p>🔴🟢🟣</p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">D</span> <span class="o">=</span> <span class="n">zeros</span><span class="x">(</span><span class="n">n_basis</span><span class="x">,</span> <span class="n">n_basis</span><span class="x">)</span>
-</code></pre></div></div>
-<p>🦀</p>
-<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">TODO</span><span class="p">:</span> <span class="n">UPDATE</span>
-<span class="k">let</span> <span class="k">mut</span> <span class="n">d</span> <span class="o">=</span> <span class="nn">Array2</span><span class="p">::</span><span class="o">&lt;</span><span class="nb">f64</span><span class="o">&gt;</span><span class="p">::</span><span class="nf">zeros</span><span class="p">((</span><span class="n">n_basis</span><span class="p">,</span> <span class="n">n_basis</span><span class="p">));</span>
-</code></pre></div></div>
-
-<h3 id="fock-operator-f">Fock operator (F)</h3>
-
-<p>For teaching purposes we’re going to skip the electron-electron repulsion integrals (ERIs) that are the bulk of the computational cost and code complexity.
-In this way our <em>toy</em> Fock matrix (\(\mathbf{F}\)) is just the core Hamiltonian (\(\mathbf{F}\)— the total energy of forces acting on our one-electron core). This is really just our electrons’ kinetic energies (\(\mathbf{T}\)) and their attractive potential energy to the nuceli (\(\mathbf{V}^{\text{nuc}}\))</p>
-
-\[\mathbf{F} = \mathbf{H}^{\text{core}} = \mathbf{T} + \mathbf{V}^{\text{nuc}}\]
-
-<h3 id="kinetic-energy-operator-t">Kinetic energy operator (T)</h3>
-
-<p>The electron kinetic energy is the momentum taken in all directions (\(\nabla\)):
-\(\hat{T} = -\frac{1}{2}\nabla^2\)</p>
-
-<p>When evaluating between two basis functions:
-\(T_{\mu\nu} = \left\langle \chi_\mu \left| -\frac{1}{2}\nabla^2 \right| \chi_\nu \right\rangle\)</p>
-
-<p>Taking the result from Szabo &amp; Ostlund <em>“Modern Quantum Chemistry”</em> Appendix A as I’m not a physicist. Note the relationship to \(S\):</p>
-
-\[T = \alpha\beta\left[\frac{3}{\alpha+\beta} - \frac{2(\alpha\beta)}{(\alpha+\beta)^2}|\mathbf{R}_A - \mathbf{R}_B|^2\right] S\]
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">reduced_exp</span> <span class="o">=</span> <span class="n">alpha</span> <span class="o">*</span> <span class="n">beta</span> <span class="o">/</span> <span class="p">(</span><span class="n">alpha</span> <span class="o">+</span> <span class="n">beta</span><span class="p">)</span>
-<span class="n">T_prim</span> <span class="o">=</span> <span class="n">reduced_exp</span> <span class="o">*</span> <span class="p">(</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">reduced_exp</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="nb">sum</span><span class="p">((</span><span class="n">R_A</span> <span class="o">-</span> <span class="n">R_B</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span> <span class="o">*</span> <span class="n">S_prim</span>
-</code></pre></div></div>
-<p>🔴🟢🟣</p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">reduced_exp</span> <span class="o">=</span> <span class="n">α</span> <span class="o">*</span> <span class="n">β</span> <span class="o">/</span> <span class="x">(</span><span class="n">α</span> <span class="o">+</span> <span class="n">β</span><span class="x">)</span>
-<span class="n">T_prim</span> <span class="o">=</span> <span class="n">reduced_exp</span> <span class="o">*</span> <span class="x">(</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">reduced_exp</span> <span class="o">*</span> <span class="n">sum</span><span class="x">((</span><span class="n">R_A</span> <span class="o">.-</span> <span class="n">R_B</span><span class="x">)</span><span class="o">.^</span><span class="mi">2</span><span class="x">))</span> <span class="o">*</span> <span class="n">S_prim</span>
-</code></pre></div></div>
-<p>🦀</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let reduced_exp = alpha * beta / (alpha + beta);
-let T_prim = reduced_exp * (3.0 - 2.0 * reduced_exp * dist_sq) * S_prim;
-</code></pre></div></div>
-
-<h3 id="nuclear-attraction-potential-v">Nuclear attraction potential (V)</h3>
-<p>We invoke the Born-Oppenheimer approximation that electron motion occurs on much faster timescale than nuclear re-arrangement (can also think of this in terms of different decoupled energy scales). So the nuclei are effectively <em>fixed</em> in place.</p>
-
-\[\hat{V}^{\text{nuc}}_A = -\frac{Z_A}{|\mathbf{r} - \mathbf{R}_A|}\]
-
-\[V^{\text{nuc}}_{\mu\nu} = -\left\langle \chi_\mu \left| \frac{1}{|\mathbf{r} - \mathbf{R}_1|} \right| \chi_\nu \right\rangle - \left\langle \chi_\mu \left| \frac{1}{|\mathbf{r} - \mathbf{R}_2|} \right| \chi_\nu \right\rangle\]
-
-<p>The nuclear attraction integrals involve special functions that are beyond our scope here. They’re implement in <code class="language-plaintext highlighter-rouge">integrals.[py/jl/rs]</code> since 1/R wasn’t showing good behaviour even for a toy system. I’m just going to mention the function header for this guide, those curious can refer to the code generated from a reference.</p>
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">compute_V_nuc_primitive</span><span class="p">(</span><span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">,</span> <span class="n">R_A</span><span class="p">,</span> <span class="n">R_B</span><span class="p">,</span> <span class="n">R_nuc</span><span class="p">):</span>
-</code></pre></div></div>
-<p>🔴🟢🟣</p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span><span class="nf"> compute_V_nuc_primitive</span><span class="x">(</span><span class="n">α</span><span class="o">::</span><span class="kt">Float64</span><span class="x">,</span> <span class="n">β</span><span class="o">::</span><span class="kt">Float64</span><span class="x">,</span> <span class="n">R_A</span><span class="o">::</span><span class="kt">Vector</span><span class="x">{</span><span class="kt">Float64</span><span class="x">},</span> <span class="n">R_B</span><span class="o">::</span><span class="kt">Vector</span><span class="x">{</span><span class="kt">Float64</span><span class="x">},</span> <span class="n">R_nuc</span><span class="o">::</span><span class="kt">Vector</span><span class="x">{</span><span class="kt">Float64</span><span class="x">})</span> 
-</code></pre></div></div>
-<p>🦀</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TBD
-</code></pre></div></div>
-
-<h3 id="electron-repulsion-integrals-eris">Electron Repulsion Integrals (ERIs)</h3>
-
-<p>The most demanding part of the Hartree–Fock calculation, both computational and mathematically. I’ve farmed them out to <code class="language-plaintext highlighter-rouge">integrals.py</code> to not break the logic flow of SCF. This is where I’ve put the overlap and kinetic energy integrals as well.</p>
-
-<p>The electron-electron repulsion matrix (\(\mathbf{G}\)) captures both the Coloumbic repulsions between negative charges (\(\mathbf{J}\)) and the quantum effect of change of wavefunction sign upon exchange of two particles (\(\mathbf{K}\))</p>
-
-\[\mathbf{G}[\mathbf{D}] = \mathbf{J}[\mathbf{D}] - \mathbf{K}[\mathbf{D}]\]
-
-<p>Refer to <code class="language-plaintext highlighter-rouge">integrals.[py/jl/rs]</code>, which I’ve just generated from a reference, if you want more details.</p>
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">G</span> <span class="o">=</span> <span class="n">build_G_matrix</span><span class="p">(</span><span class="n">D</span><span class="p">,</span> <span class="n">ERIs</span><span class="p">)</span>
-<span class="n">F</span> <span class="o">=</span> <span class="n">T</span> <span class="o">+</span> <span class="n">V_nuc</span> <span class="o">+</span> <span class="n">G</span>
-</code></pre></div></div>
-<p>🔴🟢🟣</p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">G</span> <span class="o">=</span> <span class="n">build_G_matrix</span><span class="x">(</span><span class="n">D</span><span class="x">,</span> <span class="n">ERIs</span><span class="x">)</span>
-<span class="n">F</span> <span class="o">=</span> <span class="n">T</span> <span class="o">+</span> <span class="n">V_nuc</span> <span class="o">+</span> <span class="n">G</span>
-</code></pre></div></div>
-<h2 id="the-self-consistent-field-scf-loop">The self-consistent field (SCF) loop</h2>
-
-<p>Recall this is an iterative eigenvalue finding problem
-\(\mathbf{FC} = \epsilon\mathbf{SC}\)</p>
-
-<p>To that that we need to do some orthogonalisation
-\(\mathbf{X} = \mathbf{S}^{-\frac{1}{2}}\)</p>
-
-<p>Use the transpose of the orthogonalisation matrix (\(\mathbf{X}^{T}\)) to transform the Fock operator into the new basis
-\(\mathbf{F}' = \mathbf{X}^{T}\mathbf{F}\mathbf{X}\)</p>
-
-<p>Solve for the eignevalues of the co-efficient matrix
-\(\mathbf{F}'\mathbf{C}' = \mathbf{C}'\epsilon\)</p>
-
-<p>Update the new co-efficient matrix into original basis
-\(\mathbf{C} = \mathbf{X}\mathbf{C}'\)</p>
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s_eigvals</span><span class="p">,</span> <span class="n">s_eigvecs</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="n">eigh</span><span class="p">(</span><span class="n">S</span><span class="p">)</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">s_eigvecs</span> <span class="o">@</span> <span class="n">np</span><span class="p">.</span><span class="n">diag</span><span class="p">(</span><span class="n">s_eigvals</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">))</span> <span class="o">@</span> <span class="n">s_eigvecs</span><span class="p">.</span><span class="n">T</span>
-
-<span class="n">F_prime</span> <span class="o">=</span> <span class="n">X</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">F</span> <span class="o">@</span> <span class="n">X</span>
-
-<span class="n">epsilon</span><span class="p">,</span> <span class="n">C_prime</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="n">eigh</span><span class="p">(</span><span class="n">F_prime</span><span class="p">)</span>
-
-<span class="n">C</span> <span class="o">=</span> <span class="n">X</span> <span class="o">@</span> <span class="n">C_prime</span>
-</code></pre></div></div>
-<p>🔴🟢🟣</p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">using</span> <span class="n">LinearAlgebra</span>
-
-<span class="n">s_eigvals</span><span class="x">,</span> <span class="n">s_eigvecs</span> <span class="o">=</span> <span class="n">eigen</span><span class="x">(</span><span class="kt">Symmetric</span><span class="x">(</span><span class="n">S</span><span class="x">))</span>
-<span class="n">clean_eigvals</span> <span class="o">=</span> <span class="n">max</span><span class="o">.</span><span class="x">(</span><span class="n">s_eigvals</span><span class="x">,</span> <span class="mf">1e-15</span><span class="x">)</span> <span class="c"># avoid inverting numerical noise</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">s_eigvecs</span> <span class="o">*</span> <span class="kt">Diagonal</span><span class="x">(</span><span class="n">clean_eigvals</span> <span class="o">.^</span> <span class="x">(</span><span class="o">-</span><span class="mf">0.5</span><span class="x">))</span> <span class="o">*</span> <span class="n">s_eigvecs</span><span class="err">'</span>
-
-<span class="n">F′</span> <span class="o">=</span> <span class="n">X</span><span class="err">'</span> <span class="o">*</span> <span class="n">F</span> <span class="o">*</span> <span class="n">X</span>
-<span class="n">ϵ</span><span class="x">,</span> <span class="n">C′</span> <span class="o">=</span> <span class="n">eigen</span><span class="x">(</span><span class="kt">Symmetric</span><span class="x">(</span><span class="n">F′</span><span class="x">))</span>
-<span class="n">C</span> <span class="o">=</span> <span class="n">X</span> <span class="o">*</span> <span class="n">C′</span>
-</code></pre></div></div>
-<p>🦀</p>
-<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">use</span> <span class="nn">ndarray_linalg</span><span class="p">::</span><span class="o">*</span><span class="p">;</span>
-
-<span class="k">let</span> <span class="p">(</span><span class="n">s_eigvals</span><span class="p">,</span> <span class="n">s_eigvecs</span><span class="p">)</span> <span class="o">=</span> <span class="n">s</span><span class="nf">.eigh</span><span class="p">(</span><span class="nn">UPLO</span><span class="p">::</span><span class="n">Lower</span><span class="p">)</span><span class="o">?</span><span class="p">;</span>
-<span class="k">let</span> <span class="n">s_inv_sqrt</span> <span class="o">=</span> <span class="n">s_eigvecs</span><span class="nf">.dot</span><span class="p">(</span><span class="o">&amp;</span><span class="nn">Array2</span><span class="p">::</span><span class="nf">from_diag</span><span class="p">(</span><span class="o">&amp;</span><span class="n">s_eigvals</span><span class="nf">.mapv</span><span class="p">(|</span><span class="n">x</span><span class="p">|</span> <span class="n">x</span><span class="nf">.powf</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">))))</span><span class="nf">.dot</span><span class="p">(</span><span class="o">&amp;</span><span class="n">s_eigvecs</span><span class="nf">.t</span><span class="p">());</span>
-
-<span class="k">let</span> <span class="n">f_prime</span> <span class="o">=</span> <span class="n">s_inv_sqrt</span><span class="nf">.t</span><span class="p">()</span><span class="nf">.dot</span><span class="p">(</span><span class="o">&amp;</span><span class="n">f</span><span class="p">)</span><span class="nf">.dot</span><span class="p">(</span><span class="o">&amp;</span><span class="n">s_inv_sqrt</span><span class="p">);</span>
-
-<span class="k">let</span> <span class="p">(</span><span class="n">epsilon</span><span class="p">,</span> <span class="n">c_prime</span><span class="p">)</span> <span class="o">=</span> <span class="n">f_prime</span><span class="nf">.eigh</span><span class="p">(</span><span class="nn">UPLO</span><span class="p">::</span><span class="n">Lower</span><span class="p">)</span><span class="o">?</span><span class="p">;</span>
-
-<span class="k">let</span> <span class="n">c</span> <span class="o">=</span> <span class="n">s_inv_sqrt</span><span class="nf">.dot</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c_prime</span><span class="p">);</span>
-</code></pre></div></div>
-
-<p>Time to update the density matrix using these new co-efficients. This is H<sub>2</sub> in restricted Hartree–Fock so only one occupied orbital to deal with.</p>
-
-\[D_{\mu\nu} = 2\sum_{i}^{\text{occ}} C_{\mu i} C_{\nu i}\]
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">num_occ</span> <span class="o">=</span> <span class="n">num_electrons</span> <span class="o">//</span> <span class="mi">2</span> 
-<span class="n">D_new</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">C</span><span class="p">[:,</span> <span class="p">:</span><span class="n">num_occ</span><span class="p">]</span> <span class="o">@</span> <span class="n">C</span><span class="p">[:,</span> <span class="p">:</span><span class="n">num_occ</span><span class="p">].</span><span class="n">T</span>
-</code></pre></div></div>
-<p>🔴🟢🟣</p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">num_occ</span> <span class="o">=</span> <span class="n">num_electrons</span> <span class="o">÷</span> <span class="mi">2</span> 
-<span class="n">D_new</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">C</span><span class="x">[</span><span class="o">:</span><span class="x">,</span> <span class="mi">1</span><span class="o">:</span><span class="n">num_occ</span><span class="x">]</span> <span class="o">*</span> <span class="n">C</span><span class="x">[</span><span class="o">:</span><span class="x">,</span> <span class="mi">1</span><span class="o">:</span><span class="n">num_occ</span><span class="x">]</span><span class="err">'</span>
-</code></pre></div></div>
-<p>🦀</p>
-<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="n">n_occ</span> <span class="o">=</span> <span class="n">n_electrons</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span> 
-<span class="k">let</span> <span class="n">c_occ</span> <span class="o">=</span> <span class="n">c</span><span class="nf">.slice</span><span class="p">(</span><span class="nd">s!</span><span class="p">[</span><span class="o">..</span><span class="p">,</span> <span class="mi">0</span><span class="o">..</span><span class="n">n_occ</span><span class="p">]);</span>
-<span class="k">let</span> <span class="n">d_new</span> <span class="o">=</span> <span class="mf">2.0</span> <span class="o">*</span> <span class="n">c_occ</span><span class="nf">.dot</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c_occ</span><span class="nf">.t</span><span class="p">());</span>
-</code></pre></div></div>
-<h3 id="energy-convergence-check">Energy convergence check</h3>
-
-<p>We can calculate the energy from summing enetries in the Fock operator and core Hamiltonian</p>
-
-\[E = \frac{1}{2}\text{Tr}[\mathbf{D}(\mathbf{H}^{\text{core}} + \mathbf{F})]\]
-
-<p>Then it’s just the matter of checking that the energy hasn’t changed between each cycle, to some tolerance</p>
-
-\[\Delta E = |E_{\text{new}} - E_{\text{old}}| &lt; \epsilon_{\text{tol}}\]
-
-<p>🐍</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">E_new</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">trace</span><span class="p">(</span><span class="n">D_new</span> <span class="o">@</span> <span class="p">(</span><span class="n">H_core</span> <span class="o">+</span> <span class="n">F</span><span class="p">))</span>
-
-<span class="n">delta_E</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">E_new</span> <span class="o">-</span> <span class="n">E_old</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">delta_E</span> <span class="o">&lt;</span> <span class="n">epsilon_tol</span><span class="p">:</span>
-    <span class="n">converged</span> <span class="o">=</span> <span class="bp">True</span>
-    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Converged! Final energy: </span><span class="si">{</span><span class="n">E_new</span><span class="si">:</span><span class="p">.</span><span class="mi">6</span><span class="n">f</span><span class="si">}</span><span class="s"> Ha"</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="n">E_old</span> <span class="o">=</span> <span class="n">E_new</span>
-    <span class="n">D</span> <span class="o">=</span> <span class="n">D_new</span>
-</code></pre></div></div>
-<p>🔴🟢🟣</p>
-<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">E_new</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">tr</span><span class="x">(</span><span class="n">D_new</span> <span class="o">*</span> <span class="x">(</span><span class="n">H_core</span> <span class="o">+</span> <span class="n">F</span><span class="x">))</span>
-
-<span class="n">ΔE</span> <span class="o">=</span> <span class="n">abs</span><span class="x">(</span><span class="n">E_new</span> <span class="o">-</span> <span class="n">E_old</span><span class="x">)</span>
-<span class="k">if</span> <span class="n">ΔE</span> <span class="o">&lt;</span> <span class="n">ε_tol</span>
-    <span class="n">converged</span> <span class="o">=</span> <span class="nb">true</span>
-    <span class="n">println</span><span class="x">(</span><span class="s">"Converged! Final energy: </span><span class="si">$</span><span class="s">E_new Ha"</span><span class="x">)</span>
-<span class="k">else</span>
-    <span class="n">E_old</span> <span class="o">=</span> <span class="n">E_new</span>
-    <span class="n">D</span> <span class="o">=</span> <span class="n">D_new</span>
-<span class="k">end</span>
-</code></pre></div></div>
-<p>🦀</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let e_new = 0.5 * (&amp;d_new * &amp;(&amp;h_core + &amp;f)).trace().unwrap();
-
-let delta_e = (e_new - e_old).abs();
-if delta_e &lt; epsilon_tol {
-    converged = true;
-    println!("Converged! Final energy: {:.6} Ha", e_new);
-} else {
-    e_old = e_new;
-    d = d_new;
-}
-</code></pre></div></div>
-
-<p>We wrap the above in a loop with a maximum number of iterations and we’re ready!</p>
-
-<hr />
-<h1 id="performance-comparison">Performance comparison</h1>
-
-<p>Obviously solving a fake H<sub>2</sub> is a terrible comparison for the code performance doing real chemistry. Nevertheless..</p>
-
-<hr />
-
-<h2 id="non-execution-speed-stuff">Non execution speed stuff</h2>
-
-<h3 id="lines-of-code">Lines of code</h3>
-<h3 id="ease-of-development">Ease of development</h3>
-<h3 id="readability">Readability</h3>
-<h3 id="any-other-pains">Any other pains</h3>
-
-<hr />
-<h1 id="creating-web-content">Creating web content</h1>
-<hr />
-<p>Embedded Rust with <code class="language-plaintext highlighter-rouge">wasm-pack build --target web</code> and upload as a module with a <code class="language-plaintext highlighter-rouge">.js</code> file</p>
-
-<p>Python load a <code class="language-plaintext highlighter-rouge">pyodide.js</code>. Will be slow</p>
-
-<p><code class="language-plaintext highlighter-rouge">Julia</code> 🔴🟢🟣: there’s a live Pluto notebook with H<sub>2</sub> sliders <a href="https://pluto.land/n/lg6ry63f">here</a>.</p>
-
-<p>Julia is designed to hit sweet-spot of easy to write and performance for scientific code, so muich so that there’s now a full production quality <a href="https://doi.org/10.1021/acs.jctc.0c00337">Quantum Chemistry package written in Julia</a>.</p>
-
-<p>The sliders will be of R (maybe 0.25-1.5 A), so you can see the off-diagonal elements of S change, and the basis sets chosen from a dropdown. Then hit ‘run’ and watch the SCF cycles converge.</p>
-
-<p>Have all 2x2 S matrix elements displayed. Plot the SCF cycles</p>
-
-<hr />
-
-<h2 id="related-web-resources">Related web resources</h2>
-
-<ul>
-  <li>🐍 <a href="/interactive/hf-python/index.html">Python version</a> - Run with Pyodide</li>
-  <li>🔴🟢🟣 <a href="/interactive/hf-julia/index.html">Julia version</a> - Try it in your browser in a Pluto notebook</li>
-  <li>🦀 <a href="/interactive/hf-rust/index.html">Rust version</a> - WebAssembly performance</li>
-  <li>💻 <a href="https://github.com/keiran-rowell/hartee-fock">Source Code</a> - All implementations</li>
-</ul>]]></content><author><name>Keiran Rowell</name><email>keiran.rowell@gmail.com</email></author><category term="code" /><category term="Hartree-Fock" /><category term="Python" /><category term="Julia" /><category term="Rust" /><category term="code" /><category term="tutorial" /><category term="quantum-chemistry" /><summary type="html"><![CDATA[📖 15 min read • Quantum chemistry's fundamental solver in a trifecta of NextGen languages]]></summary></entry><entry><title type="html">Interactive Hartree–Fock in your browser: Julia | Python | Rust</title><link href="http://localhost:4000/interactive/2026-12-12-HF-interactive/" rel="alternate" type="text/html" title="Interactive Hartree–Fock in your browser: Julia | Python | Rust" /><published>2026-12-12T00:00:00+11:00</published><updated>2026-12-12T00:00:00+11:00</updated><id>http://localhost:4000/interactive/HF-interactive</id><content type="html" xml:base="http://localhost:4000/interactive/2026-12-12-HF-interactive/"><![CDATA[<blockquote>
-  <p>Choose a language to explore the Hartree–Fock algorithm interactively:</p>
-
-  <table>
-    <tbody>
-      <tr>
-        <td>🔴🟢🟣 Julia</td>
-        <td>🐍 Python</td>
-        <td>🦀 Rust</td>
-      </tr>
-    </tbody>
-  </table>
-</blockquote>
-
-<hr />
-
-<h2 id="-julia-pluto-notebook">🔴🟢🟣 Julia (Pluto Notebook)</h2>
-<p><a href="https://pluto.land/n/lg6ry63f">Launch externally hosted notebook →</a></p>
-
-<p><a href="/assets/interactive/hf-julia/index.html">Launch static HTML page →</a></p>
-
-<p><em>Full interactivity with sliders and live recalculation.</em></p>
-
-<h2 id="-python-pyodide">🐍 Python (Pyodide)</h2>
-<p><a href="/assets/interactive/hf-python/">Launch Python demo →</a></p>
-
-<p><em>Run NumPy in your browser (~30s load time).</em></p>
-
-<h2 id="-rust-webassembly">🦀 Rust (WebAssembly)</h2>
-<p><a href="/assets/interactive/hf-rust/">Launch Rust demo →</a></p>
-
-<p><em>Near-native blazingly fast Rust performance compiled to WASM to run in your browser.</em></p>
-
-<hr />
-
-<p><strong>Companion guide:</strong> <a href="/code/2026-12-12-HF-in-rust-julia-python/">Hartree-Fock in Rust, Julia, and Python</a></p>]]></content><author><name>Keiran Rowell</name><email>keiran.rowell@gmail.com</email></author><category term="interactive" /><category term="Hartree-Fock" /><category term="Julia" /><category term="Python" /><category term="Rust" /><category term="WASM" /><category term="interactive" /><category term="tutorial" /><category term="quantum-chemistry" /><summary type="html"><![CDATA[Choose a language to explore the Hartree–Fock algorithm interactively: 🔴🟢🟣 Julia 🐍 Python 🦀 Rust]]></summary></entry><entry><title type="html">Codon rarity translator and viewer in your browser</title><link href="http://localhost:4000/interactive/2026-03-01-codon-rarity/" rel="alternate" type="text/html" title="Codon rarity translator and viewer in your browser" /><published>2026-03-01T00:00:00+11:00</published><updated>2026-03-01T00:00:00+11:00</updated><id>http://localhost:4000/interactive/codon-rarity</id><content type="html" xml:base="http://localhost:4000/interactive/2026-03-01-codon-rarity/"><![CDATA[<p>[FRONT MATTER]</p>
-
-<hr />
-
-<p><a href="/assets/interactive/codon-rarity-viewer/index.html">Launch codon rarity viewer →</a></p>]]></content><author><name>Keiran Rowell</name><email>keiran.rowell@gmail.com</email></author><category term="interactive" /><category term="codons" /><category term="structural" /><category term="biology" /><category term="synonymous" /><category term="harmonisation" /><category term="translation" /><category term="ribosome" /><summary type="html"><![CDATA[[FRONT MATTER]]]></summary></entry><entry><title type="html">Blue Fire and Yellow Brimstone: the world’s waning appetite for hellish sulfur</title><link href="http://localhost:4000/sulfur/2026-03-01-fire-and-brimestone/" rel="alternate" type="text/html" title="Blue Fire and Yellow Brimstone: the world’s waning appetite for hellish sulfur" /><published>2026-03-01T00:00:00+11:00</published><updated>2026-03-01T00:00:00+11:00</updated><id>http://localhost:4000/sulfur/fire-and-brimestone</id><content type="html" xml:base="http://localhost:4000/sulfur/2026-03-01-fire-and-brimestone/"><![CDATA[<p class="figcaption"><em>Photo Credit: <a href="https://commons.wikimedia.org/wiki/File:Menambang_Belerang.jpg">Candra Firmansyah</a> [CC BY-SA 4.0]</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-18T16:04:10+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Keiran Rowell</title><subtitle>Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry. Obsessive explorations into the oddities of chemistry, music, history, and scientific computing... on occasion.
+</subtitle><author><name>Keiran Rowell</name><email>keiran.rowell@gmail.com</email></author><entry><title type="html">Blue Fire and Yellow Brimstone: the world’s waning appetite for hellish sulfur</title><link href="http://localhost:4000/sulfur/2026-01-18-fire-and-brimestone/" rel="alternate" type="text/html" title="Blue Fire and Yellow Brimstone: the world’s waning appetite for hellish sulfur" /><published>2026-01-18T00:00:00+11:00</published><updated>2026-01-18T00:00:00+11:00</updated><id>http://localhost:4000/sulfur/fire-and-brimestone</id><content type="html" xml:base="http://localhost:4000/sulfur/2026-01-18-fire-and-brimestone/"><![CDATA[<p class="figcaption"><em>Photo Credit: <a href="https://commons.wikimedia.org/wiki/File:Menambang_Belerang.jpg">Candra Firmansyah</a> [CC BY-SA 4.0]</em></p>
 
 <blockquote>
   <p>Content notice: child labour, exploited labour / slavery, the Mafia, smog deaths.</p>
@@ -534,150 +7,130 @@ if delta_e &lt; epsilon_tol {
 
 <hr />
 
-<p><em>It’s just smoke. Floating over the volcano <br />
+<blockquote>
+  <p><em>It’s just smoke. Floating over the volcano <br />
 It’s just smoke. Go on, you know I can’t say no</em></p>
+</blockquote>
 
 <p class="faded">— “Smoke”, Caroline Polachek, <strong>2023</strong></p>
-
-<!-- -> Through line "From Hell, life". 
-
-Also a story of commodity value inversion. What caused wars is now sold to be *taken away*. If the petroleum industry shrinks it might invert again
-
----
-#### Open on the geothermal vent and sulfur eating life. Heat + energy + sulfur can be metabolism [image of hydrothermal vent]. BILLIONS OF YEARS OLDER THAN PHOTOSYNTHESIS *a couple of sentences setting up the smash cut to modern day humans surrounded by blue fire*
-#### Open again on the blue fire of Indonesian suflur mines. (Humans not microbes) [image of blue fire]
-4 billion years later, well above the sulfur-eating sea creatures that still cluster around deep-sea vents, Idonesian miners descend into volcano Ijen to start their work. 
-#### Move on to the Carusi and the Silician Sulfur mines. (Human societal exploitation) [painting of carusi]
-"This hell is not new. Mining brimstone fueled the growth of one of humanity's most notorious organisations --- the Silician Mafia"
-#### Gunpowder and Greek Fire. (Human destruction in warfare) [ancient illustration of Greek Fire]
-#### Industrial demand (Vulcanisation) then the great economic inversion (S as petroleum byproduct people *pay* to get taken away). [image of modern day S yellow waste mounts] Even if H2SO4 is one of the most produced industrial chemicals and needed for fertiliser. 
-#### Natural disasters take away biological life London Smog, Year Without Summer [image of London Smog]
-#### Biochemistry -- now reveal Fe-S clusters as the fundamental primeval electron harvest unit. They were the origin but they're *still* essential and unchanged. Proteins stabled together with disulfide bridges in Cysteine. [Protein structure illustration]
-
-##### Limit to the above topics and  make it tight and cinematic -->
 
 <hr />
 
 <h3 id="from-hell-life-sulfur-eating-microbes">From hell, life: sulfur eating microbes</h3>
 
+<p>In Earth’s hellish Hadean Eon, the embers of <a href="https://www.science.org/content/article/our-last-common-ancestor-inhaled-hydrogen-underwater-volcanoes">ancient modes of life were kindled around geothermal vents</a>, in the deep dark of the sea floor. Billions of years before photosynthesis arose as a way to nurture life from the sun, life found a way to turn the boiling chemical churn of these cauldrons into a stable energy source. The sulfurous nature of these volcano plumes was crucial to the chemotrophy of these Promethean life forms; they could fuel themselves through stripping electrons from this chemical soup.</p>
+
 <p><img src="/images/archaea_giggenbach_hydrothermal_vents.jpg" alt="Underwater volcano microbes" /></p>
 
-<p class="figcaption">Archaea at the hydrothermal vents of the Giggenbach underwater volcano 800 km North-Northeast of New Zealand’s North Island. <strong>2005</strong>, <a href="https://www.omao.noaa.gov/image-licensing-usage-info">NOAA Vents Program</a>.</p>
+<p class="figcaption">Archaea at the hydrothermal vents of the Giggenbach underwater volcano 800 km North-Northeast of New Zealand’s North Island. <strong>2005</strong>, <a href="https://www.omao.noaa.gov/image-licensing-usage-info">NOAA Vents Program</a></p>
 
-<p>Sulfur “eating” microbes - reduction to H2S. Basically just mention this life energy source is billions of years older than photosynthesis</p>
-
-<p><a href="https://www.livescience.com/extreme-microbes-underwater-volcano.html">“Hundreds of never-before-seen life-forms live in this 6,000-foot-deep volcano’s acid jets”</a></p>
+<p>4 billion years later, far removed from the <a href="https://doi.org/10.1073/pnas.2019021117">sulfur-eating microbes</a> that still <a href="https://www.livescience.com/extreme-microbes-underwater-volcano.html">cluster around deep-sea vents</a>, humans toil at the base of volcanic craters to harvest the same element for their own purposes.</p>
 
 <h3 id="mountains-of-fire-ijens-sulfur-volcano">Mountains of fire: Ijen’s sulfur volcano</h3>
 
+<p>In the Indonesian archipelago a mining crew descends at dawn into the bowels of volcano Ijen to start their work. They are often surrounded by the hellfire of the element they are extracting: flames that burn not devilish red but ghostly blue.</p>
+
 <p><img src="/images/Ijen_fire.jpg" alt="Ijen fire" /></p>
 
-<p class="figcaption">Blue fire spewing forth from the sulfur mine around Ijen volcano complex. <a href="https://flic.kr/p/AZLUcx">Trian Wida Charisma</a> [CC BY-NC 2.0]</p>
+<p class="figcaption">Blue fire spewing forth from the sulfur mine around the Ijen volcano complex. <a href="https://flic.kr/p/AZLUcx">Trian Wida Charisma</a> [CC BY-NC 2.0]</p>
 
-<p>These “soldiers of sulfur” (<em>prajurit belerang</em>) are here to mine <em>emas setan</em> – devil’s gold.</p>
+<p>These “soldiers of sulfur” are here for <em>emas setan</em> — <span style="color:#F1DD38">Satan’s gold</span>. Toxic hydrogen sulfide ($\ce{H2S}$)  and sulfur dioxide ($\ce{SO2}$) gases risen hot from the caldera, crashing into the cooler atmospheric air mass. The triggered chemical reaction and phase change is so rapid that sulfur leaves its bonding partners and immediately desublimates. Yellow crystals of the volcano’s breath solidify at its base. Sulfur mines are now largely museums for tourists, but were once valuable deposits of the element <a href="https://www.journals.uchicago.edu/doi/epdf/10.1086/705370">that fuelled the birth of the British chemical industry finishing the textile trade</a>. Any deposits were once worth going to war over to guarantee cheap supply.</p>
 
 <h3 id="an-infernal-gateway-sulfur-and-the-sicilian-mafia">An infernal gateway: sulfur and the Sicilian Mafia</h3>
+
+<p>In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the <em>carusi</em>, the young lads, and their masters are the enforcers are there to protect the private affairs of the local <em>famiglia</em>, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before, when the Sicilian island had been <a href="https://en.wikipedia.org/wiki/Unification_of_Italy">annexed in 1861 to form the unified Italian state</a>.</p>
+
+<p>Six million years prior, the Messinian salinity crisis 6 millions years created the opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:</p>
+
+\[\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -&gt; CaCO3(s) + CO2(g) + 3H2O(l) + {\color{#F1DD38}S^0(s)}}\]
 
 <p><img src="/images/I_carusi.jpg" alt="I_carusi" /></p>
 
 <p class="figcaption">‘I carusi’, Onfrio Tomaselli, <strong>1905</strong>.</p>
 
+<p>Techniques remained primitive. All mining had to be done by pick – explosives risked combustion of the brimstone they were gathering. <a href="https://youtu.be/7qPXUaQgmOM?si=6ua6WIp0p3HZjsNy">Working without clothing was common</a>, due to the heat and irritation. Over 400 deaths left records throughout the 1800s, due to flooding, collapse of shoddy mine shafts, or choking on sulfur dioxide fumes. The conditions were so bad, contemporary observers described the organisation to be as cruel as the chattel slavery occurring in the United States.</p>
+
 <blockquote>
   <p>“I am not prepared just now to say to what extent I believe in a physical hell in the next world, but a sulfur mine in Sicily is about the nearest thing to hell that I expect to see in this life.”</p>
 </blockquote>
 
-<p>— <em>The Man Farthest Down</em>, Booker T. Washington, <strong>1911</strong></p>
+<p class="faded">— <em>The Man Farthest Down</em>, Booker T. Washington, <strong>1911</strong></p>
 
-<p><a href="https://doi.org/10.1086/705370">“When necessary to guarantee the supply of cheap sulfur against price and supply regulation, the British mobilized their Royal Navy. It is argued that the Sicilian frontier should be incorporated into the history of the Industrial Revolution.”</a></p>
+<p>The conditions of the Sicilian mines are still inscribed in the memories of the <a href="https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/">Sicilian diaspora to the USA</a>, and a bracing film depicting a <a href="https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV">child miner’s life in the Floristella mines</a></p>
 
-<ul>
-  <li><a href="https://youtu.be/FzIg3yDC6pg?si=dn74s8vSDOEg19HP">Why Was Sicilian Sulfur So Desired Across the Medieval World?</a></li>
-</ul>
-
-<p>Messinian Salinity Crisis – 6 million years ago connection to ocean closed, the water evapourated, the calcium sulfate dissolved and sulfate-reducing bacteria reduced CaSO4 -&gt; CaCO3 + S – sulfur bearing limestone.</p>
-
-<p>A movie depecting a child miner’s descent into the mines <a href="https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV">‘La discesa di Aclà a Floristella’</a></p>
-
-<ul>
-  <li>Silician diaspora to the USA <a href="https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/">https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/</a></li>
-</ul>
+<p>The Mafia didn’t instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egyptian, Chinese), Sicily held unique advantages with its tranquil golden vein of native sulfur. Other ancients had visit active tectonic sites — like Greek Island of Milos, or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed <a href="https://www.jstor.org/stable/231610">complex alchemical ‘roasting’ processes</a> to ‘sweat out’ sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death — gunpowder.</p>
 
 <h3 id="hellfire-sulfur-in-gunpowder-and-greek-fire">Hellfire: sulfur in gunpowder and Greek fire</h3>
 
+<p>Sicilian sulfur was <a href="https://youtu.be/FzIg3yDC6pg?si=dn74s8vSDOEg19HP">a coveted Medieval commodity</a>: it provided the low temperature ignition of gunpowder, without which <a href="https://www.acs.org/pressroom/headline-science/medieval-gunpowder-acsspring2024.html">there was no thunderous crack of the cannon</a>.  A more closely guarded sulfur recipe was for Greek Fire. The Byzantine Empire’s naval flamethrower was devastating — it stuck to everything it was sprayed on but could not be extinguished by water.</p>
+
 <p><img src="/images/Greekfire-madridskylitzes1.jpg" alt="Greek fire" /></p>
 
-<p class="figcaption">“The Roman fleet setting fire to the enemy fleet [led by Thomas of Sicily]”. <em>Madrid Skylitzes</em>, manuscript on teh Byzantines for the court of Plamero in Sicily, <strong>12th century CE</strong></p>
+<p class="figcaption">“The Roman fleet setting fire to the enemy fleet [led by Thomas of Sicily]”. <em>Madrid Skylitzes</em>, manuscript on the Byzantines for the court of Palermo in Sicily, <strong>12th century CE</strong></p>
+
+<p>The exact mixture for this hellflame is lost to history, but early sources for similar concoctions hint at sulfur’s inclusion in this demonic incendiary.</p>
 
 <blockquote>
   <p>Automatic fire is composed of equal parts of native sulfur, rock salt, incense, thunderbolt stone, or pyrites, ground in a black mortar in the midday sun, and mixed with equal parts of the resin of the black sycamore and liquid asphalt of Zakynthos to a greasy paste.</p>
 </blockquote>
 
-<p>— <em>Kestoi</em> [Fragment D25], Sextus Julius Africanusm, <strong>c. 220 CE</strong></p>
-
-<p>Fireships (inspired by, though not using,  “Greek fire”) were instrumental in <a href="https://en.wikipedia.org/wiki/Burning_of_the_Ottoman_flagship_off_Chios">defeating the Egyptian fleet of the Ottoman Empire in the Greeek war of Independence</a></p>
+<p class="faded">— <em>Kestoi</em> [Fragment D25], Sextus Julius Africanus, <strong>c. 220 CE</strong></p>
 
 <h3 id="yellow-mammon-sulfurs-economic-inversion-by-the-petrodollar">Yellow mammon: sulfur’s economic inversion by the petrodollar</h3>
 
-<p>H2SO4 production - Contact Process
-Frasch process - no longer confident to a Sicilian mob monopoly</p>
+<p>Today, oil refineries pay to have sulfur hauled away. The world <a href="https://www.bbc.com/news/magazine-28369829">can’t consume it faster than stockpiles mount</a> as a waste product of the modern petrochemical industry. Even though sulfuric acid is the most produced chemical by volume, and vulcanisation transformed mechanical goods, nowdays sulfur often commands a negative spot price. From the ravenous fossil fuel gluttony of our combustion-driven world, sulfur falls out for free.</p>
 
 <p><img src="/images/syncrude_sulfur_mountains.jpg" alt="Sulfur industrial mountains" /></p>
 
 <p class="figcaption">Unwanted mountains of sulfur piling up at the Syncrude Athabasca oil sands in Alberta, Canada. <a href="https://www.flickr.com/photos/woodhead/8650842382/in/photolist-ebrQ3S-zJxnjj-qMsLT-gaZAVh-2hCV2Pf-2hqJPoP">Jason Woodhead</a> [CC BY 2.0]</p>
 
-<p>BBC New article <a href="https://www.bbc.com/news/magazine-28369829">Sulphur surplus: Up to our necks in a diabolical element</a></p>
+<p>Sulfur can also be a liability to the petrochemical industry. Despite the Orinoco oil belt of Venezuela being the largest in the world, much of the <a href="https://about.bnef.com/insights/commodities/venezuelas-oil-renaissance-faces-several-high-hurdles/">crude is far too ‘sour’</a> (with sulfur content 6–10x the 0.5% threshold) to be economically viable. Yet this sulfur abundance-turned-burden in our fossil fuels has further unexpected uses.</p>
 
-<p>Sulfur mountains <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360544209005118">Large scale disposal of waste sulfur: From sulfide fuels to sulfate sequestration</a></p>
+<p>This economic inversion is what allows <a href="https://news.flinders.edu.au/blog/2025/06/27/golden-opportunity-to-reduce-toxic-waste/">researchers to develop on ‘no/low cost’ sulfur sponges</a> cooked in –no joke– spent chip shop oil. The sponges sop up chemical waste, forming <a href="https://www.nature.com/articles/s41578-019-0094-3">sulfur-gold bonds</a>. The cleanup applies to both the highest and lowest tech industries in the world: gold can be recovered both from <a href="https://micro.org.au/news/the-future-of-gold-is-green-new-tech-recovers-the-precious-metal-without-pollution/">e-waste</a>, and also the poisoned tailings of so-called “artisanal” gold mining. <a href="https://www.unep.org/globalmercurypartnership/resources/video/artisanal-mining-poverty-driven-destruction">Artisinal gold mining is an industry of desperation</a>; from the small-scale crushing of alluvial ore downstream of corporate gold mines rudimentary chemistry is used to extract pure gold. Gold readily forms an amalgam with its liquid metal neighbour mercury, which can then be collected by hand. Mercury’s boiling point is low (hence its use in thermometers), so it can be evapourated off from the raw gold on any stovetop. The consequences are harsh: artisanal mining alone releases roughly <a href="https://www.unep.org/globalmercurypartnership/what-we-do/artisanal-and-small-scale-gold-mining-asgm">40% of global mercury emissions into the atmosphere</a>, the mercury vapours are potent neurotoxins inhaled by the miners, and the waterways are spoiled for all life.</p>
 
-<p>This economic inversion is what allows <a href="https://news.flinders.edu.au/blog/2025/06/27/golden-opportunity-to-reduce-toxic-waste/">researchers to develop on ‘no/low cost’ sulfur sponges</a> cooked in —I joke you not— spent fish and chip shop oil, to <a href="https://micro.org.au/news/the-future-of-gold-is-green-new-tech-recovers-the-precious-metal-without-pollution/">clean up the toxigold–mercury</a> amalgam waste in the [desparate industry of ‘artinisal’ gold mining] common in the Amazon.</p>
+<p>The overabundance of sulfur attests to the sheer scale of petroleum burnt each year. This glut is not a god-given law but an accident of chemistry.  If humanity cleaned up its act and decarbonised, sulfur is likely to <a href="https://rgs-ibg.onlinelibrary.wiley.com/doi/10.1111/geoj.12475">become a scarce resource again by 2040</a>, with supply stream impacts on our fertiliser and lithium-ion battery production.</p>
 
-<p>From wars and the British Industrial revolution (link the Royal Navy fighting Sicily) to a negatively priced commodity.</p>
-
-<p>But if we stopped using fossil fuels entirerly will there be a dearth of sulfur?
-<a href="https://rgs-ibg.onlinelibrary.wiley.com/doi/10.1111/geoj.12475">Sulfur: A potential resource crisis that could stifle green technology and threaten food security as the world decarbonises</a></p>
-
-<p>The high sulfur content of Venzeluan oil (and the depressing and scary political actions and  ramifications)
-‘Sour’ oil has &gt; 0.5% sulfur. Oil in the Venzuelan Orinoco belt contains ten times that amount.</p>
-
-<p>Vulcanisation</p>
-
-<p>Sulfuric acid for fertilisation</p>
-
-<h3 id="sulfurous-sky-sox-and-atomspheric-pollution">Sulfurous sky: SO<sub>x</sub> and atomspheric pollution</h3>
+<h3 id="sulfurous-sky-sox-and-atmospheric-pollution">Sulfurous sky: SO<sub>x</sub> and atmospheric pollution</h3>
 
 <p><img src="/images/NYC_1966_smog.jpg" alt="NYC 1966 smog - Moden Smog of the City" /></p>
 
 <p class="figcaption">Smog on the front page of <em>The New York Times</em>, photo by Neal Boenzi, November 25, <strong>1966</strong>.</p>
 
+<p>Sulfur’s calling card is its acrid fumes. Hydrogen sulfide ($\ce{H2S}$) is notorious for its ‘rotten egg’ smell, but it the sulfur oxides ($\ce{SOx}$) are more noxious and lethal. We’ve turbocharged their concentration in the air, humanity releases <a href="https://science.nasa.gov/earth/earth-observatory/satellite-catalogs-volcanic-sulfur-emissions-89813/">more than twice the sulfur dioxide ($\ce{SO2}$) emissions than volcanoes</a> through our combustion engine and smelters. These factories were often near population centres during the Industrial Revolution. Before emissions laws were in place, all it took was pressure inversion for the troposphere to press a smothering blanket of smog down on the cities, as seen in the <a href="https://www.smithsonianmag.com/history/deadly-donora-smog-1948-spurred-environmental-protection-have-we-forgotten-lesson-180970533/">1948 Donora death smog</a>, 1952 Great Smog of London, 1966 New York City Smog (<em>pictured above</em>). The response to these hundreds of deaths were to pass atmospheric protection laws: the 1955 Air Pollution Control Act, the 1956 Clean Air Act, and the 1970 Clean Air Act, respectively.</p>
+
 <blockquote>
   <p>Such yellow sullen smokes make their own element. They will not rise, but trundle around the globe. Choking the aged and the meek, the weak…</p>
 </blockquote>
 
-<p>— <em>Fever 103°</em>, Sylvia Plath, <strong>1963</strong></p>
+<p class="faded">— <em>Fever 103°</em>, Sylvia Plath, <strong>1963</strong></p>
 
-<p>1816 Year Without Summer, 1952 Great Smog of London, 1966 New York City Smog,</p>
+<p>Our industries don’t always out-compete the Earth’s mantle for spewing fumes into the air. Titanic volcanic eruptions can dwarf human activity and shock short-scale climate; in 1816 the eruption of Mount Tambora in Indonesia singlethroatedly caused “the year without summer”. The temperature plunged a couple of degrees, crops failed, and <a href="https://scied.ucar.edu/learning-zone/how-climate-works/mount-tambora-and-year-without-summer">the summer skies in Europe were glum enough to compel Mary Shelley to write <em>Frankenstein</em></a>.</p>
 
-<p>2020 International Maritime Organisation legislations – temporary sea level warming effect.</p>
-
-<p>Sulfur containing ship fuel. Acts as a global <em>coolant</em> but SOx is so toxic in the atmosphere it needs to be banned</p>
+<p>Such global cooling effects are temporary; <a href="https://climate.mit.edu/ask-mit/how-much-global-warming-has-been-hidden-cooling-effect-sulfur-produced-burning-coal-and-oil">aerosolised sulfates increase the albedo of clouds</a>, making them reflect more incoming heat back off earth. Unlike some of the worst “forever chemicals” of our own creation, sulfate emissions are short lived; lasting only weeks before plummeting to the surface as acid rain. Nevertheless, sulfate cooling is detectable: in 2020 the International Maritime Organisation reduced the sulfur limit of shipping’s dirtiest “bunker fuel” from 3.5% to 0.5%. Abrupt sea surface temperature rises and ocean cloud optical changes <a href="https://www.nature.com/articles/s43247-024-01442-3">could be measured</a>. This incidental inverse cloud seeding experiment does not however provide a tidy geoengineering case study to combat global warming: the respiratory and environmental consequences of runaway ($\ce{SOx}$) emissions must be taken into account. The processes fuelling our modern life have us in a bargain with Mephistopheles: <a href="https://academic.oup.com/oocc/article/4/1/kgae008/7706251">cleaning up our air exposes the full extent of millennia-enduring green house gas emissions</a>.</p>
 
 <h3 id="an-infernal-engine-iron-sulfur-clusters-and-bioelectricity">An infernal engine: iron-sulfur clusters and bioelectricity</h3>
 
+<p>Sulfur’s changeable electron count makes it useful: it is the non-metal element with the most versatile oxidation state. With a larger outer electron shell than its reactivity chemical bunkmate oxygen, sulfur’s third shell provides both readily emptiable or fillable sub-shells (\(3p\)). This gives sulfur bonding flexibility akin to an “expanded octet”, that’s facilitated by higher-energy states lying closer to occupied orbitals than in most electron arrangements. By the fourth shell the elements are transitioning into metals, with electrons released into conductive valence band ‘sea’ of electrons characterising metallic bonding.  Sulfur, therefore, finds use as a controllable electron exchange junction in redox processes. These junctions are made in the form of iron-sulfur clusters.</p>
+
 <p><img src="/images/iron-sulfur_clusters.jpg" alt="Iron-Sulfur clusters" /></p>
 
-<p class="figcaption">Iron-Sulfur clusters that act as waypoints in the electrical process of life, including the reactive ‘crucible’ of <a href="link back to nitrogen fixation post">nitrogenase</a>. Tracey A. Rouault &amp; Wing-Hang Tong, <a href="https://doi.org/10.1038/nrm1620">“Iron-sulphur cluster biogenesis and mitochondiral iron homeostasis”</a>, <em>Nature Reviews Molecular Cell Biology</em>, <em>6</em>, 345–351, <strong>2005</strong>.</p>
+<p class="figcaption">Iron-Sulfur clusters that act as waypoints in the electrical process of life, including the reactive ‘crucible’ of <a href="link back to nitrogen fixation post">nitrogenase</a>. Tracey A. Rouault &amp; Wing-Hang Tong, <a href="https://doi.org/10.1038/nrm1620">“Iron-sulphur cluster biogenesis and mitochondrial iron homeostasis”</a>, <em>Nature Reviews Molecular Cell Biology</em>, <em>6</em>, 345–351, <strong>2005</strong>.</p>
 
-<p><a href="https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis">Fe-S world hypothesis</a></p>
+<p>Electrons —whether generated from cracking an oxygen-phosphorus bond in the ‘battery molecule’ ATP, <a href="https://youtu.be/jlO8NiPbgrk?si=Bi9rNWMIGRys8WqG">converted from sunlight by plant photosystems</a>, ingested from Earth’s mineral crust, or swapped during redox in chemotrophy— must be channelled from junction to junction. Life’s electrons don’t typically get to their destination by traveling as free particles; they propagate as waves. This could be through free-space, but the wave is attenuated rapidly over short distances in that medium (around tenths of a nanometer, ~1.7 Å). Even travelling along ‘non-conductive’ covalent bond is preferable to the vacuum. So, the amino acid <a href="https://www.science.org/doi/10.1126/science.1656523">linkages in proteins themselves act to wire up the way points</a> (nucleic acids moreso <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-042018-052353">due to delocalised electron sharing between stacked nucleobases</a>). Along bonds, an electron’s attenuation distance increases, enough to tunnel from bond to bond in a process referred to by physicists as superexchange. Biological electron transfer is therefore a ‘through-bond’ process, and these quantum particles don’t take just one path: the coupling between donor and acceptor waypoints exhibits a wave’s phase, including constructive and destructive interference. The behaviour can’t be explained purely classically, much like the double-slit experiment couldn’t.</p>
 
-<p>Also mention disulfide bridges betwen cystestine amino acids stapling proteins together</p>
+<p>The cell’s power is conducted by wavicles tunneling along the molecular bonds connecting life’s electrical circuits, reverberating across pathways and extending into dimensions inaccessible to our prosaic wires of extruded copper. Helping us breathe, helping plants turn photons into fuel. Real quantum mechanical waves along biomolecules that interfere constructively and destructively just like the famous electron double-slit experiments. Doing their work to power all life through changing the charge density in the metal-sulfur core of these primordial clusters.</p>
 
-<p>There’s something almost mythical about underwater brimstone cauldrons being the origins of us all/</p>
+<p>Perhaps these clusters predate—and are a prerequisite for—life itself, states the <a href="https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis">iron-sulfur world hypothesis</a>. The cell as a waterborne sack to harness electricity. Enzyme cores remodeled from, and <a href="https://www.nature.com/articles/s41467-021-26158-2">still resembling</a>, mineral clusters from the Earth’s crust. Both primates and our aquatic volcano microbial ancestors <a href="https://www.nature.com/articles/nature08301">preserve highly coordinated machinery to build iron-sulfur clusters</a>. That is how crucially guarded nature has kept the production of this molecular crucible.</p>
+
+<p>From the dribs of lava that pierced the mantle, a chemical soup contributed to the origins of us all.</p>
 
 <hr />
 
-<p><em>… but torture without end <br />
+<blockquote>
+  <p><em>… but torture without end <br />
 Still urges, and a fiery deluge, fed <br />
 With ever-burning sulfur unconsumed</em></p>
+</blockquote>
 
 <p class="faded">— <em>Paradise Lost</em> [Book I], John Milton, <strong>1667</strong></p>]]></content><author><name>Keiran Rowell</name><email>keiran.rowell@gmail.com</email></author><category term="sulfur" /><summary type="html"><![CDATA[📖 10 min read • Life and death from satan's gold]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/Menambang_Belerang.jpg" /><media:content medium="image" url="http://localhost:4000/images/Menambang_Belerang.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures</title><link href="http://localhost:4000/writing/2026-01-01-the-delian-mode/" rel="alternate" type="text/html" title="The Delian Mode: anti-imperial leagues, synths, federated computing, and lost futures" /><published>2026-01-01T00:00:00+11:00</published><updated>2026-01-01T00:00:00+11:00</updated><id>http://localhost:4000/writing/the-delian-mode</id><content type="html" xml:base="http://localhost:4000/writing/2026-01-01-the-delian-mode/"><![CDATA[<p class="figcaption"><em>Photo credit: <a href="https://www.bbc.co.uk/programmes/profiles/51LC2shThjnCNR8dd4z2SRQ/delia-derbyshire">BBC Archives</a></em></p>
 
