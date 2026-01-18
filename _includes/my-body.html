@@ -2,20 +2,14 @@
 The below for making mobile browsers not stopped before the chemical math rendering engine kicks in
 -->
 <script>
-  // This helps with SPA navigation and mobile loading
-  document.addEventListener('DOMContentLoaded', () => {
-    if (window.MathJax && window.MathJax.typeset) {
-      window.MathJax.typeset();
-    }
-  });
-
-  // Specifically for Hydejack's smooth transitions
   document.querySelector('hy-push-state').addEventListener('hy-push-state-load', () => {
-    if (window.MathJax && window.MathJax.typeset) {
-      window.MathJax.typeset();
+    if (window.MathJax && window.MathJax.typesetPromise) {
+      // typesetPromise is safer than typeset() as it won't double-fire 
+      window.MathJax.typesetPromise();
     }
   });
 </script>
+
 
 
 <!--
