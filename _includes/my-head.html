@@ -1,35 +1,34 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
 
+/* Hide raw LaTeX until MathJax processes it */
+.content {
+  visibility: hidden;
+}
+.content.mjx-chtml, .MathJax_Preview {
+  visibility: visible !important;
+}
+/* Re-show everything once MathJax is done */
+.MathJax_Processed .content {
+  visibility: visible;
+}
+
 <!--
 Load in the mhchem TeX library for \ce{} rendering
 -->
 <script>
-window.MathJax = {
-  loader: { load: ['[tex]/mhchem', '[tex]/color'] },
-  tex: {
-    packages: {'[+]': ['mhchem', 'color']},
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  },
-  options: {
-    processHtmlClass: 'content'
-  },
-  startup: {
-    pageReady: () => {
-      return MathJax.startup.defaultPageReady().then(() => {
-        // Only typeset if the Hydejack content is actually there
-        if (document.querySelector('.content')) {
-          MathJax.typeset();
-        }
-      });
+  window.MathJax = {
+    tex: {
+      packages: {'[+]': ['mhchem']},
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    loader: {
+      load: ['[tex]/mhchem']
     }
-  }
-};
+  };
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
-
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <!--
 Code used for embedding Gumroad on the Hydejack Site. 

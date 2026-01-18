@@ -119,7 +119,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-18T23:08:40+11:00',
+    INDEX_KEY: 'index--2026-01-18T23:25:26+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -154,35 +154,34 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 
+/* Hide raw LaTeX until MathJax processes it */
+.content {
+  visibility: hidden;
+}
+.content.mjx-chtml, .MathJax_Preview {
+  visibility: visible !important;
+}
+/* Re-show everything once MathJax is done */
+.MathJax_Processed .content {
+  visibility: visible;
+}
+
 <!--
 Load in the mhchem TeX library for \ce{} rendering
 -->
 <script>
-window.MathJax = {
-  loader: { load: ['[tex]/mhchem', '[tex]/color'] },
-  tex: {
-    packages: {'[+]': ['mhchem', 'color']},
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  },
-  options: {
-    processHtmlClass: 'content'
-  },
-  startup: {
-    pageReady: () => {
-      return MathJax.startup.defaultPageReady().then(() => {
-        // Only typeset if the Hydejack content is actually there
-        if (document.querySelector('.content')) {
-          MathJax.typeset();
-        }
-      });
+  window.MathJax = {
+    tex: {
+      packages: {'[+]': ['mhchem']},
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    loader: {
+      load: ['[tex]/mhchem']
     }
-  }
-};
+  };
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
-
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <!--
 Code used for embedding Gumroad on the Hydejack Site. 
