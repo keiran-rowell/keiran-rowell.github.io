@@ -1,4 +1,24 @@
 <!--
+The below for making mobile browsers not stopped before the chemical math rendering engine kicks in
+-->
+<script>
+  // This helps with SPA navigation and mobile loading
+  document.addEventListener('DOMContentLoaded', () => {
+    if (window.MathJax && window.MathJax.typeset) {
+      window.MathJax.typeset();
+    }
+  });
+
+  // Specifically for Hydejack's smooth transitions
+  document.querySelector('hy-push-state').addEventListener('hy-push-state-load', () => {
+    if (window.MathJax && window.MathJax.typeset) {
+      window.MathJax.typeset();
+    }
+  });
+</script>
+
+
+<!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
 <script>
