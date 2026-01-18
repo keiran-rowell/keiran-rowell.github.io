@@ -114,7 +114,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-18T16:12:50+11:00',
+    INDEX_KEY: 'index--2026-01-18T22:21:07+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -147,6 +147,24 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
 
 <link rel="stylesheet" href="/assets/css/custom.css">
+
+
+<!--
+Load in the mhchem TeX library for \ce{} rendering
+-->
+<script>
+  window.MathJax = {
+    tex: {
+      packages: {'[+]': ['mhchem']}
+    },
+    loader: {
+      load: ['[tex]/mhchem']
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+
 
 <!--
 Code used for embedding Gumroad on the Hydejack Site. 
@@ -273,7 +291,7 @@ Left here for reference, feel free to delete.
   <li><a href="/licenses/GPL-3.0/">GPL-3.0</a></li>
   <li><a href="/licenses/MIT/">MIT</a></li>
   <li><a href="/licenses/W3C-20150513/">W3C-20150513</a></li>
-  <li><a href="./CC-BY-NC-SA-4.0.md">CC-BY-NC-SA-4.0</a></li>
+  <li><a href="/licenses/CC-BY-NC-SA-4.0/">CC-BY-NC-SA-4.0</a></li>
 </ul>
 
 <h2 id="custom">Custom</h2>
@@ -294,7 +312,7 @@ Left here for reference, feel free to delete.
 <footer class="content" role="contentinfo">
   <hr/>
   
-    <p><small class="copyright">2025 Keiran Rowell. License <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>
+    <p><small class="copyright">2026 Keiran Rowell. License <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>
 </small></p>
   
   
