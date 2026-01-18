@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "Blue Fire and Yellow Brimstone: the world's waning appetite for hellish sulfur"
-description: "📖 10 min read • Life and death from satan's gold"
+description: "📖 10 min read • Life and death from Satan's gold"
 category: sulfur
 tags: 
 image:
