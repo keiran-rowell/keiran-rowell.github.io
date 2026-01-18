@@ -1,9 +1,0 @@
-/* Hide RSS from sidebar/splash page only */
-.sidebar .social-list a[href*="feed.xml"] {
-  display: none;
-}
-
-.reading-time {
-  color: #666;
-  font-size: 0.9em;
-}
