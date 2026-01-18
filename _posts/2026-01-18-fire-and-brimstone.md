@@ -54,8 +54,8 @@ In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur
 
 Six million years prior, the Messinian salinity crisis 6 millions years created the opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum (CaSO<sub>4</sub>) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
 
-<div style="margin: 2rem 0; padding: 1.5rem; background: rgba(0,0,0,0.05); border-left: 4px solid #F1DD38; text-align: center; font-family: monospace;">
-  <code style="font-size: 1.05rem; color: #eee; background: none; display: block; overflow-x: auto; white-space: nowrap; padding-bottom: 5px;">
+<div style="margin: 2rem 0; padding: 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #F1DD38; text-align: center; font-family: monospace;">
+  <code style="font-size: 1.05rem; color: currentColor; background: none; display: block; overflow-x: auto; white-space: nowrap; padding-bottom: 5px;">
      1.5 CaSO<sub>4</sub>·2H<sub>2</sub>O(s) + CH<sub>3</sub>COO<sup>-</sup>(aq) + H<sup>+</sup>(aq) &rarr; 1.5 CaCO<sub>3</sub>(s) + 0.5 CO<sub>2</sub>(g) + 5 H<sub>2</sub>O(l) + <span style="color: #F1DD38; font-weight: bold;">1.5 S<sup>0</sup>(s)</span>
   </code>
 </div>
