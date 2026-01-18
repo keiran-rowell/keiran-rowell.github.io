@@ -15,7 +15,15 @@ Load in the mhchem TeX library for \ce{} rendering
       load: ['[tex]/mhchem']
     },
     options: {
-      processHtmlClass: 'hy-drawer-content|content' 
+      processHtmlClass: 'content' 
+    },
+    startup: {
+      pageReady: () => {
+        return MathJax.startup.defaultPageReady().then(() => {
+          // Force a re-render after the initial load
+          MathJax.typeset();
+        });
+      }
     }
   };
 </script>
