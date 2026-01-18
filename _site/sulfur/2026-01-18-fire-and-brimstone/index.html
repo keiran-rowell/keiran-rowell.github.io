@@ -119,7 +119,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-18T22:21:07+11:00',
+    INDEX_KEY: 'index--2026-01-18T23:08:40+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -158,14 +158,27 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 Load in the mhchem TeX library for \ce{} rendering
 -->
 <script>
-  window.MathJax = {
-    tex: {
-      packages: {'[+]': ['mhchem']}
-    },
-    loader: {
-      load: ['[tex]/mhchem']
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/color'] },
+  tex: {
+    packages: {'[+]': ['mhchem', 'color']},
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  options: {
+    processHtmlClass: 'content'
+  },
+  startup: {
+    pageReady: () => {
+      return MathJax.startup.defaultPageReady().then(() => {
+        // Only typeset if the Hydejack content is actually there
+        if (document.querySelector('.content')) {
+          MathJax.typeset();
+        }
+      });
     }
-  };
+  }
+};
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
@@ -400,7 +413,7 @@ It’s just smoke. Go on, you know I can’t say no</em></p>
 
 <p>Six million years prior, the Messinian salinity crisis 6 millions years created the opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:</p>
 
-\[\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -&gt; CaCO3(s) + CO2(g) + 3H2O(l) + {\color{#F1DD38}S^0(s)}}\]
+\[\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -&gt; CaCO3(s) + CO2(g) + 3H2O(l) + {\color{yellow}S^0(s)}}\]
 
 <p><img src="/images/I_carusi.jpg" alt="I_carusi" /></p>
 
@@ -1035,6 +1048,20 @@ With ever-burning sulfur unconsumed</em></p>
 
 <!--<![endif]-->
   <!--
+The below for making mobile browsers not stopped before the chemical math rendering engine kicks in
+-->
+<script>
+  document.querySelector('hy-push-state').addEventListener('hy-push-state-load', () => {
+    if (window.MathJax && window.MathJax.typesetPromise) {
+      // typesetPromise is safer than typeset() as it won't double-fire 
+      window.MathJax.typesetPromise();
+    }
+  });
+</script>
+
+
+
+<!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
 <script>

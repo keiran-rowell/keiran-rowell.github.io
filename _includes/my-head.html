@@ -6,14 +6,13 @@ Load in the mhchem TeX library for \ce{} rendering
 -->
 <script>
 window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/color'] },
   tex: {
-    packages: {'[+]': ['mhchem']},
+    packages: {'[+]': ['mhchem', 'color']},
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$', '$$'], ['\\[', '\\]']]
   },
-  loader: { load: ['[tex]/mhchem'] },
   options: {
-    enableMenu: false,
     processHtmlClass: 'content'
   },
   startup: {

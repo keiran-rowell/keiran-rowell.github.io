@@ -54,7 +54,7 @@ In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur
 
 Six million years prior, the Messinian salinity crisis 6 millions years created the opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum ($\ce{CaSO4}$) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
  
-$$\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -> CaCO3(s) + CO2(g) + 3H2O(l) + {\color[hex]{F1DD38}S^0(s)}}$$     
+$$\ce{CaSO4·2H2O(s) + CH3COO-(aq) + H+(aq) -> CaCO3(s) + CO2(g) + 3H2O(l) + {\color{yellow}S^0(s)}}$$     
 
 ![I_carusi](/images/I_carusi.jpg)
 
