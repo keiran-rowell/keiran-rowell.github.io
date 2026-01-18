@@ -116,7 +116,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-18T23:25:26+11:00',
+    INDEX_KEY: 'index--2026-01-18T23:29:52+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -173,12 +173,26 @@ Load in the mhchem TeX library for \ce{} rendering
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']]
     },
-    loader: {
-      load: ['[tex]/mhchem']
+    loader: { load: ['[tex]/mhchem'] },
+    startup: {
+      pageReady: () => {
+        return MathJax.startup.defaultPageReady().then(() => {
+          // The "Watcher": Fires as soon as Hydejack injects the post
+          const observer = new MutationObserver((mutations, obs) => {
+            const content = document.querySelector('.content');
+            if (content) {
+              MathJax.typesetPromise();
+              obs.disconnect(); // Kill the watcher immediately after success
+            }
+          });
+          observer.observe(document.body, { childList: true, subtree: true });
+        });
+      }
     }
   };
 </script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 
 <!--
 Code used for embedding Gumroad on the Hydejack Site. 

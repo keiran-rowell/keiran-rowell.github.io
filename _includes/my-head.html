@@ -23,12 +23,26 @@ Load in the mhchem TeX library for \ce{} rendering
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']]
     },
-    loader: {
-      load: ['[tex]/mhchem']
+    loader: { load: ['[tex]/mhchem'] },
+    startup: {
+      pageReady: () => {
+        return MathJax.startup.defaultPageReady().then(() => {
+          // The "Watcher": Fires as soon as Hydejack injects the post
+          const observer = new MutationObserver((mutations, obs) => {
+            const content = document.querySelector('.content');
+            if (content) {
+              MathJax.typesetPromise();
+              obs.disconnect(); // Kill the watcher immediately after success
+            }
+          });
+          observer.observe(document.body, { childList: true, subtree: true });
+        });
+      }
     }
   };
 </script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 
 <!--
 Code used for embedding Gumroad on the Hydejack Site. 
