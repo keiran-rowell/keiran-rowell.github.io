@@ -8,9 +8,14 @@ Load in the mhchem TeX library for \ce{} rendering
   window.MathJax = {
     tex: {
       packages: {'[+]': ['mhchem']}
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+      displayMath: [['$$', '$$'], ['\\[', '\\]']] 
     },
     loader: {
       load: ['[tex]/mhchem']
+    },
+    options: {
+      processHtmlClass: 'hy-drawer-content|content' 
     }
   };
 </script>
