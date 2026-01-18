@@ -70,7 +70,7 @@ Techniques remained primitive. All mining had to be done by pick -- explosives r
 --- *The Man Farthest Down*, Booker T. Washington, **1911**
 {:.faded}
 
-The conditions of the Sicilian mines are still inscribed in the memories of the [Sicilian diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and a bracing film depicting a [child miner's life in the Floristella mines](https://youtu.be/p_4abqpxlZs?si=HDjE8h_DK9Ax19SV)
+The conditions of the Sicilian mines are still inscribed in the memories of the [Sicilian diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and a bracing film depicting a [child miner's life in the Floristella mines](https://letterboxd.com/film/aclas-descent-into-floristella/)
 
 The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egyptian, Chinese), Sicily held unique advantages with its tranquil golden vein of native sulfur. Other ancients had visit active tectonic sites --- like Greek Island of Milos, or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed [complex alchemical 'roasting' processes](https://www.jstor.org/stable/231610) to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
 
