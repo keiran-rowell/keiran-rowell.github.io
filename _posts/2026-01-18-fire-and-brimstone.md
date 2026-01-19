@@ -4,7 +4,7 @@ author: keiran
 title: "Blue Fire and Yellow Brimstone: the world's waning appetite for hellish sulfur"
 description: "📖 10 min read • Life and death from Satan's gold"
 category: sulfur
-tags: 
+tags: sulfur chemistry volcanoes gold mining gunpowder LUCA iron-sulfur clusters pollution Mafia Greek fire 
 image:
   path: /images/Menambang_Belerang.jpg 
   alt: "Manual sulfur extraction at the Ijen volcano complex. East Java, Indonesia"
