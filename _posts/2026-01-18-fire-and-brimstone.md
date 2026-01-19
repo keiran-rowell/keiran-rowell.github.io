@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "Blue Fire and Yellow Brimstone: the world's waning appetite for hellish sulfur"
-description: "📖 10 min read • Life and death from Satan's gold"
+description: "📖 15 min read • Life and death from Satan's gold"
 category: sulfur
 tags: sulfur chemistry volcanoes gold mining gunpowder LUCA iron-sulfur clusters pollution Mafia Greek fire 
 image:
@@ -136,7 +136,7 @@ Sulfur's changeable electron count makes it useful: it is the non-metal element 
 Iron-Sulfur clusters that act as waypoints in the electrical process of life, including the reactive 'crucible' of [nitrogenase]({% post_url 2023-06-14-nitrogen-fixation %}). Tracey A. Rouault & Wing-Hang Tong, ["Iron-sulphur cluster biogenesis and mitochondrial iron homeostasis"](https://doi.org/10.1038/nrm1620), *Nature Reviews Molecular Cell Biology*, *6*, 345--351, **2005**.  
 {:.figcaption} 
 
-Electrons ---whether generated from cracking an oxygen-phosphorus bond in the 'battery molecule' ATP, [converted from sunlight by plant photosystems](https://youtu.be/jlO8NiPbgrk?si=Bi9rNWMIGRys8WqG), ingested from Earth's mineral crust, or swapped during redox in chemotrophy--- must be channelled from junction to junction. Life’s electrons don't typically get to their destination by traveling as free particles; they propagate as waves. This could be through free-space, but the wave is attenuated rapidly over short distances in that medium (around tenths of a nanometer, ~1.7 Å). Even travelling along 'non-conductive' covalent bond is preferable to the vacuum. So, the amino acid [linkages in proteins themselves act to wire up the way points](https://www.science.org/doi/10.1126/science.1656523) (nucleic acids moreso [due to delocalised electron sharing between stacked nucleobases](https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-042018-052353)). 
+Electrons ---whether generated from cracking an oxygen-phosphorus bond in the 'battery molecule' ATP, [converted from sunlight by plant photosystems](https://youtu.be/jlO8NiPbgrk?si=Bi9rNWMIGRys8WqG), ingested from Earth's mineral crust, or swapped during redox in chemotrophy--- must be channelled from junction to junction. Life’s electrons don't typically get to their destination by traveling as free particles; they propagate as waves. This could be through free-space, but the wave is attenuated rapidly over short distances in that medium (around tenths of a nanometer, ~1.7 Å). Even travelling along a 'non-conductive' covalent bond is preferable to the vacuum. So, the amino acid [linkages in proteins themselves act to wire up the way points](https://www.science.org/doi/10.1126/science.1656523) (nucleic acids moreso [due to delocalised electron sharing between stacked nucleobases](https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-042018-052353)). 
 
 Along bonds, an electron's attenuation distance increases, enough to tunnel from bond to bond in a process referred to by physicists as superexchange. Biological electron transfer is therefore a 'through-bond' process, and these quantum particles don't take just one path: the coupling between donor and acceptor waypoints exhibits a wave's phase, including constructive and destructive interference. The behaviour can't be explained purely classically, much like the double-slit experiment couldn't.   
 
