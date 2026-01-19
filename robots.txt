@@ -6,6 +6,11 @@ Allow: /
 # Allow all assets (needed for proper rendering in search previews)
 Allow: /assets/
 
+# Block Jekyll's internal metadata (just in case crawler picks it up twice)
+Disallow: /_site/
+Disallow: /_includes/
+Disallow: /_layouts/
+
 # Sitemap
 Sitemap: https://keiran-rowell.github.io/sitemap.xml
 
