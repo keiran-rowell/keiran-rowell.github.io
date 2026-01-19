@@ -430,3 +430,5 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
+# Force rebuild 2026-01-19
