@@ -88,9 +88,9 @@ Sicilian sulfur was [a coveted Medieval commodity](https://youtu.be/FzIg3yDC6pg?
 
 The mixture for this exact hellflame is lost to history, but early sources for similar concoctions hint at sulfur's inclusion in this demonic incendiary. 
 
->  Automatic fire is composed of equal parts of native sulfur, rock salt, incense, thunderbolt stone, or pyrites, ground in a black mortar in the midday sun, and mixed with equal parts of the resin of the black sycamore and liquid asphalt of Zakynthos to a greasy paste. 
+>  [Automatic fire is composed of equal parts of:] sulfur, rock salt, ashes, thunder stone, and pyrite, and pound fine in black mortar, at midday sun. Also in equal amounts of each ingredient, mix together black mulberry sap and with equal Zakynthian asphalt, the latter in liquid form and free flowing, resulting in a product that is sooty coloured. 
 
---- *Kestoi* [Fragment D25], Sextus Julius Africanus, **c. 220 CE**
+--- *Kestoi* [Fragment D25---*Spontaneous Combustion*], Sextus Julius Africanus [[William Alder's translation](https://www.google.com.au/books/edition/_/9Ngkld9MwSkC?hl=en&newbks=1)], **c. 220 CE**
 {:.faded} 
 
 
