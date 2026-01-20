@@ -83,7 +83,7 @@ Sicilian sulfur was [a coveted Medieval commodity](https://youtu.be/FzIg3yDC6pg?
 
 ![Greek fire](/images/Greekfire-madridskylitzes1.jpg)
 
-"The Roman fleet setting fire to the enemy fleet [led by Thomas of Sicily]". *Madrid Skylitzes*, manuscript on the Byzantines for the court of Palermo in Sicily, **12th century CE**
+"The Roman fleet setting fire to the enemy fleet [led by Thomas the Slav]". *Madrid Skylitzes*, manuscript on the Byzantines for the court of Palermo in Sicily, **12th century CE**
 {:.figcaption}
 
 The mixture for this exact hellflame is lost to history, but early sources for similar concoctions hint at sulfur's inclusion in this demonic incendiary. 
