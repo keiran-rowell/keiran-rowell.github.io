@@ -1,17 +1,22 @@
 ---
 layout: post
 author: keiran
-title: "The Oxygen Apocalypse: why symmetry saves your skin"
+title: "The Oxygen Apocalypse: how symmetry saved us from the flames"
 description: 
 published: false
 category: oxygen 
 tags: 
 image: 
-  path: /images/O2_triplet_spin-density.jpg 
-  alt: "Unpaired spin density in triplet oxygen"
+  path: /images/Vaalbara_Continent.jpg
+  alt: "The Archean dominated 'purple earth'"
 ---
 
-> That everything is on fire, slow fire, and we're all <p title="Mercifully, half a billion">less than a million breaths</p> away from an oblivion more total than we can even bring ourselves to even try to imagine...
+*An artist's impression of Earth in the early Archean with a purplish hydrosphere and coastal regions.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Vaalbara_Continent.jpg) [CC BY-SA 4.0]
+{:.figcaption}
+
+---
+
+> That everything is on fire, slow fire, and we're all <span title="Mercifully, half a billion">less than a million breaths</span> away from an oblivion more total than we can even bring ourselves to even try to imagine...
 
 --- *The Pale King*, David Foster Wallace
 
