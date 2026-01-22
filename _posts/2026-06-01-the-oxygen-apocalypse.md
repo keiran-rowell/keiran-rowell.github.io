@@ -1,8 +1,8 @@
 ---
 layout: post
 author: keiran
-title: "The Oxygen Apocalypse: how symmetry saved us from the flames"
-description: 
+title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
+description: "📖 15 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life" 
 published: false
 category: oxygen 
 tags: 
@@ -28,7 +28,7 @@ We are protected at every moment by a quantum mechanical safety catch. The most 
 
 An insuperable barrier of electronic symmetry is our shield.
 
-[MO diagram both of of energy levels but the gerade *symmetry* of an oxygen state]
+[MO diagram both of of energy levels but the gerade *symmetry* of an oxygen state] --O2 MOs but make is spicy
 
 The molecular oxygen in the air is a diradical --- it is not stably bound; it  has two unpaired electrons.
 ... science stuff
@@ -47,32 +47,6 @@ Oxygen production as an *environmental disaster* that killed most other life.
 The Purple Earth hypothesis
 The purple ancients (the archaea)
 
-### ...and their kin choked
-
-Corrosion. 
-
-Treat this like a highly corrosive gas spill in a ocean zoo.
-Seeping through cell membranes shredding their DNA so their informative was erased from the genetic pool.
-The extinction of other life wherever the gas could reach. What's left are in still pockets of anaerobic resistance.
-
-The purple world being bleaches green.
-
-The death of the purple Earth for chlorophyll filled green photosynthesisers
-
-GIANT DRAGONFLIES
-
-### ...and the oceans bled
-
-Oxygen rusted the oceans. It was freen from free iron radical before
-
-![Jaspilite banded iron formation](/images/Jaspilite_banded_iron_formation.jpg)
-
-### ...and the Earth froze
-
-Oxygen triggering the ice age from the consumed greenhouse blanket
-
-The great Glaciation
-
 ### ...and the sea boiled
 
 The oxygen evolving complex -- split water like its nothing, just from light
@@ -87,6 +61,43 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 [ Diagram of OEC core and birnessite ]
 
 A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle. [The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223).  [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around in the mantle -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
+
+### ...and the oceans bled
+
+Oxygen rusted the oceans. It was freen from free iron radical before
+
+![Jaspilite banded iron formation](/images/Jaspilite_banded_iron_formation.jpg)
+
+The ferrous layer prevented the oxygen from reaching the atmosphere. Only when it was consumed into iron oxides did oxygen escape into the atmosphere
+
+
+### ...and their kin choked
+
+Corrosion. 
+
+Treat this like a highly corrosive gas spill in a ocean zoo.
+Seeping through cell membranes shredding their DNA so their informative was erased from the genetic pool.
+The extinction of other life wherever the gas could reach. What's left are in still pockets of anaerobic resistance.
+
+The purple world being bleaches green.
+
+The death of the purple Earth for chlorophyll filled green photosynthesisers
+
+GIANT DRAGONFLIES
+
+
+### ...and the Earth froze
+
+Methanogenic bacteria
+
+A incredibly thick greenhouse gas blanket
+
+Converted into CO2, a far less potent greenhouse gas (I think it's a factor of 10x-100x, look it up). This is about CO2 really only has antisymmetric modes to do Raman absorption.
+
+Oxygen triggering the ice age from the consumed greenhouse blanket
+
+The great Glaciation. 200 million years of ice age.
+
 
 ### ...and life rose up
 
