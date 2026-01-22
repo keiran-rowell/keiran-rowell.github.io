@@ -32,10 +32,10 @@ An insuperable barrier of electronic symmetry is our shield.
 > **Technical Briefing: The Quantum Safety Catch**
 > ![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
 >
-> **The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin ---triplet state--- option ($$^3\Sigma_g^-$$) that makes up 20% of our atmospheric has its  reactivity "locked", with new spin density constrained by spin-interaction rules between molecules. For the opposite spin-pairs ---singlet state--- options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
+> **The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin ---triplet state--- option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with net spin density constrained by spin-interaction rules between molecules. For the opposite-spin pairs ---singlet state--- options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
 {: .textbook}
 
-The molecular oxygen in the air is a diradical --- it is not stably bound; it  has two unpaired electrons. That makes it a molecule in a 'triplet' state. In almost all molecules on earth, they live in a 'singlet' state where all electrons are paired off.
+The molecular oxygen in the air is a diradical ---  it  has two unpaired electrons. That makes it a molecule in a 'triplet' state. In almost all molecules on earth, they live in a 'singlet' state where all electrons are paired off.
 
 Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.com/shorts/dYH7xxYLHvs)
 
