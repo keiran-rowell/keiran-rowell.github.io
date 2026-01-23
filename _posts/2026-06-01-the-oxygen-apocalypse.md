@@ -112,6 +112,28 @@ The death of the purple Earth for chlorophyll filled green photosynthesisers
 GIANT DRAGONFLIES
 
 
+### ...and the sky thinned
+
+<div style="margin: 2rem 0; padding: 2.5rem 1.5rem 1.5rem 1.5rem; background: rgba(0, 123, 255, 0.03); border-left: 4px solid #add8e6; text-align: center; font-family: monospace;">
+  <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.15rem; color: #2c3e50;">
+    
+    <span>CH<sub>4</sub> + 2<span style="color: #d00000; font-weight: bold;">O</span><sub>2</sub></span>
+    
+    <span style="position: relative; display: inline-flex; align-items: center; margin: 0 1.25rem; min-width: 3rem; justify-content: center;">
+      <span style="font-size: 1.6rem; line-height: 1;">&xrarr;</span>
+    </span>
+
+    <span>C<span style="color: #d00000; font-weight: bold;">O</span><sub>2</sub> + 2H<sub>2</sub><span style="color: #d00000; font-weight: bold;">O</span></span>
+    
+  </div>
+</div>
+
+
+An greenhouse gas blanket 30-90x more potent than CO2
+
+Converted into CO2, a far less potent greenhouse gas (I think it's a factor of 10x-100x, look it up). This is about CO2 really only has antisymmetric modes to do Raman absorption.
+
+
 ### ...and the Earth froze
 
 ![Snowball Earth](/images/Snowball_Huronian.jpg)
@@ -121,10 +143,6 @@ GIANT DRAGONFLIES
 
 
 Methanogenic bacteria
-
-A incredibly thick greenhouse gas blanket
-
-Converted into CO2, a far less potent greenhouse gas (I think it's a factor of 10x-100x, look it up). This is about CO2 really only has antisymmetric modes to do Raman absorption.
 
 Oxygen triggering the ice age from the consumed greenhouse blanket
 
