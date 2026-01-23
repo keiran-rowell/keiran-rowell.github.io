@@ -19,6 +19,7 @@ image:
 > That everything is on fire, slow fire, and we're all <span title="Mercifully, half a billion">less than a million breaths</span> away from an oblivion more total than we can even bring ourselves to even try to imagine...
 
 --- *The Pale King*, David Foster Wallace
+{:.faded}
 
 ---
 
@@ -32,7 +33,7 @@ An insuperable barrier of electronic symmetry is our shield.
 > **Technical Briefing: The Quantum Safety Catch**
 > ![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
 >
-> **The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin ---triplet state--- option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with net spin density constrained by spin-interaction rules between molecules. For the opposite-spin pairs ---singlet state--- options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
+> **The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin ---triplet state--- option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density constrained by spin-interaction rules between molecules. For the opposite-spin pairs ---singlet state--- options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
 {: .textbook}
 
 The molecular oxygen in the air is a diradical ---  it  has two unpaired electrons. That makes it a molecule in a 'triplet' state. In almost all molecules on earth, they live in a 'singlet' state where all electrons are paired off.
@@ -42,6 +43,11 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 ---
 
 ### They captured the sun...
+
+![Chroococcidiopsis Thermalis](/images/Chroococcidiopsis_thermalis.jpg)
+
+Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonization.html) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
+{:.figcaption}
 
 ### ...and began to breathe
 
@@ -92,6 +98,12 @@ GIANT DRAGONFLIES
 
 ### ...and the Earth froze
 
+![Snowball Earth](/images/Snowball_Huronian.jpg)
+
+*An artist's impression of "Snowball Earth" during the Huronian Glaciation.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Snowball_Huronian.jpg) [CC BY-SA 4.0]
+{:.figcaption}
+
+
 Methanogenic bacteria
 
 A incredibly thick greenhouse gas blanket
@@ -105,10 +117,34 @@ The great Glaciation. 200 million years of ice age.
 
 ### ...and life rose up
 
+![Great Oxidation Event and complex and eukaryotes](/images/GoE_proteozoic.png) 
+
+Molecular, geological and fossil evidence for the the arrival of complex life following the Great Oxidation Event (GOE). "[Eukaryogenesis and oxygen in Earth history](https://doi.org/10.1038/s41559-022-01733-y)", Mills, B.; Boyle, R.; Daines, S.; Sperling, E.; Pisani, D.; Donoghue, P.; Lenton, T.; *Nature Ecology & Evolution*, *6*, 520--532, **2022** 
+{:.figcaption}
+
+
 Respiration yields way more energy, higher order life forms could be supported compared to fermenting microbes
 
 
 ### ...and aged away.
+
+<div style="margin: 2rem 0; padding: 2.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #d00000; text-align: center; font-family: monospace;">
+  <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.15rem; color: #333;">
+    
+    <span>&bull;<span style="color: #d00000; font-weight: bold;">O</span><sub>2</sub><sup>&minus;</sup> + H<sub>2</sub><span style="color: #d00000; font-weight: bold;">O</span><sub>2</sub></span>
+    
+    <span style="position: relative; display: inline-flex; align-items: center; margin: 0 1.25rem; min-width: 3rem; justify-content: center;">
+      <span style="position: absolute; width: 100%; bottom: 1.1em; left: 0; text-align: center; font-size: 0.75rem; font-weight: bold;">Fe</span>
+      <span style="font-size: 1.6rem; line-height: 1;">&xrarr;</span>
+    </span>
+
+    <span>&bull;<span style="color: #d00000; font-weight: bold;">O</span>H + <span style="color: #d00000; font-weight: bold;">O</span>H<sup>&minus;</sup> + <span style="color: #d00000; font-weight: bold;">O</span><sub>2</sub></span>
+    
+  </div>
+</div>
+
+Biologically dissolved oxygen (•O</span><sub>2</sub><sup>&minus) generates reactive oxygen species that trigger cell again by oxidative stress. The net Haber--Weiss (*i.e.* [Fritz Haber]( nitrogen fixation post_url) fame) reaction is shown above.
+{:.figcaption}
 
 Oxygenated free radicals and cell aging. Reactive oxygen species. The *opposite* of rejuvenation
 
@@ -117,3 +153,4 @@ Oxygenated free radicals and cell aging. Reactive oxygen species. The *opposite*
 > Oooooxxxyyygeeeennnn
 
 --- *To Be Kind*, Swans
+{:.faded}
