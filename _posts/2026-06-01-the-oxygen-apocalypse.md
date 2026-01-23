@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
-description: "📖 15 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life" 
+description: "📖 15 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
 published: false
 category: oxygen 
 tags: 
@@ -51,6 +51,12 @@ Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live of
 
 ### ...and began to breathe
 
+
+![Oxygenation of the atmosphere over geological time](/images/Oxygenation-atm.png)
+
+The upper (*red*) and lower (*green*) bounds on the oxygen levels in Earth's atmosphere, on a billions of years timescale. [Heinrich D. Holland](https://commons.wikimedia.org/wiki/File:Oxygenation-atm-2.svg) [CC BY-SA 3.0]
+{:.figcaption}
+
 Oxygen production as an *environmental disaster* that killed most other life.
 "The Great Englufing"
 
@@ -64,11 +70,17 @@ Oxidation states because fluoridation states isn't as common. Electron stealers.
 
 These green bacteria had developed spin-forbidden alien technology. The [Oxygen Evolving Complex](https://doi-org.wwwproxy1.library.unsw.edu.au/10.1126/science.1093087) would radically terraform the Earth. The 'S-state' clock in the Manganese core is a [highly calibrated spin aligner](https://www.nature.com/articles/s41586-018-0681-2). 
 
-[ S-state clock diagram ]
+> [ S-state clock diagram ]
+>
+> [Technical description]
+{:.textbook}
 
 The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; [spin polarisers]() from asymmetric units ensured departing electrons could take the substance the world was drowning in ---singlet water-- and pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
 
-[ Diagram of OEC core and birnessite ]
+> [ Diagram of OEC core and birnessite ]
+>
+> [Technical description]
+{:.textbook}
 
 A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle. [The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223).  [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around in the mantle -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
 
@@ -82,6 +94,10 @@ The ferrous layer prevented the oxygen from reaching the atmosphere. Only when i
 
 
 ### ...and their kin choked
+
+
+![Oxidiser pictogram](/images/GHS-pictogram-oxidiser.png)
+
 
 Corrosion. 
 
