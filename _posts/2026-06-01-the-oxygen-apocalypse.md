@@ -1,15 +1,3 @@
----
-layout: post
-author: keiran
-title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
-description: "📖 15 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
-published: false
-category: oxygen 
-tags: 
-image: 
-  path: /images/Vaalbara_Continent.jpg
-  alt: "The Archean dominated 'purple earth'"
----
 
 *An artist's impression of Earth in the early Archean with a purplish hydrosphere and coastal regions.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Vaalbara_Continent.jpg) [CC BY-SA 4.0]
 {:.figcaption}
@@ -70,19 +58,36 @@ Oxidation states because fluoridation states isn't as common. Electron stealers.
 
 These green bacteria had developed spin-forbidden alien technology. The [Oxygen Evolving Complex](https://doi-org.wwwproxy1.library.unsw.edu.au/10.1126/science.1093087) would radically terraform the Earth. The 'S-state' clock in the Manganese core is a [highly calibrated spin aligner](https://www.nature.com/articles/s41586-018-0681-2). 
 
-> [ S-state clock diagram ]
+> **Technical Briefing: The quantum lockpick**
+> ![The OEC and S-clock diagrams](/images/OEC_S-clock.png)
+>
+>  [*Left*] The Oxygen Evolving Complex (OEC): "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
+> [*Right*] The "spin doide" S-clock (as in singlet state clock) that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis]"(), Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
+> {:.figcaption}
 >
 > [Technical description]
 {:.textbook}
 
 The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; [spin polarisers]() from asymmetric units ensured departing electrons could take the substance the world was drowning in ---singlet water-- and pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
 
-> [ Diagram of OEC core and birnessite ]
+> **Technical Briefing: The metal-oxide cluster spin diode**
+> ![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
+>
+> [*Left & Middle*] The Manganese-Oxide--Calcium cluster of the Oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. [*Right*] The natural mineral birnessite the generates oxygen from water in the present of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838–-22846, **2015** 
+> {:.figcaption}
 >
 > [Technical description]
 {:.textbook}
 
-A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle. [The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223).  [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around in the mantle -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
+A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle.i
+
+
+![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
+
+Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedition](https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2104-features-nodule/). NOAA, [[Public domain](https://www.omao.noaa.gov/image-licensing-usage-info)]
+{:.figcaption}
+
+[The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around in the mantle -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
 
 ### ...and the oceans bled
 
@@ -177,7 +182,7 @@ Respiration yields way more energy, higher order life forms could be supported c
   </div>
 </div>
 
-Biologically dissolved oxygen (•O</span><sub>2</sub><sup>&minus) generates reactive oxygen species that trigger cell again by oxidative stress. The net Haber--Weiss (*i.e.* [Fritz Haber]( nitrogen fixation post_url) fame) reaction is shown above.
+Biologically dissolved oxygen (•O<sub>2</sub><sup>--</sup>) generates reactive oxygen species that trigger cell again by oxidative stress. The net Haber--Weiss (*i.e.* [Fritz Haber]( nitrogen fixation post_url) fame) reaction is shown above.
 {:.figcaption}
 
 Oxygenated free radicals and cell aging. Reactive oxygen species. The *opposite* of rejuvenation
