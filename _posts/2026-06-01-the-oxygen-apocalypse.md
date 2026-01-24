@@ -1,3 +1,15 @@
+---
+layout: post
+author: keiran
+title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
+description: "📖 15 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
+published: false
+category: oxygen 
+tags: 
+image: 
+  path: /images/Vaalbara_Continent.jpg
+  alt: "The Archaean dominated 'purple earth'"
+---
 
 *An artist's impression of Earth in the early Archean with a purplish hydrosphere and coastal regions.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Vaalbara_Continent.jpg) [CC BY-SA 4.0]
 {:.figcaption}
@@ -79,7 +91,7 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 > [Technical description]
 {:.textbook}
 
-A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle.i
+A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle.
 
 
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
@@ -94,6 +106,9 @@ Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedit
 Oxygen rusted the oceans. It was freen from free iron radical before
 
 ![Jaspilite banded iron formation](/images/Jaspilite_banded_iron_formation.jpg)
+
+Banded iron formation in Soudan underground state park, MN. [James St. John](https://www.flickr.com/photos/jsjgeology/collections/72157646528279537/), [CC BY 2.0] 
+{:.figcaption}
 
 The ferrous layer prevented the oxygen from reaching the atmosphere. Only when it was consumed into iron oxides did oxygen escape into the atmosphere
 
