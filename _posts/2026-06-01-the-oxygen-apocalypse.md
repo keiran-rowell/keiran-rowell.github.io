@@ -49,7 +49,7 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonization.html) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-### ...and began to breathe
+### ...and began to exhale 
 
 
 ![Oxygenation of the atmosphere over geological time](/images/Oxygenation-atm.png)
