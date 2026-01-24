@@ -16,14 +16,52 @@ image:
 
 ---
 
+<style>
+   /* Section Headings - The "Cyanobacteria" Green */
+  h3 {
+    color: #BBDD66 !important;
+    font-size: 1.8em;
+    margin-top: 2em;
+    /* Subtle shadow helps light green pop on white backgrounds */
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.05);
+    font-weight: 700;
+  }
+
+  .textbook {
+    background-color: #fcfaff;
+    border-left: 6px solid #9B59B6 !important; /* Forces the purple spin-up electron color */
+    padding: 1.5em;
+    margin: 2em 0;
+    border-radius: 0 4px 4px 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.03);
+    overflow: visible !important; /* Critical: stops the tooltip from being swallowed */
+  }
+
+  .textbook strong {
+    color: #8e44ad;
+  }
+
+  blockquote {
+    overflow: visible !important;
+  }
+
+  span[title] {
+    border-bottom: 1px dotted #9B59B6;
+    cursor: help;
+  }
+</style>
+
 > That everything is on fire, slow fire, and we're all <span title="Mercifully, half a billion">less than a million breaths</span> away from an oblivion more total than we can even bring ourselves to even try to imagine...
+{:.textbook}
 
 --- *The Pale King*, David Foster Wallace
 {:.faded}
 
 ---
 
-### Diradical by Nature
+### <span style="color: #8E7CC3">Diradical by Nature</span>
 
 
 We are protected at every moment by a quantum mechanical safety catch. The most dangerous element of our atmosphere normally can't react with us. It is physically <span class="germania-text">verboten</span>. Oxygen doesn't immediately burn our organic matter to a crisp because our molecules are a different *spin state* to O<sub>2</sub>. 
@@ -82,7 +120,8 @@ A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove t
 > {:.figcaption}
 >
 > [Technical description]
->
+{:.textbook}
+
 > <div>
    <div style="margin: 2rem 0; padding: 3.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #45BB58; text-align: center; font-family: monospace;">
   <div style="font-size: 1.1rem; color: #333; line-height: 1.2; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
