@@ -11,7 +11,7 @@ image:
   alt: "The Archaean dominated 'purple earth'"
 ---
 
-*An artist's impression of Earth in the early Archean with a purplish hydrosphere and coastal regions.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Vaalbara_Continent.jpg) [CC BY-SA 4.0]
+*An artist's impression of Earth in the early Archean with a purple hydrosphere.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Vaalbara_Continent.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
 ---
@@ -61,7 +61,9 @@ Oxygen production as an *environmental disaster* that killed most other life.
 "The Great Englufing"
 
 The Purple Earth hypothesis
-The purple ancients (the archaea)
+The purple ancients (the <span style="color: #8E7CC3">archaea</span> -- literally 'the ancients')
+
+The <span style="color:#BBDD66">Cyanos</span>
 
 ### ...and the sea boiled
 
@@ -70,7 +72,9 @@ Oxidation states because fluoridation states isn't as common. Electron stealers.
 
 These green bacteria had developed spin-forbidden alien technology. The [Oxygen Evolving Complex](https://doi-org.wwwproxy1.library.unsw.edu.au/10.1126/science.1093087) would radically terraform the Earth. The 'S-state' clock in the Manganese core is a [highly calibrated spin aligner](https://www.nature.com/articles/s41586-018-0681-2). 
 
-> **Technical Briefing: The quantum lockpick**
+A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove this electronic cycle.
+
+> **Technical Briefing: The Quantum Lockpick**
 > ![The OEC and S-clock diagrams](/images/OEC_S-clock.png)
 >
 >  [*Left*] The Oxygen Evolving Complex (OEC): "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
@@ -119,11 +123,10 @@ These green bacteria had developed spin-forbidden alien technology. The [Oxygen 
 >
 > The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-arming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II resting state by donating electrons to the cluster oxygens and surrounding protein. 
 >
-> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. One manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state, triggering an electron cascade in *femto* (10<sup>–15</sup>) seconds that splits water; forming a triplet O-O bond, and exhaling oxygen into the world.
+> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. One 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state, triggering an electron cascade in *femto* (10<sup>–15</sup>) seconds that splits water; forming a triplet O-O bond, and exhaling oxygen into the world.
 >
 {:.textbook}
 
-The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; [spin polarisers]() from asymmetric units ensured departing electrons could take the substance the world was drowning in ---singlet water-- and pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
 
 > **Technical Briefing: The metal-oxide cluster spin diode**
 > ![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
@@ -137,8 +140,9 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 >
 {:.textbook}
 
-A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle.
+The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; the [spin polariser]() of the asymmetrically distorted cluster ensured departing electrons would pass through the spin-state barrier. The cyanos could take the substance the world was drowning in ---singlet water--- and, at ambient temperature, pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
 
+### ...and the oceans bled
 
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
 
@@ -147,7 +151,6 @@ Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedit
 
 [The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around in the mantle -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
 
-### ...and the oceans bled
 
 Oxygen rusted the oceans. It was freen from free iron radical before
 
@@ -230,7 +233,7 @@ Molecular, geological and fossil evidence for the the arrival of complex life fo
 Respiration yields way more energy, higher order life forms could be supported compared to fermenting microbes
 
 
-### ...and aged away.
+### ...and aged away
 
 <div style="margin: 2rem 0; padding: 2.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #d00000; text-align: center; font-family: monospace;">
   <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.15rem; color: #333;">
@@ -251,6 +254,11 @@ Biologically dissolved oxygen (•O<sub>2</sub><sup>--</sup>) generates reactive
 {:.figcaption}
 
 Oxygenated free radicals and cell aging. Reactive oxygen species. The *opposite* of rejuvenation
+
+### ...and everything's on fire.
+
+The atmosphere is now a great, slow, combustion engine. The steel of our cities is built from the oxidised blood of the ocean. The plants of our parks are the descendents of the cyanos. The ancients are all but wiped out wherever oxygen could reach. Our lungs fill with a combustible gas to be burnt by our internal mitochondrial symbionts. But still the law: all things decay and age.
+
 
 ---
 
