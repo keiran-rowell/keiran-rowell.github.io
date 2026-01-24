@@ -117,7 +117,9 @@ These green bacteria had developed spin-forbidden alien technology. The [Oxygen 
   </div>
 </div>
 >
-> S<sub>1</sub> as the "armed" resting dark-state of the OEC. Charging the diode: the +V charge state of manganese is so hard to create its existing is fleeting, only enough to trigger an electron cascade that ejects triplet oxygen 
+> The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-arming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II resting state by donating electrons to the cluster oxygens and surrounding protein. 
+>
+> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. One manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state, triggering an electron cascade in *femto* (10<sup>–15</sup>) seconds that splits water; forming a triplet O-O bond, and exhaling oxygen into the world.
 >
 {:.textbook}
 
