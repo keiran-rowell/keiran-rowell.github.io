@@ -74,10 +74,51 @@ These green bacteria had developed spin-forbidden alien technology. The [Oxygen 
 > ![The OEC and S-clock diagrams](/images/OEC_S-clock.png)
 >
 >  [*Left*] The Oxygen Evolving Complex (OEC): "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
-> [*Right*] The "spin doide" S-clock (as in singlet state clock) that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis]"(), Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
+> <br> [*Right*] The "spin doide" S-clock (as in singlet state clock) that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
 > {:.figcaption}
 >
 > [Technical description]
+>
+> <div>
+   <div style="margin: 2rem 0; padding: 3.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #45BB58; text-align: center; font-family: monospace;">
+  <div style="font-size: 1.1rem; color: #333; line-height: 1.2; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
+    
+    <span style="font-weight: bold; color: #45BB58;">S<sub>1</sub></span> 
+    <span style="font-size: 0.7rem; color: #777; font-family: 'Courier New', monospace; margin-left: 2px;">[Mn<sub>4</sub><sup>III,III,IV,IV</sup>]</span>
+
+    <span style="display: inline-grid; grid-template-columns: 1fr; justify-items: center; margin: 0 0.8rem; transform: translateY(-0.2em);">
+      <span style="font-size: 0.75rem; color: #FFD700; font-weight: bold;">hv</span>
+      <span style="font-size: 1.4rem; color: #FFD700; margin-top: -0.4em;">&xrarr;</span>
+    </span>
+
+    <span style="font-weight: bold; color: #45BB58;">S<sub>2</sub></span> 
+    <span style="font-size: 0.7rem; color: #777; font-family: 'Courier New', monospace; margin-left: 2px;">[Mn<sub>4</sub><sup>III,IV,IV,IV</sup>]</span>
+
+    <span style="display: inline-grid; grid-template-columns: 1fr; justify-items: center; margin: 0 0.8rem; transform: translateY(-0.2em);">
+      <span style="font-size: 0.75rem; color: #FFD700; font-weight: bold;">hv</span>
+      <span style="font-size: 1.4rem; color: #FFD700; margin-top: -0.4em;">&xrarr;</span>
+    </span>
+
+    <span style="font-weight: bold; color: #45BB58;">S<sub>3</sub></span> 
+    <span style="font-size: 0.7rem; color: #777; font-family: 'Courier New', monospace; margin-left: 2px;">[Mn<sub>4</sub><sup>IV,IV,IV,IV</sup>]</span>
+
+    <span style="display: inline-grid; grid-template-columns: 1fr; justify-items: center; margin: 0 0.8rem; transform: translateY(-0.2em);">
+      <span style="font-size: 0.75rem; color: #FFD700; font-weight: bold;">hv</span>
+      <span style="font-size: 1.4rem; color: #FFD700; margin-top: -0.4em;">&xrarr;</span>
+    </span>
+
+    <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span>
+    <span style="font-size: 0.7rem; color: #777; font-family: 'Courier New', monospace; margin-left: 2px;">[Mn<sub>4</sub><sup>IV,IV,IV,V</sup>]</span>
+
+  </div>
+
+  <div style="margin-top: 2rem; border-top: 1px dashed #ccc; padding-top: 1.5rem; font-size: 1.05rem; font-family: monospace;">
+    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + 4H<sup>+</sup> + <span style="color: #FF2400; font-weight: bold;"><sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> O<sub>2</sub></span>
+  </div>
+</div>
+>
+> S<sub>1</sub> as the "armed" dark resting state of the OEC. 
+>
 {:.textbook}
 
 The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; [spin polarisers]() from asymmetric units ensured departing electrons could take the substance the world was drowning in ---singlet water-- and pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
@@ -85,10 +126,13 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 > **Technical Briefing: The metal-oxide cluster spin diode**
 > ![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
 >
-> [*Left & Middle*] The Manganese-Oxide--Calcium cluster of the Oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. [*Right*] The natural mineral birnessite the generates oxygen from water in the present of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838–-22846, **2015** 
+> [*Left & Middle*] The manganese-oxide--calcium cluster of the oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
+> <br> [*Right*] The natural mineral birnessite the generates oxygen from water in the present of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838–-22846, **2015** 
 > {:.figcaption}
 >
 > [Technical description]
+>
+>
 {:.textbook}
 
 A distorted cube of manganese and oxygen, with jagged edges of calcium, drove this electronic cycle.
