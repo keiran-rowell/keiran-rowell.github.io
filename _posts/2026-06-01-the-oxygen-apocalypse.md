@@ -108,16 +108,16 @@ These green bacteria had developed spin-forbidden alien technology. The [Oxygen 
     </span>
 
     <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span>
-    <span style="font-size: 0.7rem; color: #777; font-family: 'Courier New', monospace; margin-left: 2px;">[Mn<sub>4</sub><sup>IV,IV,IV,V</sup>]</span>
+    <span style="font-size: 0.7rem; color: #777; font-family: 'Courier New', monospace; margin-left: 2px;">[Mn<sub>4</sub><sup>IV,IV,IV,<b style="color: #BA575C;">V</b></sup>]</span>
 
   </div>
 
   <div style="margin-top: 2rem; border-top: 1px dashed #ccc; padding-top: 1.5rem; font-size: 1.05rem; font-family: monospace;">
-    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + 4H<sup>+</sup> + <span style="color: #FF2400; font-weight: bold;"><sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> O<sub>2</sub></span>
+    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + <b style="color: #55BDF1">4H<sup>+</sup></b> + <b style="color: #7031AA">4e<sup>–</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
   </div>
 </div>
 >
-> S<sub>1</sub> as the "armed" dark resting state of the OEC. 
+> S<sub>1</sub> as the "armed" resting dark-state of the OEC. Charging the diode: the +V charge state of manganese is so hard to create its existing is fleeting, only enough to trigger an electron cascade that ejects triplet oxygen 
 >
 {:.textbook}
 
@@ -127,7 +127,7 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 > ![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
 >
 > [*Left & Middle*] The manganese-oxide--calcium cluster of the oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
-> <br> [*Right*] The natural mineral birnessite the generates oxygen from water in the present of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838–-22846, **2015** 
+> <br> [*Right*] The natural mineral birnessite the generates oxygen from water in the present of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838--22846, **2015** 
 > {:.figcaption}
 >
 > [Technical description]
@@ -155,6 +155,8 @@ Banded iron formation in Soudan underground state park, MN. [James St. John](htt
 {:.figcaption}
 
 The ferrous layer prevented the oxygen from reaching the atmosphere. Only when it was consumed into iron oxides did oxygen escape into the atmosphere
+
+We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
 
 
 ### ...and their kin choked
@@ -197,6 +199,7 @@ An greenhouse gas blanket 30-90x more potent than CO2
 
 Converted into CO2, a far less potent greenhouse gas (I think it's a factor of 10x-100x, look it up). This is about CO2 really only has antisymmetric modes to do Raman absorption.
 
+A long winter was coming.
 
 ### ...and the Earth froze
 
@@ -212,6 +215,7 @@ Oxygen triggering the ice age from the consumed greenhouse blanket
 
 The great Glaciation. 200 million years of ice age.
 
+CH4 -> CO2 -> CO2 could be rained out and form limestone
 
 ### ...and life rose up
 
