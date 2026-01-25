@@ -160,9 +160,9 @@ A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove t
   </div>
 </div>
 >
-> The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-arming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II resting state by donating electrons to the cluster oxygens and surrounding protein. 
+> The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-arming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
 >
-> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. One 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state, ripping *two* electrons from water in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing electron each to form the triplet O--O bond, ensuring the cell doesn't incinerate itself, and exhaling oxygen into the environment.
+> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state, ripping *two* electrons from water in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing electron each to form the triplet O--O bond---ensuring the cell doesn't incinerate itself---and exhaling oxygen into the environment.
 >
 {:.textbook}
 

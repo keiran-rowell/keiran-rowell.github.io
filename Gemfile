@@ -15,13 +15,10 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-compose"
   gem "jekyll-pdf-embed"
-#  gem "jekyll-reading-time"
+  gem "jekyll-sitemap"
 end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
-gem "jekyll-sitemap", group: :jekyll_plugins
 gem "jekyll-theme-hydejack"
