@@ -85,7 +85,7 @@
         
         .main-grid {
             display: grid;
-            grid-template-columns: 480px 1fr;
+            grid-template-columns: 350px 1fr;
             gap: 20px;
             margin-bottom: 20px;
         }
@@ -485,14 +485,14 @@
                         </div>
                     </div>
 
-                  <div class="control-group" style="padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-top: 10px;">
-                   <label for="manualTaxId">Add Other TaxID from File</label>
-                   <div style="display: flex; gap: 10px;">
-                       <input type="text" id="manualTaxId" placeholder="e.g. 5476" style="flex: 1;">
-                       <button id="addTaxIdBtn" class="btn btn-secondary" style="width: auto; padding: 5px 15px;">Load</button>
-                   </div>
-                   <div id="manualStatus" style="margin-top: 5px; font-size: 0.8rem;"></div>
-                  </div>   
+                    <div class="control-group" style="padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-top: 10px;">
+                      <label for="manualTaxId">Add Other TaxID from File</label>
+                      <div style="display: flex; gap: 10px;">
+                        <input type="text" id="manualTaxId" placeholder="e.g. 5476" style="flex: 1;">
+                       <button id="addTaxIdBtn" class="secondary" style="width: auto; margin-top: 0; padding: 8px 15px;">Add</button>
+                      </div>
+                      <small id="manualStatus" style="font-size: 0.8em; display: block; margin-top: 5px;"></small>
+                     </div>
 
                     <div class="control-group">
                         <label for="rarityThreshold">Rarity Threshold (colour codons below this frequency)</label>
@@ -500,11 +500,6 @@
                     </div>
 
                     <button id="visualiseBtn" disabled>Loading Pyodide...</button>
-                     
-                  <div class="visualize-controls" style="margin-top: 20px; display: flex; gap: 10px;">
-                   <button id="visualizeBtn" class="btn btn-primary">Visualise on 3D Structure</button>
-                   <button id="downloadPdbBtn" class="btn btn-secondary" disabled>Download codon rarity mapped PDB</button>
-                  </div> 
 
                     <div class="progress-container active" id="loadingProgress" style="display: block;">
                         <div class="progress-bar">
@@ -514,7 +509,7 @@
                     </div>
 
                     <div id="status" class="status"></div>
-                     
+
                     <div class="info-box">
                         <strong>How it works:</strong> Upload a PDB structure and sequence, select an organism to see rare codons highlighted in red–orange. <strong>Differential mode</strong> compares rarity between two organisms.<br> Blue = becomes more common <br> Red = becomes rarer in target organism.
                     </div>
@@ -557,7 +552,7 @@
                 </div>
 
                 <div class="control-group">
-                    <label for="optSequenceInput">Input Sequence (DNA)</label>
+                    <label for="optSequenceInput">Input Sequence (DNA/cDNA)</label>
                     <textarea id="optSequenceInput" placeholder="Paste DNA sequence here or upload FASTA below..."></textarea>
                 </div>
 
@@ -679,7 +674,6 @@
         let codonTablesFile = null; // Store the pickle file handle
         let customCodonTables = {};
         let lastOptimisationResult = null;
-        let latestProcessedPdb = null;
         let codonUtilsLoaded = false;
         
         // Initialise 3Dmol viewer
@@ -1521,99 +1515,6 @@ json.dumps(table)
              }
          });
 
-// Function to trigger file download
-function downloadFile(content, fileName, contentType) {
-    const a = document.createElement("a");
-    const file = new Blob([content], { type: contentType });
-    a.href = URL.createObjectURL(file);
-    a.download = fileName;
-    a.click();
-    URL.revokeObjectURL(a.href);
-}
-
-// Update your Visualise button listener to enable the download
-document.getElementById('visualizeBtn').addEventListener('click', async () => {
-    const btn = document.getElementById('visualizeBtn');
-    const dlBtn = document.getElementById('downloadPdbBtn');
-    const status = document.getElementById('status');
-    const sequence = document.getElementById('sequence').value.trim();
-    const taxId = document.getElementById('organism').value;
-
-    if (!sequence) { alert("Please enter a DNA sequence"); return; }
-
-    btn.disabled = true;
-    btn.innerHTML = '<span class="loading-spinner"></span>Mapping...';
-
-    try {
-        const pdbText = await getPdbData();
-
-        // 1. Generate rarity scores from the sequence and taxId first
-        // This ensures 'scores' is defined before we pass it to the PDB mapper
-        const pyScores = await pyodide.runPythonAsync(`
-            codon_utils.calculate_rarity_scores("${sequence}", loaded_tables["${taxId}"])
-        `);
-        const scoresJs = pyScores.toJs(); // Convert to JS Array
-
-        // 2. Now run the mapping and store it in the global latestProcessedPdb
-        latestProcessedPdb = await pyodide.runPythonAsync(`
-import codon_utils
-import json
-# Pass the JS array into Python as a proper list
-scores = json.loads('${JSON.stringify(scoresJs)}')
-protein_seq = codon_utils.translate_sequence("${sequence}")
-codon_utils.map_rarity_to_pdb("""${pdbText}""", scores, protein_seq)
-        `);
-
-        // 3. Update the 3D Viewer
-        if (!glviewer) {
-            glviewer = $3Dmol.createViewer("gldiv", { backgroundColor: "#0f0f1e" });
-        }
-        glviewer.clear();
-        glviewer.addModel(latestProcessedPdb, "pdb");
-        glviewer.setStyle({}, { cartoon: { colorscheme: 'bfactor', gradient: 'rwb', min: 0, max: 100 } });
-        glviewer.zoomTo();
-        glviewer.render();
-
-        // 4. ENABLE THE BUTTON
-        if (dlBtn) {
-            const pdbCode = document.getElementById('pdbId').value.trim().toUpperCase() || "PDB";
-            dlBtn.disabled = false; //
-            dlBtn.innerText = `Download ${pdbCode} with Rarity`;
-        }
-        status.textContent = "Visualization Complete";
-
-    } catch (err) {
-        console.error("Visualisation Error:", err);
-        status.textContent = "Mapping failed";
-        alert("Error: " + err.message);
-    } finally {
-        btn.disabled = false;
-        btn.textContent = "Visualise on 3D Structure";
-    }
-});
-
-document.getElementById('downloadPdbBtn')?.addEventListener('click', () => {
-    if (latestProcessedPdb) {
-        // Get the organism name text (e.g., "Homo sapiens") from the dropdown
-        const select = document.getElementById('organism');
-        const rawOrg = select.options[select.selectedIndex].text;
-        
-        // Clean the name for a filename (e.g., "Homo_sapiens")
-        const orgName = rawOrg.split('(')[0].trim().replace(/\s+/g, '_');
-        const pdbCode = document.getElementById('pdbId').value.trim().toUpperCase() || "UPLOAD";
-        
-        const fileName = `${orgName}_${pdbCode}_rarity_mapped.pdb`;
-        
-        // Use the standard blob download method
-        const blob = new Blob([latestProcessedPdb], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = fileName;
-        a.click();
-        URL.revokeObjectURL(url);
-    }
-});
 
 // --- Logic for arbitrary TaxID entry ---
 document.getElementById('addTaxIdBtn').addEventListener('click', async () => {
@@ -1657,44 +1558,8 @@ document.getElementById('addTaxIdBtn').addEventListener('click', async () => {
     }
 });
 
-// Add these to your script section
-
-// 1. Safe listener for the TaxID Load button
-document.getElementById('addTaxIdBtn')?.addEventListener('click', async () => {
-    const taxIdInput = document.getElementById('manualTaxId');
-    const taxId = taxIdInput?.value.trim();
-    if (taxId) {
-        // Your existing load logic...
-        console.log(`Loading TaxID: ${taxId}`);
-    }
-});
-
-// 2. Safe listener for the PDB Download button with naming scheme
-document.getElementById('downloadPdbBtn')?.addEventListener('click', () => {
-    if (typeof latestProcessedPdb !== 'undefined' && latestProcessedPdb) {
-        // Professional Naming: Organism_PDBID_rarity_mapped.pdb
-        // Pulling from your specific HTML IDs: 'organism' and 'pdbId'
-        const rawOrg = document.getElementById('organism')?.value || "Unknown";
-        const orgName = rawOrg.split('(')[0].trim().replace(/\s+/g, '_');
-        const pdbCode = document.getElementById('pdbId')?.value.trim().toUpperCase() || "Structure";
-        
-        const fileName = `${orgName}_${pdbCode}_rarity_mapped.pdb`;
-        
-        // Trigger the download
-        const blob = new Blob([latestProcessedPdb], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = fileName;
-        a.click();
-        URL.revokeObjectURL(url);
-    }
-});
-
-
         // Start loading Pyodide on page load
         window.addEventListener('load', initPyodide);
     </script>
 </body>
 </html>
-
