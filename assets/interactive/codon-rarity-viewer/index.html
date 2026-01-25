@@ -500,6 +500,7 @@
                     </div>
 
                     <button id="visualiseBtn" disabled>Loading Pyodide...</button>
+                    <button id="downloadAnnotatedPdb" class="secondary" style="display: none;">Download codon rarity annotated PDB</button>
 
                     <div class="progress-container active" id="loadingProgress" style="display: block;">
                         <div class="progress-bar">
@@ -646,7 +647,7 @@
                     <h3 style="color: #3ba7ff; margin-bottom: 15px;">Upload Custom Codon Table</h3>
                     <div class="info-box">
                         <strong>Format:</strong> <p><code>TSV file</code></p> 
-                        Columns: <b>Codon | Amino Acid | Frequency</b> 
+                        Columns: <b>Codon | AminoAcid | Frequency</b> 
                         <br> The frequency should be between 0 and 1, representing the relative usage of each codon per target amino acid.
                     </div>
 
@@ -674,6 +675,8 @@
         let codonTablesFile = null; // Store the pickle file handle
         let customCodonTables = {};
         let lastOptimisationResult = null;
+        let originalPdbFilename = null; 
+        let annotatedPdbText = null;
         let codonUtilsLoaded = false;
         
         // Initialise 3Dmol viewer
@@ -984,6 +987,16 @@ import codon_utils
             }
         }
 
+        // Capture PDB filename when uploaded
+        document.getElementById('pdbFile').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                // Remove .pdb extension and store the base name
+                originalPdbFilename = file.name.replace(/\.pdb$/i, '');
+            }
+            updateVisualiseButton();
+        });
+
         // Main visualisation function
         document.getElementById('visualiseBtn').addEventListener('click', async () => {
             const pdbFile = document.getElementById('pdbFile').files[0];
@@ -1124,6 +1137,38 @@ json.dumps(diff_data)
                 viewer.zoomTo();
                 viewer.render();
 
+                // Generate and store annotated PDB
+                const annotatedResult = await pyodide.runPythonAsync(`
+import codon_utils
+
+pdb_text = """${pdbText.replace(/"/g, '\\"')}"""
+fasta_text = """${fastaText.replace(/"/g, '\\"')}"""
+nucseq = codon_utils.parse_fasta(fasta_text)
+
+${mode === 'single' ? 
+  `modified_pdb, rarity_info = codon_utils.map_rarity_to_pdb(pdb_text, nucseq, loaded_codon_tables["${organism}"])` :
+  `# For differential mode, create a custom rarity dict with differences
+source_rarity = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${sourceOrganism}"])
+target_rarity = codon_utils.calculate_codon_rarity(nucseq, loaded_codon_tables["${targetOrganism}"])
+
+# Create a fake codon table with differences
+diff_table = {}
+for i, src in enumerate(source_rarity):
+    aa = src['aa']
+    codon = src['codon']
+    if aa not in diff_table:
+        diff_table[aa] = {}
+    diff_table[aa][codon] = target_rarity[i]['rarity'] - src['rarity']
+
+modified_pdb, rarity_info = codon_utils.map_rarity_to_pdb(pdb_text, nucseq, diff_table)`
+}
+
+modified_pdb
+                `);
+
+                annotatedPdbText = annotatedResult;
+                document.getElementById('downloadAnnotatedPdb').style.display = 'block';
+
                 if (mode === 'single') {
                     const rareCount = rarityData.filter(d => d.rarity < threshold).length;
                     showStatus(`Visualisation complete! ${rareCount} rare codons highlighted (< ${threshold} frequency).`, 'success');
@@ -1138,6 +1183,38 @@ json.dumps(diff_data)
                 console.error(error);
             }
         });
+
+// Download annotated PDB button
+document.getElementById('downloadAnnotatedPdb').addEventListener('click', () => {
+    if (!annotatedPdbText) {
+        showStatus('No annotated PDB available', 'error');
+        return;
+    }
+    
+    const mode = document.getElementById('visualisationMode').value;
+    let filename;
+  
+    const baseName = originalPdbFilename || 'structure';      
+  
+    if (mode === 'single') {
+        const org = document.getElementById('organism').value;
+        filename = `${baseName}_rarity_annotated_${org}.pdb`;
+    } else {
+        const src = document.getElementById('sourceOrg').value;
+        const tgt = document.getElementById('targetOrg').value;
+        filename = `${baseName}_rarity_diff_${src}_to_${tgt}.pdb`;
+    }
+    
+    const blob = new Blob([annotatedPdbText], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+    
+    showStatus('PDB file downloaded with b-factors set to rarity values!', 'success');
+});
 
         // Enable visualisation when files are selected
         document.getElementById('pdbFile').addEventListener('change', updateVisualiseButton);
@@ -1403,7 +1480,7 @@ json.dumps(result)
                     return;
                 }
                 
-                let html = '<table><thead><tr><th>Codon</th><th>AA</th><th>Frequency</th></tr></thead><tbody>';
+                let html = '<table><thead><tr><th>Codon</th><th>AminoAcid</th><th>Frequency</th></tr></thead><tbody>';
                 
                 // Handle both Map and plain object
                 const entries = table instanceof Map ? Array.from(table.entries()) : Object.entries(table);
