@@ -13,7 +13,7 @@ from Bio.PDB import PDBParser, PDBIO
 from Bio.SeqUtils import seq1, seq3
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
-
+from Bio.Align import PairwiseAligner
 
 # Standard genetic code (single letter AA -> codons)
 STANDARD_CODON_TABLE = {
@@ -129,67 +129,64 @@ def calculate_codon_rarity(nucseq: str, codon_table: Dict) -> List[Dict]:
     
     return rarity_data
 
+def map_rarity_to_pdb(pdb_text: str, rarity_scores: List[float], fasta_sequence: str, chain_id: str = 'A') -> str:
+    """
+    Maps rarity scores to PDB b-factors using alignment.
+    fasta_sequence: The protein sequence used to generate rarity_scores.
+    """
+    parser = PDBParser(QUIET=True)
+    structure = parser.get_structure('protein', StringIO(pdb_text))
+    model = structure[0]
+    
+    # Select chain (fallback to first if chain_id not found)
+    chain = model[chain_id] if chain_id in model else next(model.get_chains())
 
-def map_rarity_to_pdb(pdb_text: str, nucseq: str, codon_table: Dict, 
-                      structure_id: str = 'structure') -> Tuple[str, List[Dict]]:
-    """
-    Map codon rarity to PDB b-factors for visualization.
-    
-    Returns tuple of (modified PDB text, rarity info).
-    Based on your map_codon_rarity_to_pdb.py
-    """
-    structure = parse_pdb_structure(pdb_text, structure_id)
-    codons = nucseq_to_codons(nucseq)
-    
-    rarity_info = []
-    res_idx = 0
-    
-    for model in structure:
-        for chain in model:
-            for residue in chain:
-                # Only process standard amino acids
-                if residue.id[0] != ' ':
-                    continue
-                    
-                if res_idx >= len(codons):
-                    break
-                    
-                res_3let = residue.get_resname()
-                try:
-                    res_1let = seq1(res_3let)
-                except:
-                    res_1let = 'X'
-                
-                codon = codons[res_idx]
-                
-                # Get codon rarity/frequency
-                if res_1let in codon_table and codon in codon_table[res_1let]:
-                    codon_rarity_val = codon_table[res_1let][codon]
-                else:
-                    codon_rarity_val = 0.0
-                
-                # Set b-factor for all atoms in residue
-                for atom in residue:
-                    atom.set_bfactor(codon_rarity_val)
-                
-                rarity_info.append({
-                    'index': res_idx + 1,
-                    'aa': res_1let,
-                    'codon': codon,
-                    'rarity': round(codon_rarity_val, 3)
-                })
-                
-                res_idx += 1
-    
-    # Save structure to string
-    pdb_io = StringIO()
+    # 1. Extract what's actually in the PDB
+    pdb_residues = []
+    pdb_seq_str = ""
+    for res in chain:
+        if res.id[0] == ' ': # Standard residues only
+            char = seq1(res.get_resname())
+            if char != 'X':
+                pdb_residues.append(res)
+                pdb_seq_str += char
+
+    # 2. Align PDB sequence to the FASTA (Protein) sequence
+    aligner = PairwiseAligner()
+    aligner.mode = 'global'
+    alignments = aligner.align(fasta_sequence, pdb_seq_str)     
+ 
+    if not alignments:
+        return pdb_text # Fallback
+        
+    # Reset B-factors
+    for atom in structure.get_atoms():
+        atom.set_bfactor(0.0)
+
+    # Use alignment indices to map scores
+    for f_idx, p_idx in zip(alignment.indices[0], alignment.indices[1]):
+        if f_idx != -1 and p_idx != -1:
+            score = rarity_scores[f_idx]
+            for atom in pdb_residues[p_idx]:
+                atom.set_bfactor(score * 100)
+   
+    out = StringIO()
     io = PDBIO()
     io.set_structure(structure)
-    io.save(pdb_io)
-    modified_pdb = pdb_io.getvalue()
-    
-    return modified_pdb, rarity_info
+    io.save(out)
+    return out.getvalue()
 
+def translate_dna(nucseq: str) -> str:
+    """Helper alias for the website to match JS calls"""
+    return translate_sequence(nucseq)
+
+def calculate_rarity_scores(nucseq: str, codon_table: Dict) -> List[float]:
+    """
+    Returns just a flat list of rarity values (0.0 to 1.0) 
+    for the alignment logic in the viewer.
+    """
+    data = calculate_codon_rarity(nucseq, codon_table)
+    return [d['rarity'] for d in data]
 
 def harmonize_sequence(input_seq: str, input_taxid: str, output_taxid: str, 
                        codon_tables: Dict) -> Dict:
