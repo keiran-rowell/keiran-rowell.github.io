@@ -68,11 +68,18 @@ We are protected at every moment by a quantum mechanical safety catch. The most 
 
 An insuperable barrier of electronic symmetry is our shield.
 
-> **Technical Briefing: The Quantum Safety Catch**
-> ![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
->
-> **The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin ---triplet state--- option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density constrained by spin-interaction rules between molecules. For the opposite-spin pairs ---singlet state--- options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
-{: .textbook}
+<details style="border: none; background: none;">
+  <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
+    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The Quantum Safety Catch</span>
+  </summary>
+
+  <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
+**Technical Briefing: The Quantum Safety Catch**
+![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
+
+**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin ---triplet state--- option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density constrained by spin-interaction rules between molecules. For the opposite-spin pairs ---singlet state--- options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
+   </div>
+</details>
 
 The molecular oxygen in the air is a diradical ---  it  has two unpaired electrons. That makes it a molecule in a 'triplet' state. In almost all molecules on earth, they live in a 'singlet' state where all electrons are paired off.
 
@@ -112,16 +119,25 @@ These green bacteria had developed spin-forbidden alien technology. The [Oxygen 
 
 A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove this electronic cycle.
 
-> **Technical Briefing: The Quantum Lockpick**
-> ![The OEC and S-clock diagrams](/images/OEC_S-clock.png)
->
->  [*Left*] The Oxygen Evolving Complex (OEC): "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
-> <br> [*Right*] The "spin doide" S-clock (as in singlet state clock) that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
-> {:.figcaption}
->
-> [Technical description]
-{:.textbook}
+<details style="border: none; background: none;">
+  <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
+    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The Quantum Lockpick</span>
+  </summary>
 
+  <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
+**Technical Briefing: The Quantum Lockpick**
+![The OEC and S-clock diagrams](/images/OEC_S-clock.png)
+
+ [*Left*] The Oxygen Evolving Complex (OEC): "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
+<br> [*Right*] The "spin doide" S-clock (as in singlet state clock) that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
+{:.figcaption}
+
+[Technical description]
+   </div>
+</details>
+
+
+#### Arming the S-clock
 > <div>
    <div style="margin: 2rem 0; padding: 3.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #45BB58; text-align: center; font-family: monospace;">
   <div style="font-size: 1.1rem; color: #333; line-height: 1.2; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
@@ -159,25 +175,39 @@ A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove t
     <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + <b style="color: #55BDF1">4H<sup>+</sup></b> + <b style="color: #7031AA">4e<sup>–</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
   </div>
 </div>
->
-> The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-arming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
->
-> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state. [Detailed computational work](https://doi.org/10.1016/j.bbabio.2012.10.006) suggests the water molecules are slowly deprotonated and <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> creates a 'primed bullet' of an oxyl radical (O$$^{\bullet-}$$). The <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state is so fleeting [not even kilometer-long X-ray Free-Electron Lasers (XFELs)](https://doi.org/10.59717/j.xinn-life.2024.100068) [can detect it](https://doi.org/10.1038/s41586-018-0681-2). It triggers a violently reactive reset; ripping **four** electrons from water to replenish the cluster in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing spin-aligned electron each to form the triplet •O–O• bond; and exhaling oxygen into the environment. The manganese oxide cluster's magnetic moment acts as a *spin template*, ensuring the cell doesn't incinerate itself with a singlet. This process is tightly coordinated to avoid creation of cell-destroying peroxide (H<sub>2</sub>O<sub>2</sub>) or superoxide (O$$_{2}^{\bullet-}$$) species.
->
-{:.textbook}
 
 
-> **Technical Briefing: The metal-oxide cluster spin diode**
-> ![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
->
-> [*Left & Middle*] The manganese-oxide--calcium cluster of the oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
-> <br> [*Right*] The natural mineral birnessite the generates oxygen from water in the present of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838--22846, **2015** 
-> {:.figcaption}
->
-> [Technical description]
->
->
-{:.textbook}
+<details style="border: none; background: none;">
+  <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
+    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The S-clock time bomb</span>
+  </summary>
+
+  <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
+The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-priming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
+
+Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state. [Detailed computational work](https://doi.org/10.1016/j.bbabio.2012.10.006) suggests the water molecules are slowly deprotonated and <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> creates an 'armed bullet' of an oxyl radical (O$$^{\bullet-}$$). The <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state is so fleeting [not even kilometer-long X-ray Free-Electron Lasers (XFELs)](https://doi.org/10.59717/j.xinn-life.2024.100068) [can detect it](https://doi.org/10.1038/s41586-018-0681-2). It triggers a violently reactive reset; ripping **four** electrons from water to replenish the cluster in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing spin-aligned electron each to form the triplet •O–O• bond; and exhaling oxygen into the environment. The manganese oxide cluster's magnetic moment acts as a **spin template**, ensuring the cell doesn't incinerate itself with a singlet. This process is tightly coordinated to avoid creation of cell-destroying peroxide (H<sub>2</sub>O<sub>2</sub>) or superoxide (O$$_{2}^{\bullet-}$$) species.
+   </div>
+</details>
+
+
+<details style="border: none; background: none;">
+  <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
+    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The metal-oxdide cluster diode</span>
+  </summary>
+
+  <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
+**Technical Briefing: The metal-oxide cluster spin diode**
+![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
+
+[*Left & Middle*] The manganese-oxide--calcium cluster of the oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
+<br> [*Right*] The natural mineral birnessite the generates oxygen from water in the present of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838--22846, **2015** 
+{:.figcaption}
+
+[Technical description]
+
+   </div>
+</details>
+
 
 The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; the [spin polariser]() of the asymmetrically distorted cluster ensured departing electrons would pass through the spin-state barrier. The cyanos could take the substance the world was drowning in ---singlet water--- and, at ambient temperature, pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
 
