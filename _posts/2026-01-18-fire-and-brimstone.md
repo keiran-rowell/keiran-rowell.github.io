@@ -49,7 +49,7 @@ These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1D
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
 
-In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are enforcers are there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before, when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  
+In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are enforcers there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before, when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  
 
 Six million years prior, the Messinian salinity crisis created the bedrock opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum (CaSO<sub>4</sub>) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from the dissolved oxidised sulfur to fuel their own metabolism, leaving behind limestone and native sulfur:
 
@@ -73,7 +73,7 @@ Techniques remained primitive. All mining had to be done by pick --- explosives 
 
 The conditions of the Sicilian mines are still inscribed in the memories of the [Sicilian diaspora to the USA](https://siciliangodmother.com/2015/04/01/sulphur-sicilians-and-the-exodus-to-the-usa/), and a bracing film depicting a [child miner's life in the Floristella mines](https://letterboxd.com/film/aclas-descent-into-floristella/)
 
-The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egyptian, Chinese), Sicily held unique advantages with its tranquil golden vein of native sulfur. Other ancients had visit active tectonic sites --- like the Greek Island of Milos, or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed [complex alchemical 'roasting' processes](https://www.jstor.org/stable/231610) to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
+The Mafia didn't instigate these mines, organised sulfur mines had been built in Sicily by the Roman Republic. While sulfur was also widely used by other ancient civilisations (Greek, Egyptian, Chinese), Sicily held unique advantages with its tranquil golden vein of native sulfur. Other ancients had to visit active tectonic sites --- like the Greek Island of Milos, or the Aoelian island of Vulcano in the Tyrrhenian sea. China, in contrast, by force of necessity developed [complex alchemical 'roasting' processes](https://www.jstor.org/stable/231610) to 'sweat out' sulfur from surface pyrites. Liberating the element from its ore and unleashing on the world another innovation of death --- gunpowder.
 
 
 
