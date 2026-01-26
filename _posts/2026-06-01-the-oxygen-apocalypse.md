@@ -66,7 +66,7 @@ image:
 
 We are protected at every moment by a quantum mechanical safety catch. The most dangerous element of our atmosphere normally can't react with us. It is physically <span class="germania-text">verboten</span>. Oxygen doesn't immediately burn our organic matter to a crisp because our molecules are a different *spin state* to O<sub>2</sub>. 
 
-An insuperable barrier of electronic symmetry is our shield (*see the briefing below*).
+An insuperable barrier of electronic symmetry is our shield (*expand the briefing below*).
 
 <details style="border: none; background: none;">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
@@ -77,12 +77,12 @@ An insuperable barrier of electronic symmetry is our shield (*see the briefing b
 **Technical Briefing: The Quantum Safety Catch**
 ![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
 
-**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin **triplet state** option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density restrained from reacting by spin-interaction rules between molecules. For the opposite-spin pairs **singlet state** options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
+**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the same spin **can't occupy the same orbital**, so nature has three choices. The **same-spin triplet state** option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density restrained from reacting by spin-interaction rules between molecules. For the **opposite-spin** pairs **singlet state** options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
 
    </div>
 </details>
 
-The molecular oxygen in the air is a diradical ---  it  has two unpaired electrons. That makes it a molecule in a 'triplet' state. In almost all molecules on earth, they live in a 'singlet' state where all electrons are paired off.
+The molecular oxygen in the air is a diradical ---  it  has two unpaired electrons: •O–O•. That makes it a molecule in a 'triplet' state. For almost all other molecules on earth, they live in a 'singlet' state where all electrons are paired off. They can't react with each other because doing so would mean the total angular momentum wouldn't be conserved. This safety catch prevents the atmosphere from incinerating the biosphere.
 
 Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.com/shorts/dYH7xxYLHvs)
 
