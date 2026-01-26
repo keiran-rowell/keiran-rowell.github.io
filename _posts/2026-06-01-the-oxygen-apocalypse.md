@@ -162,7 +162,7 @@ A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove t
 >
 > The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-arming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
 >
-> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state, ripping *two* electrons from water in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing electron each to form the triplet O--O bond---ensuring the cell doesn't incinerate itself---and exhaling oxygen into the environment.
+> Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state. [Detailed computational work](https://doi.org/10.1016/j.bbabio.2012.10.006) suggests the water molecules are slowly deprotonated and <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> creates a 'primed bullet' of an oxyl radical (O$$^{\bullet-}$$). The <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state is so fleeting [not even kilometer-long X-ray Free-Electron Lasers (XFELs)](https://doi.org/10.59717/j.xinn-life.2024.100068) [can detect it](https://doi.org/10.1038/s41586-018-0681-2). It triggers a violently reactive reset; ripping **four** electrons from water to replenish the cluster in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing spin-aligned electron each to form the triplet •O–O• bond; and exhaling oxygen into the environment. The manganese oxide cluster's magnetic moment acts as a spin template, ensuring the cell doesn't incinerate itself with a singlet. This process is tightly coordinated to avoid creation of cell-destroying peroxide (H<sub>2</sub>O<sub>2</sub>) or superoxide (O$$_{2}^{\bullet-}$$) species.
 >
 {:.textbook}
 
@@ -183,6 +183,8 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 
 ### ...and the oceans bled
 
+For two billion years, the S-clock ticked along, but under the dampening of the seas the oxygen never esacped to the atmosphere. The oceans had a natural buffer -- they contained iron. 
+
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
 
 Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedition](https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2104-features-nodule/). NOAA, [[Public domain](https://www.omao.noaa.gov/image-licensing-usage-info)]
@@ -199,6 +201,8 @@ Banded iron formation in Soudan underground state park, MN. [James St. John](htt
 {:.figcaption}
 
 The ferrous layer prevented the oxygen from reaching the atmosphere. Only when it was consumed into iron oxides did oxygen escape into the atmosphere
+
+Harmersley rande in WA the best preserved example?  If you want to see the aftermath of this oceanic bleeding the Pilbara ranges have the best examples
 
 We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
 
