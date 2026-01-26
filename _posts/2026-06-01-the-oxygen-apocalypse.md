@@ -179,14 +179,14 @@ Stuff about the S-clock being the core mechanism
   </div>
 
   <div style="margin-top: 2rem; border-top: 1px dashed #ccc; padding-top: 1.5rem; font-size: 1.05rem; font-family: monospace;">
-    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + <b style="color: #55BDF1">4H<sup>+</sup></b> + <b style="color: #7031AA">4e<sup>–</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
+    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> (<b style="color: #7031AA">4e<sup>&minus;</sup></b>) + <b style="color: #55BDF1">4H<sup>+</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
   </div>
 </div>
 </div>
 
 <details style="border: none; background: none;">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
-    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The S-clock time bomb</span>
+    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The S-clock Timebomb</span>
   </summary>
 
   <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
@@ -202,12 +202,12 @@ Stuff about birnessite
 
 <details style="border: none; background: none;" markdown="1">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none; outline: none;">
-    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The metal-oxide cluster diode</span>
+    <span style="border-bottom: 1px dashed #BA575C;">▶ Technical Briefing: The Cluster Spin Diode</span>
   </summary>
 
   <div class="textbook" markdown="1" style="margin-top: 1.5rem; width: 100%; display: block; clear: both;">
 
-**Technical Briefing: The metal-oxide cluster spin diode**
+**Technical Briefing: The Cluster Spin Diode**
 
 ![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
 
