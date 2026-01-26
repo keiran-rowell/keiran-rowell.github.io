@@ -5,7 +5,7 @@ title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
 description: "📖 15 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
 published: false
 category: oxygen 
-tags: 
+tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobacteria archaea quantum biology manganese cluster photosynthesis reaction-oxygen-species S-clock Birnessite 
 image: 
   path: /images/Vaalbara_Continent.jpg
   alt: "The Archaean dominated 'purple earth'"
@@ -66,7 +66,7 @@ image:
 
 We are protected at every moment by a quantum mechanical safety catch. The most dangerous element of our atmosphere normally can't react with us. It is physically <span class="germania-text">verboten</span>. Oxygen doesn't immediately burn our organic matter to a crisp because our molecules are a different *spin state* to O<sub>2</sub>. 
 
-An insuperable barrier of electronic symmetry is our shield.
+An insuperable barrier of electronic symmetry is our shield (*see the briefing below*).
 
 <details style="border: none; background: none;">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
@@ -77,7 +77,7 @@ An insuperable barrier of electronic symmetry is our shield.
 **Technical Briefing: The Quantum Safety Catch**
 ![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
 
-**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin ---triplet state--- option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density constrained by spin-interaction rules between molecules. For the opposite-spin pairs ---singlet state--- options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
+**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the **same** spin can't occupy the same orbital, so nature has three choices. The same-spin **triplet state** option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density restrained from reacting by spin-interaction rules between molecules. For the opposite-spin pairs **singlet state** options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
 
    </div>
 </details>
@@ -141,12 +141,12 @@ A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove t
 
 Stuff about the S-clock being the core mechanism
 
+<div style="margin: 2rem 0; padding: 1.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #45BB58; border-right: 4px solid #BA575C; text-align: center; font-family: monospace;">
+  
+  <div style="color: #45BB58; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1.5rem; font-size: 0.9rem;">
+    Arming the S-clock
+  </div>
 
-<h4 style="text-align: center; color: #45BB58; margin-bottom: -1.5rem; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 2px;">
-  Arming the S-clock
-</h4>
-<div>
-   <div style="margin: 2rem 0; padding: 3.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #45BB58; text-align: center; font-family: monospace;">
   <div style="font-size: 1.1rem; color: #333; line-height: 1.2; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
     
     <span style="font-weight: bold; color: #45BB58;">S<sub>1</sub></span> 
@@ -179,9 +179,11 @@ Stuff about the S-clock being the core mechanism
   </div>
 
   <div style="margin-top: 2rem; border-top: 1px dashed #ccc; padding-top: 1.5rem; font-size: 1.05rem; font-family: monospace;">
-    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> (<b style="color: #7031AA">4e<sup>&minus;</sup></b>) + <b style="color: #55BDF1">4H<sup>+</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
+    <div style="color: #BA575C; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem; font-size: 0.9rem;">
+      Firing the S-clock
+    </div>
+    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + <b style="color: #55BDF1">4H<sup>+</sup></b> + <b style="color: #7031AA">4e<sup>–</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
   </div>
-</div>
 </div>
 
 <details style="border: none; background: none;">
@@ -190,7 +192,7 @@ Stuff about the S-clock being the core mechanism
   </summary>
 
   <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
-The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state', where all manganese metals hold their stable electron count, electrons spontaneously transfer to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-priming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
+The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state'---where all manganese metals hold their stable electron count---electrons are transferred out of the cluster to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-priming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
 
 Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state. [Detailed computational work](https://doi.org/10.1016/j.bbabio.2012.10.006) suggests the water molecules are slowly deprotonated and <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> creates an 'armed bullet' of an oxyl radical (O$$^{\bullet-}$$). The <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state is so fleeting [not even kilometer-long X-ray Free-Electron Lasers (XFELs)](https://doi.org/10.59717/j.xinn-life.2024.100068) [can detect it](https://doi.org/10.1038/s41586-018-0681-2). It triggers a violently reactive reset; ripping **four** electrons from water to replenish the cluster in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing spin-aligned electron each to form the triplet •O–O• bond; and exhaling oxygen into the environment. The manganese oxide cluster's magnetic moment acts as a **spin template**, ensuring the cell doesn't incinerate itself with a singlet. This process is tightly coordinated to avoid creation of cell-destroying peroxide (H<sub>2</sub>O<sub>2</sub>) or superoxide (O$$_{2}^{\bullet-}$$) species.
 
