@@ -5,7 +5,7 @@ title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
 description: "📖 15 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
 published: false
 category: oxygen 
-tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobacteria archaea quantum biology manganese cluster photosynthesis reaction-oxygen-species S-clock Birnessite 
+tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobacteria archaea quantum biology manganese cluster photosynthesis reaction-oxygen-species S-clock Kok-cycle Birnessite 
 image: 
   path: /images/Vaalbara_Continent.jpg
   alt: "The Archaean dominated 'purple earth'"
@@ -92,8 +92,12 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 
 ![Chroococcidiopsis Thermalis](/images/Chroococcidiopsis_thermalis.jpg)
 
-Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonization.html) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
+Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonizationitsl) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
 {:.figcaption}
+
+Before we had the green world as we know it, lifeforms were chemical scavengers. The seas were full of <span style="color: #8E7CC3">archaea</span> (literally, 'the <span style="color: #8E7CC3">ancients</span>') who had to eke out a diet of whatever chemicals around that hadn't fully spent its molecular potential energy. This was the Purple Earth, and was fuelled on the chemical dregs of the crust for a billion years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
+
+A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had had their own an antenna too, a simple **retinal** light gate --- it used centre of the solar spectrum to power primitive pumps. The **chlorophyll** antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red fringes. Suddenly they could capture the array of colour energy coming off the fusion furnace the planet circles. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
 
 ### ...and began to exhale 
 
@@ -106,10 +110,12 @@ The upper (*red*) and lower (*green*) bounds on the oxygen levels in Earth's atm
 Oxygen production as an *environmental disaster* that killed most other life.
 "The Great Englufing"
 
-The Purple Earth hypothesis
-The purple ancients (the <span style="color: #8E7CC3">archaea</span> -- literally 'the ancients')
 
-The <span style="color:#BBDD66">Cyanos</span>
+The <span style="color: #8E7CC3">ancients</span> were [sulfur eaters](link to sulfur post). H<sub>2</sub>S could be readily chowed down as an energy source --- it fell apart within cell at ordinary temperature, its hydrogens surrended as easy fuel. But oxygen was harder to crack --- it was locked in molecular safe of water. H<sub>2</sub>O required electrical impulses from photons and quantum trickery to unpick its bonds.
+
+Enter the <span style="color:#BBDD66">cyanos</span>.
+
+Cyanobacteria.. [describe photosynthesis starting].. and staged a metabolic coup. They cyanos departed from their ancient ancestors who fed on the sulfur in H<sub>2</sub>S. For the cyanos H<sub>2</sub>O---the abudance of water they were suspended in---became *food*. They began to split the most plentiful fuel source on the planet.
 
 ### ...and the sea boiled
 
