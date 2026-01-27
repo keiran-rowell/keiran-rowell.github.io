@@ -139,7 +139,9 @@ A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove t
 <br> [*Right*] The "spin doide" S-clock (as in singlet state clock) that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
 {:.figcaption}
 
-(Technical description)
+Nestled withing Photosystem II at the end of the photosynthesis machinery is the Oxygen Evolving Complex (**OEC**) --- the 'lockpick' that splits apart water to release the protons and electrons used to power the cell. A photon from sunlight knocks an electron off a set of four chlorophylll antennae (P680). To fill the leftover electron hole, an electron is shuffled from off of the OEC, progressively raising the charge of the manganese (Mn) metals. 
+
+This light driven process pushes the OEC up the singlet electronic state ladder (the "**S-clock**" cycle). Eventually the OEC is pushed to its limits, the fourth singlet state <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span>, and water is ripped apart, pushing the cluster back to resting charge and reseting the S-clock.  
 
    </div>
 </details>
@@ -223,9 +225,14 @@ Stuff about birnessite
 <br> (*Right*) The natural mineral birnessite that generates oxygen from water in the presence of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838–22846, **2015**
 {:.figcaption}
 
-Nature’s blueprint for water-splitting is essentially a "jagged" distortion of the common mineral **Birnessite**. By incorporating Calcium into the Manganese-oxide lattice, biology creates a **"Spin Diode"**. This geometry aligns the magnetic moments of the Manganese ions, ensuring that the resulting electrons are filtered to produce safe, triplet oxygen ($$^3\Sigma_g^-$$) rather than the incinerating singlet state.
 
-  </div>
+The **OEC** cluster is a distorted manganese-oxide cube, with calcium edge. Though artificial mimics have been created, it is still if it [had the OEC had direct mineral origin, and if so, which mineral](https://pubs.acs.org/doi/10.1021/acs.biochem.6b00794)? 
+
+Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like bernessite also display (far more meek) oxygen evolution. 
+
+The asymmetric cuboid arrangment helps the OEC function as a **"Spin Diode"**. The cluster's four metal centers are in communication to [tightly coordinate a series of spin slips](https://doi.org/10.1103/PhysRevApplied.21.024024) which guide the generation of **triplet oxygen**. 
+  
+   </div>
 </details>
 
 The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; the spin polariser of the asymmetrically distorted cluster ensured departing electrons would pass through the spin-state barrier. The cyanos could take the substance the world was drowning in ---singlet water--- and, at ambient temperature, pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
@@ -239,7 +246,7 @@ For two billion years, the S-clock ticked along, but under the dampening of the 
 Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedition](https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2104-features-nodule/). NOAA, [[Public domain](https://www.omao.noaa.gov/image-licensing-usage-info)]
 {:.figcaption}
 
-[The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around in the mantle -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
+[The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
 
 
 Oxygen rusted the oceans. It was freen from free iron radical before
