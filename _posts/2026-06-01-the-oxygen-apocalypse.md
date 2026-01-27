@@ -95,36 +95,28 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonizationitsl) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-Before we had the green world as we know it, lifeforms were chemical scavengers. The seas were full of <span style="color: #8E7CC3">archaea</span> (literally, 'the <span style="color: #8E7CC3">ancients</span>') who had to eke out a diet of whatever chemicals around that hadn't fully spent its molecular potential energy. This was the Purple Earth, and was fuelled on the chemical dregs of the crust for a billion years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
+Before we had the green world as we know it, lifeforms were chemical scavengers. The seas were full of <span style="color: #8E7CC3">archaea</span> (literally, 'the <span style="color: #8E7CC3">ancients</span>') who had to eke out a diet of whatever chemicals around that hadn't yet fully spent its molecular potential energy. This was the Purple Earth, and was fuelled on the chemical dregs of the crust for a billion years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
 
-A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had had their own an antenna too, a simple **retinal** light gate --- it used centre of the solar spectrum to power primitive pumps. The **chlorophyll** antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red fringes. Suddenly they could capture the array of colour energy coming off the fusion furnace the planet circles. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
+A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had their own antenna, a simple <span style="color: #8E7CC3">**retinal**</span> light gate --- it used centre of the solar spectrum to power primitive pumps. The <span style="color:#BBDD66">**chlorophyll**</span> antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red fringes. Suddenly they could capture the array of colour energy coming off the fusion furnace the planet circles. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
 
 ### ...and began to exhale 
 
+These chlorophyll wielding bacteria were alien --- living in ways previously inaccessible. They could make energy from the sun, they were photo-synthesisers. But their industrious photosynthesis leaked onto a globe a new alien molecule: oxygen gas. O<sub>2</sub> had never been an component of the atmosphere before, it was a highly exotic molecule only created in brief flashes when extreme UV radiation smashed apart water or CO<sub>2</sub>. This new gas was to eventually snuff out the ancients.
 
 ![Oxygenation of the atmosphere over geological time](/images/Oxygenation-atm.png)
 
 The upper (*red*) and lower (*green*) bounds on the oxygen levels in Earth's atmosphere, on a billions of years timescale. [Heinrich D. Holland](https://commons.wikimedia.org/wiki/File:Oxygenation-atm-2.svg) [CC BY-SA 3.0]
 {:.figcaption}
 
-Oxygen production as an *environmental disaster* that killed most other life.
-"The Great Englufing"
-
-
-The <span style="color: #8E7CC3">ancients</span> were [sulfur eaters](link to sulfur post). H<sub>2</sub>S could be readily chowed down as an energy source --- it fell apart within cell at ordinary temperature, its hydrogens surrended as easy fuel. But oxygen was harder to crack --- it was locked in molecular safe of water. H<sub>2</sub>O required electrical impulses from photons and quantum trickery to unpick its bonds.
+The <span style="color: #8E7CC3">ancients</span> were [sulfur eaters](link to sulfur post). H<sub>2</sub>S could be readily chowed down as an energy source --- it fell apart within the cell at ordinary temperature, its hydrogens surrendered as easy fuel. But oxygen was harder to crack --- it was locked in a molecular safe of water. H<sub>2</sub>O required electrical impulses from photons and quantum trickery to unpick its bonds.
 
 Enter the <span style="color:#BBDD66">cyanos</span>.
 
-Cyanobacteria.. [describe photosynthesis starting].. and staged a metabolic coup. They cyanos departed from their ancient ancestors who fed on the sulfur in H<sub>2</sub>S. For the cyanos H<sub>2</sub>O---the abudance of water they were suspended in---became *food*. They began to split the most plentiful fuel source on the planet.
+Cyanobacteria with the light energy from their more powerful antenna had staged a metabolic coup. The cyanos departed from their ancient ancestors who fed on the sulfur in H<sub>2</sub>S. For the cyanos, H<sub>2</sub>O---the abundant solvent they were suspended in---became *food*. They began to split the most plentiful fuel source on the planet.
 
 ### ...and the sea boiled
 
-The oxygen evolving complex -- split water like its nothing, just from light
-Oxidation states because fluoridation states isn't as common. Electron stealers.
-
-These green bacteria had developed spin-forbidden alien technology. The [Oxygen Evolving Complex](https://doi-org.wwwproxy1.library.unsw.edu.au/10.1126/science.1093087) would radically terraform the Earth. The 'S-state' clock in the Manganese core is a [highly calibrated spin aligner](https://www.nature.com/articles/s41586-018-0681-2). 
-
-A distorted cube of manganese and oxygen, with a jagged edge of calcium, drove this electronic cycle.
+These green cyanobacteria had developed spin-forbidden alien technology. The [Oxygen Evolving Complex](https://doi-org.wwwproxy1.library.unsw.edu.au/10.1126/science.1093087) would radically terraform the Earth. At its heart: a distorted cube of manganese and oxygen, with a jagged edge of calcium. This was their 'quantum lockpick' to access the forbidden triplet states. Driven by light power, an 'S-state' clock pumped charges from the manganese core. Once electrons were stripped from the core, it became charged enough to fire---rapidly ripping H<sub>2</sub>O apart into the fuel particles the cyanobacteria needed.
 
 <details style="border: none; background: none;">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none;">
@@ -145,9 +137,6 @@ This light driven process pushes the OEC up the singlet electronic state ladder 
 
    </div>
 </details>
-
-
-Stuff about the S-clock being the core mechanism
 
 <div style="margin: 2rem 0; padding: 1.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #45BB58; border-right: 4px solid #BA575C; text-align: center; font-family: monospace;">
   
@@ -207,8 +196,17 @@ Lying in wait until morning, when the next bombardment of photons can push the c
    </div>
 </details>
 
-Stuff about birnessite
 
+The core functioned as a [highly calibrated spin diode](https://www.nature.com/articles/s41586-018-0681-2). 
+The material for this spin diode was abundant, [as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). 
+
+![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
+
+Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedition](https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2104-features-nodule/). NOAA, [[Public domain](https://www.omao.noaa.gov/image-licensing-usage-info)]
+{:.figcaption}
+
+
+This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
 
 <details style="border: none; background: none;" markdown="1">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none; outline: none;">
@@ -221,14 +219,14 @@ Stuff about birnessite
 
 ![OEC core, its mimic, and birnessite](/images/OEC_mimic_birnessite.png)
 
-(*Left & Middle*) The manganese-oxide–calcium cluster of the oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Science*, *13*, #929532, **2022**.
-<br> (*Right*) The natural mineral birnessite that generates oxygen from water in the presence of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838–22846, **2015**
+[*Left & Middle*] The manganese-oxide–calcium cluster of the oxygen evolving complex, and an artificial mimic: "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Science*, *13*, #929532, **2022**.
+<br> [*Right*] The natural mineral birnessite that generates oxygen from water in the presence of calcium: "[Birnessite: A Layered Manganese Oxide To Capture Sunlight for Water-Splitting Catalysis](https://doi.org/10.1021/acs.jpcc.5b07860)", Lucht, K.; Mendoza-Cortez, J., *The Journal of Physical Chemistry C*, *119*, 22838–22846, **2015**
 {:.figcaption}
 
 
 The **OEC** cluster is a distorted manganese-oxide cube, with calcium edge. Though artificial mimics have been created, it is still if it [had the OEC had direct mineral origin, and if so, which mineral](https://pubs.acs.org/doi/10.1021/acs.biochem.6b00794)? 
 
-Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like bernessite also display (far more meek) oxygen evolution. 
+Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like birnessite also display oxygen evolution, but a far higher overpotentials and creating reactive oxygen species side products that would shred a biological cell. 
 
 The asymmetric cuboid arrangement helps the OEC function as a **"spin diode"**. The cluster's four metal centers are in communication to [tightly coordinate a series of spin slips](https://doi.org/10.1103/PhysRevApplied.21.024024) which guide the generation of forbidden **triplet oxygen**. The sequential spin flips are crucial to this near-alien technology developed by the cyanos; they're what allow the OEC to overcome the---previously unbroken---<span class="germania-text">verboten</span> spin-barrier.  
   
@@ -241,12 +239,6 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 
 For two billion years, the S-clock ticked along, but under the dampening of the seas the oxygen never esacped to the atmosphere. The oceans had a natural buffer -- they contained iron. 
 
-![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
-
-Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedition](https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2104-features-nodule/). NOAA, [[Public domain](https://www.omao.noaa.gov/image-licensing-usage-info)]
-{:.figcaption}
-
-[The for this spin diode was abundant, as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
 
 
 Oxygen rusted the oceans. It was freen from free iron radical before
