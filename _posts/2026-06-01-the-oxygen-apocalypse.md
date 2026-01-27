@@ -230,7 +230,7 @@ The **OEC** cluster is a distorted manganese-oxide cube, with calcium edge. Thou
 
 Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like bernessite also display (far more meek) oxygen evolution. 
 
-The asymmetric cuboid arrangment helps the OEC function as a **"Spin Diode"**. The cluster's four metal centers are in communication to [tightly coordinate a series of spin slips](https://doi.org/10.1103/PhysRevApplied.21.024024) which guide the generation of **triplet oxygen**. 
+The asymmetric cuboid arrangement helps the OEC function as a **"spin diode"**. The cluster's four metal centers are in communication to [tightly coordinate a series of spin slips](https://doi.org/10.1103/PhysRevApplied.21.024024) which guide the generation of forbidden **triplet oxygen**. The sequential spin flips are crucial to this near-alien technology developed by the cyanos; they're what allow the OEC to overcome the---previously unbroken---<span class="germania-text">verboten</span> spin-barrier.  
   
    </div>
 </details>
