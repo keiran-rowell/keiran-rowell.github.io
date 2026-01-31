@@ -409,7 +409,7 @@
     <header>
         <div class="container">
             <h1>Codon Rarity 3D Viewer</h1>
-            <p class="subtitle">Visualise rare codons — hypothesised as co-translational folding bottlenecks in protein structures</p>
+            <p class="subtitle">[<b>Alpha testing version</b>] — Visualise rare codons — hypothesised as co-translational folding bottlenecks in protein structures</p>
             <p class="subtitle" style="font-size: 0.9em; margin-top: 10px;">
                 Created by <a href="https://keiran-rowell.github.io" style="color: #3ba7ff; text-decoration: none;">Keiran Rowell</a> assisted by Claude Sonnet 4.5 prompting | 
                 Codon frequency data from <a href="http://codonstatsdb.unr.edu/" target="_blank" style="color: #3ba7ff; text-decoration: none;">CodonStatsDB</a> 
@@ -432,11 +432,13 @@
                     <div class="control-group">
                         <label for="pdbFile">PDB Structure File</label>
                         <input type="file" id="pdbFile" accept=".pdb">
+                        <p style="text-align: center;"><code>Source DB:  <a href="https://www.uniprot.org/">Uniprot</a> → Structure</code></p>
                     </div>
 
                     <div class="control-group">
                         <label for="fastaFile">Coding DNA Sequence (FASTA)</label>
                         <input type="file" id="fastaFile" accept=".fasta,.fa,.txt">
+                        <p style="text-align: center;"><code>Source DB:  <a href="https://www.uniprot.org/">Uniprot</a> → Nucleotide Sequence</code></p>
                     </div>
 
                     <div class="control-group">

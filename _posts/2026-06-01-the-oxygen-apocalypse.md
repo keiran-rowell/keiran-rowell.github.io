@@ -77,7 +77,7 @@ An insuperable barrier of electronic symmetry is our shield (*expand the briefin
 **Technical Briefing: The Quantum Safety Catch**
 ![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
 
-**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the same spin **can't occupy the same orbital**, so nature has three choices. The **same-spin triplet state** option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density restrained from reacting by spin-interaction rules between molecules. For the **opposite-spin** pairs **singlet state** options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
+**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the same spin **can't occupy the same orbital**, so nature has three choices. The **same-spin triplet state** option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density restrained from reacting by spin-interaction rules between molecules. For the **opposite-spin** paired **singlet state** options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
 
    </div>
 </details>
@@ -252,6 +252,7 @@ The ferrous layer prevented the oxygen from reaching the atmosphere. Only when i
 
 Harmersley rande in WA the best preserved example?  If you want to see the aftermath of this oceanic bleeding the Pilbara ranges have the best examples
 
+Scabs a kilometer thick
 We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
 
 
@@ -291,7 +292,7 @@ GIANT DRAGONFLIES
 </div>
 
 
-An greenhouse gas blanket 30-90x more potent than CO2
+An greenhouse gas blanket roughly 80x more potent than CO<sub>2</sub>
 
 Converted into CO2, a far less potent greenhouse gas (I think it's a factor of 10x-100x, look it up). This is about CO2 really only has antisymmetric modes to do Raman absorption.
 
@@ -343,6 +344,8 @@ Respiration yields way more energy, higher order life forms could be supported c
 
 Biologically dissolved oxygen (•O<sub>2</sub><sup>--</sup>) generates reactive oxygen species that trigger cell again by oxidative stress. The net Haber--Weiss (*i.e.* [Fritz Haber]( nitrogen fixation post_url) fame) reaction is shown above.
 {:.figcaption}
+
+%% Haber-Weiss Reaction was proposed in Haber’s very last paper in 1934 go look it up
 
 Oxygenated free radicals and cell aging. Reactive oxygen species. The *opposite* of rejuvenation
 

@@ -4,7 +4,11 @@ title: Interactive Demos
 permalink: /interactive/
 ---
 
-Hands-on computational chemistry in your browser.
+Hands-on computational chemistry and biology tools your browser.
+{:.faded}
+
+- 🧬 Rare codon viewer: [map synonymous codon rarity onto protein structure](https://keiran-rowell.github.io/assets/interactive/codon-rarity-viewer/) 
+
 
 {% for post in site.categories.interactive %}
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
@@ -14,18 +18,8 @@ Hands-on computational chemistry in your browser.
 ```
 /assets/
   /interactive/
-    /hf-python/
-      index.html
-      HF.py
-      integrals.py
-    /hf-julia/
-      index.html
-      HF_interactive_session.jl
-      HF_modular.jl
-      integrals.jl
-    /hf-rust/
-      index.html
-      pkg/
-        hf_wasm.js
-        hf_wasm_bg.wasm
+   /codon-rarity-viewer/
+     codon_tables.pkl
+     codon_utils.py
+     index.html 
 ```
