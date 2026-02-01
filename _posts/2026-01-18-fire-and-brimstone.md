@@ -144,7 +144,7 @@ The cell's power is conducted by wavicles tunneling along the molecular bonds co
 
 Perhaps these clusters predate---and are a prerequisite for---life itself, states the [iron-sulfur world hypothesis](https://en.wikipedia.org/wiki/Iron%E2%80%93sulfur_world_hypothesis). The cell as a waterborne sack to harness electricity. Enzyme cores remodeled from, and [still resembling](https://www.nature.com/articles/s41467-021-26158-2), mineral clusters from the Earth's crust. Both primates and our aquatic volcano microbial ancestors [preserve highly coordinated machinery](https://www.nature.com/articles/s41559-022-01857-1) [to build iron-sulfur clusters](https://www.nature.com/articles/nature08301). That is how crucially guarded nature has kept the production of this molecular crucible. 
 
-From the dribs of lava that pierced the mantle's crust, a chemical soup contributed to the origins of us all.
+From the dribs of lava that pierced into the crust, a chemical soup contributed to the origins of us all.
 
 ---
 
