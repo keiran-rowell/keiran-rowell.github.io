@@ -53,7 +53,7 @@ Quantum chemistry is typically performed according to  molecular orbital (MO) th
 The Hartee--Fock (HF) method is a variational approach to solving an approximation to the electronic Schrödinger equation. In HF theory the electron-electron repulsion term is solved iteratively, using a "mean-field" of the other electrons, until electron distributions and energies converge within a self-consistent field (SCF). The HF equations are cast as an eigenvalue problem:  $$\mathbf{FC} =  \epsilon \mathbf{SC}$$, where a Fock operator ($$\mathbf{F}$$) acts on a matrix of $$C_{ni}$$ coefficients ($$\mathbf{C}$$) to yield a vector containing the molecular orbital energies ($$\epsilon$$). The Fock operator ($$\hat{F}_{i}$$) contains the one-electron operator ($$\hat{h}_{i}$$), and operators for the exchange ($$\hat{K}$$) and Coulomb repulsion ($$\hat{J}$$) energy between electrons:
 
 $$
-\hat{F}_{i} = \hat{h}_{i} + \sum_{j=i}^{N/2} (2\hat{J}-\hat{K})
+\hat{F}_{i} = \hat{h}_{i} + \sum_{j \neq i}^{N/2} (2\hat{J}-\hat{K})
 $$
 
 This HF solution is often used as the initial trial wavefunction for calculations that use higher accuracy quantum chemical methods.
@@ -80,7 +80,7 @@ For closed-shell molecular spin states, where all electrons are paired, a "restr
 A Møller-Plesset (MP*n*) perturbative correction ($$\lambda \hat{V}$$) can be applied to the HF Hamiltonian ($$\hat{H}_{0}$$) to yield a more exact Hamiltonian ($$\hat{H}$$): $$\hat{H} = \hat{H}_{0} + \lambda \hat{V}$$. Typically, the perturbation applied is a second order correction (MP2), which takes into account electron repulsion integrals (ERIs) between occupied ($$i,j,\ldots$$) and virtual ($$a,b,\ldots$$) orbitals in the Slater determinant:
 
 $$
-E^{\mathrm{MP2}} = \sum_{ij}^{occupied} \sum_{ab}^{virtual}  \frac{(ia|bj)(jb|ia)}{\epsilon_{a} + \epsilon_{b} - \epsilon_{i} - \epsilon{j}}
+E^{\mathrm{MP2}} = \sum_{ij}^{occupied} \sum_{ab}^{virtual}  \frac{(ia|bj)(jb|ia)}{\epsilon_{i} + \epsilon{j} - \epsilon_{a} - \epsilon_{b}}
 $$
 
 This MP2 correction recovers $$\sim$$80--90% of the total dynamic electron correlation which was lacking in the HF solution, allowing better chemical predictions at the increased computational cost of evaluating ERIs.
@@ -115,7 +115,7 @@ Functionals which incorporate more physical parameters of the electron density h
 A schematic of the "rungs" of accuracy in the conceptual "Jacob's ladder" organisation system of density functional methods. The qouted accuracy of each rung comes from a review by Goerigk & Grimme on density functional methods. Schematic of Jacob's ladder modified from: Robert Fludd, *Utriusque Cosmi*, **1671**, illustrated by Johann Theodor de Bry, Oppenheim and Frankfort.
 {:.figcaption}
 
-Local denistry approximation (LDA) functionals use only the local electron density ($$\rho$$), generalised gradient approximation (GGA) functionals incorporate the electron density gradient ($$\nabla\rho$$), and meta-GGA functionals incorporate the second derivative or kinetic energy of the electron density ($$\nabla^2\rho$$). Improved accuracy relative to pure DFT functionals can be achieved by mixing in a component of a wavefunction method. When HF exchange is incorporated into DFT it is known as a "hybrid" method, and addition of a perturbative MP2-like correction yields a "double-hybrid" method. The RI approximation can be used for the MP2-like correction in double-hybrid methods. DFT methods, being formulated upon local electron densities, do not properly capture dispersion interactions and so are frequently combined with empirical dispersion corrections.
+Local density approximation (LDA) functionals use only the local electron density ($$\rho$$), generalised gradient approximation (GGA) functionals incorporate the electron density gradient ($$\nabla\rho$$), and meta-GGA functionals incorporate the second derivative or kinetic energy of the electron density ($$\nabla^2\rho$$). Improved accuracy relative to pure DFT functionals can be achieved by mixing in a component of a wavefunction method. When HF exchange is incorporated into DFT it is known as a "hybrid" method, and addition of a perturbative MP2-like correction yields a "double-hybrid" method. The RI approximation can be used for the MP2-like correction in double-hybrid methods. DFT methods, being formulated upon local electron densities, do not properly capture dispersion interactions and so are frequently combined with empirical dispersion corrections.
 
 #### Global hybrid functionals
 Pure DFT functionals suffer from self-interaction error (SIE), where the Coulomb repulsion of an electron with itself is non-zero due to the form of the exchange functional. The Slater determinant adopted for the HF exchange energy ($$E_{x}^{\mathrm{HF}}$$) exactly cancels SIE, and so SIE is lessened in hybrid functionals. Global hybrid (GH) functionals use a set fraction of HF exchange and have the form:
