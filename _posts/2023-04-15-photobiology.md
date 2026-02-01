@@ -28,7 +28,7 @@ The North Americans get fireflies, which are associated with a [popular hit](htt
 
 Below is a rough chemical overview of where the magic 'glow' comes from: ultimately it is the energy released upon breaking a strained O-O bond and forming two C=O bonds that affords the generation of an electronically excited molecule, which proceeds to emit light when the electrons relax to the ground state. There is some [full-on physical chemistry behind this process](https://doi.org/10.1021/acs.chemrev.7b00649). 
 
-In glowsticks a simple [dioxetane](https://en.wikipedia.org/wiki/1,2-Dioxetane) is used, energy is released when the glowstick is cracked, and a dye is electronically excited and begins glowing. If the dioextane is used by itself, an electronically excited carbonyl is created, but triplet carbonyls are [poor photon emitters](https://doi.org/10.1016/0009-2614(85)85149-6) -- so instead nature devises a concurrent charge transfer process, creating a singlet excited state and ensuring a photon is emitted from the O-O bond breakage. A chemical schematic of the process looks like [this](/images/cyclic_peroxide_to_light.png).  
+In glowsticks a simple [dioxetane](https://en.wikipedia.org/wiki/1,2-Dioxetane) is used, energy is released when the glowstick is cracked, and a dye is electronically excited and begins glowing. If the dioxetane is used by itself, an electronically excited carbonyl is created, but triplet carbonyls are [poor photon emitters](https://doi.org/10.1016/0009-2614(85)85149-6) -- so instead nature devises a concurrent charge transfer process, creating a singlet excited state and ensuring a photon is emitted from the O-O bond breakage. A chemical schematic of the process looks like [this](/images/cyclic_peroxide_to_light.png).  
 
 ---
 
@@ -57,7 +57,7 @@ The luciferin is composed mainly of three amino acids and a central imidazopyraz
 
 ![Crustacean luciferin](/images/crustaceans_luciferin.png)
 
-The luciferin of the *Varigula hilgendorfii* crustacean. The imidazolepyrazinone (*highlighted in red*) reacts with oxygen, generating an excited state similar to the excited state carbonyl in dioxetanes that was outlined above. 
+The luciferin of the *Vargula hilgendorfii* crustacean. The imidazolepyrazinone (*highlighted in red*) reacts with oxygen, generating an excited state similar to the excited state carbonyl in dioxetanes that was outlined above. 
 {:.figcaption}
 
 ### Jellyfish
@@ -66,7 +66,7 @@ Sea creatures use many different luciferins, and the luciferin for the sea pansy
 
 ![Sea pansy luciferin](/images/sea_pansy_luciferin.png)
 
-The luciferin of the *Renilla reniformis* sea pansy closely resembles that for *Varigula* shown above, but is surrounded with different amino acids. 
+The luciferin of the *Renilla reniformis* sea pansy closely resembles that for *Vargula* shown above, but is surrounded with different amino acids. 
 {:.figcaption}
 
 However, the bioluminescence most well-known in the sea is that of jellyfish. Jellyfish bioluminescence is also the most widely used in the lab, supplying the ubiquitous [Green Fluorescent Protein (GFP)](https://en.wikipedia.org/wiki/Green_fluorescent_protein). GFP is used in countless assay and biological experiments: it's easier to image tissue if it glows. 
