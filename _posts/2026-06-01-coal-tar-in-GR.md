@@ -17,7 +17,7 @@ August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some conde
 
 **Ultimate page numbering should be from original 1973 Viking edition at admin's request**
 
->  Content warning: set in WWII, a time period of chemical processes, suffering and depravity beyond words, a military-industrial complex which we must all stop from ever being repeated. 
+>  **Content warning:** set in WWII, a time period of chemical processes, suffering and depravity beyond words, a military-industrial complex which we must all stop from ever being repeated. 
 
 ---
 
@@ -61,6 +61,22 @@ August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some conde
     font-weight: 600;
   }
 
+/* Zero / Absolute - Terminal high-contrast */
+blockquote.zero {
+  background: #000000;
+  border-left: 6px solid #ffffff;
+  color: #ffffff;
+  padding: 1.5em;
+  margin: 0.15em 0 !important;
+  border-radius: 0 4px 4px 0;
+  box-shadow: none; /* Removed the glow */
+}
+
+blockquote.zero strong {
+  color: #ffffff;
+  text-decoration: underline; /* Using underline for emphasis instead of color */
+}
+
 
   /* Aniline / Mauvine / Purple - Artificial, synthetic, the elect */
   blockquote.mauvine {
@@ -76,7 +92,7 @@ August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some conde
     color: #7b2d7a;
   }
 
-  /* BASF / Indrathrene Blue / Commercial dye and chemical industry */
+  /* BASF / Indanthrene Blue / Commercial dye and chemical industry */
   blockquote.basf {
     background-color: #d2d2dc;
     border-left: 6px solid #4d4a75;
@@ -205,6 +221,17 @@ h3.synthesis {
   filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.1));
 }
 
+h3.zero {
+  background: #000000;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  font-size: 1.8em;
+  margin-top: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
   /* General quote styling */
   blockquote {
     font-size: 0.85em;
@@ -284,6 +311,13 @@ blockquote .page-ref {
   color: #2d5a3d;
 }
 
+.etym-zero {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+}
+
+
 </style>
 
 
@@ -316,24 +350,6 @@ transmuted to the very substance of History** <span class="page-ref">639</span>
 
 [White = death is commonly stated, but it's the elect turning the fuel of the preterite into rocket coal-based syngas fuel to escape Earthly Gravity, or destroy it]
 [Slothrop repeatedly descends into the preterite muck, infamously the toilet of human waste but others]
-
-> ...from what the **black and white of coal and
-arc-light** were about to say . . . **no color**, and the unreality to
-go with it—but a familiar unreality, that warns This Is All
-Being Staged To See What I’ll Do So I Mustn’t Make One
-Wrong Move . . . on the last day of his life, with Japanese iron
-whistling down on him from ships that are too far off in the
-haze for him even to see, he will think of the slowly
-carbonizing faces of men he thought he knew, **men turning to
-coal, ancient coal that glistened**, each crystal, in the hoarse
-sputter of the Jablochkov candles, each flake struck perfect. . .
-**a conspiracy of carbon**, though he never phrased it as
-“carbon,” it was power he walked away from, the feeling of
-too much meaningless power, flowing wrong . . . **he could
-smell Death in it**. <span class="page-ref">351</span> 
-{: .coal-tar}
-[Tchitcherine's father on the coal ship]
-
 
 [ As is made clear in passages coal-tar is just dead life + Gravity + time. Synthetic organic chemistry unlocked the rainbow of artificial colours from the pressure of Gravity]
 
@@ -378,7 +394,7 @@ feeling, without wonder (after you get a little time
 in—whatever that means over here—one of these archetypes
 gets to look pretty much like any other, oh you hear some of
 these new hires, the seersucker crowd come in the first day,
-“Wow! Hey—<span class="etym etym-life">that’s th-th’ Tree o’ Creation!</span> Huh? Ain’t it!
+“Wow! Hey—<span class="etym-life">that’s th-th’ Tree o’ Creation!</span> Huh? Ain’t it!
 Je-eepers!” <span class="page-ref">411</span>
 {: .mauvine}
 
@@ -429,11 +445,9 @@ of coal and oil in Earth’s body** <span class="page-ref">589</span>
 
 ### How alphabetic the nature of molecules
 
-> The new coinages seem to be made unconsciously. Is there <span class="etym etym-coaltar">a single root, deeper than anyone has
+> The new coinages seem to be made unconsciously. Is there <span class="etym-coal-tar">a single root, deeper than anyone has
 probed, from which Slothrop’s Blackwords</span> only appear to flower separately?
 > <br> Or has he by the way of language caught the German mania for name-giving, dividing the Creation finer and finer, analyzing, setting namer more hopelessly apart from named, even to bringing in the mathematics of combination, tacking together established nouns to get new ones, the insanely, endlessly diddling play of a **chemist whose molecules are words** <span class="page-ref">448</span>
-
-The #000000 Zero
 
 
 > Carothers, known as The Great Synthesist.. 
@@ -472,11 +486,11 @@ United States. A link to Russia <span class="page-ref">166</span>
 
 >  In any case, he remembers the Slothrop surveillance being assigned to a
 newly created “Sparte IV” [Section 4] under Vermittlungsstelle [placement office] W.
-Sparte I was handling nitrogen and gasoline, <span class="etym etym-mauvine">II dyes</span>,
+Sparte I was handling nitrogen and gasoline, <span class="etym-mauvine">II dyes</span>,
 chemicals, buna rubber, pharmaceuticals, III film and fibers.
 **IV handled Slothrop** and nothing else, except—Schleim had
 heard tell—one or two miscellaneous patents acquired
-through some dealings with  <span class="etym etym-basf">IG Chemie</span> in Switzerland <span class="page-ref">630</span>
+through some dealings with  <span class="etym-basf">IG Chemie</span> in Switzerland <span class="page-ref">630</span>
 {: .coal-tar}
 
 > An analgesic whose name he couldn’t recall, and a new plastic,
@@ -491,7 +505,7 @@ Gloaming’s only comment at the time <span class="page-ref">630</span>
 > <br> --- Walter Gardner, "The British Coal-tar Colour Industry", *Nature*, *133*, 575, **1934**
 
 > **These are our letters, our words**: they too can be modulated, broken, recoupled, redefined, co-polymerized one
-to the other in <span class="etym etym-basf">worldwide chains that will surface now and
+to the other in <span class="etym-basf">worldwide chains that will surface now and
 then over long molecular silences</span>, like the seen parts of a tapestry. <span class="page-ref">355</span>
 
 
@@ -602,15 +616,15 @@ as a sort of sideline. All overhead—yes, out of its own pocket the Company is 
 >... zeroing in on what incalculable plot? Up here, on the surface, **coaltars**, hydrogenation, **synthesis were always phony,
 dummy functions to hide the real, the planetary mission** yes
 perhaps centuries in the unrolling . . . this ruinous plant,
-waiting for its <span class="etym etym-mauvine">Kabbalists and new alchemists to discover the
+waiting for its <span class="etym-mauvine">Kabbalists and new alchemists to discover the
 Key</span>, teach the mysteries to others...
 > <br> 
-> <br> And if it isn’t exactly <span class="etym etym-basf">Jamf Ölfabriken Werke</span> [oil refineries]? <span class="page-ref">521</span>
+> <br> And if it isn’t exactly <span class="etym-basf">Jamf Ölfabriken Werke</span> [oil refineries]? <span class="page-ref">521</span>
 {: .coal-tar}
 
 > that **IG man’s hotel room** may
 have been one of his earlier rehearsals. Tchitcherine has a
-way of getting together with undesirables, <span class="etym etym-mauvine">sub rosa enemies
+way of getting together with undesirables, <span class="etym-mauvine">sub rosa enemies
 of order, counterrevolutionary odds and ends of humanity</span>: he
 doesn’t plan it, it just happens, **he is a giant supermolecule
 with so many open bonds available at any given time**  <span class="page-ref">345</span>
@@ -671,6 +685,49 @@ different idea of what winning and losing meant. . . .
 excuses to drift away into other conversations. <span class="page-ref">344</span>
 {: .coal-tar}
 
+### The #000000 Zero
+{: .zero}
+
+[Carbon black - the burning of it all and ashes-to-ashes]
+[The Schwartzgerat and Blicero - the black device and white death]
+**Schwarzgerät** <span class="etym etym-zero">The Black-device. The 00000-series. The end of the conflagration of the rainbow of organics forged by Gravity.</span>
+[The complete absence of colour as the rocket doesn't fall, but escapes the rainbow arc-en-ciel]
+
+> ...from what the **black and white of coal and
+arc-light** were about to say . . . **no color**, and the unreality to
+go with it—but a familiar unreality, that warns This Is All
+Being Staged To See What I’ll Do So I Mustn’t Make One
+Wrong Move . . . on the last day of his life, with Japanese iron
+whistling down on him from ships that are too far off in the
+haze for him even to see, he will think of the slowly
+carbonizing faces of men he thought he knew, <span class="etym-coal-tar">men turning to
+coal, ancient coal that glistened</span>, each crystal, in the hoarse
+sputter of the Jablochkov candles, each flake struck perfect. . .
+**a conspiracy of carbon**, though he never phrased it as
+“carbon,” it was power he walked away from, the feeling of
+too much meaningless power, flowing wrong . . . **he could
+smell Death in it**. <span class="page-ref">351</span> 
+{: .zero}
+[Tchitcherine's father on the coal ship]
+
+>But the Rocket has to be many things, it must
+answer to a number of different shapes in the dreams of those
+who touch it—in combat, in tunnel, on paper—it must survive
+heresies shining, unconfoundable . . . and heretics there will
+be: Gnostics who have been taken in a rush of wind and fire
+to chambers of the Rocket-throne . . . <span class="etym-mauvine">Kabbalists who study
+the Rocket as Torah</span>, letter by letter—rivets, burner cup and
+brass rose, its text is theirs to permute and combine into new
+revelations, always unfolding . . . Manichaeans who see two
+Rockets, good and evil, who speak together in the sacred
+idiolalia of the Primal Twins (some say their names are
+**Enzian and Blicero**) of a **good Rocket to take us to the stars,
+an evil Rocket for the World’s suicide**, the two perpetually in
+struggle. <span class="page-ref">727</span>
+{:.zero}
+
+
+
 ### THE LAST GREEN AND MAGENTA
 {: .synthesis}
 
@@ -682,7 +739,7 @@ life so clangorous and mad, such a **green** corona about Earth’s
 body that some spoiler had to be brought in before it blew the
 Creation apart. So we, the crippled keepers, were sent out to
 multiply, to have dominion. God’s spoilers. Us.
-Counterrevolutionaries. <span class="etym etym-mauvine">**_It is our mission to promote death_**</span>.
+Counterrevolutionaries. <span class="etym-mauvine">**_It is our mission to promote death_**</span>.
 The way we kill, the way we die, being unique among the
 Creatures. It was something we had to work on, historically
 and personally. To build from scratch up to its present status
@@ -702,11 +759,11 @@ uprising**. But only nearly as strong.  <span class="page-ref">720</span>
 
 [Slothrop's very *ahem* skin is the interface between the natural organic of a primate, and the artifical organic chemistry of polymers enabled by coal-tar chemistry]
 
-> <span class="etym etym-coal-tar">The rest of us, not chosen for enlightenment, left on the
+> <span class="etym-coal-tar">The rest of us, not chosen for enlightenment, left on the
 outside of Earth</span>, at the mercy of a Gravity we have only
 begun to learn how to detect and measure, must go on
 blundering inside our front-brain faith in Kute
-Korrespondences, <span class="etym etym-mauvine">hoping that for each psi-synthetic taken
+Korrespondences, <span class="etym-mauvine">hoping that for each psi-synthetic taken
 from Earth’s soul there is a molecule, secular, more or less
 ordinary and named, over here—kicking endlessly among the
 plastic trivia, finding in each Deeper Significance</span> and trying
