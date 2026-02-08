@@ -1,8 +1,8 @@
 ---
 layout: post
 author: keiran
-title: "Coal-tar Kabbalah: from preterite organics to elect synthethics in Gravity's Rainbow "
-description: "📖 X min read • The chemical colour threads weaving in the WWII chemistry of Gravity's Rainbow" 
+title: "Coal-tar Kabbalah: from preterite organics to elect synthetics in Gravity's Rainbow"
+description: "📖 X min read • The chemical colour threads weaving WWII chemistry into Gravity's Rainbow" 
 published: false
 category: writing
 dark_mode: false
@@ -304,7 +304,7 @@ waited in the preterite dung**. <span class="page-ref">166</span>
 {: .coal-tar}
 
 
-**Slothrop** <span class="etym etym-coal-tar">(German) Schlot = smokestack, Tropf = drip (also fool, like calling someone a 'drip' in English) **[the preterite]**</span>.... 
+**Slothrop** <span class="etym etym-coal-tar">(German) Schlot = smokestack [The Tower], Tropf = drip (also fool [The Fool], like calling someone a 'drip' in English) **[the preterite]**</span>.... 
 
 > "You think you’d rather hear about what you call 'life': the growing, organic Kartell. But it’s only another illusion. A very clever robot. The more dynamic it seems to you, the more deep and dead, in reality, it grows. Look at the **smokestacks**, how they proliferate, fanning the wastes of original waste over greater and greater masses of city. Structurally, they are strongest in compression. **A smokestack can survive any explosion** -- even the shock wave from one of the new cosmic bombs" <span class="page-ref">167</span>
 {: .coal-tar}
@@ -316,6 +316,24 @@ transmuted to the very substance of History** <span class="page-ref">639</span>
 
 [White = death is commonly stated, but it's the elect turning the fuel of the preterite into rocket coal-based syngas fuel to escape Earthly Gravity, or destroy it]
 [Slothrop repeatedly descends into the preterite muck, infamously the toilet of human waste but others]
+
+> ...from what the **black and white of coal and
+arc-light** were about to say . . . **no color**, and the unreality to
+go with it—but a familiar unreality, that warns This Is All
+Being Staged To See What I’ll Do So I Mustn’t Make One
+Wrong Move . . . on the last day of his life, with Japanese iron
+whistling down on him from ships that are too far off in the
+haze for him even to see, he will think of the slowly
+carbonizing faces of men he thought he knew, **men turning to
+coal, ancient coal that glistened**, each crystal, in the hoarse
+sputter of the Jablochkov candles, each flake struck perfect. . .
+**a conspiracy of carbon**, though he never phrased it as
+“carbon,” it was power he walked away from, the feeling of
+too much meaningless power, flowing wrong . . . **he could
+smell Death in it**. <span class="page-ref">351</span> 
+{: .coal-tar}
+[Tchitcherine's father on the coal ship]
+
 
 [ As is made clear in passages coal-tar is just dead life + Gravity + time. Synthetic organic chemistry unlocked the rainbow of artificial colours from the pressure of Gravity]
 
@@ -345,8 +363,8 @@ here, but the **important one is mauve**. <span class="page-ref">166</span>
 >Black reinforcing rod poking out . . . black rust.  There were touches of **royal purple** in the air <span class="page-ref">643</span>
 {: .mauvine}
 
-> Friday, at dawn, the Magician, his own moving
-Heiligenschein rippling infrared to **ultraviolet** in spectral rings
+> Friday, at dawn, **the Magician**, his own moving
+Heiligenschein [holy light/halo] rippling infrared to **ultraviolet** in spectral rings
 around his shadow over the dewy grass, comes with his dog, a
 **coal-black** dog who hasn’t been fed for a few days.   <span class="page-ref">625</span>
 {: .mauvine}
@@ -377,7 +395,7 @@ branching inward: every one, except for William the very
 first, lying under fallen leaves, **mint and purple** loosestrife<span class="page-ref">27</span>
 {: .life}
 
-> burnt-purple rolling of the Lüneburg Heath <span class="page-ref">626</span>
+> **burnt-purple** rolling of the Lüneburg Heath <span class="page-ref">626</span>
 {: .life}
 
 [The Lüneburg Heath is famous of its blooms of muted purple heather](https://entdecke-deutschland.de/en/bundeslaender/niedersachsen/the-lueneburg-heath-and-its-purple-wonder/)
@@ -581,6 +599,23 @@ as a sort of sideline. All overhead—yes, out of its own pocket the Company is 
 
 [IG Farben would make the chemicals used in wartime Germany, including the most horrific atrocities]
 
+>... zeroing in on what incalculable plot? Up here, on the surface, **coaltars**, hydrogenation, **synthesis were always phony,
+dummy functions to hide the real, the planetary mission** yes
+perhaps centuries in the unrolling . . . this ruinous plant,
+waiting for its <span class="etym etym-mauvine">Kabbalists and new alchemists to discover the
+Key</span>, teach the mysteries to others...
+> <br> 
+> <br> And if it isn’t exactly <span class="etym etym-basf">Jamf Ölfabriken Werke</span> [oil refineries]? <span class="page-ref">521</span>
+{: .coal-tar}
+
+> that **IG man’s hotel room** may
+have been one of his earlier rehearsals. Tchitcherine has a
+way of getting together with undesirables, <span class="etym etym-mauvine">sub rosa enemies
+of order, counterrevolutionary odds and ends of humanity</span>: he
+doesn’t plan it, it just happens, **he is a giant supermolecule
+with so many open bonds available at any given time**  <span class="page-ref">345</span>
+{: .basf}
+
 ### Kekulé dreams the Great Serpent 
 {: .benzene}
 
@@ -614,6 +649,8 @@ with its tail in its mouth, GET IT? <span class="page-ref">413</span>
 
 [This is in the centre of the book, a narrative that loops back on itself cyclically like the bezenze ring loops back on itself]
 [It's not 100% 50/50, it's more 54% of the way in] 
+[Kekule studied architecture. The architecture of the book is  molecular.]
+
 
 >  an item of belly-brass that Slothrop’s seen
 too: a **gold benzene ring** with a formée cross in the
@@ -625,9 +662,8 @@ to Synthetics Research. <span class="page-ref">243</span>
 > Pökler's old prof, Laszlo Jamf, at this point in the spiel removing from his fob a **gold hexagon** with the German formée cross in the center, a medal of honor from IG Farben... he likes to think of the cross not as German so much as standing for the tetravalency of carbon <span class="page-ref">413</span>
 {: .benzene}
 
->carbon the most versatile, the queen, “the Great Catherine of the periodic
-table,” down to the little hydrogens numerous and single-
-moving as pawns . . . and the brute opposition of the
+>**carbon the most versatile**, the queen, “the Great Catherine of the periodic
+table,” down to the little hydrogens numerous and single-moving as pawns . . . and the brute opposition of the
 chessboard yielding, in **this chemical game, to dance-figures
 in three dimensions, “four, if you like,”** and a radically
 different idea of what winning and losing meant. . . .
@@ -636,41 +672,6 @@ excuses to drift away into other conversations. <span class="page-ref">344</span
 {: .coal-tar}
 
 ### THE LAST GREEN AND MAGENTA
-{: .synthesis}
-
->... zeroing in on what incalculable plot? Up here, on the surface, **coaltars**, hydrogenation, **synthesis were always phony,
-dummy functions to hide the real, the planetary mission** yes
-perhaps centuries in the unrolling . . . this ruinous plant,
-waiting for its <span class="etym etym-mauvine">Kabbalists and new alchemists to discover the
-Key</span>, teach the mysteries to others...
-
-And if it isn’t exactly <span class="etym etym-basf">Jamf Ölfabriken Werke</span> [oil refineries]? <span class="page-ref">521</span>
-{: .coal-tar}
-
-> ...from what the black and white of coal and
-arc-light were about to say . . . no color, and the unreality to
-go with it—but a familiar unreality, that warns This Is All
-Being Staged To See What I’ll Do So I Mustn’t Make One
-Wrong Move . . . on the last day of his life, with Japanese iron
-whistling down on him from ships that are too far off in the
-haze for him even to see, he will think of the slowly
-carbonizing faces of men he thought he knew, **men turning to
-coal, ancient coal that glistened**, each crystal, in the hoarse
-sputter of the Jablochkov candles, each flake struck perfect. . .
-**a conspiracy of carbon**, though he never phrased it as
-“carbon,” it was power he walked away from, the feeling of
-too much meaningless power, flowing wrong . . . **he could
-smell Death in it**. <span class="page-ref">351</span> 
-{: .coal-tar}
-[Tchitcherine's father on the coal ship]
-
-
-> that <span class="etym etym-basf">IG man’s hotel room</span> may
-have been one of his earlier rehearsals. Tchitcherine has a
-way of getting together with undesirables, <span class="etym etym-mauvine">sub rosa enemies
-of order, counterrevolutionary odds and ends of humanity</span>: he
-doesn’t plan it, it just happens, **he is a giant supermolecule
-with so many open bonds available at any given time**  <span class="page-ref">345</span>
 {: .synthesis}
 
 > This is the World just before men. Too violently pitched alive in constant
