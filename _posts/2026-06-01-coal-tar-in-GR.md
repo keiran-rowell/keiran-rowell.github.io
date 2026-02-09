@@ -81,6 +81,21 @@ blockquote.zero strong {
 }
 
 
+/* Cosmos / Zodiac / Night Sky - The Rocket's Trajectory & The 13th Sign */
+  blockquote.zodiac {
+    background-color: #1a1a24;      /* Deep Midnight/Void - The "00000" */
+    border-left: 6px solid #7b68ee; /* Medium Slate Blue - The "Interface" line */
+    color: #e6e6fa;                 /* Lavender/Starlight text for contrast */
+    padding: 1.5em;
+    margin: 2em 0;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 2px 2px 5px rgba(123, 104, 238, 0.25); /* A faint glow, like exhaust */
+  }
+  blockquote.zodiac strong {
+    color: #ffffff;                 /* Pure White - The "Stars" or "Impact Points" */
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.4); /* Subtle bloom effect */
+  }
+
   /* Aniline / Mauvine / Purple - Artificial, synthetic, the elect */
   blockquote.mauvine {
     background-color: #faf5ff;
@@ -557,7 +572,6 @@ temperatures, pressures, rates of flow, costs, profits, **the
 shapes of towers**. . . <span class="page-ref">167</span>
 {: .coal-tar}
 
-
 ![Proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### The Colour Cartel
@@ -770,11 +784,59 @@ struggle. <span class="page-ref">727</span>
 
 [Once combustion happens all that's left is soot. Carbon broken down into its particlised, elemental form. Combustion is an entropy driven process, breaking down organic order and connection into pure, discretised, disordered separation. The raw material vanishes on a human scale. Disorder that can never return to order, breaking the cycle]
 
-one by one,come the concrete masses of the test stands, stations of the cross, VI, V,
+>one by one,come the concrete masses of the test stands, stations of the cross, VI, V,
 III, IV, II, IX, VIII, I, finally the **Rocket’s own**, from which it
 stood and flew at last, VII and X. <span class="etym-life">Trees that once screened
 these from the sea</span> now are only <span class="etym-coal-tar"> stalks of charcoal</span>. <span class="page-ref">681</span>
 {: .zero}
+
+> the twelve spokes of a stranded artillery piece—a mud clock,
+a **mud zodiac** <span class="page-ref">79</span>
+{: .zero}
+
+[Alchemy symbols were zodiac signs and more!!]
+[According to Pernety's Dictionnaire mytho-hermétique (1758) from wikipedia]
+
+>
+1. ♈︎ Aries = Calcination, the furnance --- Von Braun, Bismarck, Dr Livingstone [the elect, the warmongers] 
+2. ♉︎ Taurus = Congelation (crystalisation) --- Walter Asch 
+3. ♋︎ ---
+4. ♋︎ Cancer = Solution --- Leni, the robot guide 
+5. ♌︎ Leo = Digestion --- The Bomb, "a fireburst came roaring and sovereign, the sun was in..." 
+6. ♍︎ = Distillation --- Tyrone Slothrop, a "double Virgo" 
+7. ♎︎ --- 
+8. ♏︎ Scorpio = Separation --- Nora 
+9. ♐︎ Sagittarius = Ceration (controlled oxidisation through heating) --- Galina = Galena [lead], "red Sagittarius", heating turns elemental lead into read lead oxide. Gretel and the colt, "full of the Sagittarian fire"; Hansel and Gretel = burning the witch 
+10. ♑︎ ---  
+11. ♒︎ ---
+12. ♓︎ Projection = (turning lead into gold, The alchemical symbol of the Ouroboros, also projection of the rocket) ---  Pökler = pickler = acid +  nitrates = explosives.  Neptune. PISCES = Astral projection. Pökler = pickler = acid +  nitrates = explosives 
+{: .zodiac}
+
+Processes abscent in the novel and abscent in the chemical warfare: 
+>Solidification (Gemini ♋︎), Sublimation (Libra ♎︎), Fermentation (Capricorn ♑︎), Multiplication (Aquarius ♒︎)
+{: .zodiac}
+
+> The great cusp—green equinox and turning, dreaming fishes [♓︎ = pisces = projection]
+to young ram [♈︎ = aries = furnance], watersleep to firewaking, bears down on us. <span class="page-ref">236</span>
+{: .zodiac}
+[The rocket, the furnance + the projectile transforming everything]
+
+
+>And what is the specific shape whose
+center of gravity is the Brennschluss Point? Don’t jump at an
+infinite number of possible shapes. There’s only one. It is
+most likely an interface between one order of things and
+another. There’s a Brennschluss point for every firing site.
+They still hang up there, all of them, a constellation waiting to
+have a **13th sign of the Zodiac** named for it... but **they lie so
+close to Earth that from many places they can’t be seen at all**,
+and from different places inside the zone where they can be
+seen, they fall into completely different patterns....<span class="page-ref">302</span>
+{: .zodiac}
+
+Ophiuchus ⛎ = 13th Zodiac =  The Serpent barer 
+
+The Brennschluss point is the closed cycle from the rocket arc above (almost mimicking a rainbow) and the great seperent of coal-tar benzene down below in the Earth. The rockets of the military-industrial complex are just a terrifying, entrancing visible spectacle of the weight of the industrial underclass underpinning it below  
 
 
 ![Tetrahedral carbon](/images/tetrahedral_cabon.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
