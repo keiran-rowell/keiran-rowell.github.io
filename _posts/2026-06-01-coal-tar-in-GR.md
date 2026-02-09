@@ -800,20 +800,20 @@ a **mud zodiac** <span class="page-ref">79</span>
 >
 1. ♈︎ Aries = Calcination, the furnance --- Von Braun, Bismarck, Dr Livingstone [the elect, the warmongers] 
 2. ♉︎ Taurus = Congelation (crystalisation) --- Walter Asch 
-3. ♋︎ ---
+3. ♊︎ ---
 4. ♋︎ Cancer = Solution --- Leni, the robot guide 
 5. ♌︎ Leo = Digestion --- The Bomb, "a fireburst came roaring and sovereign, the sun was in..." 
 6. ♍︎ = Distillation --- Tyrone Slothrop, a "double Virgo" 
 7. ♎︎ --- 
 8. ♏︎ Scorpio = Separation --- Nora 
-9. ♐︎ Sagittarius = Ceration (controlled oxidisation through heating) --- Galina = Galena [lead], "red Sagittarius", heating turns elemental lead into read lead oxide. Gretel and the colt, "full of the Sagittarian fire"; Hansel and Gretel = burning the witch 
+9. ♐︎ Sagittarius = Ceration (controlled oxidisation through heating) --- Galina = Galena [lead], "red Sagittarius", heating turns elemental lead into red lead oxide. Gretel and the colt, "full of the Sagittarian fire"; Hansel and Gretel = burning the witch 
 10. ♑︎ ---  
 11. ♒︎ ---
 12. ♓︎ Projection = (turning lead into gold, The alchemical symbol of the Ouroboros, also projection of the rocket) ---  Pökler = pickler = acid +  nitrates = explosives.  Neptune. PISCES = Astral projection. Pökler = pickler = acid +  nitrates = explosives 
 {: .zodiac}
 
 Processes abscent in the novel and abscent in the chemical warfare: 
->Solidification (Gemini ♋︎), Sublimation (Libra ♎︎), Fermentation (Capricorn ♑︎), Multiplication (Aquarius ♒︎)
+>Solidification (Gemini ♊︎), Sublimation (Libra ♎︎), Fermentation (Capricorn ♑︎), Multiplication (Aquarius ♒︎)
 {: .zodiac}
 
 > The great cusp—green equinox and turning, dreaming fishes [♓︎ = pisces = projection]
@@ -822,8 +822,8 @@ to young ram [♈︎ = aries = furnance], watersleep to firewaking, bears down o
 [The rocket, the furnance + the projectile transforming everything]
 
 
->And what is the specific shape whose
-center of gravity is the Brennschluss Point? Don’t jump at an
+>And what is the **specific shape whose
+center of gravity is the Brennschluss Point**? Don’t jump at an
 infinite number of possible shapes. There’s only one. It is
 most likely an interface between one order of things and
 another. There’s a Brennschluss point for every firing site.
@@ -834,9 +834,9 @@ and from different places inside the zone where they can be
 seen, they fall into completely different patterns....<span class="page-ref">302</span>
 {: .zodiac}
 
-Ophiuchus ⛎ = 13th Zodiac =  The Serpent barer 
+Ophiuchus ⛎ = 13th Zodiac = **The Serpent barer** 
 
-The Brennschluss point is the closed cycle from the rocket arc above (almost mimicking a rainbow) and the great seperent of coal-tar benzene down below in the Earth. The rockets of the military-industrial complex are just a terrifying, entrancing visible spectacle of the weight of the industrial underclass underpinning it below  
+[The Brennschluss point is the closed cycle from the rocket arc above (almost mimicking a rainbow) and the great seperent of coal-tar benzene down below in the Earth. The rockets of the military-industrial complex are just a terrifying, entrancing visible spectacle of the weight of the industrial underclass underpinning it below]  
 
 
 ![Tetrahedral carbon](/images/tetrahedral_cabon.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
