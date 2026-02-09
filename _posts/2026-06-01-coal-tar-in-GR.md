@@ -7,17 +7,20 @@ published: false
 category: writing
 dark_mode: false
 image: 
-  path: /images/Historic_Benzene_Formulae_Kekule.png
-  alt: "One of Kekulé's modern looking proposals for the structure of benzenze."
+  path: /images/GR_hero_image.png
+  alt: "The skeletal formula of benzene's cyclic electron ring, rainbow rockets circling above and rainbow ouroboros below. The smokestack Tower and the pigheaded Fool. The double integral of acceleration, and the energy levels of benzene."
 ---
 
 [Make my own adapted figure that ties into GR] <br>
+[The figure should be Kekule's alternatively numbered benzene ring, blurred in superposition, with the pi orbital around the outside as a rainbow ring. Myabe not strict pi by a circle. Or a rainbow serpent]
+[In the skeletal formulae section seperators, colour the benzene rings in gold]
+
 August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some condensation products of aldehyes), *Justus Liebigs Annalen der Chemie*, [Vol. 162, Iss. 1, 77--124, **1872**](https://doi.org/10.1002/jlac.18721620110) 
 {:.figcaption}
 
 **Ultimate page numbering should be from original 1973 Viking edition at admin's request**
 
->  **Content warning:** set in WWII, a time period of chemical processes, suffering and depravity beyond words, a military-industrial complex which we must all stop from ever being repeated. 
+>  **Content warning:** set in WWII, a time period of chemical processes, suffering and depravity beyond words; a military-industrial complex of death which we must all stop from ever being repeated. 
 
 ---
 
@@ -343,6 +346,12 @@ waited in the preterite dung**. <span class="page-ref">166</span>
 > "You think you’d rather hear about what you call 'life': the growing, organic Kartell. But it’s only another illusion. A very clever robot. The more dynamic it seems to you, the more deep and dead, in reality, it grows. Look at the **smokestacks**, how they proliferate, fanning the wastes of original waste over greater and greater masses of city. Structurally, they are strongest in compression. **A smokestack can survive any explosion** -- even the shock wave from one of the new cosmic bombs" <span class="page-ref">167</span>
 {: .coal-tar}
 
+>The persistence, then, of structures favoring death. Death converted into more death.
+Perfecting its reign, just as **the buried coal grows denser**, and
+overlaid with more strata—epoch on top of epoch, city on top
+of ruined city. <span class="etym-mauvine">This is the sign of Death the impersonator</span>. <span class="page-ref">167</span>
+{: .coal-tar}
+
 > I am Gravity, I am That against which the Rocket
 must struggle, to which the **prehistoric wastes submit and are
 transmuted to the very substance of History** <span class="page-ref">639</span>
@@ -355,6 +364,8 @@ transmuted to the very substance of History** <span class="page-ref">639</span>
 
 [There's obviously the coal-tar -> syngas -> rocket fuel]
 
+
+![Rainbow iridescence on anthracite coal](/images/anthracite_rainbow.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### The first new color on Earth
 {: .mauvine}
@@ -399,6 +410,9 @@ Je-eepers!” <span class="page-ref">411</span>
 {: .mauvine}
 
 
+![The skeletal structure of mauvine](/images/mauvine_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+
+
 ### The growing, organic Kartell
 {: .life}
 
@@ -434,7 +448,7 @@ repossess, prevail <span class="page-ref">10</span>
 {: .life}
 
 
->To find that Gravity, taken so for granted, is really something eerie, Messianic, extrasensory in Earth’s mindbody . . . having hugged to **its holy center the wastes of dead species**, gathered, packed, transmuted, realigned, and rewoven molecules to be taken up again by the coal-tar Kabbalists of the other side <span class="page-ref">590</span>
+>To find that Gravity, taken so for granted, is really something eerie, Messianic, extrasensory in Earth’s mindbody . . . having hugged to **its holy center the wastes of dead species**, gathered, packed, transmuted, realigned, and <span class="etym-mauvine">rewoven molecules to be taken up again by the coal-tar Kabbalists of the other side</span> <span class="page-ref">590</span>
 {: .coal-tar}
 
 > [Bland] imagines that he has been journeying
@@ -442,6 +456,9 @@ underneath history: that history is Earth’s mind, and that there
 are layers, set very deep, **layers of history analogous to layers
 of coal and oil in Earth’s body** <span class="page-ref">589</span>
 {: .coal-tar}
+
+
+![The skeletal structure of chlorophyll](/images/chlorophyll_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### How alphabetic the nature of molecules
 
@@ -540,6 +557,9 @@ temperatures, pressures, rates of flow, costs, profits, **the
 shapes of towers**. . . <span class="page-ref">167</span>
 {: .coal-tar}
 
+
+![Proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+
 ### The Colour Cartel
 {: .basf}
 
@@ -558,6 +578,18 @@ dye industry to become the IG.... <span class="page-ref">412</span>
 {: .basf}
 
 [ -> Liebig -> Kekule ->  Hofmann -> Perkin -> Dyes ->  IG Farben -> BASF (JAMF)]
+
+>Liebig himself seems
+to have occupied the role of a gate, or sorting-demon such as
+his younger contemporary Clerk Maxwell once proposed,
+helping to **concentrate energy into one favored room of the
+Creation at the expense of everything else** (later witnesses
+have suggested that Clerk **Maxwell intended his Demon not
+so much as a convenience** in discussing a thermodynamic
+idea **as a parable about the actual existence of personnel like
+Liebig**... <span class="page-ref">412</span>
+
+
 
 > [Pökler's] course in polymer theory was taught by Professor-Doctor Laszlo Jamf, who was latest in the true succession, Liebig to August Wilhelm **von Hofmann**, to Herbert Ganister **to Laszlo Jamf, a direct chain** <span class="page-ref">161</span>
 
@@ -598,7 +630,8 @@ fellowship of interests**... <span class="page-ref">163</span>
 
 [Blue dyes turn up a few times, save space on the page like the purple hills]
 
-> washed in seas blue as **blue dye** <span class="page-ref">326</span>
+> **baby-blankets making bright pastel** clouds in the coal and steam smells <span class="page-ref">132</span>
+> <br> washed in seas blue as **blue dye** <span class="page-ref">326</span>
 > <br> chalcedony doorknob **dyed blue long ago with ferrous ferrocyanide** <span class="page-ref">434</span>
 > <br> lace stockings and a **dyed sable coat** <span class="page-ref">468</span>
 > <br> across a **wide meadow whose color is** deepening now as if **green dye** flowed and seeped into its nap  <span class="page-ref">561</span>
@@ -629,6 +662,9 @@ of order, counterrevolutionary odds and ends of humanity</span>: he
 doesn’t plan it, it just happens, **he is a giant supermolecule
 with so many open bonds available at any given time**  <span class="page-ref">345</span>
 {: .basf}
+
+
+![The skeletal structure of indanthrene blue](/images/indanthrene_blue.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### Kekulé dreams the Great Serpent 
 {: .benzene}
@@ -685,12 +721,15 @@ different idea of what winning and losing meant. . . .
 excuses to drift away into other conversations. <span class="page-ref">344</span>
 {: .coal-tar}
 
+![The skeletal structure of benzene](/images/benzene_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+
 ### The #000000 Zero
 {: .zero}
 
-[Carbon black - the burning of it all and ashes-to-ashes]
+[Nature does not know destruction only transformation from one form of matter to another. A gradual evolution. Only the chemical agents of the human military-industrial complex know complete obliteration]
+
 [The Schwartzgerat and Blicero - the black device and white death]
-**Schwarzgerät** <span class="etym etym-zero">The Black-device. The 00000-series. The end of the conflagration of the rainbow of organics forged by Gravity.</span>
+**Schwarzgerät** <span class="etym etym-zero">The Black-device. The 00000-series. The end conflagration of the rainbow of organics forged by Gravity.</span>
 [The complete absence of colour as the rocket doesn't fall, but escapes the rainbow arc-en-ciel]
 
 > ...from what the **black and white of coal and
@@ -710,6 +749,8 @@ smell Death in it**. <span class="page-ref">351</span>
 {: .zero}
 [Tchitcherine's father on the coal ship]
 
+[Carbon black - the burning of it all and ashes-to-ashes]
+
 >But the Rocket has to be many things, it must
 answer to a number of different shapes in the dreams of those
 who touch it—in combat, in tunnel, on paper—it must survive
@@ -724,9 +765,19 @@ idiolalia of the Primal Twins (some say their names are
 **Enzian and Blicero**) of a **good Rocket to take us to the stars,
 an evil Rocket for the World’s suicide**, the two perpetually in
 struggle. <span class="page-ref">727</span>
-{:.zero}
+{: .zero}
 
 
+[Once combustion happens all that's left is soot. Carbon broken down into its particlised, elemental form. Combustion is an entropy driven process, breaking down organic order and connection into pure, discretised, disordered separation. The raw material vanishes on a human scale. Disorder that can never return to order, breaking the cycle]
+
+one by one,come the concrete masses of the test stands, stations of the cross, VI, V,
+III, IV, II, IX, VIII, I, finally the **Rocket’s own**, from which it
+stood and flew at last, VII and X. <span class="etym-life">Trees that once screened
+these from the sea</span> now are only <span class="etym-coal-tar"> stalks of charcoal</span>. <span class="page-ref">681</span>
+{: .zero}
+
+
+![Tetrahedral carbon](/images/tetrahedral_cabon.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### THE LAST GREEN AND MAGENTA
 {: .synthesis}
