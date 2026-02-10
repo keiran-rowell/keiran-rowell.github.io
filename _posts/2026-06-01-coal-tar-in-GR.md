@@ -552,9 +552,9 @@ The process follows the same form, the same structure. To
 apprehend it you will follow the signs. **All talk of cause and
 effect is secular history**, and secular history is a diversionary
 tactic. Useful to you, gentlemen, but no longer so to us here.
-**If you want the truth—I know I presume—you must look into
-the technology of these matters.** Even into the hearts of
-certain molecules—it is they after all which dictate
+**If you want the truth**—I know I presume—**you must look into
+the technology of these matters. Even into the hearts of
+certain molecules**—it is they after all which dictate
 temperatures, pressures, rates of flow, costs, profits, **the
 shapes of towers**. . . <span class="page-ref">167</span>
 {: .coal-tar}
@@ -775,13 +775,12 @@ struggle. <span class="page-ref">727</span>
 somehow, before the end, a gathering back to home. A
 messenger from the Kingdom, arriving at the last moment.
 But I tell you there is no such message, no such home---<span class="etym-zero">only the millions of last moments...</span>:
-no more. Our history is an
-aggregate of last moments
+no more. Our history is an aggregate of last moments.  <span class="page-ref">149</span>
 {: .zodiac}
 
 Schlot + topf = chimney +  <span class="etym-zero">vessel<span>
 
-![Tetrahedral carbon](/images/tetrahedral_cabon.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![Tetrahedral sp3 hybridised carbon](/images/tetrahedral_carbon.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:15%;"}
 
 
 ### "with a new Axis, a newly spinning Earth... what happens to astrology?"
