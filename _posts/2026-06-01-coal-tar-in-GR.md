@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "Coal-tar Kabbalah: from preterite organics to elect synthetics in Gravity's Rainbow"
-description: "📖 X min read • The chemical colour threads weaving WWII chemistry into Gravity's Rainbow" 
+description: "📖 X min read • Chemicals as characters, characters as chemicals in the firmament of Gravity's Rainbow" 
 published: false
 category: writing
 dark_mode: false
@@ -25,118 +25,72 @@ August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some conde
 ---
 
 <style>
-  /* Section Headings */
-  h3 {
-    color: #2c3e50;
-    font-size: 1.8em;
-    margin-top: 2em;
-    font-weight: 700;
-  }
 
-  /* Slothrop / Schloth - The smokestack, survivor */
-  blockquote.slothrop {
-    background-color: #f5f5f0;
-    border-left: 6px solid #666666;
-    color: #333333;
-    padding: 1.5em;
-    margin: 2em 0;
-    border-radius: 0 4px 4px 0;
-    box-shadow: 2px 2px 5px rgba(102,102,102,0.15);
-  }
-  blockquote.slothrop strong {
-    color: #1a1a1a;
-  }
+/* Section Headings */
+h3 {
+  color: #2c3e50;
+  font-size: 1.8em;
+  margin-top: 2em;
+  font-weight: 700;
+}
 
 /* Coal-tar / Preterite Organics - Softened deep grey with oily depth */
-  blockquote.coal-tar {
-    background: #181818;
-    border-left: 6px solid #414141; /* The "Carbon" structural support */
-    color: #c5b9ad; /* Muted ash-bone for readability */
-    padding: 1.5em;
-    margin: 2em 0;
-    border-radius: 0 4px 4px 0;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-    line-height: 1.6;
-  }
-
-  blockquote.coal-tar strong {
-    color: #e8d7c7; /* Highlighted bone/parchment */
-    font-weight: 600;
-  }
-
-/* Zero / Absolute - Terminal high-contrast */
-blockquote.zero {
-  background: #000000;
-  border-left: 6px solid #ffffff;
-  color: #ffffff;
+blockquote.coal-tar {
+  background: #181818;
+  border-left: 6px solid #414141; /* The "Carbon" structural support */
+  color: #c5b9ad; /* Muted ash-bone for readability */
   padding: 1.5em;
-  margin: 0.15em 0 !important;
+  margin: 2em 0;
   border-radius: 0 4px 4px 0;
-  box-shadow: none; /* Removed the glow */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  line-height: 1.6;
+}
+blockquote.coal-tar strong {
+  color: #e8d7c7; /* Highlighted bone/parchment */
+  font-weight: 600;
 }
 
-blockquote.zero strong {
-  color: #ffffff;
-  text-decoration: underline; /* Using underline for emphasis instead of color */
+/* Aniline / Mauvine / Purple - Artificial, synthetic, the elect */
+blockquote.mauvine {
+  background-color: #faf5ff;
+  border-left: 6px solid #9b4d96;
+  color: #2c1e3d;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 2px 5px rgba(155,77,150,0.15);
+}
+blockquote.mauvine strong {
+  color: #7b2d7a;
 }
 
+/* Life / Green / Natural - Organic, growing, chlorophyll */
+blockquote.life {
+  background-color: #f8fff8;
+  border-left: 6px solid #4a7c59;
+  color: #1b3a27;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 2px 5px rgba(74,124,89,0.15);
+}
+blockquote.life strong {
+  color: #2d5a3d;
+}
 
-/* Cosmos / Zodiac / Night Sky - The Rocket's Trajectory & The 13th Sign */
-  blockquote.zodiac {
-    background-color: #1a1a24;      /* Deep Midnight/Void - The "00000" */
-    border-left: 6px solid #7b68ee; /* Medium Slate Blue - The "Interface" line */
-    color: #e6e6fa;                 /* Lavender/Starlight text for contrast */
-    padding: 1.5em;
-    margin: 2em 0;
-    border-radius: 0 4px 4px 0;
-    box-shadow: 2px 2px 5px rgba(123, 104, 238, 0.25); /* A faint glow, like exhaust */
-  }
-  blockquote.zodiac strong {
-    color: #ffffff;                 /* Pure White - The "Stars" or "Impact Points" */
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.4); /* Subtle bloom effect */
-  }
-
-  /* Aniline / Mauvine / Purple - Artificial, synthetic, the elect */
-  blockquote.mauvine {
-    background-color: #faf5ff;
-    border-left: 6px solid #9b4d96;
-    color: #2c1e3d;
-    padding: 1.5em;
-    margin: 2em 0;
-    border-radius: 0 4px 4px 0;
-    box-shadow: 2px 2px 5px rgba(155,77,150,0.15);
-  }
-  blockquote.mauvine strong {
-    color: #7b2d7a;
-  }
-
-  /* BASF / Indanthrene Blue / Commercial dye and chemical industry */
-  blockquote.basf {
-    background-color: #d2d2dc;
-    border-left: 6px solid #4d4a75;
-    color: #2c1e3d;
-    padding: 1.5em;
-    margin: 2em 0;
-    border-radius: 0 4px 4px 0;
-    box-shadow: 2px 2px 5px rgba(155,77,150,0.15);
-  }
-  blockquote.basf strong {
-    color: #201d52;
-  }
-
-  /* Life / Green / Natural - Organic, growing, chlorophyll */
-  blockquote.life {
-    background-color: #f8fff8;
-    border-left: 6px solid #4a7c59;
-    color: #1b3a27;
-    padding: 1.5em;
-    margin: 2em 0;
-    border-radius: 0 4px 4px 0;
-    box-shadow: 2px 2px 5px rgba(74,124,89,0.15);
-  }
-  blockquote.life strong {
-    color: #2d5a3d;
-  }
+/* BASF / Indanthrene Blue / Commercial dye and chemical industry */
+blockquote.basf {
+  background-color: #d2d2dc;
+  border-left: 6px solid #4d4a75;
+  color: #2c1e3d;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 2px 5px rgba(155,77,150,0.15);
+}
+blockquote.basf strong {
+  color: #201d52;
+}
 
 /* Kekulé/Benzene - Gold hexagon, the System's symbol */
 blockquote.benzene {
@@ -152,21 +106,63 @@ blockquote.benzene strong {
   color: #d4af37;
 }
 
-  /* Synthesis / Dissolution - Green left border, Purple right border */
-  blockquote.synthesis {
-    background: linear-gradient(90deg, #f8fff8 0%, #faf5ff 100%);
-    border-left: 6px solid #4a7c59;
-    border-right: 6px solid #9b4d96;
-    color: #2c2c3e;
-    padding: 1.5em;
-    margin: 2em 0;
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px rgba(107,91,131,0.15);
-  }
-  blockquote.synthesis strong {
-    color: #4a3d5a;
-  }
+/* Zero / Absolute - Terminal high-contrast */
+blockquote.zero {
+  background: #000000;
+  border-left: 6px solid #ffffff;
+  color: #ffffff;
+  padding: 1.5em;
+  margin: 0.15em 0 !important;
+  border-radius: 0 4px 4px 0;
+  box-shadow: none; /* Removed the glow */
+}
+blockquote.zero strong {
+  color: #ffffff;
+  text-decoration: underline; /* Using underline for emphasis instead of color */
+}
 
+
+/* Zodiac / Night Sky - The Rocket's Trajectory & The 13th Sign */
+blockquote.zodiac {
+  background-color: #1a1a24;      /* Deep Midnight/Void - The "00000" */
+  border-left: 6px solid #7b68ee; /* Medium Slate Blue - The "Interface" line */
+  color: #e6e6fa;                 /* Lavender/Starlight text for contrast */
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 2px 5px rgba(123, 104, 238, 0.25); /* A faint glow, like exhaust */
+}
+blockquote.zodiac strong {
+  color: #ffffff;                 /* Pure White - The "Stars" or "Impact Points" */
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.4); /* Subtle bloom effect */
+}
+
+/* Synthesis / Dissolution - Green left border, Purple right border */
+blockquote.synthesis {
+  background: linear-gradient(90deg, #f8fff8 0%, #faf5ff 100%);
+  border-left: 6px solid #4a7c59;
+  border-right: 6px solid #9b4d96;
+  color: #2c2c3e;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(107,91,131,0.15);
+}
+blockquote.synthesis strong {
+  color: #4a3d5a;
+}
+
+/* Coal-tar heading - Dark brown gradient */
+h3.coal-tar {
+  background: linear-gradient(90deg, #3d2817 0%, #5a4332 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.8em;
+  margin-top: 2em;
+  font-weight: 700;
+  filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.1));
+}
 
 /* Mauve heading - Purple gradient */
 h3.mauvine {
@@ -192,9 +188,9 @@ h3.life {
   filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.1));
 }
 
-/* Coal-tar heading - Dark brown gradient */
-h3.coal-tar {
-  background: linear-gradient(90deg, #3d2817 0%, #5a4332 100%);
+/* BASF heading - Indanthrene blue */
+h3.basf {
+  background: linear-gradient(90deg, #201d52 0%, #797797 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -216,8 +212,22 @@ h3.benzene {
   filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.1));
 }
 
-h3.basf {
-  background: linear-gradient(90deg, #201d52 0%, #797797 100%);
+/* Zero - stark back and white. Terminal */
+h3.zero {
+  background: #000000;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  font-size: 1.8em;
+  margin-top: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Zodiac heading - Cosmic Slate gradient */
+h3.zodiac {
+  /* Gradient: Dark Slate Blue (#483d8b) to your "Interface" Blue (#7b68ee) */
+  background: linear-gradient(90deg, #483d8b 0%, #7b68ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -239,37 +249,17 @@ h3.synthesis {
   filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.1));
 }
 
-h3.zero {
-  background: #000000;
-  color: #ffffff;
-  display: inline-block;
-  padding: 0.2em 0.5em;
-  font-size: 1.8em;
-  margin-top: 2em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
 
-  /* General quote styling */
-  blockquote {
-    font-size: 0.85em;
-    overflow: visible !important;
-  /* Benzene heading - Gold gradient */
-h3.benzene {
-  background: linear-gradient(90deg, #b8860b 0%, #d4af37 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 1.8em;
-  margin-top: 2em;
-  font-weight: 700;
-  filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.1));
-}}
+/* General quote styling */
+blockquote {
+  font-size: 0.85em;
+  overflow: visible !important;
+}
   
-  span[title] {
-    border-bottom: 1px dotted currentColor;
-    cursor: help;
-  }
+span[title] {
+  border-bottom: 1px dotted currentColor;
+  cursor: help;
+}
   
 blockquote p {
   font-size: inherit;
@@ -301,6 +291,7 @@ blockquote .page-ref {
 }
 
 
+/* Definitional highlighting */
 .etym {
   font-size: 0.9em;
   padding: 0.25em 0.5em;
@@ -318,15 +309,14 @@ blockquote .page-ref {
   color: #7b2d7a;
 }
 
-.etym-basf {
-  background-color: #f5f0ff;
-  color: #4d4a75;
-}
-
-
 .etym-life {
   background-color: #f0fff0;
   color: #2d5a3d;
+}
+
+.etym-basf {
+  background-color: #f5f0ff;
+  color: #4d4a75;
 }
 
 .etym-zero {
@@ -334,7 +324,6 @@ blockquote .page-ref {
   color: #000000;
   font-weight: bold;
 }
-
 
 </style>
 
@@ -531,7 +520,7 @@ some name like Mipolam . . . “Polimex,” or something. . . .
 Gloaming’s only comment at the time <span class="page-ref">630</span>
 {: .mauvine}
 
-
+[Only plastics don't decompose. Only they have a one-way near-perpetual lifetime. Breaking the cycle of growth and decay.
 
 > WHILST the original discovery of a coal-tar dye was made by an Englishman… The consequent decline of the British coal-tar colour industry was already well marked in 1875, and in 1886 had proceeded so far that 90 per cent of the dyes then used in Britain were of foreign manufacture… It is not an overstatement to say that **the development of this highly scientific and extremely profitable industry in Germany instead of in Great Britain had enormous, if not decisive, political and economic effects both before and during the War.**
 > <br> --- Walter Gardner, "The British Coal-tar Colour Industry", *Nature*, *133*, 575, **1934**
@@ -781,8 +770,24 @@ an evil Rocket for the World’s suicide**, the two perpetually in
 struggle. <span class="page-ref">727</span>
 {: .zero}
 
-
 [Once combustion happens all that's left is soot. Carbon broken down into its particlised, elemental form. Combustion is an entropy driven process, breaking down organic order and connection into pure, discretised, disordered separation. The raw material vanishes on a human scale. Disorder that can never return to order, breaking the cycle]
+
+> It’s been a prevalent notion. Fallen sparks.
+**Fragments of vessels broken at the Creation**. And someday,
+somehow, before the end, a gathering back to home. A
+messenger from the Kingdom, arriving at the last moment.
+But I tell you there is no such message, no such home---<span class="etym-zero">only the millions of last moments...</span>:
+no more. Our history is an
+aggregate of last moments
+{: .zodiac}
+
+Schlot + topf = chimney +  <span class="etym-zero">vessel<span>
+
+![Tetrahedral carbon](/images/tetrahedral_cabon.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+
+
+### "with a new Axis, a newly spinning Earth... what happens to astrology?"
+{: .zodiac}
 
 >one by one,come the concrete masses of the test stands, stations of the cross, VI, V,
 III, IV, II, IX, VIII, I, finally the **Rocket’s own**, from which it
@@ -792,7 +797,7 @@ these from the sea</span> now are only <span class="etym-coal-tar"> stalks of ch
 
 > the twelve spokes of a stranded artillery piece—a mud clock,
 a **mud zodiac** <span class="page-ref">79</span>
-{: .zero}
+{: .zodiac}
 
 [Alchemy symbols were zodiac signs and more!!]
 [According to Pernety's Dictionnaire mytho-hermétique (1758) from wikipedia]
@@ -838,8 +843,7 @@ Ophiuchus ⛎ = 13th Zodiac = **The Serpent barer**
 
 [The Brennschluss point is the closed cycle from the rocket arc above (almost mimicking a rainbow) and the great seperent of coal-tar benzene down below in the Earth. The rockets of the military-industrial complex are just a terrifying, entrancing visible spectacle of the weight of the industrial underclass underpinning it below]  
 
-
-![Tetrahedral carbon](/images/tetrahedral_cabon.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![The SHAEF (United States Army Supreme Allied Expeditionary Force) logo. A falming sword (the Aces of Swords) underneath a rainbow, on a blakc or dark blue cosmic void](/images/SHAEF_Shoulder_Patch.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### THE LAST GREEN AND MAGENTA
 {: .synthesis}
