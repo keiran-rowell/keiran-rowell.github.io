@@ -11,14 +11,12 @@ image:
   alt: "The skeletal formula of benzene's cyclic electron ring, rainbow rockets circling above and rainbow ouroboros below. The smokestack Tower and the pigheaded Fool. The double integral of acceleration, and the energy levels of benzene."
 ---
 
-[Make my own adapted figure that ties into GR] <br>
-[The figure should be Kekule's alternatively numbered benzene ring, blurred in superposition, with the pi orbital around the outside as a rainbow ring. Myabe not strict pi by a circle. Or a rainbow serpent]
+[Have the prose be transparent and accurate. Let the text speak for itself. Documentary not editorial. Let use bear witness. Don't let us ignore a horrible materiality.]
+
 [In the skeletal formulae section seperators, colour the benzene rings in gold]
 
 August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some condensation products of aldehyes), *Justus Liebigs Annalen der Chemie*, [Vol. 162, Iss. 1, 77--124, **1872**](https://doi.org/10.1002/jlac.18721620110) 
 {:.figcaption}
-
-**Ultimate page numbering should be from original 1973 Viking edition at admin's request**
 
 >  **Content warning:** set in WWII, a time period of chemical processes, suffering and depravity beyond words; a military-industrial complex of death which we must all stop from ever being repeated. 
 
@@ -503,7 +501,7 @@ United States. A link to Russia <span class="page-ref">166</span>
 [There's a whole set of entries as people as stones](https://gravitys-rainbow.pynchonwiki.com/wiki/index.php?title=Stones)
 
 
-[Even the diving into the toilet and the *ahem* scene that got it denied a Pultizer prize makes sense in this framework. People are the preterite dung of the Earth, the coal-tar and oil, the stone souls. And the elect consume the others to annihilate everything and leave (Bilcero ["white"] and the rocket)]
+[Even scatological, the diving into the toilet, the toilet ship, and the *ahem* scene that got it denied a Pultizer prize makes sense in this framework. People are the preterite dung of the Earth, the coal-tar and oil, the stone souls. And the elect consume the others to annihilate everything and leave (Bilcero ["white"] and the rocket)]
 
 >  In any case, he remembers the Slothrop surveillance being assigned to a
 newly created “Sparte IV” [Section 4] under Vermittlungsstelle [placement office] W.
@@ -520,7 +518,7 @@ some name like Mipolam . . . “Polimex,” or something. . . .
 Gloaming’s only comment at the time <span class="page-ref">630</span>
 {: .mauvine}
 
-[Only plastics don't decompose. Only they have a one-way near-perpetual lifetime. Breaking the cycle of growth and decay.
+[Only plastics don't decompose. Only they have a one-way near-perpetual lifetime. Breaking the cycle of growth and decay.]
 
 > WHILST the original discovery of a coal-tar dye was made by an Englishman… The consequent decline of the British coal-tar colour industry was already well marked in 1875, and in 1886 had proceeded so far that 90 per cent of the dyes then used in Britain were of foreign manufacture… It is not an overstatement to say that **the development of this highly scientific and extremely profitable industry in Germany instead of in Great Britain had enormous, if not decisive, political and economic effects both before and during the War.**
 > <br> --- Walter Gardner, "The British Coal-tar Colour Industry", *Nature*, *133*, 575, **1934**
@@ -561,7 +559,7 @@ temperatures, pressures, rates of flow, costs, profits, **the
 shapes of towers**. . . <span class="page-ref">167</span>
 {: .coal-tar}
 
-![Proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![Historically proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### The Colour Cartel
 {: .basf}

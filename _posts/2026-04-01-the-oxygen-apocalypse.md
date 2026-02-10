@@ -77,7 +77,7 @@ An insuperable barrier of electronic symmetry is our shield (*expand the briefin
 **Technical Briefing: The Quantum Safety Catch**
 ![The singlet and triplet configuration of the pi-star antibonding orbital in O2](/images/O2_MO_quantum_lock.png) 
 
-**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the same spin **can't occupy the same orbital**, so nature has three choices. The **same-spin triplet state** option ($$^3\Sigma_g^-$$) which makes up 20% of our atmosphere has its  reactivity "locked", with a net spin density restrained from reacting by spin-interaction rules between molecules. For the **opposite-spin** paired **singlet state** options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to the quantum energy penalty to accessing higher spin states.
+**The anatomy of a forbidden reaction** --- The two $$\pi^{*}$$ *anti*-bonding orbitals of O<sub>2</sub>. As the frontier orbitals, these determine the reactivity of oxygen. Two electrons of the same spin **can't occupy the same orbital**, so nature has three choices. The **same-spin triplet state** option ($$^3\Sigma_g^-$$) that makes up 20% of our atmosphere has its  reactivity "locked", the diradical spin density restrained from reacting with typical matter due forbidden spin-interaction rules between molecules. For the **opposite-spin** paired **singlet state** options ($$^1\Delta_g$$ & $$^1\Sigma_g^+$$), both are highly reactive but the rarity of the latter attests to a large the energy penalty to accessing higher electron spin states.
 
    </div>
 </details>
@@ -237,9 +237,10 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 
 ### ...and the oceans bled
 
+
 For two billion years, the S-clock ticked along, but under the dampening of the seas the oxygen never esacped to the atmosphere. The oceans had a natural buffer -- they contained iron. 
 
-
+[This is when the pO2 irreversibly accumulated about 0.00001 x current O2 levels]
 
 Oxygen rusted the oceans. It was freen from free iron radical before
 
@@ -321,6 +322,14 @@ CH4 -> CO2 -> CO2 could be rained out and form limestone
 Molecular, geological and fossil evidence for the the arrival of complex life following the Great Oxidation Event (GOE). "[Eukaryogenesis and oxygen in Earth history](https://doi.org/10.1038/s41559-022-01733-y)", Mills, B.; Boyle, R.; Daines, S.; Sperling, E.; Pisani, D.; Donoghue, P.; Lenton, T.; *Nature Ecology & Evolution*, *6*, 520--532, **2022** 
 {:.figcaption}
 
+^ From that paper: "Indeed, fossil and molecular-clock evidence consistently suggest that the last eukaryote common ancestor (LECA) emerged hundreds of millions of years after Earth’s initial oxygenation"
+
+"Furthermore, recent advances in geochemistry and Earth system modelling suggest that the oceans at the time of eukaryogenesis were predominantly anoxic at depth, with only weakly oxygenated surface waters (probably no more than 1–10% of modern atmospheric saturation)"
+
+"Although it remains clear that the protomitochondrion was capable of aerobic respiration, debate continues as to whether the protomitochondrion was a facultative aerobe or an obligate aerobe (Box 3)."
+> Okay so don't get too technical here, my idea is the cyanos wiping out the ancients *as they were*. There distinction of the new oxygen-shielding endosymbiont can either be in the next post or left out since its so speculative
+
+-Argument over whether mitochrondria were aboput ATP or p(O2) lowering.
 
 Respiration yields way more energy, higher order life forms could be supported compared to fermenting microbes
 
