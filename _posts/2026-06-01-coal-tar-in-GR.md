@@ -530,6 +530,54 @@ then over long molecular silences</span>, like the seen parts of a tapestry. <sp
 
 [Soviet controversy.] 
 
+> (Tchitcherine: “You mean _thio_phosphate, don’t you?” _Thinks
+indicating the presence of sulfur_.... Wimpe: “I mean
+_theo_phosphate, Vaslav,” _indicating the Presence of God).)
+
+> But Tchitcherine has
+eyes only for the point, its German precision, its fine steel
+grain.
+
+>a complete set of weird-shaped
+Polschuhen, iron pieces to modify the shape of the magnetic
+field...
+ but there in Russia, that night with Wimpe, was his
+first taste—his initiation into the bodyhood of steel . . . no
+1163
+way to separate this from the theophosphate, to separate
+vessels of steel from the ungodly insane rush. . . 
+
+
+Is Tchitcherine a magnet. Is he a RADICAL?
+Ч = 'tch' sound 25th letter in the modern Cyrillic Alphabet
+
+
+Чич-irine  in chemistry the R- group is the 'radical' that branches off the structure.
+In linguistics radical in the 'root' of the word. 
+Similar concepts, his Чич is the base root of his name
+
+Chemical radicals are magnetically susceptible due to an unpaired electron, unlike normal molecules
+
+He is a political radical and a scavenger of the zone
+
+Чичиков = Chichikov, protagonist in "Dead Souls" [Weisenberger, "[The Origin of Pynchons Tchitcherine](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pynchonnotes.openlibhums.org/article/2861/galley/3252/download/&ved=2ahUKEwi2mqb-jdCSAxWjRWcHHfsmICgQFnoECBYQAQ&usg=AOvVaw3pW7AA4B1v7abMjpqRwUVx)" U. Kentucky, 1982]
+
+μ = In physics and electromagnetism, the Greek letter mu represents magnetic permeability, which is a measure of a material's ability to support the formation of a magnetic field within itself.
+
+"mad scavenger" [290]  free radicals are chemical scavangers
+
+> the **mad scavenger** Tchitcherine, who is more metal than anything else. **Steel
+teeth** wink as he talks. Under his pompadour is a **silver plate**.
+**Gold wirework threads** in three-dimensional tattoo among the
+fine wreckage of cartilage and bone [290]
+
+All material with very high μ
+
+Wait the и in 'Чич' looks like μ 
+
+bodyhood of steel [702], graying steel barbarian [718] [both from the Pynchon wiki]
+
+
 >“All right. **Mauve: that’s in the pattern**. The invention of
 mauve, the coming to your level of the color mauve. Are you
 listening, Generaldirektor?”
