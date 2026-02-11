@@ -675,6 +675,22 @@ fellowship of interests**... <span class="page-ref">163</span>
 {:.note title="Dyes and disarmament"}
 
 
+
+>“Well,” Slothrop sez, “**I’d sure like anything they got on L.
+Jamf, a-and on that Imipolex G**.”
+...
+“That stuff. Forget it. It’s not even our line. You ever try to
+develop a polymer when there’s nothing but <span class="etym-mauvine">indole people</span>
+around? With our giant parent to the north sending in
+ultimatums every day? **Imipolex G is the company albatross**"
+{: .basf}
+
+
+><span class="etym-life">bristlecone pines</span> outracing <span class="etym-zero">Death for millennia</span>, concrete
+roads abandoned years ago, hairdos of the late 1930s, indole
+molecules, **especially polymerized indoles, as in Imipolex
+G**—
+
 <span class="etym etym-basf">Indanthrene Blue = revolutionary unfading blue dye invented by René Bohn at BASF</span>
 
 [Blue dyes turn up a few times, save space on the page like the purple hills]
@@ -856,7 +872,7 @@ a **mud zodiac** <span class="page-ref">79</span>
 6. ♍︎ = Distillation --- Tyrone Slothrop, a "double Virgo" 
 7. ♎︎ --- 
 8. ♏︎ Scorpio = Separation --- Nora 
-9. ♐︎ Sagittarius = Ceration (controlled oxidisation through heating) --- Galina = Galena [lead], "red Sagittarius", heating turns elemental lead into red lead oxide. Gretel and the colt, "full of the Sagittarian fire"; Hansel and Gretel = burning the witch 
+9. ♐︎ Sagittarius = Ceration (controlled oxidisation through heating) --- Galina = Galena [lead sulfide], "red Sagittarius", heating turns lead sulfide into red lead oxide. Gretel and the colt, "full of the Sagittarian fire"; Hansel and Gretel = burning the witch 
 10. ♑︎ ---  
 11. ♒︎ ---
 12. ♓︎ Projection = (turning lead into gold, The alchemical symbol of the Ouroboros, also projection of the rocket) ---  Pökler = pickler = acid +  nitrates = explosives.  Neptune. PISCES = Astral projection. Pökler = pickler = acid +  nitrates = explosives 
@@ -865,6 +881,10 @@ a **mud zodiac** <span class="page-ref">79</span>
 Processes abscent in the novel and abscent in the chemical warfare: 
 >Solidification (Gemini ♊︎), Sublimation (Libra ♎︎), Fermentation (Capricorn ♑︎), Multiplication (Aquarius ♒︎)
 {: .zodiac}
+
+> Third N. or K.: Transmogrify common air into diamonds
+through Cataclysmic Carbon Dioxide Reducti-o-o-o-o-n-n-
+n... 
 
 > The great cusp—green equinox and turning, dreaming fishes [♓︎ = pisces = projection]
 to young ram [♈︎ = aries = furnance], watersleep to firewaking, bears down on us. <span class="page-ref">236</span>
@@ -946,3 +966,6 @@ Start-the-*show!* <span class="page-ref">760</span>
 > **And a Soul in ev'ry stone**. . . .
 > <br> Now everybody--- <span class="page-ref">760</span>
 {: .coal-tar}
+
+
+![Imipolex G - polymerised indoles, alternately coloured green and magenta](/images/polymerised_indole.png){:style="display:block; margin-left:auto; margin-right:auto"}
