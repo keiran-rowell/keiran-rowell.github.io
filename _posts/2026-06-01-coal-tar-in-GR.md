@@ -389,7 +389,7 @@ here, but the **important one is mauve**. <span class="page-ref">166</span>
 {: .mauvine}
 [Mauvine as the first commercially synthesisable cloth dye]
 
->Black reinforcing rod poking out . . . black rust.  There were touches of **royal purple** in the air <span class="page-ref">643</span>
+>Black reinforcing rod poking out... black rust.  There were touches of **royal purple** in the air <span class="page-ref">643</span>
 {: .mauvine}
 
 > Friday, at dawn, **the Magician**, his own moving
@@ -444,13 +444,13 @@ first, lying under fallen leaves, **mint and purple** loosestrife<span class="pa
 >which—though it is not often Death is told so clearly to fuck
 >off—the **living genetic chains** prove even labyrinthine enough
 >to preserve some human face down ten or twenty
->generations . . . so the same assertion-through-structure
+>generations... so the same assertion-through-structure
 >allows this war morning’s banana fragrance to meander,
 repossess, prevail <span class="page-ref">10</span>
 {: .life}
 
 
->To find that Gravity, taken so for granted, is really something eerie, Messianic, extrasensory in Earth’s mindbody . . . having hugged to **its holy center the wastes of dead species**, gathered, packed, transmuted, realigned, and <span class="etym-mauvine">rewoven molecules to be taken up again by the coal-tar Kabbalists of the other side</span> <span class="page-ref">590</span>
+>To find that Gravity, taken so for granted, is really something eerie, Messianic, extrasensory in Earth’s mindbody... having hugged to **its holy center the wastes of dead species**, gathered, packed, transmuted, realigned, and <span class="etym-mauvine">rewoven molecules to be taken up again by the coal-tar Kabbalists of the other side</span> <span class="page-ref">590</span>
 {: .coal-tar}
 
 > [Bland] imagines that he has been journeying
@@ -492,7 +492,7 @@ transformation. <span class="page-ref">0</span>
 Look into the clinical effects of the drug. I don’t know. It
 seems that you might look in that direction. **It converges with
 the mauve-Perkin-Canister line**. But all I have is the
-molecule, the sketch . . . Methoneirine, as the sulfate. Not in
+molecule, the sketch... Methoneirine, as the sulfate. Not in
 Germany, but in the United States. There is a link to the
 United States. A link to Russia <span class="page-ref">166</span>
 
@@ -513,7 +513,7 @@ through some dealings with  <span class="etym-basf">IG Chemie</span> in Switzerl
 {: .coal-tar}
 
 > An analgesic whose name he couldn’t recall, and a new plastic,
-some name like Mipolam . . . “Polimex,” or something. . . .
+some name like Mipolam... “Polimex,” or something....
 **“Sounds like that would’ve come under Sparte II,”** was
 Gloaming’s only comment at the time <span class="page-ref">630</span>
 {: .mauvine}
@@ -530,9 +530,9 @@ then over long molecular silences</span>, like the seen parts of a tapestry. <sp
 
 [Soviet controversy.] 
 
-> (Tchitcherine: “You mean _thio_phosphate, don’t you?” _Thinks
-indicating the presence of sulfur_.... Wimpe: “I mean
-_theo_phosphate, Vaslav,” _indicating the Presence of God).)
+> (Tchitcherine: “You mean *thio*phosphate, don’t you?” *Thinks
+indicating the presence of sulfur*.... Wimpe: “I mean
+*theo*phosphate, Vaslav,” *indicating the Presence of God*.)
 
 > But Tchitcherine has
 eyes only for the point, its German precision, its fine steel
@@ -542,15 +542,18 @@ grain.
 Polschuhen, iron pieces to modify the shape of the magnetic
 field...
  but there in Russia, that night with Wimpe, was his
-first taste—his initiation into the bodyhood of steel . . . no
+first taste—his initiation into the bodyhood of steel... no
 1163
 way to separate this from the theophosphate, to separate
-vessels of steel from the ungodly insane rush. . . 
+vessels of steel from the ungodly insane rush... 
 
 
 Is Tchitcherine a magnet. Is he a RADICAL?
 Ч = 'tch' sound 25th letter in the modern Cyrillic Alphabet
 
+Tzitzit = tassles on the end of the payer shawl (talit) in Judaism
+
+Radicals and dangling, reactive branches
 
 Чич-irine  in chemistry the R- group is the 'radical' that branches off the structure.
 In linguistics radical in the 'root' of the word. 
@@ -587,9 +590,9 @@ Farben.
 here, but the important one is mauve. William Perkin
 discovered it in England, but he was trained by Hofmann,
 who was trained by Liebig. There is a succession involved. If
-it is karmic it’s only in a very limited sense . . . another
+it is karmic it’s only in a very limited sense... another
 Englishman, Herbert Ganister, and the generation of chemists
-he trained. . . .<span class="page-ref">166</span> 
+he trained....<span class="page-ref">166</span> 
 {: .mauvine}
 
 > Perfecting its reign, just as the buried coal grows denser, and
@@ -604,7 +607,7 @@ tactic. Useful to you, gentlemen, but no longer so to us here.
 the technology of these matters. Even into the hearts of
 certain molecules**—it is they after all which dictate
 temperatures, pressures, rates of flow, costs, profits, **the
-shapes of towers**. . . <span class="page-ref">167</span>
+shapes of towers**... <span class="page-ref">167</span>
 {: .coal-tar}
 
 ![Historically proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
@@ -648,7 +651,7 @@ intelligence, through subsidiaries and licensees like
 Chemnyco, General **Aniline and Film**, Ansco, Winthrop. In
 '36 he came to England to work for Imperial Chemicals, in a
 status that was never to be free from ambiguities. He’d heard
-of Slothrop, yes indeed . . . recalled him from the old days.
+of Slothrop, yes indeed... recalled him from the old days.
 When Lyle Bland went out on his last transmural journey,
 there’d been Green Reports flapping through the IG offices
 for weeks, Geheime Kommandosache, rumors **coupling and
@@ -713,7 +716,7 @@ as a sort of sideline. All overhead—yes, out of its own pocket the Company is 
 
 >... zeroing in on what incalculable plot? Up here, on the surface, **coaltars**, hydrogenation, **synthesis were always phony,
 dummy functions to hide the real, the planetary mission** yes
-perhaps centuries in the unrolling . . . this ruinous plant,
+perhaps centuries in the unrolling... this ruinous plant,
 waiting for its <span class="etym-mauvine">Kabbalists and new alchemists to discover the
 Key</span>, teach the mysteries to others...
 > <br> 
@@ -762,6 +765,8 @@ are in fact curled around into a closed ring, just like that snake
 with its tail in its mouth, GET IT? <span class="page-ref">413</span>
 {: .benzene}
 
+In the centre of a book whose last page loops back into its first page ---rocket nose chasing exhuast tail--- is the benzene dream passage. Kekulé's benzene dream is the stuff of undergraduate chemistry legend, and here Pynchon uses it as the molecular scaffold centrepiece of structure (much like aromatic chemical systems) as well as a cosmic/karmic connection to the futulity of industrialised economy.
+
 [This is in the centre of the book, a narrative that loops back on itself cyclically like the bezenze ring loops back on itself]
 [It's not 100% 50/50, it's more 54% of the way in] 
 [Kekule studied architecture. The architecture of the book is  molecular.]
@@ -778,10 +783,10 @@ to Synthetics Research. <span class="page-ref">243</span>
 {: .benzene}
 
 >**carbon the most versatile**, the queen, “the Great Catherine of the periodic
-table,” down to the little hydrogens numerous and single-moving as pawns . . . and the brute opposition of the
+table,” down to the little hydrogens numerous and single-moving as pawns... and the brute opposition of the
 chessboard yielding, in **this chemical game, to dance-figures
 in three dimensions, “four, if you like,”** and a radically
-different idea of what winning and losing meant. . . .
+different idea of what winning and losing meant....
 **Schwärmerei, his colleagues back home had muttered**, finding
 excuses to drift away into other conversations. <span class="page-ref">344</span>
 {: .coal-tar}
@@ -798,18 +803,18 @@ excuses to drift away into other conversations. <span class="page-ref">344</span
 [The complete absence of colour as the rocket doesn't fall, but escapes the rainbow arc-en-ciel]
 
 > ...from what the **black and white of coal and
-arc-light** were about to say . . . **no color**, and the unreality to
+arc-light** were about to say... **no color**, and the unreality to
 go with it—but a familiar unreality, that warns This Is All
 Being Staged To See What I’ll Do So I Mustn’t Make One
-Wrong Move . . . on the last day of his life, with Japanese iron
+Wrong Move... on the last day of his life, with Japanese iron
 whistling down on him from ships that are too far off in the
 haze for him even to see, he will think of the slowly
 carbonizing faces of men he thought he knew, <span class="etym-coal-tar">men turning to
 coal, ancient coal that glistened</span>, each crystal, in the hoarse
-sputter of the Jablochkov candles, each flake struck perfect. . .
+sputter of the Jablochkov candles, each flake struck perfect...
 **a conspiracy of carbon**, though he never phrased it as
 “carbon,” it was power he walked away from, the feeling of
-too much meaningless power, flowing wrong . . . **he could
+too much meaningless power, flowing wrong... **he could
 smell Death in it**. <span class="page-ref">351</span> 
 {: .zero}
 [Tchitcherine's father on the coal ship]
@@ -819,12 +824,12 @@ smell Death in it**. <span class="page-ref">351</span>
 >But the Rocket has to be many things, it must
 answer to a number of different shapes in the dreams of those
 who touch it—in combat, in tunnel, on paper—it must survive
-heresies shining, unconfoundable . . . and heretics there will
+heresies shining, unconfoundable... and heretics there will
 be: Gnostics who have been taken in a rush of wind and fire
-to chambers of the Rocket-throne . . . <span class="etym-mauvine">Kabbalists who study
+to chambers of the Rocket-throne... <span class="etym-mauvine">Kabbalists who study
 the Rocket as Torah</span>, letter by letter—rivets, burner cup and
 brass rose, its text is theirs to permute and combine into new
-revelations, always unfolding . . . Manichaeans who see two
+revelations, always unfolding... Manichaeans who see two
 Rockets, good and evil, who speak together in the sacred
 idiolalia of the Primal Twins (some say their names are
 **Enzian and Blicero**) of a **good Rocket to take us to the stars,
@@ -963,7 +968,7 @@ name, like the permuted names of God, cannot be spoken <span class="page-ref">59
 Start-the-*show!* <span class="page-ref">760</span>
 {: .synthesis}
  
-> **And a Soul in ev'ry stone**. . . .
+> **And a Soul in ev'ry stone**....
 > <br> Now everybody--- <span class="page-ref">760</span>
 {: .coal-tar}
 
