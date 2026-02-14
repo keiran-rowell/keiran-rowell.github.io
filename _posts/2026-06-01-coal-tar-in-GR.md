@@ -354,13 +354,19 @@ overlaid with more strata—epoch on top of epoch, city on top
 of ruined city. <span class="etym-mauvine">This is the sign of Death the impersonator</span>. <span class="page-ref">167</span>
 {: .coal-tar}
 
-> I am Gravity, I am That against which the Rocket
-must struggle, to which the **prehistoric wastes submit and are
-transmuted to the very substance of History** <span class="page-ref">639</span>
+> _**I am Gravity**, I am That against which the Rocket
+must struggle, to which the *prehistoric wastes submit and are
+transmuted to the very substance of History**_ <span class="page-ref">639</span>
 {: .coal-tar}
 
 [White = death is commonly stated, but it's the elect turning the fuel of the preterite into rocket coal-based syngas fuel to escape Earthly Gravity, or destroy it]
 [Slothrop repeatedly descends into the preterite muck, infamously the toilet of human waste but others]
+
+>we mean on the <span class="etym-mauvine">other side of the whole
+thing</span>, **the whole bacteria-hydrocarbon-waste cycle**. We can
+see the Interface from here. It’s a long rainbow**, mostly
+indigo, if that’s any help— <span class="page-ref">523</span>
+{: .coal-tar}
 
 [ As is made clear in passages coal-tar is just dead life + Gravity + time. Synthetic organic chemistry unlocked the rainbow of artificial colours from the pressure of Gravity]
 
@@ -469,7 +475,7 @@ probed, from which Slothrop’s Blackwords</span> only appear to flower separate
 > <br> Or has he by the way of language caught the German mania for name-giving, dividing the Creation finer and finer, analyzing, setting namer more hopelessly apart from named, even to bringing in the mathematics of combination, tacking together established nouns to get new ones, the insanely, endlessly diddling play of a **chemist whose molecules are words** <span class="page-ref">448</span>
 
 
-> Carothers, known as The Great Synthesist.. 
+> Carothers, known as The Great Synthesist... 
  at the time and well within the
 System, an announcement of Plasticity’s central canon: that
 **chemists were no longer to be at the mercy of Nature**. They
@@ -496,6 +502,20 @@ molecule, the sketch... Methoneirine, as the sulfate. Not in
 Germany, but in the United States. There is a link to the
 United States. A link to Russia <span class="page-ref">166</span>
 
+>“All right. **Mauve: that’s in the pattern**. The invention of
+mauve, the coming to your level of the color mauve. Are you
+listening, Generaldirektor?”
+“I am listening, Herr Rathenau,” replies Smaragd of IG
+Farben.
+“Tyrian purple, alizarin and indigo, other coal-tar dyes are
+here, but the important one is mauve. William Perkin
+discovered it in England, but he was trained by Hofmann,
+who was trained by Liebig. There is a succession involved. If
+it is karmic it’s only in a very limited sense... another
+Englishman, Herbert Ganister, and the generation of chemists
+he trained....<span class="page-ref">166</span> 
+{: .mauvine}
+
 [Ganister/Canister <span class="etym etym-basf"> ganister = tough quartzite stone from the coal regions of England; lining of furnances</span>  is fictional but represents the move from the English discovery in the German academic chemical lineage to a German chemical industry (link the the Nature Article I found)]
 
 [There's a whole set of entries as people as stones](https://gravitys-rainbow.pynchonwiki.com/wiki/index.php?title=Stones)
@@ -506,7 +526,7 @@ United States. A link to Russia <span class="page-ref">166</span>
 >  In any case, he remembers the Slothrop surveillance being assigned to a
 newly created “Sparte IV” [Section 4] under Vermittlungsstelle [placement office] W.
 Sparte I was handling nitrogen and gasoline, <span class="etym-mauvine">II dyes</span>,
-chemicals, buna rubber, pharmaceuticals, III film and fibers.
+chemicals, buna rubber, pharmaceuticals, <span class="etym-basf">III film and fibers</sp</span>>.
 **IV handled Slothrop** and nothing else, except—Schleim had
 heard tell—one or two miscellaneous patents acquired
 through some dealings with  <span class="etym-basf">IG Chemie</span> in Switzerland <span class="page-ref">630</span>
@@ -532,20 +552,18 @@ then over long molecular silences</span>, like the seen parts of a tapestry. <sp
 
 > (Tchitcherine: “You mean *thio*phosphate, don’t you?” *Thinks
 indicating the presence of sulfur*.... Wimpe: “I mean
-*theo*phosphate, Vaslav,” *indicating the Presence of God*.)
+*theo*phosphate, Vaslav,” *indicating the Presence of God*.) <span class="page-ref">702</span>
 
 > But Tchitcherine has
 eyes only for the point, its German precision, its fine steel
-grain.
+grain. <span class="page-ref">702</span>
 
 >a complete set of weird-shaped
 Polschuhen, iron pieces to modify the shape of the magnetic
-field...
- but there in Russia, that night with Wimpe, was his
+field...but there in Russia, that night with Wimpe, was his
 first taste—his initiation into the bodyhood of steel... no
-1163
 way to separate this from the theophosphate, to separate
-vessels of steel from the ungodly insane rush... 
+vessels of steel from the ungodly insane rush... <span class="page-ref">702</span> 
 
 
 Is Tchitcherine a magnet. Is he a RADICAL?
@@ -580,20 +598,15 @@ Wait the и in 'Чич' looks like μ
 
 bodyhood of steel [702], graying steel barbarian [718] [both from the Pynchon wiki]
 
+> that <span class="etym-basf">IG man’s hotel room</span> may
+have been one of his earlier rehearsals. Tchitcherine has a
+way of getting together with undesirables, <span class="etym-mauvine">sub rosa enemies
+of order, counterrevolutionary odds and ends of humanity</span>: he
+doesn’t plan it, it just happens, **he is a giant supermolecule
+with so many open bonds available at any given time**  <span class="page-ref">345</span>
 
->“All right. **Mauve: that’s in the pattern**. The invention of
-mauve, the coming to your level of the color mauve. Are you
-listening, Generaldirektor?”
-“I am listening, Herr Rathenau,” replies Smaragd of IG
-Farben.
-“Tyrian purple, alizarin and indigo, other coal-tar dyes are
-here, but the important one is mauve. William Perkin
-discovered it in England, but he was trained by Hofmann,
-who was trained by Liebig. There is a succession involved. If
-it is karmic it’s only in a very limited sense... another
-Englishman, Herbert Ganister, and the generation of chemists
-he trained....<span class="page-ref">166</span> 
-{: .mauvine}
+
+
 
 > Perfecting its reign, just as the buried coal grows denser, and
 overlaid with more strata—epoch on top of epoch, city on top
@@ -685,7 +698,7 @@ Jamf, a-and on that Imipolex G**.”
 “That stuff. Forget it. It’s not even our line. You ever try to
 develop a polymer when there’s nothing but <span class="etym-mauvine">indole people</span>
 around? With our giant parent to the north sending in
-ultimatums every day? **Imipolex G is the company albatross**"
+ultimatums every day? **Imipolex G is the company albatross**" <span class="page-ref">261</span>
 {: .basf}
 
 
@@ -710,7 +723,24 @@ as a sort of sideline. All overhead—yes, out of its own pocket the Company is 
 > <br> Even in a street used for that, still there will be one time, one **dyed** afternoon (**coaltar-impossible** orange-brown, clear all the way through) <span class="page-ref">693</span>
 {: .basf}
 
-[ BASF makes film roll, the green and purple from "Colouring Gravity's Rainbow" and the film company front of IG is specifically mentioned in the book. BASF also made magnetic tape which connects with the music but also the recorded propaganda speeches used by the Nazi regime to control the messaging]
+[  Agfa (survives today as Agfa-Gevaert N.V.) makes film roll, notably Agfacolor. Afgacolor, loses the yellow tints when fading with age, leaving behind the green and purple film tinits noted in "Colouring Gravity's Rainbow" due to the [green and magenta dye coupler](https://www.photomemorabilia.co.uk/Colour_Darkroom/Early_Agfa.html). Film company front of IG is specifically mentioned in the book. Proganda Ministry ordered full length Agfacolor feature films even when the technology was not considered sufficiently established by the industry. BASF also made magnetic tape which connects with the music but also the recorded propaganda speeches used by the Nazi regime to control the messaging]
+[Kodak AG [produced war materiel](https://kosmofoto.com/2020/09/the-confiscated-kodak-factory-that-made-film-for-the-nazis-and-communist-east-germany/) and benefitted from the [slave labour in WWII Germany](https://www.thenation.com/article/archive/kodaks-nazi-connections/)]
+[Whilhelm Klepper as the finacial enabler of the NSDAP. with direct ties to both Braunkohle-Benzin (Brown coal -- gasoline) subsidiary of IG Farben and Kodak AG, he would be appointed the NSDAP's economic adviser]
+[Braunkohle-Benzin AG was *the company* given 100 million reichsmarks to turn brown coal into fuel (syngas) for the war machine. They commercialised in 1936 the Fischer-Tropsch process invented in 1926 in a German chemical research institute. Also heavily reliance of slave labour. Several scientists were brought back to the U.S. under Operation Paperclip]. 
+
+> This **serpentine** slag-heap he is
+just about to ride into now, this **ex-refinery, Jamf Ölfabriken
+Werke** [oil factory] **AG**, _is not a ruin at all. It is in perfect working order_.
+Only waiting for the right connections to be set up, to be
+switched on... modified, precisely, _deliberately_ by bombing
+that was never hostile, but part of a plan both
+sides—“_sides_?”—had always agreed on... yes and now what
+if we—all right, say we are supposed to be the <span class="etym-mauvine">Kabbalists out
+here, say that’s our real Destiny, to be the scholar-magicians
+of the Zone<span class="etym-mauvine">, with somewhere in it a Text, to be picked to
+pieces <span class="page-ref">520</span>
+{: .basf}
+
 
 [IG Farben would make the chemicals used in wartime Germany, including the most horrific atrocities]
 
@@ -720,17 +750,9 @@ perhaps centuries in the unrolling... this ruinous plant,
 waiting for its <span class="etym-mauvine">Kabbalists and new alchemists to discover the
 Key</span>, teach the mysteries to others...
 > <br> 
-> <br> And if it isn’t exactly <span class="etym-basf">Jamf Ölfabriken Werke</span> [oil refineries]? <span class="page-ref">521</span>
+> <br> And if it isn’t exactly <span class="etym-basf">Jamf Ölfabriken Werke</span> [oil refineries]? 
+> <br> ...what if it's... another make-believe "ruin", in another city? Another _country_? YAAAGGGGHHHHH! `<span class="page-ref">521</span>
 {: .coal-tar}
-
-> that **IG man’s hotel room** may
-have been one of his earlier rehearsals. Tchitcherine has a
-way of getting together with undesirables, <span class="etym-mauvine">sub rosa enemies
-of order, counterrevolutionary odds and ends of humanity</span>: he
-doesn’t plan it, it just happens, **he is a giant supermolecule
-with so many open bonds available at any given time**  <span class="page-ref">345</span>
-{: .basf}
-
 
 ![The skeletal structure of indanthrene blue](/images/indanthrene_blue.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
@@ -794,6 +816,13 @@ excuses to drift away into other conversations. <span class="page-ref">344</span
 ![The skeletal structure of benzene](/images/benzene_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### The #000000 Zero
+{: .zero}
+
+>Rocket state- cosmology... *the Rocket does lead that* way—among
+others—past these visible **serpent coils** that lash up above the
+surface of Earth in **rainbow light**, in steel tetany... these
+storms, these <span class="etym-coal-tar">things of Earth’s deep breast we were never
+told</span>... <span class="page-ref">726</span>
 {: .zero}
 
 [Nature does not know destruction only transformation from one form of matter to another. A gradual evolution. Only the chemical agents of the human military-industrial complex know complete obliteration]
@@ -887,9 +916,10 @@ Processes abscent in the novel and abscent in the chemical warfare:
 >Solidification (Gemini ♊︎), Sublimation (Libra ♎︎), Fermentation (Capricorn ♑︎), Multiplication (Aquarius ♒︎)
 {: .zodiac}
 
-> Third N. or K.: Transmogrify common air into diamonds
+> Third N. or K.: **Transmogrify common air into diamonds
 through Cataclysmic Carbon Dioxide Reducti-o-o-o-o-n-n-
-n... 
+n**... <span class="page-ref">260</span> 
+
 
 > The great cusp—green equinox and turning, dreaming fishes [♓︎ = pisces = projection]
 to young ram [♈︎ = aries = furnance], watersleep to firewaking, bears down on us. <span class="page-ref">236</span>
@@ -909,7 +939,7 @@ and from different places inside the zone where they can be
 seen, they fall into completely different patterns....<span class="page-ref">302</span>
 {: .zodiac}
 
-Ophiuchus ⛎ = 13th Zodiac = **The Serpent barer** 
+Ophiuchus ⛎ = 13th Zodiac = **The Serpent bearer** 
 
 [The Brennschluss point is the closed cycle from the rocket arc above (almost mimicking a rainbow) and the great seperent of coal-tar benzene down below in the Earth. The rockets of the military-industrial complex are just a terrifying, entrancing visible spectacle of the weight of the industrial underclass underpinning it below]  
 
