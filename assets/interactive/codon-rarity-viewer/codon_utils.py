@@ -358,7 +358,7 @@ def parse_custom_codon_table(tsv_text: str) -> Dict:
         freq_idx = next(i for i, h in enumerate(header_lower) if 'freq' in h or 'usage' in h)
         aa_idx = next((i for i, h in enumerate(header_lower) if 'amino' in h), None)
     except StopIteration:
-        raise ValueError("TSV must have 'Codon' and 'Frequency'/'Usage' columns")
+        raise ValueError("TSV must have 'Codon', 'AminoAcid' and 'Frequency'/'Usage' columns")
     
     table = {}
     for line in lines[1:]:
