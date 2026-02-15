@@ -421,7 +421,7 @@
     <div class="container">
         <div class="tabs">
             <button class="tab active" data-tab="visualise">Visualise</button>
-            <button class="tab" data-tab="optimise">Codon Optimisation</button>
+            <button class="tab" data-tab="optimise">Codon Frequency Conversion</button>
             <button class="tab" data-tab="codon-tables">Codon Tables</button>
         </div>
 
@@ -546,12 +546,12 @@
         <!-- Codon Optimisation Tab -->
         <div id="optimise-tab" class="tab-content">
             <div class="codon-table-container">
-                <h2 style="color: #3ba7ff; margin-bottom: 20px;">Codon Optimisation & Harmonisation</h2>
+                <h2 style="color: #3ba7ff; margin-bottom: 20px;">Codon Maximisation & Harmonisation</h2>
                 
                 <div class="info-box" style="margin-bottom: 25px;">
                     <strong>Two Approaches:</strong><br>
-                    <strong>Optimisation:</strong> Replace codons with the most common synonymous codons in the expression organism (<i>maximises expression</i>).<br>
-                    <strong>Harmonisation:</strong> Match codon rarity patterns between source and expression organisms (<i>aims to opreserve co-translational folding</i>).
+                    <strong>Maximisation:</strong> Replace codons with the single most common synonymous codon in the expression organism (<i>no optimal expression due to repetition, GC content, structural constraints, etc.</i>).<br>
+                    <strong>Harmonisation:</strong> Match codon rarity patterns between source and expression organisms (<i>aims to preserve co-translational folding</i>).
                 </div>
 
                 <div class="control-group">
@@ -587,7 +587,7 @@
                 </div>
 
                 <div class="button-group">
-                    <button id="optimiseBtn">Optimise for Expression</button>
+                    <button id="optimiseBtn">Optimise for Most Popular Codon</button>
                     <button id="harmoniseBtn" class="harmonise">Harmonise Codon Rarity</button>
                 </div>
 
