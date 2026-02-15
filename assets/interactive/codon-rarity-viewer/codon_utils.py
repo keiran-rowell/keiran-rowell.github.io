@@ -248,9 +248,9 @@ def harmonize_sequence(input_seq: str, input_taxid: str, output_taxid: str,
                 'original': input_codon,
                 'new': output_codon,
                 'aa': aa,
-                'original_rarity': round(input_rarity, 4),
-                'new_rarity': round(output_rarity, 4),
-                'rarity_diff': round(abs(input_rarity - output_rarity), 4)
+                'original_rarity': round(input_rarity, 2),
+                'new_rarity': round(output_rarity, 2),
+                'rarity_diff': round(abs(input_rarity - output_rarity), 2)
             })
     
     harmonized_seq = ''.join(output_codons)
@@ -265,7 +265,7 @@ def harmonize_sequence(input_seq: str, input_taxid: str, output_taxid: str,
         'sequence': harmonized_seq,
         'changes': changes,
         'num_changes': len(changes),
-        'avg_rarity_preservation': max(0, round(avg_preservation, 4)),
+        'avg_rarity_preservation': max(0, round(avg_preservation, 2)),
         'sequence_length': len(harmonized_seq),
         'protein_length': len(output_codons)
     }
@@ -311,9 +311,9 @@ def optimize_sequence(input_seq: str, output_taxid: str, codon_tables: Dict) -> 
                 'original': input_codon,
                 'new': most_common_codon,
                 'aa': aa,
-                'original_freq': round(input_freq, 4),
-                'new_freq': round(output_freq, 4),
-                'freq_improvement': round(output_freq - input_freq, 4)
+                'original_freq': round(input_freq, 2),
+                'new_freq': round(output_freq, 2),
+                'freq_improvement': round(output_freq - input_freq, 2)
             })
     
     optimised_seq = ''.join(output_codons)

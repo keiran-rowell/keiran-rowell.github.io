@@ -1493,7 +1493,7 @@ json.dumps(result)
                     const codonEntries = codons instanceof Map ? Array.from(codons.entries()) : Object.entries(codons);
                     
                     for (const [codon, freq] of codonEntries.sort()) {
-                        html += `<tr><td>${codon}</td><td>${aa}</td><td>${Number(freq).toFixed(4)}</td></tr>`;
+                        html += `<tr><td>${codon}</td><td>${aa}</td><td>${parseFloat(freq).toFixed(2)}</td></tr>`;
                     }
                 }
                 
