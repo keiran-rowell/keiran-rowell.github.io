@@ -375,7 +375,7 @@
             flex: 1;
         }
 
-        .upload-custom-table {
+        .load-custom-table {
             margin-top: 30px;
             padding-top: 30px;
             border-top: 1px solid #2d2d44;
@@ -514,7 +514,7 @@
                     <div id="status" class="status"></div>
 
                     <div class="info-box">
-                        <strong>How it works:</strong> Upload a PDB structure and sequence, select an organism to see rare codons highlighted in red–orange. <strong>Differential mode</strong> compares rarity between two organisms.<br> Blue = becomes more common <br> Red = becomes rarer in target organism.
+                        <strong>How it works:</strong> Load a PDB structure and sequence into your browser (locally), select an organism to see rare codons highlighted in red–orange. <strong>Differential mode</strong> compares rarity between two organisms.<br> Blue = becomes more common <br> Red = becomes rarer in target organism.
                     </div>
                 </div>
 
@@ -556,11 +556,11 @@
 
                 <div class="control-group">
                     <label for="optSequenceInput">Input Sequence (DNA)</label>
-                    <textarea id="optSequenceInput" placeholder="Paste DNA sequence here or upload FASTA below..."></textarea>
+                    <textarea id="optSequenceInput" placeholder="Paste DNA sequence here or load FASTA below..."></textarea>
                 </div>
 
                 <div class="control-group">
-                    <label for="optFastaFile">Or Upload FASTA</label>
+                    <label for="optFastaFile">Or load FASTA</label>
                     <input type="file" id="optFastaFile" accept=".fasta,.fa,.txt">
                 </div>
 
@@ -645,8 +645,8 @@
                     <!-- Table will be inserted here -->
                 </div>
 
-                <div class="upload-custom-table">
-                    <h3 style="color: #3ba7ff; margin-bottom: 15px;">Upload Custom Codon Table</h3>
+                <div class="load-custom-table">
+                    <h3 style="color: #3ba7ff; margin-bottom: 15px;">Load Custom Codon Table</h3>
                     <div class="info-box">
                         <strong>Format:</strong> <p><code>TSV file</code></p> 
                         Columns: <b>Codon | AminoAcid | Frequency</b> 
@@ -654,7 +654,7 @@
                     </div>
 
                     <div class="control-group">
-                        <label for="customTableFile">Upload TSV File</label>
+                        <label for="customTableFile">Load TSV File</label>
                         <input type="file" id="customTableFile" accept=".tsv,.txt">
                     </div>
 
@@ -663,7 +663,7 @@
                         <input type="text" id="customTableName" placeholder="e.g., my_custom_organism">
                     </div>
 
-                    <button id="uploadTableBtn">Upload Custom Table</button>
+                    <button id="loadTableBtn">Load Custom Table</button>
                     <div id="tableStatus" class="status"></div>
                 </div>
             </div>
@@ -907,7 +907,7 @@ import codon_utils
                 
                 setTimeout(() => {
                     progressContainer.classList.remove('active');
-                    showStatus('Ready! Upload files to visualise.', 'success');
+                    showStatus('Ready! Load files to visualise.', 'success');
                 }, 500);
                 
                 document.getElementById('visualiseBtn').disabled = false;
@@ -989,7 +989,7 @@ import codon_utils
             }
         }
 
-        // Capture PDB filename when uploaded
+        // Capture PDB filename when loaded
         document.getElementById('pdbFile').addEventListener('change', (e) => {
             const file = e.target.files[0];
             if (file) {
@@ -1007,12 +1007,12 @@ import codon_utils
             const threshold = parseFloat(document.getElementById('rarityThreshold').value);
 
             if (!pdbFile) {
-                showStatus('Please upload a PDB file', 'error');
+                showStatus('Please load a PDB file', 'error');
                 return;
             }
 
             if (!fastaFile) {
-                showStatus('Please upload a FASTA file with the nucleotide sequence', 'error');
+                showStatus('Please load a FASTA file with the nucleotide sequence', 'error');
                 return;
             }
 
@@ -1552,8 +1552,8 @@ tsv
             }
         });
 
-// Upload custom table button
-         document.getElementById('uploadTableBtn').addEventListener('click', async () => {
+// Load custom table button
+         document.getElementById('loadTableBtn').addEventListener('click', async () => {
              const file = document.getElementById('customTableFile').files[0];
              const name = document.getElementById('customTableName').value.trim();
 
@@ -1586,7 +1586,7 @@ json.dumps(table)
                      if (el) el.insertAdjacentHTML('beforeend', optionHtml);
                  });
 
-                 showTableStatus(`Custom table "${name}" uploaded successfully!`, 'success');
+                 showTableStatus(`Custom table "${name}" loaded successfully!`, 'success');
 
              } catch (error) {
                  showTableStatus('Error parsing table: ' + error.message, 'error');
