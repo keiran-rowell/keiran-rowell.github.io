@@ -479,7 +479,7 @@ of coal and oil in Earth’s body** <span class="page-ref">589</span>
 {: .coal-tar}
 
 
-![The skeletal structure of chlorophyll](/images/chlorophyll_a_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![The skeletal structure of chlorophyll](/images/chlorophyll_a_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:60%;"}
 
 ### How alphabetic the nature of molecules
 
@@ -636,7 +636,7 @@ temperatures, pressures, rates of flow, costs, profits, **the
 shapes of towers**... <span class="page-ref">167</span>
 {: .coal-tar}
 
-![Historically proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![Historically proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:60%;"}
 
 ### The Colour Cartel
 {: .basf}
@@ -767,7 +767,7 @@ Key</span>, teach the mysteries to others...
 > <br> ...what if it's... another make-believe "ruin", in another city? Another _country_? YAAAGGGGHHHHH! `<span class="page-ref">521</span>
 {: .coal-tar}
 
-![The skeletal structure of indanthrene blue](/images/indanthrene_blue_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![The skeletal structure of indanthrene blue](/images/indanthrene_blue_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:40%;"}
 
 ### Kekulé dreams the Great Serpent 
 {: .benzene}
@@ -826,7 +826,7 @@ different idea of what winning and losing meant....
 excuses to drift away into other conversations. <span class="page-ref">344</span>
 {: .coal-tar}
 
-![The skeletal structure of benzene](/images/benzene_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![The skeletal structure of benzene](/images/benzene_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:20%;"}
 
 ### The #000000 Zero
 {: .zero}
