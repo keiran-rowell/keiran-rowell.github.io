@@ -348,6 +348,19 @@ waited in the preterite dung**. <span class="page-ref">166</span>
 > "You think you’d rather hear about what you call 'life': the growing, organic Kartell. But it’s only another illusion. A very clever robot. The more dynamic it seems to you, the more deep and dead, in reality, it grows. Look at the **smokestacks**, how they proliferate, fanning the wastes of original waste over greater and greater masses of city. Structurally, they are strongest in compression. **A smokestack can survive any explosion** -- even the shock wave from one of the new cosmic bombs" <span class="page-ref">167</span>
 {: .coal-tar}
 
+
+His desk is the carbanecous strata of the Earth, and the colours and materials buried there presage the chemical transformation of coal-tar into dyes and synthetics.
+
+> stubs of pencils of all colors including the hard-to-get <span class="etym-mauvine">heliotrope... tattered sheets of
+carbon paper
+and *raw umber* <span class="page-ref">18</span>
+{: .coal-tar}
+[Tyrone's desk when introduced]
+
+His mother is Nalline, a parsable female name of Aniline, and also the name bran name for one of the first anti-opoid medication, Nalorphine (think, early methadone).
+
+The [copying pencils](https://www.penciltalk.org/2008/07/the-hidden-life-of-copying-pencils/) were made with aniline dye.
+
 >The persistence, then, of structures favoring death. Death converted into more death.
 Perfecting its reign, just as **the buried coal grows denser**, and
 overlaid with more strata—epoch on top of epoch, city on top
@@ -466,7 +479,7 @@ of coal and oil in Earth’s body** <span class="page-ref">589</span>
 {: .coal-tar}
 
 
-![The skeletal structure of chlorophyll](/images/chlorophyll_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![The skeletal structure of chlorophyll](/images/chlorophyll_a_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### How alphabetic the nature of molecules
 
@@ -526,7 +539,7 @@ he trained....<span class="page-ref">166</span>
 >  In any case, he remembers the Slothrop surveillance being assigned to a
 newly created “Sparte IV” [Section 4] under Vermittlungsstelle [placement office] W.
 Sparte I was handling nitrogen and gasoline, <span class="etym-mauvine">II dyes</span>,
-chemicals, buna rubber, pharmaceuticals, <span class="etym-basf">III film and fibers</sp</span>>.
+chemicals, buna rubber, pharmaceuticals, <span class="etym-basf">III film and fibers</span>.
 **IV handled Slothrop** and nothing else, except—Schleim had
 heard tell—one or two miscellaneous patents acquired
 through some dealings with  <span class="etym-basf">IG Chemie</span> in Switzerland <span class="page-ref">630</span>
@@ -754,7 +767,7 @@ Key</span>, teach the mysteries to others...
 > <br> ...what if it's... another make-believe "ruin", in another city? Another _country_? YAAAGGGGHHHHH! `<span class="page-ref">521</span>
 {: .coal-tar}
 
-![The skeletal structure of indanthrene blue](/images/indanthrene_blue.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
+![The skeletal structure of indanthrene blue](/images/indanthrene_blue_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
 ### Kekulé dreams the Great Serpent 
 {: .benzene}
@@ -1003,4 +1016,4 @@ Start-the-*show!* <span class="page-ref">760</span>
 {: .coal-tar}
 
 
-![Imipolex G - polymerised indoles, alternately coloured green and magenta](/images/polymerised_indole.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![Imipolex G - fictional polymerised indoles, alternately coloured green and magenta](/images/indole_polymer_coloured.png){:style="display:block; margin-left:auto; margin-right:auto"}
