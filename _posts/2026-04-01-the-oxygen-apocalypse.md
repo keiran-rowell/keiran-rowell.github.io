@@ -95,9 +95,9 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonizationitsl) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-Before we had the green world as we know it, lifeforms were chemical scavengers. The seas were full of <span style="color: #8E7CC3">archaea</span> (literally, 'the <span style="color: #8E7CC3">ancients</span>') who had to eke out a diet of whatever chemicals around that hadn't yet fully spent its molecular potential energy. This was the Purple Earth, and was fuelled on the chemical dregs of the crust for a billion years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
+Before we had the green world as we know it, lifeforms were chemical scavengers. The seas were ruled by the <span style="color: #8E7CC3">archaea</span> (literally, 'the <span style="color: #8E7CC3">ancients</span>') who had to eke out a diet of trace molecules that hadn't yet fully spent their potential energy. This was the Purple Earth, and was fuelled on the chemical dregs of the crust for a billion years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
 
-A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had their own antenna, a simple <span style="color: #8E7CC3">**retinal**</span> light gate --- it used centre of the solar spectrum to power primitive pumps. The <span style="color:#BBDD66">**chlorophyll**</span> antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red fringes. Suddenly they could capture the array of colour energy coming off the fusion furnace the planet circles. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
+A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had their own antenna, a simple <span style="color: #8E7CC3">**retinal**</span> light gate --- it used the centre of the solar spectrum to power primitive pumps. There had already been new life; early bacteria, still sulfur dependent, still purple, had begun using a new proto-antenna, but still coexisting with the archaea without threat --- the seas were peacefully doubly purple. The <span style="color:#BBDD66">**chlorophyll**</span> antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red fringe. Suddenly, they could capture the array of colour energy coming off the fusion furnace the planet circles. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
 
 ### ...and began to exhale 
 
@@ -112,7 +112,7 @@ The <span style="color: #8E7CC3">ancients</span> were [sulfur eaters](link to su
 
 Enter the <span style="color:#BBDD66">cyanos</span>.
 
-Cyanobacteria with the light energy from their more powerful antenna had staged a metabolic coup. The cyanos departed from their ancient ancestors who fed on the sulfur in H<sub>2</sub>S. For the cyanos, H<sub>2</sub>O---the abundant solvent they were suspended in---became *food*. They began to split the most plentiful fuel source on the planet.
+Cyanobacteria with the light energy from their more powerful antenna had staged a metabolic coup. The cyanos departed from their ancient ancestors who fed on the sulfur in H<sub>2</sub>S. For the cyanos, H<sub>2</sub>O---the abundant solvent they were suspended in---became *food*. They began to split the most plentiful fuel source on the planet. They could spread anywhere there was light.
 
 ### ...and the sea boiled
 
@@ -191,7 +191,7 @@ This light driven process pushes the OEC up the singlet electronic state ladder 
   <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
 The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state'---where all manganese metals hold their stable electron count---electrons are transferred out of the cluster to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-priming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
 
-Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an outrageous **+V charge** in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state. [Detailed computational work](https://doi.org/10.1016/j.bbabio.2012.10.006) suggests the water molecules are slowly deprotonated and <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> creates an 'armed bullet' of an oxyl radical (O$$^{\bullet-}$$). The <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state is so fleeting [not even kilometer-long X-ray Free-Electron Lasers (XFELs)](https://doi.org/10.59717/j.xinn-life.2024.100068) [can detect it](https://doi.org/10.1038/s41586-018-0681-2). It triggers a violently reactive reset; ripping **four** electrons from water to replenish the cluster in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing spin-aligned electron each to form the triplet •O–O• bond; and exhaling oxygen into the environment. The manganese oxide cluster's magnetic moment acts as a **spin template**, ensuring the cell doesn't incinerate itself with a singlet. This process is tightly coordinated to avoid creation of cell-destroying peroxide (H<sub>2</sub>O<sub>2</sub>) or superoxide (O$$_{2}^{\bullet-}$$) species.
+Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an [outrageous **+V charge**](https://doi.org/10.1021/jacs.4c14543) in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state. [Detailed computational work](https://doi.org/10.1016/j.bbabio.2012.10.006) suggests the water molecules are slowly deprotonated and <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> creates an 'armed bullet' of an oxyl radical (O$$^{\bullet-}$$). The <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state is so fleeting [not even kilometer-long X-ray Free-Electron Lasers (XFELs)](https://doi.org/10.59717/j.xinn-life.2024.100068) [can detect it](https://doi.org/10.1038/s41586-018-0681-2). It triggers a violently reactive reset; ripping **four** electrons from water to replenish the cluster in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing spin-aligned electron each to form the triplet •O–O• bond; and exhaling oxygen into the environment. The manganese oxide cluster's magnetic moment acts as a **spin template**, ensuring the cell doesn't incinerate itself with a singlet. This process is tightly coordinated to avoid creation of cell-destroying peroxide (H<sub>2</sub>O<sub>2</sub>) or superoxide (O$$_{2}^{\bullet-}$$) species.
 
    </div>
 </details>
@@ -242,6 +242,16 @@ For two billion years, the S-clock ticked along, but under the dampening of the 
 
 [This is when the pO2 irreversibly accumulated about 0.00001 x current O2 levels]
 
+["The rise of oxygen in Earth’s early ocean and atmosphere"](https://doi.org/10.1038/nature13068)
+
+["Could bacteria have formed the Precambrian banded iron formations?"](Could bacteria have formed the Precambrian banded iron formations?)
+
+["This work is the first to show quantitatively that direct microbial Fe2+ oxidation had the potential to generate the bulk, if not all, of the ferric iron in BIFs."]
+
+So anoxic photoferrotrophs probably made an impact fist, they used H2S and Fe2+ as electron donors. What was a slow bleeding of Fe2+ -> Fe3+ became a massive scabs of iron oxides, turbocharged by this oxygen exhaust.
+
+Also cyanobacteria are the first *oxygen* generating bacteria, but there are lots of candidates for the first anoxic phototrophs: green non-sulfur bacteria, heliobacteria, purple bacteria. Lateral gene transfer makes the phylogeny almost impossible. They also grow together in microbial mats
+
 Oxygen rusted the oceans. It was freen from free iron radical before
 
 ![Jaspilite banded iron formation](/images/Jaspilite_banded_iron_formation.jpg)
@@ -250,6 +260,8 @@ Banded iron formation in Soudan underground state park, MN. [James St. John](htt
 {:.figcaption}
 
 The ferrous layer prevented the oxygen from reaching the atmosphere. Only when it was consumed into iron oxides did oxygen escape into the atmosphere
+
+[Worth gently introducing Fe3+ as oxidised from Fe2+ dissovled iron. And Fe3+ forms the ores. Do it in a way that doesn't sound like CHEM1011]
 
 Harmersley rande in WA the best preserved example?  If you want to see the aftermath of this oceanic bleeding the Pilbara ranges have the best examples
 
@@ -323,6 +335,8 @@ Molecular, geological and fossil evidence for the the arrival of complex life fo
 {:.figcaption}
 
 ^ From that paper: "Indeed, fossil and molecular-clock evidence consistently suggest that the last eukaryote common ancestor (LECA) emerged hundreds of millions of years after Earth’s initial oxygenation"
+
+"ord. After the GOE, we assert that oxygen rose again and then fell in the atmosphere and remained, with relatively minor exceptions, at extremely low levels for more than a billion years. This prolonged stasis was probably due to a combination of fascinating biogeochemical feedbacks, and those conditions spawned an oxygen-lean deep ocean. This anoxic ocean probably harboured sufficiently large pockets of hydrogen sulphide to draw down the concentrations of bioessential elements and thus, along with the overall low oxygen availability, challenge the emergence and diversification of eukaryotic organisms and animals until the final big step in the history of oxygenation and the expansion of life" "[The rise of oxygen in Earth’s early ocean and atmosphere](https://doi.org/10.1038/nature13068)"
 
 "Furthermore, recent advances in geochemistry and Earth system modelling suggest that the oceans at the time of eukaryogenesis were predominantly anoxic at depth, with only weakly oxygenated surface waters (probably no more than 1–10% of modern atmospheric saturation)"
 
