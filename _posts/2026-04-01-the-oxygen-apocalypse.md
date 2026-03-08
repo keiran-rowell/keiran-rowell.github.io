@@ -95,9 +95,9 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonizationitsl) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-Before we had the green world as we know it, lifeforms were chemical scavengers. The seas were ruled by the <span style="color: #8E7CC3">archaea</span> (literally, 'the <span style="color: #8E7CC3">ancients</span>') who had to eke out a diet of trace molecules that hadn't yet fully spent their potential energy. This was the Purple Earth, and was fuelled on the chemical dregs of the crust for a billion years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
+Before we had the green world as we know it, lifeforms were reliant on chemically 'reducing' conditions. Among the first inhabitants of the seas were  the <span style="color: #8E7CC3">archaea</span> (literally, 'the <span style="color: #8E7CC3">ancients</span>'). Some species could power themselves from abundant hydrogen and carbon dioxide, emitting methane into the atmosphere. Others eked out a diet from [sulfur sources]({% post_url 2026-01-18-fire-and-brimstone %}). This was the hypothesised Purple Earth, and was fuelled by a chemical environment fundamentally different from our own for billions of years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
 
-A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had their own antenna, a simple <span style="color: #8E7CC3">**retinal**</span> light gate --- it used the centre of the solar spectrum to power primitive pumps. There had already been new life; early bacteria, still sulfur dependent, still purple, had begun using a new proto-antenna, but still coexisting with the archaea without threat --- the seas were peacefully doubly purple. The <span style="color:#BBDD66">**chlorophyll**</span> antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red fringe. Suddenly, they could capture the array of colour energy coming off the fusion furnace the planet circles. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
+A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had their own antenna, a simple <span style="color: #8E7CC3">**retinal**</span> light gate --- it used the centre of the solar spectrum to power primitive pumps. There had already been new life; early bacteria, still sulfur dependent, still purple, had begun using a new proto-antenna, but still coexisting with the archaea without threat --- the seas were peacefully doubly purple. The <span style="color:#BBDD66">**chlorophyll**</span> antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red spectral bands. Forced to occupy fringes as the centre was already taken, they had hit upon a more potent use of the distance-dimmed energy radiating off the fusion furnace they circled. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
 
 ### ...and began to exhale 
 
@@ -128,7 +128,7 @@ These green cyanobacteria had developed spin-forbidden alien technology. The [Ox
 ![The OEC and S-clock diagrams](/images/OEC_S-clock.png)
 
  [*Left*] The Oxygen Evolving Complex (OEC): "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
-<br> [*Right*] The "spin doide" S-clock (as in singlet state clock) that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
+<br> [*Right*] The "spin doide" S-clock that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
 {:.figcaption}
 
 Nestled withing Photosystem II at the end of the photosynthesis machinery is the Oxygen Evolving Complex (**OEC**) --- the 'lockpick' that splits apart water to release the protons and electrons used to power the cell. A photon from sunlight knocks an electron off a set of four chlorophylll antennae (P680). To fill the leftover electron hole, an electron is shuffled from off of the OEC, progressively raising the charge of the manganese (Mn) metals. 
@@ -248,7 +248,7 @@ Banded iron formation in Soudan underground state park, MN. [James St. John](htt
 
 By unpicking oxygen from its water surrounds, bacteria had begun to inexorably rust the oceans. The iron deposited in solid scabs, layered in puff-pastry sheets of blood red and dull metal hues. Rolled, pressed, and folded by the tectonic slippage below.   
 
-The Hamersley Range in the Pilbara region of Western Australia preserves some of the most arresting evidence of this process; resurfaced testaments to this palnetary-wide haemorrhaging.  
+The Hamersley Range in the Pilbara region of Western Australia preserves some of the most arresting evidence of this process; resurfaced testaments to this planetary-wide haemorrhaging.  
 
 ![Hamersley Range Banded Iron Formation](/images/BIF_Hameresley_ranges.jpg)
 
@@ -259,13 +259,13 @@ During this one-off purge of iron from the oceans the sea surface was coated, en
 
 ### ...and their kin choked
 
-The oceans, now cleansed to a clear blue-green, could no longer hold back the hold back the corrosive gas. It escaped into the atmosphere and across the globe wearing down anything that had not evolved chemical defenses. 
+The oceans, now cleansed to a clear blue-green, could no longer hold back the corrosive gas. It escaped into the atmosphere and across the globe wearing down anything that had not evolved chemical defenses. 
 
 ![Oxidiser pictogram](/images/GHS-pictogram-oxidiser.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:50%;"}
 
-Diffusion across the skies and into ecological niches, •O–O• oxidised anything it contacted. Seeping through cell walls and creating reactive oxygen species (ROS), oxygen shredded cell walls through chained radical reactions on the fatty layer, tearing through DNA and ripping apart the protein machinery. Anything subsuming oxygen was erased from the genetic pool from the inside. Some lucky cells found protection from this cataclysm through the aegis of oxygen burning α-proteobacteria. This protection exchange would go on to be the most successful chemical energetic exchange; they became mitochondrial powerplants of the incipient multicellular organism which would come to have domain over this corroding new order. 
+Diffusion across the skies and into ecological niches, •O–O• oxidised anything it contacted. Seeping through cell walls and creating reactive oxygen species (ROS), oxygen shredded cell walls through chained radical reactions on the fatty layer, tearing through DNA and ripping apart the protein machinery. Microbes unprepared for oxygen were suffused with this alien gas and erased from the genetic pool from the inside. Some lucky cells found protection from this cataclysm through the aegis of oxygen burning α-proteobacteria. This protection exchange would go on to be the most successful chemical energetic exchange; they became mitochondrial powerplants of the incipient multicellular organism which would come to have domain over this corroding new order. 
 
-Most ancients did not survive, only small pockets of anaerobe resilience were left in nooks that we're unreached by this gas. The purple Earth was bleached green be a corrosive spill. With most of the competition extinct, the photosynthesisers remade the planet's climate too. 
+Most ancients did not survive, only small pockets of anaerobe resilience were left in nooks that were unreachable by this gas. The purple Earth was bleached green by a corrosive spill. Most of the prior bioshphere had been extinguished. With most of the competition extinct, the photosynthesisers remade the planet's climate too. 
 
 ### ...and the sky faded
 
@@ -285,7 +285,7 @@ The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer 
   </div>
 </div>
 
-Despite the same carbon budget, CH<sub>4</sub> is a 30--80x more potent greenhouse gas that CO<sub>2</sub> ([depending on impact timescale](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide)). The millenia-long lifespan of methane was shortened by photosynthesisers to just a decade, replaced by carbon dioxide. The linear symmetry of O=C=O gives it few energetic vibrations that can match and absorb infraread heat. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket translucent. There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere each year. 
+Despite the same carbon budget, CH<sub>4</sub> is a 30--80x more potent greenhouse gas that CO<sub>2</sub> ([depending on impact timescale](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide)). The millenia-long lifespan of methane was shortened by photosynthesisers to just a decade, replaced by carbon dioxide. The linear symmetry of O=C=O leaves it with  fewer active infrared absorption modes in than CH<sub>4</sub>: particular geometric distortions can absorb longwave heat radiating back from the Earth's surface. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket more translucent. There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere each year. 
 
 The sun was dimmer back then. With nothing to compensate, a long winter was coming.
 
@@ -298,13 +298,13 @@ The oxygen evolving complex had given cyanobacteria the way to catalytically gen
 *An artist's impression of "Snowball Earth" during the Huronian Glaciation.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Snowball_Huronian.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-Tipping the Earth's temperature balance, the cyanos solvent-fuel-transport wonder substance began to cool. Following H<sub>2</sub>O's near-unique property of being a naturally abundant liquid that expands when it freezes the glaciers began to creep from poles to equator, eventually encasing the globe as a "snowball Earth". The increasingly reflective surface created a temperature plunging feedback loop. The lockpick that allowed them to break down inexhaustible water now caused them to be encased in a crystalline lattice. It was almost a self-extinction. 
+Tipping the Earth's temperature balance, the cyanos solvent-fuel-transport wonder substance began to freeze. Glaciers crept from the poles towards the equator, dramatically envisioned as a "snowball Earth" where ice had a stranglehold on the globe. The extent after the initial oxidation event is uncertain, likely not a complete encasement, but oxygen had set in motion an unstoppable feedback loop: as the surface reflectivity increased temperature plunged. The lockpick that allowed cyanos to break down inexhaustible water now caused them to be encased in pockets of crystalline lattice. It was an approach towards self-extinction. But a totality wasn't reached, the climate oscillated in and out of frozen conditions, life barely clinging on in [ice-free oases](https://theconversation.com/snowball-earth-wasnt-fully-frozen-ice-free-oases-sheltered-early-life-275240). 
 
-Only a burst of carbon dioxide, ruptured from volcanoes, punctuated this frozen end state. But this thawed world was a new one, the atmosphere had been injected with triplet oxygen, a potent fuel source for any metabolism aggressive enough to handle this incendiary substance.  
+The accumulation of greenhouse gases [from the volcanic ruptures during tectonic shifts](https://www.snowballearth.org/end.html) broke the globe free from this frozen end state. But this thawed world was a new one, the atmosphere had been injected with triplet oxygen, a potent fuel source for any metabolism aggressive enough to handle this incendiary substance.  
 
 ### ...and life rose up
 
-The oxygen apocalypse had largely swept aside the Purple Earth of the ancients, though archaea are still detectable in almost every habitat. The exact emergence processes of aerobic of life in oxic/anoxic and sulfur-dominated oxygen conditions [are not completely clear-cut](https://doi.org/10.1038/nature13068). But lifeforms would never be the same, eukaryotes ---complex multicellular life--- could emerge as there was more energy to work with. The trees in our parks were to be descend from the dominant cyanos, the Oxygen Evolving Complex to be incorporated into the chloroplast of every leaf. While key aeorbic and complex life emergence points are still estimated in ranges, the outcome was inevitable: life would be oxygen-breathing, for good or ill.  
+The oxygen apocalypse had largely swept aside the Purple Earth of the ancients, though archaea are still detectable in almost every habitat. The exact emergence processes of aerobic of life in oxic/anoxic and sulfur-dominated oxygen conditions [are not completely clear-cut](https://doi.org/10.1038/nature13068). But lifeforms would never be the same, eukaryotes ---complex multicellular life--- could emerge as there was more energy to work with. The trees in our parks were to be descended from the dominant cyanos, the Oxygen Evolving Complex to be incorporated into the chloroplast of every leaf. While key aerobic and complex life emergence points are still estimated in ranges, the outcome was inevitable: life would be oxygen-breathing, for good or ill.  
 
 ![Great Oxidation Event and complex and eukaryotes](/images/GoE_proteozoic.png) 
 
@@ -341,7 +341,7 @@ Entire complex biological networks of antioxidants have been evolved to patch th
 
 ### ...and everything's on fire.
 
-The atmosphere is now a great, slow, combustion engine. The steel girding our housing is built from the oxidised blood of the ocean. The plants are descendants of microbes which unpicked the water bond through a photocharged spin-diode. The ancients are all but wiped out wherever oxygen could reach. Our lungs fill with a combustible gas, only able to be burnt with any sense of control by our internal mitochondrial symbionts. But still the law: all things decay and age.
+The atmosphere is now a great, slow, combustion engine. The steel girding our housing is built from the oxidised blood of the ocean. The plants are descendants of microbes which unpicked the water bond through a photocharged spin-diode. The ancients are all but wiped out wherever oxygen could reach. Our lungs fill with a combustible gas, only able to be burnt with any sense of control by our internal mitochondrial symbionts. A spin-barrier contains atmospheric oxygen as high-risk high-potential energy surface, not an immediate incineration. But now, living under an oxygen rich atmosphere, still the law: all things decay and age.
 
 
 ---
