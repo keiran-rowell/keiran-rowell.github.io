@@ -335,7 +335,7 @@ The production of these reactive oxygen species is ironically also mediated thro
   </div>
 </div>
 
-Biologically absorbed superoxide (•O<sub>2</sub><sup>--</sup>) generates reactive oxygen species that trigger cell ageing by oxidative stress. The net Haber--Weiss reaction, co-proposed by Fritz Haber [of Haber-Bosch fame]({% post_url 2023-06-14-nitrogen-fixation %}) in his [final paper](https://doi.org/10.1098/rspa.1934.0221) just before his death.
+Biologically absorbed superoxide (•O<sub>2</sub><sup>--</sup>) generates reactive oxygen species that trigger cell ageing by oxidative stress. The net Haber--Willstätter(Weiss) reaction, co-proposed by Fritz Haber [of Haber-Bosch fame]({% post_url 2023-06-14-nitrogen-fixation %}) in his [final paper](https://doi.org/10.1098/rspa.1934.0221) published just after death. In fact the Haber-Weiss naming is a [historical starting point (and misnomer)](https://doi.org/10.1179/135100001101536373) that didn't bear out in mechanistic studies. Fenton studied the importance of iron species as the main pathway radical propogation. Reaction of superoxide directly with hydrogen peroxide [would actually unleash singlet oxygen](https://doi.org/10.1179/135100001101536373). 
 {:.figcaption}
 
 Entire complex biological networks of antioxidants have been evolved to patch the damage of an oxygen metabolism: from superoxide converting enzymes, to radical scavenging vitamins, and aromatic compounds that can stabilise radical species into a less destructive form. Life's chemical potential was turbocharged, but with it comes an accumulation of organic corrosions that has to be carefully managed by patchwork clean-up until the cell fails. 
