@@ -112,7 +112,7 @@ The <span style="color: #8E7CC3">ancients</span> were [hydrogen sulfide eaters](
 
 Enter the <span style="color:#BBDD66">cyanos</span>.
 
-Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrainted to metabolic sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They began to split the most plentiful fuel source on the planet. They could spread anywhere there was light.
+Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrained to metabolic sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They began to split the most plentiful fuel source on the planet. They could spread anywhere there was light.
 
 ### ...and the sea boiled
 
@@ -226,7 +226,8 @@ This new engine has a mineral heart. Nature had left birnessite lying around on 
 
 The **OEC** cluster is a distorted manganese-oxide cube, with calcium edge. Though artificial mimics have been created, it is still an open question if [had the OEC had direct mineral origin, and if so, which mineral](https://pubs.acs.org/doi/10.1021/acs.biochem.6b00794)? 
 
-Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like birnessite also display oxygen evolution, but at far higher overpotentials, and are proen to create reactive oxygen species side products that would shred a biological cell. 
+Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like birnessite also display oxygen evolution, but at far higher overpotentials, and are prone to create reactive oxygen species side products that would shred a biological cell. 
+
 
 The asymmetric cuboid arrangement helps the OEC function as a **"spin diode"**. The cluster's four metal centers are in communication to [tightly coordinate a series of spin flips](https://doi.org/10.1103/PhysRevApplied.21.024024) which guide the generation of forbidden **triplet oxygen**. The sequential spin flips are crucial to this near-alien technology developed by the cyanos; they're what allow the OEC to overcome the---previously unbroken---<span class="germania-text">verboten</span> spin-barrier.  
   
@@ -237,7 +238,7 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 
 ### ...and the oceans bled
 
-There had been other microbial light-eaters, but their atmospheric and oceanic impact was marginal, since previous phototrophs still took electrons from hydrogen sulfide or Fe<sup>2+</sup> (consumed by the photoferrotrophs). The cyanos could unbalance terrestrial feedback loops, rapidly proliferating away from specific chemical niche locales. While their S-clocks ratcheted through firing cycles at a velocity never before accessed in sun-fuelled technology, barely any oxygen intiially escaped to the atmosphere. The build up in the air [was delayed for nearly two billion years](https://doi.org/10.1038/nature13068). The oceans had a natural buffer tothe  exotic spin toxin --- they contained iron. 
+There had been other microbial light-eaters, but their atmospheric and oceanic impact was marginal, since previous phototrophs still took electrons from hydrogen sulfide or Fe<sup>2+</sup> (consumed by the photoferrotrophs). The cyanos could unbalance terrestrial feedback loops, rapidly proliferating away from specific chemical niche locales. While their S-clocks ratcheted through firing cycles at a velocity never before accessed in sun-fuelled technology, barely any oxygen initially escaped to the atmosphere. The build up in the air [was delayed for nearly two billion years](https://doi.org/10.1038/nature13068). The oceans had a natural buffer to the exotic spin toxin --- they contained iron. 
 
 Instead of terraforming the atmosphere, the oxygen reshaped the oceans first. The oceans held vast reserves of dissolved Fe<sup>2+</sup> (making them a vibrant green), that formed iron-hydroxide minerals when oxidised to rust-brown Fe<sup>3+</sup>. Steadily, the buffer iron was worn through, the bacteria (both oxygen forming and ferrotrophic) shifted geological masses of dissolved oceanic iron into solids in the form of [banded iron formations of the Precambrian](https://doi.org/10.1130/0091-7613(2002)030<1079:CBHFTP>2.0.CO;2). 
 
@@ -271,7 +272,7 @@ Most ancients did not survive, only small pockets of anaerobe resilience were le
 
 ### ...and the sky faded
 
-The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer which was more than ours potent due to high methane (CH<sub>4</sub>) levels. It was also chemically stultifying before the injection of oxygen, [methane lifetimes were in the thousands of years](https://doi.org/10.1098/rstb.2024.0093) as there was no oxidising radicals to scrub it. The prior bacteria were methanogenic, maintaining this warming blanket. Photosynthesis fundamentally changes this equation.
+The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer which was more potent than ours due to high methane (CH<sub>4</sub>) levels. It was also chemically stultifying before the injection of oxygen, [methane lifetimes were in the thousands of years](https://doi.org/10.1098/rstb.2024.0093) as there was no oxidising radicals to scrub it. The prior bacteria were methanogenic, maintaining this warming blanket. Photosynthesis fundamentally changes this equation.
  
 <div style="margin: 2rem 0; padding: 2.5rem 1.5rem 1.5rem 1.5rem; background: rgba(0, 123, 255, 0.03); border-left: 4px solid #add8e6; text-align: center; font-family: monospace;">
   <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.15rem; color: #2c3e50;">
@@ -287,7 +288,7 @@ The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer 
   </div>
 </div>
 
-Within the same carbon budget, CH<sub>4</sub> is a [30--80x more potent a greenhouse gas](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide) than CO<sub>2</sub>. The millennia-long lifespan of methane was shortened by photosynthetic oxygen to just a decade, converted into carbon dioxide. The linear symmetry of O=C=O leaves it with  fewer active infrared absorption modes than CH<sub>4</sub>: particular geometric distortions can absorb longwave heat radiating back from the Earth's surface. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket more translucent to head. The cyanobacteria has been buffered by the oceans from the consequences of their waste gas by billions of years, their emissions destoryed the greenhouse layer [in a thousandth of that](https://www.pnas.org/doi/11.1073/pnas.0504878102) . There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere each year. 
+Within the same carbon budget, CH<sub>4</sub> is a [30--80x more potent a greenhouse gas](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide) than CO<sub>2</sub>. The millennia-long lifespan of methane was shortened by photosynthetic oxygen to just a decade, converted into carbon dioxide. The linear symmetry of O=C=O leaves it with  fewer active infrared absorption modes than CH<sub>4</sub>: particular geometric distortions can absorb longwave heat radiating back from the Earth's surface. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket more translucent to heat. The cyanobacteria had been buffered by the oceans from the consequences of their waste gas by billions of years, their emissions destroyed the greenhouse layer [in a thousandth of that](https://www.pnas.org/doi/11.1073/pnas.0504878102) . There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere each year. 
 
 The sun was dimmer back then. With nothing to compensate, a long winter was coming.
 
@@ -304,7 +305,7 @@ The accumulation of greenhouse gases [from the volcanic ruptures during tectonic
 
 ### ...and life rose up
 
-The oxygen apocalypse had largely swept aside the Purple Earth of the ancients, though archaea are still detectable in almost every habitat. The exact emergence timeless of various aerobic of life in oxic/anoxic and sulfur-dominated conditions [are not completely clear-cut](https://doi.org/10.1038/nature13068). But lifeforms would never be the same, eukaryotes ---complex multicellular life--- could emerge as there was more energy to work with. The trees in our parks were to be descended from the dominant cyanos, the Oxygen Evolving Complex to be incorporated into the chloroplast of every leaf. While timepoints recording last and first common ancestors are still estimated in millions-of-years ranges, the outcome was inevitable: life would be oxygen-breathing, for good or ill.  
+The oxygen apocalypse had largely swept aside the Purple Earth of the ancients, though archaea are still detectable in almost every habitat. The exact emergence timelines of various aerobic of life in oxic/anoxic and sulfur-dominated conditions [are not completely clear-cut](https://doi.org/10.1038/nature13068). But lifeforms would never be the same, eukaryotes ---complex multicellular life--- could emerge as there was more energy to work with. The trees in our parks were to be descended from the dominant cyanos, the Oxygen Evolving Complex to be incorporated into the chloroplast of every leaf. While timepoints recording last and first common ancestors are still estimated in millions-of-years ranges, the outcome was inevitable: life would be oxygen-breathing, for good or ill.  
 
 ![Great Oxidation Event and complex and eukaryotes](/images/GoE_proteozoic.png) 
 
@@ -313,7 +314,7 @@ Molecular, geological and fossil evidence for the the arrival of complex life fo
 
 ### ...and aged away
 
-Far from being a rejuvenating substance or a breath of fresh air, the cellular combustion of triplet oxygen is a corrosive bargain against the clock. Addition of a single electron to •O–O• during a biochemical process gone awry creates the superoxide radical (•O<sub>2</sub><sup>−</sup>) which is not as strictly spin-forbidden against reacing with regular matter. This is the opening oxygen control slippage for a cascade generating other reactive oxygen species, which tear into biochemical structures and degrade cellular function. Oxidative stresses are one of the major contributors to cellular ageing in all aerobic organisms; the trade for a powerful metabolism is the shortening of cellular lifespan.  
+Far from being a rejuvenating substance or a breath of fresh air, the cellular combustion of triplet oxygen is a corrosive bargain against the clock. Addition of a single electron to •O–O• during a biochemical process gone awry creates the superoxide radical (•O<sub>2</sub><sup>−</sup>) which is not as strictly spin-forbidden against reacting with regular matter. This is the opening oxygen control slippage for a cascade generating other reactive oxygen species, which tear into biochemical structures and degrade cellular function. Oxidative stresses are one of the major contributors to cellular ageing in all aerobic organisms; the trade for a powerful metabolism is the shortening of cellular lifespan.  
 
 
 The production of these reactive oxygen species is ironically also mediated through iron ---  the same buffering element precipitated our of the Archean-era ocean by the oxygen evolving complex, now facilitating the OEC's waste products to accumulate cellular damage.  
@@ -334,7 +335,7 @@ The production of these reactive oxygen species is ironically also mediated thro
 </div>
 
 
-The net Haber--Willstätter(Weiss) reaction indicates how absorbed superoxide (•O<sub>2</sub><sup>--</sup>) can reactive oxygen species. It was co-proposed by Fritz Haber [of Haber-Bosch fame]({% post_url 2023-06-14-nitrogen-fixation %}) in his [final paper](https://doi.org/10.1098/rspa.1934.0221), published just after death. Aspects of the Haber--Weiss proposal were [was a breakthrough historical startings point (and a misnomer)](https://doi.org/10.1179/135100001101536373) but didn't fully bear out in mechanistic studies. Fenton studied the importance of iron species as the main pathway radical propogation. Direct reaction of superoxide with hydrogen peroxide [would actually unleash singlet oxygen](https://doi.org/10.1179/135100001101536373). 
+The net Haber--Willstätter(Weiss) reaction indicates how absorbed superoxide (•O<sub>2</sub><sup>--</sup>) can reactive oxygen species. It was co-proposed by Fritz Haber [of Haber-Bosch fame]({% post_url 2023-06-14-nitrogen-fixation %}) in his [final paper](https://doi.org/10.1098/rspa.1934.0221), published just after death. Aspects of the Haber--Weiss proposal were [was a breakthrough historical startings point (and a misnomer)](https://doi.org/10.1179/135100001101536373) but didn't fully bear out in mechanistic studies. Fenton studied the importance of iron species as the main pathway radical propagation. Direct reaction of superoxide with hydrogen peroxide [would actually unleash singlet oxygen](https://doi.org/10.1179/135100001101536373). 
 {:.figcaption}
 
 Entire complex biological networks of antioxidants have been evolved to patch the damage of an oxygen metabolism: from superoxide converting enzymes, to radical scavenging vitamins, and aromatic compounds that can stabilise radical species into a less destructive form. Life's chemical potential was turbocharged, but with it comes an accumulation of organic corrosions that has to be carefully managed by patchwork clean-up until the cell fails. 
