@@ -101,7 +101,7 @@ A biological cousin had become a stranger --- they hoisted an antenna of chlorop
 
 ### ...and began to exhale 
 
-These chlorophyll wielding bacteria were alien --- living in ways previously inaccessible. They could make energy from the sun, they were photo-synthesisers. But their industrious photosynthesis leaked onto a globe a new alien molecule: oxygen gas. O<sub>2</sub> had never been an component of the atmosphere before, it was a highly exotic molecule only created in brief flashes when extreme UV radiation smashed apart water or CO<sub>2</sub>. This new gas was to eventually snuff out the ancients.
+These chlorophyll wielding bacteria were alien --- living in ways previously inaccessible. They could make energy from the sun, they were photo-synthesisers. But their industrious photosynthesis leaked onto a globe a new alien molecule: oxygen gas. O<sub>2</sub> had never been a component of the atmosphere before, it was a highly exotic molecule only created in brief flashes when extreme UV radiation smashed apart water or CO<sub>2</sub>. This new gas was to eventually snuff out the ancients.
 
 ![Oxygenation of the atmosphere over geological time](/images/Oxygenation-atm.png)
 
@@ -128,12 +128,12 @@ These green cyanobacteria had developed spin-forbidden alien technology. The [Ox
 ![The OEC and S-clock diagrams](/images/OEC_S-clock.png)
 
  [*Left*] The Oxygen Evolving Complex (OEC): "[Mimicking the Oxygen-Evolving Center in Photosynthesis](https://doi.org/10.3389/fpls.2022.929532)", Chen, Y.; *et al.*, *Frontiers of Plant Sicence*, *13*, #929532, **2022**. 
-<br> [*Right*] The "spin doide" S-clock that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
+<br> [*Right*] The "spin diode" S-clock that enables the generation of triplet oxygen from water: "[Closing Kok’s cycle of nature’s water oxidation catalysis](https://doi.org/10.1038/s41467-024-50210-6)", Guo, Y.; *et al.*, *Nature Communications*, *15*, #5982, **2024**
 {:.figcaption}
 
-Nestled withing Photosystem II at the end of the photosynthesis machinery is the Oxygen Evolving Complex (**OEC**) --- the 'lockpick' that splits apart water to release the protons and electrons used to power the cell. A photon from sunlight knocks an electron off a set of four chlorophylll antennae (P680). To fill the leftover electron hole, an electron is shuffled from off of the OEC, progressively raising the charge of the manganese (Mn) metals. 
+Nestled within Photosystem II at the end of the photosynthesis machinery is the Oxygen Evolving Complex (**OEC**) --- the 'lockpick' that splits apart water to release the protons and electrons used to power the cell. A photon from sunlight knocks an electron off a set of four chlorophyll antennae (P680). To fill the leftover electron hole, an electron is shuffled off the OEC, progressively raising the charge of the manganese (Mn) metals. 
 
-This light driven process pushes the OEC up the singlet electronic state ladder (the "**S-clock**" cycle). Eventually the OEC is pushed to its limits, the fourth singlet state <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span>, and water is ripped apart, pushing the cluster back to resting charge and reseting the S-clock.  
+This light driven process pushes the OEC up the singlet electronic state ladder (the "**S-clock**" cycle). Eventually the OEC is pushed to its limits, the fourth (<span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span>) state, and water is ripped apart, pushing the cluster back to resting charge and resetting the S-clock.  
 
    </div>
 </details>
@@ -201,12 +201,12 @@ The core functioned as a [highly calibrated spin diode](https://www.nature.com/a
 The material for this spin diode was abundant, [as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). 
 
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
-i
+
 Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedition](https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2104-features-nodule/). NOAA, [[Public domain](https://www.omao.noaa.gov/image-licensing-usage-info)]
 {:.figcaption}
 
 
-This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the would fuel their unrecognisably morphed descendants. 
+This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't a threat to survival. But wielded by an exponentially growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world that would fuel their unrecognisably morphed descendants. 
 
 <details style="border: none; background: none;" markdown="1">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none; outline: none;">
@@ -224,7 +224,7 @@ This new engine has a mineral heart. Nature had left birnessite lying around on 
 {:.figcaption}
 
 
-The **OEC** cluster is a distorted manganese-oxide cube, with calcium edge. Though artificial mimics have been created, it is still if it [had the OEC had direct mineral origin, and if so, which mineral](https://pubs.acs.org/doi/10.1021/acs.biochem.6b00794)? 
+The **OEC** cluster is a distorted manganese-oxide cube, with calcium edge. Though artificial mimics have been created, it is still an open question if [had the OEC had direct mineral origin, and if so, which mineral](https://pubs.acs.org/doi/10.1021/acs.biochem.6b00794)? 
 
 Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like birnessite also display oxygen evolution, but a far higher overpotentials and creating reactive oxygen species side products that would shred a biological cell. 
 
@@ -239,7 +239,7 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 
 There had been other microbial light-eaters, but their atmospheric and oceanic impact was marginal, since previous phototrophs still took electrons from hydrogen sulfide or Fe<sup>2+</sup> (the photoferrotrophs). The cyanos could unbalance terrestrial feedback loops, rapidly proliferating away from specific chemical niche locales. As their S-clocks ratcheted through firing cycles at a velocity never before accessed in sun-fuelled technology, barely any oxygen escaped to the atmosphere. The build up in the air [was delayed for nearly two billion years](https://doi.org/10.1038/nature13068). The oceans had a natural buffer to exotic spin toxin --- they contained iron. 
 
-Instead of terraforming the atmosphere, the oxygen reshaped the oceans first. The oceans held vast reserves of dissolved Fe<sup>2+</sup> (making them a vibrant green), that formed iron-hydroxided minerals when oxidised to rust-brown Fe<sup>3+</sup>. Steadily, the buffer iron was being worn through, the bacteria (both oxygen forming and ferrotrophic) shifted geological masses of dissolve oceanic iron into solids in the form of [banded iron formations of the Precambrian](https://doi.org/10.1130/0091-7613(2002)030<1079:CBHFTP>2.0.CO;2). 
+Instead of terraforming the atmosphere, the oxygen reshaped the oceans first. The oceans held vast reserves of dissolved Fe<sup>2+</sup> (making them a vibrant green), that formed iron-hydroxided minerals when oxidised to rust-brown Fe<sup>3+</sup>. Steadily, the buffer iron was being worn through, the bacteria (both oxygen forming and ferrotrophic) shifted geological masses of dissolved oceanic iron into solids in the form of [banded iron formations of the Precambrian](https://doi.org/10.1130/0091-7613(2002)030<1079:CBHFTP>2.0.CO;2). 
 
 ![Jaspilite banded iron formation](/images/Jaspilite_banded_iron_formation.jpg)
 
@@ -271,7 +271,7 @@ Most ancients did not survive, only small pockets of anaerobe resilience were le
 
 ### ...and the sky faded
 
-The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer which was more potent due to high methane (CH<sub>4</sub>) levels. It was also chemically stultifying before the injection of oxygen, [methane lifetimes were in the thousands of years](https://doi.org/10.1098/rstb.2024.0093) as there was no oxidising radicals to scrub it. The prior bacteria were methanogenic, maintaining this warming blanket. Photosynthesis fundamentally change this equation.
+The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer which was more potent due to high methane (CH<sub>4</sub>) levels. It was also chemically stultifying before the injection of oxygen, [methane lifetimes were in the thousands of years](https://doi.org/10.1098/rstb.2024.0093) as there was no oxidising radicals to scrub it. The prior bacteria were methanogenic, maintaining this warming blanket. Photosynthesis fundamentally changes this equation.
  
 <div style="margin: 2rem 0; padding: 2.5rem 1.5rem 1.5rem 1.5rem; background: rgba(0, 123, 255, 0.03); border-left: 4px solid #add8e6; text-align: center; font-family: monospace;">
   <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.15rem; color: #2c3e50;">
@@ -287,13 +287,13 @@ The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer 
   </div>
 </div>
 
-Despite the same carbon budget, CH<sub>4</sub> is a 30--80x more potent greenhouse gas that CO<sub>2</sub> ([depending on impact timescale](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide)). The millenia-long lifespan of methane was shortened by photosynthesisers to just a decade, replaced by carbon dioxide. The linear symmetry of O=C=O leaves it with  fewer active infrared absorption modes in than CH<sub>4</sub>: particular geometric distortions can absorb longwave heat radiating back from the Earth's surface. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket more translucent. There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere each year. 
+Despite the same carbon budget, CH<sub>4</sub> is a 30--80x more potent greenhouse gas than CO<sub>2</sub> ([depending on impact timescale](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide)). The millenia-long lifespan of methane was shortened by photosynthetic oxygen to just a decade, converted into carbon dioxide. The linear symmetry of O=C=O leaves it with  fewer active infrared absorption modes than CH<sub>4</sub>: particular geometric distortions can absorb longwave heat radiating back from the Earth's surface. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket more translucent. There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere each year. 
 
 The sun was dimmer back then. With nothing to compensate, a long winter was coming.
 
 ### ...and the Earth froze
 
-The oxygen evolving complex had given cyanobacteria the way to catalytically generate fuel from their near-limitless solvent they were suspended in. They could split water with no consequences, the chemistry of their surroundings had buffered their chemical spill for billions of years, though their emissions [destroyed the greenhouse layer in a thousandth of that](https://www.pnas.org/doi/11.1073/pnas.0504878102). This was the properties of water and their chemical re-engineering would almost become their undoing. 
+The oxygen evolving complex had given cyanobacteria the way to catalytically generate fuel from their near-limitless solvent they were suspended in. They could split water with no consequences, the chemistry of their surroundings had buffered their chemical spill for billions of years, though their emissions [destroyed the greenhouse layer in a thousandth of that](https://www.pnas.org/doi/11.1073/pnas.0504878102), creating cycles that would almost undo them. 
 
 ![Snowball Earth](/images/Snowball_Huronian.jpg)
 
@@ -338,7 +338,7 @@ The production of these reactive oxygen species is ironically also mediated thro
 Biologically absorbed superoxide (•O<sub>2</sub><sup>--</sup>) generates reactive oxygen species that trigger cell ageing by oxidative stress. The net Haber--Weiss reaction, co-proposed by Fritz Haber [of Haber-Bosch fame]({% post_url 2023-06-14-nitrogen-fixation %}) in his [final paper](https://doi.org/10.1098/rspa.1934.0221) just before his death.
 {:.figcaption}
 
-Entire complex biological networks of antioxidants have been evolved to patch the damage of an oxygen metabolism: from superoxide converting enzymes, to radical scavenging vitamins, and aromatic compounds that can stabilised radical species into a less destructive form. Life's chemical potential was turbocharged, but with it comes an accumulation of organic corrosions that has to be carefully managed by patchwork clean-up until the cell fails. 
+Entire complex biological networks of antioxidants have been evolved to patch the damage of an oxygen metabolism: from superoxide converting enzymes, to radical scavenging vitamins, and aromatic compounds that can stabilise radical species into a less destructive form. Life's chemical potential was turbocharged, but with it comes an accumulation of organic corrosions that has to be carefully managed by patchwork clean-up until the cell fails. 
 
 
 ### ...and everything's on fire.
