@@ -234,7 +234,7 @@ The asymmetric cuboid arrangement helps the OEC function as a **"spin diode"**. 
    </div>
 </details>
 
-The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; the spin polariser of the asymmetrically distorted cluster ensured departing electrons would pass through the spin-state barrier. The cyanos could take the substance the world was drowning in ---singlet water--- and, at ambient temperature, pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
+The cyanobacteria had broken nature's rule of closed-shell ground states, pushing through forbidden symmetry regimes with electromagnetic clockwork. From captured spiralling lightwaves the flow of energy was controlled and constrained; the [spin gate of the asymmetrically distorted cluster](http://dx.doi.org/10.1021/jacs.7b07634) ensured departing electrons would pass through the spin-state barrier. The cyanos could take the substance the world was drowning in ---singlet water--- and, at ambient temperature, pump out triplet oxygen gas. The cyanos held a quantum lockpick and could now consume the previously verboten. 
 
 ### ...and the oceans bled
 
