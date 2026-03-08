@@ -261,7 +261,7 @@ During this one-off purge of iron from the oceans the sea surface was coated, en
 
 The oceans, now cleansed to a clear blue-green, could no longer hold back the hold back the corrosive gas. It escaped into the atmosphere and across the globe wearing down anything that had not evolved chemical defenses. 
 
-![Oxidiser pictogram](/images/GHS-pictogram-oxidiser.png)
+![Oxidiser pictogram](/images/GHS-pictogram-oxidiser.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:50%;"}
 
 Diffusion across the skies and into ecological niches, •O–O• oxidised anything it contacted. Seeping through cell walls and creating reactive oxygen species (ROS), oxygen shredded cell walls through chained radical reactions on the fatty layer, tearing through DNA and ripping apart the protein machinery. Anything subsuming oxygen was erased from the genetic pool from the inside. Some lucky cells found protection from this cataclysm through the aegis of oxygen burning α-proteobacteria. This protection exchange would go on to be the most successful chemical energetic exchange; they became mitochondrial powerplants of the incipient multicellular organism which would come to have domain over this corroding new order. 
 
@@ -285,23 +285,20 @@ The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer 
   </div>
 </div>
 
-Despite the same carbon budget, CH<sub>4</sub> is a 30--80x more potent greenhouse gas that CO<sub>2</sub> ([depending on impact timescale](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide)). The millenia-long lifespan of methane was shortened by photosynthesisers to just a decade, replaced by carbon dioxide. The linear symmetry of O=C=O gives it few energetic vibrations that can match and absorb infraread heat. We the 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had mad the greenhouse blanket translucent. The sun was dimmer back then and with nothing to compensate, a long winter was coming.
+Despite the same carbon budget, CH<sub>4</sub> is a 30--80x more potent greenhouse gas that CO<sub>2</sub> ([depending on impact timescale](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide)). The millenia-long lifespan of methane was shortened by photosynthesisers to just a decade, replaced by carbon dioxide. The linear symmetry of O=C=O gives it few energetic vibrations that can match and absorb infraread heat. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket translucent. There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere each year. 
+
+The sun was dimmer back then. With nothing to compensate, a long winter was coming.
 
 ### ...and the Earth froze
+
+The oxygen evolving complex had given cyanobacteria the way to catalytically generate fuel from their near-limitless solvent they were suspended in. They could split water with no consequences, the chemistry of their surroundings had buffered their chemical spill for billions of years, though their emissions [destroyed the greenhouse layer in a thousandth of that](https://www.pnas.org/doi/11.1073/pnas.0504878102). This was the properties of water and their chemical re-engineering would almost become their undoing. 
 
 ![Snowball Earth](/images/Snowball_Huronian.jpg)
 
 *An artist's impression of "Snowball Earth" during the Huronian Glaciation.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Snowball_Huronian.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-
-Methanogenic bacteria
-
-Oxygen triggering the ice age from the consumed greenhouse blanket
-
-The great Glaciation. 200 million years of ice age.
-
-CH4 -> CO2 -> CO2 could be rained out and form limestone
+Tipping the Earth's temperature balance, the cyanos solvent-fuel-transport substance began to cool. Following H<sub>2</sub>O's near-unique property of being an naturally abundant liquid that expands when it freezes the glaciers began to creep from poles to equator, eventually encasing the globe as a "snowball Earth". The increasingly reflective surface created a temperature plunging feedback loop. The lockpick that allowed them to break down inexhaustible water now caused them to be encased in a crystalline lattice. It was almost a self-extinction. Only a burst of carbon dioxide, ruptured from volcanoes, punctuated this frozen end state. But this thawed world was a new one, the atmosphere had been injected with triplet oxygen, a potent fuel source for any metabolism aggressive enough to handle this incendiary substance.  
 
 ### ...and life rose up
 
