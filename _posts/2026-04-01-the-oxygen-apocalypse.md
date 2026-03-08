@@ -189,7 +189,7 @@ This light driven process pushes the OEC up the singlet electronic state ladder 
   </summary>
 
   <div class="textbook" markdown="1" style="margin-top: 1.5rem;">
-The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state'---where all manganese metals hold their stable electron count---electrons are transferred out of the cluster to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-priming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. 
+The S-clock is not set to zero. It is self-priming---set one tick ahead to the S<sub>1</sub> excited state. Rather than the clock resting in a 'ground-state'---where all manganese metals hold their stable electron count---electrons are transferred out of the cluster to tyrosine residues placed nearby. The oxygen evolving complex is capable of self-priming in the complete dark: a powerful cluster of manganese ions that have already been destabilised from their +II configuration by donating electrons to the cluster oxygens and surrounding protein. A primed cannon to bring forth the apocalypse of a furnace world.
 
 Lying in wait until morning, when the next bombardment of photons can push the cluster to higher and higher charge states, and pass a redline. Some propose a 'firing pin' manganese ion reaches an [outrageous **+V charge**](https://doi.org/10.1021/jacs.4c14543) in the <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state. [Detailed computational work](https://doi.org/10.1016/j.bbabio.2012.10.006) suggests the water molecules are slowly deprotonated and <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> creates an 'armed bullet' of an oxyl radical (O$$^{\bullet-}$$). The <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></span> state is so fleeting [not even kilometer-long X-ray Free-Electron Lasers (XFELs)](https://doi.org/10.59717/j.xinn-life.2024.100068) [can detect it](https://doi.org/10.1038/s41586-018-0681-2). It triggers a violently reactive reset; ripping **four** electrons from water to replenish the cluster in *femto* (10<sup>–15</sup>) seconds; joining oxo-oxyl groups with a missing spin-aligned electron each to form the triplet •O–O• bond; and exhaling oxygen into the environment. The manganese oxide cluster's magnetic moment acts as a **spin template**, ensuring the cell doesn't incinerate itself with a singlet. This process is tightly coordinated to avoid creation of cell-destroying peroxide (H<sub>2</sub>O<sub>2</sub>) or superoxide (O$$_{2}^{\bullet-}$$) species.
 
@@ -201,12 +201,12 @@ The core functioned as a [highly calibrated spin diode](https://www.nature.com/a
 The material for this spin diode was abundant, [as free manganese in seawater and mixed in iron nodules on the ocean floor](https://doi.org/10.1098/rstb.2007.2223). [Ferromanganese nodules](https://en.wikipedia.org/wiki/Manganese_nodule). [We have only recently learned how to engineer artificial mimics](https://doi.org/10.3389/fpls.2022.929532). 
 
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
-
+i
 Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedition](https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2104-features-nodule/). NOAA, [[Public domain](https://www.omao.noaa.gov/image-licensing-usage-info)]
 {:.figcaption}
 
 
-This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the could fuel their unrecognisably morphed descendants. 
+This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor -- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't threat to survival. But wielded by an exponential growing population, the Oxygen Evolving Complex would extinguish ancients and leave behind a furnace world the would fuel their unrecognisably morphed descendants. 
 
 <details style="border: none; background: none;" markdown="1">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none; outline: none;">
@@ -237,59 +237,40 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 
 ### ...and the oceans bled
 
+There had been other microbial light-eaters, but their atmospheric and oceanic impact was marginal, since previous phototrophs still took electrons from hydrogen sulfide or Fe<sup>2+</sup> (the photoferrotrophs). The cyanos could unbalance terrestrial feedback loops, rapidly proliferating away from specific chemical niche locales. As their S-clocks ratcheted through firing cycles at a velocity never before accessed in sun-fuelled technology, barely any oxygen escaped to the atmosphere. The build up in the air [was delayed for nearly two billion years](https://doi.org/10.1038/nature13068). The oceans had a natural buffer to exotic spin toxin --- they contained iron. 
 
-For two billion years, the S-clock ticked along, but under the dampening of the seas the oxygen never esacped to the atmosphere. The oceans had a natural buffer -- they contained iron. 
-
-[This is when the pO2 irreversibly accumulated about 0.00001 x current O2 levels]
-
-["The rise of oxygen in Earth’s early ocean and atmosphere"](https://doi.org/10.1038/nature13068)
-
-["Could bacteria have formed the Precambrian banded iron formations?"](Could bacteria have formed the Precambrian banded iron formations?)
-
-["This work is the first to show quantitatively that direct microbial Fe2+ oxidation had the potential to generate the bulk, if not all, of the ferric iron in BIFs."]
-
-So anoxic photoferrotrophs probably made an impact fist, they used H2S and Fe2+ as electron donors. What was a slow bleeding of Fe2+ -> Fe3+ became a massive scabs of iron oxides, turbocharged by this oxygen exhaust.
-
-Also cyanobacteria are the first *oxygen* generating bacteria, but there are lots of candidates for the first anoxic phototrophs: green non-sulfur bacteria, heliobacteria, purple bacteria. Lateral gene transfer makes the phylogeny almost impossible. They also grow together in microbial mats
-
-Oxygen rusted the oceans. It was freen from free iron radical before
+Instead of terraforming the atmosphere, the oxygen reshaped the oceans first. The oceans held vast reserves of dissolved Fe<sup>2+</sup> (making them a vibrant green), that formed iron-hydroxided minerals when oxidised to rust-brown Fe<sup>3+</sup>. Steadily, the buffer iron was being worn through, the bacteria (both oxygen forming and ferrotrophic) shifted geological masses of dissolve oceanic iron into solids in the form of [banded iron formations of the Precambrian](https://doi.org/10.1130/0091-7613(2002)030<1079:CBHFTP>2.0.CO;2). 
 
 ![Jaspilite banded iron formation](/images/Jaspilite_banded_iron_formation.jpg)
 
 Banded iron formation in Soudan underground state park, MN. [James St. John](https://www.flickr.com/photos/jsjgeology/collections/72157646528279537/), [CC BY 2.0] 
 {:.figcaption}
 
-The ferrous layer prevented the oxygen from reaching the atmosphere. Only when it was consumed into iron oxides did oxygen escape into the atmosphere
+By unpicking oxygen from its water surrounds, bacteria had begun to inexorably rust the oceans. The iron deposited in solid scabs, layered in puff-pastry sheets of blood red and dull metal hues. Rolled, pressed, and folded by the tectonic slippage below.   
 
-[Worth gently introducing Fe3+ as oxidised from Fe2+ dissovled iron. And Fe3+ forms the ores. Do it in a way that doesn't sound like CHEM1011]
+The Hamersley Range in the Pilbara region of Western Australia preserves some of the most arresting evidence of this process; resurfaced testaments to this palnetary-wide haemorrhaging.  
 
-Harmersley rande in WA the best preserved example?  If you want to see the aftermath of this oceanic bleeding the Pilbara ranges have the best examples
+![Hamersley Range Banded Iron Formation](/images/BIF_Hameresley_ranges.jpg)
 
-Scabs a kilometer thick
-We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
+Banded iron formation in the Hamersley Range, WA. Dated from the Neoarchean to the Paeleoproterozoic era. [James St. John](https://www.flickr.com/photos/jsjgeology/14872822457/), [CC BY 2.0]
+{:.figcaption}
 
+During this one-off purge of iron from the oceans the sea surface was coated, encrusted with ore layers up to a kilometer thick. We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
 
 ### ...and their kin choked
 
+The oceans, now cleansed to a clear blue-green, could no longer hold back the hold back the corrosive gas. It escaped into the atmosphere and across the globe wearing down anything that had not evolved chemical defenses. 
 
 ![Oxidiser pictogram](/images/GHS-pictogram-oxidiser.png)
 
+Diffusion across the skies and into ecological niches, •O–O• oxidised anything it contacted. Seeping through cell walls and creating reactive oxygen species (ROS), oxygen shredded cell walls through chained radical reactions on the fatty layer, tearing through DNA and ripping apart the protein machinery. Anything subsuming oxygen was erased from the genetic pool from the inside. Some lucky cells found protection from this cataclysm through the aegis of oxygen burning α-proteobacteria. This protection exchange would go on to be the most successful chemical energetic exchange; they became mitochondrial powerplants of the incipient multicellular organism which would come to have domain over this corroding new order. 
 
-Corrosion. 
+Most ancients did not survive, only small pockets of anaerobe resilience were left in nooks that we're unreached by this gas. The purple Earth was bleached green be a corrosive spill. With most of the competition extinct, the photosynthesisers remade the planet's climate too. 
 
-Treat this like a highly corrosive gas spill in a ocean zoo.
-Seeping through cell membranes shredding their DNA so their informative was erased from the genetic pool.
-The extinction of other life wherever the gas could reach. What's left are in still pockets of anaerobic resistance.
+### ...and the sky faded
 
-The purple world being bleaches green.
-
-The death of the purple Earth for chlorophyll filled green photosynthesisers
-
-GIANT DRAGONFLIES
-
-
-### ...and the sky thinned
-
+The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer which was more potent due to high methane (CH<sub>4</sub>) levels. It was also chemically stultifying before the injection of oxygen, [methane lifetimes were in the thousands of years](https://doi.org/10.1098/rstb.2024.0093) as there was no oxidising radicals to scrub it. The prior bacteria were methanogenic, maintaining this warming blanket. Photosynthesis fundamentally change this equation.
+ 
 <div style="margin: 2rem 0; padding: 2.5rem 1.5rem 1.5rem 1.5rem; background: rgba(0, 123, 255, 0.03); border-left: 4px solid #add8e6; text-align: center; font-family: monospace;">
   <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.15rem; color: #2c3e50;">
     
@@ -304,12 +285,7 @@ GIANT DRAGONFLIES
   </div>
 </div>
 
-
-An greenhouse gas blanket roughly 80x more potent than CO<sub>2</sub>
-
-Converted into CO2, a far less potent greenhouse gas (I think it's a factor of 10x-100x, look it up). This is about CO2 really only has antisymmetric modes to do Raman absorption.
-
-A long winter was coming.
+Despite the same carbon budget, CH<sub>4</sub> is a 30--80x more potent greenhouse gas that CO<sub>2</sub> ([depending on impact timescale](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide)). The millenia-long lifespan of methane was shortened by photosynthesisers to just a decade, replaced by carbon dioxide. The linear symmetry of O=C=O gives it few energetic vibrations that can match and absorb infraread heat. We the 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had mad the greenhouse blanket translucent. The sun was dimmer back then and with nothing to compensate, a long winter was coming.
 
 ### ...and the Earth froze
 
