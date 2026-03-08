@@ -252,7 +252,7 @@ The Hamersley Range in the Pilbara region of Western Australia preserves some of
 
 ![Hamersley Range Banded Iron Formation](/images/BIF_Hameresley_ranges.jpg)
 
-Banded iron formation in the Hamersley Range, WA. Dated from the Neoarchean to the Paeleoproterozoic era. [James St. John](https://www.flickr.com/photos/jsjgeology/14872822457/), [CC BY 2.0]
+Banded iron formation in the Hamersley Range, WA. Dated from the Neoarchaean to the Paeleoproterozoic era. [James St. John](https://www.flickr.com/photos/jsjgeology/14872822457/), [CC BY 2.0]
 {:.figcaption}
 
 During this one-off purge of iron from the oceans the sea surface was coated, encrusted with ore layers up to a kilometer thick. We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
@@ -298,30 +298,25 @@ The oxygen evolving complex had given cyanobacteria the way to catalytically gen
 *An artist's impression of "Snowball Earth" during the Huronian Glaciation.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Snowball_Huronian.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-Tipping the Earth's temperature balance, the cyanos solvent-fuel-transport substance began to cool. Following H<sub>2</sub>O's near-unique property of being an naturally abundant liquid that expands when it freezes the glaciers began to creep from poles to equator, eventually encasing the globe as a "snowball Earth". The increasingly reflective surface created a temperature plunging feedback loop. The lockpick that allowed them to break down inexhaustible water now caused them to be encased in a crystalline lattice. It was almost a self-extinction. Only a burst of carbon dioxide, ruptured from volcanoes, punctuated this frozen end state. But this thawed world was a new one, the atmosphere had been injected with triplet oxygen, a potent fuel source for any metabolism aggressive enough to handle this incendiary substance.  
+Tipping the Earth's temperature balance, the cyanos solvent-fuel-transport wonder substance began to cool. Following H<sub>2</sub>O's near-unique property of being a naturally abundant liquid that expands when it freezes the glaciers began to creep from poles to equator, eventually encasing the globe as a "snowball Earth". The increasingly reflective surface created a temperature plunging feedback loop. The lockpick that allowed them to break down inexhaustible water now caused them to be encased in a crystalline lattice. It was almost a self-extinction. 
+
+Only a burst of carbon dioxide, ruptured from volcanoes, punctuated this frozen end state. But this thawed world was a new one, the atmosphere had been injected with triplet oxygen, a potent fuel source for any metabolism aggressive enough to handle this incendiary substance.  
 
 ### ...and life rose up
+
+The oxygen apocalypse had largely swept aside the Purple Earth of the ancients, though archaea are still detectable in almost every habitat. The exact emergence processes of aerobic of life in oxic/anoxic and sulfur-dominated oxygen conditions [are not completely clear-cut](https://doi.org/10.1038/nature13068). But lifeforms would never be the same, eukaryotes ---complex multicellular life--- could emerge as there was more energy to work with. The trees in our parks were to be descend from the dominant cyanos, the Oxygen Evolving Complex to be incorporated into the chloroplast of every leaf. While key aeorbic and complex life emergence points are still estimated in ranges, the outcome was inevitable: life would be oxygen-breathing, for good or ill.  
 
 ![Great Oxidation Event and complex and eukaryotes](/images/GoE_proteozoic.png) 
 
 Molecular, geological and fossil evidence for the the arrival of complex life following the Great Oxidation Event (GOE). "[Eukaryogenesis and oxygen in Earth history](https://doi.org/10.1038/s41559-022-01733-y)", Mills, B.; Boyle, R.; Daines, S.; Sperling, E.; Pisani, D.; Donoghue, P.; Lenton, T.; *Nature Ecology & Evolution*, *6*, 520--532, **2022** 
 {:.figcaption}
 
-^ From that paper: "Indeed, fossil and molecular-clock evidence consistently suggest that the last eukaryote common ancestor (LECA) emerged hundreds of millions of years after Earth’s initial oxygenation"
-
-"ord. After the GOE, we assert that oxygen rose again and then fell in the atmosphere and remained, with relatively minor exceptions, at extremely low levels for more than a billion years. This prolonged stasis was probably due to a combination of fascinating biogeochemical feedbacks, and those conditions spawned an oxygen-lean deep ocean. This anoxic ocean probably harboured sufficiently large pockets of hydrogen sulphide to draw down the concentrations of bioessential elements and thus, along with the overall low oxygen availability, challenge the emergence and diversification of eukaryotic organisms and animals until the final big step in the history of oxygenation and the expansion of life" "[The rise of oxygen in Earth’s early ocean and atmosphere](https://doi.org/10.1038/nature13068)"
-
-"Furthermore, recent advances in geochemistry and Earth system modelling suggest that the oceans at the time of eukaryogenesis were predominantly anoxic at depth, with only weakly oxygenated surface waters (probably no more than 1–10% of modern atmospheric saturation)"
-
-"Although it remains clear that the protomitochondrion was capable of aerobic respiration, debate continues as to whether the protomitochondrion was a facultative aerobe or an obligate aerobe (Box 3)."
-> Okay so don't get too technical here, my idea is the cyanos wiping out the ancients *as they were*. There distinction of the new oxygen-shielding endosymbiont can either be in the next post or left out since its so speculative
-
--Argument over whether mitochrondria were aboput ATP or p(O2) lowering.
-
-Respiration yields way more energy, higher order life forms could be supported compared to fermenting microbes
-
-
 ### ...and aged away
+
+Far from being a rejuvenating substance or a breath of fresh air, the cellular combustion of triplet oxygen is a corrosive bargain against the clock. Addition of a single electron to •O–O• during a biochemical process gone awry creates the superoxide radical (•O<sup>−</sup><sub>2</sub>) which has no spin-selection rules preventing reaction with regular matter. This is the opening chemical slippage for a cascade generating other reactive oxygen species, which tear into biochemical structures and degrade cellular function. Oxidative stresses are one of the major contributors to cellular ageing in all aerobic organisms; in using the high-potential metabolic oxidant, the cellular lifespan has been shortened.  
+
+
+The production of these reactive oxygen species is ironically also mediated through iron ---  the same buffering element the oxygen evolving complex precipitated out of the Archean-era ocean, now causing the OEC's waste products to accumulate cellular damage.  
 
 <div style="margin: 2rem 0; padding: 2.5rem 1.5rem 1.5rem 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #d00000; text-align: center; font-family: monospace;">
   <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.15rem; color: #333;">
@@ -338,16 +333,15 @@ Respiration yields way more energy, higher order life forms could be supported c
   </div>
 </div>
 
-Biologically dissolved oxygen (•O<sub>2</sub><sup>--</sup>) generates reactive oxygen species that trigger cell again by oxidative stress. The net Haber--Weiss (*i.e.* [Fritz Haber]( nitrogen fixation post_url) fame) reaction is shown above.
+Biologically absorbed superoxide (•O<sub>2</sub><sup>--</sup>) generates reactive oxygen species that trigger cell ageing by oxidative stress. The net Haber--Weiss reaction, co-proposed by Fritz Haber [of Haber-Bosch fame]({% post_url 2023-06-14-nitrogen-fixation %}) in his [final paper](https://doi.org/10.1098/rspa.1934.0221) just before his death.
 {:.figcaption}
 
-%% Haber-Weiss Reaction was proposed in Haber’s very last paper in 1934 go look it up
+Entire complex biological networks of antioxidants have been evolved to patch the damage of an oxygen metabolism: from superoxide converting enzymes, to radical scavenging vitamins, and aromatic compounds that can stabilised radical species into a less destructive form. Life's chemical potential was turbocharged, but with it comes an accumulation of organic corrosions that has to be carefully managed by patchwork clean-up until the cell fails. 
 
-Oxygenated free radicals and cell aging. Reactive oxygen species. The *opposite* of rejuvenation
 
 ### ...and everything's on fire.
 
-The atmosphere is now a great, slow, combustion engine. The steel of our cities is built from the oxidised blood of the ocean. The plants of our parks are the descendents of the cyanos. The ancients are all but wiped out wherever oxygen could reach. Our lungs fill with a combustible gas to be burnt by our internal mitochondrial symbionts. But still the law: all things decay and age.
+The atmosphere is now a great, slow, combustion engine. The steel girding our housing is built from the oxidised blood of the ocean. The plants are descendants of microbes which unpicked the water bond through a photocharged spin-diode. The ancients are all but wiped out wherever oxygen could reach. Our lungs fill with a combustible gas, only able to be burnt with any sense of control by our internal mitochondrial symbionts. But still the law: all things decay and age.
 
 
 ---
