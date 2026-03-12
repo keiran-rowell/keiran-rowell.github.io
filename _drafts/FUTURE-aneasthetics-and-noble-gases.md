@@ -12,6 +12,9 @@ image:
   alt: "Some caption on anaesthetics"
 ---
 
+[The hero image should be a sphere. Possible the electron denisty of Xenon. Possibly with more]
+
+This is the most perfect sphere in nature. Nothing sticks to it, there are no Xenon compounds found in nature. We have no way to detect it with our animal sense. And yet, it shuts off our brain.
 
 Xenon --- the perfect drug we can't afford to trigger an effect we don't understand with substances that should be chemically inert
 
@@ -24,7 +27,7 @@ Build up what's left over when you have an atomic sphere: mass (Meyer-Overton) n
 
 Keep coming back to "these are ideal spheres" and "it turns off the totality of experience"
 
-That's also the one non-jargonistic thing. We can all picture a sphere and know nothing sticks to it and it doesn't act as a key to a particular shaped lock
+That's also the one non-jargonistic thing. We can all picture a sphere and know nothing sticks to it and it doesn't act as a key to a particular shaped lock. A complete shattering of a 'lock-and-key' receptor model. A sphere can't be a key. And yet it reaches into our brain's wiring and turns it off, temporarily, reversibly, safely.
 
 We've been using it since the 1940s. 
 We haven't even had any structural data to argue over until 3--4 years ago!
