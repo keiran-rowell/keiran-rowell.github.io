@@ -17,6 +17,15 @@ Xenon --- the perfect drug we can't afford to trigger an effect we don't underst
 
  The most soporific element on the periodic table, in every sense.
 
+They are *spheres*, the most atomically perfect spheres in existence, and yet they can quench consciousness itself.
+The difference has to be in spin states. When you think about a full electron shell
+
+Build up what's left over when you have an atomic sphere: mass (Meyer-Overton) nuclear spins, isotopes, radical pairs. What's *left*???
+
+Keep coming back to "these are ideal spheres" and "it turns off the totality of experience"
+
+That's also the one non-jargonistic thing. We can all picture a sphere and know nothing sticks to it and it doesn't act as a key to a particular shaped lock
+
 We've been using it since the 1940s. 
 We haven't even had any structural data to argue over until 3--4 years ago!
 
