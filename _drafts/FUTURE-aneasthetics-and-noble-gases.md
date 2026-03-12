@@ -1,8 +1,8 @@
 ---
 layout: post
 author: keiran
-title: "A Mysterious Way to Quell the Brain: inert gases as aneasthetic"
-description: "📖 15 min read • How can the least reactive substances quiet the nervous system"
+title: "Spherical sedatives: noble, and yet they quell"
+description: "📖 15 min read • How can the least reactive elements still the nervous system?"
 published: false
 subtitle:
 category: anaesthetics
@@ -14,6 +14,8 @@ image:
 
 
 Xenon --- the perfect drug we can't afford to trigger an effect we don't understand with substances that should be chemically inert
+
+ The most soporific element on the periodic table, in every sense.
 
 We've been using it since the 1940s. 
 We haven't even had any structural data to argue over until 3--4 years ago!
@@ -38,6 +40,8 @@ Nitrogen narcosis -- I believe this is how it was discovered??
 Measured as: Meyer-Overton correlation grap 
 
 Orch-OR and quantum conciousness 
+
+75 years of clinical use. Quantum conciouness explainer blogs. Roger penrose recuited. And yet the no static crystral structure even until a few years ago. Talking on no data
 
 ---
 
