@@ -11,15 +11,16 @@ image:
   alt: "The skeletal formula of benzene's cyclic electron ring, rainbow rockets circling above and rainbow ouroboros below. The smokestack Tower and the pigheaded Fool. The double integral of acceleration, and the energy levels of benzene."
 ---
 
-[Have the prose be transparent and accurate. Let the text speak for itself. Documentary not editorial. Let use bear witness. Don't let us ignore a horrible materiality.]
-
-[In the skeletal formulae section seperators, colour the benzene rings in gold]
-
-August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some condensation products of aldehyes), *Justus Liebigs Annalen der Chemie*, [Vol. 162, Iss. 1, 77--124, **1872**](https://doi.org/10.1002/jlac.18721620110) 
-{:.figcaption}
 
 >  **Content warning:** set in WWII, a time period of chemical processes, suffering and depravity beyond words; a military-industrial complex of death which we must all stop from ever being repeated. 
 
+This post proposes chemical encoding behind the more mythic and cosmological digressions in the book. I attempt to analyse their connection to the chemical history through excerpts from the novel I think are illuminating to this under-structure. 
+
+A book with some incisive passages on the systemic inhumanity that enables the waging of war, yet holds many narratological choices that are detrimental to respecting the humanity of many groups. A novel whose sprawl encompasses several sections that are appropriately devastating, and other where I feel disturbing content is deployed without the purpose or moral weight the subject matter entails. This includes racial caricatures, disposable treatment of the agency of women, content involving minors, and other dehumanising content which I do not find defensible as literary context. 
+
+[Have the prose be transparent and accurate. Let the text speak for itself. Documentary not editorial. Let use bear witness. Don't let us ignore a horrible materiality.]
+
+The chemical references are historically based, and potentially follow a systematic encoding obscured by the an experiential reading that often actively works against comprehension.
 ---
 
 <style>
@@ -351,9 +352,7 @@ waited in the preterite dung**. <span class="page-ref">166</span>
 
 His desk is the carbanecous strata of the Earth, and the colours and materials buried there presage the chemical transformation of coal-tar into dyes and synthetics.
 
-> stubs of pencils of all colors including the hard-to-get <span class="etym-mauvine">heliotrope... tattered sheets of
-carbon paper
-and *raw umber* <span class="page-ref">18</span>
+> stubs of pencils of all colors including the hard-to-get <span class="etym-mauvine">heliotrope</span> and *raw umber*... tattered sheets of carbon paper <span class="page-ref">18</span>
 {: .coal-tar}
 [Tyrone's desk when introduced]
 
@@ -404,9 +403,23 @@ here, but the **important one is mauve**. <span class="page-ref">166</span>
 
 **Tyrone** <span class="etym etym-mauvine">Tyrian purple = the extractive colour of royalty **[the elect]**</span>
 
->“It’s Slothrop,” sez Bloat, “and **he’s wearing a purple sheet**.” <span class="page-ref">200</span>
+>  [Slothrop] grabs a **purple satin** bedsheet...  drapes it around him in a sort of **toga**...
+“It’s Slothrop,” sez Bloat, “and **he’s wearing a purple sheet**.” <span class="page-ref">200</span>
 {: .mauvine}
 [Mauvine as the first commercially synthesisable cloth dye]
+
+Clothes and fabrics are frequently mentioned
+
+>"[He]... finds a crowded maze of satins, taffetas, lawn, and pongee, dark fur collars and trimming, buttons, sashes, passementerie... wait a minute, the operational scent in here is <span class="etym etym-basf">carbon tet</etym>... this wardrobe here in mostly props"
+{: .basf}
+
+Carbon tetrachloride was never used for mothballs, for clothes people wore. Dry cleaning solvent that replaced flammable petroleum solvents.
+
+This book is *obsessed* with fabrics
+
+> a two-tone shoe, **coffee and indigo**
+
+Worn by one of *Their* agents that steals his clothes
 
 >Black reinforcing rod poking out... black rust.  There were touches of **royal purple** in the air <span class="page-ref">643</span>
 {: .mauvine}
@@ -439,6 +452,8 @@ Je-eepers!” <span class="page-ref">411</span>
 
 **Life** <span class="etym etym-life">chlorophyll = green photosynthesis molecule, contains a delocalised electron ring like seen in benzene</span>
 
+> Slothrops in those days we're not yet so much involved with paper, and the wholesale slaughtering of trees. They were still **for the living green, against the dead white**
+{: .life}
 
 > ...indeed all of the Slothrop blood one way
 or another, the nine or ten generations tumbling back,
@@ -510,7 +525,7 @@ transformation. <span class="page-ref">0</span>
 >Wimpe. He is the expert on cyclized benzylisoquinilines.
 Look into the clinical effects of the drug. I don’t know. It
 seems that you might look in that direction. **It converges with
-the mauve-Perkin-Canister line**. But all I have is the
+the mauve-Perkin-Ganister line**. But all I have is the
 molecule, the sketch... Methoneirine, as the sulfate. Not in
 Germany, but in the United States. There is a link to the
 United States. A link to Russia <span class="page-ref">166</span>
@@ -529,7 +544,7 @@ Englishman, Herbert Ganister, and the generation of chemists
 he trained....<span class="page-ref">166</span> 
 {: .mauvine}
 
-[Ganister/Canister <span class="etym etym-basf"> ganister = tough quartzite stone from the coal regions of England; lining of furnances</span>  is fictional but represents the move from the English discovery in the German academic chemical lineage to a German chemical industry (link the the Nature Article I found)]
+[Ganister <span class="etym etym-basf"> ganister = tough quartzite stone from the coal regions of England; lining of furnances</span>  is fictional but represents the move from the English discovery in the German academic chemical lineage to a German chemical industry (link the the Nature Article I found)]
 
 [There's a whole set of entries as people as stones](https://gravitys-rainbow.pynchonwiki.com/wiki/index.php?title=Stones)
 
@@ -619,6 +634,7 @@ doesn’t plan it, it just happens, **he is a giant supermolecule
 with so many open bonds available at any given time**  <span class="page-ref">345</span>
 
 
+[ Benzene -> Tyrosine -> Melanin / Neurotransmitters / Dopamine / Adrenaline]
 
 
 > Perfecting its reign, just as the buried coal grows denser, and
@@ -637,6 +653,9 @@ shapes of towers**... <span class="page-ref">167</span>
 {: .coal-tar}
 
 ![Historically proposed structures of benzene](/images/benzene_proposals.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:60%;"}
+
+Historical benzene structure proposals and the modern depiction proposed by August Kekulé, "Ueber einige Condensationsproducte des Aldehyds" (On some condensation products of aldehyes), *Justus Liebigs Annalen der Chemie*, [Vol. 162, Iss. 1, 77--124, **1872**](https://doi.org/10.1002/jlac.18721620110) 
+{:.figcaption}
 
 ### The Colour Cartel
 {: .basf}
@@ -704,7 +723,6 @@ fellowship of interests**... <span class="page-ref">163</span>
 {:.note title="Dyes and disarmament"}
 
 
-
 >“Well,” Slothrop sez, “**I’d sure like anything they got on L.
 Jamf, a-and on that Imipolex G**.”
 ...
@@ -714,6 +732,11 @@ around? With our giant parent to the north sending in
 ultimatums every day? **Imipolex G is the company albatross**" <span class="page-ref">261</span>
 {: .basf}
 
+
+Sandoz Swiss chemical company to make alizarin, isolated ergotamine (an indole), LSD (hallucinagen derived from ergot) that was used for pyschological control and intelligence gathering in MKUltra (some staffed from Operation Paperclip)
+Grössli = Grasselli = Chemical company meged into Dupont.
+
+The analysis that all these chemical company interesections were historical real, apart from fictional Jamf and his Psychochemie AG, has also been covered by [Andrew H. in his exegesis](https://gravitysrainbow.substack.com/p/part-2-chapter-71-murders-and-acquisitions#footnote-anchor-5-139973246). And yes the Hague *was* [used for V-2 rocket launches](https://dutchreview.com/culture/history/the-hague-in-world-war-ii-v2-rockets-and-british-bombings/), triggering Slothrop's geometric suspiciosn.
 
 ><span class="etym-life">bristlecone pines</span> outracing <span class="etym-zero">Death for millennia</span>, concrete
 roads abandoned years ago, hairdos of the late 1930s, indole
@@ -740,6 +763,8 @@ as a sort of sideline. All overhead—yes, out of its own pocket the Company is 
 [Kodak AG [produced war materiel](https://kosmofoto.com/2020/09/the-confiscated-kodak-factory-that-made-film-for-the-nazis-and-communist-east-germany/) and benefitted from the [slave labour in WWII Germany](https://www.thenation.com/article/archive/kodaks-nazi-connections/)]
 [Whilhelm Klepper as the finacial enabler of the NSDAP. with direct ties to both Braunkohle-Benzin (Brown coal -- gasoline) subsidiary of IG Farben and Kodak AG, he would be appointed the NSDAP's economic adviser]
 [Braunkohle-Benzin AG was *the company* given 100 million reichsmarks to turn brown coal into fuel (syngas) for the war machine. They commercialised in 1936 the Fischer-Tropsch process invented in 1926 in a German chemical research institute. Also heavily reliance of slave labour. Several scientists were brought back to the U.S. under Operation Paperclip]. 
+
+Hugo Stinnes - Coal and Steel Baron - funded the freikorps paramilitary group that killed Rosa Luxembourg
 
 > This **serpentine** slag-heap he is
 just about to ride into now, this **ex-refinery, Jamf Ölfabriken
@@ -916,17 +941,26 @@ a **mud zodiac** <span class="page-ref">79</span>
 3. ♊︎ ---
 4. ♋︎ Cancer = Solution --- Leni, the robot guide 
 5. ♌︎ Leo = Digestion --- The Bomb, "a fireburst came roaring and sovereign, the sun was in..." 
-6. ♍︎ = Distillation --- Tyrone Slothrop, a "double Virgo" 
+6. ♍︎ = Distillation --- Tyrone Slothrop, a "double Virgo". "Rooms of old paralysis and evil distillery, of condensations and residues..."  "In the rains of early Virgo.. To brew tea.. from fennel, betony, Whitsun roses, sunflowers, mallow leaves" 
 7. ♎︎ --- 
 8. ♏︎ Scorpio = Separation --- Nora 
 9. ♐︎ Sagittarius = Ceration (controlled oxidisation through heating) --- Galina = Galena [lead sulfide], "red Sagittarius", heating turns lead sulfide into red lead oxide. Gretel and the colt, "full of the Sagittarian fire"; Hansel and Gretel = burning the witch 
 10. ♑︎ ---  
 11. ♒︎ ---
-12. ♓︎ Projection = (turning lead into gold, The alchemical symbol of the Ouroboros, also projection of the rocket) ---  Pökler = pickler = acid +  nitrates = explosives.  Neptune. PISCES = Astral projection. Pökler = pickler = acid +  nitrates = explosives 
+12. ♓︎ Projection = (turning lead into gold, The alchemical symbol of the Ouroboros, also projection of the rocket) ---  Pökler = pickler = acid + nitrates = explosives.  Neptune. PISCES = Astral projection. 
 {: .zodiac}
+
+0\. ☉ Sun = gold. The monad, oneness, completion. The circle of the sun is broken in the rocket wiring diagram "S" rune discussion (p. 206)
+
+Säure = sour = acidic; also SIG Sauer the oldest continuing arms manufacturer in Germany.
+
+
 
 Processes abscent in the novel and abscent in the chemical warfare: 
 >Solidification (Gemini ♊︎), Sublimation (Libra ♎︎), Fermentation (Capricorn ♑︎), Multiplication (Aquarius ♒︎)
+{: .zodiac}
+
+> We all all magical percipitates out of Europe's groaning, clouded alembic
 {: .zodiac}
 
 > Third N. or K.: **Transmogrify common air into diamonds
@@ -981,6 +1015,9 @@ uprising**. But only nearly as strong.  <span class="page-ref">720</span>
 {: .synthesis}
 [Slothrop wearing this suit]
 
+> the perennial favourite, green on magenta
+> bandana of regulation magenta and green <span class="page-ref">69</span>
+> a bit of lime-green in your rose <span class="page-ref">13</span>
 
 > The Heath grows **green and magenta** in all directions, earth and heather, coming of age --- 
 > <br> No. it was spring <span class="page-ref">749</span> 
@@ -1016,4 +1053,11 @@ Start-the-*show!* <span class="page-ref">760</span>
 {: .coal-tar}
 
 
-![Imipolex G - fictional polymerised indoles, alternately coloured green and magenta](/images/indole_polymer_coloured.png){:style="display:block; margin-left:auto; margin-right:auto"}
+Redraw Imiploex G
+
+> Structurally, it’s a stiffened chain of aromatic rings, hexagons
+like the gold one that slides and taps above Hilary Bounce’s
+navel, alternating here and there with what are known as
+heterocyclic rings.
+
+![Imipolex G - fictional polymerised indoles, alternately coloured green and magenta](/images/indole_polymer_coloured.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:80%;""}
