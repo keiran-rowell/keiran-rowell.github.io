@@ -8,26 +8,44 @@ category: anesthetics
 tags: 
 image:
   path: /images/xenon_nanobanana.png 
-  alt: "Nanobanana got obessed with bananas -- hilarious. Will replace later"
+  alt: "Nanobanana got obsessed with bananas -- hilarious. Will replace later"
 ---
 This is the most perfect sphere in the universe. Nothing sticks to it, there are no Xenon compounds found in nature. We have no way to detect it with our animal senses. And yet, it shuts off our brain.
 
 A traditionalist view of a biochemical receptor activated by a "lock-and-key" fit does not hold for noble gases. A ball can't be the key to a lock of any shape. Xenon as a molecular puzzle piece must act in an entirely different way. A sphere can be load-bearing, it can densify, it can pack. 
 
-Unlike solid spheres, electron spheres can have non-classical effects. Stranger still, the shape alone doesn't determine the potency: Xenon of a different mass is more effective. This inspires much debate and conjecture on consciousness. Yet, while Xenon has been known to be an anaesthetic since the 1940s, scientists hadn't obtained key structural data on Xenon interacting with any proteins or membranes until the 2000s. We still don't have any atomic data of Xenon interacting with any receptors that induce anaesthesia.  
+Stranger still, Xenon acts beyond anything a classical view of matter can explain. The shape alone doesn't determine the potency. Xenon isotopes can exert stronger effects, and it's not tied to mass difference but instead looped into nuclear physics.  This inspires much debate and conjecture on consciousness. Yet, while Xenon has been known to be an anaesthetic since the 1940s, scientists hadn't obtained key structural data on Xenon interacting with any proteins or membranes until the 2000s. We still don't have any atomic data of Xenon interacting with any receptors that induce anaesthesia.  
 
-Our waking experience, the foremost development of the material world interrogating itself, can be silenced by a sphere 10-billionths of a metre wide. 
+Our waking experience, the foremost development of the material world interrogating itself, can be silenced by an atomic sphere of inert purity. 
 
 ---
+
+[But I think this one needs to be clinical, platonic, and in a clean way, unnerving]
 
 I was thinking of building up the subsections with simple headings, stop "woo-ifying" this an keep it as a matter of physical principle
 
 ## Stranger
 Xenon literally *xenos*, stranger. Formed in supernova and decay pathways. Distilled from the air, separating out 1 in 11 million particles. By product of liquid air distillation (look up the size of these things). Xenon was discovered then as it still is now, as a trace component of liquified air.
 ## Scuba
+Nitrogen gas, [notoriously unreactive]( url of nitrogen post), was causing narcosis in deep sea divers.
+
+
+[ALBERT BEHNKE: NITROGEN NARCOSIS](https://doi.org/10.1016/j.jemermed.2013.08.080)
+
 Narcotic effect of deep seas divers. Looking at nitrogen narcosis and experiments with other intert gases. Important research to a problem noticed by the navy
+1939 - Behnke - Nitrogen Narcosis. Behnee was the farther figure of the U.S. Navy's diving program.
+
+Something needed to displace the nitrogen in the air tanks if divers were to ever get below 100 m.
+
+Helium-Oxygen mixture avoided narcosis in the deep dive to rescue crew from the downed submarine USS *Squalus*
+
+
+The [Submarine Escape Training Tower](https://en.wikipedia.org/wiki/Submarine_escape_training_facility) is just cool.
+
 ## Silence
 The history of the discovery, the effectiveness of noble gases versus other ones. The clinical trials. The experiments of the 50s
+
+1951 - Cullen and Gross sucessful experiment on human patient
 
 Pontentially just an all-round dampening of hydrophobic pockets. Not one specific entaglement but a attenuation of many signalling pathways
 ## Shape
@@ -50,7 +68,8 @@ Chemical behaviour and also therapeutic value
 ## Symmetry
 Xenon as a test for CPT violation (not ever known, CPT holds only CP from Wu's experiments). I know this is super tangential but kinda cool. Something about so perfect it's used to confirm that the CPT symmetry of the very fabric of our univerise holds 
 
-Also Unsöld's theorem that the radical atomic orbitals sum to a perfect spherical density in half-filled and fully filled shell configurations. (Add up the intersecting pieces of the electron orbitals composing Xenon and you get a *perfect* sphere. Adding up the electron desnities, the square of the wavefunction modulus, yields up a true featureless platonic sphere. ) Could end on that image
+Also Unsöld's theorem that the radical atomic orbitals sum to a perfect spherical density in half-filled and fully filled shell configurations. (Add up the intersecting pieces of the electron orbitals composing Xenon and you get a *perfect* sphere. Adding up the electron desnities, the square of the wavefunction modulus, yields up a true featureless platonic sphere. ) Could end on that image. At yet it knocks you unconcious
+
 
 
 ---
