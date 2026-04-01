@@ -49,6 +49,8 @@ author:
   #Picture to be displayed
   picture:              /assets/img/rowell_avatar.png
 
+timezone: Australia/Sydney
+
 # Add links to the sidebar.
 menu:
   - title:             About
