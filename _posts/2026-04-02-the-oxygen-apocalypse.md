@@ -91,7 +91,7 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 
 ![Chroococcidiopsis thermalis](/images/Chroococcidiopsis_thermalis.jpg)
 
-Light harvesting extremophiles, *Chroococcidiopsis thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonizationitsl) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
+Light harvesting extremophiles, *Chroococcidiopsis thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonization.html) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
 Before we had the green world as we know it, lifeforms were reliant on chemically 'reducing' conditions. Among the first inhabitants of the seas were  the <span style="color: #8E7CC3">archaea</span> (literally, "the <span style="color: #8E7CC3">ancients</span>"). Some species of ancients could power themselves from abundant hydrogen and carbon dioxide, emitting methane into the atmosphere. Others eked out a diet from sulfur sources. This was the hypothesised Purple Earth, and was fuelled by a chemical environment fundamentally different from our own for billions of years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
