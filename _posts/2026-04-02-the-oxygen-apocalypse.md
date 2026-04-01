@@ -3,7 +3,7 @@ layout: post
 author: keiran
 title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
 description: "📖 20 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
-published: false
+published: true
 category: oxygen 
 tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobacteria archaea quantum biology manganese cluster photosynthesis reactive-oxygen-species S-clock Kok-cycle Birnessite eukaryogenesis banded-iron-formations photosystem chlorophyll
 image: 
@@ -63,7 +63,6 @@ image:
 
 ### <span style="color: #8E7CC3">Diradical by Nature</span>
 
-
 We are protected at every moment by a quantum mechanical safety catch. The most dangerous element of our atmosphere normally can't react with us. It is physically <span class="germania-text">verboten</span>. Oxygen doesn't immediately burn our organic matter to a crisp because our biomolecules are a different *spin state* to O<sub>2</sub>. 
 
 An insuperable barrier of electronic symmetry is our shield (*expand the briefing below*).
@@ -90,9 +89,9 @@ Singlet oxygen is its triplet twin let loose. [Be afraid](https://www.youtube.co
 
 ### They captured the sun...
 
-![Chroococcidiopsis Thermalis](/images/Chroococcidiopsis_thermalis.jpg)
+![Chroococcidiopsis thermalis](/images/Chroococcidiopsis_thermalis.jpg)
 
-Light harvesting extremophiles, *Chroococcidiopsis Thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonizationitsl) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
+Light harvesting extremophiles, *Chroococcidiopsis thermalis*, that can [live off lower energy light](https://www.space.com/40898-low-light-bacteria-mars-colonizationitsl) than most cyanobacteria. [T. Darienko](https://commons.wikimedia.org/wiki/File:Chroococcidiopsis_thermalis.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
 Before we had the green world as we know it, lifeforms were reliant on chemically 'reducing' conditions. Among the first inhabitants of the seas were  the <span style="color: #8E7CC3">archaea</span> (literally, "the <span style="color: #8E7CC3">ancients</span>"). Some species of ancients could power themselves from abundant hydrogen and carbon dioxide, emitting methane into the atmosphere. Others eked out a diet from sulfur sources. This was the hypothesised Purple Earth, and was fuelled by a chemical environment fundamentally different from our own for billions of years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
@@ -179,7 +178,7 @@ This light driven process pushes the OEC up the charge states (the "**S-clock**"
     <div style="color: #BA575C; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem; font-size: 0.9rem;">
       Firing the S-clock
     </div>
-    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + <b style="color: #55BDF1">4H<sup>+</sup></b> + <b style="color: #7031AA">4e<sup>–</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
+    <span style="color: #BA575C; font-weight: bold;">S<sub>4</sub></span> + 2H<sub>2</sub>O &xrarr; <span style="font-weight: bold; color: #45BB58;">S<sub>0</sub></span> + <b style="color: #55BDF1">4H<sup>+</sup></b> + <sup>3</sup>&Sigma;<sub>g</sub><sup>&minus;</sup> <span style="color: #FF2400; font-weight: bold;">O</span><sub>2</sub>
   </div>
 </div>
 
@@ -239,22 +238,22 @@ The cyanobacteria had broken nature's rule of closed-shell ground states, pushin
 
 ### ...and the oceans bled
 
-There had been other microbial light-eaters, but their atmospheric and oceanic impact was marginal, since previous phototrophs still took electrons from limited dissolved material --- hydrogen sulfide or Fe<sup>2+</sup> (consumed by the photoferrotrophs). The cyanos, in contrast, could on their own unbalance terrestrial feedback loops, rapidly proliferating away from specific chemical niche locales. While their S-clocks ratcheted through firing cycles at a velocity never before accessed in sun-fuelled technology, barely any oxygen initially escaped to the atmosphere. The build up in the air [was delayed for nearly two billion years](https://doi.org/10.1038/nature13068). The oceans had a natural buffer to the exotic spin toxin --- they contained iron. 
+There had been other microbial light-eaters, but their atmospheric and oceanic impact was marginal, since previous phototrophs still took electrons from limited dissolved material --- hydrogen sulfide or Fe<sup>2+</sup> (consumed by the photo*ferro*trophs). The cyanos, in contrast, could on their own unbalance terrestrial feedback loops, rapidly proliferating away from specific chemical niche locales. While their S-clocks ratcheted through firing cycles at a velocity never before accessed in sun-driven technology, barely any oxygen initially escaped to the atmosphere. The build up in the air [was delayed for nearly two billion years](https://doi.org/10.1038/nature13068). The oceans had a natural buffer to the exotic spin toxin --- they contained iron. 
 
-Instead of terraforming the atmosphere, oxygen reshaped the oceans first. The oceans held vast reserves of dissolved Fe<sup>2+</sup> (making them a vibrant green), that formed iron-hydroxide minerals when oxidised to rust-brown Fe<sup>3+</sup>. Steadily, the buffer iron was worn through, the bacteria (both oxygen forming and ferrotrophic) shifted geological masses of dissolved oceanic iron into solids in the form of [banded iron formations of the Precambrian](https://doi.org/10.1130/0091-7613(2002)030<1079:CBHFTP>2.0.CO;2). 
+Instead of terraforming the atmosphere, oxygen reshaped the oceans first. The oceans held vast reserves of dissolved Fe<sup>2+</sup> (making them a vibrant green), that formed iron-hydroxide minerals when oxidised to rust-brown Fe<sup>3+</sup>. Steadily, the buffer iron was worn through, the bacteria (both oxygen-forming and ferrotrophic) shifted geological masses of dissolved oceanic iron into solids in the form of [banded iron formations in the Precambrian](https://doi.org/10.1130/0091-7613(2002)030<1079:CBHFTP>2.0.CO;2). 
 
 ![Jaspilite banded iron formation](/images/Jaspilite_banded_iron_formation.jpg)
 
-Banded iron formation in Soudan underground state park, MN. [James St. John](https://www.flickr.com/photos/jsjgeology/collections/72157646528279537/), [CC BY 2.0] 
+Banded iron formation in Soudan Underground Mine State Park, MN. [James St. John](https://www.flickr.com/photos/jsjgeology/collections/72157646528279537/), [CC BY 2.0] 
 {:.figcaption}
 
 By unpicking oxygen from its water surrounds, bacteria had begun to inexorably rust the oceans. The iron deposited in solid scabs, layered in puff-pastry sheets of blood red and dull metal hues. Rolled, pressed, and folded by the tectonic slippage below.   
 
 The Hamersley Range in the Pilbara region of Western Australia preserves some of the most arresting evidence of this process; resurfaced testaments to this planetary-wide haemorrhaging.  
 
-![Hamersley Range Banded Iron Formation](/images/BIF_Hameresley_ranges.jpg)
+![Hamersley Range Banded Iron Formation](/images/BIF_Hamersley_ranges.jpg)
 
-Banded iron formation in the Hamersley Range, WA. Dated from the Neoarchaean to the Paeleoproterozoic era. [James St. John](https://www.flickr.com/photos/jsjgeology/14872822457/), [CC BY 2.0]
+Banded iron formation in the Hamersley Range, WA. Dated from the Neoarchaean to the Paleoproterozoic era. [James St. John](https://www.flickr.com/photos/jsjgeology/14872822457/), [CC BY 2.0]
 {:.figcaption}
 
 During this purge of iron from the oceans the sea surface was encrusted with ore layers up to a kilometer thick. We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
@@ -267,7 +266,7 @@ The oceans, now cleansed to a clear blue-green, could no longer hold back the co
 
 Diffusing across the skies and into ecological niches, •O–O• oxidised anything it contacted. Seeping through cell walls, oxygen triggered radical chain reactions that destroyed the membrane's fatty layer, tore through DNA, and ripped apart protein machinery. Microbes unprepared for oxygen were suffused with this alien gas and erased from the genetic pool from the inside. Life had to develop new machinery to cope, or die. Survivors adapted patchwork protection against this molecular cataclysm, imperfect oxygen disposal mechanisms that provided enough antioxidant shielding to outrun extinction. These emergency responses were written into their descendants' DNA.   
 
-As atmospheric oxygen concentration steadily increased, more durable adaptations were required to transcend the chemical danger of this new reality. Some cells found seemingly providential protection through the aegis of oxygen-burning α-proteobacteria. This protection racket would go on to be one of the most successful chemical energetic exchanges in biology: they became mitochondrial powerplants of the incipient multicellular organism, forging previously inaccessible molecular stores of energy. They would come to have domain over this corroding new order. 
+As atmospheric oxygen concentration steadily increased, more durable adaptations were required to transcend the chemical danger of this new reality. Some cells found seemingly providential protection under the aegis of oxygen-burning α-proteobacteria. This protection racket would go on to be one of the most successful chemical energetic exchanges in biology: they became mitochondrial powerplants of the incipient multicellular organism, forging previously inaccessible molecular stores of energy. They would come to have domain over this corroding new order. 
 
 Most ancients did not survive, only small pockets of anaerobe resilience were left in nooks that were unreachable by this gas. The purple Earth was bleached green by a corrosive spill. With most of the competition extinct, and chemical cycles sundered, the photosynthesisers began to remake the climate. 
 
@@ -289,7 +288,7 @@ The cyanos had emerged first into a stifling atmosphere, a greenhouse gas layer 
   </div>
 </div>
 
-Within the same carbon budget, CH<sub>4</sub> is a [30--80x more potent a greenhouse gas](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide) than CO<sub>2</sub>. The millennia-long lifespan of methane was shortened by photosynthetic oxygen to just a decade, converted into carbon dioxide. The linear symmetry of O=C=O leaves it with  fewer active infrared absorption modes than CH<sub>4</sub>: particular geometric distortions that can absorb longwave heat radiating back from the Earth's surface. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket more translucent to heat. While the oceans had buffered the cyanobacteria from the consequences of their waste gas for billions of years, their emissions destroyed the greenhouse layer [in a thousandth of that](https://www.pnas.org/doi/11.1073/pnas.0504878102) . There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere. 
+Within the same carbon budget, CH<sub>4</sub> is [30--80x more potent a greenhouse gas](https://climate.mit.edu/ask-mit/what-makes-methane-more-potent-greenhouse-gas-carbon-dioxide) than CO<sub>2</sub>. The millennia-long lifespan of methane was shortened by photosynthetic oxygen to just a decade, converted into carbon dioxide. The linear symmetry of O=C=O leaves it with  fewer active infrared absorption modes than CH<sub>4</sub>: particular geometric distortions that can absorb longwave heat radiating back from the Earth's surface. The 1:1 exchange of CH<sub>4</sub> to CO<sub>2</sub> by catalytic oxygen-linked radical reactions had made the greenhouse blanket more translucent to heat. While the oceans had buffered the cyanobacteria from the consequences of their waste gas for billions of years, their emissions destroyed the greenhouse layer [in a thousandth of that](https://www.pnas.org/doi/11.1073/pnas.0504878102) . There was no human heavy industry emitting gigatonnes of CO<sub>2</sub> into the atmosphere. 
 
 The sun was dimmer back then. With nothing to compensate, a long winter was coming.
 
@@ -306,16 +305,16 @@ The accumulation of greenhouse gases [from the volcanic ruptures during tectonic
 
 ### ...and life rose up
 
-The oxygen apocalypse had largely swept aside the Purple Earth of the ancients, though archaea are still detectable in almost every habitat. The exact emergence timelines of various aerobic forms of life in oxic/anoxic and sulfur-dominated conditions [are not completely clear-cut](https://doi.org/10.1038/nature13068). But lifeforms would never be the same, eukaryotes ---complex, and eventually multicellular, life--- could emerge since there was more energy to work with. The trees in our parks were to be descended from the dominant cyanos, the oxygen evolving complex to be incorporated into the chloroplast of every leaf. While timepoints recording last and first common ancestors are still estimated in millions-of-years ranges, the outcome was inevitable: life would be oxygen-breathing, for good or ill.  
+The oxygen apocalypse had largely swept aside the Purple Earth of the ancients, though archaea are still detectable in almost every habitat. The exact emergence timelines of various aerobic forms of life in oxic/anoxic and sulfur-dominated conditions [are not completely clear-cut](https://doi.org/10.1038/nature13068). But lifeforms would never be the same, eukaryotes ---complex, and eventually multicellular, life--- could emerge since there was more energy to work with. The trees in our parks were to be descended from the dominant cyanos, the oxygen evolving complex to be incorporated into the chloroplast of every leaf. While timepoints recording last and first common ancestors are still estimated in millions-of-years ranges, the outcome was inevitable: life would be oxygen-breathing, rocketed into fierce metabolic competition.  
 
 ![Great Oxidation Event and complex and eukaryotes](/images/GoE_proteozoic.png) 
 
-Molecular, geological and fossil evidence for the the arrival of complex life following the Great Oxidation Event (GOE). "[Eukaryogenesis and oxygen in Earth history](https://doi.org/10.1038/s41559-022-01733-y)", Mills, B.; Boyle, R.; Daines, S.; Sperling, E.; Pisani, D.; Donoghue, P.; Lenton, T.; *Nature Ecology & Evolution*, *6*, 520--532, **2022** 
+Molecular, geological and fossil evidence for the arrival of complex life following the Great Oxidation Event (GOE). "[Eukaryogenesis and oxygen in Earth history](https://doi.org/10.1038/s41559-022-01733-y)", Mills, B.; Boyle, R.; Daines, S.; Sperling, E.; Pisani, D.; Donoghue, P.; Lenton, T.; *Nature Ecology & Evolution*, *6*, 520--532, **2022** 
 {:.figcaption}
 
 ### ...and aged away
 
-Far from being a rejuvenating substance or a breath of fresh air, the cellular combustion of triplet oxygen is a corrosive bargain against the clock. Addition of a single electron to •O–O• during a biochemical process gone awry creates the superoxide radical (•O<sub>2</sub><sup>−</sup>) which is not as strictly spin-forbidden against reacting with regular matter. This is the opening slippage in oxygen control that unshackles a cascade of other reactive oxygen species, which tear into biochemical structures and degrade cellular function. Oxidative stresses are one of the major contributors to cellular ageing in all aerobic organisms; the trade for a powerful metabolism is the shortening of cellular lifespan.  
+Far from being a rejuvenating substance or a breath of fresh air, the cellular combustion of triplet oxygen is a corrosive bargain against the clock. Addition of a single electron to •O–O• during a biochemical process gone awry creates the superoxide radical (•O<sub>2</sub><sup>--</sup>) which is not as strictly spin-forbidden against reacting with regular matter. This is the opening slippage in oxygen control that unshackles a cascade of other reactive oxygen species, which tear into biochemical structures and degrade cellular function. Oxidative stresses are one of the major contributors to cellular ageing in all aerobic organisms; the trade for a powerful metabolism is the shortening of cellular lifespan.  
 
 
 The production of these reactive oxygen species is ironically also mediated through iron ---  the same buffering element precipitated out of the Archean-era ocean by the oxygen evolving complex, now facilitating the accumulation of cellular damage from the OEC's waste.  
@@ -344,7 +343,7 @@ Entire complex biological networks of antioxidants have been evolved to patch th
 
 ### ...and everything's on fire.
 
-The atmosphere is now a great, slow, combustion engine. The steel girding our housing is smelt from the oxidised blood of the ocean. The plants are descendants of microbes which unpicked the water bond through a photocharged spin diode. They support our every breath, but their ancestors chemically obliterated the Earth. The ancients are all but wiped out wherever oxygen could reach. Our lungs fill with a combustible gas, which only our mitochondria ---internalised from an entirely different lineage--- can burn with any modicum of control. A spin barrier ensures that this triplet oxygen, contributing the reactive fifth of our atmosphere that allows life tick on, is not cause for immediate incineration. But now, living under an oxygen-rich sky, under the dictates of a rust-based order, still the law: all things decay and age.
+The atmosphere is now a great, slow, combustion engine. The steel girding our housing is smelt from the oxidised blood of the ocean. The plants are descendants of microbes which unpicked the water bond through a photocharged spin diode. They support our every breath, but their ancestors chemically obliterated the Earth. The ancients are all but wiped out wherever oxygen could reach. Our lungs fill with a combustible gas, which only our mitochondria ---internalised from an entirely different lineage--- can burn with any modicum of control. A spin barrier ensures that this triplet oxygen, contributing the reactive fifth of our atmosphere that allows life to tick on, is not cause for immediate incineration. But now, living under an oxygen-rich sky, under the dictates of a rust-based order, still the law: all things decay and age.
 
 
 ---
