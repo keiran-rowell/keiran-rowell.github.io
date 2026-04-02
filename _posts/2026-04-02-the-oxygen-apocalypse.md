@@ -256,7 +256,7 @@ The Hamersley Range in the Pilbara region of Western Australia preserves some of
 Banded iron formation in the Hamersley Range, WA. Dated from the Neoarchaean to the Paleoproterozoic era. [James St. John](https://www.flickr.com/photos/jsjgeology/14872822457/), [CC BY 2.0]
 {:.figcaption}
 
-During this purge of iron from the oceans the sea surface was encrusted with ore layers up to a kilometer thick. We use the scabs of the oxidised ferrous sea to build out steel reinforced cities today.
+During this purge of iron from the oceans the sea surface was encrusted with ore layers up to a kilometer thick. We use the scabs of the oxidised ferrous sea to build our steel reinforced cities today.
 
 ### ...and their kin choked
 
