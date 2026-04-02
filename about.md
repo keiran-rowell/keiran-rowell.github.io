@@ -12,6 +12,8 @@ I've worked in multiple Australian universities, attempting to extract meaning f
 
 When not working, I'm likely to be exercising with swords, at a gig, or sitting with a pot of tea and a good book.
 
+I also [write about elements of science I find fascinating](/posts), and how they weave through deep time and human realities.
+
 ## Scientific Interests
 I'm fascinated by the mechanisms of the natural world, and enthusiastic about how compute power provides the capability for exquisite mechanistic insight. I'm applications driven -- with published work using excited state quantum chemical methods, molecular dynamics modelling of DNA, as well as coursework and employment in bioinformatics. I'd love to combine my skills and apply them to use multiscale modelling approaches on research topics such as: photobiology, structural biology, enzyme catalysis, and DNA photodamage.
 
@@ -28,6 +30,7 @@ I work at the Structural Biology Facility in the Mark Wainwright Analytical Cent
 I manage the technical implementation of computational resources of the facility. This includes writing the procurement specifications of GPU and storage hardware, including AI GPUs for biomolecular structure inference. I negotiated their integration into the campus research computing cluster: ensuring all UNSW researchers could have easy access to user friendly workflows (*e.g.* the facility's [OnDemand proteinfold webform](https://github.com/Australian-Structural-Biology-Computing/ood-proteinfold)), and efficient use of hardware where other departments can use the silicon during idle times. 
 
 I am also working with a very talented sysadmin, where we codesign solutions to high-performance Cryo-EM modelling which is a different computational category than AI prediction workloads. Cryo-EM requires interactive visualisation, intense data processing with inexpensive video processing GPUs, and involves a mix of short responsive calculations and very long batched particle refinement jobs. This does not play nicely with traditional HPC setups, and has been a problem of interest ever since Lev Lafayette detailed these computational challenges in his [Cryo-EM computing talk to UNSW](https://levlafayette.com/files/2021CryoEMUNSW.pdf). 
+
 
 
 ## Get in contact
