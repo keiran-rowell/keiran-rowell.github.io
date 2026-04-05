@@ -199,7 +199,7 @@ Pushing past <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></spa
 
 
 The metal cluster core functions as a [highly calibrated spin diode](https://www.nature.com/articles/s41586-018-0681-2). 
-The intermediary materiel on the way to this spin diode were abundant, [as free manganese in seawater](https://doi.org/10.1073/pnas.2016447117) and mixed with iron (another intermediary) [in nodules on the ocean floor](https://en.wikipedia.org/wiki/Manganese_nodule); a source of "[dark oxygen](https://www.nature.com/articles/s41561-024-01480-8)". 
+The intermediary materiel on the way to this spin diode was abundant, [as free manganese in seawater](https://doi.org/10.1073/pnas.2016447117) and mixed with iron (another intermediary) [in nodules on the ocean floor](https://en.wikipedia.org/wiki/Manganese_nodule); a source of "[dark oxygen](https://www.nature.com/articles/s41561-024-01480-8)". 
 
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
 
