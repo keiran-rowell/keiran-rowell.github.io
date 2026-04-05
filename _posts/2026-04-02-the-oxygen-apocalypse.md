@@ -111,7 +111,7 @@ Many ancient microbes were [hydrogen sulfide metabolisers]({% post_url 2026-01-1
 
 Enter the <span style="color:#BBDD66">cyanos</span>.
 
-Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrained to metabolic sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They arose in new locales, spreading widely, and began to split the most plentiful fuel source on the planet.
+Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrained to metabolic hydroen and sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They arose in new locales, spreading widely, and began to split the most plentiful fuel source on the planet.
 
 ### ...and the sea boiled
 
