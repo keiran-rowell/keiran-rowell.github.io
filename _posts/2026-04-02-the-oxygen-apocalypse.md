@@ -5,7 +5,7 @@ title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
 description: "📖 20 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
 published: true
 category: oxygen 
-tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobacteria archaea quantum biology manganese cluster photosynthesis reactive-oxygen-species S-clock Kok-cycle Birnessite eukaryogenesis banded-iron-formations photosystem chlorophyll
+tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobac eria archaea quantum biology manganese cluster photosynthesis reactive-oxygen-species S-clock Kok-cycle Birnessite eukaryogenesis banded-iron-formations photosystem chlorophyll
 image: 
   path: /images/Vaalbara_Continent.jpg
   alt: "The Archaean dominated 'purple earth'"
@@ -107,11 +107,11 @@ These chlorophyll wielding bacteria were living in ways previously inaccessible.
 The upper (*red*) and lower (*green*) bounds on the oxygen levels in Earth's atmosphere, on a billions of years timescale. [Heinrich D. Holland](https://commons.wikimedia.org/wiki/File:Oxygenation-atm-2.svg) [CC BY-SA 3.0]
 {:.figcaption}
 
-Many ancient microbes were [hydrogen sulfide metabolisers]({% post_url 2026-01-18-fire-and-brimstone %}). H<sub>2</sub>S was more readily chowed down as an energy source than water ---  sun-pumps could generate an ion gradient capable of powering the metabolic enzymes to process it. But oxygen was harder to crack: it was locked in a molecular safe, water's O--H bound 100 kJ/mol more strongly than S--H down a period. H<sub>2</sub>O required photon-driven electrical impulses and quantum spin constraints to handle unpicking the bond.
+Many ancient microbes were [hydrogen sulfide metabolisers]({% post_url 2026-01-18-fire-and-brimstone %}). H<sub>2</sub>S was more readily chowed down as a chemical metabolite than water ---  sun-pumps could generate an ion gradient capable of powering the metabolic enzymes to process it. But oxygen was harder to crack: it was locked in a molecular safe, water's O--H bound 100 kJ/mol more strongly than S--H down a period. H<sub>2</sub>O required photon-driven electrical impulses and quantum spin constraints to handle unpicking the bond.
 
 Enter the <span style="color:#BBDD66">cyanos</span>.
 
-Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrained to metabolic hydroen and sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They arose in new locales, spreading widely, and began to split the most plentiful fuel source on the planet.
+Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrained to metabolic hydrogen and sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They prospered in resource-starved locales, but were able to spread more widely, splitting the most plentiful fuel source on the planet.
 
 ### ...and the sea boiled
 
@@ -199,7 +199,7 @@ Pushing past <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></spa
 
 
 The metal cluster core functions as a [highly calibrated spin diode](https://www.nature.com/articles/s41586-018-0681-2). 
-The intermediary materials on the way to this spin diode was abundant, [as free manganese in seawater](https://doi.org/10.1073/pnas.2016447117) and mixed with iron [in nodules on the ocean floor](https://en.wikipedia.org/wiki/Manganese_nodule); a source of "[dark oxygen](https://www.nature.com/articles/s41561-024-01480-8)". 
+The intermediary materiel on the way to this spin diode were abundant, [as free manganese in seawater](https://doi.org/10.1073/pnas.2016447117) and mixed with iron (another intermediary) [in nodules on the ocean floor](https://en.wikipedia.org/wiki/Manganese_nodule); a source of "[dark oxygen](https://www.nature.com/articles/s41561-024-01480-8)". 
 
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
 
