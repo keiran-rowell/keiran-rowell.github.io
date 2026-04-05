@@ -199,7 +199,7 @@ Pushing past <span style="font-weight: bold; color: #BA575C;">S<sub>4</sub></spa
 
 
 The metal cluster core functions as a [highly calibrated spin diode](https://www.nature.com/articles/s41586-018-0681-2). 
-The material for this spin diode was abundant, [as free manganese in seawater](https://doi.org/10.1073/pnas.2016447117) and mixed with iron [in nodules on the ocean floor](https://en.wikipedia.org/wiki/Manganese_nodule); a source of "[dark oxygen](https://www.nature.com/articles/s41561-024-01480-8)". 
+The intermediary materials on the way to this spin diode was abundant, [as free manganese in seawater](https://doi.org/10.1073/pnas.2016447117) and mixed with iron [in nodules on the ocean floor](https://en.wikipedia.org/wiki/Manganese_nodule); a source of "[dark oxygen](https://www.nature.com/articles/s41561-024-01480-8)". 
 
 ![Ferromanganese nodules on the sea floor](/images/crab-coral-hires.jpg)
 
@@ -207,7 +207,7 @@ Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedit
 {:.figcaption}
 
 
-This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor --- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't a threat to survival. But reconfigured and wielded by an exponentially growing cyano population, the oxygen evolving complex would extinguish ancients and leave behind a furnace world that would come to fuel unrecognisably morphed descendants. 
+This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor --- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't a threat to survival. The oxygen evolving complex had reconfigured what manganese could carry out, wielded by an exponentially growing cyano population, would extinguish the ancients and leave behind a furnace world that would come to fuel unrecognisably morphed descendants. 
 
 <details style="border: none; background: none;" markdown="1">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none; outline: none;">
