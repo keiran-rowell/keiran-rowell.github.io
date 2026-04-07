@@ -207,7 +207,7 @@ Ferromanganese nodules on the sea floor. [North Atlantic Stepping Stones expedit
 {:.figcaption}
 
 
-This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor --- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't a threat to survival. The oxygen evolving complex had reconfigured what manganese could carry out, wielded by an exponentially growing cyano population, would extinguish the ancients and leave behind a furnace world that would come to fuel unrecognisably morphed descendants. 
+This new engine has a mineral heart. Nature had left birnessite lying around on the ocean floor --- a cubic manganese oxide that [catalytically produces oxygen from water in the presence of calcium](https://doi.org/10.1021/acs.jpcc.5b05989). As a bubbling rock, birnessite wasn't a threat to survival. The oxygen evolving complex had reconfigured what manganese could carry out, wielded by an exponentially growing cyano population it would extinguish the ancients and leave behind a furnace world that would come to fuel unrecognisably morphed descendants. 
 
 <details style="border: none; background: none;" markdown="1">
   <summary style="cursor: pointer; font-weight: bold; color: #BA575C; list-style: none; outline: none;">
