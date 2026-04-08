@@ -5,7 +5,7 @@ title: "The Oxygen Apocalypse: how symmetry saves us from the flames"
 description: "📖 20 min read • Cyanobacteria captured light to break a quantum law, unpicking the electron pair, and extinguished ancient life in the process" 
 published: true
 category: oxygen 
-tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobac eria archaea quantum biology manganese cluster photosynthesis reactive-oxygen-species S-clock Kok-cycle Birnessite eukaryogenesis banded-iron-formations photosystem chlorophyll
+tags: oxygen great-oxidation-event oxygen-evolving-complex cyanobacteria archaea quantum biology manganese cluster photosynthesis reactive-oxygen-species S-clock Kok-cycle Birnessite eukaryogenesis banded-iron-formations photosystem chlorophyll
 image: 
   path: /images/Vaalbara_Continent.jpg
   alt: "The Archaean dominated 'purple earth'"
@@ -96,11 +96,11 @@ Light harvesting extremophiles, *Chroococcidiopsis thermalis*, that can [live of
 
 Before we had the green world as we know it, lifeforms were reliant on chemically 'reducing' conditions. Among the first inhabitants of the seas were  the <span style="color: #8E7CC3">archaea</span> (literally, "the <span style="color: #8E7CC3">ancients</span>"). Some species of ancients could power themselves from abundant hydrogen and carbon dioxide, emitting methane into the atmosphere. Other ancestral organisms eked out a diet from sulfur sources. This was the hypothesised Purple Earth, and was fuelled by a chemical environment fundamentally different from our own for billions of years. Until, in the late Archean eon, the first single-cellular shoot of <span style="color:#BBDD66">green</span> appeared. 
 
-A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had their own antenna, a simpler <span style="color: #8E7CC3">**retinal**</span> light gate: it used the centre of the solar spectrum to power primordial pumps. There had already been new life among the ancients; early bacteria, still sulfur dependent, still purple, had begun using a new proto-antenna, but still coexisting with the archaea without threat --- the seas were peacefully doubly purple. The <span style="color:#BBDD66">**chlorophyll**</span> antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red spectral bands. Forced to occupy the solar fringes as the centre was taken, they had hit upon a more potent use of the distance-dimmed energy radiating off the fusion furnace they orbited. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.    
+A biological cousin had become a stranger --- they hoisted an antenna of chlorophyll towards the sun. The archaea had their own antenna, a simpler <span style="color: #8E7CC3">**retinal**</span> light gate: it used the centre of the solar spectrum to power primordial pumps. There had already been new life among the ancients; early bacteria, sulfur dependent, had begun using a new proto-antenna of a ruddy purplish hue, but still coexisting with the archaea without threat --- the seas were peacefully doubly purple. The <span style="color:#BBDD66">**chlorophyll**</span> antenna of the green bacterial newcomers, in contrast, could harvest the high energy blue and deep red spectral bands. Forced to occupy the solar fringes as the centre was taken, they had hit upon a more potent use of the distance-dimmed energy radiating off the fusion furnace they orbited. They had developed the technology to generate high-voltage electrons from the sun's rays. The Earth would never be the same again.   
 
 ### ...and began to exhale 
 
-These chlorophyll wielding bacteria were living in ways previously inaccessible. Their industrious photosynthesis leaked onto a globe a new alien molecule: oxygen gas. O<sub>2</sub> had never been a component of the atmosphere before, it was a highly exotic molecule only created in brief flashes when extreme UV radiation smashed apart water or CO<sub>2</sub>. This new gas was to eventually snuff out the ancients.
+These chlorophyll wielding bacteria were living in ways previously inaccessible. Their industrious photosynthesis leaked onto the globe a new alien molecule: oxygen gas. O<sub>2</sub> had never been a component of the atmosphere before, it was a highly exotic molecule only created in brief flashes when extreme UV radiation smashed apart water or CO<sub>2</sub>. This new gas was to eventually snuff out the ancients.
 
 ![Oxygenation of the atmosphere over geological time](/images/Oxygenation-atm.png)
 
@@ -111,7 +111,7 @@ Many ancient microbes were [hydrogen sulfide metabolisers]({% post_url 2026-01-1
 
 Enter the <span style="color:#BBDD66">cyanos</span>.
 
-Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrained to metabolic hydroien and sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They prospered in resource-starved shallows, but were able to spread more widely, splitting the most plentiful fuel source on the planet.
+Cyanobacteria had staged a metabolic coup with the light energy from their more powerful antenna. The cyanos departed from their ancient ancestors who were constrained to metabolic hydrogen and sulfur sources. For the cyanos, the abundant water they were suspended in became *food*. They prospered in resource-starved shallows, but were able to spread more widely, splitting the most plentiful fuel source on the planet.
 
 ### ...and the sea boiled
 
@@ -230,7 +230,7 @@ The **OEC** cluster is a distorted manganese-oxide cube, with calcium edge. Thou
 Manganese is the [natural metal for water splitting](https://doi.org/10.1098/rstb.2007.2223) due to its versatile oxidation state and favourable redox energetics. Minerals like birnessite also display oxygen evolution, but at far higher overpotentials, and are prone to create reactive oxygen species as side products which would shred a biological cell. 
 
 
-The asymmetric cuboid arrangement helps the OEC function as a **"spin diode"**. The cluster's four metal centers are in communication to [tightly coordinate a series of spin flips](https://doi.org/10.1103/PhysRevApplied.21.024024) which guide the generation of forbidden **triplet oxygen**. The sequential spin flips are crucial to this near-alien technology developed by the cyanos; they're what allow the OEC to overcome the---previously unbroken---<span class="germania-text">verboten</span> spin-barrier.  
+The asymmetric cuboid arrangement helps the OEC function as a **"spin diode"**. The cluster's four metal centers are in communication to [tightly coordinate a series of spin flips](https://doi.org/10.1103/PhysRevApplied.21.024024) which guide the generation of forbidden **triplet oxygen**. The sequential spin flips are crucial to this near-alien technology developed by the cyanos: they're what allow the OEC to overcome <span class="germania-text">verboten</span> spin-barrier, previously unbroken at biospheric scale.  
    </div>
 </details>
 
@@ -299,7 +299,7 @@ The sun was dimmer back then. With nothing to compensate, a long winter was comi
 *An artist's impression of "Snowball Earth" during the Huronian Glaciation.* [Oleg Kuznetsov](https://commons.wikimedia.org/wiki/File:Snowball_Huronian.jpg) [CC BY-SA 4.0]
 {:.figcaption}
 
-Tipping the Earth's temperature balance, the cyano's solvent-fuel-transport wonder substance began to freeze. Glaciers crept from the poles towards the equator, dramatically envisioned as a "snowball Earth" where ice had a stranglehold on the globe. The full extent of the ice after the initial oxidation event is uncertain, likely not a complete encasement, but oxygen had set in motion an unstoppable feedback loop: as the surface reflectivity increased temperatures plunged. The lockpick that allowed cyanos to break down inexhaustible water now caused them to be encased in crystalline cages of it. It was an approach towards self-extinction. But a totality wasn't reached, the climate oscillated in and out of frozen conditions, life barely clinging on in [ice-free oases](https://theconversation.com/snowball-earth-wasnt-fully-frozen-ice-free-oases-sheltered-early-life-275240). 
+Tipping the Earth's temperature balance, the cyanos' solvent-fuel-transport wonder substance began to freeze. Glaciers crept from the poles towards the equator, dramatically envisioned as a "snowball Earth" where ice had a stranglehold on the globe. The full extent of the ice after the initial oxidation event is uncertain, likely not a complete encasement, but oxygen had set in motion an unstoppable feedback loop: as the surface reflectivity increased temperatures plunged. The lockpick that allowed cyanos to break down inexhaustible water now caused them to be encased in crystalline cages of it. It was an approach towards self-extinction. But a totality wasn't reached, the climate oscillated in and out of frozen conditions, life barely clinging on in [ice-free oases](https://theconversation.com/snowball-earth-wasnt-fully-frozen-ice-free-oases-sheltered-early-life-275240). 
 
 The accumulation of greenhouse gases [from the volcanic ruptures during tectonic shifts](https://www.snowballearth.org/end.html) broke the globe free from this frozen end state. But this thawed world was a new one, the atmosphere had been injected with triplet oxygen, a potent fuel source for any metabolism aggressive enough to handle this incendiary substance.  
 
