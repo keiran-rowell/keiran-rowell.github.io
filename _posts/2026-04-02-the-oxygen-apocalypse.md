@@ -268,7 +268,7 @@ Diffusing across the skies and into ecological niches, •O–O• oxidised anyt
 
 As atmospheric oxygen concentration steadily increased, more durable adaptations were required to transcend the chemical danger of this new reality. Some cells found seemingly providential protection under the aegis of oxygen-burning α-proteobacteria. This protection racket would go on to be one of the most successful chemical energetic exchanges in biology: they became mitochondrial powerplants of the incipient multicellular organism, forging previously inaccessible molecular stores of energy. They would come to have domain over this corroding new order. 
 
-Most ancients did not survive, only small pockets of anaerobe resilience were left in nooks that were unreachable by this gas. The purple Earth was bleached green by a corrosive spill. With most of the competition extinct, and chemical cycles sundered, the photosynthesisers began to remake the climate. 
+Most ancients did not survive, only small pockets of anaerobe resilience were left in nooks that were unreachable by this gas. The Purple Earth was bleached green by a corrosive spill. With most of the competition extinct, and chemical cycles sundered, the photosynthesisers began to remake the climate. 
 
 ### ...and the sky faded
 
