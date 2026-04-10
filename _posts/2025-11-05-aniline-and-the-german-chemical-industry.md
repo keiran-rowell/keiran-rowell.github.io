@@ -13,7 +13,7 @@ image:
 *Photo credit: James St. John. [Flickr](https://www.flickr.com/photos/47445767@N05/50656174972/) [CC BY 2.0]*
 {:.figcaption}
 
-> Content notice: This post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. A chemically relevant excerpt about their WWII use is taken from a book that was famously denied a Pulitzer prize due to content deemed obscene and literarily indefensible, and undermines human dignity. 
+> Content notice: this post discusses the early dye companies of industrialised pre-WWI Germany that were at one point put to horrific wartime use. World War II is alluded to in a literary work that was famously denied a Pulitzer prize in part because of its confronting content, including sections I find indefensible. 
 
 *In this post I'm aiming to give a broad-brush overview of how the near-infinite array of colours we see in textiles today were wrought from some of the most murky carbon substances known. This post will focus on* <span style="color:rebeccapurple">purple</span> (specifically, <span style="color:#8D029B">mauveine</span>) *but will meander through the history and chemistry of the blue hues.* 
 
