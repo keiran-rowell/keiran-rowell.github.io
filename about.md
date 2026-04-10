@@ -12,7 +12,7 @@ I've worked in multiple Australian universities, attempting to extract meaning f
 
 When not working, I'm likely to be exercising with swords, at a gig, or sitting with a pot of tea and a good book.
 
-I also [write as a hobby about elements of science I find fascinanting](/posts),  or important to reckon with and prevent, with a broad brush, often about how they weave through deep time and human realities.
+I also write as an occasionally hobby about elements of science I find fascinanting,  or important to reckon with and prevent. Taking a broad brush, often about how they weave through deep time and human realities.
 
 ## Scientific Interests
 I'm fascinated by the mechanisms of the natural world, and enthusiastic about how compute power provides the capability for exquisite mechanistic insight. I'm applications driven -- with published work using excited state quantum chemical methods, molecular dynamics modelling of DNA, as well as coursework and employment in bioinformatics. I'd love to combine my skills and apply them to use multiscale modelling approaches on research topics such as: photobiology, structural biology, enzyme catalysis, and DNA photodamage.
