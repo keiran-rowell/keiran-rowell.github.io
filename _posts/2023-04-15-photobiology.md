@@ -41,7 +41,7 @@ Bioluminescence is found in creatures from sea to sky, but is not evenly distrib
 
 The reactions that cause bioluminescence involve: a [luciferin](https://en.wikipedia.org/wiki/Luciferin) ('light-bearer'), a molecule that is electronically excited upon addition of O<sub>2</sub>; and a [luciferase](https://pdb101.rcsb.org/motm/78), a protein that catalyses the addition of O<sub>2</sub> to luciferin and alters the colour of the emitted photon based on the amino acids surrounding the luciferin. 
 
-Every class of organism seems to have independently evolved a different luciferin and luciferase, lending credence that it was an oxygen disposal mechanism. Here are the different luciferins used by different organisms.  
+Every class of organism seems to have independently evolved a different luciferin and luciferase, lending credence that it was [an oxygen disposal mechanism](https://doi.org/10.1002/cbic.202400106). Here are the different luciferins used by different organisms.  
 
 ### Crustaceans
 
