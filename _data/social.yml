@@ -39,3 +39,6 @@ writing:
     icon: icon-pencil
     prepend: "https://"
     append: ".github.io/posts/"
+rss:
+   name: RSS
+   icon: icon-rss

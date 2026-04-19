@@ -1,0 +1,15 @@
+{
+  "subject": "acct:keiran-rowell.github.io@keiran-rowell.github.io",
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://keiran-rowell.github.io/"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://fed.brid.gy/r/https://keiran-rowell.github.io/"
+    }
+  ]
+}
