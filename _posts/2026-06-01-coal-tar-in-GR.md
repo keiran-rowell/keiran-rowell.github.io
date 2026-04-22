@@ -14,14 +14,15 @@ image:
 
 >  **Content warning:** set in WWII, a time period of chemical processes, suffering and depravity beyond words; a military-industrial complex of death which we must all stop from ever being repeated. 
 
-This post proposes chemical encoding behind the more mythic and cosmological digressions in the book. I attempt to analyse their connection to the chemical history through excerpts from the novel I think are illuminating to this under-structure. 
+This post proposes chemical encoding behind the more mythic and cosmological digressions in the book. I attempt to analyse their connection to the chemical history through excerpts from the novel I think are illuminating to this particular under-structure. 
 
-A book with some incisive passages on the systemic inhumanity that enables the waging of war, yet holds many narratological choices that are detrimental to respecting the humanity of many groups. A novel whose sprawl encompasses several sections that are appropriately devastating, and other where I feel disturbing content is deployed without the purpose or moral weight the subject matter entails. This includes racial caricatures, disposable treatment of the agency of women, content involving minors, and other dehumanising content which I do not find defensible as literary context. 
+A book with some incisive passages on the systemic inhumanity that enables the waging of war, yet holds many narratological choices that are detrimental to respecting human dignity across numerous groups. A novel whose sprawl encompasses several sections that are appropriately devastating, and other where I feel disturbing content is deployed without the purpose or moral weight the subject matter entails. This includes racial caricatures, disposable treatment of the agency of women, content involving minors, and other dehumanising content which I do not find defensible as literary context. 
 
-[Have the prose be transparent and accurate. Let the text speak for itself. Documentary not editorial. Let use bear witness. Don't let us ignore a horrible materiality.]
 
 The chemical references are historically based, and potentially follow a systematic encoding obscured by the an experiential reading that often actively works against comprehension.
 ---
+
+[Have the prose be transparent and accurate. Let the text speak for itself. Documentary not editorial. Let use bear witness. Don't let us ignore a horrible materiality.]
 
 <style>
 
@@ -346,6 +347,8 @@ waited in the preterite dung**. <span class="page-ref">166</span>
 
 **Slothrop** <span class="etym etym-coal-tar">(German) Schlot = smokestack [The Tower], Tropf = drip (also fool [The Fool], like calling someone a 'drip' in English) **[the preterite]**</span>.... 
 
+Coal-tar is the run off from the coking process from solid fossil fuels.
+
 > "You think you’d rather hear about what you call 'life': the growing, organic Kartell. But it’s only another illusion. A very clever robot. The more dynamic it seems to you, the more deep and dead, in reality, it grows. Look at the **smokestacks**, how they proliferate, fanning the wastes of original waste over greater and greater masses of city. Structurally, they are strongest in compression. **A smokestack can survive any explosion** -- even the shock wave from one of the new cosmic bombs" <span class="page-ref">167</span>
 {: .coal-tar}
 
@@ -377,8 +380,10 @@ transmuted to the very substance of History**_ <span class="page-ref">639</span>
 >we mean on the <span class="etym-mauvine">other side of the whole
 thing</span>, **the whole bacteria-hydrocarbon-waste cycle**. We can
 see the Interface from here. It’s a long rainbow**, mostly
-indigo, if that’s any help— <span class="page-ref">523</span>
+indigo, if that’s any help—--indigo and Kelly green<span class="page-ref">523</span>
 {: .coal-tar}
+
+
 
 [ As is made clear in passages coal-tar is just dead life + Gravity + time. Synthetic organic chemistry unlocked the rainbow of artificial colours from the pressure of Gravity]
 
@@ -459,6 +464,14 @@ Je-eepers!” <span class="page-ref">411</span>
 or another, the nine or ten generations tumbling back,
 branching inward: every one, except for William the very
 first, lying under fallen leaves, **mint and purple** loosestrife<span class="page-ref">27</span>
+{: .life}
+
+
+> we had been given certain molecules,
+certain combinations and not others... we used what we
+found in Nature, unquestioning, shamefully perhaps—but the
+Serpent whispered, ‘They can be changed, and new molecules
+assembled from the debris of the given... 
 {: .life}
 
 > **burnt-purple** rolling of the Lüneburg Heath <span class="page-ref">626</span>
@@ -686,6 +699,9 @@ so much as a convenience** in discussing a thermodynamic
 idea **as a parable about the actual existence of personnel like
 Liebig**... <span class="page-ref">412</span>
 
+"The Devil's Chemists: 24 Conspirators of the International Farben Cartel Who Manufacture War" - DuBois
+
+> “I had good reason to know that Farben was the Machiavellian planner for all institutions in the world that had allied themselves with military aggression.” - DuBois
 
 
 > [Pökler's] course in polymer theory was taught by Professor-Doctor Laszlo Jamf, who was latest in the true succession, Liebig to August Wilhelm **von Hofmann**, to Herbert Ganister **to Laszlo Jamf, a direct chain** <span class="page-ref">161</span>
@@ -732,6 +748,9 @@ around? With our giant parent to the north sending in
 ultimatums every day? **Imipolex G is the company albatross**" <span class="page-ref">261</span>
 {: .basf}
 
+> Anilinas Alemanas, the IG branch in Buenos Aires, on through
+Spottbilligfilm AG in Berlin (another IG outlet)
+
 
 Sandoz Swiss chemical company to make alizarin, isolated ergotamine (an indole), LSD (hallucinagen derived from ergot) that was used for pyschological control and intelligence gathering in MKUltra (some staffed from Operation Paperclip)
 Grössli = Grasselli = Chemical company meged into Dupont.
@@ -765,6 +784,10 @@ as a sort of sideline. All overhead—yes, out of its own pocket the Company is 
 [Braunkohle-Benzin AG was *the company* given 100 million reichsmarks to turn brown coal into fuel (syngas) for the war machine. They commercialised in 1936 the Fischer-Tropsch process invented in 1926 in a German chemical research institute. Also heavily reliance of slave labour. Several scientists were brought back to the U.S. under Operation Paperclip]. 
 
 Hugo Stinnes - Coal and Steel Baron - funded the freikorps paramilitary group that killed Rosa Luxembourg
+
+Otto Ambros - Buna Rubber - Nazi war crinimal - Dow Chemical advisor
+
+Josiah E. DuBois Jr - "DuBois was put in charge of the IG Farben trial at the Nuremberg Military Trials (1946-1949). Of the 24 defendants, 13 were found guilty of at least one charge, and given sentences ranging from 1 1/2 to 8 years. Later, he wrote the seminal account of that trial, The Devil's Chemists.[11]" - wiki
 
 > This **serpentine** slag-heap he is
 just about to ride into now, this **ex-refinery, Jamf Ölfabriken
@@ -906,6 +929,8 @@ struggle. <span class="page-ref">727</span>
 
 [Once combustion happens all that's left is soot. Carbon broken down into its particlised, elemental form. Combustion is an entropy driven process, breaking down organic order and connection into pure, discretised, disordered separation. The raw material vanishes on a human scale. Disorder that can never return to order, breaking the cycle]
 
+[Once the energetic release of the C-C bond was harnessed, everything became and entropic pull towards moral degeneracy. The chemical companies started aligning not with human values but with the greatest power and profit from wielding this power. The C-C chains formed from forcing out the water and oxygen content from decaying life, pressure changed into pure inorganic fuel by the Gravity and deep time]
+
 > It’s been a prevalent notion. Fallen sparks.
 **Fragments of vessels broken at the Creation**. And someday,
 somehow, before the end, a gathering back to home. A
@@ -940,7 +965,7 @@ a **mud zodiac** <span class="page-ref">79</span>
 2. ♉︎ Taurus = Congelation (crystalisation) --- Walter Asch 
 3. ♊︎ ---
 4. ♋︎ Cancer = Solution --- Leni, the robot guide 
-5. ♌︎ Leo = Digestion --- The Bomb, "a fireburst came roaring and sovereign, the sun was in..." 
+5. ♌︎ Leo = Digestion --- The Bomb, "a fireburst came roaring and sovereign, the sun was in...". "STRUNG INTO THE APOLLONIAN DREAM.." (Blicero's rocket launch) 
 6. ♍︎ = Distillation --- Tyrone Slothrop, a "double Virgo". "Rooms of old paralysis and evil distillery, of condensations and residues..."  "In the rains of early Virgo.. To brew tea.. from fennel, betony, Whitsun roses, sunflowers, mallow leaves" 
 7. ♎︎ --- 
 8. ♏︎ Scorpio = Separation --- Nora 
@@ -954,6 +979,9 @@ a **mud zodiac** <span class="page-ref">79</span>
 
 Säure = sour = acidic; also SIG Sauer the oldest continuing arms manufacturer in Germany.
 
+
+Leni says 'Pluto is my sign now.. Staged. Under control. No grace, no interventions by God. Some are calling it the planet of National Socialism,... all trying to suck up to Jitler now. They don't know they are telling the *literal truth*'
+If I have an alchemical double meaning, Pluto doesn't exist at all. 
 
 
 Processes abscent in the novel and abscent in the chemical warfare: 

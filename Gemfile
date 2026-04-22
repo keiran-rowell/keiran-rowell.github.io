@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem "jekyll-compose"
   gem "jekyll-pdf-embed"
   gem "jekyll-sitemap"
+  gem "jekyll-feed"
 end
 
 gem 'wdm' if Gem.win_platform?

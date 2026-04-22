@@ -247,7 +247,7 @@ Instead of terraforming the atmosphere, oxygen reshaped the oceans first. The oc
 Banded iron formation in Soudan Underground Mine State Park, MN. [James St. John](https://www.flickr.com/photos/jsjgeology/collections/72157646528279537/), [CC BY 2.0] 
 {:.figcaption}
 
-By unpicking oxygen from its water surrounds, bacteria had begun to inexorably rust the oceans. The iron deposited in solid scabs, layered in puff-pastry sheets of blood red and dull metal hues. Rolled, pressed, and folded by the tectonic slippage below.   
+By unpicking oxygen from its water surrounds, bacteria had begun to inexorably rust the oceans. The iron deposited in solid scabs, layered in puff pastry sheets of blood red and dull metal hues. Rolled, pressed, and folded by the tectonic slippage below.   
 
 The Hamersley Range in the Pilbara region of Western Australia preserves some of the most arresting evidence of this process; resurfaced testaments to this planetary-wide haemorrhaging.  
 

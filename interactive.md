@@ -7,7 +7,7 @@ permalink: /interactive/
 Hands-on computational chemistry and structural bioinformatics tools in your browser.
 {:.faded}
 
-- 🧬 Rare codon viewer: [map synonymous codon rarity onto protein structure](https://keiran-rowell.github.io/assets/interactive/codon-rarity-viewer/) 
+- 🧬 Rare codon viewer: [map synonymous codon rarity onto protein structure](https://keiran-rowell.github.io/tools/interactive/codon-rarity-viewer/) 
 
 
 {% for post in site.categories.interactive %}
@@ -16,7 +16,7 @@ Hands-on computational chemistry and structural bioinformatics tools in your bro
 
 ## File Structure
 ```
-/assets/
+/tools/
   /interactive/
    /codon-rarity-viewer/
      codon_tables.pkl
