@@ -4,7 +4,7 @@ title: Interactive Demos
 permalink: /interactive/
 ---
 
-Hands-on computational chemistry and biology tools in your browser.
+Hands-on computational chemistry and structural bioinformatics tools in your browser.
 {:.faded}
 
 - 🧬 Rare codon viewer: [map synonymous codon rarity onto protein structure](https://keiran-rowell.github.io/assets/interactive/codon-rarity-viewer/) 
