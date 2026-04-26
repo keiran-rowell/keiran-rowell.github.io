@@ -56,7 +56,7 @@ By product of liquid air distillation (look up the size of these things)Radical 
 Why we don't use it for economic reason despite being the ideal anaesthetic with no side effects
 ## §9 -- Stability
 Chemical behaviour and also therapeutic value 
-## §10 -- Symmetry
+## ∮ -- Symmetry
 Xenon as a test for CPT violation (not ever known, CPT holds only CP from Wu's experiments). I know this is super tangential but kinda cool. Something about so perfect it's used to confirm that the CPT symmetry of the very fabric of our univerise holds 
 
 Also Unsöld's theorem that the radical atomic orbitals sum to a perfect spherical density in half-filled and fully filled shell configurations. (Add up the intersecting pieces of the electron orbitals composing Xenon and you get a *perfect* sphere. Adding up the electron desnities, the square of the wavefunction modulus, yields up a true featureless platonic sphere. ) Could end on that image. At yet it knocks you unconcious
@@ -129,3 +129,6 @@ Current papers:
 [Radical pairs may play a role in xenon-induced general anaesthesia](https://doi.org/10.1038/s41598-021-85673-w) 
 
 [I think this one needs to be clinical, platonic, and in a clean way, unnerving]
+
+[Medical]
+Does it get prescribed, is it FDA approved? Is it just a cost thing or are people unnerved but its inexplicable action?
