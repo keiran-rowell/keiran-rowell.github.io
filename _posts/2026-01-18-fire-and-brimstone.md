@@ -55,7 +55,7 @@ Six million years prior, the Messinian salinity crisis created the bedrock oppor
 
 <div style="margin: 2rem 0; padding: 1.5rem; background: rgba(128,128,128,0.05); border-left: 4px solid #F1DD38; text-align: center; font-family: monospace;">
   <code style="font-size: 1.05rem; color: currentColor; background: none; display: block; overflow-x: auto; white-space: nowrap; padding-bottom: 5px;">
-     1.5 CaSO<sub>4</sub>·2H<sub>2</sub>O(s) + CH<sub>3</sub>COO<sup>-</sup>(aq) + H<sup>+</sup>(aq) &rarr; 1.5 CaCO<sub>3</sub>(s) + 0.5 CO<sub>2</sub>(g) + 5 H<sub>2</sub>O(l) + <span style="color: #F1DD38; font-weight: bold;">1.5 S<sup>0</sup>(s)</span>
+   CaSO₄·2H₂O(s) + ¾ CH₃COO⁻(aq) + ¾ H⁺(aq) → CaCO₃(s) + ½ CO₂(g) + 7/2 H₂O(l) + <span style="color: #F1DD38; font-weight: bold;">S⁰(s)</span>
   </code>
 </div>
 
