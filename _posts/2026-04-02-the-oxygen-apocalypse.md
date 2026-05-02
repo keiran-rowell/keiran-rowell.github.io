@@ -107,7 +107,7 @@ These chlorophyll wielding bacteria were living in ways previously inaccessible.
 The upper (*red*) and lower (*green*) bounds on the oxygen levels in Earth's atmosphere, on a billions of years timescale. [Heinrich D. Holland](https://commons.wikimedia.org/wiki/File:Oxygenation-atm-2.svg) [CC BY-SA 3.0]
 {:.figcaption}
 
-Many ancient microbes were [hydrogen sulfide metabolisers]({% post_url 2026-01-18-fire-and-brimstone %}). H<sub>2</sub>S was a more readily split chemical metabolite than water ---  primordial photosystems could generate a potential capable of powering the metabolic enzymes to process it. But oxygen was harder to crack: it was locked in a molecular safe, water's O--H bound 100 kJ/mol more strongly than S--H down a period. H<sub>2</sub>O required photon-driven electrical impulses and quantum spin constraints to handle unpicking the bond.
+Many ancient microbes were [hydrogen sulfide metabolisers]({% post_url 2026-01-18-fire-and-brimstone %}). H<sub>2</sub>S was a more readily split chemical metabolite than water ---  primordial photosystems could generate a potential capable of powering the metabolic enzymes to process it. But oxygen was harder to liberate: it was locked in a molecular safe, water's O--H bound 100 kJ/mol more strongly than S--H down a period. H<sub>2</sub>O required photon-driven electrical impulses and quantum spin constraints to handle unpicking the bond.
 
 Enter the <span style="color:#BBDD66">cyanos</span>.
 
