@@ -137,7 +137,7 @@ The connection to colour and dyestuffs in the novel does not end there; the essa
 
 The connection between the dye industry and the ability to wage war was already well noted in the period between the world wars, as an American industrial pamphlet from the 1920s declares: 
 
-"Who makes dyes today can tomorrow make high-explosives" 
+"Who makes [dyes today](https://www.acs.org/molecule-of-the-week/archive/t/246-trinitrotoluene.html) can tomorrow [make high-explosives](https://www.bbc.com/news/uk-england-39434504)" 
 {:.note title="Dyes and disarmament"}
 ---[*"World Disarmament and the Master Key Industry"*](https://books.google.com.au/books/about/World_Disarmament_and_the_Master_Key_Ind.html?id=CXIPZy6UnVUC&redir_esc=y), American Dyes Institute, **1921**. 
 
