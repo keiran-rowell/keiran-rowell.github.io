@@ -49,7 +49,7 @@ These "soldiers of sulfur" are here for *emas setan* --- <span style="color:#F1D
 
 ### An infernal gateway: sulfur and the Sicilian Mafia
 
-In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are enforcers there to protect the private affairs of the local *famiglia*, the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before, when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  
+In 1901 a crew of boys gathers at one of the hundreds of entrances to the sulfur pit mines dotted across the Sicilian province. They are the *carusi*, the young lads, and their masters are *coschi*, the clan-based enforcers, there to protect the private affairs of the local proto-*famiglia* --- the nascent Sicilian Mafia. The feudal barons had been replaced by territorial landholders just a generation before, when the Sicilian island had been [annexed in 1861 to form the unified Italian state](https://en.wikipedia.org/wiki/Unification_of_Italy).  
 
 Six million years prior, the Messinian salinity crisis created the bedrock opportunity for industrial wealth in towns alongside the strait. The evaporating Mediterranean salt water left behind gypsum (CaSO<sub>4</sub>) crystals that dissolved in the rain to pool in crannies without much oxygen. There, sulfate-reducing bacteria stripped electrons from organic matter and donated them to the sulfur oxidised in sulfate to fuel their own metabolism, leaving behind limestone and native sulfur:
 
@@ -61,7 +61,7 @@ Six million years prior, the Messinian salinity crisis created the bedrock oppor
 
 ![I_carusi](/images/I_carusi.jpg)
 
-'I carusi', Onfrio Tomaselli, **1905**
+'I carusi', Onofrio Tomaselli, **1905**
 {:.figcaption}
 
 Techniques remained primitive. All mining had to be done by pick --- explosives risked combustion of the brimstone they were gathering. [Working without clothing was common](https://youtu.be/7qPXUaQgmOM?si=6ua6WIp0p3HZjsNy), due to the heat and irritation. Over 400 deaths left records throughout the 1800s, due to flooding, collapse of shoddy mine shafts, or choking on sulfur dioxide fumes. The conditions were so bad that contemporary observers described the organisation to be as cruel as the chattel slavery occurring in the United States. 
