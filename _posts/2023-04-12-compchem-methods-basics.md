@@ -2,9 +2,11 @@
 layout: post
 author: keiran  
 title: "An Ersatz Ansatz"
+seo_title: "An Ersatz Ansatz | A No-Filler Primer on Hartree-Fock & DFT"
 description: "📖 15 min read • Computational chemistry methods for beginners"
+seo_description: "A no-filler primer on computational chemistry methods. Explaining the Born-Oppenheimer approximation, Hartree-Fock, Spin Contamination, MP2, CCSD(T), and the exact mixing coefficients of B3LYP and CAM-B3LYP."
 category: guide 
-tags: electronic-structure DFT
+tags: electronic-structure DFT Hartree-Fock MP2 B3lYP CAM-B3LYP Spin-Contamination Jacobs-Ladder
 image:
   path:	/images/Jacobs_ladder_Goerigk_Grimme.png
 ---
