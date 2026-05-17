@@ -19,6 +19,10 @@ A main current contribution and design of mine to the pipeline is [unifying the 
 
 I use high-performance computing systems to predict the folded structure of proteins from their amino acid sequence. By selecting efficient methods with acceptable accuracy for their application, I am able to "fold" the entire closed genome of organisms on modest high-performance compute servers. I then generate structured summaries and high quality rendered images, handing this molecular inventory back to biomolecular specialists who are able to identify key proteins in biochemical pathways.
 
+- These were the predicted proteins analysed for Eukaryotic Signature Proteins in the Asgard archaeon paper in *[Current Biology](https://doi.org/10.1016/j.cub.2026.03.041)*
+
+- These approaches are being exposed to expert bioscientists and automated *via* our `nf-core/proteinfold` collaboration and [Open OnDemand web form](https://github.com/Australian-Structural-Biology-Computing/ood-proteinfold).
+
 ## Refactoring code for mass spectrometry reports -- (R, GitHub)
 
 I did some restructuring and refactoring of a codebase for a suite of mass spectrometry analysis reports, which had built up over time without consistent version control so had become divergent. Working alongside a talented Master's student & R developer I migrated the set of core functions and code versions to an [Enterprise GitHub repository](https://github.com/APAF-bioinformatics/APAFunctions) and began identifying points of commonality between versions of plotting and statistical functions. This code rewrite significantly reduced the lines of code to maintain, made function naming and operation clearer, allowed easy addition and modification to analysis workflows, and enabled easy install from RStudio with `install_github()`.
