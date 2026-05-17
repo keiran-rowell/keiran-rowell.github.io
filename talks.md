@@ -17,7 +17,7 @@
 - "Data to Discovery: Data Matters" -- SciX high school science teacher development day, *The University of New South Wales* [Panel]
 
 ## 2023
-- "Modern Biology and Molecular Modelling" -- STEM Professionals in Schools, *Our Lady of Sacred Heart College, Kensington* [Meet-up]
+- "Modern Biology and Molecular Modelling" -- STEM Professionals in Schools, *Our Lady of Sacred Heart College, Kensington* [Outreach]
 
 ## 2022
 
@@ -37,6 +37,8 @@
 ### 🏛️ Academic Education: Computational Chemistry & Molecular Modelling (2014–2020)
 > *Selected graduate training, presentations, and volunteer work, in physical chemistry and biomolecular modelling*
 
-- "Presented technical physical chemistry research across major regional conferences" - RACI PhyChem Webinar (2020), *Online* [Flash presentation]; ISTCP-X (2019), *University of Tromsø*; APATCC (2019), *University of Sydney* [Volunteer staff]; ACCOMC (2018), *CSIRO - Aspendale*; RACI Centenary Congress (2017), *Melbourne Convention Centre*; Molecular Modelling (2015) *University of New South Wales* **[Best Honours-level poster]**; Molecular Modelling (2014) *Lamington National Park* 
-- "Computational Chemistry Workshops & Presentations" - QUACCS 3.0, *ANU Campus, Kioloa* (2018) [Delivered student chalk-n-talk presentation and completed computational training including: Write your own HF & MP2 algorithms, QM/MM methods, and stationary point searching]. 
+- Presented technical physical chemistry research across major regional conferences
+>  RACI PhyChem Webinar (2020), *Online* [Flash presentation]; ISTCP-X (2019), *University of Tromsø*; APATCC (2019), *University of Sydney* [Volunteer staff]; ACCOMC (2018), *CSIRO - Aspendale*; RACI Centenary Congress (2017), *Melbourne Convention Centre*; Molecular Modelling (2015) *University of New South Wales* **[Best Honours-level poster]**; Molecular Modelling (2014) *Lamington National Park* 
+- Computational Chemistry Workshops & Presentations --- QUACCS 3.0, *ANU Campus, Kioloa* (2018) 
+> Delivered student chalk-n-talk presentation, and completed computational training including: Write your own HF & MP2 algorithms, QM/MM methods, and stationary point searching 
 - Delivered internal "Masterclasses" in visualisation and methods to wider research group and PhD students
