@@ -21,7 +21,7 @@ I use high-performance computing systems to predict the folded structure of prot
 
 - These were the predicted proteins analysed for Eukaryotic Signature Proteins in an Asgard archaeon paper in *[Current Biology](https://doi.org/10.1016/j.cub.2026.03.041)*
 
-- These approaches are being exposed to expert bioscientists and automated *via* our `nf-core/proteinfold` collaboration and [Open OnDemand web form](https://github.com/Australian-Structural-Biology-Computing/ood-proteinfold).
+- These approaches are being automated through our `nf-core/proteinfold` collaboration and exposed to expert bioscientists *via* our [Open OnDemand web form](https://github.com/Australian-Structural-Biology-Computing/ood-proteinfold).
 
 ## Refactoring code for mass spectrometry reports -- (R, GitHub)
 
