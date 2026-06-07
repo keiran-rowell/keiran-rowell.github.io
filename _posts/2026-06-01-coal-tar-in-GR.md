@@ -14,15 +14,15 @@ image:
 
 >  **Content warning:** set in WWII, a time period of chemical processes, suffering and depravity beyond words; a military-industrial complex of death which we must all stop from ever being repeated. 
 
-This post proposes chemical encoding behind the more mythic and cosmological digressions in the book. I attempt to analyse their connection to the chemical history through excerpts from the novel I think are illuminating to this particular under-structure. 
+This post proposes chemical encoding behind the more mythic and cosmological digressions in the _Gravity's Rainbow_. I attempt to analyse their connection to the chemical history through excerpts from the novel I think are illuminating to this particular under-structure. 
 
-A book with some incisive passages on the systemic inhumanity that enables the waging of war, yet holds many narratological choices that are detrimental to respecting human dignity across numerous groups. A novel whose sprawl encompasses several sections that are appropriately devastating, and other where I feel disturbing content is deployed without the purpose or moral weight the subject matter entails. This includes racial caricatures, disposable treatment of the agency of women, content involving minors, and other dehumanising content which I do not find defensible as literary context. 
+I aim to engage the chemical references and their historical basis, and potentially follow a systematic encoding obscured by the experience reading a book that often actively works against comprehension.
 
+> **Original novel --- content warning**: The book contains incisive passages on the systemic inhumanity that enables the waging of war, but holds many narratological choices and encodings that reinforce the debasement of human dignity. A novel whose sprawl encompasses several sections that are appropriately devastating, and others where I feel disturbing content is deployed without the purpose or moral weight the subject matter entails. This includes racial caricatures, disposable treatment of the agency of women, content involving minors, and other dehumanising content. Re-reading the novel for quotations of this piece, I found several sections indefensible. 
 
-The chemical references are historically based, and potentially follow a systematic encoding obscured by the an experiential reading that often actively works against comprehension.
 ---
 
-[Have the prose be transparent and accurate. Let the text speak for itself. Documentary not editorial. Let use bear witness. Don't let us ignore a horrible materiality.]
+<!-- [Have the prose be transparent and accurate. Let the text speak for itself. Documentary not editorial. Let use bear witness. Don't let us ignore a horrible materiality.] -->
 
 <style>
 
@@ -344,24 +344,21 @@ passed over the coal-tars. **A thousand different molecules
 waited in the preterite dung**. <span class="page-ref">166</span>
 {: .coal-tar}
 
+Gravity's Rainbow's substrate is the hydrocarbon molecules, formed by compacting and dehydrating organic life the under weights of Gravity and time. The protagonaist's name can be read as cipher of this substance.
 
-**Slothrop** <span class="etym etym-coal-tar">(German) Schlot = smokestack [The Tower], Tropf = drip (also fool [The Fool], like calling someone a 'drip' in English) **[the preterite]**</span>.... 
+**Slothrop** <span style="color:#D4C5B9">[the **preterite**]</span> --- <span class="etym etym-coal-tar"> (German) Schlot = smokestack [**The Tower**] <br> (German) Tropf = drip, also fool [**The Fool**]; like calling someone a 'drip' in English. </span>
 
-Coal-tar is the run off from the coking process from solid fossil fuels.
+Slothrop's name is a German gloss for the industrial processes using coal-tar, the run off from coking fossil fuels. The smokestack iconography recurs throughout the book, a physical beacon of the industrial transformations in 1930--40s Germany. Slothrop's tarots and nature align with the Tower and the Fool.
 
 > "You think you’d rather hear about what you call 'life': the growing, organic Kartell. But it’s only another illusion. A very clever robot. The more dynamic it seems to you, the more deep and dead, in reality, it grows. Look at the **smokestacks**, how they proliferate, fanning the wastes of original waste over greater and greater masses of city. Structurally, they are strongest in compression. **A smokestack can survive any explosion** -- even the shock wave from one of the new cosmic bombs" <span class="page-ref">167</span>
 {: .coal-tar}
 
-
-His desk is the carbanecous strata of the Earth, and the colours and materials buried there presage the chemical transformation of coal-tar into dyes and synthetics.
+Slothrop is introduced by his desk long before we meet him. His desk is layered with the carbonaceous strata of the Earth, and the colours and materials buried there presage the chemical transformation of coal-tar into dyes and synthetics.
 
 > stubs of pencils of all colors including the hard-to-get <span class="etym-mauvine">heliotrope</span> and *raw umber*... tattered sheets of carbon paper <span class="page-ref">18</span>
 {: .coal-tar}
-[Tyrone's desk when introduced]
 
-His mother is Nalline, a parsable female name of Aniline, and also the name bran name for one of the first anti-opoid medication, Nalorphine (think, early methadone).
-
-The [copying pencils](https://www.penciltalk.org/2008/07/the-hidden-life-of-copying-pencils/) were made with aniline dye.
+His mother is Nalline -- a female name recalling <span style="color:#2c1e3d">**aniline**</span>, the coal-tar compound that is chemical base of the first synthetic dyes. Nalline is also the brand name for one of the first synthetic anti-opioid drugs, Nalorphine. [Copying pencils](https://www.penciltalk.org/2008/07/the-hidden-life-of-copying-pencils/), used for clerical work and duplication, were also made with aniline dye.
 
 >The persistence, then, of structures favoring death. Death converted into more death.
 Perfecting its reign, just as **the buried coal grows denser**, and
@@ -369,25 +366,20 @@ overlaid with more strata—epoch on top of epoch, city on top
 of ruined city. <span class="etym-mauvine">This is the sign of Death the impersonator</span>. <span class="page-ref">167</span>
 {: .coal-tar}
 
-> _**I am Gravity**, I am That against which the Rocket
-must struggle, to which the *prehistoric wastes submit and are
-transmuted to the very substance of History**_ <span class="page-ref">639</span>
-{: .coal-tar}
-
-[White = death is commonly stated, but it's the elect turning the fuel of the preterite into rocket coal-based syngas fuel to escape Earthly Gravity, or destroy it]
-[Slothrop repeatedly descends into the preterite muck, infamously the toilet of human waste but others]
+The pitch black coal is a fake death, in constrast to the white of the book which brings ultimate annhiliation and true extinction of Nature. The 'dead' coal is still organic, a transformation and geological continuity over deep time. The book contains main sections of Slothrop descending into the understrata and the muck, including biological waste. But this hydrocarbon waste, through 20th century research and industrial chemistry, was transformed into the colourants of the dye industry that sit our surfaces and clothing.
 
 >we mean on the <span class="etym-mauvine">other side of the whole
 thing</span>, **the whole bacteria-hydrocarbon-waste cycle**. We can
-see the Interface from here. It’s a long rainbow**, mostly
+see the Interface from here. **It’s a long rainbow**, mostly
 indigo, if that’s any help—--indigo and Kelly green<span class="page-ref">523</span>
 {: .coal-tar}
 
+Coal-tar then, is dead life: a continuous life-death cycle, compressed into a dense carbon form. Synthetic organic chemistry unlocked the full spectrum of artificial colours from these aromatic coal-tar molecules. Gravity's rainbow is the dyes created by the research of organic chemistry pioneers. The first artificial colours brought into the world.
 
-
-[ As is made clear in passages coal-tar is just dead life + Gravity + time. Synthetic organic chemistry unlocked the rainbow of artificial colours from the pressure of Gravity]
-
-[There's obviously the coal-tar -> syngas -> rocket fuel]
+> _**I am Gravity**, I am That against which the Rocket
+must struggle, to which the **prehistoric wastes submit and are
+transmuted to the very substance of History**_.... <span class="page-ref">639</span>
+{: .coal-tar}
 
 
 ![Rainbow iridescence on anthracite coal](/images/anthracite_rainbow.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
@@ -557,7 +549,7 @@ Englishman, Herbert Ganister, and the generation of chemists
 he trained....<span class="page-ref">166</span> 
 {: .mauvine}
 
-[Ganister <span class="etym etym-basf"> ganister = tough quartzite stone from the coal regions of England; lining of furnances</span>  is fictional but represents the move from the English discovery in the German academic chemical lineage to a German chemical industry (link the the Nature Article I found)]
+[Ganister <span class="etym etym-basf"> ganister = tough quartzite stone from the coal regions of England; lining of furnances</span>  is fictional but represents the move from the English discovery in the German academic chemical lineage to a German chemical industry (link the Nature Article I found)]
 
 [There's a whole set of entries as people as stones](https://gravitys-rainbow.pynchonwiki.com/wiki/index.php?title=Stones)
 
@@ -731,7 +723,7 @@ stands for aggregate, or **IG itself, Interessengemeinschaft, a
 fellowship of interests**... <span class="page-ref">163</span> 
 {: .basf}
 
-[Am I crazy in thinking Götterdämmerung = twilight of the gods (literally) but also societal collapse, down fall of the titanic German industrial companies. But also last act in Wagner's **ring** cycle. As in benzene ring?]
+[Am I crazy in thinking Götterdämmerung = twilight of the gods (literally) but also societal collapse, downfall of the titanic German industrial companies. But also last act in Wagner's **ring** cycle. As in benzene ring?]
 
 
 **Who makes dyes today can tomorrow make high-explosives**
@@ -1017,6 +1009,11 @@ seen, they fall into completely different patterns....<span class="page-ref">302
 Ophiuchus ⛎ = 13th Zodiac = **The Serpent bearer** 
 
 [The Brennschluss point is the closed cycle from the rocket arc above (almost mimicking a rainbow) and the great seperent of coal-tar benzene down below in the Earth. The rockets of the military-industrial complex are just a terrifying, entrancing visible spectacle of the weight of the industrial underclass underpinning it below]  
+
+[All projectiles follow the path of the parabola, they are all bent by gravity. So the rocket follows the arc. The rainbow is *close enough* to a parabola to an observer (every perspective generates its own rainbow) but actually is a full circle, with the bottom hidden below the ground (the preterite).]
+
+The arc of the rocket and the Brennschluss point == Gravity's rainbow (the V2 parabola)
+The coal tar feedstock, organic matter compressed into aromatic sludge by gravity, transformed into synthesised dyes of the 20th century military-industrial process = Gravity's rainbow (of dyes)
 
 ![The SHAEF (United States Army Supreme Allied Expeditionary Force) logo. A falming sword (the Aces of Swords) underneath a rainbow, on a blakc or dark blue cosmic void](/images/SHAEF_Shoulder_Patch.png){:style="display:block; margin-left:auto; margin-right:auto; max-width:30%;"}
 
