@@ -10,9 +10,9 @@ I'm a computational scientist, interested in applying computing power to bringin
 
 I've worked in multiple Australian universities, attempting to extract meaning from calculated data. My PhD was in photochemistry: trying to work out the rules that determine the energetics of bond-breaking in atmospheric molecules -- whereas my Honours was on DNA-binding drugs: using molecular dynamics to simulate how they insert into the double-helix DNA ladder. I love teaching, and was glad to be recognised with a 'Rising Star' award by UNSW Science. I worked at Matrix Education for a long while, inspiring the next generation to think analytically. 
 
-When not working, I'm likely to be exercising with swords, at a gig, or sitting with a pot of tea and a good book.
+When not working, I'm likely to at gig, playing games with friends, or sitting with a pot of tea and a good book.
 
-I also write as an infrequent hobby about [elements of science I find fascinating](/posts), or important to reckon with and prevent. Taking a broad brush, often about how they weave through deep time and human realities.
+I also write longform posts about [elements of science I find fascinating](/posts), or important to reckon with and prevent. Taking a broad brush, often about how they weave through deep time and human realities.
 
 ## Scientific Interests
 I'm fascinated by the mechanisms of the natural world, and enthusiastic about how compute power provides the capability for exquisite mechanistic insight. I'm applications driven -- with published work using excited state quantum chemical methods, molecular dynamics modelling of DNA, as well as coursework and employment in bioinformatics. I'd love to combine my skills and apply them to use multiscale modelling approaches on research topics such as: photobiology, structural biology, enzyme catalysis, and DNA photodamage.
@@ -25,7 +25,7 @@ I am a strong believer in open-source software and try to adopt FOSS tools such 
 I've worked with UNSW's Research Technology Services group and regularly attended their training courses (Julia, HPC, Seaborn, ...), and 'Hacky Hour' presentations on contemporary developments in research and high performance computing.
 
 ## Recent Work
-I work at the Structural Biology Facility in the Mark Wainwright Analytical Centre at UNSW, developing its computational modelling resources in response to rapidly developing revolution in AI protein structure and design software. I run state-of-the-art calculations supporting bioscience researchers making breakthroughs in medical research and molecular biology. I manage a small team as they develop software, configure high-performance computing systems, and optimise workflows.
+I work at the Structural Biology Facility in the Mark Wainwright Analytical Centre at UNSW, developing its computational modelling resources in response to the rapidly developing revolution in AI protein structure and design software. I run state-of-the-art calculations supporting bioscience researchers making breakthroughs in medical research and molecular biology. I manage a small team as they develop software, configure high-performance computing systems, and optimise workflows.
 
 I manage the technical implementation of computational resources of the facility. This includes writing the procurement specifications of GPU and storage hardware, including AI GPUs for biomolecular structure inference. I negotiated their integration into the campus research computing cluster: ensuring all UNSW researchers could have easy access to user friendly workflows (*e.g.* the facility's [OnDemand proteinfold webform](https://github.com/Australian-Structural-Biology-Computing/ood-proteinfold)), and efficient use of hardware where other departments can use the silicon during idle times. 
 
