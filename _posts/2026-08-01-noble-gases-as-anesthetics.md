@@ -18,7 +18,7 @@ This is the most perfect sphere in the universe. Nothing sticks to it, there are
 
 A traditionalist view of a biochemical receptor activated by a "lock-and-key" fit does not hold for noble gases. A ball can't be the key to a lock of any shape. Xenon as a molecular puzzle piece must act in an entirely different way. A sphere can be load-bearing, it can densify, it can pack. 
 
-Stranger still, Xenon acts beyond anything a classical view of matter can explain. The shape alone doesn't determine the potency. Xenon isotopes can exert stronger effects, and it's not tied to mass difference but instead looped into nuclear physics.  This inspires much debate and conjecture on consciousness. Yet, while Xenon has been known to be an anaesthetic since the 1940s, scientists hadn't obtained key structural data on Xenon interacting with any proteins or membranes until the 2000s. We still don't have any atomic data of Xenon interacting with any receptors that induce anaesthesia.  
+Stranger still, Xenon acts beyond anything a classical view of matter can explain. The shape alone doesn't determine the potency. Xenon isotopes can exert stronger effects, and it's not tied to mass difference but instead looped into nuclear physics.  This inspires much debate and conjecture on consciousness. Yet, while Xenon has been known to be an anaesthetic since the 1940s, scientists hadn't obtained key structural data on Xenon interacting with any proteins or membranes until the 2000s. We still don't have much detailed atomic data of Xenon interacting with any receptors that induce anaesthesia.  
 
 Our waking experience, the foremost development of the material world interrogating itself, can be silenced by an atomic sphere of inert purity. 
 
@@ -64,6 +64,14 @@ Xenon as a test for CPT violation (not ever known, CPT holds only CP from Wu's e
 
 Also Unsöld's theorem that the radical atomic orbitals sum to a perfect spherical density in half-filled and fully filled shell configurations. (Add up the intersecting pieces of the electron orbitals composing Xenon and you get a *perfect* sphere. Adding up the electron desnities, the square of the wavefunction modulus, yields up a true featureless platonic sphere. ) Could end on that image. At yet it knocks you unconcious
 
+[Beiträge zur Quantenmechanik der Atome](https://doi.org/10.1002/andp.19273870304)
+
+The key here is it is a perfect sphere when *unpeturbed*
+
+![Xenon electron density calculated using the RHF/x2c-QZVPall level of theory](/images/Xe_render.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+Calculated electron density of isolated Xenon, showing a perfectly spherical total density, and a few select orbitals within.
+{:.figcaption}
 
 
 ---
@@ -131,6 +139,10 @@ Current papers:
 
 [Radical pairs may play a role in xenon-induced general anaesthesia](https://doi.org/10.1038/s41598-021-85673-w) 
 
+
+[Evidence for Electron Density Features That Accompany the Noble Gases Solidification](https://pubs.acs.org/doi/10.1021/jp984452y)
+
+[Electron spin changes as a general mechanism for general anesthesia?](https://phys.org/news/2014-08-electron-mechanism-anesthesia.html) -- This is a good phys.org article from 10 years ago about how the simplistic explainations are crumbling
 [I think this one needs to be clinical, platonic, and in a clean way, unnerving]
 
 [Medical]
