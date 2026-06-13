@@ -7,9 +7,12 @@ published: false
 category: anaesthetics
 tags: 
 image:
-  path: /images/xenon_nanobanana.png 
-  alt: "Nanobanana got obsessed with bananas -- hilarious. Will replace later"
+  path: /images/xenon_electron_shells.png 
+  alt: "Xenon electron shell diagram"
 ---
+
+Photo credit: [Greg Robson's electron shell digrams](https://commons.wikimedia.org/wiki/File:Electron_shell_054_xenon.png) [Wikimedia Commons]
+{:.figcaption}
 
 This is the most perfect sphere in the universe. Nothing sticks to it, there are no Xenon compounds found in nature. We have no way to detect it with our animal senses. And yet, it shuts off our brain.
 
