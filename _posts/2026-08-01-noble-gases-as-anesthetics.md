@@ -68,9 +68,9 @@ Also Unsöld's theorem that the radical atomic orbitals sum to a perfect spheric
 
 The key here is it is a perfect sphere when *unpeturbed*
 
-![Xenon electron density calculated using the RHF/x2c-QZVPall level of theory](/images/Xe_render.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![Xenon electron density calculated using the RHF/x2c-QZVPall level of theory](/images/Xe_orbitals_render.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-Calculated electron density of isolated Xenon, showing a perfectly spherical total density, and a few select orbitals within.
+Calculated electron density of isolated Xenon, with faint perfectly spherical total density, and a few select orbitals within.
 {:.figcaption}
 
 
