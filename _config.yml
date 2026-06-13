@@ -25,7 +25,8 @@ title:                 Keiran Rowell
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Personal website of Keiran Rowell - Computational chemist, educator, and scientific computing specialist sharing research, teaching materials, and insights on computational chemistry.
+  Personal website of Keiran Rowell - Computationally chemistry and molecular biology, educator, and scientific computing specialist.
+  Sharing research, teaching materials, and insights on computational chemistry.
   Obsessive explorations into the oddities of chemistry, music, history, and scientific computing... on occasion.
 
 # A shorter description for the sidebar.
@@ -293,7 +294,7 @@ hydejack:
     always:            false
 
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           true
+    dynamic:           false
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
