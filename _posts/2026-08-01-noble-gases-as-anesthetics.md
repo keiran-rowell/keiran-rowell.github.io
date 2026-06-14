@@ -2,7 +2,7 @@
 layout: post
 author: keiran
 title: "Spherical sedatives: noble, and yet they quell"
-description: "📖 15 min read • How can the least reactive elements still the nervous system?"
+description: "📖 15 min read • How can the least reactive elements silence the nervous system?"
 published: false
 category: anaesthetics
 tags: 
@@ -25,12 +25,15 @@ Our waking experience, the foremost development of the material world interrogat
 ---
 
 ## §1 -- Stranger
+{: style="text-align: center"}
 Xenon is not a common material to encounter, it is literally *xenos*, a stranger. Synthesised only in supernovae, its current source is the radioactive decay pathways of heavier elements.  But it never goes away. Present in 1 in 11 million particles in the air, it can be isolated in towering gas cooling plants such as those operated medically and industrially by *Air Liquide*. It found use in blinding light discharges from excitation: in flashbulbs, arc lamps, and as the first pumping media for excimer lasers. It can also turn off the lights upstairs. Xenon as a knockout was discovered by another human exploration into deep darkness: a mission to avoid falling unconscious on the deepest of ocean dives.
   
 ## §2 -- Scuba
+{: style="text-align: center"}
 Medical doctor Albert Behnke was working at Pearl Harbour, and its [Submarine Dive Tower](https://www.loc.gov/resource/hhh.hi0437.photos?st=list) with 100 m suspended column of water was the testing ground to discover why deep dives left the divers sluggish and intoxicated. Rather than a lack of oxygen, he surmised that it was [notoriously unreactive](url to nitrogen post) nitrogen in the air tanks that was causing the stupor. Behnke posited under these intense pressures nitrogen was actually diffusing into the fats of the body, coining the Nitrogen Narcosis effect. From this he postulated that both Krypton and Xenon would also work as anaesthetics under high pressures --- though he himself never took these findings into a clinical anaesthetic practice.  His immediate solution was simply to displace nitrogen in the air tanks with a lighter and still unreactive element. A few years later his theories were put into practice. Using new 'Heliox' (Helium--Oxygen) tanks to breathe, rescue divers remained alert throughout the 1939 sinking of the *USS Squalus* submarine, earning worldwide coverage and propelling the U.S. Navy to the forefront of deep sea diving capability.
 
 ## §3 -- Silence
+{: style="text-align: center"}
 The history of the discovery, the effectiveness of noble gases versus other ones. The clinical trials. The experiments of the 50s
 
 1946 - John Lawrence does the [xenon anaesthesia experiment on mice](https://doi.org/10.1113/jphysiol.1946.sp004164). In a simple experiement varying the quantity of xenon in a chamber, the rapid onset of convulsions and then temporary ataxia (delayed limb movements). [The paper is very simple, uses tabuated oil solubilities and radiative traces of the distributions] 
@@ -42,24 +45,39 @@ Butler was stating in **1950** *"If the inert gases can be considered true anest
 Nobdy knew why
 
 Pontentially just an all-round dampening of hydrophobic pockets. Not one specific entaglement but a attenuation of many signalling pathways
+
 ## §4 -- Shape
+{: style="text-align: center"}
 Talk about the NMDA receptors and what they do. 
 First crystral structure (from a rat) [PDB: 4PE5] only solved in 2014. ["Crystal structure of a heterotetrameric NMDA receptor ion channel"](https://doi-org/10.1126/science.1251915)
 
 Strangely, doesn't hit GABA, unlike most anaesthetics
 
 TREK channels opened by Xe, causing sodium to leak out. A voltage drop
+
 ## §5 -- Size
+{: style="text-align: center"}
 Xe vs Ar vs Kr. Minimum alveolar concentration (MAC in the literature),. Things smaller than Xenon need to be pumped into your lungs at *more than atmospheric pressure* to sedate you
+
 ## §6 -- Solubility
+{: style="text-align: center"}
 Meyer-Overton Correlation
+
 ## §7 -- Spin
-By product of liquid air distillation (look up the size of these things)Radical pairs effected by isotopic spin
+{: style="text-align: center"}
+Radical pairs effected by isotopic spin
+Li-6 vs Li-7
+
 ## §8 -- Scarcity
+{: style="text-align: center"}
 Why we don't use it for economic reason despite being the ideal anaesthetic with no side effects
+
 ## §9 -- Stability
+{: style="text-align: center"}
 Chemical behaviour and also therapeutic value 
+
 ## ∮ -- Symmetry
+{: style="text-align: center"}
 Xenon as a test for CPT violation (not ever known, CPT holds only CP from Wu's experiments). I know this is super tangential but kinda cool. Something about so perfect it's used to confirm that the CPT symmetry of the very fabric of our univerise holds 
 
 Also Unsöld's theorem that the radical atomic orbitals sum to a perfect spherical density in half-filled and fully filled shell configurations. (Add up the intersecting pieces of the electron orbitals composing Xenon and you get a *perfect* sphere. Adding up the electron desnities, the square of the wavefunction modulus, yields up a true featureless platonic sphere. ) Could end on that image. At yet it knocks you unconcious
@@ -68,7 +86,7 @@ Also Unsöld's theorem that the radical atomic orbitals sum to a perfect spheric
 
 The key here is it is a perfect sphere when *unpeturbed*
 
-![Xenon electron density calculated using the RHF/x2c-QZVPall level of theory](/images/Xe_orbitals_render.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![Xenon electron density calculated using the RHF/x2c-QZVPall level of theory](/images/Xe_orbitals_render_border.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Calculated electron density of isolated Xenon, with faint perfectly spherical total density, and a few select orbitals within.
 {:.figcaption}
